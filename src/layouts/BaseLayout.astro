@@ -24,6 +24,8 @@ interface Props {
   ogType?: 'website' | 'article';
   /** "informational" allows neutral mentions of illegal offers / "Online Casino"; forbids affiliate links. */
   complianceContext?: ComplianceContext;
+  /** Slot name for the mobile 'Demo spielen' bar on slot pages. */
+  mobileSlot?: string;
   /** Show the large responsible-gambling block above the footer (homepage). */
   showRgBlock?: boolean;
   /** @deprecated kept for compatibility */
@@ -40,6 +42,7 @@ const {
   ogType = 'website',
   complianceContext = 'standard',
   showRgBlock = false,
+  mobileSlot,
 } = Astro.props;
 
 const path = Astro.url.pathname.endsWith('/') ? Astro.url.pathname : `${Astro.url.pathname}/`;
@@ -86,7 +89,7 @@ const ld = [...(crumbs ? [breadcrumbSchema(crumbs)] : []), ...jsonLd];
     </main>
     {showRgBlock && <RgBlock />}
     <Footer />
-    <MobileBar />
+    <MobileBar slotName={mobileSlot} />
     <CookieConsent />
   </body>
 </html>

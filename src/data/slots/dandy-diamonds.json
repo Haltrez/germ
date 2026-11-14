@@ -27,8 +27,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/2334_hero_DandyDiamonds_Devices_Desktop.png",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/dandy-diamonds"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/dandy-diamonds.webp",
+    "alt": "Dandy Diamonds Spielautomat"
+  }
 }

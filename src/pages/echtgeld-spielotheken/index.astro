@@ -1,0 +1,88 @@
+---
+/** Comparison of GGL-licensed Online-Spielotheken (fiat payments). Only GGL-verified operators appear. */
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import OperatorRanking from '../../components/operator/OperatorRanking.astro';
+import Faq from '../../components/ui/Faq.astro';
+import { isPromotable } from '../../lib/compliance.ts';
+import { faqSchema } from '../../lib/schema.ts';
+import { COMPLIANCE } from '../../config/site.ts';
+import { formatDateDE } from '../../lib/i18n/de.ts';
+
+const ops = (await getCollection('operators'))
+  .filter((o) => isPromotable(o.data))
+  .sort((a, b) => Number(b.data.featured) - Number(a.data.featured) || (b.data.rating?.total ?? 0) - (a.data.rating?.total ?? 0));
+const updated = '2026-11-14';
+const n = (x: number) => x.toLocaleString('de-DE');
+
+const checks = [
+  { v: 'GGL', t: 'Eintrag auf der offiziellen Whitelist der Gemeinsamen Glücksspielbehörde der Länder' },
+  { v: `${COMPLIANCE.maxStakePerSpinEur} €`, t: 'Höchsteinsatz pro Spin – ein klares Zeichen für eine deutsche Lizenz' },
+  { v: 'LUGAS', t: `Anbieterübergreifendes Einzahlungslimit, standardmäßig ${n(COMPLIANCE.lugasDefaultMonthlyDepositLimitEur)} € pro Monat` },
+  { v: 'OASIS', t: 'Abgleich mit der bundesweiten Spielersperre vor jedem Spiel' },
+];
+const faq = [
+  { q: 'Welche Online-Spielotheken sind in Deutschland legal?', a: 'Legal sind nur Anbieter mit einer Erlaubnis der Gemeinsamen Glücksspielbehörde der Länder (GGL). Sie stehen auf der offiziellen Whitelist. In unserem Vergleich findest du ausschließlich solche Anbieter.' },
+  { q: 'Wie erkenne ich eine Spielothek mit deutscher Lizenz?', a: 'Am Eintrag auf der GGL-Whitelist, am Höchsteinsatz von 1 € pro Spin, an der Pflicht zur Verifizierung, am Einzahlungslimit über LUGAS und an der Anbindung an die Sperrdatei OASIS.' },
+  { q: 'Welche Zahlungsmethoden gibt es bei legalen Spielotheken?', a: 'Je nach Anbieter zum Beispiel PayPal, Paysafecard, Trustly, Klarna, Kreditkarte oder Banküberweisung. Welche Methoden ein Anbieter akzeptiert, steht bei jedem Eintrag in unserem Vergleich.' },
+  { q: 'Wie bewertet ihr die Spielotheken?', a: 'Nach festen Kriterien: Lizenz und Sicherheit, Spielerschutz, Spielangebot, Ein- und Auszahlungen sowie Service. Provisionen haben keinen Einfluss auf die Reihenfolge.' },
+  { q: 'Gibt es auch Spielotheken mit Kryptowährungen?', a: 'Auf unserer Seite zum Zahlen mit Kryptowährungen zeigen wir ausschließlich Anbieter, die Kryptowährungen akzeptieren und eine GGL-Erlaubnis haben.' },
+];
+---
+<BaseLayout
+  title="Online-Spielotheken mit GGL-Lizenz im Vergleich"
+  description="Online-Spielotheken mit deutscher Lizenz im Vergleich: nur Anbieter von der GGL-Whitelist, geprüft auf Zahlungen, Spielerschutz und Spielangebot."
+  breadcrumbs={[{ name: 'Spielotheken', href: '/echtgeld-spielotheken/' }]}
+  jsonLd={[faqSchema(faq)]}
+>
+  <section class="container-site pt-6">
+    <p class="eyebrow">Geprüft auf der GGL-Whitelist</p>
+    <h1 class="mt-3 section-title !text-[clamp(2.2rem,5vw,3.75rem)]">Online-Spielotheken mit deutscher Lizenz</h1>
+    <p class="section-sub">
+      Hier vergleichen wir Online-Spielotheken, die eine Erlaubnis der Gemeinsamen Glücksspielbehörde der Länder (GGL) haben.
+      Jeder Anbieter steht auf der offiziellen Whitelist – mit Lizenznummer und Datum unserer letzten Prüfung.
+      <span class="text-subtle">Stand: {formatDateDE(updated)}</span>
+    </p>
+
+    {ops.length > 0 ? (
+      <OperatorRanking ops={ops} />
+    ) : (
+      <div class="card mt-8 max-w-3xl border-gold-500/40 p-6">
+        <p class="font-title text-xl font-bold text-fg">Unser Vergleich wird gerade aufgebaut</p>
+        <p class="mt-2 text-muted">
+          Wir prüfen aktuell die Anbieter auf der GGL-Whitelist und testen Einzahlung, Auszahlung und Kundenservice selbst.
+          Sobald ein Anbieter unsere Prüfung bestanden hat, findest du ihn hier – mit Lizenznummer und Prüfdatum.
+        </p>
+        <a href="/spielautomaten/" class="btn btn-primary mt-5 !min-h-12">Bis dahin: Slots kostenlos spielen</a>
+      </div>
+    )}
+  </section>
+
+  <section class="band-alt mt-16 py-14">
+    <div class="container-site">
+      <h2 class="section-title">So erkennst du eine legale Online-Spielothek</h2>
+      <p class="section-sub">Diese vier Punkte erfüllt jeder Anbieter mit deutscher Erlaubnis.</p>
+      <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        {checks.map((c) => <div class="tile"><p class="tile-v">{c.v}</p><p class="tile-t">{c.t}</p></div>)}
+      </div>
+    </div>
+  </section>
+
+  <section class="container-site py-14">
+    <div class="prose-site">
+      <h2>Worauf wir beim Vergleich achten</h2>
+      <p>
+        Jede Spielothek durchläuft dieselben Schritte: Wir gleichen sie mit der GGL-Whitelist ab, prüfen Spielangebot und
+        Zahlungsmethoden, testen Ein- und Auszahlungen und bewerten den Spielerschutz. Die Gewichtung der Kriterien legen wir in
+        unserer <a href="/bewertungsmethodik/">Bewertungsmethodik</a> offen.
+      </p>
+      <h2>Zahlen mit Kryptowährungen</h2>
+      <p>
+        Du möchtest mit Bitcoin oder anderen Kryptowährungen zahlen? Auf unserer Seite zu
+        <a href="/krypto-spielotheken/">Krypto-Spielotheken</a> zeigen wir nur Anbieter, die Kryptowährungen akzeptieren und
+        gleichzeitig eine deutsche Erlaubnis haben.
+      </p>
+    </div>
+    <div class="mt-12 max-w-4xl"><Faq items={faq} title="Häufige Fragen zu Online-Spielotheken" /></div>
+  </section>
+</BaseLayout>

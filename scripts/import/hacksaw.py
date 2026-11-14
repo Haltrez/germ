@@ -27,8 +27,10 @@ for u in urls:
     title = re.search(r'<title>(.*?)</title>', s, re.S)
     name = text(title.group(1)).split('|')[0].strip() if title else None
     if not name: continue
-    th = re.search(r'(https://www-live\.hacksawgaming\.com/casino_thumbnails/[^"\')]*_hero_Device_Desktop[^"\')]*\.png)', s)
-    g = {'slug': slug, 'name': name, 'url': u, 'thumb': th.group(1) if th else None}
+    imgs = sorted(set(re.findall(r'https://www-live\.hacksawgaming\.com/casino_thumbnails/[^"\')]+?\.(?:png|jpg|jpeg|webp)', s)))
+    pick = lambda rx: next((x for x in imgs if re.search(rx, x, re.I)), None)
+    bg, logo, dev = pick(r'background'), pick(r'_logo'), pick(r'device|screen')
+    g = {'slug': slug, 'name': name, 'url': u, 'thumb': bg or dev, 'thumbLogo': logo if bg and logo else None}
     rm = re.search(r'RTPs?\s*:\s*([\d.,;%\s]+)', data)
     rtps = [float(x) for x in re.findall(r'(\d{2}(?:\.\d+)?)', rm.group(1))] if rm else []
     rtps = [x for x in rtps if 80 <= x <= 100]

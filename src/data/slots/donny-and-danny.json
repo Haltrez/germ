@@ -25,8 +25,14 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/2004_hero_Hacksaw%20Assets%20Background%201440x900.jpg",
+  "thumbLogo": "https://www-live.hacksawgaming.com/casino_thumbnails/2004_logo_Hacksaw%20Logo.png",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/donny-and-danny"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/donny-and-danny.webp",
+    "alt": "Donny and Danny Spielautomat"
+  }
 }

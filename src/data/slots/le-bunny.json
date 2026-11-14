@@ -24,8 +24,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/2195_hero_LeBunny%20Devices%20Desktop.png",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/le-bunny"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/le-bunny.webp",
+    "alt": "Le Bunny Spielautomat"
+  }
 }

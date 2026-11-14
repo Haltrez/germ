@@ -5,7 +5,7 @@
   "rtp": 96.2,
   "volatility": "medium",
   "volatilityNote": "3/5",
-  "maxWinMultiplier": 2500.0,
+  "maxWinMultiplier": 2500,
   "reels": "TODO",
   "rows": "TODO",
   "winLines": {
@@ -29,8 +29,14 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/2258_hero_Background16x9.jpg",
+  "thumbLogo": "https://www-live.hacksawgaming.com/casino_thumbnails/2258_logo_Logo_800width.png",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/magic-piggy-og"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/magic-piggy-og.webp",
+    "alt": "Magic Piggy OG Spielautomat"
+  }
 }

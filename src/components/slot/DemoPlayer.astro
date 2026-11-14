@@ -114,6 +114,14 @@ const { demoUrl, demoVersionUrl, demoSourceName, name } = slot.data;
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && section.classList.contains('demo-pseudo-fs')) pseudoOff(); });
   });
 
+  // Mobile CTA bar "Demo spielen": scroll and start.
+  document.querySelector('[data-mobile-demo]')?.addEventListener('click', (e) => {
+    e.preventDefault();
+    const sec = document.getElementById('demo');
+    sec?.scrollIntoView({ block: 'start', behavior: 'smooth' });
+    sec?.querySelector<HTMLButtonElement>('[data-demo-start]')?.click();
+  });
+
   // Arrived via "Zufallsslot": start right away if external media is already allowed.
   window.addEventListener('load', () => {
     if (!new URLSearchParams(location.search).has('zufall')) return;

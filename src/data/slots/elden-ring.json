@@ -5,7 +5,7 @@
   "rtp": 96.95,
   "volatility": "TODO",
   "volatilityNote": "low-high",
-  "maxWinMultiplier": 100.0,
+  "maxWinMultiplier": 100,
   "hitRate": 4.03,
   "freeSpinsRate": 190,
   "reels": "TODO",
@@ -32,8 +32,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/06/666af749161cc161bbe5348b_AztecMagicMegaways2Blogo_vertical_28129-min-2.webp",
   "sourceUrls": [
     "https://bgaming.com/games/elden-ring"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/elden-ring.webp",
+    "alt": "Aztec magic megaways Spielautomat"
+  }
 }

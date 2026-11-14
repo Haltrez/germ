@@ -25,8 +25,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/2108_hero_MarlinMastersAtlantis_Devices_Desktop.png",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/marlin-masters-atlantis"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/marlin-masters-atlantis.webp",
+    "alt": "Marlin Masters Atlantis Spielautomat"
+  }
 }

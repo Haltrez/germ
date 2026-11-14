@@ -27,8 +27,14 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/1530_hero_Background_16_9.jpg",
+  "thumbLogo": "https://www-live.hacksawgaming.com/casino_thumbnails/1530_logo_DonnyDough_Logo_800width.png",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/donny-dough"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/donny-dough.webp",
+    "alt": "Donny Dough Spielautomat"
+  }
 }

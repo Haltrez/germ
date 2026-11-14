@@ -28,8 +28,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/1580_hero_BaseGame_Background_%2016_9.jpg",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/get-the-cheese"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/get-the-cheese.webp",
+    "alt": "Get the CHEESE Spielautomat"
+  }
 }

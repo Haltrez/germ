@@ -10,7 +10,7 @@
   ],
   "volatility": "high",
   "volatilityNote": "4/5",
-  "maxWinMultiplier": 15000.0,
+  "maxWinMultiplier": 15000,
   "reels": "TODO",
   "rows": "TODO",
   "winLines": {
@@ -34,8 +34,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/2274_hero_RedRascal_Devices_Desktop.png",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/red-rascal"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/red-rascal.webp",
+    "alt": "Red Rascal Spielautomat"
+  }
 }

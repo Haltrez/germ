@@ -4,7 +4,7 @@
   "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
-  "maxWinMultiplier": 20000.0,
+  "maxWinMultiplier": 20000,
   "reels": "TODO",
   "rows": "TODO",
   "winLines": "TODO",
@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/1897_hero_Background16x9.jpg",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/the-luxe"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/the-luxe.webp",
+    "alt": "The Luxe Spielautomat"
+  }
 }

@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/2062_hero_Hacksaw%20Background%2016x9.jpg",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/hot-ross"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/hot-ross.webp",
+    "alt": "Hot Ross Spielautomat"
+  }
 }

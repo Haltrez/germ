@@ -1,6 +1,5 @@
 ---
 import Logo from './Logo.astro';
-import RandomDemoButton from '../ui/RandomDemoButton.astro';
 import { NAV, isLive } from '../../config/routes.ts';
 const nav = NAV.filter((i) => isLive(i.href)).map((i) => ({ ...i, children: i.children?.filter((c) => isLive(c.href)) }));
 
@@ -11,14 +10,14 @@ const isActive = (href: string) => (href === '/' ? current === '/' : current.sta
   <div class="container-site flex h-16 items-center justify-between gap-2 sm:gap-4">
     <Logo />
 
-    <nav aria-label="Hauptnavigation" class="ml-auto hidden lg:block">
+    <nav aria-label="Hauptnavigation" class="ml-auto hidden xl:block">
       <ul class="flex items-center gap-1">
         {nav.map((item) => (
           <li class="group relative">
             <a
               href={item.href}
               class:list={[
-                'inline-flex items-center gap-1 rounded-full px-3.5 py-2 text-sm font-semibold transition-colors',
+                'inline-flex items-center gap-1 whitespace-nowrap rounded-full px-3 py-2 text-sm font-semibold transition-colors',
                 isActive(item.href) ? 'text-gold-400' : 'text-fg/85 hover:text-gold-300',
               ]}
               aria-current={isActive(item.href) ? 'page' : undefined}
@@ -45,10 +44,12 @@ const isActive = (href: string) => (href === '/' ? current === '/' : current.sta
     </nav>
 
     <div class="flex shrink-0 items-center gap-1.5 sm:gap-2">
-      <RandomDemoButton label="Zufallsslot" labelClass="max-md:sr-only" class="!min-h-10 !px-3 text-sm sm:!px-4" />
+      <a href="/echtgeld-spielotheken/" class="btn btn-primary !min-h-10 !px-3 text-sm sm:!px-4">
+        <span class="sm:hidden">Vergleich</span><span class="hidden sm:inline">Spielotheken vergleichen</span>
+      </a>
       <button
         type="button"
-        class="btn btn-secondary !min-h-10 !px-3 lg:hidden"
+        class="btn btn-secondary !min-h-10 !px-3 xl:hidden"
         aria-expanded="false"
         aria-controls="mobile-nav"
         data-nav-toggle
@@ -59,7 +60,7 @@ const isActive = (href: string) => (href === '/' ? current === '/' : current.sta
     </div>
   </div>
 
-  <nav id="mobile-nav" aria-label="Mobile Navigation" class="border-t border-line bg-ink-950 lg:hidden" hidden>
+  <nav id="mobile-nav" aria-label="Mobile Navigation" class="border-t border-line bg-ink-950 xl:hidden" hidden>
     <ul class="container-site space-y-1 py-4">
       {nav.map((item) => (
         <li>

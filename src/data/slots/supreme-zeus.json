@@ -10,7 +10,7 @@
   ],
   "volatility": "high",
   "volatilityNote": "4/5",
-  "maxWinMultiplier": 12500.0,
+  "maxWinMultiplier": 12500,
   "reels": "TODO",
   "rows": "TODO",
   "winLines": {
@@ -32,8 +32,14 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/2458_hero_Background16x9.jpg",
+  "thumbLogo": "https://www-live.hacksawgaming.com/casino_thumbnails/2458_logo_Logo_800width.png",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/supreme-zeus"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/supreme-zeus.webp",
+    "alt": "Supreme Zeus Spielautomat"
+  }
 }

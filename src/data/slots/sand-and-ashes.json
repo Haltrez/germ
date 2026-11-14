@@ -10,7 +10,7 @@
   ],
   "volatility": "medium",
   "volatilityNote": "3/5",
-  "maxWinMultiplier": 10000.0,
+  "maxWinMultiplier": 10000,
   "reels": "TODO",
   "rows": "TODO",
   "winLines": {
@@ -35,8 +35,14 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/2243_hero_Background16x9.jpg",
+  "thumbLogo": "https://www-live.hacksawgaming.com/casino_thumbnails/2243_logo_Logo_800width.png",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/sand-and-ashes"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/sand-and-ashes.webp",
+    "alt": "Sand and Ashes Spielautomat"
+  }
 }

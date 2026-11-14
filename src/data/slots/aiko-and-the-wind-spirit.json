@@ -28,8 +28,14 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/1756_hero_AikoAndTheWindSpirit_Background_Bonus1.jpg",
+  "thumbLogo": "https://www-live.hacksawgaming.com/casino_thumbnails/1756_logo_Logo_800width.png",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/aiko-and-the-wind-spirit"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/aiko-and-the-wind-spirit.webp",
+    "alt": "Aiko and the Wind Spirit Spielautomat"
+  }
 }

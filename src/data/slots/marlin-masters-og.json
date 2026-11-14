@@ -9,7 +9,7 @@
   ],
   "volatility": "medium",
   "volatilityNote": "3/5",
-  "maxWinMultiplier": 7500.0,
+  "maxWinMultiplier": 7500,
   "reels": "TODO",
   "rows": "TODO",
   "winLines": {
@@ -32,8 +32,14 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/2378_hero_Background.jpg",
+  "thumbLogo": "https://www-live.hacksawgaming.com/casino_thumbnails/2378_logo_Logo_800width.png",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/marlin-masters-og"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/marlin-masters-og.webp",
+    "alt": "Marlin Masters OG Spielautomat"
+  }
 }

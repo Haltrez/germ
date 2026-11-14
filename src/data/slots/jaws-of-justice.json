@@ -26,8 +26,14 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/1946_hero_Background16x9.jpg",
+  "thumbLogo": "https://www-live.hacksawgaming.com/casino_thumbnails/1946_logo_JawsOfJustice_Yellow_Logo.png",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/jaws-of-justice"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/jaws-of-justice.webp",
+    "alt": "Jaws of Justice Spielautomat"
+  }
 }

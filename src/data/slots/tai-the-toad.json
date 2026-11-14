@@ -26,8 +26,14 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/1478_hero_Background.jpg",
+  "thumbLogo": "https://www-live.hacksawgaming.com/casino_thumbnails/1478_logo_Logo.png",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/tai-the-toad"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/tai-the-toad.webp",
+    "alt": "Tai the Toad Spielautomat"
+  }
 }

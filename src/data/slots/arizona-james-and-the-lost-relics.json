@@ -3,14 +3,14 @@
   "provider": "hacksaw-gaming",
   "releaseDate": "2026-08-25",
   "rtp": [
-    96.0,
-    94.0,
-    92.0,
-    86.0
+    96,
+    94,
+    92,
+    86
   ],
   "volatility": "medium",
   "volatilityNote": "3/5",
-  "maxWinMultiplier": 25000.0,
+  "maxWinMultiplier": 25000,
   "reels": "TODO",
   "rows": "TODO",
   "winLines": {
@@ -34,8 +34,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/2492_hero_ArizonaJamesAndTheLostRelics_Devices_Desktop.png",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/arizona-james-and-the-lost-relics"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/arizona-james-and-the-lost-relics.webp",
+    "alt": "Arizona James and The Lost Relics Spielautomat"
+  }
 }

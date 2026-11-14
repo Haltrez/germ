@@ -26,8 +26,14 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/1602_hero_Background.jpg",
+  "thumbLogo": "https://www-live.hacksawgaming.com/casino_thumbnails/1602_logo_Logo.png",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/cloud-princess"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/cloud-princess.webp",
+    "alt": "Cloud Princess Spielautomat"
+  }
 }

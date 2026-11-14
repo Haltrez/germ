@@ -7,7 +7,6 @@ import FactsBox from '../../components/slot/FactsBox.astro';
 import EchtgeldBox from '../../components/slot/EchtgeldBox.astro';
 import SlotCard from '../../components/slot/SlotCard.astro';
 import Faq from '../../components/ui/Faq.astro';
-import RandomDemoButton from '../../components/ui/RandomDemoButton.astro';
 import { getSlotViews, similarSlots, rtpText, rtpMax, isTodo, type SlotView } from '../../lib/slots.ts';
 import { articleSchema, faqSchema, videoGameSchema } from '../../lib/schema.ts';
 import { formatDateDE } from '../../lib/i18n/de.ts';
@@ -66,6 +65,7 @@ const jsonLd = [
   {title}
   {description}
   noindex={!slot.indexable}
+  mobileSlot={hasDemo ? s.name : undefined}
   ogType={text ? 'article' : 'website'}
   breadcrumbs={[{ name: 'Spielautomaten', href: '/spielautomaten/' }, { name: `${providerName} Slots`, href: `/hersteller/${s.provider}/` }, { name: s.name, href: slot.path }]}
   {jsonLd}
@@ -88,12 +88,16 @@ const jsonLd = [
         <DemoPlayer {slot} />
         <div class="flex flex-wrap items-center justify-between gap-3">
           <a href={`/hersteller/${s.provider}/`} class="inline-block py-2 text-sm text-mint-300 underline underline-offset-2">Mehr {providerName} Slots</a>
-          <RandomDemoButton variant="secondary" label="Neuer Zufallsslot" exclude={slot.id} class="!min-h-10" />
         </div>
       </div>
       <div class="space-y-6">
         <FactsBox {slot} />
         <EchtgeldBox {slot} />
+        <div class="card border-gold-500/40 p-5 sm:p-6">
+          <p class="font-title text-lg font-bold text-fg">{s.name} mit Echtgeld spielen?</p>
+          <p class="mt-1 text-sm text-muted">Vergleiche Online-Spielotheken mit deutscher Erlaubnis – geprüft auf der offiziellen GGL-Whitelist.</p>
+          <a href="/echtgeld-spielotheken/" class="btn btn-primary mt-4 w-full !min-h-12 text-base">Spielotheken vergleichen</a>
+        </div>
       </div>
     </div>
 

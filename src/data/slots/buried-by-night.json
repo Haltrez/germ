@@ -3,14 +3,14 @@
   "provider": "hacksaw-gaming",
   "releaseDate": "2026-11-10",
   "rtp": [
-    96.0,
-    94.0,
-    92.0,
-    86.0
+    96,
+    94,
+    92,
+    86
   ],
   "volatility": "high",
   "volatilityNote": "4/5",
-  "maxWinMultiplier": 15000.0,
+  "maxWinMultiplier": 15000,
   "reels": "TODO",
   "rows": "TODO",
   "winLines": {
@@ -35,8 +35,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/2577_hero_BuriedByNight_Devices_Desktop.png",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/buried-by-night"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/buried-by-night.webp",
+    "alt": "Buried by Night Spielautomat"
+  }
 }

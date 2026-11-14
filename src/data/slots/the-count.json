@@ -27,8 +27,14 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/1803_hero_TheCount_Background.jpg",
+  "thumbLogo": "https://www-live.hacksawgaming.com/casino_thumbnails/1803_logo_TheCount_logo.png",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/the-count"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/the-count.webp",
+    "alt": "The Count Spielautomat"
+  }
 }

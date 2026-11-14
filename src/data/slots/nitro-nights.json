@@ -10,7 +10,7 @@
   ],
   "volatility": "high",
   "volatilityNote": "4/5",
-  "maxWinMultiplier": 15000.0,
+  "maxWinMultiplier": 15000,
   "reels": "TODO",
   "rows": "TODO",
   "winLines": {
@@ -34,8 +34,14 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/2328_hero_Background-2.jpg",
+  "thumbLogo": "https://www-live.hacksawgaming.com/casino_thumbnails/2328_logo_Logo.png",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/nitro-nights"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/nitro-nights.webp",
+    "alt": "Nitro Nights Spielautomat"
+  }
 }

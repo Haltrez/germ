@@ -10,7 +10,7 @@
   ],
   "volatility": "medium",
   "volatilityNote": "3/5",
-  "maxWinMultiplier": 12500.0,
+  "maxWinMultiplier": 12500,
   "reels": "TODO",
   "rows": "TODO",
   "winLines": "TODO",
@@ -35,8 +35,14 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/1396_hero_Background.jpg",
+  "thumbLogo": "https://www-live.hacksawgaming.com/casino_thumbnails/1396_logo_Logo.png",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/xmas-drop"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/xmas-drop.webp",
+    "alt": "Xmas Drop Spielautomat"
+  }
 }

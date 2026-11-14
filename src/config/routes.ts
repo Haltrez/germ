@@ -31,7 +31,6 @@ export type CategoryCode = (typeof CATEGORIES)[number]['code'];
 
 export const NAV: NavItem[] = [
   { label: 'Spielhalle', href: '/spielautomaten/' },
-  { label: 'Spielotheken', href: '/echtgeld-spielotheken/' },
   {
     label: 'Kostenlos spielen',
     href: '/kategorien/',
@@ -41,9 +40,8 @@ export const NAV: NavItem[] = [
     ],
   },
   { label: 'Book-Slots', href: '/kategorien/book-slots/' },
-  { label: 'Ranglisten', href: '/ranglisten/' },
-  { label: 'Ratgeber', href: '/ratgeber/' },
-  { label: 'So prüfen wir', href: '/bewertungsmethodik/' },
+  { label: 'Spielotheken', href: '/echtgeld-spielotheken/' },
+  { label: 'Krypto-Spielotheken', href: '/krypto-spielotheken/' },
 ];
 
 export const FOOTER_LEGAL: { label: string; href: string }[] = [
@@ -64,7 +62,6 @@ export const FOOTER_LEGAL: { label: string; href: string }[] = [
 export const STUB_PAGES: Record<string, { title: string; h1: string; phase: number }> = {
   '/ranglisten/': { title: 'Ranglisten: das Big Win Board', h1: 'Ranglisten', phase: 3 },
   '/ranglisten/neue-slots/': { title: 'Neue Slots kostenlos testen', h1: 'Neue Slots', phase: 3 },
-  '/echtgeld-spielotheken/': { title: 'GGL-lizenzierte Spielotheken im Vergleich', h1: 'Online-Spielotheken mit deutscher Lizenz', phase: 4 },
   '/ratgeber/': { title: 'Ratgeber rund um Spielautomaten', h1: 'Ratgeber', phase: 6 },
   '/tools/': { title: 'Tools: Budget- und RTP-Rechner', h1: 'Tools', phase: 5 },
   '/glossar/': { title: 'Slot-Glossar: Begriffe einfach erklärt', h1: 'Glossar', phase: 6 },

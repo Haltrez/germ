@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/1736_hero_Devices_Desktoppng.png",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/pray-for-three"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/pray-for-three.webp",
+    "alt": "Pray for Three Spielautomat"
+  }
 }

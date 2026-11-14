@@ -109,6 +109,8 @@ export const slotSchema = z
     thumbnail: z.object({ src: z.string(), alt: z.string().min(5) }).optional(),
     /** Official provider image URL the local thumbnail was made from. */
     thumbSource: z.url().optional(),
+    /** Optional official logo composited over thumbSource (e.g. Hacksaw key art). */
+    thumbLogo: z.url().optional(),
     screenshots: z
       .array(
         z.object({

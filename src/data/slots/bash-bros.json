@@ -26,8 +26,14 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/1928_hero_Background16x9.jpg",
+  "thumbLogo": "https://www-live.hacksawgaming.com/casino_thumbnails/1928_logo_Logo.png",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/bash-bros"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/bash-bros.webp",
+    "alt": "Bash Bros Spielautomat"
+  }
 }

@@ -5,7 +5,7 @@
   "rtp": "TODO",
   "volatility": "medium",
   "volatilityNote": "3/5",
-  "maxWinMultiplier": 10000.0,
+  "maxWinMultiplier": 10000,
   "reels": "TODO",
   "rows": "TODO",
   "winLines": "TODO",
@@ -27,8 +27,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/1494_hero_Background.jpg",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/keep-em"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/keep-em.webp",
+    "alt": "Keep'em Spielautomat"
+  }
 }

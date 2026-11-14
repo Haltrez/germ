@@ -27,8 +27,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/2082_hero_DynastyOfDeath_Devices_Desktop.png",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/dynasty-of-death"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/dynasty-of-death.webp",
+    "alt": "Dynasty of Death Spielautomat"
+  }
 }

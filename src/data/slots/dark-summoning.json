@@ -10,7 +10,7 @@
   ],
   "volatility": "high",
   "volatilityNote": "4/5",
-  "maxWinMultiplier": 10666.0,
+  "maxWinMultiplier": 10666,
   "reels": "TODO",
   "rows": "TODO",
   "winLines": "TODO",
@@ -35,8 +35,14 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/1392_hero_Background.jpg",
+  "thumbLogo": "https://www-live.hacksawgaming.com/casino_thumbnails/1392_logo_Logo.png",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/dark-summoning"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/dark-summoning.webp",
+    "alt": "Dark Summoning Spielautomat"
+  }
 }

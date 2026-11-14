@@ -10,7 +10,7 @@
   ],
   "volatility": "medium",
   "volatilityNote": "3/5",
-  "maxWinMultiplier": 5000.0,
+  "maxWinMultiplier": 5000,
   "reels": "TODO",
   "rows": "TODO",
   "winLines": {
@@ -34,8 +34,14 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/2248_hero_Background16x9.jpg",
+  "thumbLogo": "https://www-live.hacksawgaming.com/casino_thumbnails/2248_logo_Logo_800width.png",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/minted-mike"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/minted-mike.webp",
+    "alt": "Minted Mike Spielautomat"
+  }
 }

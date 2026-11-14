@@ -25,8 +25,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/1744_hero_Tiger-Legends_Devices_Desktop.png",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/tiger-legends"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/tiger-legends.webp",
+    "alt": "Tiger Legends Spielautomat"
+  }
 }

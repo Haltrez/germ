@@ -57,6 +57,8 @@ for (const sm of walk(DIST, (p) => /sitemap-\d+\.xml$/.test(p))) {
 const textOf = (root: HTMLElement) => {
   const clone = parse(root.toString());
   clone.querySelectorAll('script, style, noscript').forEach((n) => n.remove());
+  // Navigation links to the GGL-only crypto page are allowed site-wide (the page itself lists only GGL operators).
+  clone.querySelectorAll('a[href="/krypto-spielotheken/"]').forEach((n) => n.remove());
   return clone.textContent.replace(/\s+/g, ' ');
 };
 

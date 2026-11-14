@@ -27,8 +27,14 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/1977_hero_Background.jpg",
+  "thumbLogo": "https://www-live.hacksawgaming.com/casino_thumbnails/1977_logo_Logo.png",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/army-of-ares"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/army-of-ares.webp",
+    "alt": "Army of Ares Spielautomat"
+  }
 }

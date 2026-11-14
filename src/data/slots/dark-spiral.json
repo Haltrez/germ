@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/2143_hero_Background.jpg",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/dark-spiral"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/dark-spiral.webp",
+    "alt": "Dark Spiral Spielautomat"
+  }
 }

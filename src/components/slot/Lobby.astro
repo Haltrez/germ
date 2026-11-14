@@ -62,7 +62,7 @@ const first = all.slice(0, pageSize);
 
   <p class="text-sm text-subtle" aria-live="polite" data-count>{first.length} von {all.length.toLocaleString('de-DE')} Spielen</p>
 
-  <div class="grid grid-cols-2 gap-x-3 gap-y-5 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7" data-grid set:html={first.map((r, i) => cardHtml(r, i < 7)).join('')} />
+  <div class="grid grid-cols-2 gap-x-3 gap-y-5 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-6" data-grid set:html={first.map((r, i) => cardHtml(r, i < 7)).join('')} />
 
   <div class="text-center">
     <button type="button" class="btn btn-secondary" data-more hidden={all.length <= pageSize}>Mehr Spiele laden</button>

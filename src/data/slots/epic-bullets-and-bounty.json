@@ -28,8 +28,14 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/2185_hero_Background16x9.jpg",
+  "thumbLogo": "https://www-live.hacksawgaming.com/casino_thumbnails/2185_logo_Logo_800width.png",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/epic-bullets-and-bounty"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/epic-bullets-and-bounty.webp",
+    "alt": "Epic Bullets and Bounty Spielautomat"
+  }
 }

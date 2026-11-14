@@ -9,7 +9,7 @@
   ],
   "volatility": "very-high",
   "volatilityNote": "5/5",
-  "maxWinMultiplier": 10000.0,
+  "maxWinMultiplier": 10000,
   "reels": "TODO",
   "rows": "TODO",
   "winLines": {
@@ -29,8 +29,14 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/2356_hero_Background16x9.jpg",
+  "thumbLogo": "https://www-live.hacksawgaming.com/casino_thumbnails/2356_logo_Logo-2.png",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/max-win-machine"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/max-win-machine.webp",
+    "alt": "Max Win Machine Spielautomat"
+  }
 }

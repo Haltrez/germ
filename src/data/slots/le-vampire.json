@@ -3,15 +3,15 @@
   "provider": "hacksaw-gaming",
   "releaseDate": "2026-10-01",
   "rtp": [
-    97.0,
-    96.0,
-    94.0,
-    92.0,
-    86.0
+    97,
+    96,
+    94,
+    92,
+    86
   ],
   "volatility": "medium",
   "volatilityNote": "3/5",
-  "maxWinMultiplier": 15000.0,
+  "maxWinMultiplier": 15000,
   "reels": "TODO",
   "rows": "TODO",
   "winLines": {
@@ -34,8 +34,14 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/2582_hero_Background16x9.jpg",
+  "thumbLogo": "https://www-live.hacksawgaming.com/casino_thumbnails/2582_logo_Logo_800width.png",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/le-vampire"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/le-vampire.webp",
+    "alt": "Le Vampire Spielautomat"
+  }
 }

@@ -9,7 +9,7 @@
   ],
   "volatility": "very-high",
   "volatilityNote": "5/5",
-  "maxWinMultiplier": 10000.0,
+  "maxWinMultiplier": 10000,
   "reels": "TODO",
   "rows": "TODO",
   "winLines": {
@@ -34,8 +34,14 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/1059_hero_1059_hero_background.png",
+  "thumbLogo": "https://www-live.hacksawgaming.com/casino_thumbnails/1059_logo_1059_logo_chaos_thumbnail.png",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/chaos-crew"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/chaos-crew.webp",
+    "alt": "Chaos Crew Spielautomat"
+  }
 }

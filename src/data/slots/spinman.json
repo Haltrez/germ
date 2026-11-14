@@ -29,8 +29,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/1752_hero_Spinman_Devices_Desktop.png",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/spinman"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/spinman.webp",
+    "alt": "Spinman Spielautomat"
+  }
 }

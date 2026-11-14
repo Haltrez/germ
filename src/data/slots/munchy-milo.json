@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/2219_hero_MunchyMilo_Devices_Desktop.png",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/munchy-milo"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/munchy-milo.webp",
+    "alt": "Munchy Milo Spielautomat"
+  }
 }

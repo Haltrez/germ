@@ -34,8 +34,6 @@ const chips = [
 const stats = [
   { v: n(slotCount), t: 'Slots kostenlos spielbar' },
   { v: String(providers.length), t: 'Hersteller' },
-  { v: String(reviewed.length), t: 'Slots im ausführlichen Test' },
-  { v: '100 %', t: 'kostenlos & ohne Anmeldung' },
 ];
 
 const spotlightIds = ['gates-of-olympus', 'book-of-dead', 'starburst', 'le-bandit'];
@@ -76,7 +74,12 @@ const faq = [
           Zu jedem Spiel bekommst du die Werte direkt vom Hersteller: RTP, Volatilität und Maximalgewinn.
         </p>
 
-        <form action="/spielautomaten/" method="get" role="search" class="mt-7 max-w-xl">
+        <div class="mt-7 flex flex-wrap gap-3">
+          <a href="/spielautomaten/" class="btn btn-primary !min-h-14 !px-7 text-lg">Slots kostenlos spielen</a>
+          <a href="/echtgeld-spielotheken/" class="btn btn-secondary !min-h-14 !px-7 text-lg">Spielotheken vergleichen</a>
+        </div>
+
+        <form action="/spielautomaten/" method="get" role="search" class="mt-6 max-w-xl">
           <label for="hero-search" class="sr-only">Spiel suchen</label>
           <div class="flex items-center gap-2 rounded-2xl border border-ink-600 bg-ink-900/80 p-1.5 pl-4 focus-within:border-gold-400">
             <input id="hero-search" name="q" type="search" autocomplete="off" placeholder="Book of Dead, Sweet Bonanza, Starburst …" class="min-w-0 flex-1 bg-transparent py-3 text-base text-fg placeholder:text-subtle focus:outline-none" />
@@ -88,9 +91,9 @@ const faq = [
           {chips.map((c) => (<li><a href={c.href} class="chip !rounded-xl">{c.label}</a></li>))}
         </ul>
 
-        <dl class="mt-8 grid grid-cols-2 overflow-hidden rounded-2xl border border-line bg-ink-900/70 sm:grid-cols-4">
+        <dl class="mt-8 grid max-w-md grid-cols-2 overflow-hidden rounded-2xl border border-line bg-ink-900/70">
           {stats.map((s, i) => (
-            <div class:list={['p-4', i % 2 === 1 && 'border-l border-line', i >= 2 && 'border-t border-line sm:border-t-0', i === 2 && 'sm:border-l']}>
+            <div class:list={['p-4', i === 1 && 'border-l border-line']}>
               <dt class="sr-only">{s.t}</dt>
               <dd class="font-display text-3xl text-gold-400">{s.v}</dd>
               <dd class="mt-1 text-xs text-muted">{s.t}</dd>
@@ -123,8 +126,26 @@ const faq = [
   <section class="container-site pt-16" aria-labelledby="hall-title">
     <h2 id="hall-title" class="section-title">Die Spielhalle</h2>
     <p class="section-sub">{n(slotCount)} Spielautomaten von Book of Dead bis Gates of Olympus. Wähle dein Lieblingsspiel, starte die Demo oder lass den Würfel entscheiden.</p>
-    <div class="mt-7"><Lobby pageSize={21} searchId="hall-search" /></div>
+    <div class="mt-7"><Lobby pageSize={18} searchId="hall-search" /></div>
     <p class="mt-6 text-center"><a href="/spielautomaten/" class="btn btn-secondary">Alle {n(slotCount)} Spiele in der Spielhalle</a></p>
+  </section>
+
+  <!-- CTA: Spielotheken -->
+  <section class="container-site mt-16">
+    <div class="relative overflow-hidden rounded-3xl border border-gold-500/40 bg-gradient-to-br from-ink-800 via-ink-850 to-ink-900 p-7 sm:p-10">
+      <div class="pointer-events-none absolute -right-20 -top-24 h-72 w-72 rounded-full bg-gold-400/15 blur-3xl" aria-hidden="true"></div>
+      <div class="relative grid gap-6 lg:grid-cols-[1.5fr_auto] lg:items-center">
+        <div>
+          <p class="eyebrow">Legal · Sicher · Geprüft</p>
+          <h2 class="mt-2 section-title">Online-Spielotheken mit deutscher Lizenz</h2>
+          <p class="section-sub">Du willst einen Slot mit Echtgeld spielen? Wir vergleichen nur Anbieter von der offiziellen GGL-Whitelist – mit Lizenznummer, Prüfdatum und echten Tests von Ein- und Auszahlung.</p>
+        </div>
+        <div class="flex flex-col gap-3 sm:flex-row lg:flex-col">
+          <a href="/echtgeld-spielotheken/" class="btn btn-primary !min-h-14 !px-8 text-lg">Spielotheken vergleichen</a>
+          <a href="/krypto-spielotheken/" class="btn btn-secondary !min-h-12">Krypto-Spielotheken</a>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- KULT-SLOTS -->

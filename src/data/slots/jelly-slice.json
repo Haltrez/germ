@@ -5,7 +5,7 @@
   "rtp": "TODO",
   "volatility": "medium",
   "volatilityNote": "3/5",
-  "maxWinMultiplier": 10000.0,
+  "maxWinMultiplier": 10000,
   "reels": "TODO",
   "rows": "TODO",
   "winLines": "TODO",
@@ -26,8 +26,14 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/1452_hero_Background.jpg",
+  "thumbLogo": "https://www-live.hacksawgaming.com/casino_thumbnails/1452_logo_Logo.png",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/jelly-slice"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/jelly-slice.webp",
+    "alt": "Jelly Slice Spielautomat"
+  }
 }

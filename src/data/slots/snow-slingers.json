@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/1558_hero_Background16x9_BaseGame.jpg",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/snow-slingers"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/snow-slingers.webp",
+    "alt": "Snow Slingers Spielautomat"
+  }
 }

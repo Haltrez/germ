@@ -25,8 +25,14 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/2213_hero_Background-16-9.jpg",
+  "thumbLogo": "https://www-live.hacksawgaming.com/casino_thumbnails/2213_logo_Logo_800width.png",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/rise-of-fortuna"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/rise-of-fortuna.webp",
+    "alt": "Rise of Fortuna Spielautomat"
+  }
 }
