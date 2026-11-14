@@ -28,8 +28,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1049/hero-desktop/0-3e13cc0358df3890",
   "sourceUrls": [
     "https://www.playngo.com/games/mega-don-triple-threat"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/mega-don-triple-threat.webp",
+    "alt": "Mega Don Triple Threat Spielautomat"
+  }
 }

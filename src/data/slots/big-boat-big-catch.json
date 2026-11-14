@@ -5,7 +5,7 @@
   "rtp": 97.2,
   "volatility": "very-high",
   "volatilityNote": "very high",
-  "maxWinMultiplier": 5000.0,
+  "maxWinMultiplier": 5000,
   "hitRate": 3.2,
   "freeSpinsRate": 205,
   "reels": "TODO",
@@ -32,8 +32,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/07/Big_Boat_Big_Catch_1020х1280-e1769531342898.webp",
   "sourceUrls": [
     "https://bgaming.com/games/big-boat-big-catch"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/big-boat-big-catch.webp",
+    "alt": "Big Boat Big catch Spielautomat"
+  }
 }

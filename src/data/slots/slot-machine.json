@@ -2,11 +2,11 @@
   "name": "Slot Machine Christmas",
   "provider": "bgaming",
   "releaseDate": "2023-12-07",
-  "rtp": 97.0,
+  "rtp": 97,
   "volatility": "very-high",
   "volatilityNote": "very high",
-  "maxWinMultiplier": 2124.0,
-  "hitRate": 12.0,
+  "maxWinMultiplier": 2124,
+  "hitRate": 12,
   "reels": "TODO",
   "rows": "TODO",
   "winLines": {
@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/66953a0be1aaa4b8470dc6a9_Slot_machine_Xmas_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/slot-machine"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/slot-machine.webp",
+    "alt": "Slot Machine Christmas Spielautomat"
+  }
 }

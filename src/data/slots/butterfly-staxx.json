@@ -5,7 +5,7 @@
   "rtp": 96.8,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 3.5",
-  "maxWinMultiplier": 300.0,
+  "maxWinMultiplier": 300,
   "hitRate": 4.17,
   "reels": 5,
   "rows": 4,
@@ -14,7 +14,7 @@
     "count": 40
   },
   "minStake": 0.2,
-  "maxStake": 400.0,
+  "maxStake": 400,
   "features": [
     "wilds",
     "respins"
@@ -29,8 +29,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_butterfly_staxx_icon5_0cfc117c9d.png",
   "sourceUrls": [
     "https://netent.com/games/butterfly-staxx"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/butterfly-staxx.webp",
+    "alt": "Butterfly Staxx Spielautomat"
+  }
 }

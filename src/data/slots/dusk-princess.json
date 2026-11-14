@@ -28,8 +28,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/2190_hero_Device_Desktop 16_9.png",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/dusk-princess"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/dusk-princess.webp",
+    "alt": "Dusk Princess Spielautomat"
+  }
 }

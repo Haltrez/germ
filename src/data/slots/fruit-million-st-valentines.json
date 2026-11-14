@@ -5,7 +5,7 @@
   "rtp": 97.34,
   "volatility": "high",
   "volatilityNote": "medium-high",
-  "maxWinMultiplier": 3000.0,
+  "maxWinMultiplier": 3000,
   "hitRate": 4.3,
   "reels": "TODO",
   "rows": "TODO",
@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/66951f085b617b62b4b3d6cf_Fruit_Million_StValentine_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/fruit-million-st-valentines"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/fruit-million-st-valentines.webp",
+    "alt": "Fruit Million St.Valentines Spielautomat"
+  }
 }

@@ -25,8 +25,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/666/hero-desktop/0-339fbf1de35c9c9f",
   "sourceUrls": [
     "https://www.playngo.com/games/house-of-doom"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/house-of-doom.webp",
+    "alt": "House of Doom Spielautomat"
+  }
 }

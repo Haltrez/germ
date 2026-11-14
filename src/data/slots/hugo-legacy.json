@@ -25,8 +25,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/727/hero-desktop/0-5b4bf73898b3f795",
   "sourceUrls": [
     "https://www.playngo.com/games/hugo-legacy"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/hugo-legacy.webp",
+    "alt": "Hugo Legacy Spielautomat"
+  }
 }

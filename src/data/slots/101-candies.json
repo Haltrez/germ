@@ -5,13 +5,13 @@
   "rtp": 96.08,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 6.8",
-  "maxWinMultiplier": 3580.0,
-  "hitRate": 4.0,
+  "maxWinMultiplier": 3580,
+  "hitRate": 4,
   "reels": 7,
   "rows": 7,
   "winLines": "TODO",
   "minStake": 0.2,
-  "maxStake": 120.0,
+  "maxStake": 120,
   "features": [
     "free-spins",
     "cascades",
@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_101candies_icon4_193f9681f6.png",
   "sourceUrls": [
     "https://netent.com/games/101-candies"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/101-candies.webp",
+    "alt": "101 Candies Spielautomat"
+  }
 }

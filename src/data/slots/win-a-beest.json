@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/426/hero-desktop/0-f11ee591be051e31",
   "sourceUrls": [
     "https://www.playngo.com/games/win-a-beest"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/win-a-beest.webp",
+    "alt": "Win-A-Beest Spielautomat"
+  }
 }

@@ -5,7 +5,7 @@
   "rtp": 96.14,
   "volatility": "very-high",
   "volatilityNote": "very high",
-  "maxWinMultiplier": 5624.0,
+  "maxWinMultiplier": 5624,
   "hitRate": 2.39,
   "freeSpinsRate": 182,
   "reels": "TODO",
@@ -33,8 +33,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/66951ae4c1691d6a4142d868_Easter_Heist_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/easter-heist"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/easter-heist.webp",
+    "alt": "Easter Heist Spielautomat"
+  }
 }

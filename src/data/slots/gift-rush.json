@@ -5,7 +5,7 @@
   "rtp": 96.07,
   "volatility": "medium",
   "volatilityNote": "medium",
-  "maxWinMultiplier": 559.0,
+  "maxWinMultiplier": 559,
   "hitRate": 12.28,
   "reels": "TODO",
   "rows": "TODO",
@@ -29,8 +29,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/669520d0c201e6195365c016_Gift_Rush_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/gift-rush"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/gift-rush.webp",
+    "alt": "Gift Rush Spielautomat"
+  }
 }

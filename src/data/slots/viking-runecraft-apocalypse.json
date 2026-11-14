@@ -27,8 +27,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/648/hero-desktop/0-0785073bdcce2e33",
   "sourceUrls": [
     "https://www.playngo.com/games/viking-runecraft-apocalypse"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/viking-runecraft-apocalypse.webp",
+    "alt": "Viking Runecraft: Apocalypse Spielautomat"
+  }
 }

@@ -5,7 +5,7 @@
   "rtp": 97.21,
   "volatility": "low",
   "volatilityNote": "low",
-  "maxWinMultiplier": 2500.0,
+  "maxWinMultiplier": 2500,
   "hitRate": 4.85,
   "reels": "TODO",
   "rows": "TODO",
@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2026/01/Totally_hot_1020_1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/totally-hot-2"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/totally-hot-2.webp",
+    "alt": "Totally Hot Spielautomat"
+  }
 }

@@ -23,7 +23,7 @@ for e in data['games']:
     gt = re.search(r'Game Type (.+?) Volatility', t)
     if not gt or not re.search(r'reel|slot|video game', gt.group(1), re.I): continue
     name = re.sub(r'[™®©]', '', text(e['title'])).strip()
-    g = {'slug': slug, 'name': name, 'url': u}
+    g = {'slug': slug, 'name': name, 'url': u, 'thumb': (e.get('button') or '').replace('\\/', '/') or None}
     if e.get('published'): g['releaseDate'] = e['published'][:10]
     m2 = re.search(r'(\d+)-line', gt.group(1))
     if m2: g['winLines'] = {'type': 'lines', 'count': int(m2.group(1))}

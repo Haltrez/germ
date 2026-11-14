@@ -28,8 +28,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2017/08/thumbs-pt-site_Wild_Spells_330x140px-2.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/wild-spells-slot/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/wild-spells.webp",
+    "alt": "Wild Spells Spielautomat"
+  }
 }

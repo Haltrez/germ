@@ -27,8 +27,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1062/hero-desktop/0-e7e7ee91df2353d5",
   "sourceUrls": [
     "https://www.playngo.com/games/reactoonz-blitzways"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/reactoonz-blitzways.webp",
+    "alt": "Reactoonz Blitzways Spielautomat"
+  }
 }

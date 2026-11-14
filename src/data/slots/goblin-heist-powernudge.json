@@ -24,8 +24,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2022/04/Goblin_Hiest_339x180.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/goblin-heist-powernudge/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/goblin-heist-powernudge.webp",
+    "alt": "Goblin Heist PowerNudge Spielautomat"
+  }
 }

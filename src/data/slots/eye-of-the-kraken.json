@@ -24,8 +24,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/297/hero-desktop/0-363dfb406c149280",
   "sourceUrls": [
     "https://www.playngo.com/games/eye-of-the-kraken"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/eye-of-the-kraken.webp",
+    "alt": "Eye of the Kraken Spielautomat"
+  }
 }

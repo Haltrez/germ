@@ -28,8 +28,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1059/hero-desktop/0-a02e67e2f0b83145",
   "sourceUrls": [
     "https://www.playngo.com/games/hope-unleashed-fortune-rises"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/hope-unleashed-fortune-rises.webp",
+    "alt": "Hope Unleashed Fortune Rises Spielautomat"
+  }
 }

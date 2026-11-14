@@ -25,8 +25,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2022/01/TU5_EN_339x180.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/the-ultimate-5/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/the-ultimate-5.webp",
+    "alt": "The Ultimate 5 Spielautomat"
+  }
 }

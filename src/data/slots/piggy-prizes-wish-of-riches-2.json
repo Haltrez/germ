@@ -19,8 +19,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/2026/03/pp-wish-of-riches-2.jpg",
   "sourceUrls": [
     "https://www.greentube.com/game/piggy-prizes-wish-of-riches-2/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/piggy-prizes-wish-of-riches-2.webp",
+    "alt": "Piggy Prizes Wish of Riches 2 Spielautomat"
+  }
 }

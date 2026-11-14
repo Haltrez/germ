@@ -1,0 +1,33 @@
+{
+  "name": "Rumble Riches – Haulin’ Gold",
+  "provider": "novomatic",
+  "releaseDate": "2026-03-31",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 5,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/2025/12/rumble-riches-haulin-gold-icon.jpg",
+  "sourceUrls": [
+    "https://www.greentube.com/game/rumble-riches-haulin-gold/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/rumble-riches-haulin-gold.webp",
+    "alt": "Rumble Riches – Haulin’ Gold Spielautomat"
+  }
+}

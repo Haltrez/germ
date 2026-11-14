@@ -29,8 +29,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/08/68ac0721c4ade2f89ea0bef0_Lucky_Lager_x9990_1020x618.webp",
   "sourceUrls": [
     "https://bgaming.com/games/lucky-lager-x9990"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/lucky-lager-x9990.webp",
+    "alt": "Lucky Lager x9990 Spielautomat"
+  }
 }

@@ -55,7 +55,8 @@ for i, u in enumerate(sorted(urls)):
     rtp = re.search(r'RTP:\s*<span>\s*([\d.]+)\s*%', s)
     d = re.search(r'game-details__description">(.*?)</div>', s, re.S)
     desc = re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', ' ', d.group(1)))).strip() if d else ''
-    g = {'slug': slug, 'name': name, 'url': u, 'symbol': sym.group(1),
+    og = re.search(r'og:image" content="([^"]+)"', s)
+    g = {'slug': slug, 'name': name, 'url': u, 'symbol': sym.group(1), 'thumb': og.group(1) if og else None,
          'rtp': float(rtp.group(1)) if rtp else None}
     m = re.search(r'\b(\d)\s*[x×]\s*(\d)\b', desc)
     if m: g['grid'] = f'{m.group(1)}×{m.group(2)}'  # as written by provider; order is not consistent

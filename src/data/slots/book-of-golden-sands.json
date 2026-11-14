@@ -4,7 +4,7 @@
   "releaseDate": "TODO",
   "rtp": 96.46,
   "volatility": "TODO",
-  "maxWinMultiplier": 10000.0,
+  "maxWinMultiplier": 10000,
   "reels": "TODO",
   "rows": "TODO",
   "grid": "6×3",
@@ -27,8 +27,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2022/09/Book-of-Golden-Sands_339x180.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/book-of-golden-sands/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/book-of-golden-sands.webp",
+    "alt": "Book of Golden Sands Spielautomat"
+  }
 }

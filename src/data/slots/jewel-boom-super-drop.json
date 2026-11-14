@@ -5,7 +5,7 @@
   "rtp": 96.5,
   "volatility": "medium",
   "volatilityNote": "medium",
-  "maxWinMultiplier": 3000.0,
+  "maxWinMultiplier": 3000,
   "hitRate": 2.56,
   "reels": "TODO",
   "rows": "TODO",
@@ -29,8 +29,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/12/Jewel_Boom_Super_Drop_1020_1280-2.webp",
   "sourceUrls": [
     "https://bgaming.com/games/jewel-boom-super-drop"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/jewel-boom-super-drop.webp",
+    "alt": "Jewel Boom Super Drop Spielautomat"
+  }
 }

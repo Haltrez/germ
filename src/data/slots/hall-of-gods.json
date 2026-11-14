@@ -5,7 +5,7 @@
   "rtp": 95.7,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 5",
-  "maxWinMultiplier": 4300.0,
+  "maxWinMultiplier": 4300,
   "hitRate": 2.7,
   "reels": 5,
   "rows": 3,
@@ -14,7 +14,7 @@
     "count": 20
   },
   "minStake": 0.2,
-  "maxStake": 50.0,
+  "maxStake": 50,
   "features": [
     "free-spins",
     "expanding-symbols",
@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_hog_icon5_2d92364c08.png",
   "sourceUrls": [
     "https://netent.com/games/hall-of-gods"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/hall-of-gods.webp",
+    "alt": "Hall of Gods Spielautomat"
+  }
 }

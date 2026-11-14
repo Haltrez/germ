@@ -25,8 +25,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2026/02/Lucky-Tiger-Gold_339x180_B-1.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/lucky-tiger-gold/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/lucky-tiger-gold.webp",
+    "alt": "Lucky Tiger Gold Spielautomat"
+  }
 }

@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/445/hero-desktop/0-8593857d0cb30903",
   "sourceUrls": [
     "https://www.playngo.com/games/rabbit-hole-riches"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/rabbit-hole-riches.webp",
+    "alt": "Rabbit Hole Riches Spielautomat"
+  }
 }

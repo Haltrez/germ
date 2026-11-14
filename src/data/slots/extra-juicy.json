@@ -29,8 +29,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2019/01/thumb_Extra-Juicy™_330x140px-1-1.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/extra-juicy-slot/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/extra-juicy.webp",
+    "alt": "Extra Juicy Spielautomat"
+  }
 }

@@ -5,7 +5,7 @@
   "rtp": 97.16,
   "volatility": "medium",
   "volatilityNote": "medium",
-  "maxWinMultiplier": 3000.0,
+  "maxWinMultiplier": 3000,
   "hitRate": 5.4,
   "reels": "TODO",
   "rows": "TODO",
@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/66953e45ae4cf9fd3c5b2a0e_Wild_Tiger_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/wild-tiger"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/wild-tiger.webp",
+    "alt": "Wild Tiger Spielautomat"
+  }
 }

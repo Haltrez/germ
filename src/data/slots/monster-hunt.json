@@ -5,7 +5,7 @@
   "rtp": 94.65,
   "volatility": "medium",
   "volatilityNote": "medium",
-  "maxWinMultiplier": 1299.0,
+  "maxWinMultiplier": 1299,
   "hitRate": 2.71,
   "freeSpinsRate": 98,
   "reels": "TODO",
@@ -34,8 +34,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/669534b8653f8622c69627b6_Monster_Hunt_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/monster-hunt"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/monster-hunt.webp",
+    "alt": "Monster Hunt Spielautomat"
+  }
 }

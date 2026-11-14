@@ -23,8 +23,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/608/hero-desktop/0-4fff3805f582fa4b",
   "sourceUrls": [
     "https://www.playngo.com/games/lordi-reel-monsters"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/lordi-reel-monsters.webp",
+    "alt": "Lordi Reel Monsters Spielautomat"
+  }
 }

@@ -5,7 +5,7 @@
   "rtp": 96.46,
   "volatility": "high",
   "volatilityNote": "medium-high",
-  "maxWinMultiplier": 10000.0,
+  "maxWinMultiplier": 10000,
   "hitRate": 3.33,
   "freeSpinsRate": 197,
   "reels": "TODO",
@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/10/Star_Trek_The_Next_Generation_243_1020х1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/star-trek-the-next-generation"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/star-trek-the-next-generation.webp",
+    "alt": "Star Trek: The Next Generation Spielautomat"
+  }
 }

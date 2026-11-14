@@ -28,8 +28,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2021/06/Empty_The_Bank_EN_339x180.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/empty-the-bank/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/empty-the-bank.webp",
+    "alt": "Empty the Bank Spielautomat"
+  }
 }

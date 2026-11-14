@@ -5,7 +5,7 @@
   "rtp": 95.87,
   "volatility": "high",
   "volatilityNote": "medium-high",
-  "maxWinMultiplier": 1172.0,
+  "maxWinMultiplier": 1172,
   "hitRate": 3.64,
   "reels": "TODO",
   "rows": "TODO",
@@ -32,8 +32,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/666af746316b65cd7ee08232_Joker_Queen_GAME_HERO-e1769531647847.webp",
   "sourceUrls": [
     "https://bgaming.com/games/joker-queen"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/joker-queen.webp",
+    "alt": "Joker Queen Spielautomat"
+  }
 }

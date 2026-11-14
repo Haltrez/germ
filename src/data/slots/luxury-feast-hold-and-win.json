@@ -2,10 +2,10 @@
   "name": "Luxury Feast Hold and Win",
   "provider": "bgaming",
   "releaseDate": "2026-11-16",
-  "rtp": 97.0,
+  "rtp": 97,
   "volatility": "medium",
   "volatilityNote": "medium",
-  "maxWinMultiplier": 5000.0,
+  "maxWinMultiplier": 5000,
   "hitRate": 6.76,
   "freeSpinsRate": 117,
   "reels": "TODO",
@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2026/10/1020х1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/luxury-feast-hold-and-win"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/luxury-feast-hold-and-win.webp",
+    "alt": "Luxury Feast Hold and Win Spielautomat"
+  }
 }

@@ -29,8 +29,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2016/11/thumbs-pt-site_Catz-Part-II_330x140px-2.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/the-catfather-part-slot/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/the-catfather-part.webp",
+    "alt": "The Catfather Part II Spielautomat"
+  }
 }

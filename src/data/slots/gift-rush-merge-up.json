@@ -2,10 +2,10 @@
   "name": "Gift Rush Merge Up",
   "provider": "bgaming",
   "releaseDate": "2026-11-19",
-  "rtp": 97.0,
+  "rtp": 97,
   "volatility": "very-high",
   "volatilityNote": "very high",
-  "maxWinMultiplier": 10000.0,
+  "maxWinMultiplier": 10000,
   "hitRate": 3.4,
   "freeSpinsRate": 409,
   "reels": "TODO",
@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2026/10/1020x1280-1.webp",
   "sourceUrls": [
     "https://bgaming.com/games/gift-rush-merge-up"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/gift-rush-merge-up.webp",
+    "alt": "Gift Rush Merge Up Spielautomat"
+  }
 }

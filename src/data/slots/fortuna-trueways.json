@@ -5,7 +5,7 @@
   "rtp": 97.07,
   "volatility": "very-high",
   "volatilityNote": "very high",
-  "maxWinMultiplier": 10000.0,
+  "maxWinMultiplier": 10000,
   "hitRate": 4.28,
   "reels": "TODO",
   "rows": "TODO",
@@ -29,8 +29,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/66ccb95293cba5bddbdf9716_Fortuna_Trueways_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/fortuna-trueways"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/fortuna-trueways.webp",
+    "alt": "Fortuna TRUEWAYS Spielautomat"
+  }
 }

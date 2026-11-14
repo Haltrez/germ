@@ -25,8 +25,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/600/hero-desktop/0-4b7b047c759ba9ee",
   "sourceUrls": [
     "https://www.playngo.com/games/moon-princess-christmas-kingdom"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/moon-princess-christmas-kingdom.webp",
+    "alt": "Moon Princess: Christmas Kingdom Spielautomat"
+  }
 }

@@ -2,10 +2,10 @@
   "name": "Money Maker",
   "provider": "bgaming",
   "releaseDate": "2026-06-10",
-  "rtp": 97.0,
+  "rtp": 97,
   "volatility": "low",
   "volatilityNote": "low",
-  "maxWinMultiplier": 1000.0,
+  "maxWinMultiplier": 1000,
   "hitRate": 5.65,
   "reels": "TODO",
   "rows": "TODO",
@@ -28,8 +28,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2026/05/MoneyMaker_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/money-maker"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/money-maker.webp",
+    "alt": "Money Maker Spielautomat"
+  }
 }

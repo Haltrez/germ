@@ -2,7 +2,7 @@
   "name": "Pixie Wings",
   "provider": "pragmatic-play",
   "releaseDate": "TODO",
-  "rtp": 96.0,
+  "rtp": 96,
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
   "reels": "TODO",
@@ -27,8 +27,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2017/07/thumbs-pt-sitePixie_Wings_330x140px-2-1.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/pixie-wings-slot/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/pixie-wings.webp",
+    "alt": "Pixie Wings Spielautomat"
+  }
 }

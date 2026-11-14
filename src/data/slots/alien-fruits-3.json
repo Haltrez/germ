@@ -2,10 +2,10 @@
   "name": "Alien Fruits 3",
   "provider": "bgaming",
   "releaseDate": "2026-07-01",
-  "rtp": 97.0,
+  "rtp": 97,
   "volatility": "high",
   "volatilityNote": "medium-high",
-  "maxWinMultiplier": 10000.0,
+  "maxWinMultiplier": 10000,
   "hitRate": 2.97,
   "freeSpinsRate": 196,
   "reels": "TODO",
@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2026/06/alien_fruits_3_1020_1280-816x1024.webp",
   "sourceUrls": [
     "https://bgaming.com/games/alien-fruits-3"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/alien-fruits-3.webp",
+    "alt": "Alien Fruits 3 Spielautomat"
+  }
 }

@@ -5,7 +5,7 @@
   "rtp": 96.75,
   "volatility": "medium",
   "volatilityNote": "medium",
-  "maxWinMultiplier": 2500.0,
+  "maxWinMultiplier": 2500,
   "hitRate": 3.4,
   "freeSpinsRate": 109,
   "reels": "TODO",
@@ -32,8 +32,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/669527e6bf00c184be4bc7c5_Maneki_88_Gold_xmas_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/maneki-88-gold-xmas"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/maneki-88-gold-xmas.webp",
+    "alt": "Maneki 88 Gold X-mas Spielautomat"
+  }
 }

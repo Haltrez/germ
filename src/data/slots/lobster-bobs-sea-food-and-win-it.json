@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2024/04/Lobster-Bobs-Sea-Food-and-Win-It_339x180.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/lobster-bobs-sea-food-and-win-it/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/lobster-bobs-sea-food-and-win-it.webp",
+    "alt": "Lobster Bob’s Sea Food and Win It Spielautomat"
+  }
 }

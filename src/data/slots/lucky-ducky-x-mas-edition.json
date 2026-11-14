@@ -5,7 +5,7 @@
   "rtp": 97.25,
   "volatility": "very-high",
   "volatilityNote": "very high",
-  "maxWinMultiplier": 5000.0,
+  "maxWinMultiplier": 5000,
   "hitRate": 3.04,
   "freeSpinsRate": 275,
   "reels": "TODO",
@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/673488f77149469df9fe2dd9_Lucky_Ducky_X-mas_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/lucky-ducky-x-mas-edition"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/lucky-ducky-x-mas-edition.webp",
+    "alt": "Lucky Ducky X-mas Spielautomat"
+  }
 }

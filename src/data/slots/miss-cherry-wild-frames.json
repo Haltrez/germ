@@ -2,10 +2,10 @@
   "name": "Miss Cherry Wild Frames",
   "provider": "bgaming",
   "releaseDate": "2026-08-13",
-  "rtp": 97.0,
+  "rtp": 97,
   "volatility": "medium",
   "volatilityNote": "medium",
-  "maxWinMultiplier": 3000.0,
+  "maxWinMultiplier": 3000,
   "hitRate": 7.76,
   "freeSpinsRate": 147,
   "reels": "TODO",
@@ -33,8 +33,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2026/07/Miss-Cherry-Wild-Frames_1020x1280.png",
   "sourceUrls": [
     "https://bgaming.com/games/miss-cherry-wild-frames"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/miss-cherry-wild-frames.webp",
+    "alt": "Miss Cherry Wild Frames Spielautomat"
+  }
 }

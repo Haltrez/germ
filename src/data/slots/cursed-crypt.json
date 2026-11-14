@@ -25,8 +25,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/1434_hero_Device_Desktop.png",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/cursed-crypt"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/cursed-crypt.webp",
+    "alt": "Cursed Crypt Spielautomat"
+  }
 }

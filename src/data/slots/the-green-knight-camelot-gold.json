@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1004/hero-desktop/0-9e59a3c72673b014",
   "sourceUrls": [
     "https://www.playngo.com/games/the-green-knight-camelot-gold"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/the-green-knight-camelot-gold.webp",
+    "alt": "The Green Knight Camelot Gold Spielautomat"
+  }
 }

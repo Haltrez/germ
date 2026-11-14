@@ -5,7 +5,7 @@
   "rtp": 96.07,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 13.56",
-  "maxWinMultiplier": 5085.0,
+  "maxWinMultiplier": 5085,
   "hitRate": 3.96,
   "reels": 5,
   "rows": 3,
@@ -14,7 +14,7 @@
     "count": 30
   },
   "minStake": 0.1,
-  "maxStake": 40.0,
+  "maxStake": 40,
   "features": [
     "free-spins",
     "multipliers",
@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_rainforest_gold_icon5_1afaa3e253.png",
   "sourceUrls": [
     "https://netent.com/games/rainforest-gold"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/rainforest-gold.webp",
+    "alt": "Rainforest Gold Spielautomat"
+  }
 }

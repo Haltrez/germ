@@ -29,8 +29,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2023/05/Pirates-Pub_339x180.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/pirates-pub/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/pirates-pub.webp",
+    "alt": "Pirates Pub Spielautomat"
+  }
 }

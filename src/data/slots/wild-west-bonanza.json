@@ -2,10 +2,10 @@
   "name": "Wild West Bonanza",
   "provider": "bgaming",
   "releaseDate": "2022-09-15",
-  "rtp": 96.0,
+  "rtp": 96,
   "volatility": "high",
   "volatilityNote": "high",
-  "maxWinMultiplier": 15000.0,
+  "maxWinMultiplier": 15000,
   "hitRate": 2.59,
   "freeSpinsRate": 395,
   "reels": "TODO",
@@ -32,8 +32,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/64fc083815ed201d5b2201f8_646632b44aeb86bf8d7c6465_Wild_West_Bonanza_FEATURED_vertical.webp",
   "sourceUrls": [
     "https://bgaming.com/games/wild-west-bonanza"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/wild-west-bonanza.webp",
+    "alt": "Wild West Bonanza Spielautomat"
+  }
 }

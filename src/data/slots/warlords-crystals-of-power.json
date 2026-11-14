@@ -5,7 +5,7 @@
   "rtp": 96.89,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 4.9",
-  "maxWinMultiplier": 1500.0,
+  "maxWinMultiplier": 1500,
   "hitRate": 3.03,
   "reels": 5,
   "rows": 3,
@@ -14,7 +14,7 @@
     "count": 30
   },
   "minStake": 0.15,
-  "maxStake": 150.0,
+  "maxStake": 150,
   "features": [
     "free-spins",
     "multipliers",
@@ -32,8 +32,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_warlords_icon5_879ebcd5a0.png",
   "sourceUrls": [
     "https://netent.com/games/warlords-crystals-of-power"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/warlords-crystals-of-power.webp",
+    "alt": "Warlords - Crystals of Power Spielautomat"
+  }
 }

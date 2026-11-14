@@ -11,7 +11,6 @@
   "minStake": "TODO",
   "maxStake": "TODO",
   "features": [
-    "bonus-buy",
     "respins"
   ],
   "themes": [],
@@ -22,8 +21,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/2026/01/luckycapi-icon.jpg",
   "sourceUrls": [
     "https://www.greentube.com/game/luckycapi-buy-bonus/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/luckycapi-buy-bonus.webp",
+    "alt": "Luckycapi Buy Bonus Spielautomat"
+  }
 }

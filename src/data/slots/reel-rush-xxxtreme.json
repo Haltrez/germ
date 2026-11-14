@@ -5,8 +5,8 @@
   "rtp": 96.06,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 9.2",
-  "maxWinMultiplier": 8130.0,
-  "hitRate": 4.0,
+  "maxWinMultiplier": 8130,
+  "hitRate": 4,
   "reels": "TODO",
   "rows": "TODO",
   "winLines": {
@@ -14,7 +14,7 @@
     "count": 3125
   },
   "minStake": 0.3,
-  "maxStake": 600.0,
+  "maxStake": 600,
   "features": [
     "free-spins",
     "multipliers",
@@ -33,8 +33,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_reel_rush_xxxtreme_icon5_91ffeb4cba.png",
   "sourceUrls": [
     "https://netent.com/games/reel-rush-xxxtreme"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/reel-rush-xxxtreme.webp",
+    "alt": "Reel Rush XXXtreme Spielautomat"
+  }
 }

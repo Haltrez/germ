@@ -27,8 +27,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2025/09/Big-Bass-Halloween-3_339x180.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/big-bass-halloween-3/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/big-bass-halloween-3.webp",
+    "alt": "Big Bass Halloween 3 Spielautomat"
+  }
 }

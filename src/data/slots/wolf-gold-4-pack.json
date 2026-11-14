@@ -24,8 +24,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2025/07/Wolf-Gold-4-Pack_339x180.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/wolf-gold-4-pack/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/wolf-gold-4-pack.webp",
+    "alt": "Wolf Gold 4 Pack Spielautomat"
+  }
 }

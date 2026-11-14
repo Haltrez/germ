@@ -28,8 +28,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2026/07/Golden-Retriever_339x180_EN-1.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/golden-retriever/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/golden-retriever.webp",
+    "alt": "Golden Retriever Spielautomat"
+  }
 }

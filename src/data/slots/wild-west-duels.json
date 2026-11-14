@@ -2,7 +2,7 @@
   "name": "Wild West Duels",
   "provider": "pragmatic-play",
   "releaseDate": "TODO",
-  "rtp": 96.0,
+  "rtp": 96,
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
   "reels": "TODO",
@@ -27,8 +27,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2023/02/Wild-West-Duels_339x180.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/wild-west-duels/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/wild-west-duels.webp",
+    "alt": "Wild West Duels Spielautomat"
+  }
 }

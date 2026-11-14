@@ -5,7 +5,7 @@
   "rtp": 97.16,
   "volatility": "very-high",
   "volatilityNote": "very high",
-  "maxWinMultiplier": 3000.0,
+  "maxWinMultiplier": 3000,
   "hitRate": 5.4,
   "reels": "TODO",
   "rows": "TODO",
@@ -27,8 +27,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/07/Sakura_Riches_60_1020х1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/sakura-riches-60"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/sakura-riches-60.webp",
+    "alt": "Sakura Riches 60 Spielautomat"
+  }
 }

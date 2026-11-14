@@ -25,8 +25,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/695/hero-desktop/0-3ecb70f397ecc4cb",
   "sourceUrls": [
     "https://www.playngo.com/games/viking-runecraft-100"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/viking-runecraft-100.webp",
+    "alt": "Viking Runecraft 100 Spielautomat"
+  }
 }

@@ -24,8 +24,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/242/hero-desktop/0-c3484b93b646c29b",
   "sourceUrls": [
     "https://www.playngo.com/games/jewel-box"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/jewel-box.webp",
+    "alt": "Jewel Box Spielautomat"
+  }
 }

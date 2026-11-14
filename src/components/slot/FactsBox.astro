@@ -20,11 +20,12 @@ const rows: [string, string, string?][] = [
   ['Erscheinungsdatum', isTodo(s.releaseDate) ? UNVERIFIED : formatDateDE(s.releaseDate)],
 ];
 const features = featureList(s);
+const known = rows.filter(([, v]) => v !== UNVERIFIED);
 ---
 <section aria-labelledby="facts-title" class="card p-5 sm:p-6">
   <h2 id="facts-title" class="text-xl font-bold text-fg">{s.name} RTP, Volatilität &amp; Max Win</h2>
   <dl class="mt-4 grid gap-x-6">
-    {rows.map(([k, v, href]) => (
+    {known.map(([k, v, href]) => (
       <div class="flex items-baseline justify-between gap-4 border-b border-line py-2.5 text-sm">
         <dt class="text-subtle">{k}</dt>
         <dd class:list={['text-right font-semibold', v === UNVERIFIED ? 'text-subtle italic' : 'text-fg']}>

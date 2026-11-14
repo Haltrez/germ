@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2025/08/Olympus-Wins-Super-Scatter_339x180_B.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/olympus-wins/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/olympus-wins.webp",
+    "alt": "Olympus Wins Spielautomat"
+  }
 }

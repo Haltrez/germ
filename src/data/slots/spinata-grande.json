@@ -5,8 +5,8 @@
   "rtp": 96.84,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 4.9",
-  "maxWinMultiplier": 500.0,
-  "hitRate": 4.0,
+  "maxWinMultiplier": 500,
+  "hitRate": 4,
   "reels": 5,
   "rows": 4,
   "winLines": {
@@ -14,7 +14,7 @@
     "count": 27
   },
   "minStake": 0.2,
-  "maxStake": 200.0,
+  "maxStake": 200,
   "features": [
     "free-spins",
     "wilds"
@@ -29,8 +29,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_spinata_grande_icon5_3ae3ec5a2e.png",
   "sourceUrls": [
     "https://netent.com/games/spinata-grande"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/spinata-grande.webp",
+    "alt": "Spiñata Grande Spielautomat"
+  }
 }

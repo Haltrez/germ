@@ -24,8 +24,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2024/11/Dragon-King-Hot-Pots_339x180_without-border.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/dragon-king-hot-pots/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/dragon-king-hot-pots.webp",
+    "alt": "Dragon King Hot Pots Spielautomat"
+  }
 }

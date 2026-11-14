@@ -27,8 +27,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2020/06/Drago_JOF™_339x180-1.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/drago-jewels-of-fortune-slot/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/drago-jewels-of-fortune.webp",
+    "alt": "Drago – Jewels of Fortune Spielautomat"
+  }
 }

@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/350/hero-desktop/0-4e2a6dd578be11d5",
   "sourceUrls": [
     "https://www.playngo.com/games/wild-falls"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/wild-falls.webp",
+    "alt": "Wild Falls Spielautomat"
+  }
 }

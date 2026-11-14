@@ -5,7 +5,7 @@
   "rtp": 96.01,
   "volatility": "TODO",
   "volatilityNote": "low-high",
-  "maxWinMultiplier": 9990.0,
+  "maxWinMultiplier": 9990,
   "hitRate": 11.55,
   "reels": "TODO",
   "rows": "TODO",
@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/06/666af7067b5ce616c26ad021_Panda27s_Wealth2Blogo_vertiD181al.webp",
   "sourceUrls": [
     "https://bgaming.com/games/pandas-wealth"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/pandas-wealth.webp",
+    "alt": "Panda’s Wealth Spielautomat"
+  }
 }

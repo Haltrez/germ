@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2026/03/Triple-Pot-Diamond_667x414_EN-339x180-1.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/triple-pot-diamond/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/triple-pot-diamond.webp",
+    "alt": "Triple Pot Diamond Spielautomat"
+  }
 }

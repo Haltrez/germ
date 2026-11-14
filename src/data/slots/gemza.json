@@ -5,7 +5,7 @@
   "rtp": 97.17,
   "volatility": "very-high",
   "volatilityNote": "very high",
-  "maxWinMultiplier": 5000.0,
+  "maxWinMultiplier": 5000,
   "hitRate": 8.17,
   "freeSpinsRate": 163,
   "reels": "TODO",
@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/669520a0aa118e9dab08761a_Gemza_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/gemza"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/gemza.webp",
+    "alt": "Gemza Spielautomat"
+  }
 }

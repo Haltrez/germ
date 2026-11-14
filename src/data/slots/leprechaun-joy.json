@@ -5,7 +5,7 @@
   "rtp": 96.19,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 13.28",
-  "maxWinMultiplier": 5255.0,
+  "maxWinMultiplier": 5255,
   "hitRate": 3.08,
   "reels": 5,
   "rows": 4,
@@ -14,7 +14,7 @@
     "count": 25
   },
   "minStake": 0.1,
-  "maxStake": 80.0,
+  "maxStake": 80,
   "features": [
     "free-spins",
     "multipliers",
@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_leprechaun_joy_icon5_c41ed16f05.png",
   "sourceUrls": [
     "https://netent.com/games/leprechaun-joy"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/leprechaun-joy.webp",
+    "alt": "Leprechaun Joy Spielautomat"
+  }
 }

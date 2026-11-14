@@ -25,8 +25,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/993/hero-desktop/0-2c7104fa6aed67fc",
   "sourceUrls": [
     "https://www.playngo.com/games/tomb-of-gold-reimagined"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/tomb-of-gold-reimagined.webp",
+    "alt": "Tomb of Gold Reimagined Spielautomat"
+  }
 }

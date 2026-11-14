@@ -5,13 +5,13 @@
   "rtp": 95.56,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 4.2",
-  "maxWinMultiplier": 1300.0,
-  "hitRate": 5.0,
+  "maxWinMultiplier": 1300,
+  "hitRate": 5,
   "reels": 5,
   "rows": 3,
   "winLines": "TODO",
   "minStake": 0.1,
-  "maxStake": 200.0,
+  "maxStake": 200,
   "features": [
     "expanding-symbols",
     "wilds",
@@ -27,8 +27,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_berryburst_icon5_18b1067979.png",
   "sourceUrls": [
     "https://netent.com/games/berryburst"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/berryburst.webp",
+    "alt": "Berryburst Spielautomat"
+  }
 }

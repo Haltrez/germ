@@ -1,15 +1,8 @@
 ---
-import SlotArt from './SlotArt.astro';
-import { rtpText, type SlotView } from '../../lib/slots.ts';
+/** Portrait game tile (same markup as the lobby). */
+import { lobbyRecord, type SlotView } from '../../lib/slots.ts';
+import { cardHtml } from '../../lib/card.ts';
 interface Props { slot: SlotView; headingLevel?: 'h2' | 'h3' }
-const { slot, headingLevel = 'h3' } = Astro.props;
-const H = headingLevel;
+const { slot } = Astro.props;
 ---
-<article class="card group flex flex-col overflow-hidden p-2.5 transition hover:border-mint-400/60">
-  <a href={slot.path} class="block" tabindex="-1" aria-hidden="true"><SlotArt slug={slot.id} name={slot.data.name} /></a>
-  <div class="flex flex-1 flex-col px-1.5 pb-1 pt-3">
-    <H class="font-display text-base font-bold leading-tight text-fg"><a href={slot.path} class="block py-1 hover:text-mint-300">{slot.data.name}</a></H>
-    <p class="mt-1 text-xs text-subtle">{slot.provider?.data.name ?? slot.data.provider} · RTP {rtpText(slot.data)}</p>
-    <a href={`${slot.path}#demo`} class="btn btn-secondary mt-3 !min-h-9 w-full !py-2 text-sm">Demo spielen<span class="sr-only"> – {slot.data.name} kostenlos</span></a>
-  </div>
-</article>
+<Fragment set:html={cardHtml(lobbyRecord(slot))} />

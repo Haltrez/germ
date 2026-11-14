@@ -4,7 +4,7 @@
   "releaseDate": "TODO",
   "rtp": 96.03,
   "volatility": "TODO",
-  "maxWinMultiplier": 5000.0,
+  "maxWinMultiplier": 5000,
   "reels": "TODO",
   "rows": "TODO",
   "winLines": "TODO",
@@ -24,8 +24,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2023/01/monster_superlanche-1.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/monster-superlanche/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/monster-superlanche.webp",
+    "alt": "Monster Superlanche Spielautomat"
+  }
 }

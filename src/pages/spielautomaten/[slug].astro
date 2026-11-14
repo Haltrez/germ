@@ -139,7 +139,7 @@ const jsonLd = [
       <section class="mt-14" aria-labelledby="similar-title">
         <h2 id="similar-title" class="text-2xl font-bold text-fg">Ähnliche Slots wie {s.name}</h2>
         <p class="mt-2 text-sm text-muted">Mehr <a href={`/hersteller/${s.provider}/`} class="text-mint-300 underline underline-offset-2">{providerName} Slots kostenlos spielen</a>{cats.map((c) => <> · <a href={`/kategorien/${c.slug}/`} class="text-mint-300 underline underline-offset-2">{c.label} kostenlos</a></>)}</p>
-        <div class="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
+        <div class="mt-5 grid grid-cols-2 gap-x-3 gap-y-5 sm:grid-cols-3 lg:grid-cols-6">
           {similar.map((o) => <SlotCard slot={o} />)}
         </div>
       </section>

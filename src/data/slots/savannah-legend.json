@@ -27,8 +27,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2025/01/Savannah-Legend_339x180.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/savannah-legend/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/savannah-legend.webp",
+    "alt": "Savannah Legend Spielautomat"
+  }
 }

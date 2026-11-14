@@ -4,7 +4,7 @@
   "releaseDate": "TODO",
   "rtp": 96.02,
   "volatility": "TODO",
-  "maxWinMultiplier": 5000.0,
+  "maxWinMultiplier": 5000,
   "reels": "TODO",
   "rows": "TODO",
   "grid": "5×3",
@@ -24,8 +24,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2023/06/Cash-Box_339x180.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/cash-box/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/cash-box.webp",
+    "alt": "Cash Box Spielautomat"
+  }
 }

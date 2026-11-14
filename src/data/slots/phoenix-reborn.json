@@ -28,8 +28,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/371/hero-desktop/0-015e17631f6867d9",
   "sourceUrls": [
     "https://www.playngo.com/games/phoenix-reborn"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/phoenix-reborn.webp",
+    "alt": "Phoenix Reborn Spielautomat"
+  }
 }

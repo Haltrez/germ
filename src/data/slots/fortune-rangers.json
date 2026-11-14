@@ -5,7 +5,7 @@
   "rtp": 96.9,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 3.8",
-  "maxWinMultiplier": 700.0,
+  "maxWinMultiplier": 700,
   "hitRate": 5.26,
   "reels": 5,
   "rows": 5,
@@ -14,7 +14,7 @@
     "count": 76
   },
   "minStake": 0.2,
-  "maxStake": 200.0,
+  "maxStake": 200,
   "features": [
     "free-spins",
     "wilds"
@@ -29,8 +29,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_fortune_rangers_icon5_2d89a53384.png",
   "sourceUrls": [
     "https://netent.com/games/fortune-rangers"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/fortune-rangers.webp",
+    "alt": "Fortune Rangers Spielautomat"
+  }
 }

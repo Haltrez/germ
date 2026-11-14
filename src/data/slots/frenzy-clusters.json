@@ -5,7 +5,7 @@
   "rtp": 97.11,
   "volatility": "high",
   "volatilityNote": "high",
-  "maxWinMultiplier": 10000.0,
+  "maxWinMultiplier": 10000,
   "hitRate": 2.64,
   "freeSpinsRate": 269,
   "reels": "TODO",
@@ -32,8 +32,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2026/06/Frenzy_Clusters_1020х1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/frenzy-clusters"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/frenzy-clusters.webp",
+    "alt": "Frenzy Clusters Spielautomat"
+  }
 }

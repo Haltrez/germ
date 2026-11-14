@@ -5,7 +5,7 @@
   "rtp": 94.14,
   "volatility": "medium",
   "volatilityNote": "medium",
-  "maxWinMultiplier": 2692.0,
+  "maxWinMultiplier": 2692,
   "freeSpinsRate": 73,
   "reels": "TODO",
   "rows": "TODO",
@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/07/Deep_Sea_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/deep-sea"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/deep-sea.webp",
+    "alt": "Deep Sea Spielautomat"
+  }
 }

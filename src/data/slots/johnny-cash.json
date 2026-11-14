@@ -5,7 +5,7 @@
   "rtp": 95.98,
   "volatility": "high",
   "volatilityNote": "medium-high",
-  "maxWinMultiplier": 2077.0,
+  "maxWinMultiplier": 2077,
   "hitRate": 4.41,
   "freeSpinsRate": 157,
   "reels": "TODO",
@@ -34,8 +34,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/669523a5b761c5d22c05a08a_Johnny_cash_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/johnny-cash"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/johnny-cash.webp",
+    "alt": "Johnny Cash Spielautomat"
+  }
 }

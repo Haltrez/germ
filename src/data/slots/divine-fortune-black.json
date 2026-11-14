@@ -5,7 +5,7 @@
   "rtp": 96.26,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 9.9",
-  "maxWinMultiplier": 20000.0,
+  "maxWinMultiplier": 20000,
   "hitRate": 3.23,
   "reels": 5,
   "rows": 3,
@@ -14,7 +14,7 @@
     "count": 20
   },
   "minStake": 0.2,
-  "maxStake": 20.0,
+  "maxStake": 20,
   "features": [
     "free-spins",
     "expanding-symbols",
@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_divine_fortune_black_icon5_5ce8cb84c6.png",
   "sourceUrls": [
     "https://netent.com/games/divine-fortune-black"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/divine-fortune-black.webp",
+    "alt": "Divine Fortune Black Spielautomat"
+  }
 }

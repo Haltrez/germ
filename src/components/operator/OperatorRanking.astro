@@ -1,0 +1,33 @@
+---
+/** Ranked comparison cards (GGL-verified operators only). */
+import type { CollectionEntry } from 'astro:content';
+import OperatorCta from '../compliance/OperatorCta.astro';
+import AffiliateDisclosure from '../compliance/AffiliateDisclosure.astro';
+interface Props { ops: CollectionEntry<'operators'>[] }
+const { ops } = Astro.props;
+---
+<ol class="mt-8 space-y-5">
+  {ops.map((o, i) => (
+    <li class:list={['card relative grid gap-5 p-5 sm:p-6 lg:grid-cols-[auto_auto_1fr_20rem] lg:items-center', i === 0 && 'border-gold-500/60']}>
+      {i === 0 && <span class="absolute -top-3 left-6 rounded-md bg-gold-400 px-3 py-0.5 text-[0.7rem] font-bold uppercase tracking-wider text-[#241600]">Unsere Empfehlung</span>}
+      <span class:list={['font-display text-6xl', i === 0 ? 'text-gold-400' : 'text-transparent [-webkit-text-stroke:1.5px_var(--color-gold-500)]']}>{i + 1}</span>
+      <div class="flex h-24 w-28 items-center justify-center rounded-2xl bg-ink-950 font-title font-bold text-fg">{o.data.name}</div>
+      <div>
+        <h3 class="font-display text-3xl uppercase text-fg">{o.data.name}</h3>
+        {o.data.strengthTag && <p class="text-sm font-semibold text-gold-400">Stark bei: {o.data.strengthTag}</p>}
+        <ul class="mt-2 space-y-1 text-sm text-fg">{o.data.pros.slice(0, 3).map((p) => <li class="flex gap-2"><span class="text-mint-400">✔</span>{p}</li>)}</ul>
+        <p class="mt-2"><span class="badge-ggl">GGL-Lizenz {o.data.licenseNumber}</span></p>
+      </div>
+      <div class="space-y-2">
+        {o.data.bonusText !== 'TODO' && (
+          <div class="rounded-xl border border-line bg-ink-950/60 p-3">
+            <p class="text-[0.7rem] font-bold uppercase tracking-wider text-gold-400">Angebot</p>
+            <p class="font-bold text-fg">{o.data.bonusText}</p>
+          </div>
+        )}
+        <OperatorCta slug={o.id} operator={o.data} class="w-full" />
+      </div>
+    </li>
+  ))}
+</ol>
+<AffiliateDisclosure class="mt-3" />

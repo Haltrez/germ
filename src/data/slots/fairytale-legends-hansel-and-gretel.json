@@ -5,7 +5,7 @@
   "rtp": 96.71,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 4.3",
-  "maxWinMultiplier": 800.0,
+  "maxWinMultiplier": 800,
   "hitRate": 6.25,
   "reels": 5,
   "rows": 3,
@@ -14,7 +14,7 @@
     "count": 10
   },
   "minStake": 0.1,
-  "maxStake": 20.0,
+  "maxStake": 20,
   "features": [
     "free-spins",
     "multipliers",
@@ -32,8 +32,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_hansel_and_gretel_icon5_06afeea78b.png",
   "sourceUrls": [
     "https://netent.com/games/fairytale-legends-hansel-and-gretel"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/fairytale-legends-hansel-and-gretel.webp",
+    "alt": "Fairytale Legends: Hansel and Gretel Spielautomat"
+  }
 }

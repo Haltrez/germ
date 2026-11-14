@@ -5,13 +5,13 @@
   "rtp": 96.03,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 9.9",
-  "maxWinMultiplier": 10180.0,
+  "maxWinMultiplier": 10180,
   "hitRate": 4.39,
   "reels": "TODO",
   "rows": "TODO",
   "winLines": "TODO",
   "minStake": 0.2,
-  "maxStake": 40.0,
+  "maxStake": 40,
   "features": [
     "free-spins",
     "multipliers",
@@ -28,8 +28,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_whats_up_witches_playin_ne_icon_thumbnail_346x346_863fa5189e.png",
   "sourceUrls": [
     "https://netent.com/games/what-s-up-witches"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/what-s-up-witches.webp",
+    "alt": "What's Up? Witches Spielautomat"
+  }
 }

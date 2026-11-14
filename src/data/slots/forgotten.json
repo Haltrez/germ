@@ -34,8 +34,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/06/66f1745bbd76ab79a04b2a2a_Forgotten_1020х1280-2.webp",
   "sourceUrls": [
     "https://bgaming.com/games/forgotten"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/forgotten.webp",
+    "alt": "Forgotten Spielautomat"
+  }
 }

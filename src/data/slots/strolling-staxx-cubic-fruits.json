@@ -5,7 +5,7 @@
   "rtp": 95.98,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 6.1",
-  "maxWinMultiplier": 1400.0,
+  "maxWinMultiplier": 1400,
   "hitRate": 5.88,
   "reels": 5,
   "rows": 3,
@@ -14,7 +14,7 @@
     "count": 10
   },
   "minStake": 0.15,
-  "maxStake": 300.0,
+  "maxStake": 300,
   "features": [
     "wilds",
     "respins"
@@ -29,8 +29,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_strolling_staxx_cubic_friut_icon5_8d7c5da12d.png",
   "sourceUrls": [
     "https://netent.com/games/strolling-staxx-cubic-fruits"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/strolling-staxx-cubic-fruits.webp",
+    "alt": "Strolling Staxx: Cubic Fruits Spielautomat"
+  }
 }

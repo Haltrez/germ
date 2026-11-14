@@ -25,8 +25,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/547/hero-desktop/0-1bd5b02d975614c7",
   "sourceUrls": [
     "https://www.playngo.com/games/sisters-of-the-sun"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/sisters-of-the-sun.webp",
+    "alt": "Sisters of the Sun Spielautomat"
+  }
 }

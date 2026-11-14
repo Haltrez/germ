@@ -5,7 +5,7 @@
   "rtp": 96.6,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 3",
-  "maxWinMultiplier": 1700.0,
+  "maxWinMultiplier": 1700,
   "hitRate": 1.89,
   "reels": 5,
   "rows": 3,
@@ -14,7 +14,7 @@
     "count": 25
   },
   "minStake": 0.25,
-  "maxStake": 50.0,
+  "maxStake": 50,
   "features": [
     "free-spins",
     "multipliers",
@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_mega_fortune_icon5_5a0e6219e8.png",
   "sourceUrls": [
     "https://netent.com/games/mega-fortune"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/mega-fortune.webp",
+    "alt": "Mega Fortune Spielautomat"
+  }
 }

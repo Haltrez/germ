@@ -5,7 +5,7 @@
   "rtp": 96.05,
   "volatility": "very-high",
   "volatilityNote": "very high",
-  "maxWinMultiplier": 10490.0,
+  "maxWinMultiplier": 10490,
   "hitRate": 11.55,
   "reels": "TODO",
   "rows": "TODO",
@@ -29,8 +29,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2026/01/Always_Up_x10000_1020x1280_1_11zon.jpeg",
   "sourceUrls": [
     "https://bgaming.com/games/always-up-x10000"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/always-up-x10000.webp",
+    "alt": "Always Up! x10000 Spielautomat"
+  }
 }

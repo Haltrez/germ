@@ -24,8 +24,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/309/hero-desktop/0-db7531a82a21220d",
   "sourceUrls": [
     "https://www.playngo.com/games/xmas-joker"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/xmas-joker.webp",
+    "alt": "Xmas Joker Spielautomat"
+  }
 }

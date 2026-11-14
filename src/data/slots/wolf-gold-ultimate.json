@@ -24,8 +24,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2024/10/Wolf-Gold-Ultimate_339x180.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/wolf-gold-ultimate/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/wolf-gold-ultimate.webp",
+    "alt": "Wolf Gold Ultimate Spielautomat"
+  }
 }

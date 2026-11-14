@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/693/hero-desktop/0-feb07cb874bbc099",
   "sourceUrls": [
     "https://www.playngo.com/games/game-of-gladiators-uprising"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/game-of-gladiators-uprising.webp",
+    "alt": "Game of Gladiators: Uprising Spielautomat"
+  }
 }

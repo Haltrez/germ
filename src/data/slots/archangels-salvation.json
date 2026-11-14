@@ -5,7 +5,7 @@
   "rtp": 96.08,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 5.5",
-  "maxWinMultiplier": 644.0,
+  "maxWinMultiplier": 644,
   "hitRate": 5.88,
   "reels": 6,
   "rows": 12,
@@ -14,7 +14,7 @@
     "count": 100
   },
   "minStake": 0.4,
-  "maxStake": 200.0,
+  "maxStake": 200,
   "features": [
     "free-spins",
     "wilds"
@@ -29,8 +29,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_archangels_icon5_a5fa5be564.png",
   "sourceUrls": [
     "https://netent.com/games/archangels-salvation"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/archangels-salvation.webp",
+    "alt": "Archangels: Salvation Spielautomat"
+  }
 }

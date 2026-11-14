@@ -27,8 +27,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/647/hero-desktop/0-d9a1da23f53c60d9",
   "sourceUrls": [
     "https://www.playngo.com/games/wild-falls-2"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/wild-falls-2.webp",
+    "alt": "Wild Falls 2 Spielautomat"
+  }
 }

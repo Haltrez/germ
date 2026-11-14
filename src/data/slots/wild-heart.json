@@ -5,7 +5,7 @@
   "rtp": 96.92,
   "volatility": "very-high",
   "volatilityNote": "very high",
-  "maxWinMultiplier": 2820.0,
+  "maxWinMultiplier": 2820,
   "hitRate": 7.8,
   "freeSpinsRate": 166,
   "reels": "TODO",
@@ -34,8 +34,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/66953e31ac74c5cc77ba80fe_Wild_Heart_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/wild-heart"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/wild-heart.webp",
+    "alt": "Wild Heart Spielautomat"
+  }
 }

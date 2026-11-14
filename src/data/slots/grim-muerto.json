@@ -25,8 +25,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/303/hero-desktop/0-8c9f6b89b6aa68d4",
   "sourceUrls": [
     "https://www.playngo.com/games/grim-muerto"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/grim-muerto.webp",
+    "alt": "Grim Muerto Spielautomat"
+  }
 }

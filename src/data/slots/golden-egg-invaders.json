@@ -5,7 +5,7 @@
   "rtp": 96.13,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 7",
-  "maxWinMultiplier": 2200.0,
+  "maxWinMultiplier": 2200,
   "hitRate": 5.56,
   "reels": "TODO",
   "rows": "TODO",
@@ -14,7 +14,7 @@
     "count": 20
   },
   "minStake": 0.1,
-  "maxStake": 300.0,
+  "maxStake": 300,
   "features": [
     "free-spins",
     "multipliers",
@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_golden_egg_invaders_icon5_70d922d0f9.png",
   "sourceUrls": [
     "https://netent.com/games/golden-egg-invaders"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/golden-egg-invaders.webp",
+    "alt": "Golden Egg Invaders Spielautomat"
+  }
 }

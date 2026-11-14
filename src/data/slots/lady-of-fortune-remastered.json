@@ -27,8 +27,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/976/hero-desktop/0-03c7f025a37f79c3",
   "sourceUrls": [
     "https://www.playngo.com/games/lady-of-fortune-remastered"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/lady-of-fortune-remastered.webp",
+    "alt": "Lady of Fortune Remastered Spielautomat"
+  }
 }

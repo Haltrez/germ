@@ -23,8 +23,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/564/hero-desktop/0-73ad55e7e1afcaa8",
   "sourceUrls": [
     "https://www.playngo.com/games/legend-of-the-ice-dragon"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/legend-of-the-ice-dragon.webp",
+    "alt": "Legend of the Ice Dragon Spielautomat"
+  }
 }

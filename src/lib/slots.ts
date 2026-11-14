@@ -52,7 +52,10 @@ export function getSlotViews(): Promise<SlotView[]> {
         indexable: txt.has(s.id),
         path: `/spielautomaten/${s.id}/`,
       }))
-      .sort((a, b) => Number(b.indexable) - Number(a.indexable) || a.data.name.localeCompare(b.data.name, 'de'));
+      .sort((a, b) =>
+        Number(b.indexable) - Number(a.indexable) ||
+        Number(!!b.data.thumbnail) - Number(!!a.data.thumbnail) ||
+        a.data.name.localeCompare(b.data.name, 'de'));
   })();
   return cache;
 }
@@ -129,4 +132,6 @@ export const lobbyRecord = (v: SlotView) => ({
   m: isTodo(v.data.maxWinMultiplier) ? null : v.data.maxWinMultiplier,
   c: v.categories,
   d: !!v.data.demoUrl,
+  t: v.data.thumbnail?.src ?? null,
+  x: v.indexable,
 });

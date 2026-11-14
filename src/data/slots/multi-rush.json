@@ -5,8 +5,8 @@
   "rtp": 96.15,
   "volatility": "high",
   "volatilityNote": "high",
-  "maxWinMultiplier": 10000.0,
-  "hitRate": 3.0,
+  "maxWinMultiplier": 10000,
+  "hitRate": 3,
   "freeSpinsRate": 226,
   "reels": "TODO",
   "rows": "TODO",
@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2026/06/Multi_Rush_1020х1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/multi-rush"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/multi-rush.webp",
+    "alt": "Multi Rush Spielautomat"
+  }
 }

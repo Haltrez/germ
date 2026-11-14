@@ -2,10 +2,10 @@
   "name": "Alice WonderLuck",
   "provider": "bgaming",
   "releaseDate": "2025-03-04",
-  "rtp": 97.0,
+  "rtp": 97,
   "volatility": "very-high",
   "volatilityNote": "very high",
-  "maxWinMultiplier": 10000.0,
+  "maxWinMultiplier": 10000,
   "hitRate": 4.8,
   "freeSpinsRate": 318,
   "reels": "TODO",
@@ -32,8 +32,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/06/67a63af239ba931169e5c224_Alice_wonderluck_1020х1280-2.webp",
   "sourceUrls": [
     "https://bgaming.com/games/alice-wonderluck"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/alice-wonderluck.webp",
+    "alt": "Alice WonderLuck Spielautomat"
+  }
 }

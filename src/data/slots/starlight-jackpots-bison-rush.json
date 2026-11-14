@@ -10,7 +10,9 @@
   "winLines": "TODO",
   "minStake": "TODO",
   "maxStake": "TODO",
-  "features": [],
+  "features": [
+    "respins"
+  ],
   "themes": [],
   "categories": [],
   "demoUrl": null,
@@ -19,8 +21,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/2026/03/sj-bison-rush-icon.jpg",
   "sourceUrls": [
     "https://www.greentube.com/game/starlight-jackpots-bison-rush/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/starlight-jackpots-bison-rush.webp",
+    "alt": "Starlight Jackpots Bison Rush Spielautomat"
+  }
 }

@@ -5,7 +5,7 @@
   "rtp": 96.97,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 3.7",
-  "maxWinMultiplier": 200.0,
+  "maxWinMultiplier": 200,
   "hitRate": 3.45,
   "reels": 5,
   "rows": 3,
@@ -14,7 +14,7 @@
     "count": 20
   },
   "minStake": 0.2,
-  "maxStake": 200.0,
+  "maxStake": 200,
   "features": [
     "free-spins"
   ],
@@ -28,8 +28,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_coins_of_egypt_icon5_38b757ba6a.png",
   "sourceUrls": [
     "https://netent.com/games/coins-of-egypt"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/coins-of-egypt.webp",
+    "alt": "Coins of Egypt Spielautomat"
+  }
 }

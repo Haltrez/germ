@@ -24,8 +24,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/352/hero-desktop/0-61a0a22aef8a1000",
   "sourceUrls": [
     "https://www.playngo.com/games/rise-of-olympus"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/rise-of-olympus.webp",
+    "alt": "Rise of Olympus Spielautomat"
+  }
 }

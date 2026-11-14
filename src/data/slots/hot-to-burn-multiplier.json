@@ -24,8 +24,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2024/06/Hot_to_Burn_Multiplier™_EN_339x180.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/hot-to-burn-multiplier/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/hot-to-burn-multiplier.webp",
+    "alt": "Hot to Burn Multiplier Spielautomat"
+  }
 }

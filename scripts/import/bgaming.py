@@ -26,7 +26,8 @@ for u in urls:
     if not name: continue
     name = re.sub(r'\bMEGAWAYS\b', 'Megaways', name)
     name = re.sub(r'(?<=\w) (Of|The|In|And|With|On) ', lambda m: f' {m.group(1).lower()} ', name)
-    g = {'slug': slug, 'name': name, 'url': u}
+    og = re.search(r'og:image" content="([^"]+)"', s)
+    g = {'slug': slug, 'name': name, 'url': u, 'thumb': og.group(1) if og else None}
     m = re.search(r'RTP ([\d.]+) %', t); g['rtp'] = float(m.group(1)) if m else None
     m = re.search(r'Volatility (Very high|Medium-high|Low-high|Low-medium|Medium|High|Low|Extreme)\b', t, re.I)
     if m:

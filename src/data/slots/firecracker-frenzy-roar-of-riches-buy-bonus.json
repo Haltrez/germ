@@ -10,9 +10,7 @@
   "winLines": "TODO",
   "minStake": "TODO",
   "maxStake": "TODO",
-  "features": [
-    "bonus-buy"
-  ],
+  "features": [],
   "themes": [],
   "categories": [],
   "demoUrl": null,
@@ -21,8 +19,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/2026/09/firecracker-frenzy-roar-of-riches-icon.jpg",
   "sourceUrls": [
     "https://www.greentube.com/game/firecracker-frenzy-roar-of-riches-buy-bonus/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/firecracker-frenzy-roar-of-riches-buy-bonus.webp",
+    "alt": "Firecracker Frenzy Roar of Riches Buy Bonus Spielautomat"
+  }
 }

@@ -5,7 +5,7 @@
   "rtp": 96.11,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 9.5",
-  "maxWinMultiplier": 9300.0,
+  "maxWinMultiplier": 9300,
   "hitRate": 2.7,
   "reels": 5,
   "rows": 4,
@@ -14,7 +14,7 @@
     "count": 1024
   },
   "minStake": 0.1,
-  "maxStake": 100.0,
+  "maxStake": 100,
   "features": [
     "free-spins",
     "multipliers",
@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_serengeti_kings_icon5_baa3f14e84.png",
   "sourceUrls": [
     "https://netent.com/games/silverback-gold"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/silverback-gold.webp",
+    "alt": "Silverback Gold Spielautomat"
+  }
 }

@@ -5,7 +5,7 @@
   "rtp": 96.22,
   "volatility": "medium",
   "volatilityNote": "medium",
-  "maxWinMultiplier": 5000.0,
+  "maxWinMultiplier": 5000,
   "hitRate": 2.99,
   "reels": "TODO",
   "rows": "TODO",
@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2026/08/Red_Hot_Chilli_Chickens_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/red-hot-chilli-chickens"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/red-hot-chilli-chickens.webp",
+    "alt": "Red Hot Chilli Chickens Spielautomat"
+  }
 }

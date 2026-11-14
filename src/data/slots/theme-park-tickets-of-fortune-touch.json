@@ -5,7 +5,7 @@
   "rtp": 96.52,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 5.3",
-  "maxWinMultiplier": 1000.0,
+  "maxWinMultiplier": 1000,
   "hitRate": 3.57,
   "reels": 5,
   "rows": 3,
@@ -14,7 +14,7 @@
     "count": 50
   },
   "minStake": 0.25,
-  "maxStake": 250.0,
+  "maxStake": 250,
   "features": [
     "multipliers",
     "wilds"
@@ -29,8 +29,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_tptof_icon5_e04f8d7b57.png",
   "sourceUrls": [
     "https://netent.com/games/theme-park-tickets-of-fortune-touch"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/theme-park-tickets-of-fortune-touch.webp",
+    "alt": "Theme Park: Tickets of Fortune Spielautomat"
+  }
 }

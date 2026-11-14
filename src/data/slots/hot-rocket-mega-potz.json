@@ -5,7 +5,7 @@
   "rtp": 94.15,
   "volatility": "high",
   "volatilityNote": "medium-high",
-  "maxWinMultiplier": 6030.0,
+  "maxWinMultiplier": 6030,
   "hitRate": 3.55,
   "freeSpinsRate": 250,
   "reels": "TODO",
@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2026/09/Hot_Rocket_Mega_Potz_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/hot-rocket-mega-potz"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/hot-rocket-mega-potz.webp",
+    "alt": "Hot Rocket Mega Potz Spielautomat"
+  }
 }

@@ -10,7 +10,9 @@
   "winLines": "TODO",
   "minStake": "TODO",
   "maxStake": "TODO",
-  "features": [],
+  "features": [
+    "free-spins"
+  ],
   "themes": [],
   "categories": [],
   "demoUrl": null,
@@ -19,8 +21,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/2026/06/silver-lux-magic-sevens-icon.jpg",
   "sourceUrls": [
     "https://www.greentube.com/game/silver-lux-magic-sevens/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/silver-lux-magic-sevens.webp",
+    "alt": "Silver Lux – Magic Sevens Spielautomat"
+  }
 }

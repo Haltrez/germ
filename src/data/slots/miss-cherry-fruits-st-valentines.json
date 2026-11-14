@@ -5,7 +5,7 @@
   "rtp": 96.13,
   "volatility": "medium",
   "volatilityNote": "medium",
-  "maxWinMultiplier": 1000.0,
+  "maxWinMultiplier": 1000,
   "hitRate": 5.87,
   "reels": "TODO",
   "rows": "TODO",
@@ -32,8 +32,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/66953441f3514f320bb8fdd2_Miss_Cherry_Fruits_Valentine_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/miss-cherry-fruits-st-valentines"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/miss-cherry-fruits-st-valentines.webp",
+    "alt": "Miss Cherry Fruits St.Valentines Spielautomat"
+  }
 }

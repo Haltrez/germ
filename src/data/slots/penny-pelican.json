@@ -5,7 +5,7 @@
   "rtp": 95.98,
   "volatility": "very-high",
   "volatilityNote": "very high",
-  "maxWinMultiplier": 3525.0,
+  "maxWinMultiplier": 3525,
   "hitRate": 3.55,
   "freeSpinsRate": 177,
   "reels": "TODO",
@@ -33,8 +33,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/6695361ac99d367b4d815170_Penny_Pelican_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/penny-pelican"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/penny-pelican.webp",
+    "alt": "Penny Pelican Spielautomat"
+  }
 }

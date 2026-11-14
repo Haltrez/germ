@@ -4,7 +4,7 @@
   "releaseDate": "TODO",
   "rtp": 96.61,
   "volatility": "high",
-  "maxWinMultiplier": 10000.0,
+  "maxWinMultiplier": 10000,
   "reels": "TODO",
   "rows": "TODO",
   "grid": "5×3",
@@ -22,8 +22,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2022/07/Magic-Money-Maze™_EN_339x180_04.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/magic-money-maze/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/magic-money-maze.webp",
+    "alt": "Magic Money Maze Spielautomat"
+  }
 }

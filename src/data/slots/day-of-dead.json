@@ -24,8 +24,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2021/10/Day-of-Dead_339x180-2.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/day-of-dead/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/day-of-dead.webp",
+    "alt": "Day of Dead Spielautomat"
+  }
 }

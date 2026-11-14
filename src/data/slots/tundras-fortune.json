@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2023/09/Tundras-Fortune_339x180-1.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/tundras-fortune/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/tundras-fortune.webp",
+    "alt": "Tundra’s Fortune Spielautomat"
+  }
 }

@@ -27,8 +27,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1069/hero-desktop/0-601f6ff867d68348",
   "sourceUrls": [
     "https://www.playngo.com/games/shark-feast"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/shark-feast.webp",
+    "alt": "Shark Feast Spielautomat"
+  }
 }

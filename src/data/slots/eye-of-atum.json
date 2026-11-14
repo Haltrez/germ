@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/638/hero-desktop/0-b3be6b1c07871173",
   "sourceUrls": [
     "https://www.playngo.com/games/eye-of-atum"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/eye-of-atum.webp",
+    "alt": "Eye of Atum Spielautomat"
+  }
 }

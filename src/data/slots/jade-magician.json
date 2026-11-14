@@ -27,8 +27,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/326/hero-desktop/0-b852ef1cc7e1194a",
   "sourceUrls": [
     "https://www.playngo.com/games/jade-magician"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/jade-magician.webp",
+    "alt": "Jade Magician Spielautomat"
+  }
 }

@@ -1,0 +1,31 @@
+{
+  "name": "Thunder Cash – Solid Sevens",
+  "provider": "novomatic",
+  "releaseDate": "2026-03-03",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 5,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/2025/07/tc-solid-sevens-icon.jpg",
+  "sourceUrls": [
+    "https://www.greentube.com/game/thunder-cash-solid-sevens/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/thunder-cash-solid-sevens.webp",
+    "alt": "Thunder Cash – Solid Sevens Spielautomat"
+  }
+}

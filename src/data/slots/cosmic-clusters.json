@@ -28,8 +28,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2026/07/Cosmic-Clusters_339x180_EN.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/cosmic-clusters/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/cosmic-clusters.webp",
+    "alt": "Cosmic Clusters! Spielautomat"
+  }
 }

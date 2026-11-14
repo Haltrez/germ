@@ -25,8 +25,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/341/hero-desktop/0-811ae97afb40ef3b",
   "sourceUrls": [
     "https://www.playngo.com/games/gold-king"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/gold-king.webp",
+    "alt": "Gold King Spielautomat"
+  }
 }

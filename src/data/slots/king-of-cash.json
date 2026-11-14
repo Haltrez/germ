@@ -5,7 +5,7 @@
   "rtp": 96.34,
   "volatility": "very-high",
   "volatilityNote": "very high",
-  "maxWinMultiplier": 1039.0,
+  "maxWinMultiplier": 1039,
   "hitRate": 12.28,
   "reels": "TODO",
   "rows": "TODO",
@@ -29,8 +29,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/06/64fd62f3db6ee793b9c33142_6400b2186674d73d1528a446_King_of_CASHlogo_vertiсal.webp",
   "sourceUrls": [
     "https://bgaming.com/games/king-of-cash"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/king-of-cash.webp",
+    "alt": "King of Cash Spielautomat"
+  }
 }

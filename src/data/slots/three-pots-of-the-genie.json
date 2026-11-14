@@ -21,8 +21,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1113/hero-desktop/0-7fd686e904d8325b",
   "sourceUrls": [
     "https://www.playngo.com/games/three-pots-of-the-genie"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/three-pots-of-the-genie.webp",
+    "alt": "Three Pots of the Genie Spielautomat"
+  }
 }

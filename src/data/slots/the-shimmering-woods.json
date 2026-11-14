@@ -29,8 +29,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/472/hero-desktop/0-cd709a873b7936ce",
   "sourceUrls": [
     "https://www.playngo.com/games/the-shimmering-woods"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/the-shimmering-woods.webp",
+    "alt": "The Shimmering Woods Spielautomat"
+  }
 }

@@ -2,10 +2,10 @@
   "name": "ZEUS’ SANCTUARY",
   "provider": "bgaming",
   "releaseDate": "2022-05-04",
-  "rtp": 97.0,
+  "rtp": 97,
   "volatility": "medium",
   "volatilityNote": "medium",
-  "maxWinMultiplier": 2750.0,
+  "maxWinMultiplier": 2750,
   "hitRate": 3.9,
   "freeSpinsRate": 156,
   "reels": "TODO",
@@ -33,8 +33,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/06/64fd5eeb7fae295e3d3a9c43_640f2f0f93b3429a0f8b6491_Zeus_Sanctuarylogo_vertiсal.webp",
   "sourceUrls": [
     "https://bgaming.com/games/zeus-sanctuary"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/zeus-sanctuary.webp",
+    "alt": "ZEUS’ SANCTUARY Spielautomat"
+  }
 }

@@ -27,8 +27,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/591/hero-desktop/0-bf1fcd3508cbddb8",
   "sourceUrls": [
     "https://www.playngo.com/games/clash-of-camelot"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/clash-of-camelot.webp",
+    "alt": "Clash of Camelot Spielautomat"
+  }
 }

@@ -24,8 +24,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/709/hero-desktop/0-0271683fda36797b",
   "sourceUrls": [
     "https://www.playngo.com/games/slashimi"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/slashimi.webp",
+    "alt": "Slashimi Spielautomat"
+  }
 }

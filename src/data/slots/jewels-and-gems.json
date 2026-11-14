@@ -1,0 +1,33 @@
+{
+  "name": "Jewels and Gems",
+  "provider": "novomatic",
+  "releaseDate": "2023-12-12",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "multipliers"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/jewels-and-gems-icon-new.jpg",
+  "sourceUrls": [
+    "https://www.greentube.com/game/jewels-and-gems/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/jewels-and-gems.webp",
+    "alt": "Jewels and Gems Spielautomat"
+  }
+}

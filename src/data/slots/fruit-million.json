@@ -5,7 +5,7 @@
   "rtp": 97.34,
   "volatility": "high",
   "volatilityNote": "medium-high",
-  "maxWinMultiplier": 3000.0,
+  "maxWinMultiplier": 3000,
   "hitRate": 4.3,
   "reels": "TODO",
   "rows": "TODO",
@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/64fc274da51395bd3ae5af14_63ee3760ad415d96dc4ad79a_Fruit_Million_Game_Hero.webp",
   "sourceUrls": [
     "https://bgaming.com/games/fruit-million"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/fruit-million.webp",
+    "alt": "Fruit Million Spielautomat"
+  }
 }

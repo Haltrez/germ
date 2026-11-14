@@ -5,7 +5,7 @@
   "rtp": 96.09,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 16.09",
-  "maxWinMultiplier": 2007.0,
+  "maxWinMultiplier": 2007,
   "hitRate": 4.47,
   "reels": 5,
   "rows": 3,
@@ -14,7 +14,7 @@
     "count": 20
   },
   "minStake": 0.1,
-  "maxStake": 20.0,
+  "maxStake": 20,
   "features": [
     "multipliers",
     "wilds"
@@ -29,8 +29,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_mermaids_icon5_223b643039.png",
   "sourceUrls": [
     "https://netent.com/games/mermaids"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/mermaids.webp",
+    "alt": "Mermaids Spielautomat"
+  }
 }

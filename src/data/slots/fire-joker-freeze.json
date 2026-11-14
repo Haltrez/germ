@@ -25,8 +25,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/473/hero-desktop/0-b7af707261e7617c",
   "sourceUrls": [
     "https://www.playngo.com/games/fire-joker-freeze"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/fire-joker-freeze.webp",
+    "alt": "Fire Joker Freeze Spielautomat"
+  }
 }

@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/465/hero-desktop/0-771676a1ee336364",
   "sourceUrls": [
     "https://www.playngo.com/games/the-paying-piano-club"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/the-paying-piano-club.webp",
+    "alt": "The Paying Piano Club Spielautomat"
+  }
 }

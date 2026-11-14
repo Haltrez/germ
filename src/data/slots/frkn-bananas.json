@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/1693_hero_Device_Desktop.png",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/frkn-bananas"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/frkn-bananas.webp",
+    "alt": "FRKN Bananas Spielautomat"
+  }
 }

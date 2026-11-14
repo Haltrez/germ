@@ -5,7 +5,7 @@
   "rtp": 96.18,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 9.8",
-  "maxWinMultiplier": 10078.0,
+  "maxWinMultiplier": 10078,
   "hitRate": 3.01,
   "reels": 5,
   "rows": 3,
@@ -14,7 +14,7 @@
     "count": 10
   },
   "minStake": 0.1,
-  "maxStake": 40.0,
+  "maxStake": 40,
   "features": [
     "free-spins",
     "multipliers",
@@ -33,8 +33,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_monopoly_money_line_playin_ne_icon_thumbnail_346x346_8bde9b0471.png",
   "sourceUrls": [
     "https://netent.com/games/monopoly-money-line"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/monopoly-money-line.webp",
+    "alt": "MONOPOLY Money Line Spielautomat"
+  }
 }

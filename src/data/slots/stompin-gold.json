@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1075/hero-desktop/0-4c7650ce6a74f31f",
   "sourceUrls": [
     "https://www.playngo.com/games/stompin-gold"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/stompin-gold.webp",
+    "alt": "Stompin’ Gold Spielautomat"
+  }
 }

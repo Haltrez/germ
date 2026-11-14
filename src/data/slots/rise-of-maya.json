@@ -5,8 +5,8 @@
   "rtp": 96.42,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 9.8",
-  "maxWinMultiplier": 6200.0,
-  "hitRate": 4.0,
+  "maxWinMultiplier": 6200,
+  "hitRate": 4,
   "reels": 5,
   "rows": 3,
   "winLines": {
@@ -14,7 +14,7 @@
     "count": 10
   },
   "minStake": 0.1,
-  "maxStake": 150.0,
+  "maxStake": 150,
   "features": [
     "free-spins",
     "expanding-symbols",
@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_rise_of_maya_icon5_a92a67548a.png",
   "sourceUrls": [
     "https://netent.com/games/rise-of-maya"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/rise-of-maya.webp",
+    "alt": "Rise of Maya Spielautomat"
+  }
 }

@@ -5,7 +5,7 @@
   "rtp": 98.06,
   "volatility": "medium",
   "volatilityNote": "medium",
-  "maxWinMultiplier": 8000.0,
+  "maxWinMultiplier": 8000,
   "hitRate": 2.1,
   "reels": "TODO",
   "rows": "TODO",
@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/08/685523d36feabecf6a6302d0_Cats_Soup_1020х1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/cats-soup"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/cats-soup.webp",
+    "alt": "Cat’s Soup Spielautomat"
+  }
 }

@@ -5,7 +5,7 @@
   "rtp": 96.55,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 6.5",
-  "maxWinMultiplier": 1000.0,
+  "maxWinMultiplier": 1000,
   "hitRate": 3.57,
   "reels": 5,
   "rows": 3,
@@ -14,7 +14,7 @@
     "count": 243
   },
   "minStake": 0.25,
-  "maxStake": 125.0,
+  "maxStake": 125,
   "features": [
     "expanding-symbols",
     "wilds"
@@ -29,8 +29,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_twin_happiness_icon5_03bca5c373.png",
   "sourceUrls": [
     "https://netent.com/games/twin-happiness"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/twin-happiness.webp",
+    "alt": "Twin Happiness Spielautomat"
+  }
 }

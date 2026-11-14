@@ -19,8 +19,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/2026/07/stairway-to-sevens-stack-collect-icon.jpg",
   "sourceUrls": [
     "https://www.greentube.com/game/stairway-to-sevens-stack-collect/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/stairway-to-sevens-stack-collect.webp",
+    "alt": "Stairway to Sevens Stack & Collect Spielautomat"
+  }
 }

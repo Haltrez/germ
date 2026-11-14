@@ -25,8 +25,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/685/hero-desktop/0-79ec46efc001029a",
   "sourceUrls": [
     "https://www.playngo.com/games/count-jokula"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/count-jokula.webp",
+    "alt": "Count Jokula Spielautomat"
+  }
 }

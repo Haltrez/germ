@@ -5,7 +5,7 @@
   "rtp": 96.1,
   "volatility": "medium",
   "volatilityNote": "medium",
-  "maxWinMultiplier": 6000.0,
+  "maxWinMultiplier": 6000,
   "hitRate": 3.6,
   "freeSpinsRate": 206,
   "reels": "TODO",
@@ -32,8 +32,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/07/66d9aac9e2f1947cf8c4d516_Aztecs_Claw_Wild_Dice_1020х1280-1.webp",
   "sourceUrls": [
     "https://bgaming.com/games/aztecs-claw-wild-dice"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/aztecs-claw-wild-dice.webp",
+    "alt": "Aztec’s Claw Wild Dice Spielautomat"
+  }
 }

@@ -19,8 +19,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/2026/08/dl-mighty-viking-dice-icon.jpg",
   "sourceUrls": [
     "https://www.greentube.com/game/diamond-link-mighty-viking-dice/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/diamond-link-mighty-viking-dice.webp",
+    "alt": "Diamond Link: Mighty Viking Dice Spielautomat"
+  }
 }

@@ -27,8 +27,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/906/hero-desktop/0-2015be5de9bb0087",
   "sourceUrls": [
     "https://www.playngo.com/games/lion-saga-odyssey"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/lion-saga-odyssey.webp",
+    "alt": "Lion Saga Odyssey Spielautomat"
+  }
 }

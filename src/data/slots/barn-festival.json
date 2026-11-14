@@ -27,8 +27,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2022/03/Barn-Festival_339x180.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/barn-festival/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/barn-festival.webp",
+    "alt": "Barn Festival Spielautomat"
+  }
 }

@@ -1,0 +1,34 @@
+{
+  "name": "Diamond Mystery – 81 Boosting Jokers",
+  "provider": "novomatic",
+  "releaseDate": "2024-10-01",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 4,
+  "rows": "TODO",
+  "winLines": {
+    "type": "ways",
+    "count": 81
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/dm-81-boosting-jokers-icon.jpg",
+  "sourceUrls": [
+    "https://www.greentube.com/game/diamond-mystery-81-boosting-jokers/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/diamond-mystery-81-boosting-jokers.webp",
+    "alt": "Diamond Mystery – 81 Boosting Jokers Spielautomat"
+  }
+}

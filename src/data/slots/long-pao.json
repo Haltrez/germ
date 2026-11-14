@@ -5,8 +5,8 @@
   "rtp": 96.96,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 3.8",
-  "maxWinMultiplier": 700.0,
-  "hitRate": 4.0,
+  "maxWinMultiplier": 700,
+  "hitRate": 4,
   "reels": 15,
   "rows": 3,
   "winLines": {
@@ -14,7 +14,7 @@
     "count": 25
   },
   "minStake": 0.25,
-  "maxStake": 250.0,
+  "maxStake": 250,
   "features": [
     "free-spins",
     "wilds",
@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_long_pao_icon5_8e60e1184a.png",
   "sourceUrls": [
     "https://netent.com/games/long-pao"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/long-pao.webp",
+    "alt": "Long Pao Spielautomat"
+  }
 }

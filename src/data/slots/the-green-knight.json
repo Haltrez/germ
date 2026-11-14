@@ -25,8 +25,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/471/hero-desktop/0-74e87d2ad07fc743",
   "sourceUrls": [
     "https://www.playngo.com/games/the-green-knight"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/the-green-knight.webp",
+    "alt": "The Green Knight Spielautomat"
+  }
 }

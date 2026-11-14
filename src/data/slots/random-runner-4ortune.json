@@ -1,0 +1,31 @@
+{
+  "name": "Random Runner 4ortune",
+  "provider": "novomatic",
+  "releaseDate": "2023-11-30",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 5,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/random-runnder-4ortune-icon.jpg",
+  "sourceUrls": [
+    "https://www.greentube.com/game/random-runner-4ortune/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/random-runner-4ortune.webp",
+    "alt": "Random Runner 4ortune Spielautomat"
+  }
+}

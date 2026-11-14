@@ -5,8 +5,8 @@
   "rtp": 98.9,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 9.9",
-  "maxWinMultiplier": 600.0,
-  "hitRate": 10.0,
+  "maxWinMultiplier": 600,
+  "hitRate": 10,
   "reels": 3,
   "rows": 3,
   "winLines": {
@@ -14,7 +14,7 @@
     "count": 5
   },
   "minStake": 0.1,
-  "maxStake": 2.0,
+  "maxStake": 2,
   "features": [],
   "themes": [],
   "categories": [],
@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_jackpot_6000_icon5_81475ac789.png",
   "sourceUrls": [
     "https://netent.com/games/jackpot-6000"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/jackpot-6000.webp",
+    "alt": "Jackpot 6000 Spielautomat"
+  }
 }

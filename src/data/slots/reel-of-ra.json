@@ -5,7 +5,7 @@
   "rtp": 97.02,
   "volatility": "medium",
   "volatilityNote": "medium",
-  "maxWinMultiplier": 2500.0,
+  "maxWinMultiplier": 2500,
   "hitRate": 7.51,
   "freeSpinsRate": 120,
   "reels": "TODO",
@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2026/06/Reel_of_ra_1020x1280_bgaming-1.webp",
   "sourceUrls": [
     "https://bgaming.com/games/reel-of-ra"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/reel-of-ra.webp",
+    "alt": "Reel of Ra Spielautomat"
+  }
 }

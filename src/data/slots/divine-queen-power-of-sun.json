@@ -2,10 +2,10 @@
   "name": "Divine Queen: Power of Sun",
   "provider": "bgaming",
   "releaseDate": "2026-10-01",
-  "rtp": 97.0,
+  "rtp": 97,
   "volatility": "high",
   "volatilityNote": "medium-high",
-  "maxWinMultiplier": 5000.0,
+  "maxWinMultiplier": 5000,
   "hitRate": 3.96,
   "freeSpinsRate": 234,
   "reels": "TODO",
@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2026/09/Divine_Queen__Power_of_Sun_1020х1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/divine-queen-power-of-sun"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/divine-queen-power-of-sun.webp",
+    "alt": "Divine Queen: Power of Sun Spielautomat"
+  }
 }

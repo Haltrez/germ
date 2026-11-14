@@ -5,7 +5,7 @@
   "rtp": 97.07,
   "volatility": "very-high",
   "volatilityNote": "very high",
-  "maxWinMultiplier": 10000.0,
+  "maxWinMultiplier": 10000,
   "hitRate": 4.03,
   "freeSpinsRate": 189,
   "reels": "TODO",
@@ -33,8 +33,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/669514c9019186e85838027c_Book_of_panda_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/book-of-panda-megaways-tm"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/book-of-panda-megaways-tm.webp",
+    "alt": "Book of Panda Megaways Spielautomat"
+  }
 }

@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2026/08/Hearts-of-Venus_339x180_EN.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/heart-of-venus/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/heart-of-venus.webp",
+    "alt": "Heart of Venus Spielautomat"
+  }
 }

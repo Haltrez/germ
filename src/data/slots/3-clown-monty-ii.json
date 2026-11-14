@@ -29,8 +29,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/691/hero-desktop/0-3bad3c688d3b631d",
   "sourceUrls": [
     "https://www.playngo.com/games/3-clown-monty-ii"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/3-clown-monty-ii.webp",
+    "alt": "3 Clown Monty II Spielautomat"
+  }
 }

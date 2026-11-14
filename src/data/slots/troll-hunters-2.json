@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/396/hero-desktop/0-917863b9aa4d59f4",
   "sourceUrls": [
     "https://www.playngo.com/games/troll-hunters-2"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/troll-hunters-2.webp",
+    "alt": "Troll Hunters 2 Spielautomat"
+  }
 }

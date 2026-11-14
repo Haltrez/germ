@@ -25,8 +25,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2022/08/Striking-Hot-5_339x180.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/striking-hot-5/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/striking-hot-5.webp",
+    "alt": "Striking Hot 5 Spielautomat"
+  }
 }

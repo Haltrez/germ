@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1014/hero-desktop/0-91651f4c8a31d93f",
   "sourceUrls": [
     "https://www.playngo.com/games/spinnin-records-raving-reels"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/spinnin-records-raving-reels.webp",
+    "alt": "Spinnin' Records: Raving Reels Spielautomat"
+  }
 }

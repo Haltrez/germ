@@ -5,7 +5,7 @@
   "rtp": 97.16,
   "volatility": "medium",
   "volatilityNote": "medium",
-  "maxWinMultiplier": 3000.0,
+  "maxWinMultiplier": 3000,
   "hitRate": 5.4,
   "reels": "TODO",
   "rows": "TODO",
@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/669515a834128c9674a9436d_Burning_Chilli_X_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/burning-chilli-x"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/burning-chilli-x.webp",
+    "alt": "Burning Chilli X Spielautomat"
+  }
 }

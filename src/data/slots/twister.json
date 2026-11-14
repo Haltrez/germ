@@ -5,8 +5,8 @@
   "rtp": 96.04,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 7.9",
-  "maxWinMultiplier": 4300.0,
-  "hitRate": 5.0,
+  "maxWinMultiplier": 4300,
+  "hitRate": 5,
   "reels": 4,
   "rows": 6,
   "winLines": {
@@ -14,7 +14,7 @@
     "count": 1296
   },
   "minStake": 0.2,
-  "maxStake": 100.0,
+  "maxStake": 100,
   "features": [
     "free-spins",
     "cascades",
@@ -32,8 +32,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_twister_icon5_816c10d2dd.png",
   "sourceUrls": [
     "https://netent.com/games/twister"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/twister.webp",
+    "alt": "Twister Spielautomat"
+  }
 }

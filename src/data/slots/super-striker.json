@@ -5,7 +5,7 @@
   "rtp": 96.93,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 7.4",
-  "maxWinMultiplier": 1700.0,
+  "maxWinMultiplier": 1700,
   "hitRate": 7.14,
   "reels": 3,
   "rows": 3,
@@ -14,7 +14,7 @@
     "count": 5
   },
   "minStake": 0.1,
-  "maxStake": 75.0,
+  "maxStake": 75,
   "features": [
     "free-spins",
     "multipliers"
@@ -29,8 +29,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_super_striker_icon5_fb4f664258.png",
   "sourceUrls": [
     "https://netent.com/games/super-striker"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/super-striker.webp",
+    "alt": "Super Striker Spielautomat"
+  }
 }

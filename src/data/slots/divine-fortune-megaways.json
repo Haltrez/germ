@@ -5,7 +5,7 @@
   "rtp": 96.09,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 6.5",
-  "maxWinMultiplier": 4500.0,
+  "maxWinMultiplier": 4500,
   "hitRate": 2.44,
   "reels": "TODO",
   "rows": "TODO",
@@ -14,7 +14,7 @@
     "count": 117649
   },
   "minStake": 0.1,
-  "maxStake": 100.0,
+  "maxStake": 100,
   "features": [
     "free-spins",
     "megaways",
@@ -32,8 +32,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_divine_fortune_megaways_icon5_279f0907a8.png",
   "sourceUrls": [
     "https://netent.com/games/divine-fortune-megaways"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/divine-fortune-megaways.webp",
+    "alt": "Divine Fortune Megaways Spielautomat"
+  }
 }

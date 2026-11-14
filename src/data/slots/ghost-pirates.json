@@ -5,7 +5,7 @@
   "rtp": 96.88,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 6.2",
-  "maxWinMultiplier": 1000.0,
+  "maxWinMultiplier": 1000,
   "hitRate": 2.33,
   "reels": 5,
   "rows": 3,
@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_ghost_pirates_icon5_4e1cde1a03.png",
   "sourceUrls": [
     "https://netent.com/games/ghost-pirates"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/ghost-pirates.webp",
+    "alt": "Ghost Pirates Spielautomat"
+  }
 }

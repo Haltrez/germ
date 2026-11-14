@@ -28,8 +28,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1060/hero-desktop/0-82b69133a090b0e6",
   "sourceUrls": [
     "https://www.playngo.com/games/piggy-heist"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/piggy-heist.webp",
+    "alt": "Piggy Heist Spielautomat"
+  }
 }

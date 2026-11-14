@@ -5,7 +5,7 @@
   "rtp": 96.3,
   "volatility": "very-high",
   "volatilityNote": "very high",
-  "maxWinMultiplier": 12000.0,
+  "maxWinMultiplier": 12000,
   "hitRate": 2.08,
   "freeSpinsRate": 380,
   "reels": "TODO",
@@ -32,8 +32,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/03/669537056ecd30f9070dd013_Pop_Zen_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/pop-zen"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/pop-zen.webp",
+    "alt": "Pop Zen Spielautomat"
+  }
 }

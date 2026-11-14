@@ -5,7 +5,7 @@
   "rtp": 96.23,
   "volatility": "very-high",
   "volatilityNote": "very high",
-  "maxWinMultiplier": 1059.0,
+  "maxWinMultiplier": 1059,
   "hitRate": 12.28,
   "reels": "TODO",
   "rows": "TODO",
@@ -29,8 +29,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/07/Soccermania_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/soccermania"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/soccermania.webp",
+    "alt": "Soccermania Spielautomat"
+  }
 }

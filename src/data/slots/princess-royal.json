@@ -5,7 +5,7 @@
   "rtp": 97.1,
   "volatility": "high",
   "volatilityNote": "high",
-  "maxWinMultiplier": 9000.0,
+  "maxWinMultiplier": 9000,
   "hitRate": 4.06,
   "freeSpinsRate": 156,
   "reels": "TODO",
@@ -32,8 +32,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/6695376cf8acfa33973313f3_Princess_Royal_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/princess-royal"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/princess-royal.webp",
+    "alt": "Princess Royal Spielautomat"
+  }
 }

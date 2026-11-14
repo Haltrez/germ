@@ -24,8 +24,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/288/hero-desktop/0-3feb826ffb4f64c7",
   "sourceUrls": [
     "https://www.playngo.com/games/merry-xmas"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/merry-xmas.webp",
+    "alt": "Merry Xmas Spielautomat"
+  }
 }

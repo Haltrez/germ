@@ -25,8 +25,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/1732_hero_Device_Desktop16x9.png",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/rad-maxx"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/rad-maxx.webp",
+    "alt": "Rad Maxx Spielautomat"
+  }
 }

@@ -25,8 +25,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2026/09/Pelican-Payday_339x180_B.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/pelican-payday/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/pelican-payday.webp",
+    "alt": "Pelican Payday Spielautomat"
+  }
 }

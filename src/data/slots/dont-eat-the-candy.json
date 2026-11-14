@@ -5,7 +5,7 @@
   "rtp": 96.13,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 15.32",
-  "maxWinMultiplier": 3110.0,
+  "maxWinMultiplier": 3110,
   "hitRate": 5.44,
   "reels": "TODO",
   "rows": "TODO",
@@ -14,7 +14,7 @@
     "count": 25
   },
   "minStake": 0.1,
-  "maxStake": 150.0,
+  "maxStake": 150,
   "features": [
     "free-spins",
     "multipliers",
@@ -32,8 +32,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_dont_eat_the_candy_icon5_41b27a228a.png",
   "sourceUrls": [
     "https://netent.com/games/dont-eat-the-candy"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/dont-eat-the-candy.webp",
+    "alt": "Don’t Eat the Candy Spielautomat"
+  }
 }

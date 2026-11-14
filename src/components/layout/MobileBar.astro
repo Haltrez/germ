@@ -1,0 +1,17 @@
+---
+/** Sticky bottom bar on phones (like a mobile app bar). */
+import RandomDemoButton from '../ui/RandomDemoButton.astro';
+---
+<div class="fixed inset-x-0 bottom-0 z-40 border-t border-line bg-ink-950/95 px-4 py-2.5 backdrop-blur-md md:hidden" data-mobile-bar>
+  <div class="flex items-center gap-3">
+    <svg width="34" height="34" viewBox="0 0 40 40" aria-hidden="true" class="shrink-0">
+      <rect x="1" y="1" width="38" height="38" rx="11" fill="#f6cd68" />
+      <rect x="7" y="9" width="7" height="22" rx="3.5" fill="#060d24" /><rect x="16.5" y="9" width="7" height="22" rx="3.5" fill="#060d24" /><rect x="26" y="9" width="7" height="22" rx="3.5" fill="#060d24" />
+    </svg>
+    <div class="min-w-0 flex-1 leading-tight">
+      <p class="truncate font-title text-sm font-bold text-fg">Keine Idee?</p>
+      <p class="truncate text-xs text-subtle">Lass den Würfel entscheiden</p>
+    </div>
+    <RandomDemoButton label="Zufallsslot" class="!min-h-10 !px-4 text-sm" />
+  </div>
+</div>

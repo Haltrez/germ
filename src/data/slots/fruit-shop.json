@@ -5,7 +5,7 @@
   "rtp": 96.71,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 4.8",
-  "maxWinMultiplier": 800.0,
+  "maxWinMultiplier": 800,
   "hitRate": 3.7,
   "reels": 5,
   "rows": 3,
@@ -14,7 +14,7 @@
     "count": 15
   },
   "minStake": 0.15,
-  "maxStake": 150.0,
+  "maxStake": 150,
   "features": [
     "free-spins",
     "multipliers",
@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_fruit_shop_icon5_3c31a4a0f1.png",
   "sourceUrls": [
     "https://netent.com/games/fruit-shop"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/fruit-shop.webp",
+    "alt": "Fruit Shop Spielautomat"
+  }
 }

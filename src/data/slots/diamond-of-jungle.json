@@ -5,7 +5,7 @@
   "rtp": 97.01,
   "volatility": "very-high",
   "volatilityNote": "very high",
-  "maxWinMultiplier": 1500.0,
+  "maxWinMultiplier": 1500,
   "hitRate": 5.09,
   "freeSpinsRate": 122,
   "reels": "TODO",
@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/669517643db97fcaa67446f3_Diamond_of_Jungle_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/diamond-of-jungle"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/diamond-of-jungle.webp",
+    "alt": "Diamond of Jungle Spielautomat"
+  }
 }

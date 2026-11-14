@@ -5,7 +5,7 @@
   "rtp": 96.96,
   "volatility": "low",
   "volatilityNote": "low",
-  "maxWinMultiplier": 5000.0,
+  "maxWinMultiplier": 5000,
   "hitRate": 2.37,
   "reels": "TODO",
   "rows": "TODO",
@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/66953539e27373af09f89b47_Mummy_s_Gold_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/mummys-gold"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/mummys-gold.webp",
+    "alt": "Mummy’s Gold Spielautomat"
+  }
 }

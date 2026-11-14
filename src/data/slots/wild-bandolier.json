@@ -25,8 +25,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/661/hero-desktop/0-937c3db7a38e9f06",
   "sourceUrls": [
     "https://www.playngo.com/games/wild-bandolier"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/wild-bandolier.webp",
+    "alt": "Wild Bandolier Spielautomat"
+  }
 }

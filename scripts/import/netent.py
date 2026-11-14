@@ -21,7 +21,8 @@ for u in urls:
     title = re.search(r'<title>(.*?)</title>', s, re.S)
     name = re.sub(r'[™®©]', '', text(title.group(1)).split(' Slot - ')[0].split(' | ')[0]).strip() if title else None
     if not name: continue
-    g = {'slug': slug, 'name': name, 'url': u, 'demo': f'https://netent.com/demo/{slug}'}
+    ic = re.search(r'"url":"(https://fan-cdn\.nolimitcity\.com/small_[^"]*icon[^"]*\.png)"', s)
+    g = {'slug': slug, 'name': name, 'url': u, 'demo': f'https://netent.com/demo/{slug}', 'thumb': ic.group(1) if ic else None}
     m = re.search(r'([\d.]+)% RTP Volatility', t); g['rtp'] = float(m.group(1)) if m else None
     if g['rtp'] is not None and not 80 <= g['rtp'] <= 100: g['rtp'] = None
     m = re.search(r'"releaseDate":"(\d{4}-\d{2}-\d{2})', s)

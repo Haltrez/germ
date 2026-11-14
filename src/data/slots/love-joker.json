@@ -24,8 +24,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/610/hero-desktop/0-0dad08b0c509e66f",
   "sourceUrls": [
     "https://www.playngo.com/games/love-joker"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/love-joker.webp",
+    "alt": "Love Joker Spielautomat"
+  }
 }

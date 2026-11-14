@@ -14,7 +14,13 @@ const { demoUrl, demoVersionUrl, demoSourceName, name } = slot.data;
 ---
 <section id="demo" aria-label={`${name} Demo`} class="card scroll-mt-20 overflow-hidden p-0">
   <div class="flex items-center justify-between gap-3 border-b border-line px-4 py-2.5 text-xs">
-    <h2 class="font-display text-sm font-bold text-fg">{demoUrl ? <>{name} Demo <span class="font-sans font-semibold text-mint-300">· Spielgeld, kein Echtgeld</span></> : <>{name} · Demo folgt</>}</h2>
+    <h2 class="font-title text-sm font-bold text-fg">{demoUrl ? `${name} Demo` : `${name} · Demo folgt`}</h2>
+    {demoUrl && (
+      <button type="button" class="btn btn-secondary !min-h-9 !rounded-lg !px-3 !py-1 text-xs" data-demo-fs>
+        <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5" stroke="currentColor" stroke-width="2.2" fill="none" stroke-linecap="round" /></svg>
+        <span data-fs-label>Vollbild</span>
+      </button>
+    )}
   </div>
 
   <div class="relative aspect-[16/10] w-full bg-ink-950" data-demo-root data-demo-url={demoUrl ?? undefined} data-demo-version-url={demoVersionUrl} data-demo-hosts={DEMO_HOST_ALLOWLIST.join(' ')}>
@@ -79,18 +85,30 @@ const { demoUrl, demoVersionUrl, demoSourceName, name } = slot.data;
       iframe.className = 'absolute inset-0 h-full w-full border-0';
       iframe.allow = 'fullscreen; autoplay';
       iframe.referrerPolicy = 'no-referrer-when-downgrade';
-      const fs = document.createElement('button');
-      fs.type = 'button';
-      fs.className = 'btn btn-secondary absolute right-2 top-2 z-10 !min-h-9 !px-3 !py-1.5 text-xs backdrop-blur';
-      fs.textContent = 'Vollbild';
-      fs.addEventListener('click', () => {
-        const el = root as HTMLElement & { webkitRequestFullscreen?: () => void };
-        if (el.requestFullscreen) el.requestFullscreen().catch(() => {});
-        else el.webkitRequestFullscreen?.();
-      });
-      root.replaceChildren(iframe, fs);
+      root.replaceChildren(iframe);
       root.focus();
     });
+  });
+
+  // Fullscreen: native API where available (desktop, Android), CSS overlay fallback (iOS Safari).
+  document.querySelectorAll<HTMLButtonElement>('[data-demo-fs]').forEach((fsBtn) => {
+    const section = fsBtn.closest<HTMLElement>('#demo')!;
+    const label = fsBtn.querySelector('[data-fs-label]')!;
+    const setLabel = (on: boolean) => { label.textContent = on ? 'Schließen' : 'Vollbild'; };
+    const pseudoOff = () => { section.classList.remove('demo-pseudo-fs'); document.documentElement.style.overflow = ''; setLabel(false); };
+    fsBtn.addEventListener('click', () => {
+      if (document.fullscreenElement) { document.exitFullscreen(); return; }
+      if (section.classList.contains('demo-pseudo-fs')) { pseudoOff(); return; }
+      section.querySelector<HTMLButtonElement>('[data-demo-start]')?.click();
+      const el = section as HTMLElement & { webkitRequestFullscreen?: () => void };
+      if (el.requestFullscreen && document.fullscreenEnabled) {
+        el.requestFullscreen().catch(() => { section.classList.add('demo-pseudo-fs'); document.documentElement.style.overflow = 'hidden'; setLabel(true); });
+      } else {
+        section.classList.add('demo-pseudo-fs'); document.documentElement.style.overflow = 'hidden'; setLabel(true);
+      }
+    });
+    document.addEventListener('fullscreenchange', () => setLabel(document.fullscreenElement === section));
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && section.classList.contains('demo-pseudo-fs')) pseudoOff(); });
   });
 
   // Arrived via "Zufallsslot": start right away if external media is already allowed.
@@ -104,3 +122,9 @@ const { demoUrl, demoVersionUrl, demoSourceName, name } = slot.data;
     else btn?.focus();
   });
 </script>
+
+<style is:global>
+  #demo:fullscreen, #demo.demo-pseudo-fs { display: flex; flex-direction: column; border-radius: 0; background: #000; }
+  #demo.demo-pseudo-fs { position: fixed; inset: 0; z-index: 100; }
+  #demo:fullscreen [data-demo-root], #demo.demo-pseudo-fs [data-demo-root] { aspect-ratio: auto; flex: 1; }
+</style>

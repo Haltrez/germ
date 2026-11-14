@@ -27,8 +27,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1078/hero-desktop/0-1791f35b9c0b61d8",
   "sourceUrls": [
     "https://www.playngo.com/games/nugget-n-nonsense"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/nugget-n-nonsense.webp",
+    "alt": "Nugget n’ Nonsense Spielautomat"
+  }
 }

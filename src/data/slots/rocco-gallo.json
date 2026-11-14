@@ -24,8 +24,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/586/hero-desktop/0-4cd3abaaa7e03f75",
   "sourceUrls": [
     "https://www.playngo.com/games/rocco-gallo"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/rocco-gallo.webp",
+    "alt": "Rocco Gallo Spielautomat"
+  }
 }

@@ -5,7 +5,7 @@
   "rtp": 96.97,
   "volatility": "very-high",
   "volatilityNote": "very high",
-  "maxWinMultiplier": 20000.0,
+  "maxWinMultiplier": 20000,
   "hitRate": 2.6,
   "freeSpinsRate": 395,
   "reels": "TODO",
@@ -32,8 +32,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2026/08/Bonanza_Billion_Xtreme__1020х1280-1.webp",
   "sourceUrls": [
     "https://bgaming.com/games/bonanza-billion-xtreme"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/bonanza-billion-xtreme.webp",
+    "alt": "Bonanza Billion Xtreme Spielautomat"
+  }
 }

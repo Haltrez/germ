@@ -29,8 +29,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2024/03/Barnyard-Megahays-Megaways_339x180-1.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/barnyard-megahays-megaways/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/barnyard-megahays-megaways.webp",
+    "alt": "Barnyard Megahays Megaways Spielautomat"
+  }
 }

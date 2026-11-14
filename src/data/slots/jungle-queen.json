@@ -5,7 +5,7 @@
   "rtp": 96.15,
   "volatility": "high",
   "volatilityNote": "high",
-  "maxWinMultiplier": 10000.0,
+  "maxWinMultiplier": 10000,
   "hitRate": 4.22,
   "freeSpinsRate": 218,
   "reels": "TODO",
@@ -32,8 +32,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/07/6790caf2d14b554072ae331b_Jungle_Queen_1020х1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/jungle-queen"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/jungle-queen.webp",
+    "alt": "Jungle Queen Spielautomat"
+  }
 }

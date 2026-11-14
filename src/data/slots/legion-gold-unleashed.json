@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/678/hero-desktop/0-6e050bea2273d597",
   "sourceUrls": [
     "https://www.playngo.com/games/legion-gold-unleashed"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/legion-gold-unleashed.webp",
+    "alt": "Legion Gold Unleashed Spielautomat"
+  }
 }

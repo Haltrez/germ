@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/372/hero-desktop/0-d2493512dda60192",
   "sourceUrls": [
     "https://www.playngo.com/games/crystal-sun"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/crystal-sun.webp",
+    "alt": "Crystal Sun Spielautomat"
+  }
 }

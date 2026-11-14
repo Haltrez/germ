@@ -4,7 +4,7 @@
   "releaseDate": "TODO",
   "rtp": 96.03,
   "volatility": "TODO",
-  "maxWinMultiplier": 10000.0,
+  "maxWinMultiplier": 10000,
   "reels": "TODO",
   "rows": "TODO",
   "winLines": {
@@ -29,8 +29,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2022/09/Muertos-Multiplier-Megaways_339x180.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/muertos-multiplier-megaways/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/muertos-multiplier-megaways.webp",
+    "alt": "Muertos Multiplier Megaways Spielautomat"
+  }
 }

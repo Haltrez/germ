@@ -2,11 +2,11 @@
   "name": "Let It Burn",
   "provider": "netent",
   "releaseDate": "2023-03-10",
-  "rtp": 96.0,
+  "rtp": 96,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 5.7",
-  "maxWinMultiplier": 2700.0,
-  "hitRate": 4.0,
+  "maxWinMultiplier": 2700,
+  "hitRate": 4,
   "reels": "TODO",
   "rows": "TODO",
   "winLines": {
@@ -14,7 +14,7 @@
     "count": 1024
   },
   "minStake": 0.1,
-  "maxStake": 100.0,
+  "maxStake": 100,
   "features": [
     "free-spins",
     "multipliers",
@@ -32,8 +32,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_let_it_burn_icon5_0e27fbcd17.png",
   "sourceUrls": [
     "https://netent.com/games/let-it-burn"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/let-it-burn.webp",
+    "alt": "Let It Burn Spielautomat"
+  }
 }

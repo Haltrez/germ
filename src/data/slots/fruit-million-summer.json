@@ -5,7 +5,7 @@
   "rtp": 97.34,
   "volatility": "high",
   "volatilityNote": "medium-high",
-  "maxWinMultiplier": 3000.0,
+  "maxWinMultiplier": 3000,
   "hitRate": 4.3,
   "reels": "TODO",
   "rows": "TODO",
@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/66951f3affcb17a6aff9941e_Fruit_Million_Summer_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/fruit-million-summer"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/fruit-million-summer.webp",
+    "alt": "Fruit Million Summer Spielautomat"
+  }
 }

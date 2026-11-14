@@ -5,13 +5,13 @@
   "rtp": 96.13,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 11.63",
-  "maxWinMultiplier": 4361.0,
+  "maxWinMultiplier": 4361,
   "hitRate": 3.58,
   "reels": 6,
   "rows": 8,
   "winLines": "TODO",
   "minStake": 0.1,
-  "maxStake": 40.0,
+  "maxStake": 40,
   "features": [
     "free-spins",
     "cascades",
@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_gem_crush_icon5_40f076926c.png",
   "sourceUrls": [
     "https://netent.com/games/gem-crush"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/gem-crush.webp",
+    "alt": "Gem Crush Spielautomat"
+  }
 }

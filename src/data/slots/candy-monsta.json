@@ -5,7 +5,7 @@
   "rtp": 94.03,
   "volatility": "high",
   "volatilityNote": "medium-high",
-  "maxWinMultiplier": 2077.0,
+  "maxWinMultiplier": 2077,
   "hitRate": 4.33,
   "freeSpinsRate": 157,
   "reels": "TODO",
@@ -33,8 +33,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/669515cdb761c5d22cfc7072_Candy_Monsta_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/candy-monsta"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/candy-monsta.webp",
+    "alt": "Candy Monsta Spielautomat"
+  }
 }

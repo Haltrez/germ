@@ -24,8 +24,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/633/hero-desktop/0-4e049e325e8b51ef",
   "sourceUrls": [
     "https://www.playngo.com/games/idol-of-fortune"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/idol-of-fortune.webp",
+    "alt": "Idol of Fortune Spielautomat"
+  }
 }

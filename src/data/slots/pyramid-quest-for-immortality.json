@@ -5,8 +5,8 @@
   "rtp": 96.48,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 4.7",
-  "maxWinMultiplier": 1700.0,
-  "hitRate": 4.0,
+  "maxWinMultiplier": 1700,
+  "hitRate": 4,
   "reels": "TODO",
   "rows": "TODO",
   "winLines": {
@@ -14,7 +14,7 @@
     "count": 720
   },
   "minStake": 0.1,
-  "maxStake": 200.0,
+  "maxStake": 200,
   "features": [
     "cascades",
     "multipliers",
@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_pyramid_icon5_23a0b1a06c.png",
   "sourceUrls": [
     "https://netent.com/games/pyramid-quest-for-immortality"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/pyramid-quest-for-immortality.webp",
+    "alt": "Pyramid: Quest for Immortality Spielautomat"
+  }
 }

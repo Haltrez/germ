@@ -2,10 +2,10 @@
   "name": "Book of Hidden Tombs",
   "provider": "bgaming",
   "releaseDate": "2026-08-20",
-  "rtp": 97.0,
+  "rtp": 97,
   "volatility": "high",
   "volatilityNote": "high",
-  "maxWinMultiplier": 10000.0,
+  "maxWinMultiplier": 10000,
   "hitRate": 4.23,
   "freeSpinsRate": 196,
   "reels": "TODO",
@@ -34,8 +34,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2026/07/Book_of_Hidden_Tombs_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/book-of-hidden-tombs"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/book-of-hidden-tombs.webp",
+    "alt": "Book of Hidden Tombs Spielautomat"
+  }
 }

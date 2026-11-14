@@ -5,7 +5,7 @@
   "rtp": 96.11,
   "volatility": "high",
   "volatilityNote": "high",
-  "maxWinMultiplier": 10200.0,
+  "maxWinMultiplier": 10200,
   "hitRate": 2.59,
   "freeSpinsRate": 398,
   "reels": "TODO",
@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/06/64fc24e9f79914c7bc35d816_63e9e30abca95c8f1b61945f_AztecMagicBonanzalogo_vertical-2.webp",
   "sourceUrls": [
     "https://bgaming.com/games/aztec-magic-bonanza"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/aztec-magic-bonanza.webp",
+    "alt": "Aztec Magic Bonanza Spielautomat"
+  }
 }

@@ -28,8 +28,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1058/hero-desktop/0-bbad76088edd91ac",
   "sourceUrls": [
     "https://www.playngo.com/games/3-blades-blessings"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/3-blades-blessings.webp",
+    "alt": "3 Blades & Blessings Spielautomat"
+  }
 }

@@ -28,8 +28,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2016/05/04_Hockey-League-Wild-Match_desktop_330x140px-1.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/hockey-league-wild-match-slot/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/hockey-league-wild-match.webp",
+    "alt": "Hockey League Wild Match Spielautomat"
+  }
 }

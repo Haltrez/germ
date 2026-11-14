@@ -5,7 +5,7 @@
   "rtp": 97.09,
   "volatility": "very-high",
   "volatilityNote": "very high",
-  "maxWinMultiplier": 4684.0,
+  "maxWinMultiplier": 4684,
   "hitRate": 3.9,
   "freeSpinsRate": 156,
   "reels": "TODO",
@@ -32,8 +32,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/06/64fc11aa2a90afe306718e1e_63ef3a53bd155d7136b3dd83_LadyWolfMoonlogo_vertical.webp",
   "sourceUrls": [
     "https://bgaming.com/games/lady-wolf-moon"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/lady-wolf-moon.webp",
+    "alt": "Lady Wolf Moon Spielautomat"
+  }
 }

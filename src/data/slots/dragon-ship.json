@@ -21,8 +21,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/238/hero-desktop/0-37e582a8b9ba7adf",
   "sourceUrls": [
     "https://www.playngo.com/games/dragon-ship"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/dragon-ship.webp",
+    "alt": "Dragon Ship Spielautomat"
+  }
 }

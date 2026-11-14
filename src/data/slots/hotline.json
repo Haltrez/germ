@@ -5,7 +5,7 @@
   "rtp": 97.04,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 5.6",
-  "maxWinMultiplier": 1200.0,
+  "maxWinMultiplier": 1200,
   "hitRate": 3.57,
   "reels": 5,
   "rows": 3,
@@ -14,7 +14,7 @@
     "count": 30
   },
   "minStake": 0.15,
-  "maxStake": 450.0,
+  "maxStake": 450,
   "features": [
     "free-spins",
     "expanding-symbols",
@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_hotline_icon5_5031c0eed2.png",
   "sourceUrls": [
     "https://netent.com/games/hotline"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/hotline.webp",
+    "alt": "Hotline Spielautomat"
+  }
 }

@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2018/05/thumbs_5_lions_330x140px.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/5-lions-slot/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/5-lions.webp",
+    "alt": "5 Lions Spielautomat"
+  }
 }

@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2024/05/Sweet-Bonanza-1000_339x180.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/sweet-bonanza-1000/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/sweet-bonanza-1000.webp",
+    "alt": "Sweet Bonanza 1000 Spielautomat"
+  }
 }

@@ -5,7 +5,7 @@
   "rtp": 95.97,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 6.7",
-  "maxWinMultiplier": 2200.0,
+  "maxWinMultiplier": 2200,
   "hitRate": 2.44,
   "reels": 5,
   "rows": 3,
@@ -14,7 +14,7 @@
     "count": 20
   },
   "minStake": 0.2,
-  "maxStake": 50.0,
+  "maxStake": 50,
   "features": [
     "cascades",
     "multipliers",
@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_magic_maid_icon5_aba94cda10.png",
   "sourceUrls": [
     "https://netent.com/games/magic-maid-cafe"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/magic-maid-cafe.webp",
+    "alt": "Magic Maid Cafe Spielautomat"
+  }
 }

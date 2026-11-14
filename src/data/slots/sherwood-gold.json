@@ -25,8 +25,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/681/hero-desktop/0-453a1038d63f2354",
   "sourceUrls": [
     "https://www.playngo.com/games/sherwood-gold"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/sherwood-gold.webp",
+    "alt": "Sherwood Gold Spielautomat"
+  }
 }

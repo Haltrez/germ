@@ -28,8 +28,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2018/01/thumb-Ancient-Egypt_330x140-2px-1.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/ancient-egypt-slot/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/ancient-egypt.webp",
+    "alt": "Ancient Egypt Spielautomat"
+  }
 }

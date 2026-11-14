@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2024/05/Rise-of-Pyramids_339x180-1.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/rise-of-pyramids/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/rise-of-pyramids.webp",
+    "alt": "Rise of Pyramids Spielautomat"
+  }
 }

@@ -25,8 +25,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2025/09/Sweet-Rush-Bonanza_339x180-1.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/sweet-rush-bonanza/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/sweet-rush-bonanza.webp",
+    "alt": "Sweet Rush Bonanza Spielautomat"
+  }
 }

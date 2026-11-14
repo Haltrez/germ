@@ -5,7 +5,7 @@
   "rtp": 96.05,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 7.1",
-  "maxWinMultiplier": 800.0,
+  "maxWinMultiplier": 800,
   "hitRate": 3.7,
   "reels": 5,
   "rows": 4,
@@ -14,7 +14,7 @@
     "count": 48
   },
   "minStake": 0.2,
-  "maxStake": 500.0,
+  "maxStake": 500,
   "features": [
     "free-spins",
     "expanding-symbols",
@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_buckshot_wilds_icon5_62ce9b9764.png",
   "sourceUrls": [
     "https://netent.com/games/buckshot-wilds"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/buckshot-wilds.webp",
+    "alt": "Buckshot Wilds Spielautomat"
+  }
 }

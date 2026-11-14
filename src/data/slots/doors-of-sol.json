@@ -5,7 +5,7 @@
   "rtp": 96.69,
   "volatility": "very-high",
   "volatilityNote": "very high",
-  "maxWinMultiplier": 12960.0,
+  "maxWinMultiplier": 12960,
   "hitRate": 5.01,
   "freeSpinsRate": 259,
   "reels": "TODO",
@@ -33,8 +33,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/06/64fd62466df00192e5153aea_64099b1f9d51fcd2bf28df80_Doors_of_Sollogo_vertiсal-2.webp",
   "sourceUrls": [
     "https://bgaming.com/games/doors-of-sol"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/doors-of-sol.webp",
+    "alt": "Doors of Sol Spielautomat"
+  }
 }

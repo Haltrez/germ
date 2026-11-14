@@ -28,8 +28,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/871/hero-desktop/0-c5b7ed66241736f5",
   "sourceUrls": [
     "https://www.playngo.com/games/wildest-gambit"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/wildest-gambit.webp",
+    "alt": "Wildest Gambit Spielautomat"
+  }
 }

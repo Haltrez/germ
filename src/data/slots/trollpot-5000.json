@@ -5,7 +5,7 @@
   "rtp": 96.19,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 9.9",
-  "maxWinMultiplier": 5200.0,
+  "maxWinMultiplier": 5200,
   "hitRate": 16.67,
   "reels": 5,
   "rows": 3,
@@ -14,7 +14,7 @@
     "count": 1
   },
   "minStake": 0.02,
-  "maxStake": 200.0,
+  "maxStake": 200,
   "features": [
     "multipliers",
     "wilds"
@@ -29,8 +29,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_trollpot_5000_icon5_91fa75c73b.png",
   "sourceUrls": [
     "https://netent.com/games/trollpot-5000"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/trollpot-5000.webp",
+    "alt": "Trollpot 5000 Spielautomat"
+  }
 }

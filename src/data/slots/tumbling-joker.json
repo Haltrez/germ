@@ -10,9 +10,7 @@
   "winLines": "TODO",
   "minStake": "TODO",
   "maxStake": "TODO",
-  "features": [
-    "cascades"
-  ],
+  "features": [],
   "themes": [],
   "categories": [],
   "demoUrl": null,
@@ -21,8 +19,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/2026/06/tumbling-joker-icon.jpg",
   "sourceUrls": [
     "https://www.greentube.com/game/tumbling-joker/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/tumbling-joker.webp",
+    "alt": "Tumbling Joker Spielautomat"
+  }
 }

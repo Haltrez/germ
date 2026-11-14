@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/430/hero-desktop/0-af086dc67d03e3ab",
   "sourceUrls": [
     "https://www.playngo.com/games/riddle-reels-a-case-of-riches"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/riddle-reels-a-case-of-riches.webp",
+    "alt": "Riddle Reels: A Case of Riches Spielautomat"
+  }
 }

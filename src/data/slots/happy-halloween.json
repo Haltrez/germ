@@ -24,8 +24,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/305/hero-desktop/0-6500bd8d4eaded3e",
   "sourceUrls": [
     "https://www.playngo.com/games/happy-halloween"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/happy-halloween.webp",
+    "alt": "Happy Halloween Spielautomat"
+  }
 }

@@ -28,8 +28,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2019/03/Caishens-Cah™_339x180px-2.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/caishens-cash-slot/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/caishens-cash.webp",
+    "alt": "Caishen’s Cash Spielautomat"
+  }
 }

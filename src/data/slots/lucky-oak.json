@@ -5,7 +5,7 @@
   "rtp": 96.17,
   "volatility": "very-high",
   "volatilityNote": "very high",
-  "maxWinMultiplier": 10990.0,
+  "maxWinMultiplier": 10990,
   "hitRate": 5.09,
   "reels": "TODO",
   "rows": "TODO",
@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/669526820511e0be627f88e1_Lucky_Oak_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/lucky-oak"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/lucky-oak.webp",
+    "alt": "Lucky Oak Spielautomat"
+  }
 }

@@ -5,7 +5,7 @@
   "rtp": 95.97,
   "volatility": "high",
   "volatilityNote": "high",
-  "maxWinMultiplier": 15000.0,
+  "maxWinMultiplier": 15000,
   "hitRate": 2.59,
   "freeSpinsRate": 395,
   "reels": "TODO",
@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/6695111d83349b152f79f6c9_AlienFruits_bonanza_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/alien-fruits"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/alien-fruits.webp",
+    "alt": "Alien Fruits Spielautomat"
+  }
 }

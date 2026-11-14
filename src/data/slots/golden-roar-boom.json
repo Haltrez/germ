@@ -1,0 +1,31 @@
+{
+  "name": "Golden Roar BOOM",
+  "provider": "novomatic",
+  "releaseDate": "2024-09-24",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 5,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/golden-roar-boom-icon.jpg",
+  "sourceUrls": [
+    "https://www.greentube.com/game/golden-roar-boom/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/golden-roar-boom.webp",
+    "alt": "Golden Roar BOOM Spielautomat"
+  }
+}

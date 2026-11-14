@@ -1,0 +1,34 @@
+{
+  "name": "Diamond Mystery – 40 Charming 7’s 6reels",
+  "provider": "novomatic",
+  "releaseDate": "2026-05-05",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 6,
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 40
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/2026/01/dm-40-charming-7s-6-reels-icon.jpg",
+  "sourceUrls": [
+    "https://www.greentube.com/game/diamond-mystery-40-charming-7s-6reels/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/diamond-mystery-40-charming-7s-6reels.webp",
+    "alt": "Diamond Mystery – 40 Charming 7’s 6reels Spielautomat"
+  }
+}

@@ -24,8 +24,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/293/hero-desktop/0-a461db576868e267",
   "sourceUrls": [
     "https://www.playngo.com/games/easter-eggs"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/easter-eggs.webp",
+    "alt": "Easter Eggs Spielautomat"
+  }
 }

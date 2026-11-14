@@ -25,8 +25,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/442/hero-desktop/0-76d95a052796eb68",
   "sourceUrls": [
     "https://www.playngo.com/games/jolly-roger-2"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/jolly-roger-2.webp",
+    "alt": "Jolly Roger 2 Spielautomat"
+  }
 }

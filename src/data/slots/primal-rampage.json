@@ -25,8 +25,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1065/hero-desktop/0-2b26b058d35da055",
   "sourceUrls": [
     "https://www.playngo.com/games/primal-rampage"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/primal-rampage.webp",
+    "alt": "Primal Rampage Spielautomat"
+  }
 }

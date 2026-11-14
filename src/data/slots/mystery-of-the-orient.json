@@ -2,7 +2,7 @@
   "name": "Mystery of the Orient",
   "provider": "pragmatic-play",
   "releaseDate": "TODO",
-  "rtp": 96.0,
+  "rtp": 96,
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
   "reels": "TODO",
@@ -28,8 +28,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2023/02/Mystry-of-the-Orient_339x180.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/mystery-of-the-orient/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/mystery-of-the-orient.webp",
+    "alt": "Mystery of the Orient Spielautomat"
+  }
 }

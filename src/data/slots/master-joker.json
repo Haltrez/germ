@@ -24,8 +24,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2020/01/Master-Joker™_EN_339x180_01.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/master-joker-slot/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/master-joker.webp",
+    "alt": "Master Joker Spielautomat"
+  }
 }

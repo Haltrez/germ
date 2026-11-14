@@ -25,8 +25,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/705/hero-desktop/0-813e9b21e30b8683",
   "sourceUrls": [
     "https://www.playngo.com/games/undefeated-xerxes"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/undefeated-xerxes.webp",
+    "alt": "Undefeated Xerxes Spielautomat"
+  }
 }

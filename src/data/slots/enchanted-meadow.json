@@ -27,8 +27,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/225/hero-desktop/0-d9d603a45ee89b00",
   "sourceUrls": [
     "https://www.playngo.com/games/enchanted-meadow"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/enchanted-meadow.webp",
+    "alt": "Enchanted Meadow Spielautomat"
+  }
 }

@@ -5,13 +5,13 @@
   "rtp": 96.08,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 6.3",
-  "maxWinMultiplier": 1300.0,
+  "maxWinMultiplier": 1300,
   "hitRate": 5.88,
   "reels": "TODO",
   "rows": "TODO",
   "winLines": "TODO",
   "minStake": 0.2,
-  "maxStake": 200.0,
+  "maxStake": 200,
   "features": [
     "free-spins",
     "multipliers",
@@ -29,8 +29,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_Jack_hammer_4_icon5_15ead5b9ee.png",
   "sourceUrls": [
     "https://netent.com/games/jack-hammer-3"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/jack-hammer-3.webp",
+    "alt": "Jack Hammer 3: Diamond Affair Spielautomat"
+  }
 }

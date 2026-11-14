@@ -2,11 +2,11 @@
   "name": "Gold of Minos",
   "provider": "bgaming",
   "releaseDate": "2024-06-06",
-  "rtp": 96.0,
+  "rtp": 96,
   "volatility": "high",
   "volatilityNote": "medium-high",
-  "maxWinMultiplier": 15360.0,
-  "hitRate": 6.0,
+  "maxWinMultiplier": 15360,
+  "hitRate": 6,
   "reels": "TODO",
   "rows": "TODO",
   "winLines": {
@@ -32,8 +32,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/6669c6d5a90995776c2ec314_Gold_of_Minos_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/goldofminos"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/goldofminos.webp",
+    "alt": "Gold of Minos Spielautomat"
+  }
 }

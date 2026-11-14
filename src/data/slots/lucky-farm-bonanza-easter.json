@@ -5,7 +5,7 @@
   "rtp": 95.97,
   "volatility": "high",
   "volatilityNote": "high",
-  "maxWinMultiplier": 15000.0,
+  "maxWinMultiplier": 15000,
   "hitRate": 2.6,
   "freeSpinsRate": 395,
   "reels": "TODO",
@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/6695265ca5ec535c5b36f2f1_Lucky_Farm_Bonanza_102x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/lucky-farm-bonanza-easter"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/lucky-farm-bonanza-easter.webp",
+    "alt": "Lucky Farm Bonanza Easter Spielautomat"
+  }
 }

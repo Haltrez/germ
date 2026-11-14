@@ -2,10 +2,10 @@
   "name": "Train Heist Johnny Cash",
   "provider": "bgaming",
   "releaseDate": "2026-07-08",
-  "rtp": 97.0,
+  "rtp": 97,
   "volatility": "very-high",
   "volatilityNote": "very high",
-  "maxWinMultiplier": 10000.0,
+  "maxWinMultiplier": 10000,
   "hitRate": 2.99,
   "freeSpinsRate": 300,
   "reels": "TODO",
@@ -34,8 +34,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2026/06/train_heist_johnny_cash_1020_1280-816x1024.webp",
   "sourceUrls": [
     "https://bgaming.com/games/train-heist-johnny-cash"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/train-heist-johnny-cash.webp",
+    "alt": "Train Heist Johnny Cash Spielautomat"
+  }
 }

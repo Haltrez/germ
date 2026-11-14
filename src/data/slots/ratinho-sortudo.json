@@ -24,8 +24,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2024/12/Ratinho-Sortudo_339x180_B-1.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/ratinho-sortudo/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/ratinho-sortudo.webp",
+    "alt": "Ratinho Sortudo Spielautomat"
+  }
 }

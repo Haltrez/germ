@@ -28,8 +28,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/922/hero-desktop/0-4eb571b06e182df4",
   "sourceUrls": [
     "https://www.playngo.com/games/honey-rush-black-and-yellow"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/honey-rush-black-and-yellow.webp",
+    "alt": "Honey Rush Black and Yellow Spielautomat"
+  }
 }

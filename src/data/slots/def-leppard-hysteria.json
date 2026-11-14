@@ -21,8 +21,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/612/hero-desktop/0-67e4efec58e100d1",
   "sourceUrls": [
     "https://www.playngo.com/games/def-leppard-hysteria"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/def-leppard-hysteria.webp",
+    "alt": "Def Leppard: Hysteria Spielautomat"
+  }
 }

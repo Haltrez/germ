@@ -5,7 +5,7 @@
   "rtp": 96.03,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 6.1",
-  "maxWinMultiplier": 2591.0,
+  "maxWinMultiplier": 2591,
   "hitRate": 3.64,
   "reels": 5,
   "rows": 4,
@@ -14,7 +14,7 @@
     "count": 25
   },
   "minStake": 0.2,
-  "maxStake": 120.0,
+  "maxStake": 120,
   "features": [
     "free-spins",
     "walking-wilds",
@@ -32,8 +32,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_rabid_randy_gone_fishing_playin_ne_icon_thumbnail_346x346_9e030fb52b.png",
   "sourceUrls": [
     "https://netent.com/games/rabid-randy-gone-fishing"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/rabid-randy-gone-fishing.webp",
+    "alt": "Rabid Randy Gone Fishing Spielautomat"
+  }
 }

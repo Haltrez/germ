@@ -5,7 +5,7 @@
   "rtp": 96.06,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 7",
-  "maxWinMultiplier": 1600.0,
+  "maxWinMultiplier": 1600,
   "hitRate": 2.63,
   "reels": 5,
   "rows": 3,
@@ -14,7 +14,7 @@
     "count": 20
   },
   "minStake": 0.2,
-  "maxStake": 400.0,
+  "maxStake": 400,
   "features": [
     "free-spins",
     "multipliers",
@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_dark_king_forbidden_riches_icon5_5352844efc.png",
   "sourceUrls": [
     "https://netent.com/games/dark-king-forbidden-riches"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/dark-king-forbidden-riches.webp",
+    "alt": "Dark King: Forbidden Riches Spielautomat"
+  }
 }

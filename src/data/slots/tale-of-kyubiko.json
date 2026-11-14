@@ -25,8 +25,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/570/hero-desktop/0-f595c5b9b3eb6dac",
   "sourceUrls": [
     "https://www.playngo.com/games/tale-of-kyubiko"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/tale-of-kyubiko.webp",
+    "alt": "Tale of Kyubiko Spielautomat"
+  }
 }

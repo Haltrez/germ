@@ -23,8 +23,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/664/hero-desktop/0-e7f5afd5ae3adea4",
   "sourceUrls": [
     "https://www.playngo.com/games/boat-bonanza"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/boat-bonanza.webp",
+    "alt": "Boat Bonanza Spielautomat"
+  }
 }

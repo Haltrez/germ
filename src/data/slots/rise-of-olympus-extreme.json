@@ -27,8 +27,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1016/hero-desktop/0-0c28f49751b68a21",
   "sourceUrls": [
     "https://www.playngo.com/games/rise-of-olympus-extreme"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/rise-of-olympus-extreme.webp",
+    "alt": "Rise of Olympus Extreme Spielautomat"
+  }
 }

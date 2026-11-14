@@ -1,0 +1,33 @@
+{
+  "name": "Silver Lux – Sevens Hold’em Respin",
+  "provider": "novomatic",
+  "releaseDate": "2025-10-07",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 3,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/2025/07/silver-lux-holdem-respin-icon.jpg",
+  "sourceUrls": [
+    "https://www.greentube.com/game/silver-lux-sevens-holdem-respin/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/silver-lux-sevens-holdem-respin.webp",
+    "alt": "Silver Lux – Sevens Hold’em Respin Spielautomat"
+  }
+}

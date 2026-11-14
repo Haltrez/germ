@@ -2,10 +2,10 @@
   "name": "Mirax Circus Queen",
   "provider": "bgaming",
   "releaseDate": "2022-08-02",
-  "rtp": 96.0,
+  "rtp": 96,
   "volatility": "high",
   "volatilityNote": "medium-high",
-  "maxWinMultiplier": 1172.0,
+  "maxWinMultiplier": 1172,
   "hitRate": 3.64,
   "reels": "TODO",
   "rows": "TODO",
@@ -32,8 +32,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/06/64fd61fe4c01d1a2dcf6d020_64099de985302e7020b1cc07_Mirax_Circus_Queen_FEATURED_vertical-1.webp",
   "sourceUrls": [
     "https://bgaming.com/games/mirax-circus-queen"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/mirax-circus-queen.webp",
+    "alt": "Mirax Circus Queen Spielautomat"
+  }
 }

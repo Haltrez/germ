@@ -25,8 +25,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/320/hero-desktop/0-6cd155a8764e82bf",
   "sourceUrls": [
     "https://www.playngo.com/games/matsuri"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/matsuri.webp",
+    "alt": "Matsuri Spielautomat"
+  }
 }

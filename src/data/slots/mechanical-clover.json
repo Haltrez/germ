@@ -5,7 +5,7 @@
   "rtp": 95.42,
   "volatility": "high",
   "volatilityNote": "high",
-  "maxWinMultiplier": 24360.0,
+  "maxWinMultiplier": 24360,
   "hitRate": 7.96,
   "reels": "TODO",
   "rows": "TODO",
@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/669531d21276beed4e15eca9_Mechanical_Clover_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/mechanical-clover"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/mechanical-clover.webp",
+    "alt": "Mechanical Clover Spielautomat"
+  }
 }

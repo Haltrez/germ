@@ -1,0 +1,31 @@
+{
+  "name": "American Respin",
+  "provider": "novomatic",
+  "releaseDate": "2026-01-20",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/2025/04/1080x1080-2.jpg",
+  "sourceUrls": [
+    "https://www.greentube.com/game/american-respin/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/american-respin.webp",
+    "alt": "American Respin Spielautomat"
+  }
+}

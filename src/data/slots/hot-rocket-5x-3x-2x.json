@@ -5,7 +5,7 @@
   "rtp": 96.1,
   "volatility": "medium",
   "volatilityNote": "medium",
-  "maxWinMultiplier": 2500.0,
+  "maxWinMultiplier": 2500,
   "hitRate": 3.12,
   "reels": "TODO",
   "rows": "TODO",
@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2026/04/hot_rocket_5x_3x_2x_1020_1280-5.webp",
   "sourceUrls": [
     "https://bgaming.com/games/hot-rocket-5x-3x-2x"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/hot-rocket-5x-3x-2x.webp",
+    "alt": "HOT ROCKET 5x 3x 2x Spielautomat"
+  }
 }

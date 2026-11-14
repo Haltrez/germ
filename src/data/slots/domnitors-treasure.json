@@ -5,7 +5,7 @@
   "rtp": 95.24,
   "volatility": "high",
   "volatilityNote": "medium-high",
-  "maxWinMultiplier": 2000.0,
+  "maxWinMultiplier": 2000,
   "hitRate": 2.21,
   "freeSpinsRate": 208,
   "reels": "TODO",
@@ -34,8 +34,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/66951968950a5ba345d2f5ac_Domnitor_STreasure_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/domnitors-treasure"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/domnitors-treasure.webp",
+    "alt": "Domnitor’s Treasure Spielautomat"
+  }
 }

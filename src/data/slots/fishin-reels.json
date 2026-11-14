@@ -28,8 +28,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2021/02/Fishin_Reels_EN_339x180.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/fishin-reels/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/fishin-reels.webp",
+    "alt": "Fishin’ Reels Spielautomat"
+  }
 }

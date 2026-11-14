@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2019/08/John-Hunter-and-TOSQ™_339x180_01-2.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/john-hunter-and-the-tomb-of-the-scarab-queen-slot/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/john-hunter-and-the-tomb-of-the-scarab-queen.webp",
+    "alt": "John Hunter and the Tomb of the Scarab Queen Spielautomat"
+  }
 }

@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2019/10/Aladdin-and-the-Sorcerer™_339x180-1.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/aladdin-and-the-sorcerer-slot/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/aladdin-and-the-sorcerer.webp",
+    "alt": "Aladdin and the Sorcerer Spielautomat"
+  }
 }

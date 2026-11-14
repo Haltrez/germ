@@ -2,11 +2,11 @@
   "name": "Doomsday Saloon",
   "provider": "bgaming",
   "releaseDate": "2025-04-29",
-  "rtp": 97.0,
+  "rtp": 97,
   "volatility": "very-high",
   "volatilityNote": "very high",
-  "maxWinMultiplier": 10000.0,
-  "hitRate": 3.0,
+  "maxWinMultiplier": 10000,
+  "hitRate": 3,
   "freeSpinsRate": 321,
   "reels": "TODO",
   "rows": "TODO",
@@ -33,8 +33,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/67e40d639326aeb6b41416b6_Doomsday_Saloon_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/doomsday-saloon"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/doomsday-saloon.webp",
+    "alt": "Doomsday Saloon Spielautomat"
+  }
 }

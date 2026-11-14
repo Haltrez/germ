@@ -27,8 +27,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2023/12/The-Big-Dawgs_339x180.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/the-big-dawgs/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/the-big-dawgs.webp",
+    "alt": "The Big Dawgs Spielautomat"
+  }
 }

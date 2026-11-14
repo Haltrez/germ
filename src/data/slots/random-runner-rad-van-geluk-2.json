@@ -1,0 +1,31 @@
+{
+  "name": "Random Runner Rad van Geluk",
+  "provider": "novomatic",
+  "releaseDate": "2024-07-22",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 5,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/random-runner-rad-van-geluk-icon.jpg",
+  "sourceUrls": [
+    "https://www.greentube.com/game/random-runner-rad-van-geluk-2/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/random-runner-rad-van-geluk-2.webp",
+    "alt": "Random Runner Rad van Geluk Spielautomat"
+  }
+}

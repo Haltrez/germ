@@ -25,8 +25,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/337/hero-desktop/0-2b3b5a901d2f6f87",
   "sourceUrls": [
     "https://www.playngo.com/games/fu-er-dai"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/fu-er-dai.webp",
+    "alt": "FU ER DAI Spielautomat"
+  }
 }

@@ -1,0 +1,33 @@
+{
+  "name": "Piggy Prizes Wish of Riches Buy Bonus",
+  "provider": "novomatic",
+  "releaseDate": "2024-06-25",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 15,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/piggy-prizes-wish-of-riches-icon.jpg",
+  "sourceUrls": [
+    "https://www.greentube.com/game/piggy-prizes-wish-of-riches-buy-bonus/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/piggy-prizes-wish-of-riches-buy-bonus.webp",
+    "alt": "Piggy Prizes Wish of Riches Buy Bonus Spielautomat"
+  }
+}

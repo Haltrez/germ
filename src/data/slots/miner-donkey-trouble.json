@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/461/hero-desktop/0-ed491d5dfe961e61",
   "sourceUrls": [
     "https://www.playngo.com/games/miner-donkey-trouble"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/miner-donkey-trouble.webp",
+    "alt": "Miner Donkey Trouble Spielautomat"
+  }
 }

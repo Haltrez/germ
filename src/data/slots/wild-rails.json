@@ -24,8 +24,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/385/hero-desktop/0-9b70c7a015e610c7",
   "sourceUrls": [
     "https://www.playngo.com/games/wild-rails"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/wild-rails.webp",
+    "alt": "Wild Rails Spielautomat"
+  }
 }

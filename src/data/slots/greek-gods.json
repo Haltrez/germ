@@ -27,8 +27,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2019/11/Greek-Gods™_EN_339x180_02-1.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/greek-gods-slot/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/greek-gods.webp",
+    "alt": "Greek Gods Spielautomat"
+  }
 }

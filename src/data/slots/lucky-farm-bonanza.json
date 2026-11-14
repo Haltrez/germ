@@ -5,7 +5,7 @@
   "rtp": 95.97,
   "volatility": "high",
   "volatilityNote": "high",
-  "maxWinMultiplier": 15000.0,
+  "maxWinMultiplier": 15000,
   "hitRate": 2.6,
   "freeSpinsRate": 395,
   "reels": "TODO",
@@ -32,8 +32,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/666af74420af52bf7b53c2f7_Lucky_Farm_Bonanza_GAME_HERO.webp",
   "sourceUrls": [
     "https://bgaming.com/games/lucky-farm-bonanza"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/lucky-farm-bonanza.webp",
+    "alt": "Lucky Farm Bonanza Spielautomat"
+  }
 }

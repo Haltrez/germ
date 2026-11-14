@@ -27,8 +27,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/198/hero-desktop/0-28d4c0a60b19455c",
   "sourceUrls": [
     "https://www.playngo.com/games/space-race"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/space-race.webp",
+    "alt": "Space Race Spielautomat"
+  }
 }

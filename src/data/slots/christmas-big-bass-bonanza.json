@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2021/11/ChristmasBBB™_EN_339x180_04.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/christmas-big-bass-bonanza/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/christmas-big-bass-bonanza.webp",
+    "alt": "Christmas Big Bass Bonanza Spielautomat"
+  }
 }

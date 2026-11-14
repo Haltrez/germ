@@ -25,8 +25,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2025/07/Ice-Mints_339x180.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/ice-mints/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/ice-mints.webp",
+    "alt": "Ice Mints Spielautomat"
+  }
 }

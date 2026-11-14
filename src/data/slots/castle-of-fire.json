@@ -25,8 +25,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2023/12/Castle-of-Fire_339x180.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/castle-of-fire/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/castle-of-fire.webp",
+    "alt": "Castle of Fire Spielautomat"
+  }
 }

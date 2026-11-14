@@ -27,8 +27,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2024/08/Badge-Blitz_339x180.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/badge-blitz/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/badge-blitz.webp",
+    "alt": "Badge Blitz Spielautomat"
+  }
 }

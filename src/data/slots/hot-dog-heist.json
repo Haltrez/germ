@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/938/hero-desktop/0-edbc19bcec9a001c",
   "sourceUrls": [
     "https://www.playngo.com/games/hot-dog-heist"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/hot-dog-heist.webp",
+    "alt": "Hot Dog Heist Spielautomat"
+  }
 }

@@ -24,8 +24,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/387/hero-desktop/0-a6e0322211547d2b",
   "sourceUrls": [
     "https://www.playngo.com/games/ankh-of-anubis"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/ankh-of-anubis.webp",
+    "alt": "Ankh of Anubis Spielautomat"
+  }
 }

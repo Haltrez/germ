@@ -4,7 +4,7 @@
   "releaseDate": "TODO",
   "rtp": 96.5,
   "volatility": "TODO",
-  "maxWinMultiplier": 5000.0,
+  "maxWinMultiplier": 5000,
   "reels": "TODO",
   "rows": "TODO",
   "winLines": "TODO",
@@ -24,8 +24,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2025/05/Lucky-Monkey_339x180_NB.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/lucky-monkey/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/lucky-monkey.webp",
+    "alt": "Lucky Monkey Spielautomat"
+  }
 }

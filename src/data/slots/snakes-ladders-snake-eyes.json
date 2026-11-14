@@ -27,8 +27,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2022/10/Snake__Ladders_Snake_Eyes_339x180-1.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/snakes-ladders-snake-eyes/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/snakes-ladders-snake-eyes.webp",
+    "alt": "Snakes & Ladders – Snake Eyes Spielautomat"
+  }
 }

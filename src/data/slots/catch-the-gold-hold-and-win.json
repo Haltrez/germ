@@ -5,7 +5,7 @@
   "rtp": 94.98,
   "volatility": "high",
   "volatilityNote": "medium-high",
-  "maxWinMultiplier": 2000.0,
+  "maxWinMultiplier": 2000,
   "hitRate": 2.22,
   "freeSpinsRate": 209,
   "reels": "TODO",
@@ -35,8 +35,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/06/66952eb878abf3dbff3dd5c7_Catch_the_Gold_Hold__Win_1020x1280-2.webp",
   "sourceUrls": [
     "https://bgaming.com/games/catch-the-gold-hold-and-win"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/catch-the-gold-hold-and-win.webp",
+    "alt": "Catch the Gold Hold and Win Spielautomat"
+  }
 }

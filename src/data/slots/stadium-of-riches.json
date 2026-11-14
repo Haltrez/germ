@@ -25,8 +25,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1052/hero-desktop/0-d5a4de1cdc57ef5a",
   "sourceUrls": [
     "https://www.playngo.com/games/stadium-of-riches"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/stadium-of-riches.webp",
+    "alt": "Stadium of Riches Spielautomat"
+  }
 }

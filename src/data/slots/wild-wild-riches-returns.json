@@ -27,8 +27,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2025/10/Wild-Wild-Riches-Returns_339x180_EN.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/wild-wild-riches-returns/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/wild-wild-riches-returns.webp",
+    "alt": "Wild Wild Riches Returns Spielautomat"
+  }
 }

@@ -5,7 +5,7 @@
   "rtp": 96.2,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 8.7",
-  "maxWinMultiplier": 4900.0,
+  "maxWinMultiplier": 4900,
   "hitRate": 4.17,
   "reels": 5,
   "rows": 4,
@@ -14,7 +14,7 @@
     "count": 26
   },
   "minStake": 0.1,
-  "maxStake": 100.0,
+  "maxStake": 100,
   "features": [
     "free-spins",
     "multipliers",
@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_serengeti_kings_icon5_65bef2d0d7.png",
   "sourceUrls": [
     "https://netent.com/games/serengeti-kings"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/serengeti-kings.webp",
+    "alt": "Serengeti Kings Spielautomat"
+  }
 }

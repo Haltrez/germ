@@ -27,8 +27,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2026/03/Big-Bass-Trophy-Catch_339x180_EN.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/big-bass-trophy-catch/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/big-bass-trophy-catch.webp",
+    "alt": "Big Bass Trophy Catch Spielautomat"
+  }
 }

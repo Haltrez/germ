@@ -2,10 +2,10 @@
   "name": "Pork Knox",
   "provider": "netent",
   "releaseDate": "2021-08-10",
-  "rtp": 96.0,
+  "rtp": 96,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 5.1",
-  "maxWinMultiplier": 1000.0,
+  "maxWinMultiplier": 1000,
   "hitRate": 3.03,
   "reels": 5,
   "rows": 3,
@@ -14,7 +14,7 @@
     "count": 20
   },
   "minStake": 0.2,
-  "maxStake": 100.0,
+  "maxStake": 100,
   "features": [
     "free-spins",
     "multipliers"
@@ -29,8 +29,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_pork_knox_icon5_32cb176cfb.png",
   "sourceUrls": [
     "https://netent.com/games/pork-knox"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/pork-knox.webp",
+    "alt": "Pork Knox Spielautomat"
+  }
 }

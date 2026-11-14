@@ -5,7 +5,7 @@
   "rtp": 94.03,
   "volatility": "high",
   "volatilityNote": "medium-high",
-  "maxWinMultiplier": 2500.0,
+  "maxWinMultiplier": 2500,
   "hitRate": 6.2,
   "reels": "TODO",
   "rows": "TODO",
@@ -29,8 +29,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/66951e334220bd1e88e0e3aa_Four_lucky_diamonds_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/four-lucky-diamonds"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/four-lucky-diamonds.webp",
+    "alt": "Four Lucky Diamonds Spielautomat"
+  }
 }

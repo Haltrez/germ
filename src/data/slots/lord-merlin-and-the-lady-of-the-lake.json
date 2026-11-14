@@ -25,8 +25,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/470/hero-desktop/0-8a606ed93bf50eae",
   "sourceUrls": [
     "https://www.playngo.com/games/lord-merlin-and-the-lady-of-the-lake"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/lord-merlin-and-the-lady-of-the-lake.webp",
+    "alt": "Lord Merlin and The Lady of The Lake Spielautomat"
+  }
 }

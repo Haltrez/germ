@@ -27,8 +27,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2024/08/Big-Bass-Vegas-Double-Down-Deluxe_339x180.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/big-bass-double-down-deluxe/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/big-bass-double-down-deluxe.webp",
+    "alt": "Big Bass Vegas Double Down Deluxe Spielautomat"
+  }
 }

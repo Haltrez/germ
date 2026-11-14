@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/1640_hero_Device_Desktop16x9_euro.png",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/fire-my-laser"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/fire-my-laser.webp",
+    "alt": "Fire my Laser Spielautomat"
+  }
 }

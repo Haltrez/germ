@@ -2,7 +2,7 @@
   "name": "Wisdom of Athena 1000 Xmas",
   "provider": "pragmatic-play",
   "releaseDate": "TODO",
-  "rtp": 96.0,
+  "rtp": 96,
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
   "reels": "TODO",
@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2025/11/Wisdom-of-Athena-1000-Xmas_667x414_EN-1-339x180-1-1.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/wisdom-of-athena-1000-xmas/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/wisdom-of-athena-1000-xmas.webp",
+    "alt": "Wisdom of Athena 1000 Xmas Spielautomat"
+  }
 }

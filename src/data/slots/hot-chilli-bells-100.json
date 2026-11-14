@@ -2,10 +2,10 @@
   "name": "Hot Chilli Bells 100",
   "provider": "bgaming",
   "releaseDate": "2025-11-11",
-  "rtp": 97.0,
+  "rtp": 97,
   "volatility": "medium",
   "volatilityNote": "medium",
-  "maxWinMultiplier": 5000.0,
+  "maxWinMultiplier": 5000,
   "hitRate": 7.58,
   "freeSpinsRate": 118,
   "reels": "TODO",
@@ -35,8 +35,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2026/03/Hot_Chilli_Bells_100__1020х1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/hot-chilli-bells-100"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/hot-chilli-bells-100.webp",
+    "alt": "Hot Chilli Bells 100 Spielautomat"
+  }
 }

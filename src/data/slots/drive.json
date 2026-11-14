@@ -5,7 +5,7 @@
   "rtp": 96.7,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 6",
-  "maxWinMultiplier": 2100.0,
+  "maxWinMultiplier": 2100,
   "hitRate": 3.45,
   "reels": 5,
   "rows": 3,
@@ -14,7 +14,7 @@
     "count": 15
   },
   "minStake": 0.15,
-  "maxStake": 75.0,
+  "maxStake": 75,
   "features": [
     "free-spins",
     "multipliers",
@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_drive_icon5_ed65e58493.png",
   "sourceUrls": [
     "https://netent.com/games/drive"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/drive.webp",
+    "alt": "Drive: Multiplier Mayhem Spielautomat"
+  }
 }

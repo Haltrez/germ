@@ -5,7 +5,7 @@
   "rtp": 97.02,
   "volatility": "very-high",
   "volatilityNote": "very high",
-  "maxWinMultiplier": 25000.0,
+  "maxWinMultiplier": 25000,
   "hitRate": 11.18,
   "reels": "TODO",
   "rows": "TODO",
@@ -32,8 +32,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2026/09/Wild_Cash_Gold_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/wild-cash-gold"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/wild-cash-gold.webp",
+    "alt": "Wild Cash Gold Spielautomat"
+  }
 }

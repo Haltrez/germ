@@ -57,6 +57,8 @@ for g in json.load(open(src)):
         'availableInDE': 'TODO',
         'gglOperatorSlugs': [],
         'screenshots': [],
+        **({'thumbSource': g['thumb']} if g.get('thumb') else {}),
+        **({'thumbnail': {'src': f'/thumbs/{slug}.webp', 'alt': f"{g['name']} Spielautomat"}} if os.path.exists(os.path.join(out_dir, '..', '..', '..', 'public', 'thumbs', f'{slug}.webp')) else {}),
         'sourceUrls': [g['url']],
         'lastVerified': verified,
     }

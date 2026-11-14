@@ -5,7 +5,7 @@
   "rtp": 96.14,
   "volatility": "high",
   "volatilityNote": "high",
-  "maxWinMultiplier": 10000.0,
+  "maxWinMultiplier": 10000,
   "hitRate": 3.45,
   "freeSpinsRate": 276,
   "reels": "TODO",
@@ -33,8 +33,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2026/02/Recycle_Riches__1020х1280-1.webp",
   "sourceUrls": [
     "https://bgaming.com/games/recycle-riches"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/recycle-riches.webp",
+    "alt": "Recycle Riches Spielautomat"
+  }
 }

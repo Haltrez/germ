@@ -5,13 +5,13 @@
   "rtp": 96.62,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 4.4",
-  "maxWinMultiplier": 300.0,
+  "maxWinMultiplier": 300,
   "hitRate": 4.55,
   "reels": 5,
   "rows": 5,
   "winLines": "TODO",
   "minStake": 0.1,
-  "maxStake": 200.0,
+  "maxStake": 200,
   "features": [
     "free-spins",
     "cascades",
@@ -28,8 +28,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_finn_and_the_swirly_spin_icon5_c4e22b02e9.png",
   "sourceUrls": [
     "https://netent.com/games/finn-and-the-swirly-spin"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/finn-and-the-swirly-spin.webp",
+    "alt": "Finn and the Swirly Spin Spielautomat"
+  }
 }

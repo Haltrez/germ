@@ -24,8 +24,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/197/hero-desktop/0-304de441b7c828b6",
   "sourceUrls": [
     "https://www.playngo.com/games/photo-safari"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/photo-safari.webp",
+    "alt": "Photo Safari Spielautomat"
+  }
 }

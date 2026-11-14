@@ -4,12 +4,12 @@
   "releaseDate": "2016-01-05",
   "rtp": "TODO",
   "volatility": "TODO",
-  "maxWinMultiplier": 9000.0,
+  "maxWinMultiplier": 9000,
   "reels": "TODO",
   "rows": "TODO",
   "winLines": "TODO",
   "minStake": 0.1,
-  "maxStake": 1000.0,
+  "maxStake": 1000,
   "features": [],
   "themes": [],
   "categories": [],
@@ -21,8 +21,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_Baccarat_professional_series_icon5_2cdc486b9a.png",
   "sourceUrls": [
     "https://netent.com/games/baccarat-professional-series-1"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/baccarat-professional-series-1.webp",
+    "alt": "Baccarat professional series Spielautomat"
+  }
 }

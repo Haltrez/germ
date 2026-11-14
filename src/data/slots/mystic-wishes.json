@@ -24,8 +24,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2025/10/Mystic-Wishes_339x180_NB.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/mystic-wishes/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/mystic-wishes.webp",
+    "alt": "Mystic Wishes Spielautomat"
+  }
 }

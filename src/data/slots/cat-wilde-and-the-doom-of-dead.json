@@ -25,8 +25,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/427/hero-desktop/0-d0a86daecc53f0dc",
   "sourceUrls": [
     "https://www.playngo.com/games/cat-wilde-and-the-doom-of-dead"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/cat-wilde-and-the-doom-of-dead.webp",
+    "alt": "Cat Wilde and the Doom of Dead Spielautomat"
+  }
 }

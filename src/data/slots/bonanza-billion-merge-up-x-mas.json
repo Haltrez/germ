@@ -5,7 +5,7 @@
   "rtp": 97.04,
   "volatility": "very-high",
   "volatilityNote": "very high",
-  "maxWinMultiplier": 15000.0,
+  "maxWinMultiplier": 15000,
   "hitRate": 2.59,
   "freeSpinsRate": 386,
   "reels": "TODO",
@@ -32,8 +32,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2026/11/Bonanza_Billion_Merge_Up_X_mas_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/bonanza-billion-merge-up-x-mas"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/bonanza-billion-merge-up-x-mas.webp",
+    "alt": "Bonanza Billion Merge Up+ X-mas Spielautomat"
+  }
 }

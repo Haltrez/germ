@@ -5,7 +5,7 @@
   "rtp": 95.3,
   "volatility": "high",
   "volatilityNote": "medium-high",
-  "maxWinMultiplier": 2500.0,
+  "maxWinMultiplier": 2500,
   "hitRate": 2.21,
   "freeSpinsRate": 208,
   "reels": "TODO",
@@ -34,8 +34,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/07/68ba884e8e18aa91dfb0e9a0_Elvis_frog_in_Vegas_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/elvis-frog-in-vegas"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/elvis-frog-in-vegas.webp",
+    "alt": "Elvis Frog in Vegas Spielautomat"
+  }
 }

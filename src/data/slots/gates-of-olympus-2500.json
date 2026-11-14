@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2026/09/Gates-of-Olympus-2500_339x180_EN-1.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/gates-of-olympus-2500/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/gates-of-olympus-2500.webp",
+    "alt": "Gates of Olympus 2500 Spielautomat"
+  }
 }

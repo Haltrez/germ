@@ -28,8 +28,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/609/hero-desktop/0-48c7b8d21f9d6b2d",
   "sourceUrls": [
     "https://www.playngo.com/games/forge-of-gems"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/forge-of-gems.webp",
+    "alt": "Forge of Gems Spielautomat"
+  }
 }

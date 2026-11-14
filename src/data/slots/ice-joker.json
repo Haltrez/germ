@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/454/hero-desktop/0-f99c9d427ead3788",
   "sourceUrls": [
     "https://www.playngo.com/games/ice-joker"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/ice-joker.webp",
+    "alt": "Ice Joker Spielautomat"
+  }
 }

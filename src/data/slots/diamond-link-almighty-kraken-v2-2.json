@@ -1,0 +1,33 @@
+{
+  "name": "Diamond Link : Almighty Kraken",
+  "provider": "novomatic",
+  "releaseDate": "2024-02-20",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 5,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/dl_almighty-kraken-1080x1080.jpg",
+  "sourceUrls": [
+    "https://www.greentube.com/game/diamond-link-almighty-kraken-v2-2/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/diamond-link-almighty-kraken-v2-2.webp",
+    "alt": "Diamond Link : Almighty Kraken Spielautomat"
+  }
+}

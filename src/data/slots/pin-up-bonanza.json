@@ -2,10 +2,10 @@
   "name": "Pin-up Bonanza",
   "provider": "bgaming",
   "releaseDate": "2022-01-20",
-  "rtp": 96.0,
+  "rtp": 96,
   "volatility": "high",
   "volatilityNote": "high",
-  "maxWinMultiplier": 15000.0,
+  "maxWinMultiplier": 15000,
   "hitRate": 2.59,
   "freeSpinsRate": 395,
   "reels": "TODO",
@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/05/pin-up-bonanza.webp",
   "sourceUrls": [
     "https://bgaming.com/games/pin-up-bonanza"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/pin-up-bonanza.webp",
+    "alt": "Pin-up Bonanza Spielautomat"
+  }
 }

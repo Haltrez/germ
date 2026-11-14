@@ -25,8 +25,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/370/hero-desktop/0-907c33fdcca6be70",
   "sourceUrls": [
     "https://www.playngo.com/games/cash-vandal"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/cash-vandal.webp",
+    "alt": "Cash Vandal Spielautomat"
+  }
 }

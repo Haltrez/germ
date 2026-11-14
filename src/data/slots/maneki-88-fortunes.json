@@ -5,7 +5,7 @@
   "rtp": 96.38,
   "volatility": "high",
   "volatilityNote": "medium-high",
-  "maxWinMultiplier": 3000.0,
+  "maxWinMultiplier": 3000,
   "hitRate": 4.16,
   "freeSpinsRate": 164,
   "reels": "TODO",
@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/669526fd798584307197975f_Maneki_88_Fortunes_1020x1280-1.webp",
   "sourceUrls": [
     "https://bgaming.com/games/maneki-88-fortunes"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/maneki-88-fortunes.webp",
+    "alt": "Maneki 88 Fortunes Spielautomat"
+  }
 }

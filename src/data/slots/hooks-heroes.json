@@ -5,7 +5,7 @@
   "rtp": 96.82,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 3.8",
-  "maxWinMultiplier": 500.0,
+  "maxWinMultiplier": 500,
   "hitRate": 3.33,
   "reels": 5,
   "rows": 3,
@@ -14,7 +14,7 @@
     "count": 20
   },
   "minStake": 0.2,
-  "maxStake": 200.0,
+  "maxStake": 200,
   "features": [
     "free-spins",
     "multipliers",
@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_hooks_heroes_icon5_f377276557.png",
   "sourceUrls": [
     "https://netent.com/games/hooks-heroes"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/hooks-heroes.webp",
+    "alt": "Hook's Heroes Spielautomat"
+  }
 }

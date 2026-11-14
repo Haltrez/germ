@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1042/hero-desktop/0-4b3a20744cb1355c",
   "sourceUrls": [
     "https://www.playngo.com/games/fate-of-dead-blitzways"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/fate-of-dead-blitzways.webp",
+    "alt": "Fate of Dead Blitzways Spielautomat"
+  }
 }

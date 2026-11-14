@@ -5,7 +5,7 @@
   "rtp": 96.3,
   "volatility": "very-high",
   "volatilityNote": "very high",
-  "maxWinMultiplier": 12000.0,
+  "maxWinMultiplier": 12000,
   "hitRate": 2.08,
   "freeSpinsRate": 380,
   "reels": "TODO",
@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/07/Gangsterz_1020x1280_main.webp",
   "sourceUrls": [
     "https://bgaming.com/games/gangsterz"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/gangsterz.webp",
+    "alt": "Gangsterz Spielautomat"
+  }
 }

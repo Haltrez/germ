@@ -1,0 +1,33 @@
+{
+  "name": "Piggy Prizes Wand of Riches Buy Bonus",
+  "provider": "novomatic",
+  "releaseDate": "2024-01-16",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 15,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/piggy-prizes-wand-of-richtes-buy-bonus-character.jpg",
+  "sourceUrls": [
+    "https://www.greentube.com/game/piggy-prizes-wand-of-riches-buy-bonus/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/piggy-prizes-wand-of-riches-buy-bonus.webp",
+    "alt": "Piggy Prizes Wand of Riches Buy Bonus Spielautomat"
+  }
+}

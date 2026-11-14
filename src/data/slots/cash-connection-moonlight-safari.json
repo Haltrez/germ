@@ -1,0 +1,36 @@
+{
+  "name": "Cash Connection – Moonlight Safari",
+  "provider": "novomatic",
+  "releaseDate": "2026-03-03",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 5,
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 10
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "hold-and-win"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/2025/09/cc-moonlight-safari-icon.jpg",
+  "sourceUrls": [
+    "https://www.greentube.com/game/cash-connection-moonlight-safari/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/cash-connection-moonlight-safari.webp",
+    "alt": "Cash Connection – Moonlight Safari Spielautomat"
+  }
+}

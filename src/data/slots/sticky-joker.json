@@ -25,8 +25,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/412/hero-desktop/0-6d0ae1d0d95eb488",
   "sourceUrls": [
     "https://www.playngo.com/games/sticky-joker"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/sticky-joker.webp",
+    "alt": "Sticky Joker Spielautomat"
+  }
 }

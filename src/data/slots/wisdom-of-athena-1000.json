@@ -2,7 +2,7 @@
   "name": "Wisdom of Athena 1000",
   "provider": "pragmatic-play",
   "releaseDate": "TODO",
-  "rtp": 96.0,
+  "rtp": 96,
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
   "reels": "TODO",
@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2024/08/Wisdom-Of-Athena-1000_339x180.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/wisdom-of-athena-1000/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/wisdom-of-athena-1000.webp",
+    "alt": "Wisdom of Athena 1000 Spielautomat"
+  }
 }

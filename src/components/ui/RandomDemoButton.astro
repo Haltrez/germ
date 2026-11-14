@@ -3,8 +3,8 @@
  * "Zufallsslot": picks a random slot with an official demo and opens it.
  * Without JS it simply links to the lobby.
  */
-interface Props { variant?: 'primary' | 'secondary' | 'icon'; label?: string; class?: string; exclude?: string }
-const { variant = 'primary', label = 'Zufallsslot spielen', class: cls, exclude } = Astro.props;
+interface Props { variant?: 'primary' | 'secondary' | 'icon'; label?: string; class?: string; exclude?: string; labelClass?: string }
+const { variant = 'primary', label = 'Zufallsslot spielen', class: cls, exclude, labelClass = 'max-[359px]:sr-only' } = Astro.props;
 ---
 <a
   href="/spielautomaten/"
@@ -12,7 +12,7 @@ const { variant = 'primary', label = 'Zufallsslot spielen', class: cls, exclude 
   data-exclude={exclude}
   class:list={[
     variant === 'icon' ? 'btn btn-secondary !min-h-10 !px-3' : 'btn',
-    variant === 'primary' && 'btn-dice',
+    variant === 'primary' && 'btn-primary',
     variant === 'secondary' && 'btn-secondary',
     cls,
   ]}
@@ -24,7 +24,7 @@ const { variant = 'primary', label = 'Zufallsslot spielen', class: cls, exclude 
     <circle cx="8.5" cy="8.5" r="1.6" fill="currentColor" /><circle cx="15.5" cy="15.5" r="1.6" fill="currentColor" />
     <circle cx="12" cy="12" r="1.6" fill="currentColor" /><circle cx="15.5" cy="8.5" r="1.6" fill="currentColor" /><circle cx="8.5" cy="15.5" r="1.6" fill="currentColor" />
   </svg>
-  {variant !== 'icon' && <span>{label}</span>}
+  {variant !== 'icon' && <span class={labelClass}>{label}</span>}
 </a>
 
 <script>

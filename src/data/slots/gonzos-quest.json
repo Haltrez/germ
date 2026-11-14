@@ -5,7 +5,7 @@
   "rtp": 95.97,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 6.7",
-  "maxWinMultiplier": 2200.0,
+  "maxWinMultiplier": 2200,
   "hitRate": 2.44,
   "reels": 5,
   "rows": 3,
@@ -14,7 +14,7 @@
     "count": 20
   },
   "minStake": 0.2,
-  "maxStake": 50.0,
+  "maxStake": 50,
   "features": [
     "free-spins",
     "cascades",
@@ -32,8 +32,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_gonzos_quest_icon5_4ae0da4edf.png",
   "sourceUrls": [
     "https://netent.com/games/gonzos-quest"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/gonzos-quest.webp",
+    "alt": "Gonzo's Quest Spielautomat"
+  }
 }

@@ -24,8 +24,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2026/05/Triple-Pot-Plinko-Hercules_339x180_EN.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/triple-pot-plinko-hercules/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/triple-pot-plinko-hercules.webp",
+    "alt": "Triple Pot Plinko – Hercules Spielautomat"
+  }
 }

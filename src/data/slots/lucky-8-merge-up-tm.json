@@ -5,7 +5,7 @@
   "rtp": 97.25,
   "volatility": "very-high",
   "volatilityNote": "very high",
-  "maxWinMultiplier": 5000.0,
+  "maxWinMultiplier": 5000,
   "hitRate": 3.04,
   "freeSpinsRate": 276,
   "reels": "TODO",
@@ -34,8 +34,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/669525d08114bdd109fd5592_Lucky_8_Merge_Up_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/lucky-8-merge-up-tm"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/lucky-8-merge-up-tm.webp",
+    "alt": "Lucky 8 Merge Up Spielautomat"
+  }
 }

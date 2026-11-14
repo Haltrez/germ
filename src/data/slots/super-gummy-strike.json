@@ -28,8 +28,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2025/10/Super-Gummy-Strike_339x180_EN-1.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/super-gummy-strike/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/super-gummy-strike.webp",
+    "alt": "Super Gummy Strike Spielautomat"
+  }
 }

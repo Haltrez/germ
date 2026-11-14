@@ -24,8 +24,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/325/hero-desktop/0-972907f00d7e7121",
   "sourceUrls": [
     "https://www.playngo.com/games/prissy-princess"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/prissy-princess.webp",
+    "alt": "Prissy Princess Spielautomat"
+  }
 }

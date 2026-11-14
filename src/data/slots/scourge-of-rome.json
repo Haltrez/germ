@@ -24,8 +24,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/730/hero-desktop/0-61119b9ba693a2ac",
   "sourceUrls": [
     "https://www.playngo.com/games/scourge-of-rome"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/scourge-of-rome.webp",
+    "alt": "Scourge of Rome Spielautomat"
+  }
 }

@@ -5,13 +5,13 @@
   "rtp": 96.03,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 10",
-  "maxWinMultiplier": 66666.0,
+  "maxWinMultiplier": 66666,
   "hitRate": 4.35,
   "reels": 5,
   "rows": 5,
   "winLines": "TODO",
   "minStake": 0.1,
-  "maxStake": 14.0,
+  "maxStake": 14,
   "features": [
     "free-spins",
     "multipliers",
@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_doa_3_playin_ne_icon_thumbnail_346x346_ced7915405.png",
   "sourceUrls": [
     "https://netent.com/games/dead-or-alive-3-wanted"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/dead-or-alive-3-wanted.webp",
+    "alt": "Dead or Alive 3: Wanted Spielautomat"
+  }
 }

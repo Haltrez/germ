@@ -24,8 +24,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2021/10/John-Hunter-the-Quest-for-Bermuda-Riches_339x180.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/john-hunter-and-the-quest-for-bermuda-riches/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/john-hunter-and-the-quest-for-bermuda-riches.webp",
+    "alt": "John Hunter and the Quest for Bermuda Riches Spielautomat"
+  }
 }

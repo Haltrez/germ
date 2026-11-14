@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2022/05/Cleocatra_339x180.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/cleocatra/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/cleocatra.webp",
+    "alt": "Cleocatra Spielautomat"
+  }
 }

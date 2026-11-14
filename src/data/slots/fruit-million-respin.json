@@ -2,10 +2,10 @@
   "name": "Fruit Million Respin",
   "provider": "bgaming",
   "releaseDate": "2026-07-27",
-  "rtp": 97.0,
+  "rtp": 97,
   "volatility": "medium",
   "volatilityNote": "medium",
-  "maxWinMultiplier": 3000.0,
+  "maxWinMultiplier": 3000,
   "reels": "TODO",
   "rows": "TODO",
   "winLines": {
@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2026/06/Fruit_Million_Respin_1020х1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/fruit-million-respin"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/fruit-million-respin.webp",
+    "alt": "Fruit Million Respin Spielautomat"
+  }
 }

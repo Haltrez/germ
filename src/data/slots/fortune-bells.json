@@ -5,7 +5,7 @@
   "rtp": 97.09,
   "volatility": "high",
   "volatilityNote": "high",
-  "maxWinMultiplier": 4684.0,
+  "maxWinMultiplier": 4684,
   "hitRate": 3.9,
   "freeSpinsRate": 156,
   "reels": "TODO",
@@ -32,8 +32,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/67b85a4750771189273b381a_Fortune_Bells_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/fortune-bells"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/fortune-bells.webp",
+    "alt": "Fortune Bells Spielautomat"
+  }
 }

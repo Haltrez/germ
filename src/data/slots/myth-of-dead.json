@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/987/hero-desktop/0-b228c37777868090",
   "sourceUrls": [
     "https://www.playngo.com/games/myth-of-dead"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/myth-of-dead.webp",
+    "alt": "Myth of Dead Spielautomat"
+  }
 }

@@ -25,8 +25,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2026/07/Death-Dominion_339x180_EN.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/death-dominion/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/death-dominion.webp",
+    "alt": "Death Dominion Spielautomat"
+  }
 }

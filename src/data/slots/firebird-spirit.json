@@ -2,9 +2,9 @@
   "name": "Firebird Spirit",
   "provider": "pragmatic-play",
   "releaseDate": "TODO",
-  "rtp": 96.0,
+  "rtp": 96,
   "volatility": "TODO",
-  "maxWinMultiplier": 4250.0,
+  "maxWinMultiplier": 4250,
   "reels": "TODO",
   "rows": "TODO",
   "grid": "5×6",
@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2022/09/Firebird-Spirit_339x180.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/firebird-spirit/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/firebird-spirit.webp",
+    "alt": "Firebird Spirit Spielautomat"
+  }
 }

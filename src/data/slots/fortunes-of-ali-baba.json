@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/410/hero-desktop/0-e6cddafda4b4b4d5",
   "sourceUrls": [
     "https://www.playngo.com/games/fortunes-of-ali-baba"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/fortunes-of-ali-baba.webp",
+    "alt": "Fortunes of Ali Baba Spielautomat"
+  }
 }

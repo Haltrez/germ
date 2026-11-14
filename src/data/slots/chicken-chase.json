@@ -22,8 +22,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2022/03/Chicken-Chase_339x180.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/chicken-chase/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/chicken-chase.webp",
+    "alt": "Chicken Chase Spielautomat"
+  }
 }

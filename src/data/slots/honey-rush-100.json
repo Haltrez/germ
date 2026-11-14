@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/714/hero-desktop/0-26c4018447e59a86",
   "sourceUrls": [
     "https://www.playngo.com/games/honey-rush-100"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/honey-rush-100.webp",
+    "alt": "Honey Rush 100 Spielautomat"
+  }
 }

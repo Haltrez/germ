@@ -27,8 +27,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/386/hero-desktop/0-31da2e8669d2bac2",
   "sourceUrls": [
     "https://www.playngo.com/games/black-mamba"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/black-mamba.webp",
+    "alt": "Black Mamba Spielautomat"
+  }
 }

@@ -2,11 +2,11 @@
   "name": "Golden Pride",
   "provider": "bgaming",
   "releaseDate": "2024-11-20",
-  "rtp": 96.0,
+  "rtp": 96,
   "volatility": "high",
   "volatilityNote": "medium-high",
   "maxWinMultiplier": 15.36,
-  "hitRate": 6.0,
+  "hitRate": 6,
   "reels": "TODO",
   "rows": "TODO",
   "winLines": {
@@ -32,8 +32,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/671657034e0370f77cb924c5_Golden_Pride_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/golden-pride"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/golden-pride.webp",
+    "alt": "Golden Pride Spielautomat"
+  }
 }

@@ -2,11 +2,11 @@
   "name": "Slot Machine St.Valentine",
   "provider": "bgaming",
   "releaseDate": "2023-12-07",
-  "rtp": 97.0,
+  "rtp": 97,
   "volatility": "very-high",
   "volatilityNote": "very high",
-  "maxWinMultiplier": 2124.0,
-  "hitRate": 12.0,
+  "maxWinMultiplier": 2124,
+  "hitRate": 12,
   "reels": "TODO",
   "rows": "TODO",
   "winLines": {
@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/669539d7c9e19b48e8ec062e_Slot_machine_stValentine_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/slot-machine-st-valentine"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/slot-machine-st-valentine.webp",
+    "alt": "Slot Machine St.Valentine Spielautomat"
+  }
 }

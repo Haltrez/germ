@@ -5,7 +5,7 @@
   "rtp": 96.09,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 18.73",
-  "maxWinMultiplier": 25000.0,
+  "maxWinMultiplier": 25000,
   "hitRate": 6.38,
   "reels": 3,
   "rows": 3,
@@ -14,7 +14,7 @@
     "count": 1
   },
   "minStake": 0.1,
-  "maxStake": 6.0,
+  "maxStake": 6,
   "features": [
     "multipliers",
     "respins"
@@ -29,8 +29,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_lights_camera_action_icon5_a593eb9aae.png",
   "sourceUrls": [
     "https://netent.com/games/lights-camera-cash"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/lights-camera-cash.webp",
+    "alt": "Lights, Camera, Cash! Spielautomat"
+  }
 }

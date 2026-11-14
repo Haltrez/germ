@@ -5,7 +5,7 @@
   "rtp": 96.16,
   "volatility": "high",
   "volatilityNote": "high",
-  "maxWinMultiplier": 4684.0,
+  "maxWinMultiplier": 4684,
   "hitRate": 3.9,
   "freeSpinsRate": 156,
   "reels": "TODO",
@@ -32,8 +32,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/6695261b7c7595b5d53cfc4d_Lucky_Dama_Muerta_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/lucky-dama-muerta"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/lucky-dama-muerta.webp",
+    "alt": "Lucky Dama Muerta Spielautomat"
+  }
 }

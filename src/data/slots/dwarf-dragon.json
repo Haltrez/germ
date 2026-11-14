@@ -4,7 +4,7 @@
   "releaseDate": "TODO",
   "rtp": 95.54,
   "volatility": "high",
-  "maxWinMultiplier": 14000.0,
+  "maxWinMultiplier": 14000,
   "reels": "TODO",
   "rows": "TODO",
   "grid": "5×4",
@@ -27,8 +27,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2024/05/Dwarf-Dragon_339x180.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/dwarf-dragon/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/dwarf-dragon.webp",
+    "alt": "Dwarf & Dragon Spielautomat"
+  }
 }

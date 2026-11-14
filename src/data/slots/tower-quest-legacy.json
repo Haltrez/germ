@@ -27,8 +27,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/738/hero-desktop/0-5969251f6cb4eee2",
   "sourceUrls": [
     "https://www.playngo.com/games/tower-quest-legacy"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/tower-quest-legacy.webp",
+    "alt": "Tower Quest Legacy Spielautomat"
+  }
 }

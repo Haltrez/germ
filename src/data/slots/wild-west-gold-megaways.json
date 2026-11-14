@@ -29,8 +29,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2022/05/Wild_West_Gold_Megaways_EN_339x180_01-1.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/wild-west-gold-megaways/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/wild-west-gold-megaways.webp",
+    "alt": "Wild West Gold Megaways Spielautomat"
+  }
 }

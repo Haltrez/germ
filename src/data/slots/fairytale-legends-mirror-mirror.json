@@ -5,7 +5,7 @@
   "rtp": 96.48,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 4.8",
-  "maxWinMultiplier": 1200.0,
+  "maxWinMultiplier": 1200,
   "hitRate": 5.26,
   "reels": 5,
   "rows": 3,
@@ -14,7 +14,7 @@
     "count": 243
   },
   "minStake": 0.1,
-  "maxStake": 100.0,
+  "maxStake": 100,
   "features": [
     "free-spins",
     "cluster-pays",
@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_mirror_mirror_icon5_cc9d245655.png",
   "sourceUrls": [
     "https://netent.com/games/fairytale-legends-mirror-mirror"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/fairytale-legends-mirror-mirror.webp",
+    "alt": "Fairytale Legends: Mirror Mirror Spielautomat"
+  }
 }

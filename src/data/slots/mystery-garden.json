@@ -2,10 +2,10 @@
   "name": "Mystery Garden",
   "provider": "bgaming",
   "releaseDate": "2025-06-10",
-  "rtp": 97.0,
+  "rtp": 97,
   "volatility": "low",
   "volatilityNote": "low",
-  "maxWinMultiplier": 2000.0,
+  "maxWinMultiplier": 2000,
   "hitRate": 3.5,
   "freeSpinsRate": 183,
   "reels": "TODO",
@@ -32,8 +32,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/06/6821c2010407bbd95bbcdf13_Mystery_Garden_1020х1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/mystery-garden"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/mystery-garden.webp",
+    "alt": "Mystery Garden Spielautomat"
+  }
 }

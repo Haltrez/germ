@@ -5,8 +5,8 @@
   "rtp": 96.33,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 4.9",
-  "maxWinMultiplier": 800.0,
-  "hitRate": 5.0,
+  "maxWinMultiplier": 800,
+  "hitRate": 5,
   "reels": 5,
   "rows": 3,
   "winLines": {
@@ -14,7 +14,7 @@
     "count": 20
   },
   "minStake": 0.2,
-  "maxStake": 200.0,
+  "maxStake": 200,
   "features": [
     "free-spins",
     "multipliers",
@@ -33,8 +33,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_red_riding_hood_icon5_1d8420f7c6.png",
   "sourceUrls": [
     "https://netent.com/games/fairytale-legends-red-riding-hood"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/fairytale-legends-red-riding-hood.webp",
+    "alt": "Fairytale Legends: Red Riding Hood Spielautomat"
+  }
 }

@@ -5,7 +5,7 @@
   "rtp": 96.06,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 6.9",
-  "maxWinMultiplier": 5000.0,
+  "maxWinMultiplier": 5000,
   "hitRate": 3.33,
   "reels": 5,
   "rows": 3,
@@ -14,7 +14,7 @@
     "count": 20
   },
   "minStake": 0.2,
-  "maxStake": 200.0,
+  "maxStake": 200,
   "features": [
     "free-spins",
     "multipliers",
@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_irish_pot_luck_icon5_fb5a96cd15.png",
   "sourceUrls": [
     "https://netent.com/games/irish-pot-luck"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/irish-pot-luck.webp",
+    "alt": "Irish Pot Luck Spielautomat"
+  }
 }

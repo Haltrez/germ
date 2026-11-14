@@ -28,8 +28,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2024/02/Mighty_Munching_Melons_339x180.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/mighty-munching-melons/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/mighty-munching-melons.webp",
+    "alt": "Mighty Munching Melons Spielautomat"
+  }
 }

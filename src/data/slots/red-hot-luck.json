@@ -2,7 +2,7 @@
   "name": "Red Hot Luck",
   "provider": "pragmatic-play",
   "releaseDate": "TODO",
-  "rtp": 96.0,
+  "rtp": 96,
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
   "reels": "TODO",
@@ -28,8 +28,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2024/01/Red-Hot-Luck_339x180.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/red-hot-luck/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/red-hot-luck.webp",
+    "alt": "Red Hot Luck Spielautomat"
+  }
 }

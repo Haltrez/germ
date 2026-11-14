@@ -27,8 +27,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2022/01/Extra-Juicy-Megaways_339x180.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/extra-juicy-megaways/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/extra-juicy-megaways.webp",
+    "alt": "Extra Juicy Megaways Spielautomat"
+  }
 }

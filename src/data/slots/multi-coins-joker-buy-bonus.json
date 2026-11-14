@@ -10,10 +10,7 @@
   "winLines": "TODO",
   "minStake": "TODO",
   "maxStake": "TODO",
-  "features": [
-    "hold-and-win",
-    "bonus-buy"
-  ],
+  "features": [],
   "themes": [],
   "categories": [],
   "demoUrl": null,
@@ -22,8 +19,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/2026/03/multi-coins-joker-icon.jpg",
   "sourceUrls": [
     "https://www.greentube.com/game/multi-coins-joker-buy-bonus/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/multi-coins-joker-buy-bonus.webp",
+    "alt": "Multi Coins Joker Buy Bonus Spielautomat"
+  }
 }

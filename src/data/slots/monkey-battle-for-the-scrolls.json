@@ -25,8 +25,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/672/hero-desktop/0-39ffafd333735195",
   "sourceUrls": [
     "https://www.playngo.com/games/monkey-battle-for-the-scrolls"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/monkey-battle-for-the-scrolls.webp",
+    "alt": "Monkey: Battle for the Scrolls Spielautomat"
+  }
 }

@@ -5,7 +5,7 @@
   "rtp": 97.17,
   "volatility": "very-high",
   "volatilityNote": "very high",
-  "maxWinMultiplier": 5000.0,
+  "maxWinMultiplier": 5000,
   "hitRate": 3.19,
   "freeSpinsRate": 163,
   "reels": "TODO",
@@ -29,8 +29,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2026/07/Lucky_Turkey_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/lucky-turkey"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/lucky-turkey.webp",
+    "alt": "Lucky Turkey Spielautomat"
+  }
 }

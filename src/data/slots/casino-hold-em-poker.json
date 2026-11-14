@@ -8,8 +8,8 @@
   "reels": "TODO",
   "rows": "TODO",
   "winLines": "TODO",
-  "minStake": 10.0,
-  "maxStake": 10000.0,
+  "minStake": 10,
+  "maxStake": 10000,
   "features": [],
   "themes": [],
   "categories": [],
@@ -21,8 +21,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_casino_holdem_poker_icon5_a9f32276fc.png",
   "sourceUrls": [
     "https://netent.com/games/casino-hold-em-poker"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/casino-hold-em-poker.webp",
+    "alt": "Casino Hold'em Poker Spielautomat"
+  }
 }

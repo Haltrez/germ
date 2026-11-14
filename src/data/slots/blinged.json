@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/446/hero-desktop/0-2ef88891cf2b35dc",
   "sourceUrls": [
     "https://www.playngo.com/games/blinged"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/blinged.webp",
+    "alt": "Blinged Spielautomat"
+  }
 }

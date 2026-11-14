@@ -1,0 +1,31 @@
+{
+  "name": "Runner Unlimited Cascading Wins (Ante Bet)",
+  "provider": "novomatic",
+  "releaseDate": "2024-11-07",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/runner-unlimited-cascading-wins-icon.jpg",
+  "sourceUrls": [
+    "https://www.greentube.com/game/runner-unlimited-cascading-wins/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/runner-unlimited-cascading-wins.webp",
+    "alt": "Runner Unlimited Cascading Wins (Ante Bet) Spielautomat"
+  }
+}

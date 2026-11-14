@@ -5,7 +5,7 @@
   "rtp": 96.74,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 4.7",
-  "maxWinMultiplier": 500.0,
+  "maxWinMultiplier": 500,
   "hitRate": 4.55,
   "reels": 5,
   "rows": 3,
@@ -14,7 +14,7 @@
     "count": 10
   },
   "minStake": 0.1,
-  "maxStake": 100.0,
+  "maxStake": 100,
   "features": [
     "free-spins",
     "multipliers",
@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_wild_wild_west_icon5_0182e58e49.png",
   "sourceUrls": [
     "https://netent.com/games/wild-wild-west-the-great-train-heist"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/wild-wild-west-the-great-train-heist.webp",
+    "alt": "Wild Wild West: The Great Train Heist Spielautomat"
+  }
 }

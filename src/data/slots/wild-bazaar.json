@@ -5,7 +5,7 @@
   "rtp": 96.15,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 6.5",
-  "maxWinMultiplier": 800.0,
+  "maxWinMultiplier": 800,
   "hitRate": 3.57,
   "reels": 5,
   "rows": 4,
@@ -14,7 +14,7 @@
     "count": 26
   },
   "minStake": 0.2,
-  "maxStake": 400.0,
+  "maxStake": 400,
   "features": [
     "multipliers",
     "wilds"
@@ -29,8 +29,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_wild_bazaar_icon5_1af4d40f51.png",
   "sourceUrls": [
     "https://netent.com/games/wild-bazaar"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/wild-bazaar.webp",
+    "alt": "Wild Bazaar Spielautomat"
+  }
 }

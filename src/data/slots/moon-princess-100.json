@@ -25,8 +25,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/603/hero-desktop/0-088afe8cbf1319ea",
   "sourceUrls": [
     "https://www.playngo.com/games/moon-princess-100"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/moon-princess-100.webp",
+    "alt": "Moon Princess 100 Spielautomat"
+  }
 }

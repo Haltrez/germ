@@ -2,10 +2,10 @@
   "name": "Shark & Spark Hold & Win",
   "provider": "bgaming",
   "releaseDate": "2026-05-28",
-  "rtp": 97.0,
+  "rtp": 97,
   "volatility": "high",
   "volatilityNote": "medium-high",
-  "maxWinMultiplier": 5000.0,
+  "maxWinMultiplier": 5000,
   "hitRate": 4.4,
   "freeSpinsRate": 205,
   "reels": "TODO",
@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2026/04/Shark_Spark_Hold_Win_1020_1280_1x.webp",
   "sourceUrls": [
     "https://bgaming.com/games/shark-spark-hold-win"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/shark-spark-hold-win.webp",
+    "alt": "Shark & Spark Hold & Win Spielautomat"
+  }
 }

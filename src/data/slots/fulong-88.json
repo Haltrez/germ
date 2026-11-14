@@ -24,8 +24,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/852/hero-desktop/0-7d02a93058771632",
   "sourceUrls": [
     "https://www.playngo.com/games/fulong-88"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/fulong-88.webp",
+    "alt": "Fulong 88 Spielautomat"
+  }
 }

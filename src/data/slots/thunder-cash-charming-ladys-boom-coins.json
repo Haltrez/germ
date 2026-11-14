@@ -19,8 +19,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/2026/01/tc-charming-ladys-boom-coins-icon.jpg",
   "sourceUrls": [
     "https://www.greentube.com/game/thunder-cash-charming-ladys-boom-coins/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/thunder-cash-charming-ladys-boom-coins.webp",
+    "alt": "Thunder Cash – Charming Lady’s Boom Coins Spielautomat"
+  }
 }

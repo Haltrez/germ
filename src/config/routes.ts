@@ -31,6 +31,7 @@ export type CategoryCode = (typeof CATEGORIES)[number]['code'];
 
 export const NAV: NavItem[] = [
   { label: 'Spielhalle', href: '/spielautomaten/' },
+  { label: 'Spielotheken', href: '/echtgeld-spielotheken/' },
   {
     label: 'Kostenlos spielen',
     href: '/kategorien/',
@@ -39,8 +40,8 @@ export const NAV: NavItem[] = [
       { label: 'Alle Hersteller', href: '/hersteller/' },
     ],
   },
+  { label: 'Book-Slots', href: '/kategorien/book-slots/' },
   { label: 'Ranglisten', href: '/ranglisten/' },
-  { label: 'Spielotheken', href: '/echtgeld-spielotheken/' },
   { label: 'Ratgeber', href: '/ratgeber/' },
   { label: 'So prüfen wir', href: '/bewertungsmethodik/' },
 ];

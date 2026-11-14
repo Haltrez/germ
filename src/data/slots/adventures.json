@@ -5,7 +5,7 @@
   "rtp": 96.1,
   "volatility": "medium",
   "volatilityNote": "medium",
-  "maxWinMultiplier": 2100.0,
+  "maxWinMultiplier": 2100,
   "hitRate": 2.38,
   "reels": "TODO",
   "rows": "TODO",
@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/6669c6f4ab1877ebc99b178f_Adventures_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/adventures"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/adventures.webp",
+    "alt": "Adventures Spielautomat"
+  }
 }

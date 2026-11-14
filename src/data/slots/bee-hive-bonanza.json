@@ -5,13 +5,13 @@
   "rtp": 96.09,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 8.7",
-  "maxWinMultiplier": 5000.0,
+  "maxWinMultiplier": 5000,
   "hitRate": 4.55,
   "reels": 5,
   "rows": 5,
   "winLines": "TODO",
   "minStake": 0.1,
-  "maxStake": 200.0,
+  "maxStake": 200,
   "features": [
     "free-spins",
     "multipliers",
@@ -27,8 +27,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_bee_hive_bonanza_icon5_8f67da05dd.png",
   "sourceUrls": [
     "https://netent.com/games/bee-hive-bonanza"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/bee-hive-bonanza.webp",
+    "alt": "Bee Hive Bonanza Spielautomat"
+  }
 }

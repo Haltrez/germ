@@ -10,9 +10,7 @@
   "winLines": "TODO",
   "minStake": "TODO",
   "maxStake": "TODO",
-  "features": [
-    "bonus-buy"
-  ],
+  "features": [],
   "themes": [],
   "categories": [],
   "demoUrl": null,
@@ -21,8 +19,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/2026/06/xtreme-3-wish-of-riches-icon.jpg",
   "sourceUrls": [
     "https://www.greentube.com/game/xtreme-3-wish-of-riches-buy-bonus/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/xtreme-3-wish-of-riches-buy-bonus.webp",
+    "alt": "Xtreme 3 – Wish of Riches Buy Bonus Spielautomat"
+  }
 }

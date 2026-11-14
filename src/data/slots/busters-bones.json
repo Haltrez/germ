@@ -5,13 +5,13 @@
   "rtp": 96.07,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 6.5",
-  "maxWinMultiplier": 900.0,
+  "maxWinMultiplier": 900,
   "hitRate": 3.12,
   "reels": 6,
   "rows": 6,
   "winLines": "TODO",
   "minStake": 0.1,
-  "maxStake": 200.0,
+  "maxStake": 200,
   "features": [
     "free-spins",
     "multipliers",
@@ -29,8 +29,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_busters_bones_icon5_6b7f76ec9e.png",
   "sourceUrls": [
     "https://netent.com/games/busters-bones"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/busters-bones.webp",
+    "alt": "Buster’s Bones Spielautomat"
+  }
 }

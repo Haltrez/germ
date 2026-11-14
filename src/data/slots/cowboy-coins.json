@@ -28,8 +28,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2023/02/s0zstLrY.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/cowboy-coins/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/cowboy-coins.webp",
+    "alt": "Cowboy Coins Spielautomat"
+  }
 }

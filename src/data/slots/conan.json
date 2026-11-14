@@ -5,8 +5,8 @@
   "rtp": 96.65,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 7",
-  "maxWinMultiplier": 1800.0,
-  "hitRate": 4.0,
+  "maxWinMultiplier": 1800,
+  "hitRate": 4,
   "reels": 6,
   "rows": 4,
   "winLines": {
@@ -14,7 +14,7 @@
     "count": 24
   },
   "minStake": 0.2,
-  "maxStake": 200.0,
+  "maxStake": 200,
   "features": [
     "free-spins",
     "multipliers",
@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_conan_icon5_f15f03ba81.png",
   "sourceUrls": [
     "https://netent.com/games/conan"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/conan.webp",
+    "alt": "Conan Spielautomat"
+  }
 }

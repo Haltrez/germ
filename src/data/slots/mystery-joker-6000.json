@@ -24,8 +24,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/338/hero-desktop/0-b5c299d7466e9731",
   "sourceUrls": [
     "https://www.playngo.com/games/mystery-joker-6000"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/mystery-joker-6000.webp",
+    "alt": "Mystery Joker 6000 Spielautomat"
+  }
 }

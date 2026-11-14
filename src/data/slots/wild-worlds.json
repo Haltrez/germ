@@ -5,13 +5,13 @@
   "rtp": 96.47,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 5.8",
-  "maxWinMultiplier": 600.0,
+  "maxWinMultiplier": 600,
   "hitRate": 4.76,
   "reels": 5,
   "rows": 5,
   "winLines": "TODO",
   "minStake": 0.2,
-  "maxStake": 400.0,
+  "maxStake": 400,
   "features": [
     "free-spins",
     "cascades",
@@ -27,8 +27,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_wild_worlds_icon5_24a2435cf7.png",
   "sourceUrls": [
     "https://netent.com/games/wild-worlds"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/wild-worlds.webp",
+    "alt": "Wild Worlds Spielautomat"
+  }
 }

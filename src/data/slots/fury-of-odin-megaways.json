@@ -4,7 +4,7 @@
   "releaseDate": "TODO",
   "rtp": 95.97,
   "volatility": "TODO",
-  "maxWinMultiplier": 15000.0,
+  "maxWinMultiplier": 15000,
   "reels": "TODO",
   "rows": "TODO",
   "winLines": {
@@ -29,8 +29,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2022/11/Fury-of-Odin_339x180.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/fury-of-odin-megaways/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/fury-of-odin-megaways.webp",
+    "alt": "Fury of Odin Megaways Spielautomat"
+  }
 }

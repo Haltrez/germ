@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/624/hero-desktop/0-1a2a187e11116396",
   "sourceUrls": [
     "https://www.playngo.com/games/rotiki"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/rotiki.webp",
+    "alt": "Rotiki Spielautomat"
+  }
 }

@@ -28,8 +28,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2018/08/thumb_Leprechaun_Song_339X180-1-1.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/leprechaun-song-slot/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/leprechaun-song.webp",
+    "alt": "Leprechaun Song Spielautomat"
+  }
 }

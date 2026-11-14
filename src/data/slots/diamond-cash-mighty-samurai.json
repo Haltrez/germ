@@ -10,7 +10,11 @@
   "winLines": "TODO",
   "minStake": "TODO",
   "maxStake": "TODO",
-  "features": [],
+  "features": [
+    "free-spins",
+    "expanding-symbols",
+    "wilds"
+  ],
   "themes": [],
   "categories": [],
   "demoUrl": null,
@@ -19,8 +23,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/2026/09/dc-mighty-samurai-icon.jpg",
   "sourceUrls": [
     "https://www.greentube.com/game/diamond-cash-mighty-samurai/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/diamond-cash-mighty-samurai.webp",
+    "alt": "Diamond Cash: Mighty Samurai Spielautomat"
+  }
 }

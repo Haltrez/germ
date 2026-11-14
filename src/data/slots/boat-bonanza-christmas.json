@@ -24,8 +24,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/981/hero-desktop/0-c9ca5fd78675cd83",
   "sourceUrls": [
     "https://www.playngo.com/games/boat-bonanza-christmas"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/boat-bonanza-christmas.webp",
+    "alt": "Boat Bonanza Christmas Spielautomat"
+  }
 }

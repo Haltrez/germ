@@ -27,8 +27,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2025/11/Zeus-vs-Typhon_339x180_EN-1.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/zeus-vs-typhon/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/zeus-vs-typhon.webp",
+    "alt": "Zeus vs Typhon Spielautomat"
+  }
 }

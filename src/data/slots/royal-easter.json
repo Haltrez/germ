@@ -2,10 +2,10 @@
   "name": "Royal Easter",
   "provider": "bgaming",
   "releaseDate": "2026-03-26",
-  "rtp": 97.0,
+  "rtp": 97,
   "volatility": "low",
   "volatilityNote": "low",
-  "maxWinMultiplier": 500.0,
+  "maxWinMultiplier": 500,
   "hitRate": 7.05,
   "freeSpinsRate": 241,
   "reels": "TODO",
@@ -32,8 +32,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2026/02/Royal_Easter_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/royal-easter"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/royal-easter.webp",
+    "alt": "Royal Easter Spielautomat"
+  }
 }

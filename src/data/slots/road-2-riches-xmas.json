@@ -5,7 +5,7 @@
   "rtp": 96.24,
   "volatility": "high",
   "volatilityNote": "high",
-  "maxWinMultiplier": 2000.0,
+  "maxWinMultiplier": 2000,
   "hitRate": 4.3,
   "freeSpinsRate": 145,
   "reels": "TODO",
@@ -33,8 +33,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/64fd687e4c01d1a2dcfc6350_63f4a5088b8a115fefb871fe_Road2Riches_xmas_-FEATURED_vertical.webp",
   "sourceUrls": [
     "https://bgaming.com/games/road-2-riches-xmas"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/road-2-riches-xmas.webp",
+    "alt": "Road 2 Riches X-mas Spielautomat"
+  }
 }

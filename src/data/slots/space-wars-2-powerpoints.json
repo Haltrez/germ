@@ -5,13 +5,13 @@
   "rtp": 96.1,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 9.8",
-  "maxWinMultiplier": 10000.0,
+  "maxWinMultiplier": 10000,
   "hitRate": 2.33,
   "reels": 6,
   "rows": 6,
   "winLines": "TODO",
   "minStake": 0.2,
-  "maxStake": 100.0,
+  "maxStake": 100,
   "features": [
     "free-spins",
     "multipliers",
@@ -29,8 +29,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_space_wars_2_powerpoints_icon5_9cd2003f71.png",
   "sourceUrls": [
     "https://netent.com/games/space-wars-2-powerpoints"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/space-wars-2-powerpoints.webp",
+    "alt": "Space Wars 2 Powerpoints Spielautomat"
+  }
 }

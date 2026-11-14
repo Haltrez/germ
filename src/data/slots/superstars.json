@@ -5,7 +5,7 @@
   "rtp": 96.08,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 8.4",
-  "maxWinMultiplier": 4500.0,
+  "maxWinMultiplier": 4500,
   "hitRate": 3.57,
   "reels": 5,
   "rows": 5,
@@ -14,7 +14,7 @@
     "count": 45
   },
   "minStake": 0.1,
-  "maxStake": 100.0,
+  "maxStake": 100,
   "features": [
     "free-spins",
     "multipliers",
@@ -32,8 +32,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_superstars_icon5_606d2449e6.png",
   "sourceUrls": [
     "https://netent.com/games/superstars"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/superstars.webp",
+    "alt": "Superstars Spielautomat"
+  }
 }

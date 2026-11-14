@@ -5,7 +5,7 @@
   "rtp": 96.02,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 4.8",
-  "maxWinMultiplier": 800.0,
+  "maxWinMultiplier": 800,
   "hitRate": 3.45,
   "reels": 5,
   "rows": 3,
@@ -14,7 +14,7 @@
     "count": 20
   },
   "minStake": 0.2,
-  "maxStake": 100.0,
+  "maxStake": 100,
   "features": [
     "cascades",
     "expanding-symbols",
@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_elements_icon5_fee78001a0.png",
   "sourceUrls": [
     "https://netent.com/games/elements-the-awakening"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/elements-the-awakening.webp",
+    "alt": "Elements: The Awakening Spielautomat"
+  }
 }

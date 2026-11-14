@@ -25,8 +25,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/966/hero-desktop/0-9bd822f0539dd591",
   "sourceUrls": [
     "https://www.playngo.com/games/dansband-pa-turna"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/dansband-pa-turna.webp",
+    "alt": "Dansband På Turné Spielautomat"
+  }
 }

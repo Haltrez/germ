@@ -12,6 +12,7 @@
   "maxStake": "TODO",
   "features": [
     "cascades",
+    "hold-and-win",
     "expanding-symbols",
     "wilds"
   ],
@@ -23,8 +24,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/2026/02/cc-40-wild-fire-6-icon.jpg",
   "sourceUrls": [
     "https://www.greentube.com/game/cash-cascade-40-wild-fire-6/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/cash-cascade-40-wild-fire-6.webp",
+    "alt": "Cash Cascade – 40 Wild Fire 6 Spielautomat"
+  }
 }

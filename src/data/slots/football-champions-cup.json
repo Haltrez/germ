@@ -5,7 +5,7 @@
   "rtp": 96.82,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 6.6",
-  "maxWinMultiplier": 700.0,
+  "maxWinMultiplier": 700,
   "hitRate": 3.57,
   "reels": 5,
   "rows": 3,
@@ -14,7 +14,7 @@
     "count": 20
   },
   "minStake": 0.2,
-  "maxStake": 100.0,
+  "maxStake": 100,
   "features": [
     "free-spins",
     "multipliers",
@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_football_champions_cup_icon5_a51e15b2e9.png",
   "sourceUrls": [
     "https://netent.com/games/football-champions-cup"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/football-champions-cup.webp",
+    "alt": "Football: Champions Cup Spielautomat"
+  }
 }

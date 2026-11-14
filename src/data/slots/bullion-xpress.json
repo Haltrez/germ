@@ -25,8 +25,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/926/hero-desktop/0-ac738f6bda355a89",
   "sourceUrls": [
     "https://www.playngo.com/games/bullion-xpress"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/bullion-xpress.webp",
+    "alt": "Bullion Xpress Spielautomat"
+  }
 }

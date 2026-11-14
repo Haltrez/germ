@@ -2,10 +2,10 @@
   "name": "Mega Joker",
   "provider": "netent",
   "releaseDate": "2008-10-01",
-  "rtp": 99.0,
+  "rtp": 99,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 9.9",
-  "maxWinMultiplier": 200.0,
+  "maxWinMultiplier": 200,
   "hitRate": 5.88,
   "reels": 3,
   "rows": 3,
@@ -13,8 +13,8 @@
     "type": "lines",
     "count": 5
   },
-  "minStake": 1.0,
-  "maxStake": 10.0,
+  "minStake": 1,
+  "maxStake": 10,
   "features": [],
   "themes": [],
   "categories": [],
@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_mega_joker_icon5_a2a33db7c3.png",
   "sourceUrls": [
     "https://netent.com/games/mega-joker"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/mega-joker.webp",
+    "alt": "Mega Joker Spielautomat"
+  }
 }

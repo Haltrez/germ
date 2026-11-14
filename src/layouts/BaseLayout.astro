@@ -5,6 +5,7 @@ import CookieConsent from '../components/compliance/CookieConsent.astro';
 import Header from '../components/layout/Header.astro';
 import Footer from '../components/layout/Footer.astro';
 import Breadcrumbs from '../components/layout/Breadcrumbs.astro';
+import MobileBar from '../components/layout/MobileBar.astro';
 import { SITE_NAME, SITE_URL, SITE_OG_LOCALE, DEFAULT_OG_IMAGE } from '../config/site.ts';
 import { NOINDEX_PATHS } from '../config/routes.ts';
 import type { ComplianceContext } from '../lib/compliance.ts';
@@ -76,7 +77,7 @@ const ld = [...(crumbs ? [breadcrumbSchema(crumbs)] : []), ...jsonLd];
 
     {ld.map((obj) => <script type="application/ld+json" set:html={JSON.stringify(obj)} />)}
   </head>
-  <body class="flex min-h-dvh flex-col">
+  <body class="flex min-h-dvh flex-col pb-16 md:pb-0">
     <a href="#main" class="sr-only z-[60] rounded-lg bg-mint-400 px-4 py-2 font-semibold text-mint-950 focus:not-sr-only focus:fixed focus:left-4 focus:top-4">Zum Inhalt springen</a>
     <Header />
     {crumbs && <Breadcrumbs crumbs={crumbs} />}
@@ -85,6 +86,7 @@ const ld = [...(crumbs ? [breadcrumbSchema(crumbs)] : []), ...jsonLd];
     </main>
     {showRgBlock && <RgBlock />}
     <Footer />
+    <MobileBar />
     <CookieConsent />
   </body>
 </html>

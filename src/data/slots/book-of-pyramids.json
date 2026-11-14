@@ -5,7 +5,7 @@
   "rtp": 97.13,
   "volatility": "high",
   "volatilityNote": "medium-high",
-  "maxWinMultiplier": 1939.0,
+  "maxWinMultiplier": 1939,
   "hitRate": 2.66,
   "freeSpinsRate": 57,
   "reels": "TODO",
@@ -32,8 +32,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/669514dd6218bf24729a78ad_Book_of_Pyramids_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/book-of-pyramids"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/book-of-pyramids.webp",
+    "alt": "Book of Pyramids Spielautomat"
+  }
 }

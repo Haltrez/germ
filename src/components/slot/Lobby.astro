@@ -1,0 +1,123 @@
+---
+/**
+ * "Die Spielhalle": category tabs with counts, search, dice tip, counter and a
+ * portrait game grid. Server-renders the first page; the client filters the full
+ * index from /api/slots.json. Used on the homepage and on /spielautomaten/.
+ */
+import { CATEGORIES } from '../../config/routes.ts';
+import { getSlotViews, lobbyRecord } from '../../lib/slots.ts';
+import { cardHtml } from '../../lib/card.ts';
+import { VOLATILITY } from '../../schemas/index.ts';
+import { volatilityLabel } from '../../lib/i18n/de.ts';
+import RandomDemoButton from '../ui/RandomDemoButton.astro';
+
+interface Props { pageSize?: number; filters?: boolean; searchId?: string }
+const { pageSize = 21, filters = false, searchId = 'suche' } = Astro.props;
+const all = (await getSlotViews()).map(lobbyRecord);
+const tabs = [
+  { code: '', label: 'Alle', count: all.length },
+  ...CATEGORIES.map((c) => ({ code: c.code, label: c.short, count: all.filter((r) => r.c.includes(c.code)).length })),
+].filter((t) => t.count > 0);
+const providers = [...new Map(all.map((r) => [r.ps, r.p])).entries()].sort((a, b) => a[1].localeCompare(b[1], 'de'));
+const first = all.slice(0, pageSize);
+---
+<div class="space-y-5" data-lobby data-page={pageSize}>
+  <div role="tablist" aria-label="Kategorien" class="-mx-4 flex gap-2 overflow-x-auto px-4 pb-1 sm:mx-0 sm:flex-wrap sm:px-0">
+    {tabs.map((t, i) => (
+      <button type="button" role="tab" aria-selected={i === 0 ? 'true' : 'false'} data-tab={t.code} class="chip shrink-0 !rounded-xl">
+        {t.label} <span class="text-xs text-subtle">{t.count.toLocaleString('de-DE')}</span>
+      </button>
+    ))}
+  </div>
+
+  <div class="flex flex-col gap-3 sm:flex-row sm:items-center">
+    <label for={searchId} class="sr-only">Spiel oder Hersteller suchen</label>
+    <div class="flex min-h-12 flex-1 items-center gap-2 rounded-xl border border-ink-600 bg-ink-900 px-4 focus-within:border-gold-400 sm:max-w-md">
+      <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" class="shrink-0 text-subtle"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2" fill="none" /><path d="M20 20l-3.5-3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" /></svg>
+      <input id={searchId} type="search" autocomplete="off" placeholder="Spiel oder Hersteller suchen …" class="min-w-0 flex-1 bg-transparent py-2.5 text-fg placeholder:text-subtle focus:outline-none" data-f="q" />
+    </div>
+    {filters && (
+      <div class="grid grid-cols-3 gap-2 sm:flex">
+        <label class="sr-only" for={`${searchId}-p`}>Hersteller</label>
+        <select id={`${searchId}-p`} class="min-h-12 rounded-xl border border-ink-600 bg-ink-900 px-3 text-sm text-fg" data-f="p">
+          <option value="">Hersteller</option>
+          {providers.map(([slug, name]) => <option value={slug}>{name}</option>)}
+        </select>
+        <label class="sr-only" for={`${searchId}-v`}>Volatilität</label>
+        <select id={`${searchId}-v`} class="min-h-12 rounded-xl border border-ink-600 bg-ink-900 px-3 text-sm text-fg" data-f="v">
+          <option value="">Volatilität</option>
+          {VOLATILITY.map((v) => <option value={v}>{volatilityLabel[v]}</option>)}
+        </select>
+        <label class="sr-only" for={`${searchId}-o`}>Sortierung</label>
+        <select id={`${searchId}-o`} class="min-h-12 rounded-xl border border-ink-600 bg-ink-900 px-3 text-sm text-fg" data-f="o">
+          <option value="">Sortierung</option>
+          <option value="az">A–Z</option>
+          <option value="rtp">Höchster RTP</option>
+          <option value="max">Höchster Max-Win</option>
+        </select>
+      </div>
+    )}
+    <RandomDemoButton variant="secondary" label="Würfel-Tipp" class="!min-h-12 !border-gold-500/60 !text-gold-300" />
+  </div>
+
+  <p class="text-sm text-subtle" aria-live="polite" data-count>{first.length} von {all.length.toLocaleString('de-DE')} Spielen</p>
+
+  <div class="grid grid-cols-2 gap-x-3 gap-y-5 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7" data-grid set:html={first.map((r, i) => cardHtml(r, i < 7)).join('')} />
+
+  <div class="text-center">
+    <button type="button" class="btn btn-secondary" data-more hidden={all.length <= pageSize}>Mehr Spiele laden</button>
+  </div>
+</div>
+
+<script>
+  import { cardHtml, type LobbyRec } from '../../lib/card.ts';
+  document.querySelectorAll<HTMLElement>('[data-lobby]').forEach((root) => {
+    const PAGE = Number(root.dataset.page) || 21;
+    const grid = root.querySelector<HTMLElement>('[data-grid]')!;
+    const more = root.querySelector<HTMLButtonElement>('[data-more]')!;
+    const count = root.querySelector<HTMLElement>('[data-count]')!;
+    const q = root.querySelector<HTMLInputElement>('[data-f="q"]')!;
+    const sel = (k: string) => root.querySelector<HTMLSelectElement>(`[data-f="${k}"]`);
+    let tab = '';
+    let shown = PAGE;
+    let data: LobbyRec[] | null = null;
+    const norm = (t: string) => t.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+
+    function apply() {
+      if (!data) return;
+      const term = norm(q.value.trim());
+      const p = sel('p')?.value ?? '', v = sel('v')?.value ?? '', o = sel('o')?.value ?? '';
+      let list = data.filter((r) => (!tab || r.c.includes(tab)) && (!p || r.ps === p) && (!v || r.v === v) && (!term || norm(`${r.n} ${r.p}`).includes(term)));
+      if (o === 'az') list = [...list].sort((x, y) => x.n.localeCompare(y.n, 'de'));
+      if (o === 'rtp') list = [...list].sort((x, y) => (y.r ?? -1) - (x.r ?? -1));
+      if (o === 'max') list = [...list].sort((x, y) => (y.m ?? -1) - (x.m ?? -1));
+      const page = list.slice(0, shown);
+      grid.innerHTML = page.map((r) => cardHtml(r)).join('') || '<p class="col-span-full py-10 text-center text-muted">Keine Spiele gefunden. Versuch es mit einem anderen Suchbegriff.</p>';
+      count.textContent = `${page.length.toLocaleString('de-DE')} von ${list.length.toLocaleString('de-DE')} Spielen`;
+      more.hidden = list.length <= shown;
+    }
+    const run = async (reset = true) => {
+      if (reset) shown = PAGE;
+      data ??= await (await fetch('/api/slots.json')).json();
+      apply();
+    };
+
+    q.addEventListener('input', () => run());
+    ['p', 'v', 'o'].forEach((k) => sel(k)?.addEventListener('change', () => run()));
+    root.querySelectorAll<HTMLButtonElement>('[data-tab]').forEach((b) => b.addEventListener('click', () => {
+      root.querySelectorAll('[data-tab]').forEach((x) => x.setAttribute('aria-selected', 'false'));
+      b.setAttribute('aria-selected', 'true');
+      tab = b.dataset.tab ?? '';
+      run();
+    }));
+    more.addEventListener('click', () => { shown += PAGE; run(false); });
+
+    const params = new URLSearchParams(location.search);
+    const initial = params.get('q'), prov = params.get('hersteller'), cat = params.get('kategorie'), sort = params.get('sort');
+    if (initial) q.value = initial;
+    if (prov && sel('p')) sel('p')!.value = prov;
+    if (sort && sel('o')) sel('o')!.value = sort;
+    if (cat) root.querySelector<HTMLButtonElement>(`[data-tab="${CSS.escape(cat)}"]`)?.click();
+    else if (initial || prov || sort) run();
+  });
+</script>

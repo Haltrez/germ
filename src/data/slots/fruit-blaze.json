@@ -5,7 +5,7 @@
   "rtp": 96.01,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 8.7",
-  "maxWinMultiplier": 4000.0,
+  "maxWinMultiplier": 4000,
   "hitRate": 4.55,
   "reels": 4,
   "rows": 3,
@@ -14,7 +14,7 @@
     "count": 1296
   },
   "minStake": 0.2,
-  "maxStake": 200.0,
+  "maxStake": 200,
   "features": [
     "free-spins",
     "multipliers",
@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_fruit_blaze_icon5_188e3cb476.png",
   "sourceUrls": [
     "https://netent.com/games/fruit-blaze"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/fruit-blaze.webp",
+    "alt": "Fruit Blaze Spielautomat"
+  }
 }

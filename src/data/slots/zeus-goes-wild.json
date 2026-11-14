@@ -5,7 +5,7 @@
   "rtp": 95.5,
   "volatility": "medium",
   "volatilityNote": "medium",
-  "maxWinMultiplier": 800.0,
+  "maxWinMultiplier": 800,
   "hitRate": 8.6,
   "freeSpinsRate": 114,
   "reels": "TODO",
@@ -32,8 +32,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/67cf10f2ed14304feb6789a3_Zeus_Goes_Wild_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/zeus-goes-wild"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/zeus-goes-wild.webp",
+    "alt": "Zeus Goes Wild Spielautomat"
+  }
 }

@@ -2,11 +2,11 @@
   "name": "Royal Nutcracker",
   "provider": "bgaming",
   "releaseDate": "2026-12-10",
-  "rtp": 96.0,
+  "rtp": 96,
   "volatility": "medium",
   "volatilityNote": "medium",
-  "maxWinMultiplier": 15000.0,
-  "hitRate": 6.0,
+  "maxWinMultiplier": 15000,
+  "hitRate": 6,
   "reels": "TODO",
   "rows": "TODO",
   "winLines": {
@@ -32,8 +32,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2026/11/Royal-Nutcracker_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/royal-nutcracker"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/royal-nutcracker.webp",
+    "alt": "Royal Nutcracker Spielautomat"
+  }
 }

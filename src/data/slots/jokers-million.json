@@ -5,7 +5,7 @@
   "rtp": 97.34,
   "volatility": "high",
   "volatilityNote": "medium-high",
-  "maxWinMultiplier": 3000.0,
+  "maxWinMultiplier": 3000,
   "hitRate": 4.3,
   "reels": "TODO",
   "rows": "TODO",
@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/06/6787dd8e0ede84e691d98083_Jokers_Million_1020х1280-e1771222902990.webp",
   "sourceUrls": [
     "https://bgaming.com/games/jokers-million"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/jokers-million.webp",
+    "alt": "Joker’s Million Spielautomat"
+  }
 }

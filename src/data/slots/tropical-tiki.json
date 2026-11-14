@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2022/07/Tropical-Tiki_339x180.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/tropical-tiki/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/tropical-tiki.webp",
+    "alt": "Tropical Tiki Spielautomat"
+  }
 }

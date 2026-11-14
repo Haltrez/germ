@@ -2,10 +2,10 @@
   "name": "Divine Queen: Heart of Ice",
   "provider": "bgaming",
   "releaseDate": "2025-11-20",
-  "rtp": 97.0,
+  "rtp": 97,
   "volatility": "high",
   "volatilityNote": "medium-high",
-  "maxWinMultiplier": 5000.0,
+  "maxWinMultiplier": 5000,
   "hitRate": 3.3,
   "freeSpinsRate": 250,
   "reels": "TODO",
@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/10/Divine_Queen_Heart_of_Ice_1020х1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/divine-queen-heart-of-ice"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/divine-queen-heart-of-ice.webp",
+    "alt": "Divine Queen: Heart of Ice Spielautomat"
+  }
 }

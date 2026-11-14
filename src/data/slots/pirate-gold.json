@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2019/03/Pirates-Code™_Thumb_339x180_02-4.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/pirate-gold-slot/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/pirate-gold.webp",
+    "alt": "Pirate Gold Spielautomat"
+  }
 }

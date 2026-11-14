@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/534/hero-desktop/0-b12ed9715f43281b",
   "sourceUrls": [
     "https://www.playngo.com/games/charlie-chance"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/charlie-chance.webp",
+    "alt": "Charlie Chance Spielautomat"
+  }
 }

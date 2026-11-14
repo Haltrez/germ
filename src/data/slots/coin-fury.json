@@ -1,0 +1,33 @@
+{
+  "name": "Coin Fury",
+  "provider": "novomatic",
+  "releaseDate": "2025-11-04",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 3,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "hold-and-win"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/2025/07/fury_1080x1080.jpg",
+  "sourceUrls": [
+    "https://www.greentube.com/game/coin-fury/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/coin-fury.webp",
+    "alt": "Coin Fury Spielautomat"
+  }
+}

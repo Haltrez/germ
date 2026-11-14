@@ -29,8 +29,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/744/hero-desktop/0-57eeac4e51898d6f",
   "sourceUrls": [
     "https://www.playngo.com/games/cat-wilde-and-the-incan-quest"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/cat-wilde-and-the-incan-quest.webp",
+    "alt": "Cat Wilde and the Incan Quest Spielautomat"
+  }
 }

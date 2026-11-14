@@ -2,10 +2,10 @@
   "name": "Merge Up 2",
   "provider": "bgaming",
   "releaseDate": "2025-10-28",
-  "rtp": 97.0,
+  "rtp": 97,
   "volatility": "very-high",
   "volatilityNote": "very high",
-  "maxWinMultiplier": 10000.0,
+  "maxWinMultiplier": 10000,
   "hitRate": 3.4,
   "freeSpinsRate": 409,
   "reels": "TODO",
@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/09/Merge_Up__1020х1280-1.webp",
   "sourceUrls": [
     "https://bgaming.com/games/merge-up-2"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/merge-up-2.webp",
+    "alt": "Merge Up 2 Spielautomat"
+  }
 }

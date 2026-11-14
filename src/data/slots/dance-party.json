@@ -28,8 +28,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2020/03/Dance-Party™_EN_339x180_01-2.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/dance-party-slot/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/dance-party.webp",
+    "alt": "Dance Party Spielautomat"
+  }
 }

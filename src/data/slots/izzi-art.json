@@ -5,7 +5,7 @@
   "rtp": 96.11,
   "volatility": "high",
   "volatilityNote": "high",
-  "maxWinMultiplier": 10200.0,
+  "maxWinMultiplier": 10200,
   "hitRate": 2.59,
   "freeSpinsRate": 398,
   "reels": "TODO",
@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/666af6c852b8baa755921653_Izziart_455x574.webp",
   "sourceUrls": [
     "https://bgaming.com/games/izzi-art"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/izzi-art.webp",
+    "alt": "Izzi Art Spielautomat"
+  }
 }

@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/704/hero-desktop/0-2b521921c40241b6",
   "sourceUrls": [
     "https://www.playngo.com/games/mystery-genie-fortunes-of-the-lamp"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/mystery-genie-fortunes-of-the-lamp.webp",
+    "alt": "Mystery Genie Fortunes of the Lamp Spielautomat"
+  }
 }

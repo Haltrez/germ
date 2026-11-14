@@ -1,0 +1,33 @@
+{
+  "name": "Calacas Cash Buy Bonus",
+  "provider": "novomatic",
+  "releaseDate": "2024-10-15",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 6,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/calacas-cash-icon.jpg",
+  "sourceUrls": [
+    "https://www.greentube.com/game/calacas-cash-buy-bonus/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/calacas-cash-buy-bonus.webp",
+    "alt": "Calacas Cash Buy Bonus Spielautomat"
+  }
+}

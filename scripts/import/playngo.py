@@ -22,7 +22,8 @@ for u in urls:
     h1 = re.search(r'<h1[^>]*>(.*?)</h1>', s, re.S)
     name = re.sub(r'[™®©]', '', text(h1.group(1))).strip() if h1 else None
     if not name: continue
-    g = {'slug': slug, 'name': name, 'url': u}
+    og = re.search(r'og:image" content="([^"]+)"', s)
+    g = {'slug': slug, 'name': name, 'url': u, 'thumb': og.group(1) if og else None}
     m = re.search(r'Released on: (\d{1,2} [A-Z][a-z]{2} \d{4})', t)
     if m:
         try: g['releaseDate'] = datetime.strptime(m.group(1), '%d %b %Y').date().isoformat()

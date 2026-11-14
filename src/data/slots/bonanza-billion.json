@@ -5,7 +5,7 @@
   "rtp": 95.97,
   "volatility": "TODO",
   "volatilityNote": "low-high",
-  "maxWinMultiplier": 15000.0,
+  "maxWinMultiplier": 15000,
   "hitRate": 2.59,
   "freeSpinsRate": 395,
   "reels": "TODO",
@@ -32,8 +32,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2026/08/1020x1280-1.webp",
   "sourceUrls": [
     "https://bgaming.com/games/bonanza-billion"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/bonanza-billion.webp",
+    "alt": "Bonanza Billion Spielautomat"
+  }
 }

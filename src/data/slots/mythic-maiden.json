@@ -5,7 +5,7 @@
   "rtp": 96.58,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 4",
-  "maxWinMultiplier": 2100.0,
+  "maxWinMultiplier": 2100,
   "hitRate": 2.7,
   "reels": 5,
   "rows": 3,
@@ -14,7 +14,7 @@
     "count": 30
   },
   "minStake": 0.3,
-  "maxStake": 150.0,
+  "maxStake": 150,
   "features": [
     "free-spins",
     "multipliers",
@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_mythic_maiden_icon5_23142b0173.png",
   "sourceUrls": [
     "https://netent.com/games/mythic-maiden"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/mythic-maiden.webp",
+    "alt": "Mythic Maiden Spielautomat"
+  }
 }

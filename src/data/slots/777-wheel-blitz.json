@@ -21,8 +21,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2026/07/777-Wheel-Blitz_339x180_EN.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/777-wheel-blitz/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/777-wheel-blitz.webp",
+    "alt": "777 Wheel Blitz Spielautomat"
+  }
 }

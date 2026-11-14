@@ -5,7 +5,7 @@
   "rtp": 96.1,
   "volatility": "very-high",
   "volatilityNote": "very high",
-  "maxWinMultiplier": 10490.0,
+  "maxWinMultiplier": 10490,
   "hitRate": 11.55,
   "reels": "TODO",
   "rows": "TODO",
@@ -29,8 +29,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2026/10/Formula_x_10000_1020х1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/formula-x10000"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/formula-x10000.webp",
+    "alt": "Formula x10000 Spielautomat"
+  }
 }

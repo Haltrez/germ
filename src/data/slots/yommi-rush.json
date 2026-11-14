@@ -5,7 +5,7 @@
   "rtp": 96.32,
   "volatility": "medium",
   "volatilityNote": "medium",
-  "maxWinMultiplier": 2000.0,
+  "maxWinMultiplier": 2000,
   "hitRate": 3.74,
   "freeSpinsRate": 166,
   "reels": "TODO",
@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/08/68add8f11d197d91efde34fd_Yommi_Rush_1020х1280-1.webp",
   "sourceUrls": [
     "https://bgaming.com/games/yommi-rush"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/yommi-rush.webp",
+    "alt": "Yommi Rush Spielautomat"
+  }
 }

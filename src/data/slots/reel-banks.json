@@ -28,8 +28,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2022/11/Reel-Banks_339x180.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/reel-banks/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/reel-banks.webp",
+    "alt": "Reel Banks Spielautomat"
+  }
 }

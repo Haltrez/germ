@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2025/07/Chilli-Heat-Spicy-Spins_339x180.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/chilli-heat-spicy-spins/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/chilli-heat-spicy-spins.webp",
+    "alt": "Chilli Heat Spicy Spins Spielautomat"
+  }
 }

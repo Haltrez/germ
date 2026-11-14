@@ -24,8 +24,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/429/hero-desktop/0-e9bfdbd533d26e03",
   "sourceUrls": [
     "https://www.playngo.com/games/reactoonz-2"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/reactoonz-2.webp",
+    "alt": "Reactoonz 2 Spielautomat"
+  }
 }

@@ -5,7 +5,7 @@
   "rtp": 96.31,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 4.7",
-  "maxWinMultiplier": 1000.0,
+  "maxWinMultiplier": 1000,
   "hitRate": 4.98,
   "reels": 5,
   "rows": 3,
@@ -14,7 +14,7 @@
     "count": 20
   },
   "minStake": 0.2,
-  "maxStake": 200.0,
+  "maxStake": 200,
   "features": [
     "free-spins",
     "cascades",
@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_asgardian_stones_icon5_69b34cbc86.png",
   "sourceUrls": [
     "https://netent.com/games/asgardian-stones"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/asgardian-stones.webp",
+    "alt": "Asgardian Stones Spielautomat"
+  }
 }

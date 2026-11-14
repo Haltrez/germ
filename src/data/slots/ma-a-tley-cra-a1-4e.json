@@ -24,8 +24,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/644/hero-desktop/0-daf9484cf515dd24",
   "sourceUrls": [
     "https://www.playngo.com/games/ma-a-tley-cra-a1-4e"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/ma-a-tley-cra-a1-4e.webp",
+    "alt": "Mötley Crüe Spielautomat"
+  }
 }

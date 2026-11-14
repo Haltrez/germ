@@ -5,7 +5,7 @@
   "rtp": 94.03,
   "volatility": "low",
   "volatilityNote": "low",
-  "maxWinMultiplier": 2500.0,
+  "maxWinMultiplier": 2500,
   "hitRate": 6.2,
   "reels": "TODO",
   "rows": "TODO",
@@ -29,8 +29,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/66951d1521affb06add3030c_Four_lucky_clover_1020x618.webp",
   "sourceUrls": [
     "https://bgaming.com/games/four-lucky-clover"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/four-lucky-clover.webp",
+    "alt": "Four Lucky Clover Spielautomat"
+  }
 }

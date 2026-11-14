@@ -10,9 +10,7 @@
   "winLines": "TODO",
   "minStake": "TODO",
   "maxStake": "TODO",
-  "features": [
-    "bonus-buy"
-  ],
+  "features": [],
   "themes": [],
   "categories": [],
   "demoUrl": null,
@@ -21,8 +19,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/2026/07/rr-santas-sleigh-of-gold-icon.jpg",
   "sourceUrls": [
     "https://www.greentube.com/game/rumble-riches-santas-sleigh-of-gold-buy-bonus/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/rumble-riches-santas-sleigh-of-gold-buy-bonus.webp",
+    "alt": "Rumble Riches – Santa’s Sleigh of Gold Buy Bonus Spielautomat"
+  }
 }

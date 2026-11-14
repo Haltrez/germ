@@ -5,7 +5,7 @@
   "rtp": 96.88,
   "volatility": "high",
   "volatilityNote": "medium-high",
-  "maxWinMultiplier": 7500.0,
+  "maxWinMultiplier": 7500,
   "hitRate": 2.65,
   "freeSpinsRate": 227,
   "reels": "TODO",
@@ -34,8 +34,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/06/66d0c487bb2eb03c05645076_Voodoo_People_1020х1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/voodoo-people"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/voodoo-people.webp",
+    "alt": "Voodoo People Spielautomat"
+  }
 }

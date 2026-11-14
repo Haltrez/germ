@@ -27,8 +27,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/728/hero-desktop/0-48ff0a7ff7b487e3",
   "sourceUrls": [
     "https://www.playngo.com/games/banquet-of-dead"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/banquet-of-dead.webp",
+    "alt": "Banquet of Dead Spielautomat"
+  }
 }

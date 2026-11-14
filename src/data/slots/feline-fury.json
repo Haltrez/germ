@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/415/hero-desktop/0-a31b2fac30ce149c",
   "sourceUrls": [
     "https://www.playngo.com/games/feline-fury"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/feline-fury.webp",
+    "alt": "Feline Fury Spielautomat"
+  }
 }

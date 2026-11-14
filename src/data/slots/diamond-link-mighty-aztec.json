@@ -11,8 +11,7 @@
   "minStake": "TODO",
   "maxStake": "TODO",
   "features": [
-    "expanding-symbols",
-    "wilds"
+    "free-spins"
   ],
   "themes": [],
   "categories": [],
@@ -22,8 +21,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/2026/04/dl-mighty-aztec-icon.jpg",
   "sourceUrls": [
     "https://www.greentube.com/game/diamond-link-mighty-aztec/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/diamond-link-mighty-aztec.webp",
+    "alt": "Diamond Link – Mighty Aztec Spielautomat"
+  }
 }

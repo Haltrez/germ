@@ -24,8 +24,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1007/hero-desktop/0-51813d357adfa3ea",
   "sourceUrls": [
     "https://www.playngo.com/games/fire-joker-100"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/fire-joker-100.webp",
+    "alt": "Fire Joker 100 Spielautomat"
+  }
 }

@@ -19,8 +19,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/2026/07/alotta-lobsters-icon.jpg",
   "sourceUrls": [
     "https://www.greentube.com/game/alotta-lobsters/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/alotta-lobsters.webp",
+    "alt": "Alotta Lobsters Spielautomat"
+  }
 }

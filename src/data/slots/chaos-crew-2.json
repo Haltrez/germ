@@ -10,7 +10,7 @@
   ],
   "volatility": "very-high",
   "volatilityNote": "5/5",
-  "maxWinMultiplier": 20000.0,
+  "maxWinMultiplier": 20000,
   "reels": "TODO",
   "rows": "TODO",
   "winLines": {
@@ -36,8 +36,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/1352_hero_Device_Desktop16x9.png",
   "sourceUrls": [
     "https://www.hacksawgaming.com/games/chaos-crew-2"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/chaos-crew-2.webp",
+    "alt": "Chaos Crew 2 Spielautomat"
+  }
 }

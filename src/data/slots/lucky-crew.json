@@ -5,7 +5,7 @@
   "rtp": 95.98,
   "volatility": "very-high",
   "volatilityNote": "very high",
-  "maxWinMultiplier": 3525.0,
+  "maxWinMultiplier": 3525,
   "hitRate": 3.55,
   "freeSpinsRate": 177,
   "reels": "TODO",
@@ -34,8 +34,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/669525fe5b1f2aaaab29de77_Lucky_Crew_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/lucky-crew"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/lucky-crew.webp",
+    "alt": "Lucky Crew Spielautomat"
+  }
 }

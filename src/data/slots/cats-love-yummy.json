@@ -5,7 +5,7 @@
   "rtp": 96.07,
   "volatility": "high",
   "volatilityNote": "medium-high",
-  "maxWinMultiplier": 1500.0,
+  "maxWinMultiplier": 1500,
   "hitRate": 3.4,
   "freeSpinsRate": 93,
   "reels": "TODO",
@@ -29,8 +29,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2026/08/Cats_Love_Yummy_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/cats-love-yummy"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/cats-love-yummy.webp",
+    "alt": "Cats Love Yummy Spielautomat"
+  }
 }

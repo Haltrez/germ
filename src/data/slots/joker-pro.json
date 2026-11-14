@@ -5,7 +5,7 @@
   "rtp": 96.8,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 8.4",
-  "maxWinMultiplier": 1000.0,
+  "maxWinMultiplier": 1000,
   "hitRate": 7.14,
   "reels": 5,
   "rows": 3,
@@ -14,7 +14,7 @@
     "count": 10
   },
   "minStake": 0.1,
-  "maxStake": 100.0,
+  "maxStake": 100,
   "features": [
     "sticky-wilds",
     "wilds",
@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_jpro_icon5_9fb057ba9e.png",
   "sourceUrls": [
     "https://netent.com/games/joker-pro"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/joker-pro.webp",
+    "alt": "Joker Pro Spielautomat"
+  }
 }

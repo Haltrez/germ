@@ -27,8 +27,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/388/hero-desktop/0-38ecf61741546997",
   "sourceUrls": [
     "https://www.playngo.com/games/rainforest-magic"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/rainforest-magic.webp",
+    "alt": "Rainforest Magic Spielautomat"
+  }
 }

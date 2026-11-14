@@ -2,7 +2,7 @@
   "name": "Crank It Up",
   "provider": "pragmatic-play",
   "releaseDate": "TODO",
-  "rtp": 96.0,
+  "rtp": 96,
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
   "reels": "TODO",
@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2024/06/Crank-it-up_339x180-1.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/crank-it-up/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/crank-it-up.webp",
+    "alt": "Crank It Up Spielautomat"
+  }
 }

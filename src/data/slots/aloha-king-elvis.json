@@ -5,7 +5,7 @@
   "rtp": 94.98,
   "volatility": "high",
   "volatilityNote": "medium-high",
-  "maxWinMultiplier": 2000.0,
+  "maxWinMultiplier": 2000,
   "hitRate": 2.22,
   "freeSpinsRate": 209,
   "reels": "TODO",
@@ -35,8 +35,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/66951231e41131af0c6f1a85_Aloha_King_Elvis_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/aloha-king-elvis"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/aloha-king-elvis.webp",
+    "alt": "Aloha King Elvis Spielautomat"
+  }
 }

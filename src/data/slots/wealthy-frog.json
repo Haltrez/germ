@@ -21,8 +21,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2025/05/Wealthy-Frog_339x180_B.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/wealthy-frog/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/wealthy-frog.webp",
+    "alt": "Wealthy Frog Spielautomat"
+  }
 }

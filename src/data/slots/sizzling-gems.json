@@ -22,8 +22,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/2026/05/sizzling-gems-icon.jpg",
   "sourceUrls": [
     "https://www.greentube.com/game/sizzling-gems/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/sizzling-gems.webp",
+    "alt": "Sizzling Gems Spielautomat"
+  }
 }

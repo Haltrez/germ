@@ -29,8 +29,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2026/06/The-Dog-House-Megaways-1000_339x180_EN.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/the-dog-house-megaways-1000/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/the-dog-house-megaways-1000.webp",
+    "alt": "The Dog House Megaways 1000 Spielautomat"
+  }
 }

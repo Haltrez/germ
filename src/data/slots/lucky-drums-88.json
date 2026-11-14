@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2026/08/Lucky-Drums-88_339x180_EN.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/lucky-drums-88/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/lucky-drums-88.webp",
+    "alt": "Lucky Drums 88 Spielautomat"
+  }
 }

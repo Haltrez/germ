@@ -2,10 +2,10 @@
   "name": "Vegas Night Life",
   "provider": "netent",
   "releaseDate": "2020-10-29",
-  "rtp": 96.0,
+  "rtp": 96,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 3.8",
-  "maxWinMultiplier": 1100.0,
+  "maxWinMultiplier": 1100,
   "hitRate": 3.12,
   "reels": 5,
   "rows": 3,
@@ -14,7 +14,7 @@
     "count": 20
   },
   "minStake": 0.2,
-  "maxStake": 100.0,
+  "maxStake": 100,
   "features": [
     "free-spins",
     "multipliers"
@@ -29,8 +29,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_vegas_night_life_icon5_01d35b09b2.png",
   "sourceUrls": [
     "https://netent.com/games/vegas-night-life"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/vegas-night-life.webp",
+    "alt": "Vegas Night Life Spielautomat"
+  }
 }

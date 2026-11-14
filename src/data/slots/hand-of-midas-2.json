@@ -27,8 +27,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2024/06/Hand-of-Midas-2_339x180.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/hand-of-midas-2/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/hand-of-midas-2.webp",
+    "alt": "Hand of Midas 2 Spielautomat"
+  }
 }

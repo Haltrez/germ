@@ -29,8 +29,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2021/11/Big_Bass_Bonanaza_MEGAWAYS_EN_339x180_04.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/big-bass-bonanza-megaways/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/big-bass-bonanza-megaways.webp",
+    "alt": "Big Bass Bonanza Megaways Spielautomat"
+  }
 }

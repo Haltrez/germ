@@ -21,8 +21,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/901/hero-desktop/0-83718224924bf497",
   "sourceUrls": [
     "https://www.playngo.com/games/detroit-red-wings-winged-reelers"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/detroit-red-wings-winged-reelers.webp",
+    "alt": "Detroit Red Wings Winged Reelers Spielautomat"
+  }
 }

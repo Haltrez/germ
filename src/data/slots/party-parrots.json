@@ -1,0 +1,33 @@
+{
+  "name": "Party Parrots",
+  "provider": "novomatic",
+  "releaseDate": "2025-02-18",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/party-parrots-icon.jpg",
+  "sourceUrls": [
+    "https://www.greentube.com/game/party-parrots/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/party-parrots.webp",
+    "alt": "Party Parrots Spielautomat"
+  }
+}

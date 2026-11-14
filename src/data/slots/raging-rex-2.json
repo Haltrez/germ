@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/607/hero-desktop/0-2457f07875b8d8c3",
   "sourceUrls": [
     "https://www.playngo.com/games/raging-rex-2"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/raging-rex-2.webp",
+    "alt": "Raging Rex 2 Spielautomat"
+  }
 }

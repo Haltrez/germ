@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1124/hero-desktop/0-384cd6297cb0ee49",
   "sourceUrls": [
     "https://www.playngo.com/games/phoenix-frenzy-triple-win"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/phoenix-frenzy-triple-win.webp",
+    "alt": "Phoenix Frenzy Triple Win Spielautomat"
+  }
 }

@@ -27,7 +27,8 @@ for u in urls:
     title = re.search(r'<title>(.*?)</title>', s, re.S)
     name = text(title.group(1)).split('|')[0].strip() if title else None
     if not name: continue
-    g = {'slug': slug, 'name': name, 'url': u}
+    th = re.search(r'(https://www-live\.hacksawgaming\.com/casino_thumbnails/[^"\')]*_hero_Device_Desktop[^"\')]*\.png)', s)
+    g = {'slug': slug, 'name': name, 'url': u, 'thumb': th.group(1) if th else None}
     rm = re.search(r'RTPs?\s*:\s*([\d.,;%\s]+)', data)
     rtps = [float(x) for x in re.findall(r'(\d{2}(?:\.\d+)?)', rm.group(1))] if rm else []
     rtps = [x for x in rtps if 80 <= x <= 100]

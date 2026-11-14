@@ -25,8 +25,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/342/hero-desktop/0-7f72ede498e15c74",
   "sourceUrls": [
     "https://www.playngo.com/games/big-win-cat"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/big-win-cat.webp",
+    "alt": "Big Win Cat Spielautomat"
+  }
 }

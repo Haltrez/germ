@@ -24,8 +24,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/311/hero-desktop/0-feef0ddded17877b",
   "sourceUrls": [
     "https://www.playngo.com/games/sails-of-gold"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/sails-of-gold.webp",
+    "alt": "Sails of Gold Spielautomat"
+  }
 }

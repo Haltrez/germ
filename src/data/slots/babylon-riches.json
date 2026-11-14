@@ -5,7 +5,7 @@
   "rtp": 96.13,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 11.04",
-  "maxWinMultiplier": 7250.0,
+  "maxWinMultiplier": 7250,
   "hitRate": 4.76,
   "reels": 5,
   "rows": 3,
@@ -14,7 +14,7 @@
     "count": 20
   },
   "minStake": 0.1,
-  "maxStake": 60.0,
+  "maxStake": 60,
   "features": [
     "free-spins",
     "multipliers",
@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_babylon_riches_icon5_73ce566ec7.png",
   "sourceUrls": [
     "https://netent.com/games/babylon-riches"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/babylon-riches.webp",
+    "alt": "Babylon Riches Spielautomat"
+  }
 }

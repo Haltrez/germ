@@ -5,7 +5,7 @@
   "rtp": 94.56,
   "volatility": "high",
   "volatilityNote": "high",
-  "maxWinMultiplier": 3812.0,
+  "maxWinMultiplier": 3812,
   "hitRate": 2.57,
   "freeSpinsRate": 153,
   "reels": "TODO",
@@ -32,8 +32,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/06/66951273c04b5ad8887ca481_Avalon_The_Lost_Kingdom_1020х1280-2.webp",
   "sourceUrls": [
     "https://bgaming.com/games/avalon-the-lost-kingdom"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/avalon-the-lost-kingdom.webp",
+    "alt": "Avalon: The Lost Kingdom Spielautomat"
+  }
 }

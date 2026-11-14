@@ -5,7 +5,7 @@
   "rtp": 96.33,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 8.2",
-  "maxWinMultiplier": 2200.0,
+  "maxWinMultiplier": 2200,
   "hitRate": 8.33,
   "reels": 5,
   "rows": 4,
@@ -14,7 +14,7 @@
     "count": 1024
   },
   "minStake": 0.2,
-  "maxStake": 100.0,
+  "maxStake": 100,
   "features": [
     "free-spins",
     "cascades",
@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_cashomatic_icon5_c800fa35c3.png",
   "sourceUrls": [
     "https://netent.com/games/cash-o-matic"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/cash-o-matic.webp",
+    "alt": "Cashomatic Spielautomat"
+  }
 }

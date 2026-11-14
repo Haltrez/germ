@@ -30,8 +30,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2024/03/Ice-Lobster_339x180.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/ice-lobster/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/ice-lobster.webp",
+    "alt": "Ice Lobster Spielautomat"
+  }
 }

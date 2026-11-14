@@ -29,8 +29,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/360/hero-desktop/0-4490916943d70dba",
   "sourceUrls": [
     "https://www.playngo.com/games/divine-showdown"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/divine-showdown.webp",
+    "alt": "Divine Showdown Spielautomat"
+  }
 }

@@ -1,0 +1,34 @@
+{
+  "name": "Diamond Mystery – 100 Charming 7’s",
+  "provider": "novomatic",
+  "releaseDate": "2025-04-03",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 5,
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 100
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/dm-100-charming-7s-icon.jpg",
+  "sourceUrls": [
+    "https://www.greentube.com/game/diamond-mystery-100-charming-7s/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/diamond-mystery-100-charming-7s.webp",
+    "alt": "Diamond Mystery – 100 Charming 7’s Spielautomat"
+  }
+}

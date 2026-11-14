@@ -5,7 +5,7 @@
   "rtp": 96.23,
   "volatility": "very-high",
   "volatilityNote": "very high",
-  "maxWinMultiplier": 1059.0,
+  "maxWinMultiplier": 1059,
   "hitRate": 12.28,
   "reels": "TODO",
   "rows": "TODO",
@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/06/64fc22b51fd5e57fd6f53c38_63e4face6d75cc08149b97cd_Wild_Cash_GAME_HERO-1.webp",
   "sourceUrls": [
     "https://bgaming.com/games/wild-cash"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/wild-cash.webp",
+    "alt": "Wild Cash Spielautomat"
+  }
 }

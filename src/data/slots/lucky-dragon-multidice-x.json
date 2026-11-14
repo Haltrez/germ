@@ -2,11 +2,11 @@
   "name": "Lucky Dragon MultiDice X",
   "provider": "bgaming",
   "releaseDate": "2024-04-25",
-  "rtp": 97.0,
+  "rtp": 97,
   "volatility": "very-high",
   "volatilityNote": "very high",
-  "maxWinMultiplier": 7776.0,
-  "hitRate": 10.0,
+  "maxWinMultiplier": 7776,
+  "hitRate": 10,
   "freeSpinsRate": 174,
   "reels": "TODO",
   "rows": "TODO",
@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/669526380be9fcd6c9c8d487_Lucky_Dragon_MultiDice_X_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/lucky-dragon-multidice-x"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/lucky-dragon-multidice-x.webp",
+    "alt": "Lucky Dragon MultiDice X Spielautomat"
+  }
 }

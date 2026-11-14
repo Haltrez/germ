@@ -5,7 +5,7 @@
   "rtp": 96.32,
   "volatility": "TODO",
   "volatilityNote": "NetEnt-Wert 6.9",
-  "maxWinMultiplier": 9200.0,
+  "maxWinMultiplier": 9200,
   "hitRate": 2.22,
   "reels": 5,
   "rows": 3,
@@ -14,7 +14,7 @@
     "count": 30
   },
   "minStake": 0.3,
-  "maxStake": 75.0,
+  "maxStake": 75,
   "features": [
     "free-spins",
     "multipliers",
@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://fan-cdn.nolimitcity.com/small_happy_riches_icon5_5ea2e168ab.png",
   "sourceUrls": [
     "https://netent.com/games/happy-riches"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/happy-riches.webp",
+    "alt": "Happy Riches Spielautomat"
+  }
 }

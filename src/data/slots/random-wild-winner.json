@@ -1,0 +1,31 @@
+{
+  "name": "Random Wild Winner",
+  "provider": "novomatic",
+  "releaseDate": "2025-07-29",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/2025/05/random-wild-winner-icon.jpg",
+  "sourceUrls": [
+    "https://www.greentube.com/game/random-wild-winner/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/random-wild-winner.webp",
+    "alt": "Random Wild Winner Spielautomat"
+  }
+}

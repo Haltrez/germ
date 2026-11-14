@@ -29,8 +29,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2016/11/thumbs-pt-site_3-GENIE-WISHES_330x140px.png",
   "sourceUrls": [
     "https://www.pragmaticplay.com/en/games/3-genie-wishes-slot/"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/3-genie-wishes.webp",
+    "alt": "3 Genie Wishes Spielautomat"
+  }
 }

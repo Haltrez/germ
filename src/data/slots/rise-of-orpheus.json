@@ -27,8 +27,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/702/hero-desktop/0-aaba9ad505061022",
   "sourceUrls": [
     "https://www.playngo.com/games/rise-of-orpheus"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/rise-of-orpheus.webp",
+    "alt": "Rise of Orpheus Spielautomat"
+  }
 }

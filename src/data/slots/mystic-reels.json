@@ -2,11 +2,11 @@
   "name": "Mystic Reels",
   "provider": "bgaming",
   "releaseDate": "2026-08-04",
-  "rtp": 96.0,
+  "rtp": 96,
   "volatility": "medium",
   "volatilityNote": "medium",
   "maxWinMultiplier": 4558.7,
-  "hitRate": 4.0,
+  "hitRate": 4,
   "freeSpinsRate": 139,
   "reels": "TODO",
   "rows": "TODO",
@@ -35,8 +35,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2026/07/Mystic-Reels_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/mystic-reels"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/mystic-reels.webp",
+    "alt": "Mystic Reels Spielautomat"
+  }
 }

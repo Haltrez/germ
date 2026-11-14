@@ -2,10 +2,10 @@
   "name": "Doddy and Haddzy Bonanza",
   "provider": "bgaming",
   "releaseDate": "2023-04-19",
-  "rtp": 96.0,
+  "rtp": 96,
   "volatility": "high",
   "volatilityNote": "high",
-  "maxWinMultiplier": 10200.0,
+  "maxWinMultiplier": 10200,
   "hitRate": 2.59,
   "freeSpinsRate": 398,
   "reels": "TODO",
@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/doddy-and-hadzy-main.webp",
   "sourceUrls": [
     "https://bgaming.com/games/doddy-and-haddzy-bonanza"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/doddy-and-haddzy-bonanza.webp",
+    "alt": "Doddy and Haddzy Bonanza Spielautomat"
+  }
 }

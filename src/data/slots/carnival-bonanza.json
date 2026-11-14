@@ -2,10 +2,10 @@
   "name": "Carnival Bonanza",
   "provider": "bgaming",
   "releaseDate": "2024-10-08",
-  "rtp": 96.0,
+  "rtp": 96,
   "volatility": "high",
   "volatilityNote": "high",
-  "maxWinMultiplier": 14134.0,
+  "maxWinMultiplier": 14134,
   "hitRate": 2.6,
   "freeSpinsRate": 332,
   "reels": "TODO",
@@ -32,8 +32,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/06/66e17f75d9a72009f8ae1884_Carnival_Bananza_1020х1280-2.webp",
   "sourceUrls": [
     "https://bgaming.com/games/carnival-bonanza"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/carnival-bonanza.webp",
+    "alt": "Carnival Bonanza Spielautomat"
+  }
 }

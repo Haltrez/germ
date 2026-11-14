@@ -26,8 +26,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/614/hero-desktop/0-4f60065158577036",
   "sourceUrls": [
     "https://www.playngo.com/games/fat-frankies"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/fat-frankies.webp",
+    "alt": "Fat Frankies Spielautomat"
+  }
 }

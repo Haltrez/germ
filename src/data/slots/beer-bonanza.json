@@ -4,7 +4,7 @@
   "releaseDate": "2022-09-08",
   "rtp": 95.97,
   "volatility": "TODO",
-  "maxWinMultiplier": 15000.0,
+  "maxWinMultiplier": 15000,
   "hitRate": 2.59,
   "freeSpinsRate": 395,
   "reels": "TODO",
@@ -31,8 +31,13 @@
   "availableInDE": "TODO",
   "gglOperatorSlugs": [],
   "screenshots": [],
+  "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/669513ac7adf73f5caeca9e9_Beer_Bonanza_1020x1280.webp",
   "sourceUrls": [
     "https://bgaming.com/games/beer-bonanza"
   ],
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/beer-bonanza.webp",
+    "alt": "Beer Bonanza Spielautomat"
+  }
 }
