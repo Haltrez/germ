@@ -1,0 +1,33 @@
+{
+  "name": "Fruity Splasher",
+  "provider": "novomatic",
+  "releaseDate": "TODO",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 6,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "cascades"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/fruity-splasher-icon.jpg",
+  "thumbnail": {
+    "src": "/thumbs/fruity-splasher.webp",
+    "alt": "Fruity Splasher Spielautomat"
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/fruity-splasher-fdhjsijsa/"
+  ],
+  "lastVerified": "2026-11-14"
+}

@@ -1,7 +1,7 @@
 {
   "name": "Spooky House",
   "provider": "novomatic",
-  "releaseDate": "2017-05-31",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/spookyhouse-25721-gamebutton.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/spooky-house/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/spooky-house.webp",
     "alt": "Spooky House Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/spooky-house/"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -1,0 +1,31 @@
+{
+  "name": "Brilliant Pots – Fortune Flows",
+  "provider": "novomatic",
+  "releaseDate": "TODO",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/2026/01/brilliant-pots-fortune-flows-icon.jpg",
+  "thumbnail": {
+    "src": "/thumbs/brilliant-pots-fortune-flows.webp",
+    "alt": "Brilliant Pots – Fortune Flows Spielautomat"
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/brilliant-pots-fortune-flows-ante-bet/"
+  ],
+  "lastVerified": "2026-11-14"
+}

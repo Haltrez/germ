@@ -1,7 +1,7 @@
 {
   "name": "Star Nova",
   "provider": "novomatic",
-  "releaseDate": "2017-02-15",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/starnova-25728-gamebutton.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/star-nova/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/star-nova.webp",
     "alt": "Star Nova Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/star-nova/"
+  ],
+  "lastVerified": "2026-11-14"
 }

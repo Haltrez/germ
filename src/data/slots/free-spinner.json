@@ -1,7 +1,7 @@
 {
   "name": "Free Spinner",
   "provider": "novomatic",
-  "releaseDate": "2023-05-25",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/button_freespinner.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/free-spinner/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/free-spinner.webp",
     "alt": "Free Spinner Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/free-spinner/"
+  ],
+  "lastVerified": "2026-11-14"
 }

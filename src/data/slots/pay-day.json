@@ -1,7 +1,7 @@
 {
   "name": "Pay Day",
   "provider": "novomatic",
-  "releaseDate": "2020-06-16",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -22,12 +22,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/payday-30626-gamebutton.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/pay-day/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/pay-day.webp",
     "alt": "Pay Day Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/pay-day/"
+  ],
+  "lastVerified": "2026-11-14"
 }

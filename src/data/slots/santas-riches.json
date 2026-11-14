@@ -1,7 +1,7 @@
 {
   "name": "Santa’s Riches",
   "provider": "novomatic",
-  "releaseDate": "2020-11-24",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/santasriches-30776-gamebutton.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/santas-riches/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/santas-riches.webp",
     "alt": "Santa’s Riches Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/santas-riches/"
+  ],
+  "lastVerified": "2026-11-14"
 }

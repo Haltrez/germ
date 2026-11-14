@@ -1,7 +1,7 @@
 {
   "name": "Haul of Hades",
   "provider": "novomatic",
-  "releaseDate": "2016-01-19",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -22,12 +22,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/haulofhades-25318-gamebutton.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/haul-of-hades/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/haul-of-hades.webp",
     "alt": "Haul of Hades Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/haul-of-hades/"
+  ],
+  "lastVerified": "2026-11-14"
 }

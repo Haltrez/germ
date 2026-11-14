@@ -1,0 +1,31 @@
+{
+  "name": "Diamond Link: Cops ‘n’ Robbers",
+  "provider": "novomatic",
+  "releaseDate": "TODO",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 5,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/dlicon_cops.jpg",
+  "thumbnail": {
+    "src": "/thumbs/diamond-link-cops-n-robbers.webp",
+    "alt": "Diamond Link: Cops ‘n’ Robbers Spielautomat"
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/d-link-cops-n-robbers/"
+  ],
+  "lastVerified": "2026-11-14"
+}

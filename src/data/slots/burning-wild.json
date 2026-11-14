@@ -1,7 +1,7 @@
 {
   "name": "Burning Wild",
   "provider": "novomatic",
-  "releaseDate": "2020-11-10",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/burningwild-30744-gamebutton.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/burning-wild/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/burning-wild.webp",
     "alt": "Burning Wild Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/burning-wild/"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -1,7 +1,7 @@
 {
   "name": "Red Hot 20",
   "provider": "novomatic",
-  "releaseDate": "2019-08-01",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/redhot20-30026-gamebutton.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/red-hot-20/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/red-hot-20.webp",
     "alt": "Red Hot 20 Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/red-hot-20/"
+  ],
+  "lastVerified": "2026-11-14"
 }

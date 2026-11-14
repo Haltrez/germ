@@ -1,0 +1,33 @@
+{
+  "name": "Money Maker 2 Buy Bonus",
+  "provider": "novomatic",
+  "releaseDate": "TODO",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 3,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/2026/01/money-maker-2-icon.jpg",
+  "thumbnail": {
+    "src": "/thumbs/money-maker-2-buy-bonus.webp",
+    "alt": "Money Maker 2 Buy Bonus Spielautomat"
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/money-maker-buy-bonus/"
+  ],
+  "lastVerified": "2026-11-14"
+}

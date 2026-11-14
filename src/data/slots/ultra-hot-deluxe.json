@@ -1,0 +1,34 @@
+{
+  "name": "Ultra Hot deluxe",
+  "provider": "novomatic",
+  "releaseDate": "TODO",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 3,
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 5
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/ultrahotdeluxe-25798-gamebutton.png",
+  "thumbnail": {
+    "src": "/thumbs/ultra-hot-deluxe.webp",
+    "alt": "Ultra Hot deluxe Spielautomat"
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/ultra-hot-deluxe-222/"
+  ],
+  "lastVerified": "2026-11-14"
+}

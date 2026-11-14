@@ -1,11 +1,11 @@
 """
 Import Novomatic (Greentube) slots from the official website (greentube.com): name, lines,
-reels, themes, release date. RTP is not public (client login), so it stays TODO.
+reels, themes. RTP and release date is not public (client login), so it stays TODO.
 Usage: python3 -I scripts/import/greentube.py <cache_dir> <out_json>
 """
 import json, re, sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import fetcher, page_text, features, text
+from common import fetcher, page_text, features, text, slugify
 
 cache, out = sys.argv[1], sys.argv[2]
 get = fetcher(cache)
@@ -23,8 +23,7 @@ for e in data['games']:
     gt = re.search(r'Game Type (.+?) Volatility', t)
     if not gt or not re.search(r'reel|slot|video game', gt.group(1), re.I): continue
     name = re.sub(r'[™®©]', '', text(e['title'])).strip()
-    g = {'slug': slug, 'name': name, 'url': u, 'thumb': (e.get('button') or '').replace('\\/', '/') or None}
-    if e.get('published'): g['releaseDate'] = e['published'][:10]
+    g = {'slug': slugify(name), 'name': name, 'url': u, 'thumb': (e.get('button') or '').replace('\\/', '/') or None}
     m2 = re.search(r'(\d+)-line', gt.group(1))
     if m2: g['winLines'] = {'type': 'lines', 'count': int(m2.group(1))}
     m2 = re.search(r'(\d+)\s*-?\s*ways', gt.group(1), re.I)

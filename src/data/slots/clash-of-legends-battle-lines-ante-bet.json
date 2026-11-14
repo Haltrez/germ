@@ -1,7 +1,7 @@
 {
   "name": "Clash of Legends Battle Lines Ante Bet",
   "provider": "novomatic",
-  "releaseDate": "2023-03-21",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -24,12 +24,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/icon-15.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/clash-of-legends-battle-lines-ante-bet/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/clash-of-legends-battle-lines-ante-bet.webp",
     "alt": "Clash of Legends Battle Lines Ante Bet Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/clash-of-legends-battle-lines-ante-bet/"
+  ],
+  "lastVerified": "2026-11-14"
 }

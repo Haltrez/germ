@@ -1,7 +1,7 @@
 {
   "name": "7’s Gold Casino",
   "provider": "novomatic",
-  "releaseDate": "2021-10-29",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/icon-10.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/7s-gold-casino/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/7s-gold-casino.webp",
     "alt": "7’s Gold Casino Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/7s-gold-casino/"
+  ],
+  "lastVerified": "2026-11-14"
 }

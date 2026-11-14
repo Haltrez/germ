@@ -1,7 +1,7 @@
 {
   "name": "Dragon Pays – 2nd Chance Respin",
   "provider": "novomatic",
-  "releaseDate": "2018-02-05",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/button_dragonpays2ndchancerespin.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/dragon-pays-2nd-chance-respin/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/dragon-pays-2nd-chance-respin.webp",
     "alt": "Dragon Pays – 2nd Chance Respin Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/dragon-pays-2nd-chance-respin/"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -1,0 +1,36 @@
+{
+  "name": "Cash Cascade – Imperial Crown",
+  "provider": "novomatic",
+  "releaseDate": "TODO",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 5,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "cascades",
+    "hold-and-win",
+    "expanding-symbols",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/cash-cascade-imperial-crown-icon-1.jpg",
+  "thumbnail": {
+    "src": "/thumbs/cash-cascade-imperial-crown.webp",
+    "alt": "Cash Cascade – Imperial Crown Spielautomat"
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/imperial-crown-cash-cascade/"
+  ],
+  "lastVerified": "2026-11-14"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "From Dusk Till Dawn 10",
+  "provider": "novomatic",
+  "releaseDate": "TODO",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/button_fromdusktilldawn10.png",
+  "thumbnail": {
+    "src": "/thumbs/from-dusk-till-dawn-10.webp",
+    "alt": "From Dusk Till Dawn 10 Spielautomat"
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/dusk-till-dawn-10/"
+  ],
+  "lastVerified": "2026-11-14"
+}

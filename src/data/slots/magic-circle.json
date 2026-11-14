@@ -1,7 +1,7 @@
 {
   "name": "Magic Circle",
   "provider": "novomatic",
-  "releaseDate": "2022-02-22",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -20,12 +20,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/magiccirclebutton-1.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/magic-circle/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/magic-circle.webp",
     "alt": "Magic Circle Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/magic-circle/"
+  ],
+  "lastVerified": "2026-11-14"
 }

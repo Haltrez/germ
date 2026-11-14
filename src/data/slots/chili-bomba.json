@@ -1,7 +1,7 @@
 {
   "name": "Chili Bomba",
   "provider": "novomatic",
-  "releaseDate": "2021-08-10",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/chili-bomba-icon-849x1200.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/chili-bomba/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/chili-bomba.webp",
     "alt": "Chili Bomba Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/chili-bomba/"
+  ],
+  "lastVerified": "2026-11-14"
 }

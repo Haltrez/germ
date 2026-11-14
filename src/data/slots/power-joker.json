@@ -1,7 +1,7 @@
 {
   "name": "Power Joker",
   "provider": "novomatic",
-  "releaseDate": "2022-02-08",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -20,12 +20,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/powerjoker-25548-gamebutton.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/power-joker/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/power-joker.webp",
     "alt": "Power Joker Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/power-joker/"
+  ],
+  "lastVerified": "2026-11-14"
 }

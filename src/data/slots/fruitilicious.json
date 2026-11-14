@@ -1,7 +1,7 @@
 {
   "name": "Fruitilicious",
   "provider": "novomatic",
-  "releaseDate": "2020-01-01",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/fruitilicious-25271-gamebutton.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/fruitilicious/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/fruitilicious.webp",
     "alt": "Fruitilicious Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/fruitilicious/"
+  ],
+  "lastVerified": "2026-11-14"
 }

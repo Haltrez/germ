@@ -1,0 +1,31 @@
+{
+  "name": "Diamond Mystery – Smoking Hot 7’s",
+  "provider": "novomatic",
+  "releaseDate": "TODO",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 5,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/icon_smokinghot7s.jpg",
+  "thumbnail": {
+    "src": "/thumbs/diamond-mystery-smoking-hot-7s.webp",
+    "alt": "Diamond Mystery – Smoking Hot 7’s Spielautomat"
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/diamond-mystery-smoking-hot-7s-adapted/"
+  ],
+  "lastVerified": "2026-11-14"
+}

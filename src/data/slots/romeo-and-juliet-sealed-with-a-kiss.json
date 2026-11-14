@@ -1,0 +1,33 @@
+{
+  "name": "Romeo & Juliet – Sealed with a Kiss",
+  "provider": "novomatic",
+  "releaseDate": "TODO",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 5,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/romeoandjulietsealedwithakiss-36551-gamebutton.png",
+  "thumbnail": {
+    "src": "/thumbs/romeo-and-juliet-sealed-with-a-kiss.webp",
+    "alt": "Romeo & Juliet – Sealed with a Kiss Spielautomat"
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/romeo-juliet-sealed-kiss/"
+  ],
+  "lastVerified": "2026-11-14"
+}

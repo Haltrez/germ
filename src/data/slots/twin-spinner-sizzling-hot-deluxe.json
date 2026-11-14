@@ -1,7 +1,7 @@
 {
   "name": "Twin Spinner Sizzling Hot deluxe",
   "provider": "novomatic",
-  "releaseDate": "2019-01-01",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/twin-spinner-sizzling-hot-deluxe-icon.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/twin-spinner-sizzling-hot-deluxe/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/twin-spinner-sizzling-hot-deluxe.webp",
     "alt": "Twin Spinner Sizzling Hot deluxe Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/twin-spinner-sizzling-hot-deluxe/"
+  ],
+  "lastVerified": "2026-11-14"
 }

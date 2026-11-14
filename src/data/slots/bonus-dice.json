@@ -1,7 +1,7 @@
 {
   "name": "Bonus Dice",
   "provider": "novomatic",
-  "releaseDate": "2022-07-01",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/bonusdice.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/bonus-dice/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/bonus-dice.webp",
     "alt": "Bonus Dice Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/bonus-dice/"
+  ],
+  "lastVerified": "2026-11-14"
 }

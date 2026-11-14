@@ -41,6 +41,6 @@ def features(desc):
     return [f for f, rx in FEATURES if re.search(rx, desc, re.I)]
 
 def slugify(s):
-    s = s.lower().replace('&', 'and')
+    s = re.sub(r"[’'´`]", '', s.lower()).replace('&', 'and')
     s = re.sub(r'[äÄ]', 'ae', s); s = re.sub(r'[öÖ]', 'oe', s); s = re.sub(r'[üÜ]', 'ue', s); s = s.replace('ß', 'ss')
     return re.sub(r'[^a-z0-9]+', '-', s).strip('-')

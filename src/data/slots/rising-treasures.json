@@ -1,7 +1,7 @@
 {
   "name": "Rising Treasures",
   "provider": "novomatic",
-  "releaseDate": "2020-04-14",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -22,12 +22,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/risingtreasures-30555-gamebutton.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/rising-treasures/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/rising-treasures.webp",
     "alt": "Rising Treasures Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/rising-treasures/"
+  ],
+  "lastVerified": "2026-11-14"
 }

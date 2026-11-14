@@ -1,7 +1,7 @@
 {
   "name": "Shooting Stars Supernova",
   "provider": "novomatic",
-  "releaseDate": "2017-05-04",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/shootingstarssupernova-25659-gamebutton.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/shooting-stars-supernova/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/shooting-stars-supernova.webp",
     "alt": "Shooting Stars Supernova Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/shooting-stars-supernova/"
+  ],
+  "lastVerified": "2026-11-14"
 }

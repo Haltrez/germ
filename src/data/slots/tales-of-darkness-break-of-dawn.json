@@ -1,0 +1,34 @@
+{
+  "name": "Tales of Darkness Break of Dawn",
+  "provider": "novomatic",
+  "releaseDate": "TODO",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 5,
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 50
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/breakofdawn-30291-gamebutton.png",
+  "thumbnail": {
+    "src": "/thumbs/tales-of-darkness-break-of-dawn.webp",
+    "alt": "Tales of Darkness Break of Dawn Spielautomat"
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/tales-darknessbreak-dawn/"
+  ],
+  "lastVerified": "2026-11-14"
+}

@@ -1,7 +1,7 @@
 {
   "name": "Pyramid Fortunes",
   "provider": "novomatic",
-  "releaseDate": "2019-03-19",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -22,12 +22,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/pyramidfortunes-30388-gamebutton.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/pyramid-fortunes/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/pyramid-fortunes.webp",
     "alt": "Pyramid Fortunes Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/pyramid-fortunes/"
+  ],
+  "lastVerified": "2026-11-14"
 }

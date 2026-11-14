@@ -1,7 +1,7 @@
 {
   "name": "Asian Diamonds",
   "provider": "novomatic",
-  "releaseDate": "2018-02-05",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/asiandiamonds-30077-gamebutton.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/asian-diamonds/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/asian-diamonds.webp",
     "alt": "Asian Diamonds Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/asian-diamonds/"
+  ],
+  "lastVerified": "2026-11-14"
 }

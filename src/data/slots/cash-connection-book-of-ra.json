@@ -1,0 +1,34 @@
+{
+  "name": "Cash Connection – Book of Ra",
+  "provider": "novomatic",
+  "releaseDate": "TODO",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 5,
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 10
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/cashconnectionbookofra-30839-gamebutton.jpg",
+  "thumbnail": {
+    "src": "/thumbs/cash-connection-book-of-ra.webp",
+    "alt": "Cash Connection – Book of Ra Spielautomat"
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/cash-connection-book-ra/"
+  ],
+  "lastVerified": "2026-11-14"
+}

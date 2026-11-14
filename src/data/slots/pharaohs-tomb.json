@@ -1,7 +1,7 @@
 {
   "name": "Pharaoh’s Tomb",
   "provider": "novomatic",
-  "releaseDate": "2024-04-23",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/pharaohstomb-25536-gamebutton.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/pharaohs-tomb/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/pharaohs-tomb.webp",
     "alt": "Pharaoh’s Tomb Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/pharaohs-tomb/"
+  ],
+  "lastVerified": "2026-11-14"
 }

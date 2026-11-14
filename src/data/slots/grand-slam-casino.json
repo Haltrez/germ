@@ -1,7 +1,7 @@
 {
   "name": "Grand Slam Casino",
   "provider": "novomatic",
-  "releaseDate": "2020-01-01",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/grandslamcasino-25312-gamebutton.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/grand-slam-casino/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/grand-slam-casino.webp",
     "alt": "Grand Slam Casino Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/grand-slam-casino/"
+  ],
+  "lastVerified": "2026-11-14"
 }

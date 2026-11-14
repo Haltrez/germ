@@ -1,7 +1,7 @@
 {
   "name": "Jolly Fruits",
   "provider": "novomatic",
-  "releaseDate": "2024-05-21",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/jollyfruits-25367-gamebutton.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/jolly-fruits/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/jolly-fruits.webp",
     "alt": "Jolly Fruits Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/jolly-fruits/"
+  ],
+  "lastVerified": "2026-11-14"
 }

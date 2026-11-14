@@ -1,7 +1,7 @@
 {
   "name": "25 Red Hot Burning Clover Link",
   "provider": "novomatic",
-  "releaseDate": "2020-10-27",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/button_25redhotburningcloverlink.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/25-red-hot-burning-clover-link/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/25-red-hot-burning-clover-link.webp",
     "alt": "25 Red Hot Burning Clover Link Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/25-red-hot-burning-clover-link/"
+  ],
+  "lastVerified": "2026-11-14"
 }

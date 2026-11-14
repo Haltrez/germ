@@ -1,7 +1,7 @@
 {
   "name": "Fruit Magic",
   "provider": "novomatic",
-  "releaseDate": "2021-05-17",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/fruit-magi-icon.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/fruit-magic/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/fruit-magic.webp",
     "alt": "Fruit Magic Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/fruit-magic/"
+  ],
+  "lastVerified": "2026-11-14"
 }

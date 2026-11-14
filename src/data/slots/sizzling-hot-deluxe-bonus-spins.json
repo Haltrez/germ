@@ -1,7 +1,7 @@
 {
   "name": "Sizzling Hot deluxe Bonus Spins",
   "provider": "novomatic",
-  "releaseDate": "2021-12-14",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/icon_sizzlinghotdeluxebonusspins.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/sizzling-hot-deluxe-bonus-spins/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/sizzling-hot-deluxe-bonus-spins.webp",
     "alt": "Sizzling Hot deluxe Bonus Spins Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/sizzling-hot-deluxe-bonus-spins/"
+  ],
+  "lastVerified": "2026-11-14"
 }

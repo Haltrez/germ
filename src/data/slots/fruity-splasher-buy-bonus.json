@@ -1,7 +1,7 @@
 {
   "name": "Fruity Splasher Buy Bonus",
   "provider": "novomatic",
-  "releaseDate": "2022-09-15",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -24,12 +24,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/fruitysplasherbbbuton.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/fruity-splasher-buy-bonus/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/fruity-splasher-buy-bonus.webp",
     "alt": "Fruity Splasher Buy Bonus Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/fruity-splasher-buy-bonus/"
+  ],
+  "lastVerified": "2026-11-14"
 }

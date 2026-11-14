@@ -1,7 +1,7 @@
 {
   "name": "Twin Spinner Book of Ra deluxe",
   "provider": "novomatic",
-  "releaseDate": "2021-11-09",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/icon-11-9.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/twin-spinner-book-of-ra-deluxe/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/twin-spinner-book-of-ra-deluxe.webp",
     "alt": "Twin Spinner Book of Ra deluxe Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/twin-spinner-book-of-ra-deluxe/"
+  ],
+  "lastVerified": "2026-11-14"
 }

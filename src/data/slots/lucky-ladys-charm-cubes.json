@@ -1,7 +1,7 @@
 {
   "name": "Lucky Lady’s Charm Cubes",
   "provider": "novomatic",
-  "releaseDate": "2021-09-21",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/luckyladyscharmcubes-31096-gamebutton.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/lucky-ladys-charm-cubes/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/lucky-ladys-charm-cubes.webp",
     "alt": "Lucky Lady’s Charm Cubes Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/lucky-ladys-charm-cubes/"
+  ],
+  "lastVerified": "2026-11-14"
 }

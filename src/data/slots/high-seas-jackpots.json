@@ -1,7 +1,7 @@
 {
   "name": "High Seas Jackpots",
   "provider": "novomatic",
-  "releaseDate": "2022-08-18",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/button_highseasjackpots.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/high-seas-jackpots/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/high-seas-jackpots.webp",
     "alt": "High Seas Jackpots Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/high-seas-jackpots/"
+  ],
+  "lastVerified": "2026-11-14"
 }

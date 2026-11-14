@@ -1,7 +1,7 @@
 {
   "name": "Juicy Riches",
   "provider": "novomatic",
-  "releaseDate": "2023-07-04",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/juicyriches-button.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/juicy-riches/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/juicy-riches.webp",
     "alt": "Juicy Riches Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/juicy-riches/"
+  ],
+  "lastVerified": "2026-11-14"
 }

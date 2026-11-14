@@ -1,7 +1,7 @@
 {
   "name": "Cash 300 Casino",
   "provider": "novomatic",
-  "releaseDate": "2021-12-14",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/cash300-25124-gamebutton.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/cash-300-casino/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/cash-300-casino.webp",
     "alt": "Cash 300 Casino Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/cash-300-casino/"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -1,7 +1,7 @@
 {
   "name": "Gold Star Fruits",
   "provider": "novomatic",
-  "releaseDate": "2020-02-18",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -20,12 +20,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/goldstarfruits-30310-gamebutton.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/gold-star-fruits/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/gold-star-fruits.webp",
     "alt": "Gold Star Fruits Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/gold-star-fruits/"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -1,7 +1,7 @@
 {
   "name": "Gold Runner",
   "provider": "novomatic",
-  "releaseDate": "2017-05-30",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -20,12 +20,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/goldrunnerbuttonpng.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/gold-runner/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/gold-runner.webp",
     "alt": "Gold Runner Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/gold-runner/"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -1,0 +1,33 @@
+{
+  "name": "Cherrylicious Buy Bonus",
+  "provider": "novomatic",
+  "releaseDate": "TODO",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 5,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/cherrylicious_button.jpg",
+  "thumbnail": {
+    "src": "/thumbs/cherrylicious-buy-bonus.webp",
+    "alt": "Cherrylicious Buy Bonus Spielautomat"
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/cherrylicious-bb/"
+  ],
+  "lastVerified": "2026-11-14"
+}

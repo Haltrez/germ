@@ -1,7 +1,7 @@
 {
   "name": "Dragon Warrior",
   "provider": "novomatic",
-  "releaseDate": "2019-01-08",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/dragonwarrior-30144-gamebutton.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/dragon-warrior/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/dragon-warrior.webp",
     "alt": "Dragon Warrior Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/dragon-warrior/"
+  ],
+  "lastVerified": "2026-11-14"
 }

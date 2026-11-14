@@ -1,7 +1,7 @@
 {
   "name": "Diamond Link: Mighty Emperor",
   "provider": "novomatic",
-  "releaseDate": "2021-06-22",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/diamondlinkmightyemperor-30862-gamebutton.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/diamond-link-mighty-emperor/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/diamond-link-mighty-emperor.webp",
     "alt": "Diamond Link: Mighty Emperor Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/diamond-link-mighty-emperor/"
+  ],
+  "lastVerified": "2026-11-14"
 }

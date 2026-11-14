@@ -1,7 +1,7 @@
 {
   "name": "Summer Queen",
   "provider": "novomatic",
-  "releaseDate": "2016-07-29",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/summerqueen-25736-gamebutton.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/summer-queen/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/summer-queen.webp",
     "alt": "Summer Queen Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/summer-queen/"
+  ],
+  "lastVerified": "2026-11-14"
 }

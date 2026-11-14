@@ -1,7 +1,7 @@
 {
   "name": "Random Runner 15",
   "provider": "novomatic",
-  "releaseDate": "2014-05-02",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/randomrunner15-25582-gamebutton.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/random-runner-15/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/random-runner-15.webp",
     "alt": "Random Runner 15 Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/random-runner-15/"
+  ],
+  "lastVerified": "2026-11-14"
 }

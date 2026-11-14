@@ -1,7 +1,7 @@
 {
   "name": "Joker Action 6",
   "provider": "novomatic",
-  "releaseDate": "2021-01-12",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -22,12 +22,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/jokeraction6-30699-gamebutton-1.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/joker-action-6/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/joker-action-6.webp",
     "alt": "Joker Action 6 Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/joker-action-6/"
+  ],
+  "lastVerified": "2026-11-14"
 }

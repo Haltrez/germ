@@ -1,7 +1,7 @@
 {
   "name": "SUPER DICE",
   "provider": "novomatic",
-  "releaseDate": "2014-05-16",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/superdice-25739-gamebutton.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/super-dice/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/super-dice.webp",
     "alt": "SUPER DICE Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/super-dice/"
+  ],
+  "lastVerified": "2026-11-14"
 }

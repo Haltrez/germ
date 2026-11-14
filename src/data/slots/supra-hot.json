@@ -1,7 +1,7 @@
 {
   "name": "Supra Hot",
   "provider": "novomatic",
-  "releaseDate": "2025-10-29",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/suprahot-25742-gamebutton.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/supra-hot/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/supra-hot.webp",
     "alt": "Supra Hot Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/supra-hot/"
+  ],
+  "lastVerified": "2026-11-14"
 }

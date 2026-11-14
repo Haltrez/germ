@@ -1,7 +1,7 @@
 {
   "name": "Super Cherry Lock’N’Win",
   "provider": "novomatic",
-  "releaseDate": "2023-02-28",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -20,12 +20,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/supercherrylwin-button.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/super-cherry-locknwin/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/super-cherry-locknwin.webp",
     "alt": "Super Cherry Lock’N’Win Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/super-cherry-locknwin/"
+  ],
+  "lastVerified": "2026-11-14"
 }

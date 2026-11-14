@@ -1,7 +1,7 @@
 {
   "name": "Tidal Riches",
   "provider": "novomatic",
-  "releaseDate": "2019-01-29",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -22,12 +22,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/tidalriches-30141-gamebutton.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/tidal-riches/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/tidal-riches.webp",
     "alt": "Tidal Riches Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/tidal-riches/"
+  ],
+  "lastVerified": "2026-11-14"
 }

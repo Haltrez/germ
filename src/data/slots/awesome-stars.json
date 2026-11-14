@@ -1,7 +1,7 @@
 {
   "name": "Awesome Stars",
   "provider": "novomatic",
-  "releaseDate": "2022-01-14",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/awesomestars-25028-gamebutton.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/awesome-stars/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/awesome-stars.webp",
     "alt": "Awesome Stars Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/awesome-stars/"
+  ],
+  "lastVerified": "2026-11-14"
 }

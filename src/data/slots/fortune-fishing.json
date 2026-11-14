@@ -1,7 +1,7 @@
 {
   "name": "Fortune Fishing",
   "provider": "novomatic",
-  "releaseDate": "2023-05-16",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/fortunefishing_gameicon.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/fortune-fishing/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/fortune-fishing.webp",
     "alt": "Fortune Fishing Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/fortune-fishing/"
+  ],
+  "lastVerified": "2026-11-14"
 }

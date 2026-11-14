@@ -1,7 +1,7 @@
 {
   "name": "Stein Haus",
   "provider": "novomatic",
-  "releaseDate": "2018-09-04",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/steinhaus-25729-gamebutton.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/stein-haus/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/stein-haus.webp",
     "alt": "Stein Haus Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/stein-haus/"
+  ],
+  "lastVerified": "2026-11-14"
 }

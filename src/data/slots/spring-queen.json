@@ -1,7 +1,7 @@
 {
   "name": "Spring Queen",
   "provider": "novomatic",
-  "releaseDate": "2016-06-08",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/springqueen-25722-gamebutton.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/spring-queen/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/spring-queen.webp",
     "alt": "Spring Queen Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/spring-queen/"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -1,0 +1,33 @@
+{
+  "name": "Feelin’ Fruity: Win Ways Buy Bonus",
+  "provider": "novomatic",
+  "releaseDate": "TODO",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 6,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/feeling-fruity-icon.jpg",
+  "thumbnail": {
+    "src": "/thumbs/feelin-fruity-win-ways-buy-bonus.webp",
+    "alt": "Feelin’ Fruity: Win Ways Buy Bonus Spielautomat"
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/feeling-fruity-win-ways/"
+  ],
+  "lastVerified": "2026-11-14"
+}

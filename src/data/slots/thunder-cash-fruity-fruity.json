@@ -1,7 +1,7 @@
 {
   "name": "THUNDER CASH – Fruity Fruity",
   "provider": "novomatic",
-  "releaseDate": "2020-11-17",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/tc-fruity-fruity-icon.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/thunder-cash-fruity-fruity/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/thunder-cash-fruity-fruity.webp",
     "alt": "THUNDER CASH – Fruity Fruity Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/thunder-cash-fruity-fruity/"
+  ],
+  "lastVerified": "2026-11-14"
 }

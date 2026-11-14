@@ -1,7 +1,7 @@
 {
   "name": "Gryphon´s Gold deluxe",
   "provider": "novomatic",
-  "releaseDate": "2026-07-14",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/gryphonsgolddeluxe-25314-gamebutton.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/gryphons-gold-deluxe/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/gryphons-gold-deluxe.webp",
     "alt": "Gryphon´s Gold deluxe Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/gryphons-gold-deluxe/"
+  ],
+  "lastVerified": "2026-11-14"
 }

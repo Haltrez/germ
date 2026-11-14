@@ -1,7 +1,7 @@
 {
   "name": "Plenty on Twenty II hot",
   "provider": "novomatic",
-  "releaseDate": "2017-11-08",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -20,12 +20,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/plentyontwentyiihot-30079-gamebutton.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/plenty-on-twenty-ii-hot/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/plenty-on-twenty-ii-hot.webp",
     "alt": "Plenty on Twenty II hot Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/plenty-on-twenty-ii-hot/"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -1,7 +1,7 @@
 {
   "name": "Woonsters",
   "provider": "novomatic",
-  "releaseDate": "2021-11-16",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/woonsters-30343-gamebutton.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/woonsters/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/woonsters.webp",
     "alt": "Woonsters Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/woonsters/"
+  ],
+  "lastVerified": "2026-11-14"
 }

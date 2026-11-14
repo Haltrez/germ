@@ -1,7 +1,7 @@
 {
   "name": "POWER PRIZES – Royal Crane",
   "provider": "novomatic",
-  "releaseDate": "2021-10-26",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/royalcrane-button.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/power-prizes-royal-crane/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/power-prizes-royal-crane.webp",
     "alt": "POWER PRIZES – Royal Crane Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/power-prizes-royal-crane/"
+  ],
+  "lastVerified": "2026-11-14"
 }

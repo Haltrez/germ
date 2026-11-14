@@ -1,7 +1,7 @@
 {
   "name": "Ancient Goddess",
   "provider": "novomatic",
-  "releaseDate": "2019-04-30",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/ancientgoddess-30385-gamebutton.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/ancient-goddess/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/ancient-goddess.webp",
     "alt": "Ancient Goddess Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/ancient-goddess/"
+  ],
+  "lastVerified": "2026-11-14"
 }

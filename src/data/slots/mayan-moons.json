@@ -1,7 +1,7 @@
 {
   "name": "Mayan Moons",
   "provider": "novomatic",
-  "releaseDate": "2024-05-21",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/mayanmoons-25473-gamebutton.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/mayan-moons/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/mayan-moons.webp",
     "alt": "Mayan Moons Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/mayan-moons/"
+  ],
+  "lastVerified": "2026-11-14"
 }

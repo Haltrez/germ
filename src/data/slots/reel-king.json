@@ -1,7 +1,7 @@
 {
   "name": "Reel King",
   "provider": "novomatic",
-  "releaseDate": "2026-07-07",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/reelking-25597-gamebutton.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/reel-king/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/reel-king.webp",
     "alt": "Reel King Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/reel-king/"
+  ],
+  "lastVerified": "2026-11-14"
 }

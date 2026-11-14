@@ -1,7 +1,7 @@
 {
   "name": "Book of Ra deluxe – Bonus Spins",
   "provider": "novomatic",
-  "releaseDate": "2021-11-09",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/bofrabutton-icon_.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/book-of-ra-deluxe-bonus-spins/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/book-of-ra-deluxe-bonus-spins.webp",
     "alt": "Book of Ra deluxe – Bonus Spins Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/book-of-ra-deluxe-bonus-spins/"
+  ],
+  "lastVerified": "2026-11-14"
 }

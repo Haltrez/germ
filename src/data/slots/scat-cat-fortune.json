@@ -1,7 +1,7 @@
 {
   "name": "Scat Cat Fortune",
   "provider": "novomatic",
-  "releaseDate": "2020-08-11",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/scatcatfortune-25631-gamebutton.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/scat-cat-fortune/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/scat-cat-fortune.webp",
     "alt": "Scat Cat Fortune Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/scat-cat-fortune/"
+  ],
+  "lastVerified": "2026-11-14"
 }

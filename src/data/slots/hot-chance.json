@@ -1,7 +1,7 @@
 {
   "name": "Hot Chance",
   "provider": "novomatic",
-  "releaseDate": "2025-11-05",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/hotchance-25335-gamebutton.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/hot-chance/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/hot-chance.webp",
     "alt": "Hot Chance Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/hot-chance/"
+  ],
+  "lastVerified": "2026-11-14"
 }

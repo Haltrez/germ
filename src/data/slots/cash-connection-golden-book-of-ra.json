@@ -1,7 +1,7 @@
 {
   "name": "Cash Connection – Golden Book of Ra",
   "provider": "novomatic",
-  "releaseDate": "2022-09-27",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/ccgolden-book-of-ra.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/cash-connection-golden-book-of-ra/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/cash-connection-golden-book-of-ra.webp",
     "alt": "Cash Connection – Golden Book of Ra Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/cash-connection-golden-book-of-ra/"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -1,0 +1,31 @@
+{
+  "name": "Cops ‘n’ Robbers Millionaries Row",
+  "provider": "novomatic",
+  "releaseDate": "TODO",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 5,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/game_1203_copsNrobbersMillionairsRow_234x234-1.png",
+  "thumbnail": {
+    "src": "/thumbs/cops-n-robbers-millionaries-row.webp",
+    "alt": "Cops ‘n’ Robbers Millionaries Row Spielautomat"
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/cops-nrobbers-millionaries-row/"
+  ],
+  "lastVerified": "2026-11-14"
+}

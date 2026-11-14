@@ -1,7 +1,7 @@
 {
   "name": "Just Jewels deluxe",
   "provider": "novomatic",
-  "releaseDate": "2020-01-01",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/justjewelsdeluxe-25374-gamebutton.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/just-jewels-deluxe/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/just-jewels-deluxe.webp",
     "alt": "Just Jewels deluxe Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/just-jewels-deluxe/"
+  ],
+  "lastVerified": "2026-11-14"
 }

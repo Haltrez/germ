@@ -1,7 +1,7 @@
 {
   "name": "Goddess of Egypt",
   "provider": "novomatic",
-  "releaseDate": "2023-04-11",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -22,12 +22,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/goddess-of-egypt-win-ways-icon.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/goddess-of-egypt/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/goddess-of-egypt.webp",
     "alt": "Goddess of Egypt Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/goddess-of-egypt/"
+  ],
+  "lastVerified": "2026-11-14"
 }

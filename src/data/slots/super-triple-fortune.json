@@ -1,0 +1,33 @@
+{
+  "name": "Super Triple Fortune",
+  "provider": "novomatic",
+  "releaseDate": "TODO",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/super-triple-fortune-icon.jpg",
+  "thumbnail": {
+    "src": "/thumbs/super-triple-fortune.webp",
+    "alt": "Super Triple Fortune Spielautomat"
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/super-triple-fortune-mynt/"
+  ],
+  "lastVerified": "2026-11-14"
+}

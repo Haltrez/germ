@@ -1,0 +1,31 @@
+{
+  "name": "Lightning Lion",
+  "provider": "novomatic",
+  "releaseDate": "TODO",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 3,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/lightning-lion-icon.jpg",
+  "thumbnail": {
+    "src": "/thumbs/lightning-lion.webp",
+    "alt": "Lightning Lion Spielautomat"
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/tale-of-lightning-lion/"
+  ],
+  "lastVerified": "2026-11-14"
+}

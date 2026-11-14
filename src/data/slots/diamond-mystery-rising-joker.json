@@ -1,0 +1,34 @@
+{
+  "name": "Diamond Mystery – Rising Joker",
+  "provider": "novomatic",
+  "releaseDate": "TODO",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 5,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "expanding-symbols",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/icon_risingjoker.jpg",
+  "thumbnail": {
+    "src": "/thumbs/diamond-mystery-rising-joker.webp",
+    "alt": "Diamond Mystery – Rising Joker Spielautomat"
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/rising-joker/"
+  ],
+  "lastVerified": "2026-11-14"
+}

@@ -1,7 +1,7 @@
 {
   "name": "Feather Frenzy",
   "provider": "novomatic",
-  "releaseDate": "2019-02-13",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/featherfrenzy-30311-gamebutton.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/feather-frenzy/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/feather-frenzy.webp",
     "alt": "Feather Frenzy Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/feather-frenzy/"
+  ],
+  "lastVerified": "2026-11-14"
 }

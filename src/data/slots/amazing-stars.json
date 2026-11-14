@@ -1,7 +1,7 @@
 {
   "name": "Amazing Stars",
   "provider": "novomatic",
-  "releaseDate": "2020-01-01",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/amazingstars-25013-gamebutton.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/amazing-stars/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/amazing-stars.webp",
     "alt": "Amazing Stars Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/amazing-stars/"
+  ],
+  "lastVerified": "2026-11-14"
 }

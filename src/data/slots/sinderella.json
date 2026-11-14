@@ -1,7 +1,7 @@
 {
   "name": "Sinderella",
   "provider": "novomatic",
-  "releaseDate": "2014-10-07",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/sinderella-25058-gamebutton.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/sinderella/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/sinderella.webp",
     "alt": "Sinderella Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/sinderella/"
+  ],
+  "lastVerified": "2026-11-14"
 }

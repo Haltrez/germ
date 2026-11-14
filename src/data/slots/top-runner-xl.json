@@ -1,7 +1,7 @@
 {
   "name": "Top Runner XL",
   "provider": "novomatic",
-  "releaseDate": "2023-06-15",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -20,12 +20,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/topxlrunner_icon.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/top-runner-xl/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/top-runner-xl.webp",
     "alt": "Top Runner XL Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/top-runner-xl/"
+  ],
+  "lastVerified": "2026-11-14"
 }

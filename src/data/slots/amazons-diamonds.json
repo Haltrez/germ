@@ -1,7 +1,7 @@
 {
   "name": "Amazon´s Diamonds",
   "provider": "novomatic",
-  "releaseDate": "2017-03-31",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/3393-amazondiamonds-2x2-en.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/amazons-diamonds/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/amazons-diamonds.webp",
     "alt": "Amazon´s Diamonds Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/amazons-diamonds/"
+  ],
+  "lastVerified": "2026-11-14"
 }

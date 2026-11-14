@@ -1,7 +1,7 @@
 {
   "name": "Golden X Casino",
   "provider": "novomatic",
-  "releaseDate": "2022-03-22",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -20,12 +20,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/golden-x-casino-icon.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/golden-x-casino/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/golden-x-casino.webp",
     "alt": "Golden X Casino Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/golden-x-casino/"
+  ],
+  "lastVerified": "2026-11-14"
 }

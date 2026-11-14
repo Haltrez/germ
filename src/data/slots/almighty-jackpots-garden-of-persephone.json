@@ -1,0 +1,33 @@
+{
+  "name": "ALMIGHTY JACKPOTS – Garden of Persephone",
+  "provider": "novomatic",
+  "releaseDate": "TODO",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 5,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/button_almightyjackpotsgardenofpersephone.png",
+  "thumbnail": {
+    "src": "/thumbs/almighty-jackpots-garden-of-persephone.webp",
+    "alt": "ALMIGHTY JACKPOTS – Garden of Persephone Spielautomat"
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/almighty-jackpots-garden-persephone/"
+  ],
+  "lastVerified": "2026-11-14"
+}

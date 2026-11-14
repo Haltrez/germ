@@ -1,7 +1,7 @@
 {
   "name": "Mega Slam Casino",
   "provider": "novomatic",
-  "releaseDate": "2017-01-04",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/megaslamcasino-30153-gamebutton.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/mega-slam-casino/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/mega-slam-casino.webp",
     "alt": "Mega Slam Casino Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/mega-slam-casino/"
+  ],
+  "lastVerified": "2026-11-14"
 }

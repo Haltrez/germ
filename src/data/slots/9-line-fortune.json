@@ -1,0 +1,31 @@
+{
+  "name": "9-Line Fortune",
+  "provider": "novomatic",
+  "releaseDate": "TODO",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 3,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/icon-2.png",
+  "thumbnail": {
+    "src": "/thumbs/9-line-fortune.webp",
+    "alt": "9-Line Fortune Spielautomat"
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/9-line-fortune-%c2%a7%c2%a7/"
+  ],
+  "lastVerified": "2026-11-14"
+}

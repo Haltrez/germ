@@ -1,7 +1,7 @@
 {
   "name": "Thunder Cash – Golden Sizzling Hot",
   "provider": "novomatic",
-  "releaseDate": "2026-08-18",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/2025/05/tc_304x304.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/thunder-cash-golden-sizzling-hot/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/thunder-cash-golden-sizzling-hot.webp",
     "alt": "Thunder Cash – Golden Sizzling Hot Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/thunder-cash-golden-sizzling-hot/"
+  ],
+  "lastVerified": "2026-11-14"
 }

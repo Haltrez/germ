@@ -1,0 +1,33 @@
+{
+  "name": "ALMIGHTY JACKPOTS – Realm of Poseidon",
+  "provider": "novomatic",
+  "releaseDate": "TODO",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 5,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/button_almightyjackpotsrealmofposeidon.png",
+  "thumbnail": {
+    "src": "/thumbs/almighty-jackpots-realm-of-poseidon.webp",
+    "alt": "ALMIGHTY JACKPOTS – Realm of Poseidon Spielautomat"
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/almighty-jackpots-realm-poseidon/"
+  ],
+  "lastVerified": "2026-11-14"
+}

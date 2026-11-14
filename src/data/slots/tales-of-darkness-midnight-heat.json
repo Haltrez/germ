@@ -1,0 +1,33 @@
+{
+  "name": "Tales of Darkness – Midnight Heat",
+  "provider": "novomatic",
+  "releaseDate": "TODO",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 5,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/midnightheat-30497-gamebutton.png",
+  "thumbnail": {
+    "src": "/thumbs/tales-of-darkness-midnight-heat.webp",
+    "alt": "Tales of Darkness – Midnight Heat Spielautomat"
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/midnight-heat/"
+  ],
+  "lastVerified": "2026-11-14"
+}

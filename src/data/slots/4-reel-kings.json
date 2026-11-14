@@ -1,7 +1,7 @@
 {
   "name": "4 Reel Kings",
   "provider": "novomatic",
-  "releaseDate": "2013-12-20",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/fourreelkings-25261-gamebutton.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/4-reel-kings/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/4-reel-kings.webp",
     "alt": "4 Reel Kings Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/4-reel-kings/"
+  ],
+  "lastVerified": "2026-11-14"
 }

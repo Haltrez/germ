@@ -1,0 +1,31 @@
+{
+  "name": "The Jungle House Win Ways",
+  "provider": "novomatic",
+  "releaseDate": "TODO",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 6,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/1the-jungle-house-icon.jpg",
+  "thumbnail": {
+    "src": "/thumbs/the-jungle-house-win-ways.webp",
+    "alt": "The Jungle House Win Ways Spielautomat"
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/the-jungle-house/"
+  ],
+  "lastVerified": "2026-11-14"
+}

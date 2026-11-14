@@ -1,7 +1,7 @@
 {
   "name": "Book of Ra deluxe 10: Win Ways",
   "provider": "novomatic",
-  "releaseDate": "2022-04-26",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/2x2-2.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/book-of-ra-deluxe-10-win-ways/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/book-of-ra-deluxe-10-win-ways.webp",
     "alt": "Book of Ra deluxe 10: Win Ways Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/book-of-ra-deluxe-10-win-ways/"
+  ],
+  "lastVerified": "2026-11-14"
 }

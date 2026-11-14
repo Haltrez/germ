@@ -1,7 +1,7 @@
 {
   "name": "Lord of the Ocean Bonus Spins",
   "provider": "novomatic",
-  "releaseDate": "2021-12-14",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/icon-11-3.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/lord-of-the-ocean-bonus-spins/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/lord-of-the-ocean-bonus-spins.webp",
     "alt": "Lord of the Ocean Bonus Spins Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/lord-of-the-ocean-bonus-spins/"
+  ],
+  "lastVerified": "2026-11-14"
 }

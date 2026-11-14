@@ -1,7 +1,7 @@
 {
   "name": "Hold it Casino",
   "provider": "novomatic",
-  "releaseDate": "2016-02-18",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/holditcasino-25331-gamebutton.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/hold-it-casino/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/hold-it-casino.webp",
     "alt": "Hold it Casino Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/hold-it-casino/"
+  ],
+  "lastVerified": "2026-11-14"
 }

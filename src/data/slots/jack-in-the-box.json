@@ -1,7 +1,7 @@
 {
   "name": "Jack in the Box",
   "provider": "novomatic",
-  "releaseDate": "2023-02-14",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -20,12 +20,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/jackinthebox-30034-gamebutton.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/jack-in-the-box/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/jack-in-the-box.webp",
     "alt": "Jack in the Box Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/jack-in-the-box/"
+  ],
+  "lastVerified": "2026-11-14"
 }

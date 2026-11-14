@@ -14,12 +14,13 @@ demo_tpl = sys.argv[5] if len(sys.argv) > 5 else None
 out_dir = os.path.join(os.path.dirname(__file__), '..', '..', 'src', 'data', 'slots')
 suffix = provider.split('-')[0]
 written = skipped = 0
-seen = set()
+# Same game listed in several editions: keep the entry with the shortest slug.
+best = {}
 for g in json.load(open(src)):
     key = re.sub(r'[^a-z0-9]', '', g['name'].lower())
-    if key in seen:
-        continue  # same game listed in several editions
-    seen.add(key)
+    if key not in best or len(g['slug']) < len(best[key]['slug']):
+        best[key] = g
+for g in best.values():
     slug = re.sub(r'-slot$', '', slugify(g['slug']))
     path = os.path.join(out_dir, f'{slug}.json')
     if os.path.exists(path):

@@ -1,7 +1,7 @@
 {
   "name": "Star Supreme",
   "provider": "novomatic",
-  "releaseDate": "2021-08-24",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -24,12 +24,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/star-supreme-icon.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/star-supreme/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/star-supreme.webp",
     "alt": "Star Supreme Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/star-supreme/"
+  ],
+  "lastVerified": "2026-11-14"
 }

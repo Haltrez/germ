@@ -1,0 +1,34 @@
+{
+  "name": "Thunder Cash – Dolphin’s Pearl",
+  "provider": "novomatic",
+  "releaseDate": "TODO",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 5,
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 10
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/web-buttons-8.png",
+  "thumbnail": {
+    "src": "/thumbs/thunder-cash-dolphins-pearl.webp",
+    "alt": "Thunder Cash – Dolphin’s Pearl Spielautomat"
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/thunder-cash-dolphins-pearl-2/"
+  ],
+  "lastVerified": "2026-11-14"
+}

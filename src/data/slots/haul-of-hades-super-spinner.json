@@ -1,0 +1,31 @@
+{
+  "name": "Haul of Hades – Super Spinner",
+  "provider": "novomatic",
+  "releaseDate": "TODO",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 5,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/haulofhadessuperspins-30382-gamebutton.png",
+  "thumbnail": {
+    "src": "/thumbs/haul-of-hades-super-spinner.webp",
+    "alt": "Haul of Hades – Super Spinner Spielautomat"
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/haul-hades-super-spinner/"
+  ],
+  "lastVerified": "2026-11-14"
+}

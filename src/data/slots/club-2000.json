@@ -1,7 +1,7 @@
 {
   "name": "Club 2000",
   "provider": "novomatic",
-  "releaseDate": "2021-12-17",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/button_club2000.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/club-2000/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/club-2000.webp",
     "alt": "Club 2000 Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/club-2000/"
+  ],
+  "lastVerified": "2026-11-14"
 }

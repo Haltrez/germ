@@ -1,7 +1,7 @@
 {
   "name": "Island Heat",
   "provider": "novomatic",
-  "releaseDate": "2019-04-09",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/islandheat-30297-gamebutton.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/island-heat/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/island-heat.webp",
     "alt": "Island Heat Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/island-heat/"
+  ],
+  "lastVerified": "2026-11-14"
 }

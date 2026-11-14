@@ -1,7 +1,7 @@
 {
   "name": "Thunder Cash – Sizzling Hot",
   "provider": "novomatic",
-  "releaseDate": "2022-01-25",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/tc-sizzling-hot-icon.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/thunder-cash-sizzling-hot/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/thunder-cash-sizzling-hot.webp",
     "alt": "Thunder Cash – Sizzling Hot Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/thunder-cash-sizzling-hot/"
+  ],
+  "lastVerified": "2026-11-14"
 }

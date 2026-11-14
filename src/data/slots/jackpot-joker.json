@@ -1,7 +1,7 @@
 {
   "name": "Jackpot Joker",
   "provider": "novomatic",
-  "releaseDate": "2022-08-16",
+  "releaseDate": "TODO",
   "rtp": "TODO",
   "volatility": "TODO",
   "maxWinMultiplier": "TODO",
@@ -20,12 +20,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/pl-game-icon-11.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/jackpot-joker/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/jackpot-joker.webp",
     "alt": "Jackpot Joker Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/jackpot-joker/"
+  ],
+  "lastVerified": "2026-11-14"
 }
