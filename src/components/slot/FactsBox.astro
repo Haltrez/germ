@@ -23,7 +23,7 @@ const features = featureList(s);
 const known = rows.filter(([, v]) => v !== UNVERIFIED);
 ---
 <section aria-labelledby="facts-title" class="card p-5 sm:p-6">
-  <h2 id="facts-title" class="text-xl font-bold text-fg">{s.name} RTP, Volatilität &amp; Max Win</h2>
+  <h2 id="facts-title" class="font-title text-xl font-bold text-fg">{s.name} RTP, Volatilität &amp; Max Win</h2>
   <dl class="mt-4 grid gap-x-6">
     {known.map(([k, v, href]) => (
       <div class="flex items-baseline justify-between gap-4 border-b border-line py-2.5 text-sm">

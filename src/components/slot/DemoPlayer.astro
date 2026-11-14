@@ -24,11 +24,14 @@ const { demoUrl, demoVersionUrl, demoSourceName, name } = slot.data;
   </div>
 
   <div class="relative aspect-[16/10] w-full bg-ink-950" data-demo-root data-demo-url={demoUrl ?? undefined} data-demo-version-url={demoVersionUrl} data-demo-hosts={DEMO_HOST_ALLOWLIST.join(' ')}>
-    <div class="absolute inset-0 opacity-40 blur-[2px]"><SlotArt slug={slot.id} name={name} large class="!aspect-auto h-full !rounded-none" /></div>
-    <div class="absolute inset-0 bg-gradient-to-t from-ink-950 via-ink-950/60 to-transparent"></div>
+    {slot.data.thumbnail
+      ? <img src={slot.data.thumbnail.src} alt="" aria-hidden="true" class="absolute inset-0 h-full w-full scale-110 object-cover opacity-50 blur-md" />
+      : <div class="absolute inset-0 opacity-40 blur-[2px]"><SlotArt slug={slot.id} name={name} large class="!aspect-auto h-full !rounded-none" /></div>}
+    {slot.data.thumbnail && <img src={slot.data.thumbnail.src} alt={slot.data.thumbnail.alt} class="absolute inset-0 m-auto max-h-[70%] max-w-[60%] rounded-xl object-contain opacity-90 shadow-2xl" />}
+    <div class="absolute inset-0 bg-gradient-to-t from-ink-950/90 via-ink-950/30 to-transparent"></div>
 
     {demoUrl ? (
-      <div class="absolute inset-0 flex flex-col items-center justify-center gap-3 p-6 text-center" data-demo-facade>
+      <div class="absolute inset-x-0 bottom-0 flex flex-col items-center justify-end gap-3 p-6 text-center" data-demo-facade>
         <button type="button" class="btn btn-primary !min-h-12 !px-6 text-base" data-demo-start>
           <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5l12 7-12 7z" fill="currentColor" /></svg>
           Demo spielen

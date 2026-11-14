@@ -17,7 +17,7 @@ const ops = (await getCollection('operators'))
 ---
 {ops.length > 0 && (
   <section aria-labelledby="echtgeld-title" class="card p-5 sm:p-6">
-    <h2 id="echtgeld-title" class="text-xl font-bold text-fg">{slot.data.name} mit Echtgeld spielen</h2>
+    <h2 id="echtgeld-title" class="font-title text-xl font-bold text-fg">{slot.data.name} mit Echtgeld spielen</h2>
     <p class="mt-1 text-sm text-muted">Nur Online-Spielotheken mit Erlaubnis der GGL. Max. 1 € pro Spin, 5 Sekunden pro Runde.</p>
     <ul class="mt-4 space-y-3">
       {ops.map((o) => (
