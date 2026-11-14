@@ -1,0 +1,36 @@
+{
+  "name": "Lucky Oak",
+  "provider": "bgaming",
+  "releaseDate": "2023-02-23",
+  "rtp": 96.17,
+  "volatility": "very-high",
+  "volatilityNote": "very high",
+  "maxWinMultiplier": 10990.0,
+  "hitRate": 5.09,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 10
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "multipliers",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/LuckyOak/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/lucky-oak"
+  ],
+  "lastVerified": "2026-11-14"
+}

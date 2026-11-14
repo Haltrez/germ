@@ -1,0 +1,40 @@
+{
+  "name": "Monster Hunt",
+  "provider": "bgaming",
+  "releaseDate": "2023-10-12",
+  "rtp": 94.65,
+  "volatility": "medium",
+  "volatilityNote": "medium",
+  "maxWinMultiplier": 1299.0,
+  "hitRate": 2.71,
+  "freeSpinsRate": 98,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 25
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "wilds",
+    "respins",
+    "retrigger"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/MonsterHunt/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/monster-hunt"
+  ],
+  "lastVerified": "2026-11-14"
+}

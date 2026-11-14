@@ -1,0 +1,36 @@
+{
+  "name": "Cat’s Soup",
+  "provider": "bgaming",
+  "releaseDate": "2025-07-22",
+  "rtp": 98.06,
+  "volatility": "medium",
+  "volatilityNote": "medium",
+  "maxWinMultiplier": 8000.0,
+  "hitRate": 2.1,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 5
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "multipliers",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/CatsSoup/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/cats-soup"
+  ],
+  "lastVerified": "2026-11-14"
+}

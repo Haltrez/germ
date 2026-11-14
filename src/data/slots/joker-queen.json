@@ -1,0 +1,38 @@
+{
+  "name": "Joker Queen",
+  "provider": "bgaming",
+  "releaseDate": "2022-03-28",
+  "rtp": 95.87,
+  "volatility": "high",
+  "volatilityNote": "medium-high",
+  "maxWinMultiplier": 1172.0,
+  "hitRate": 3.64,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 40
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "multipliers",
+    "expanding-symbols",
+    "wilds",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/JokerQueen/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/joker-queen"
+  ],
+  "lastVerified": "2026-11-14"
+}

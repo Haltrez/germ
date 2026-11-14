@@ -1,0 +1,36 @@
+{
+  "name": "Gemhalla X-mas",
+  "provider": "bgaming",
+  "releaseDate": "2023-06-15",
+  "rtp": 97.17,
+  "volatility": "high",
+  "volatilityNote": "high",
+  "maxWinMultiplier": 5000.0,
+  "hitRate": 2.96,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "scatter-pays"
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "retrigger"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/Gemhalla/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/gemhalla-x-mas"
+  ],
+  "lastVerified": "2026-11-14"
+}

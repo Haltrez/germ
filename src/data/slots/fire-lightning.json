@@ -1,0 +1,40 @@
+{
+  "name": "Fire Lightning",
+  "provider": "bgaming",
+  "releaseDate": "2018-07-24",
+  "rtp": 93.75,
+  "volatility": "high",
+  "volatilityNote": "medium-high",
+  "maxWinMultiplier": 1706.0,
+  "hitRate": 4.41,
+  "freeSpinsRate": 157,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 20
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "sticky-wilds",
+    "wilds",
+    "retrigger"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/FireLightning/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/fire-lightning"
+  ],
+  "lastVerified": "2026-11-14"
+}

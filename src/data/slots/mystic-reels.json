@@ -1,0 +1,41 @@
+{
+  "name": "Mystic Reels",
+  "provider": "bgaming",
+  "releaseDate": "2026-08-04",
+  "rtp": 96.0,
+  "volatility": "medium",
+  "volatilityNote": "medium",
+  "maxWinMultiplier": 4558.7,
+  "hitRate": 4.0,
+  "freeSpinsRate": 139,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 20
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "cascades",
+    "multipliers",
+    "wilds",
+    "respins",
+    "retrigger"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/MysticReels/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/mystic-reels"
+  ],
+  "lastVerified": "2026-11-14"
+}

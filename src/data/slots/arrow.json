@@ -1,0 +1,34 @@
+{
+  "name": "Arrow Slot",
+  "provider": "bgaming",
+  "releaseDate": "2025-04-15",
+  "rtp": 97.33,
+  "volatility": "medium",
+  "volatilityNote": "medium",
+  "maxWinMultiplier": 3600.0,
+  "hitRate": 2.5,
+  "freeSpinsRate": 20,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "multipliers",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/ArrowSlot/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/arrow-slot"
+  ],
+  "lastVerified": "2026-11-14"
+}

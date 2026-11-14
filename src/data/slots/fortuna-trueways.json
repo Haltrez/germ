@@ -1,0 +1,36 @@
+{
+  "name": "Fortuna TRUEWAYS",
+  "provider": "bgaming",
+  "releaseDate": "2024-09-23",
+  "rtp": 97.07,
+  "volatility": "very-high",
+  "volatilityNote": "very high",
+  "maxWinMultiplier": 10000.0,
+  "hitRate": 4.28,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "multipliers",
+    "hold-and-win",
+    "expanding-symbols",
+    "wilds",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/FortunaTrueways/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/fortuna-trueways"
+  ],
+  "lastVerified": "2026-11-14"
+}

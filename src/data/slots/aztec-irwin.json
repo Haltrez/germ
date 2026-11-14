@@ -1,0 +1,36 @@
+{
+  "name": "Aztec Irwin",
+  "provider": "bgaming",
+  "releaseDate": "2025-03-13",
+  "rtp": 97.0,
+  "volatility": "TODO",
+  "volatilityNote": "low-high",
+  "maxWinMultiplier": 10000.0,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "cluster-pays",
+    "sticky-wilds",
+    "wilds",
+    "retrigger"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/AztecIrwin/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/aztec-irwin"
+  ],
+  "lastVerified": "2026-11-14"
+}

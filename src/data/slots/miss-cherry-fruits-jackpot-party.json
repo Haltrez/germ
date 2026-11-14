@@ -1,0 +1,40 @@
+{
+  "name": "Miss Cherry Fruits Jackpot Party",
+  "provider": "bgaming",
+  "releaseDate": "2022-07-28",
+  "rtp": 94.65,
+  "volatility": "medium",
+  "volatilityNote": "medium",
+  "maxWinMultiplier": 1299.0,
+  "hitRate": 2.71,
+  "freeSpinsRate": 98,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 25
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "hold-and-win",
+    "wilds",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/MissCherryFruitsJackpotparty/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/miss-cherry-fruits-jackpot-party"
+  ],
+  "lastVerified": "2026-11-14"
+}

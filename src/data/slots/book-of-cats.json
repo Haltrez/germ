@@ -1,0 +1,38 @@
+{
+  "name": "Book of Cats",
+  "provider": "bgaming",
+  "releaseDate": "2020-07-08",
+  "rtp": 96.99,
+  "volatility": "very-high",
+  "volatilityNote": "very high",
+  "maxWinMultiplier": 8202.0,
+  "hitRate": 2.78,
+  "freeSpinsRate": 140,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 10
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "expanding-symbols"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/BookOfCats/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/book-of-cats"
+  ],
+  "lastVerified": "2026-11-14"
+}

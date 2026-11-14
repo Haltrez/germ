@@ -1,0 +1,36 @@
+{
+  "name": "Backyard Grill",
+  "provider": "bgaming",
+  "releaseDate": "2025-06-19",
+  "rtp": 97.17,
+  "volatility": "very-high",
+  "volatilityNote": "very high",
+  "maxWinMultiplier": 5000.0,
+  "hitRate": 3.19,
+  "freeSpinsRate": 162,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "scatter-pays"
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/BackyardGrill/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/backyard-grill"
+  ],
+  "lastVerified": "2026-11-14"
+}

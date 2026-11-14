@@ -1,0 +1,39 @@
+{
+  "name": "Fortune Bells",
+  "provider": "bgaming",
+  "releaseDate": "2025-03-18",
+  "rtp": 97.09,
+  "volatility": "high",
+  "volatilityNote": "high",
+  "maxWinMultiplier": 4684.0,
+  "hitRate": 3.9,
+  "freeSpinsRate": 156,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 10
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "wilds",
+    "retrigger"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/FortuneBells/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/fortune-bells"
+  ],
+  "lastVerified": "2026-11-14"
+}

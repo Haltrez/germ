@@ -1,0 +1,39 @@
+{
+  "name": "Doomsday Saloon",
+  "provider": "bgaming",
+  "releaseDate": "2025-04-29",
+  "rtp": 97.0,
+  "volatility": "very-high",
+  "volatilityNote": "very high",
+  "maxWinMultiplier": 10000.0,
+  "hitRate": 3.0,
+  "freeSpinsRate": 321,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "cluster"
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "cluster-pays",
+    "sticky-wilds",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/DoomsdaySaloon/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/doomsday-saloon"
+  ],
+  "lastVerified": "2026-11-14"
+}

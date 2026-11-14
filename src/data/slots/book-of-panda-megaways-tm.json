@@ -1,0 +1,39 @@
+{
+  "name": "Book of Panda Megaways",
+  "provider": "bgaming",
+  "releaseDate": "2023-11-09",
+  "rtp": 97.07,
+  "volatility": "very-high",
+  "volatilityNote": "very high",
+  "maxWinMultiplier": 10000.0,
+  "hitRate": 4.03,
+  "freeSpinsRate": 189,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "ways"
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "megaways",
+    "expanding-symbols",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/BookOfPanda/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/book-of-panda-megaways-tm"
+  ],
+  "lastVerified": "2026-11-14"
+}

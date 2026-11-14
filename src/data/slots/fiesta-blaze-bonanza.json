@@ -1,0 +1,38 @@
+{
+  "name": "Fiesta Blaze Bonanza",
+  "provider": "bgaming",
+  "releaseDate": "2022-08-24",
+  "rtp": 96.0,
+  "volatility": "TODO",
+  "volatilityNote": "low-high",
+  "maxWinMultiplier": 15000.0,
+  "hitRate": 2.59,
+  "freeSpinsRate": 395,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "scatter-pays"
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "scatter-pays",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/FiestaBlazeBonanza/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/fiesta-blaze-bonanza"
+  ],
+  "lastVerified": "2026-11-14"
+}

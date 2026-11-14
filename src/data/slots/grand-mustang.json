@@ -1,0 +1,41 @@
+{
+  "name": "Grand Mustang",
+  "provider": "bgaming",
+  "releaseDate": "2025-08-18",
+  "rtp": 96.14,
+  "volatility": "very-high",
+  "volatilityNote": "very high",
+  "maxWinMultiplier": 5624.0,
+  "hitRate": 2.39,
+  "freeSpinsRate": 182,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 25
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "hold-and-win",
+    "wilds",
+    "respins",
+    "retrigger"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/GrandMustang/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/grand-mustang"
+  ],
+  "lastVerified": "2026-11-14"
+}

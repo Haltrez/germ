@@ -1,0 +1,37 @@
+{
+  "name": "Disco Party",
+  "provider": "bgaming",
+  "releaseDate": "2025-01-21",
+  "rtp": 97.01,
+  "volatility": "low",
+  "volatilityNote": "low",
+  "maxWinMultiplier": 1500.0,
+  "hitRate": 5.4,
+  "freeSpinsRate": 122,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 243
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/DiscoParty/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/disco-party"
+  ],
+  "lastVerified": "2026-11-14"
+}

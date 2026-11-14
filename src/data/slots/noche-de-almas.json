@@ -1,0 +1,39 @@
+{
+  "name": "Noche de Almas",
+  "provider": "bgaming",
+  "releaseDate": "2026-10-20",
+  "rtp": 97.0,
+  "volatility": "very-high",
+  "volatilityNote": "very high",
+  "maxWinMultiplier": 10000.0,
+  "hitRate": 2.99,
+  "freeSpinsRate": 300,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "cluster"
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "hold-and-win",
+    "cluster-pays",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/NocheDeAlmas/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/noche-de-almas"
+  ],
+  "lastVerified": "2026-11-14"
+}

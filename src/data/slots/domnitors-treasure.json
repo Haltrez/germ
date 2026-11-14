@@ -1,0 +1,40 @@
+{
+  "name": "Domnitor’s Treasure",
+  "provider": "bgaming",
+  "releaseDate": "2023-01-12",
+  "rtp": 95.24,
+  "volatility": "high",
+  "volatilityNote": "medium-high",
+  "maxWinMultiplier": 2000.0,
+  "hitRate": 2.21,
+  "freeSpinsRate": 208,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 25
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "hold-and-win",
+    "wilds",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/DomnitorsTreasure/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/domnitors-treasure"
+  ],
+  "lastVerified": "2026-11-14"
+}

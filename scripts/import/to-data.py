@@ -32,6 +32,8 @@ for g in json.load(open(src)):
         'volatility': g.get('volatility', 'TODO'),
         **({'volatilityNote': g['volatilityNote']} if g.get('volatilityNote') else {}),
         'maxWinMultiplier': g.get('maxWin', 'TODO'),
+        **({'hitRate': g['hitRate']} if g.get('hitRate') else {}),
+        **({'freeSpinsRate': g['freeSpinsRate']} if g.get('freeSpinsRate') else {}),
         'reels': 'TODO',
         'rows': 'TODO',
         **({'grid': g['grid']} if g.get('grid') else {}),

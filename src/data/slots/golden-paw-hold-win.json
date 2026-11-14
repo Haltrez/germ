@@ -1,0 +1,35 @@
+{
+  "name": "Golden Paw: Hold & Win",
+  "provider": "bgaming",
+  "releaseDate": "2025-11-12",
+  "rtp": 97.0,
+  "volatility": "medium",
+  "volatilityNote": "medium",
+  "maxWinMultiplier": 2000.0,
+  "hitRate": 4.56,
+  "freeSpinsRate": 183,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "multipliers",
+    "hold-and-win",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/GoldenPawHoldAndWin/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/golden-paw-hold-win"
+  ],
+  "lastVerified": "2026-11-14"
+}

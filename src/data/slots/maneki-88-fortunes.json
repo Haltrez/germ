@@ -1,0 +1,38 @@
+{
+  "name": "Maneki 88 Fortunes",
+  "provider": "bgaming",
+  "releaseDate": "2023-09-07",
+  "rtp": 96.38,
+  "volatility": "high",
+  "volatilityNote": "medium-high",
+  "maxWinMultiplier": 3000.0,
+  "hitRate": 4.16,
+  "freeSpinsRate": 164,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 243
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/Maneki88Fortunes/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/maneki-88-fortunes"
+  ],
+  "lastVerified": "2026-11-14"
+}

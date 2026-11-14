@@ -1,0 +1,39 @@
+{
+  "name": "Joker vs Joker",
+  "provider": "bgaming",
+  "releaseDate": "2025-08-21",
+  "rtp": 95.5,
+  "volatility": "very-high",
+  "volatilityNote": "very high",
+  "maxWinMultiplier": 7500.0,
+  "hitRate": 9.0,
+  "freeSpinsRate": 177,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 5
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "expanding-symbols",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/JokerVsJoker/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/joker-vs-joker"
+  ],
+  "lastVerified": "2026-11-14"
+}

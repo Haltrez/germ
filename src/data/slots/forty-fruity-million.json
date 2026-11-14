@@ -1,0 +1,38 @@
+{
+  "name": "Forty Fruity Million",
+  "provider": "bgaming",
+  "releaseDate": "2022-09-02",
+  "rtp": 96.1,
+  "volatility": "very-high",
+  "volatilityNote": "very high",
+  "maxWinMultiplier": 6000.0,
+  "hitRate": 8.0,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 40
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "multipliers",
+    "scatter-pays",
+    "expanding-symbols",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/FortyFruityMillion/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/forty-fruity-million"
+  ],
+  "lastVerified": "2026-11-14"
+}

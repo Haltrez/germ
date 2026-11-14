@@ -1,0 +1,39 @@
+{
+  "name": "Crystal Clusters",
+  "provider": "bgaming",
+  "releaseDate": "2025-08-25",
+  "rtp": 96.5,
+  "volatility": "very-high",
+  "volatilityNote": "very high",
+  "maxWinMultiplier": 5000.0,
+  "hitRate": 2.61,
+  "freeSpinsRate": 273,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "cluster"
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "cascades",
+    "multipliers",
+    "cluster-pays",
+    "retrigger"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/CrystalClusters/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/crystal-clusters"
+  ],
+  "lastVerified": "2026-11-14"
+}

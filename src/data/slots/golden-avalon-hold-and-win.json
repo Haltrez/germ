@@ -1,0 +1,36 @@
+{
+  "name": "Golden Avalon Hold and Win",
+  "provider": "bgaming",
+  "releaseDate": "2026-03-03",
+  "rtp": 97.1,
+  "volatility": "high",
+  "volatilityNote": "medium-high",
+  "maxWinMultiplier": 3000.0,
+  "hitRate": 2.24,
+  "freeSpinsRate": 223,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "multipliers",
+    "hold-and-win",
+    "wilds",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/GoldenAvalonHoldAndWin/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/golden-avalon-hold-and-win"
+  ],
+  "lastVerified": "2026-11-14"
+}

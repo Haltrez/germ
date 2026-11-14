@@ -1,0 +1,39 @@
+{
+  "name": "Avalon: The Lost Kingdom",
+  "provider": "bgaming",
+  "releaseDate": "2020-02-27",
+  "rtp": 94.56,
+  "volatility": "high",
+  "volatilityNote": "high",
+  "maxWinMultiplier": 3812.0,
+  "hitRate": 2.57,
+  "freeSpinsRate": 153,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 20
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "wilds",
+    "retrigger"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/Avalon/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/avalon-the-lost-kingdom"
+  ],
+  "lastVerified": "2026-11-14"
+}

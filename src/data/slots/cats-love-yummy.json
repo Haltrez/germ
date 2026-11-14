@@ -1,0 +1,35 @@
+{
+  "name": "Cats Love Yummy",
+  "provider": "bgaming",
+  "releaseDate": "2026-09-30",
+  "rtp": 96.07,
+  "volatility": "high",
+  "volatilityNote": "medium-high",
+  "maxWinMultiplier": 1500.0,
+  "hitRate": 3.4,
+  "freeSpinsRate": 93,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/CatsLoveYummy/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/cats-love-yummy"
+  ],
+  "lastVerified": "2026-11-14"
+}

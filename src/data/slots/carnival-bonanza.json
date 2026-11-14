@@ -1,0 +1,38 @@
+{
+  "name": "Carnival Bonanza",
+  "provider": "bgaming",
+  "releaseDate": "2024-10-08",
+  "rtp": 96.0,
+  "volatility": "high",
+  "volatilityNote": "high",
+  "maxWinMultiplier": 14134.0,
+  "hitRate": 2.6,
+  "freeSpinsRate": 332,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "scatter-pays"
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "scatter-pays",
+    "expanding-symbols"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/CarnivalBonanza/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/carnival-bonanza"
+  ],
+  "lastVerified": "2026-11-14"
+}

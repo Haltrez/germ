@@ -1,0 +1,38 @@
+{
+  "name": "Jungle Queen",
+  "provider": "bgaming",
+  "releaseDate": "2025-02-20",
+  "rtp": 96.15,
+  "volatility": "high",
+  "volatilityNote": "high",
+  "maxWinMultiplier": 10000.0,
+  "hitRate": 4.22,
+  "freeSpinsRate": 218,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 20
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/JungleQueen/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/jungle-queen"
+  ],
+  "lastVerified": "2026-11-14"
+}

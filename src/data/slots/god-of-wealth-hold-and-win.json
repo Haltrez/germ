@@ -1,0 +1,39 @@
+{
+  "name": "God of Wealth Hold and Win",
+  "provider": "bgaming",
+  "releaseDate": "2024-01-18",
+  "rtp": 95.24,
+  "volatility": "very-high",
+  "volatilityNote": "very high",
+  "maxWinMultiplier": 2000.0,
+  "hitRate": 2.21,
+  "freeSpinsRate": 207,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 25
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "hold-and-win",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/GodOfWealthHoldAndWin/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/god-of-wealth-hold-and-win"
+  ],
+  "lastVerified": "2026-11-14"
+}

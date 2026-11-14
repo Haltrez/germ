@@ -1,0 +1,39 @@
+{
+  "name": "Clucking Hell",
+  "provider": "bgaming",
+  "releaseDate": "2025-10-01",
+  "rtp": 96.23,
+  "volatility": "very-high",
+  "volatilityNote": "very high",
+  "maxWinMultiplier": 6666.0,
+  "hitRate": 3.41,
+  "freeSpinsRate": 236,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "cluster"
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "cluster-pays",
+    "wilds",
+    "retrigger"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/CluckingHell/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/clucking-hell"
+  ],
+  "lastVerified": "2026-11-14"
+}

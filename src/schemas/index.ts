@@ -74,6 +74,10 @@ export const slotSchema = z
     /** Provider's own wording/scale, e.g. "4/5" or "Very high". */
     volatilityNote: z.string().optional(),
     maxWinMultiplier: todoOr(z.number().positive()),
+    /** Provider stat: on average one win every N spins. */
+    hitRate: z.number().positive().optional(),
+    /** Provider stat: on average one free-spins trigger every N spins. */
+    freeSpinsRate: z.number().positive().optional(),
     reels: todoOr(z.number().int().positive()),
     rows: todoOr(z.union([z.number().int().positive(), z.string().regex(/^\d+-\d+$/)])),
     /** Grid exactly as the provider writes it (e.g. "5×3"), when reels/rows are not separately confirmed. */

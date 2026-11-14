@@ -1,0 +1,38 @@
+{
+  "name": "Big Bucks Saloon",
+  "provider": "bgaming",
+  "releaseDate": "2025-07-24",
+  "rtp": 97.01,
+  "volatility": "high",
+  "volatilityNote": "high",
+  "maxWinMultiplier": 10000.0,
+  "hitRate": 4.11,
+  "freeSpinsRate": 305,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 20
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/BigBucksSaloon/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/big-bucks-saloon"
+  ],
+  "lastVerified": "2026-11-14"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Hottest 666",
+  "provider": "bgaming",
+  "releaseDate": "2023-12-20",
+  "rtp": 96.0,
+  "volatility": "very-high",
+  "volatilityNote": "very high",
+  "maxWinMultiplier": 6600.0,
+  "hitRate": 5.5,
+  "freeSpinsRate": 150,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 10
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "wilds",
+    "respins",
+    "retrigger"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/Hottest666/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/hottest-666"
+  ],
+  "lastVerified": "2026-11-14"
+}

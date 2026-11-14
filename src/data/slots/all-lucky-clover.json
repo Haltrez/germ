@@ -1,0 +1,36 @@
+{
+  "name": "All Lucky Clovers",
+  "provider": "bgaming",
+  "releaseDate": "2020-09-17",
+  "rtp": 97.0,
+  "volatility": "very-high",
+  "volatilityNote": "very high",
+  "maxWinMultiplier": 3000.0,
+  "hitRate": 8.4,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 100
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "multipliers",
+    "expanding-symbols"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/AllLuckyClover/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/all-lucky-clover"
+  ],
+  "lastVerified": "2026-11-14"
+}

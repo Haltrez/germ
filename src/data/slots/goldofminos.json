@@ -1,0 +1,38 @@
+{
+  "name": "Gold of Minos",
+  "provider": "bgaming",
+  "releaseDate": "2024-06-06",
+  "rtp": 96.0,
+  "volatility": "high",
+  "volatilityNote": "medium-high",
+  "maxWinMultiplier": 15360.0,
+  "hitRate": 6.0,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 243
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "multipliers",
+    "expanding-symbols",
+    "wilds",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/GoldOfMinos/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/goldofminos"
+  ],
+  "lastVerified": "2026-11-14"
+}

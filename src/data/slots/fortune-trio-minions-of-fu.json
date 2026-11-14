@@ -1,0 +1,38 @@
+{
+  "name": "Fortune Trio: Minions of Fu",
+  "provider": "bgaming",
+  "releaseDate": "2026-08-27",
+  "rtp": 95.05,
+  "volatility": "medium",
+  "volatilityNote": "medium",
+  "maxWinMultiplier": 2000.0,
+  "hitRate": 2.31,
+  "freeSpinsRate": 205,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 25
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "hold-and-win"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/FortuneTrioMinionsOfFu/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/fortune-trio-minions-of-fu"
+  ],
+  "lastVerified": "2026-11-14"
+}

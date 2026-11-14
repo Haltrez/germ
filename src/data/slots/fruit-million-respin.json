@@ -1,0 +1,37 @@
+{
+  "name": "Fruit Million Respin",
+  "provider": "bgaming",
+  "releaseDate": "2026-07-27",
+  "rtp": 97.0,
+  "volatility": "medium",
+  "volatilityNote": "medium",
+  "maxWinMultiplier": 3000.0,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 100
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "multipliers",
+    "expanding-symbols",
+    "wilds",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/FruitMillionRespin/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/fruit-million-respin"
+  ],
+  "lastVerified": "2026-11-14"
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Fruit Million St.Patricks",
+  "provider": "bgaming",
+  "releaseDate": "2020-12-16",
+  "rtp": 97.34,
+  "volatility": "high",
+  "volatilityNote": "medium-high",
+  "maxWinMultiplier": 3000.0,
+  "hitRate": 4.3,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 100
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "multipliers",
+    "expanding-symbols",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/FruitMillion/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/fruit-million-st-patricks"
+  ],
+  "lastVerified": "2026-11-14"
+}

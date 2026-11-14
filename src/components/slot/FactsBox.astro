@@ -15,6 +15,8 @@ const rows: [string, string, string?][] = [
   ['Maximalgewinn', maxWinText(s)],
   ['Spielfeld', layoutText(s)],
   ['Gewinnlinien / -wege', winLinesText(s)],
+  ...(s.hitRate ? [['Trefferquote laut Hersteller', `im Schnitt jeder ${s.hitRate.toLocaleString('de-DE')}. Spin`] as [string, string]] : []),
+  ...(s.freeSpinsRate ? [['Freispiele laut Hersteller', `im Schnitt alle ${s.freeSpinsRate.toLocaleString('de-DE')} Spins`] as [string, string]] : []),
   ['Einsatz laut Hersteller', stake],
   ['Erscheinungsdatum', isTodo(s.releaseDate) ? UNVERIFIED : formatDateDE(s.releaseDate)],
 ];

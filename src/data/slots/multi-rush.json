@@ -1,0 +1,37 @@
+{
+  "name": "Multi Rush",
+  "provider": "bgaming",
+  "releaseDate": "2026-06-17",
+  "rtp": 96.15,
+  "volatility": "high",
+  "volatilityNote": "high",
+  "maxWinMultiplier": 10000.0,
+  "hitRate": 3.0,
+  "freeSpinsRate": 226,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "cluster"
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "cluster-pays"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/MultiRush/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/multi-rush"
+  ],
+  "lastVerified": "2026-11-14"
+}

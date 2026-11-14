@@ -1,0 +1,38 @@
+{
+  "name": "Frenzy Clusters",
+  "provider": "bgaming",
+  "releaseDate": "2026-06-23",
+  "rtp": 97.11,
+  "volatility": "high",
+  "volatilityNote": "high",
+  "maxWinMultiplier": 10000.0,
+  "hitRate": 2.64,
+  "freeSpinsRate": 269,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "cluster"
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "cluster-pays",
+    "expanding-symbols"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/FrenzyClusters/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/frenzy-clusters"
+  ],
+  "lastVerified": "2026-11-14"
+}

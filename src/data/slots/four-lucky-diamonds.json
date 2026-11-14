@@ -1,0 +1,36 @@
+{
+  "name": "Four Lucky Diamonds",
+  "provider": "bgaming",
+  "releaseDate": "2021-02-25",
+  "rtp": 94.03,
+  "volatility": "high",
+  "volatilityNote": "medium-high",
+  "maxWinMultiplier": 2500.0,
+  "hitRate": 6.2,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 10
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "multipliers",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/FourLuckyDiamonds/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/four-lucky-diamonds"
+  ],
+  "lastVerified": "2026-11-14"
+}

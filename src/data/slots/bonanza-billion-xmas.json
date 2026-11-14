@@ -1,0 +1,38 @@
+{
+  "name": "Bonanza Billion X-mas",
+  "provider": "bgaming",
+  "releaseDate": "2021-12-02",
+  "rtp": 95.97,
+  "volatility": "high",
+  "volatilityNote": "high",
+  "maxWinMultiplier": 15000.0,
+  "hitRate": 2.59,
+  "freeSpinsRate": 395,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "scatter-pays"
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "cascades",
+    "multipliers",
+    "scatter-pays"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/BonanzaBillion/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/bonanza-billion-xmas"
+  ],
+  "lastVerified": "2026-11-14"
+}

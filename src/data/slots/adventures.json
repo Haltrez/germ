@@ -1,0 +1,37 @@
+{
+  "name": "Adventures",
+  "provider": "bgaming",
+  "releaseDate": "2024-05-28",
+  "rtp": 96.1,
+  "volatility": "medium",
+  "volatilityNote": "medium",
+  "maxWinMultiplier": 2100.0,
+  "hitRate": 2.38,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "cluster"
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "multipliers",
+    "hold-and-win",
+    "cluster-pays",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/Adventures/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/adventures"
+  ],
+  "lastVerified": "2026-11-14"
+}

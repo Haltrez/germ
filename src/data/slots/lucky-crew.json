@@ -1,0 +1,40 @@
+{
+  "name": "Lucky Crew",
+  "provider": "bgaming",
+  "releaseDate": "2023-05-18",
+  "rtp": 95.98,
+  "volatility": "very-high",
+  "volatilityNote": "very high",
+  "maxWinMultiplier": 3525.0,
+  "hitRate": 3.55,
+  "freeSpinsRate": 177,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 20
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "sticky-wilds",
+    "wilds",
+    "retrigger"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/LuckyCrew/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/lucky-crew"
+  ],
+  "lastVerified": "2026-11-14"
+}
