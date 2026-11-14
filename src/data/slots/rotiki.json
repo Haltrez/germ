@@ -1,0 +1,33 @@
+{
+  "name": "Rotiki",
+  "provider": "play-n-go",
+  "releaseDate": "2022-07-14",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "cascades",
+    "multipliers",
+    "cluster-pays",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://released.playngonetwork.com/casino/ContainerLauncher?pid=2&gid=rotiki&lang=de_DE&practice=1&channel=desktop&demo=2",
+  "demoSource": "official-provider",
+  "demoSourceName": "Play'n GO",
+  "demoLicenseNote": "Offizielle Demo von Play'n GO, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://www.playngo.com/games/rotiki"
+  ],
+  "lastVerified": "2026-11-14"
+}

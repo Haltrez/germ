@@ -1,0 +1,31 @@
+{
+  "name": "Alice Cooper and the Tome of Madness",
+  "provider": "play-n-go",
+  "releaseDate": "2021-10-07",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "cluster-pays",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://released.playngonetwork.com/casino/ContainerLauncher?pid=2&gid=alicecooper&lang=de_DE&practice=1&channel=desktop&demo=2",
+  "demoSource": "official-provider",
+  "demoSourceName": "Play'n GO",
+  "demoLicenseNote": "Offizielle Demo von Play'n GO, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://www.playngo.com/games/alice-cooper-and-the-tome-of-madness"
+  ],
+  "lastVerified": "2026-11-14"
+}

@@ -18,7 +18,7 @@ for u in urls:
     s = get(u, f'g-{slug}.html')
     if not s: continue
     t = page_text(s)
-    if 'Game Type: Video Slot' not in t: continue
+    if not re.search(r'Game Type: (?:Video|Grid|Cluster) Slot', t): continue
     h1 = re.search(r'<h1[^>]*>(.*?)</h1>', s, re.S)
     name = re.sub(r'[™®©]', '', text(h1.group(1))).strip() if h1 else None
     if not name: continue

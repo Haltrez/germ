@@ -31,8 +31,8 @@ for e in data['games']:
     if m2: g['winLines'] = {'type': 'ways', 'count': int(m2.group(1))}
     m2 = re.search(r'Reels (\d+) Reels', t)
     if m2: g['reels'] = int(m2.group(1))
-    m2 = re.search(r'About .{0,80}?(?= )(.{0,1500})', t)
-    g['features'] = features(gt.group(1) + ' ' + (m2.group(1) if m2 else ''))
+    tags = re.search(r'Client login for more data (.{0,200}?) Sitemap', t)
+    g['features'] = features(gt.group(1) + ' ' + (tags.group(1) if tags else ''))
     games.append(g)
 json.dump(games, open(out, 'w'), indent=1, ensure_ascii=False)
 print(f"{len(data['games'])} listed, {len(games)} slots written to {out}")
