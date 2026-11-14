@@ -1,0 +1,36 @@
+---
+import type { GetStaticPaths } from 'astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SlotCard from '../../components/slot/SlotCard.astro';
+import { CATEGORIES } from '../../config/routes.ts';
+import { CATEGORY_TEXT } from '../../content/kategorien.ts';
+import { getSlotViews } from '../../lib/slots.ts';
+
+export const getStaticPaths = (() => CATEGORIES.map((c) => ({ params: { category: c.slug }, props: { c } }))) satisfies GetStaticPaths;
+const { c } = Astro.props as { c: (typeof CATEGORIES)[number] };
+const t = CATEGORY_TEXT[c.code];
+const slots = (await getSlotViews()).filter((s) => s.categories.includes(c.code));
+const LIMIT = 60;
+---
+<BaseLayout
+  title={t.title}
+  description={t.description}
+  breadcrumbs={[{ name: 'Kategorien', href: '/kategorien/' }, { name: c.label, href: `/kategorien/${c.slug}/` }]}
+>
+  <section class="container-site pt-6">
+    <h1 class="text-3xl font-extrabold text-fg sm:text-5xl">{c.label} kostenlos spielen</h1>
+    <div class="mt-4 max-w-3xl space-y-3 text-muted">{t.intro.map((p) => <p>{p}</p>)}</div>
+    <h2 class="mt-10 text-2xl font-bold text-fg">{slots.length.toLocaleString('de-DE')} {c.label} als Demo</h2>
+    {slots.length === 0 ? (
+      <p class="mt-4 text-muted">Für diese Kategorie bereiten wir gerade die ersten Demos vor.</p>
+    ) : (
+      <div class="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
+        {slots.slice(0, LIMIT).map((s) => <SlotCard slot={s} />)}
+      </div>
+    )}
+    {slots.length > LIMIT && (
+      <p class="mt-6 text-center"><a class="btn btn-secondary" href={`/spielautomaten/?kategorie=${c.code}`}>Alle {slots.length.toLocaleString('de-DE')} {c.label} in der Spielhalle</a></p>
+    )}
+    <p class="mt-8 text-xs text-subtle">Alle Werte laut Hersteller. Die Demos laufen mit Spielgeld. Bei Echtgeld entscheidet allein der Zufall.</p>
+  </section>
+</BaseLayout>

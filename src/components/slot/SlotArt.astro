@@ -1,0 +1,35 @@
+---
+/**
+ * Original generated cover art (no provider artwork is used until licensed
+ * media is available). Deterministic colours from the slug.
+ */
+interface Props { slug: string; name: string; class?: string; large?: boolean }
+const { slug, name, class: cls, large = false } = Astro.props;
+let h = 0;
+for (const ch of slug) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
+const palettes = [
+  ['#22d39f', '#16275a'], ['#7b66f5', '#0f1d40'], ['#f1a92b', '#2a1a4a'], ['#ff8a80', '#1b1440'],
+  ['#4eeabb', '#2b1d6b'], ['#9d8cff', '#0b2a3a'], ['#ffc857', '#0f2f4a'], ['#38bdf8', '#1e1b4b'],
+];
+const [a, b] = palettes[h % palettes.length];
+const shape = h % 4;
+const initials = name.replace(/[^A-Za-zÄÖÜäöü0-9 ]/g, '').split(/\s+/).filter(Boolean).slice(0, 2).map((w) => w[0]).join('').toUpperCase();
+const gid = `sa-${slug}`;
+---
+<div class:list={['relative aspect-[4/3] overflow-hidden rounded-[var(--radius-thumb)]', cls]} aria-hidden="true">
+  <svg viewBox="0 0 160 120" class="h-full w-full" preserveAspectRatio="xMidYMid slice">
+    <defs>
+      <linearGradient id={gid} x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color={a} stop-opacity=".9" />
+        <stop offset="1" stop-color={b} />
+      </linearGradient>
+    </defs>
+    <rect width="160" height="120" fill={b} />
+    <rect width="160" height="120" fill={`url(#${gid})`} opacity=".85" />
+    {shape === 0 && <circle cx={120} cy={24} r={46} fill="#fff" opacity=".08" />}
+    {shape === 1 && <path d="M110 -10l60 60-60 60z" fill="#fff" opacity=".08" />}
+    {shape === 2 && <rect x={96} y={-20} width={90} height={90} rx={24} transform="rotate(20 140 25)" fill="#fff" opacity=".08" />}
+    {shape === 3 && <g fill="#fff" opacity=".08"><circle cx={30} cy={100} r={40} /><circle cx={140} cy={10} r={30} /></g>}
+    <text x="14" y="104" font-family="Bricolage Grotesque Variable, sans-serif" font-weight="800" font-size={large ? 30 : 38} fill="#fff" opacity=".95">{initials}</text>
+  </svg>
+</div>

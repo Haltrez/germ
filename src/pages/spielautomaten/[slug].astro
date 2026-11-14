@@ -1,0 +1,146 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { getEntry, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import DemoPlayer from '../../components/slot/DemoPlayer.astro';
+import FactsBox from '../../components/slot/FactsBox.astro';
+import EchtgeldBox from '../../components/slot/EchtgeldBox.astro';
+import SlotCard from '../../components/slot/SlotCard.astro';
+import Faq from '../../components/ui/Faq.astro';
+import { getSlotViews, similarSlots, rtpText, rtpMax, isTodo, type SlotView } from '../../lib/slots.ts';
+import { articleSchema, faqSchema } from '../../lib/schema.ts';
+import { formatDateDE } from '../../lib/i18n/de.ts';
+import { CATEGORIES } from '../../config/routes.ts';
+
+export const getStaticPaths = (async () => {
+  const all = await getSlotViews();
+  return all.map((slot) => ({ params: { slug: slot.id }, props: { slot } }));
+}) satisfies GetStaticPaths;
+
+const { slot } = Astro.props as { slot: SlotView };
+const all = await getSlotViews();
+const s = slot.data;
+const providerName = slot.provider?.data.name ?? s.provider;
+const text = slot.text?.data;
+const Content = slot.text ? (await render(slot.text)).Content : null;
+const author = text ? await getEntry('authors', text.author) : undefined;
+
+const fit = (...opts: string[]) => opts.find((o) => [...o].length <= 60) ?? opts[opts.length - 1].slice(0, 60);
+const title = text?.metaTitle ?? fit(`${s.name} kostenlos spielen – Demo ohne Anmeldung`, `${s.name} kostenlos spielen – Demo`, `${s.name} kostenlos spielen`, s.name);
+const autoDesc = `${s.name} von ${providerName} kostenlos spielen: Spielgeld-Demo ohne Anmeldung, RTP ${rtpText(s)} und alle Fakten zum Slot.`;
+const description = text?.metaDescription ?? (autoDesc.length <= 155 ? autoDesc : `${s.name} kostenlos spielen: Demo ohne Anmeldung und alle Fakten zum Slot.`.slice(0, 155));
+
+// Rank by published RTP among slots with a known value (leaderboards come in phase 3).
+const withRtp = all.filter((v) => rtpMax(v.data) !== null).sort((a, b) => rtpMax(b.data)! - rtpMax(a.data)!);
+const rtpRank = withRtp.findIndex((v) => v.id === slot.id) + 1;
+const maxWinRanked = all.filter((v) => !isTodo(v.data.maxWinMultiplier)).sort((a, b) => (b.data.maxWinMultiplier as number) - (a.data.maxWinMultiplier as number));
+const maxWinRank = maxWinRanked.findIndex((v) => v.id === slot.id) + 1;
+
+const similar = similarSlots(all, slot);
+const cats = CATEGORIES.filter((c) => slot.categories.includes(c.code));
+const jsonLd = text
+  ? [
+      articleSchema({
+        headline: `${s.name} kostenlos spielen – Test und Demo`,
+        description,
+        path: slot.path,
+        authorName: author?.data.name ?? 'Redaktion',
+        datePublished: text.updated,
+        dateModified: text.updated,
+      }),
+      ...(text.faq.length ? [faqSchema(text.faq)] : []),
+    ]
+  : [];
+---
+<BaseLayout
+  {title}
+  {description}
+  noindex={!slot.indexable}
+  ogType={text ? 'article' : 'website'}
+  breadcrumbs={[{ name: 'Spielautomaten', href: '/spielautomaten/' }, { name: providerName, href: `/hersteller/${s.provider}/` }, { name: s.name, href: slot.path }]}
+  {jsonLd}
+>
+  <div class="container-site pt-6">
+    <header class="max-w-4xl">
+      <h1 class="text-3xl font-extrabold text-fg sm:text-4xl lg:text-5xl">{s.name} kostenlos spielen – Demo ohne Anmeldung</h1>
+      <p class="mt-3 text-muted">
+        {text?.intro ?? `${s.name} ist ein Spielautomat von ${providerName}. ${isTodo(s.rtp) ? '' : `Laut Hersteller liegt die Auszahlungsquote (RTP) bei ${rtpText(s)}. `}Hier kannst du die Demo kostenlos mit Spielgeld ausprobieren – ohne Anmeldung und ohne Einzahlung.`}
+      </p>
+      {cats.length > 0 && (
+        <ul class="mt-4 flex flex-wrap gap-2">
+          {cats.map((c) => <li><a class="chip !min-h-8 !py-1 text-xs" href={`/kategorien/${c.slug}/`}>{c.label}</a></li>)}
+        </ul>
+      )}
+    </header>
+
+    <div class="mt-8 grid gap-6 lg:grid-cols-[1.6fr_1fr] lg:items-start">
+      <DemoPlayer {slot} />
+      <div class="space-y-6">
+        <FactsBox {slot} />
+        <EchtgeldBox {slot} />
+      </div>
+    </div>
+
+    {Content ? (
+      <article class="prose-site mt-14">
+        <Content />
+        {text!.howTo.length > 0 && (
+          <>
+            <h2>So funktioniert {s.name}</h2>
+            <ol>{text!.howTo.map((step) => <li>{step}</li>)}</ol>
+          </>
+        )}
+        {(text!.pros.length > 0 || text!.cons.length > 0) && (
+          <div class="not-prose grid gap-4 sm:grid-cols-2">
+            <div class="card p-5"><h3 class="font-bold text-fg">Das gefällt uns</h3><ul class="mt-2 space-y-1 text-sm">{text!.pros.map((p) => <li>+ {p}</li>)}</ul></div>
+            <div class="card p-5"><h3 class="font-bold text-fg">Das gefällt uns weniger</h3><ul class="mt-2 space-y-1 text-sm">{text!.cons.map((p) => <li>– {p}</li>)}</ul></div>
+          </div>
+        )}
+      </article>
+    ) : (
+      <section class="card mt-10 max-w-3xl p-5 text-sm text-muted">
+        <p><strong class="text-fg">Ausführlicher Test folgt.</strong> Unsere Redaktion prüft {s.name} gerade. Bis dahin findest du hier die offiziellen Daten des Herstellers und die kostenlose Demo.</p>
+      </section>
+    )}
+
+    <section class="mt-14" aria-labelledby="rank-title">
+      <h2 id="rank-title" class="text-2xl font-bold text-fg">{s.name} in unseren Ranglisten</h2>
+      <div class="mt-4 grid gap-4 sm:grid-cols-2">
+        <a href="/ranglisten/" class="card block p-5 hover:border-mint-400/60">
+          <p class="text-sm text-subtle">Auszahlungsquote (RTP)</p>
+          <p class="mt-1 font-display text-2xl font-extrabold text-fg">{rtpRank ? `Platz ${rtpRank} von ${withRtp.length}` : 'noch nicht gelistet'}</p>
+        </a>
+        <a href="/ranglisten/" class="card block p-5 hover:border-mint-400/60">
+          <p class="text-sm text-subtle">Maximalgewinn</p>
+          <p class="mt-1 font-display text-2xl font-extrabold text-fg">{maxWinRank ? `Platz ${maxWinRank} von ${maxWinRanked.length}` : 'noch nicht gelistet'}</p>
+        </a>
+      </div>
+      <p class="mt-3 text-xs text-subtle">Theoretische Werte laut Hersteller. Jeder Spin ist zufällig, und auf lange Sicht behält die Spielothek einen Teil der Einsätze.</p>
+    </section>
+
+    {text && text.faq.length > 0 && <div class="mt-14 max-w-4xl"><Faq items={text.faq} title={`Häufige Fragen zu ${s.name}`} /></div>}
+
+    {similar.length > 0 && (
+      <section class="mt-14" aria-labelledby="similar-title">
+        <h2 id="similar-title" class="text-2xl font-bold text-fg">Ähnliche Slots</h2>
+        <div class="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
+          {similar.map((o) => <SlotCard slot={o} />)}
+        </div>
+      </section>
+    )}
+
+    <aside class="mt-14 grid gap-4 md:grid-cols-2">
+      <div class="card p-5 text-sm text-muted">
+        <p class="font-bold text-fg">Spiel verantwortungsvoll</p>
+        <p class="mt-1">Die Demo nutzt nur Spielgeld. Bei Echtgeld entscheidet allein der Zufall, und es gibt keine Tricks. Setz dir ein Limit. <a href="/verantwortungsvoll-spielen/" class="text-mint-300 underline underline-offset-2">Hilfe und Infos</a></p>
+      </div>
+      {text && (
+        <div class="card p-5 text-sm text-muted">
+          <p class="font-bold text-fg">{author?.data.isPlaceholder ? <span class="todo-marker">{author.data.name}</span> : author?.data.name}</p>
+          <p>{author?.data.role}</p>
+          <p class="mt-1">Zuletzt aktualisiert: <time datetime={text.updated}>{formatDateDE(text.updated)}</time> · <a href="/bewertungsmethodik/" class="text-mint-300 underline underline-offset-2">So prüfen wir</a></p>
+        </div>
+      )}
+    </aside>
+  </div>
+</BaseLayout>

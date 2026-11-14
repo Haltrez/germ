@@ -86,7 +86,9 @@ export const COMPLIANCE = {
  * confirms sources; the build fails if a slot uses any other host.
  */
 export const DEMO_HOST_ALLOWLIST: readonly string[] = [
-  // TODO: add confirmed official demo hosts, e.g. 'demo.example-provider.com'
+  // Official public demo server of Pragmatic Play (linked from pragmaticplay.com game pages).
+  // TODO(owner): confirm embedding terms with Pragmatic Play or your aggregator.
+  'demogamesfree.pragmaticplay.net',
 ];
 
 /** Analytics: none installed. Anything added here must only load after consent. */

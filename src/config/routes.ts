@@ -60,12 +60,6 @@ export const FOOTER_LEGAL: { label: string; href: string }[] = [
  * page replaces the stub.
  */
 export const STUB_PAGES: Record<string, { title: string; h1: string; phase: number }> = {
-  '/spielautomaten/': { title: 'Alle Spielautomaten kostenlos spielen', h1: 'Alle Spielautomaten', phase: 2 },
-  '/hersteller/': { title: 'Slot-Hersteller im Überblick', h1: 'Slot-Hersteller', phase: 2 },
-  '/kategorien/': { title: 'Slot-Kategorien im Überblick', h1: 'Slot-Kategorien', phase: 2 },
-  ...Object.fromEntries(
-    CATEGORIES.map((c) => [`/kategorien/${c.slug}/`, { title: `${c.label} kostenlos spielen`, h1: `${c.label} kostenlos spielen`, phase: 2 }]),
-  ),
   '/ranglisten/': { title: 'Ranglisten: das Big Win Board', h1: 'Ranglisten', phase: 3 },
   '/ranglisten/neue-slots/': { title: 'Neue Slots kostenlos testen', h1: 'Neue Slots', phase: 3 },
   '/echtgeld-spielotheken/': { title: 'GGL-lizenzierte Spielotheken im Vergleich', h1: 'Online-Spielotheken mit deutscher Lizenz', phase: 4 },

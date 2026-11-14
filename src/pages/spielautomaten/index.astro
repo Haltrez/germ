@@ -1,0 +1,151 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SlotCard from '../../components/slot/SlotCard.astro';
+import { getSlotViews } from '../../lib/slots.ts';
+import { CATEGORIES } from '../../config/routes.ts';
+import { volatilityLabel } from '../../lib/i18n/de.ts';
+import { VOLATILITY } from '../../schemas/index.ts';
+import { itemListSchema } from '../../lib/schema.ts';
+
+const all = await getSlotViews();
+const PAGE = 48;
+const first = all.slice(0, PAGE);
+const providers = [...new Map(all.map((v) => [v.data.provider, v.provider?.data.name ?? v.data.provider])).entries()].sort((a, b) => a[1].localeCompare(b[1], 'de'));
+const tabs = [
+  { code: '', label: 'Alle', count: all.length },
+  ...CATEGORIES.map((c) => ({ code: c.code, label: c.short, count: all.filter((v) => v.categories.includes(c.code)).length })),
+].filter((t) => t.count > 0);
+const reviewed = all.filter((v) => v.indexable);
+---
+<BaseLayout
+  title="Spielautomaten kostenlos spielen – alle Slots im Überblick"
+  description={`Alle ${all.length.toLocaleString('de-DE')} Spielautomaten kostenlos spielen: Demos ohne Anmeldung, filterbar nach Hersteller, Kategorie und Volatilität – mit RTP-Angaben.`}
+  breadcrumbs={[{ name: 'Spielautomaten', href: '/spielautomaten/' }]}
+  jsonLd={reviewed.length ? [itemListSchema('Spielautomaten mit ausführlichem Test', reviewed.slice(0, 50).map((v) => ({ name: v.data.name, path: v.path })))] : []}
+>
+  <section class="container-site pt-6">
+    <p class="eyebrow">Die Spielhalle</p>
+    <h1 class="mt-2 text-3xl font-extrabold text-fg sm:text-5xl">Spielautomaten kostenlos spielen</h1>
+    <p class="mt-4 max-w-3xl text-muted">
+      Hier findest du alle Spielautomaten, die du bei uns kostenlos mit Spielgeld spielen kannst – ohne Anmeldung, ohne
+      Download und ohne Einzahlung. Filtere nach Kategorie, Hersteller oder Volatilität und sortiere nach Auszahlungsquote.
+      Die Werte stammen aus den offiziellen Angaben der Hersteller. Was ein Hersteller nicht veröffentlicht, kennzeichnen wir
+      als „wird geprüft“.
+    </p>
+
+    <div class="mt-8 space-y-4" data-lobby>
+      <form role="search" class="flex flex-col gap-3 lg:flex-row lg:items-center" onsubmit="return false">
+        <label for="suche" class="sr-only">Slot suchen</label>
+        <input id="suche" name="q" type="search" autocomplete="off" placeholder="Slot oder Hersteller suchen …" class="min-h-11 flex-1 rounded-full border border-ink-600 bg-ink-900 px-5 text-fg placeholder:text-subtle focus:border-mint-400 focus:outline-none" data-f="q" />
+        <div class="grid grid-cols-3 gap-2 lg:flex">
+          <label class="sr-only" for="f-provider">Hersteller</label>
+          <select id="f-provider" class="min-h-11 rounded-full border border-ink-600 bg-ink-900 px-3 text-sm text-fg" data-f="p">
+            <option value="">Alle Hersteller</option>
+            {providers.map(([slug, name]) => <option value={slug}>{name}</option>)}
+          </select>
+          <label class="sr-only" for="f-vol">Volatilität</label>
+          <select id="f-vol" class="min-h-11 rounded-full border border-ink-600 bg-ink-900 px-3 text-sm text-fg" data-f="v">
+            <option value="">Volatilität</option>
+            {VOLATILITY.map((v) => <option value={v}>{volatilityLabel[v]}</option>)}
+          </select>
+          <label class="sr-only" for="f-sort">Sortierung</label>
+          <select id="f-sort" class="min-h-11 rounded-full border border-ink-600 bg-ink-900 px-3 text-sm text-fg" data-f="o">
+            <option value="">Empfohlen</option>
+            <option value="az">A–Z</option>
+            <option value="rtp">Höchster RTP</option>
+            <option value="max">Höchster Max-Win</option>
+          </select>
+        </div>
+      </form>
+
+      <div role="tablist" aria-label="Kategorien" class="flex gap-2 overflow-x-auto pb-1">
+        {tabs.map((t, i) => (
+          <button type="button" role="tab" aria-selected={i === 0 ? 'true' : 'false'} data-tab={t.code} class="chip shrink-0 aria-selected:border-mint-400 aria-selected:bg-mint-400/10">
+            {t.label} <span class="text-xs text-subtle">{t.count}</span>
+          </button>
+        ))}
+      </div>
+
+      <p class="text-sm text-subtle" aria-live="polite" data-count>{all.length.toLocaleString('de-DE')} Slots</p>
+
+      <div class="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6" data-grid>
+        {first.map((v) => <SlotCard slot={v} />)}
+      </div>
+      <div class="text-center">
+        <button type="button" class="btn btn-secondary" data-more hidden={all.length <= PAGE}>Mehr Slots laden</button>
+      </div>
+      <noscript><p class="text-sm text-muted">Ohne JavaScript zeigen wir die ersten {PAGE} Slots. Alle Spiele findest du auch über die <a href="/hersteller/" class="underline">Hersteller</a>.</p></noscript>
+    </div>
+  </section>
+</BaseLayout>
+
+<script>
+  type Rec = { s: string; n: string; p: string; ps: string; r: number | null; v: string | null; m: number | null; c: string[]; d: boolean };
+  const PAGE = 48;
+  const root = document.querySelector<HTMLElement>('[data-lobby]')!;
+  const grid = root.querySelector<HTMLElement>('[data-grid]')!;
+  const more = root.querySelector<HTMLButtonElement>('[data-more]')!;
+  const count = root.querySelector<HTMLElement>('[data-count]')!;
+  const q = root.querySelector<HTMLInputElement>('[data-f="q"]')!;
+  const sel = (k: string) => root.querySelector<HTMLSelectElement>(`[data-f="${k}"]`)!;
+  let tab = '';
+  let shown = PAGE;
+  let data: Rec[] | null = null;
+
+  const palettes = [['#22d39f', '#16275a'], ['#7b66f5', '#0f1d40'], ['#f1a92b', '#2a1a4a'], ['#ff8a80', '#1b1440'], ['#4eeabb', '#2b1d6b'], ['#9d8cff', '#0b2a3a'], ['#ffc857', '#0f2f4a'], ['#38bdf8', '#1e1b4b']];
+  const esc = (t: string) => t.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]!);
+  const card = (r: Rec) => {
+    let h = 0;
+    for (const ch of r.s) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
+    const [a, b] = palettes[h % palettes.length];
+    const ini = r.n.replace(/[^A-Za-zÄÖÜäöü0-9 ]/g, '').split(/\s+/).filter(Boolean).slice(0, 2).map((w) => w[0]).join('').toUpperCase();
+    const rtp = r.r === null ? 'wird geprüft' : `${r.r.toLocaleString('de-DE', { minimumFractionDigits: 2 })} %`;
+    const href = `/spielautomaten/${r.s}/`;
+    return `<article class="card group flex flex-col overflow-hidden p-2.5 transition hover:border-mint-400/60">
+      <a href="${href}" tabindex="-1" aria-hidden="true" class="relative block aspect-[4/3] overflow-hidden rounded-[var(--radius-thumb)]" style="background:linear-gradient(135deg,${a}e6,${b})">
+        <span class="absolute bottom-2 left-3 font-display text-4xl font-extrabold text-white/95">${esc(ini)}</span></a>
+      <div class="flex flex-1 flex-col px-1.5 pb-1 pt-3">
+        <h3 class="font-display text-base font-bold leading-tight text-fg"><a href="${href}" class="hover:text-mint-300">${esc(r.n)}</a></h3>
+        <p class="mt-1 text-xs text-subtle">${esc(r.p)} · RTP ${rtp}</p>
+        <a href="${href}#demo" class="btn btn-secondary mt-3 !min-h-9 w-full !py-2 text-sm">Demo spielen</a>
+      </div></article>`;
+  };
+
+  const norm = (t: string) => t.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+  function apply() {
+    if (!data) return;
+    const term = norm(q.value.trim());
+    const p = sel('p').value, v = sel('v').value, o = sel('o').value;
+    let list = data.filter((r) => (!tab || r.c.includes(tab)) && (!p || r.ps === p) && (!v || r.v === v) && (!term || norm(`${r.n} ${r.p}`).includes(term)));
+    if (o === 'az') list = [...list].sort((x, y) => x.n.localeCompare(y.n, 'de'));
+    if (o === 'rtp') list = [...list].sort((x, y) => (y.r ?? -1) - (x.r ?? -1));
+    if (o === 'max') list = [...list].sort((x, y) => (y.m ?? -1) - (x.m ?? -1));
+    grid.innerHTML = list.slice(0, shown).map(card).join('') || '<p class="col-span-full py-10 text-center text-muted">Keine Slots gefunden. Versuch es mit einem anderen Suchbegriff.</p>';
+    count.textContent = `${list.length.toLocaleString('de-DE')} Slots`;
+    more.hidden = list.length <= shown;
+  }
+  async function load() {
+    if (data) return;
+    data = await (await fetch('/api/slots.json')).json();
+  }
+  const run = async (reset = true) => { if (reset) shown = PAGE; await load(); apply(); };
+
+  q.addEventListener('input', () => run());
+  ['p', 'v', 'o'].forEach((k) => sel(k).addEventListener('change', () => run()));
+  root.querySelectorAll<HTMLButtonElement>('[data-tab]').forEach((b) => b.addEventListener('click', () => {
+    root.querySelectorAll('[data-tab]').forEach((x) => x.setAttribute('aria-selected', 'false'));
+    b.setAttribute('aria-selected', 'true');
+    tab = b.dataset.tab ?? '';
+    run();
+  }));
+  more.addEventListener('click', () => { shown += PAGE; run(false); });
+
+  const params = new URLSearchParams(location.search);
+  const initial = params.get('q');
+  const prov = params.get('hersteller');
+  const cat = params.get('kategorie');
+  if (initial) q.value = initial;
+  if (prov) sel('p').value = prov;
+  if (cat) root.querySelector<HTMLButtonElement>(`[data-tab="${CSS.escape(cat)}"]`)?.click();
+  else if (initial || prov) run();
+</script>

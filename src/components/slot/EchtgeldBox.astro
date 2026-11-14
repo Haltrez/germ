@@ -1,0 +1,38 @@
+---
+/** Up to 3 GGL-verified Spielotheken offering this slot. Renders nothing if none. */
+import { getCollection } from 'astro:content';
+import OperatorCta from '../compliance/OperatorCta.astro';
+import AffiliateDisclosure from '../compliance/AffiliateDisclosure.astro';
+import { isPromotable } from '../../lib/compliance.ts';
+import { formatDateDE } from '../../lib/i18n/de.ts';
+import type { SlotView } from '../../lib/slots.ts';
+interface Props { slot: SlotView }
+const { slot } = Astro.props;
+const ops = (await getCollection('operators'))
+  .filter((o) => isPromotable(o.data))
+  .filter((o) => slot.data.availableInDE === true)
+  .filter((o) => o.data.slotSlugs.includes(slot.id) || slot.data.gglOperatorSlugs.includes(o.id))
+  .sort((a, b) => (b.data.rating?.total ?? 0) - (a.data.rating?.total ?? 0))
+  .slice(0, 3);
+---
+{ops.length > 0 && (
+  <section aria-labelledby="echtgeld-title" class="card p-5 sm:p-6">
+    <h2 id="echtgeld-title" class="text-xl font-bold text-fg">{slot.data.name} mit Echtgeld spielen</h2>
+    <p class="mt-1 text-sm text-muted">Nur Online-Spielotheken mit Erlaubnis der GGL. Max. 1 € pro Spin, 5 Sekunden pro Runde.</p>
+    <ul class="mt-4 space-y-3">
+      {ops.map((o) => (
+        <li class="flex flex-wrap items-center justify-between gap-3 rounded-xl border border-line p-3">
+          <div>
+            <p class="font-semibold text-fg">{o.data.name}</p>
+            <p class="mt-1 flex flex-wrap gap-2 text-xs text-subtle">
+              <span class="badge-ggl">GGL-Lizenz</span>
+              <span>Whitelist geprüft am {formatDateDE(o.data.gglWhitelistCheckedAt!)}</span>
+            </p>
+          </div>
+          <OperatorCta slug={o.id} operator={o.data} label="Echtgeld-Version ansehen" variant="secondary" />
+        </li>
+      ))}
+    </ul>
+    <AffiliateDisclosure class="mt-4" />
+  </section>
+)}

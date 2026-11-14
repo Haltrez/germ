@@ -1,0 +1,35 @@
+{
+  "name": "Aztec Bonanza",
+  "provider": "pragmatic-play",
+  "releaseDate": "TODO",
+  "rtp": 96.53,
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": "TODO",
+  "rows": "TODO",
+  "grid": "5×6",
+  "winLines": {
+    "type": "ways",
+    "count": 7776
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "cascades"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs7776aztec&websiteUrl=https%3A%2F%2Fdemogamesfree.pragmaticplay.net&jurisdiction=99&lang=de&cur=EUR",
+  "demoSource": "official-provider",
+  "demoSourceName": "Pragmatic Play",
+  "demoLicenseNote": "Offizielle Demo von Pragmatic Play, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/aztec-bonanza-slot/"
+  ],
+  "lastVerified": "2026-11-14"
+}

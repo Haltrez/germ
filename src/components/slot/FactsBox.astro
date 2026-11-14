@@ -1,0 +1,49 @@
+---
+import { COMPLIANCE } from '../../config/site.ts';
+import { formatDateDE, UNVERIFIED } from '../../lib/i18n/de.ts';
+import { rtpText, maxWinText, volatilityText, layoutText, winLinesText, featureList, isTodo, type SlotView } from '../../lib/slots.ts';
+interface Props { slot: SlotView }
+const { slot } = Astro.props;
+const s = slot.data;
+const stake = isTodo(s.minStake) || isTodo(s.maxStake)
+  ? UNVERIFIED
+  : `${s.minStake.toLocaleString('de-DE')} – ${s.maxStake.toLocaleString('de-DE')} €`;
+const rows: [string, string, string?][] = [
+  ['Hersteller', slot.provider?.data.name ?? s.provider, slot.provider ? `/hersteller/${s.provider}/` : undefined],
+  ['RTP (Auszahlungsquote)', rtpText(s) + (Array.isArray(s.rtp) && s.rtp.length > 1 ? ' (mehrere Versionen)' : '')],
+  ['Volatilität', volatilityText(s)],
+  ['Maximalgewinn', maxWinText(s)],
+  ['Spielfeld', layoutText(s)],
+  ['Gewinnlinien / -wege', winLinesText(s)],
+  ['Einsatz laut Hersteller', stake],
+  ['Erscheinungsdatum', isTodo(s.releaseDate) ? UNVERIFIED : formatDateDE(s.releaseDate)],
+];
+const features = featureList(s);
+---
+<section aria-labelledby="facts-title" class="card p-5 sm:p-6">
+  <h2 id="facts-title" class="text-xl font-bold text-fg">Die wichtigsten Fakten zu {s.name}</h2>
+  <dl class="mt-4 grid gap-x-6">
+    {rows.map(([k, v, href]) => (
+      <div class="flex items-baseline justify-between gap-4 border-b border-line py-2.5 text-sm">
+        <dt class="text-subtle">{k}</dt>
+        <dd class:list={['text-right font-semibold', v === UNVERIFIED ? 'text-subtle italic' : 'text-fg']}>
+          {href ? <a href={href} class="text-mint-300 hover:text-mint-400">{v}</a> : v}
+        </dd>
+      </div>
+    ))}
+  </dl>
+  {features.length > 0 && (
+    <div class="mt-4">
+      <p class="text-sm text-subtle">Funktionen</p>
+      <ul class="mt-2 flex flex-wrap gap-1.5">
+        {features.map((f) => <li class="rounded-full border border-line px-2.5 py-1 text-xs text-muted">{f}</li>)}
+      </ul>
+    </div>
+  )}
+  <p class="mt-4 text-xs text-subtle">
+    Bei legalen Online-Spielotheken in Deutschland gilt ein Höchsteinsatz von {COMPLIANCE.maxStakePerSpinEur} € pro Spin.
+    Quelle: offizielle Angaben des Herstellers
+    {!isTodo(s.lastVerified) && <>, geprüft am {formatDateDE(s.lastVerified)}</>}.
+    „{UNVERIFIED}“ heißt: Der Hersteller hat diesen Wert nicht öffentlich angegeben oder wir haben ihn noch nicht bestätigt.
+  </p>
+</section>

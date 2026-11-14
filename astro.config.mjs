@@ -6,6 +6,9 @@ import preact from '@astrojs/preact';
 import tailwindcss from '@tailwindcss/vite';
 import { SITE_URL } from './src/config/site.ts';
 import { NOINDEX_PATHS } from './src/config/routes.ts';
+import { noindexSlotPaths } from './src/config/indexing.ts';
+
+const noindexSlots = noindexSlotPaths();
 
 export default defineConfig({
   site: SITE_URL,
@@ -18,7 +21,10 @@ export default defineConfig({
     preact(),
     sitemap({
       // Pages marked noindex (stubs, filter views) never go into the sitemap.
-      filter: (page) => !NOINDEX_PATHS.has(new URL(page).pathname),
+      filter: (page) => {
+        const path = new URL(page).pathname;
+        return !NOINDEX_PATHS.has(path) && !noindexSlots.has(path);
+      },
     }),
   ],
   vite: { plugins: [tailwindcss()] },

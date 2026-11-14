@@ -1,0 +1,76 @@
+---
+/**
+ * Demo facade: nothing third-party loads until the visitor clicks.
+ * - Needs "Externe Medien" consent; if missing, an inline prompt lets the visitor
+ *   allow it once (as easy to decline as to accept: just don't click).
+ * - Without an official demo URL a fallback with game info is shown.
+ */
+import SlotArt from './SlotArt.astro';
+import { RG } from '../../config/site.ts';
+import type { SlotView } from '../../lib/slots.ts';
+interface Props { slot: SlotView }
+const { slot } = Astro.props;
+const { demoUrl, demoSourceName, name } = { ...slot.data, name: slot.data.name };
+---
+<section id="demo" aria-label={`${name} Demo`} class="card overflow-hidden p-0">
+  <div class="flex items-center justify-between gap-3 border-b border-line px-4 py-2.5 text-xs">
+    <span class="font-semibold text-mint-300">Spielgeld-Demo · kein Echtgeld</span>
+    <span class="text-subtle">{RG.minAge}+ · Glücksspiel kann süchtig machen</span>
+  </div>
+
+  <div class="relative aspect-[16/10] w-full bg-ink-950" data-demo-root data-demo-url={demoUrl ?? undefined}>
+    <div class="absolute inset-0 opacity-40 blur-[2px]"><SlotArt slug={slot.id} name={name} large class="!aspect-auto h-full !rounded-none" /></div>
+    <div class="absolute inset-0 bg-gradient-to-t from-ink-950 via-ink-950/60 to-transparent"></div>
+
+    {demoUrl ? (
+      <div class="absolute inset-0 flex flex-col items-center justify-center gap-3 p-6 text-center" data-demo-facade>
+        <button type="button" class="btn btn-primary !min-h-12 !px-6 text-base" data-demo-start>
+          <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5l12 7-12 7z" fill="currentColor" /></svg>
+          Demo spielen
+        </button>
+        <p class="max-w-md text-xs text-muted">
+          Lädt die offizielle Demo von {demoSourceName ?? 'dem Hersteller'}. Dabei werden Daten an den Hersteller übertragen und
+          ggf. Cookies gesetzt (<a href="/datenschutz/" class="underline underline-offset-2 hover:text-fg">Datenschutz</a>).
+        </p>
+        <p class="hidden text-xs text-gold-300" data-demo-consent-note>
+          Mit dem Klick erlaubst du das Laden externer Spiele-Demos. Ändern kannst du das jederzeit in den Cookie-Einstellungen.
+        </p>
+      </div>
+    ) : (
+      <div class="absolute inset-0 flex flex-col items-center justify-center gap-2 p-6 text-center">
+        <p class="font-display text-xl font-bold text-fg">Demo derzeit nicht verfügbar</p>
+        <p class="max-w-md text-sm text-muted">
+          Für {name} binden wir nur offizielle Demos des Herstellers ein. Sobald eine geprüfte Demo verfügbar ist, kannst du
+          hier mit Spielgeld spielen. Bis dahin findest du unten alle Daten zum Spiel.
+        </p>
+      </div>
+    )}
+  </div>
+  {demoUrl && (
+    <p class="border-t border-line px-4 py-2 text-[0.6875rem] text-subtle">
+      Lädt die Demo nicht? Manche Hersteller beschränken Demos regional. Die Spieldaten unten gelten trotzdem.
+    </p>
+  )}
+</section>
+
+<script>
+  type ConsentApi = { has: (c: 'media') => boolean; grant: (c: 'media') => void };
+  document.querySelectorAll<HTMLElement>('[data-demo-root]').forEach((root) => {
+    const url = root.dataset.demoUrl;
+    const btn = root.querySelector<HTMLButtonElement>('[data-demo-start]');
+    if (!url || !btn) return;
+    const api = () => (window as unknown as { KSAConsent?: ConsentApi }).KSAConsent;
+    if (!api()?.has('media')) root.querySelector('[data-demo-consent-note]')?.classList.remove('hidden');
+    btn.addEventListener('click', () => {
+      if (!api()?.has('media')) api()?.grant('media');
+      const iframe = document.createElement('iframe');
+      iframe.src = url;
+      iframe.title = 'Spielgeld-Demo';
+      iframe.className = 'absolute inset-0 h-full w-full border-0';
+      iframe.allow = 'fullscreen; autoplay';
+      iframe.referrerPolicy = 'no-referrer-when-downgrade';
+      root.replaceChildren(iframe);
+      root.focus();
+    });
+  });
+</script>

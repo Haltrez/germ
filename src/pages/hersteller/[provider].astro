@@ -1,0 +1,42 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { getCollection, type CollectionEntry } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SlotCard from '../../components/slot/SlotCard.astro';
+import { getSlotViews, rtpMax } from '../../lib/slots.ts';
+import { UNVERIFIED } from '../../lib/i18n/de.ts';
+
+export const getStaticPaths = (async () =>
+  (await getCollection('providers')).map((p) => ({ params: { provider: p.id }, props: { p } }))) satisfies GetStaticPaths;
+
+const { p } = Astro.props as { p: CollectionEntry<'providers'> };
+const slots = (await getSlotViews()).filter((s) => s.data.provider === p.id);
+const rtps = slots.map((s) => rtpMax(s.data)).filter((x): x is number => x !== null);
+const avgRtp = rtps.length ? rtps.reduce((a, b) => a + b, 0) / rtps.length : null;
+const avail = p.data.availableAtGGLSites;
+const name = p.data.name;
+const title = [`${name} Slots kostenlos spielen – alle Spiele`, `${name} Slots kostenlos spielen`].find((t) => t.length <= 60) ?? name;
+---
+<BaseLayout
+  {title}
+  description={`${name} Slots kostenlos spielen: ${slots.length.toLocaleString('de-DE')} Spielautomaten als Demo ohne Anmeldung, mit RTP-Angaben laut Hersteller.`.slice(0, 155)}
+  breadcrumbs={[{ name: 'Hersteller', href: '/hersteller/' }, { name, href: `/hersteller/${p.id}/` }]}
+>
+  <section class="container-site pt-6">
+    <h1 class="text-3xl font-extrabold text-fg sm:text-5xl">{name} Slots kostenlos spielen</h1>
+    <p class="mt-4 max-w-3xl text-muted">{p.data.description.de}</p>
+    <dl class="mt-6 grid gap-3 sm:grid-cols-4">
+      <div class="card p-4"><dt class="text-xs text-subtle">Slots bei uns</dt><dd class="font-display text-2xl font-extrabold text-fg">{slots.length.toLocaleString('de-DE')}</dd></div>
+      <div class="card p-4"><dt class="text-xs text-subtle">Ø RTP (veröffentlichte Werte)</dt><dd class="font-display text-2xl font-extrabold text-fg">{avgRtp ? `${avgRtp.toLocaleString('de-DE', { maximumFractionDigits: 2 })} %` : UNVERIFIED}</dd></div>
+      <div class="card p-4"><dt class="text-xs text-subtle">Sitz</dt><dd class="font-display text-2xl font-extrabold text-fg">{p.data.country === 'TODO' ? UNVERIFIED : p.data.country}</dd></div>
+      <div class="card p-4"><dt class="text-xs text-subtle">Bei GGL-lizenzierten Spielotheken</dt><dd class="font-display text-2xl font-extrabold text-fg">{avail === 'TODO' ? UNVERIFIED : avail ? 'ja' : 'nein'}</dd></div>
+    </dl>
+    <h2 class="mt-12 text-2xl font-bold text-fg">Alle {name} Spielautomaten</h2>
+    <div class="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
+      {slots.slice(0, 60).map((s) => <SlotCard slot={s} />)}
+    </div>
+    {slots.length > 60 && (
+      <p class="mt-6 text-center"><a class="btn btn-secondary" href={`/spielautomaten/?hersteller=${p.id}`}>Alle {slots.length.toLocaleString('de-DE')} {name} Slots in der Spielhalle</a></p>
+    )}
+  </section>
+</BaseLayout>

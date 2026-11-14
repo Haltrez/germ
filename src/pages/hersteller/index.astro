@@ -1,0 +1,33 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getSlotViews } from '../../lib/slots.ts';
+
+const [providers, slots] = await Promise.all([getCollection('providers'), getSlotViews()]);
+const list = providers
+  .map((p) => ({ p, count: slots.filter((s) => s.data.provider === p.id).length }))
+  .sort((a, b) => b.count - a.count || a.p.data.name.localeCompare(b.p.data.name, 'de'));
+---
+<BaseLayout
+  title="Slot-Hersteller: alle Spielautomaten-Entwickler"
+  description="Alle Slot-Hersteller im Überblick: Spielautomaten von Pragmatic Play und weiteren Studios kostenlos spielen – mit Infos zur Verfügbarkeit in Deutschland."
+  breadcrumbs={[{ name: 'Hersteller', href: '/hersteller/' }]}
+>
+  <section class="container-site pt-6">
+    <h1 class="text-3xl font-extrabold text-fg sm:text-5xl">Slot-Hersteller im Überblick</h1>
+    <p class="mt-4 max-w-3xl text-muted">
+      Hinter jedem Spielautomaten steht ein Studio, das Grafik, Mathematik und Auszahlungsquote festlegt. Hier findest du alle
+      Hersteller, deren Slots du bei uns kostenlos spielen kannst. Bei jedem Hersteller siehst du, ob seine Spiele bei legalen
+      Online-Spielotheken in Deutschland angeboten werden.
+    </p>
+    <ul class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {list.map(({ p, count }) => (
+        <li class="card p-5">
+          <h2 class="text-xl font-bold text-fg"><a href={`/hersteller/${p.id}/`} class="hover:text-mint-300">{p.data.name}</a></h2>
+          <p class="mt-1 text-sm text-subtle">{count.toLocaleString('de-DE')} Slots{p.data.country !== 'TODO' && ` · ${p.data.country}`}</p>
+          <p class="mt-3 line-clamp-3 text-sm text-muted">{p.data.description.de}</p>
+        </li>
+      ))}
+    </ul>
+  </section>
+</BaseLayout>

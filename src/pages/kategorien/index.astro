@@ -1,0 +1,26 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { CATEGORIES } from '../../config/routes.ts';
+import { CATEGORY_TEXT } from '../../content/kategorien.ts';
+import { getSlotViews } from '../../lib/slots.ts';
+const all = await getSlotViews();
+---
+<BaseLayout
+  title="Slot-Kategorien: Book, Megaways, Hold & Win und mehr"
+  description="Spielautomaten nach Kategorie kostenlos spielen: Book-Slots, Megaways, Hold & Win, Früchte-Slots und Klassiker als Demo ohne Anmeldung."
+  breadcrumbs={[{ name: 'Kategorien', href: '/kategorien/' }]}
+>
+  <section class="container-site pt-6">
+    <h1 class="text-3xl font-extrabold text-fg sm:text-5xl">Slot-Kategorien</h1>
+    <p class="mt-4 max-w-3xl text-muted">Jede Kategorie steht für eine bestimmte Spielmechanik. Wähle aus, was dich interessiert, und probier die Spiele kostenlos mit Spielgeld aus.</p>
+    <ul class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {CATEGORIES.map((c) => (
+        <li class="card p-5">
+          <h2 class="text-xl font-bold text-fg"><a href={`/kategorien/${c.slug}/`} class="hover:text-mint-300">{c.label}</a></h2>
+          <p class="mt-1 text-sm text-subtle">{all.filter((s) => s.categories.includes(c.code)).length.toLocaleString('de-DE')} Slots</p>
+          <p class="mt-3 line-clamp-3 text-sm text-muted">{CATEGORY_TEXT[c.code].intro[0]}</p>
+        </li>
+      ))}
+    </ul>
+  </section>
+</BaseLayout>

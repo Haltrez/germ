@@ -79,6 +79,7 @@ for (const [id, op] of operators) {
 r.note(`${promotable} operator(s) are GGL-verified and promotable`);
 
 // ---- Slots
+const todoFields = new Map<string, number>();
 for (const [id, s] of slots) {
   if (!providers.has(s.provider)) r.error(`slot ${id}: unknown provider "${s.provider}"`);
   for (const opSlug of s.gglOperatorSlugs) {
@@ -93,8 +94,10 @@ for (const [id, s] of slots) {
     }
   }
   if (s.sourceUrls.length === 0) r.warn(`slot ${id}: no sourceUrls (official game sheet) recorded`);
-  const todos = Object.entries(s).filter(([, v]) => v === 'TODO').map(([k]) => k);
-  if (todos.length) r.warn(`slot ${id}: unverified fields → ${todos.join(', ')}`);
+  for (const [k, v] of Object.entries(s)) if (v === 'TODO') todoFields.set(k, (todoFields.get(k) ?? 0) + 1);
+}
+if (todoFields.size) {
+  r.note(`Unverified slot fields (shown as "wird geprüft"): ${[...todoFields].map(([k, n]) => `${k} ×${n}`).join(', ')}`);
 }
 for (const [id, op] of operators) {
   if (!isPromotable(op)) continue;

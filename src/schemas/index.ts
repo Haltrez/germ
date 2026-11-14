@@ -74,6 +74,8 @@ export const slotSchema = z
     maxWinMultiplier: todoOr(z.number().positive()),
     reels: todoOr(z.number().int().positive()),
     rows: todoOr(z.union([z.number().int().positive(), z.string().regex(/^\d+-\d+$/)])),
+    /** Grid exactly as the provider writes it (e.g. "5×3"), when reels/rows are not separately confirmed. */
+    grid: z.string().regex(/^\d+×\d+$/).optional(),
     winLines: todoOr(
       z.object({
         type: z.enum(['lines', 'ways', 'cluster', 'scatter-pays']),
@@ -108,6 +110,8 @@ export const slotSchema = z
     /** Official game sheet(s) the numbers come from. */
     sourceUrls: z.array(z.url()).default([]),
     lastVerified: todoOr(isoDate()),
+    /** true = curated by hand; importers never overwrite this file. */
+    manual: z.boolean().default(false),
   })
   .superRefine((s, ctx) => {
     if (s.demoUrl && s.demoSource === 'none') {
