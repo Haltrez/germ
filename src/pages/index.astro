@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Faq from '../components/ui/Faq.astro';
 import SlotCard from '../components/slot/SlotCard.astro';
+import RandomDemoButton from '../components/ui/RandomDemoButton.astro';
 import { getSlotViews } from '../lib/slots.ts';
 import { CATEGORIES, isLive } from '../config/routes.ts';
 import { COMPLIANCE } from '../config/site.ts';
@@ -74,9 +75,9 @@ const faq = [
 <BaseLayout {title} {description} showRgBlock jsonLd={[organizationSchema(), websiteSchema(), faqSchema(faq)]}>
   <!-- Hero -->
   <section class="container-site grid items-center gap-10 pb-8 pt-10 sm:pt-14 lg:grid-cols-[1.25fr_1fr] lg:pt-20">
-    <div>
+    <div class="min-w-0">
       <p class="eyebrow">Spielgeld-Demos · ohne Anmeldung · ohne Download</p>
-      <h1 class="mt-4 text-4xl font-extrabold text-fg sm:text-5xl lg:text-6xl">
+      <h1 class="mt-4 text-[2rem] font-extrabold text-fg min-[400px]:text-4xl sm:text-5xl lg:text-6xl">
         Kostenlose Spielautomaten <span class="text-mint-400">gratis spielen</span> – ohne Anmeldung
       </h1>
       <p class="mt-5 max-w-xl text-lg text-muted">
@@ -92,6 +93,11 @@ const faq = [
           <button type="submit" class="btn btn-primary shrink-0">Suchen</button>
         </div>
       </form>
+
+      <div class="mt-5 flex flex-wrap items-center gap-3">
+        <RandomDemoButton label="Zufallsslot spielen" class="!min-h-12 !px-6 text-base" />
+        <span class="text-sm text-subtle">Kein Plan, was du spielen willst? Lass den Würfel entscheiden.</span>
+      </div>
 
       <ul class="mt-5 flex flex-wrap gap-2" aria-label="Kategorien">
         {chips.map((c) => (<li><a href={c.href} class="chip">{c.label}</a></li>))}

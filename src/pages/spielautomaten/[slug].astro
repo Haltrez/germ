@@ -7,6 +7,7 @@ import FactsBox from '../../components/slot/FactsBox.astro';
 import EchtgeldBox from '../../components/slot/EchtgeldBox.astro';
 import SlotCard from '../../components/slot/SlotCard.astro';
 import Faq from '../../components/ui/Faq.astro';
+import RandomDemoButton from '../../components/ui/RandomDemoButton.astro';
 import { getSlotViews, similarSlots, rtpText, rtpMax, isTodo, type SlotView } from '../../lib/slots.ts';
 import { articleSchema, faqSchema, videoGameSchema } from '../../lib/schema.ts';
 import { formatDateDE } from '../../lib/i18n/de.ts';
@@ -83,7 +84,13 @@ const jsonLd = [
     </header>
 
     <div class="mt-8 grid gap-6 lg:grid-cols-[1.6fr_1fr] lg:items-start">
-      <DemoPlayer {slot} />
+      <div class="space-y-3">
+        <DemoPlayer {slot} />
+        <div class="flex flex-wrap items-center justify-between gap-3">
+          <a href={`/hersteller/${s.provider}/`} class="inline-block py-2 text-sm text-mint-300 underline underline-offset-2">Mehr {providerName} Slots</a>
+          <RandomDemoButton variant="secondary" label="Neuer Zufallsslot" exclude={slot.id} class="!min-h-10" />
+        </div>
+      </div>
       <div class="space-y-6">
         <FactsBox {slot} />
         <EchtgeldBox {slot} />

@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import SlotCard from '../../components/slot/SlotCard.astro';
+import RandomDemoButton from '../../components/ui/RandomDemoButton.astro';
 import { getSlotViews } from '../../lib/slots.ts';
 import { CATEGORIES } from '../../config/routes.ts';
 import { volatilityLabel } from '../../lib/i18n/de.ts';
@@ -25,12 +26,12 @@ const reviewed = all.filter((v) => v.indexable);
 >
   <section class="container-site pt-6">
     <p class="eyebrow">Die Spielhalle</p>
-    <h1 class="mt-2 text-3xl font-extrabold text-fg sm:text-5xl">Spielautomaten kostenlos spielen</h1>
+    <div class="mt-2 flex flex-wrap items-end justify-between gap-4">
+      <h1 class="text-3xl font-extrabold text-fg sm:text-5xl">Spielautomaten kostenlos spielen</h1>
+      <RandomDemoButton />
+    </div>
     <p class="mt-4 max-w-3xl text-muted">
-      Hier findest du alle Spielautomaten, die du bei uns kostenlos mit Spielgeld spielen kannst – ohne Anmeldung, ohne
-      Download und ohne Einzahlung. Filtere nach Kategorie, Hersteller oder Volatilität und sortiere nach Auszahlungsquote.
-      Die Werte stammen aus den offiziellen Angaben der Hersteller. Was ein Hersteller nicht veröffentlicht, kennzeichnen wir
-      als „wird geprüft“.
+      {all.length.toLocaleString('de-DE')} Spielautomaten kostenlos mit Spielgeld spielen – ohne Anmeldung, ohne Download, ohne Einzahlung.
     </p>
 
     <div class="mt-8 space-y-4" data-lobby>
@@ -40,7 +41,7 @@ const reviewed = all.filter((v) => v.indexable);
         <div class="grid grid-cols-3 gap-2 lg:flex">
           <label class="sr-only" for="f-provider">Hersteller</label>
           <select id="f-provider" class="min-h-11 rounded-full border border-ink-600 bg-ink-900 px-3 text-sm text-fg" data-f="p">
-            <option value="">Alle Hersteller</option>
+            <option value="">Hersteller</option>
             {providers.map(([slug, name]) => <option value={slug}>{name}</option>)}
           </select>
           <label class="sr-only" for="f-vol">Volatilität</label>
@@ -50,7 +51,7 @@ const reviewed = all.filter((v) => v.indexable);
           </select>
           <label class="sr-only" for="f-sort">Sortierung</label>
           <select id="f-sort" class="min-h-11 rounded-full border border-ink-600 bg-ink-900 px-3 text-sm text-fg" data-f="o">
-            <option value="">Empfohlen</option>
+            <option value="">Sortierung</option>
             <option value="az">A–Z</option>
             <option value="rtp">Höchster RTP</option>
             <option value="max">Höchster Max-Win</option>
@@ -73,6 +74,15 @@ const reviewed = all.filter((v) => v.indexable);
       </div>
       <div class="text-center">
         <button type="button" class="btn btn-secondary" data-more hidden={all.length <= PAGE}>Mehr Slots laden</button>
+      </div>
+      <div class="mx-auto max-w-3xl pt-10 text-sm text-muted">
+        <h2 class="text-xl font-bold text-fg">Slots kostenlos spielen: So funktioniert die Spielhalle</h2>
+        <p class="mt-3">
+          Filtere nach Kategorie, Hersteller oder Volatilität und sortiere nach Auszahlungsquote (RTP) oder Maximalgewinn.
+          Alle Werte stammen aus den offiziellen Angaben der Hersteller. Was ein Hersteller nicht veröffentlicht, kennzeichnen wir
+          als „wird geprüft“. Die Demos laufen mit Spielgeld – du kannst nichts verlieren und nichts gewinnen. Keine Idee?
+          Dann lass den Würfel entscheiden und starte einen Zufallsslot.
+        </p>
       </div>
       <noscript><p class="text-sm text-muted">Ohne JavaScript zeigen wir die ersten {PAGE} Slots. Alle Spiele findest du auch über die <a href="/hersteller/" class="underline">Hersteller</a>.</p></noscript>
     </div>
@@ -105,7 +115,7 @@ const reviewed = all.filter((v) => v.indexable);
       <a href="${href}" tabindex="-1" aria-hidden="true" class="relative block aspect-[4/3] overflow-hidden rounded-[var(--radius-thumb)]" style="background:linear-gradient(135deg,${a}e6,${b})">
         <span class="absolute bottom-2 left-3 font-display text-4xl font-extrabold text-white/95">${esc(ini)}</span></a>
       <div class="flex flex-1 flex-col px-1.5 pb-1 pt-3">
-        <h3 class="font-display text-base font-bold leading-tight text-fg"><a href="${href}" class="hover:text-mint-300">${esc(r.n)}</a></h3>
+        <h3 class="font-display text-base font-bold leading-tight text-fg"><a href="${href}" class="block py-1 hover:text-mint-300">${esc(r.n)}</a></h3>
         <p class="mt-1 text-xs text-subtle">${esc(r.p)} · RTP ${rtp}</p>
         <a href="${href}#demo" class="btn btn-secondary mt-3 !min-h-9 w-full !py-2 text-sm">Demo spielen<span class="sr-only"> – ${esc(r.n)} kostenlos</span></a>
       </div></article>`;

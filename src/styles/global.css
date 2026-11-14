@@ -76,6 +76,8 @@
     letter-spacing: -0.02em;
     line-height: 1.12;
     text-wrap: balance;
+    overflow-wrap: break-word;
+    hyphens: auto;
   }
   p { text-wrap: pretty; }
   :focus-visible {
@@ -115,7 +117,7 @@
     font-size: 0.9375rem;
     line-height: 1;
     transition: background-color 150ms, border-color 150ms, color 150ms, transform 150ms;
-    white-space: nowrap;
+    text-align: center;
   }
   .btn:active { transform: translateY(1px); }
   .btn-primary { background: var(--color-mint-400); color: var(--color-mint-950); }
@@ -126,6 +128,15 @@
     border: 1px solid var(--color-ink-600);
   }
   .btn-secondary:hover { border-color: var(--color-mint-400); background: rgb(78 234 187 / 0.08); }
+
+  .btn-dice {
+    background: linear-gradient(135deg, var(--color-gold-400), var(--color-gold-500));
+    color: #2a1a02;
+    box-shadow: 0 8px 24px -10px rgb(241 169 43 / 0.7);
+  }
+  .btn-dice:hover { background: linear-gradient(135deg, var(--color-gold-300), var(--color-gold-400)); }
+  .is-rolling .dice-icon { animation: dice-roll 0.6s ease-in-out infinite; }
+  @keyframes dice-roll { 0% { transform: rotate(0) } 50% { transform: rotate(180deg) scale(0.85) } 100% { transform: rotate(360deg) } }
 
   .chip {
     display: inline-flex;
@@ -144,6 +155,7 @@
   .chip:hover { border-color: var(--color-mint-400); background: rgb(78 234 187 / 0.08); }
 
   .eyebrow {
+    overflow-wrap: break-word;
     font-size: 0.75rem;
     font-weight: 700;
     letter-spacing: 0.14em;
@@ -165,7 +177,7 @@
   }
 
   /* Long-form text (legal pages, reviews, guides). */
-  .prose-site { color: var(--color-muted); font-size: 1.0625rem; line-height: 1.75; max-width: 46rem; }
+  .prose-site { color: var(--color-muted); font-size: 1.0625rem; line-height: 1.75; max-width: 46rem; overflow-wrap: break-word; }
   .prose-site > * + * { margin-top: 1.1em; }
   .prose-site h2 { color: var(--color-fg); font-size: 1.6rem; margin-top: 2.2em; }
   .prose-site h3 { color: var(--color-fg); font-size: 1.25rem; margin-top: 1.8em; }
@@ -176,7 +188,7 @@
   .prose-site ol { list-style: decimal; padding-left: 1.25rem; }
   .prose-site li + li { margin-top: 0.4em; }
   .prose-site li::marker { color: var(--color-mint-500); }
-  .prose-site table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+  .prose-site table { display: block; width: 100%; overflow-x: auto; border-collapse: collapse; font-size: 0.95rem; }
   .prose-site th, .prose-site td { border-bottom: 1px solid var(--color-line); padding: 0.6rem 0.5rem; text-align: left; vertical-align: top; }
   .prose-site th { color: var(--color-fg); font-weight: 700; }
   .prose-site .todo { color: var(--color-gold-300); font-weight: 600; }

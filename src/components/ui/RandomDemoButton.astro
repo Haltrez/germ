@@ -1,0 +1,51 @@
+---
+/**
+ * "Zufallsslot": picks a random slot with an official demo and opens it.
+ * Without JS it simply links to the lobby.
+ */
+interface Props { variant?: 'primary' | 'secondary' | 'icon'; label?: string; class?: string; exclude?: string }
+const { variant = 'primary', label = 'Zufallsslot spielen', class: cls, exclude } = Astro.props;
+---
+<a
+  href="/spielautomaten/"
+  data-random-demo
+  data-exclude={exclude}
+  class:list={[
+    variant === 'icon' ? 'btn btn-secondary !min-h-10 !px-3' : 'btn',
+    variant === 'primary' && 'btn-dice',
+    variant === 'secondary' && 'btn-secondary',
+    cls,
+  ]}
+  aria-label={variant === 'icon' ? label : undefined}
+  title={label}
+>
+  <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" class="dice-icon shrink-0">
+    <rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2" />
+    <circle cx="8.5" cy="8.5" r="1.6" fill="currentColor" /><circle cx="15.5" cy="15.5" r="1.6" fill="currentColor" />
+    <circle cx="12" cy="12" r="1.6" fill="currentColor" /><circle cx="15.5" cy="8.5" r="1.6" fill="currentColor" /><circle cx="8.5" cy="15.5" r="1.6" fill="currentColor" />
+  </svg>
+  {variant !== 'icon' && <span>{label}</span>}
+</a>
+
+<script>
+  type Rec = { s: string; d: boolean };
+  let pool: Promise<string[]> | null = null;
+  const load = () =>
+    (pool ??= fetch('/api/slots.json')
+      .then((r) => r.json() as Promise<Rec[]>)
+      .then((all) => all.filter((r) => r.d).map((r) => r.s)));
+
+  document.addEventListener('click', async (e) => {
+    const el = (e.target as HTMLElement).closest<HTMLAnchorElement>('[data-random-demo]');
+    if (!el) return;
+    e.preventDefault();
+    el.classList.add('is-rolling');
+    try {
+      const slugs = (await load()).filter((s) => s !== el.dataset.exclude);
+      const pick = slugs[Math.floor(Math.random() * slugs.length)];
+      location.href = `/spielautomaten/${pick}/?zufall=1#demo`;
+    } catch {
+      location.href = el.href;
+    }
+  });
+</script>

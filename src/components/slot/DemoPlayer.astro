@@ -12,7 +12,7 @@ interface Props { slot: SlotView }
 const { slot } = Astro.props;
 const { demoUrl, demoVersionUrl, demoSourceName, name } = slot.data;
 ---
-<section id="demo" aria-label={`${name} Demo`} class="card overflow-hidden p-0">
+<section id="demo" aria-label={`${name} Demo`} class="card scroll-mt-20 overflow-hidden p-0">
   <div class="flex items-center justify-between gap-3 border-b border-line px-4 py-2.5 text-xs">
     <h2 class="font-display text-sm font-bold text-fg">{demoUrl ? <>{name} Demo <span class="font-sans font-semibold text-mint-300">· Spielgeld, kein Echtgeld</span></> : <>{name} · Demo folgt</>}</h2>
   </div>
@@ -79,8 +79,28 @@ const { demoUrl, demoVersionUrl, demoSourceName, name } = slot.data;
       iframe.className = 'absolute inset-0 h-full w-full border-0';
       iframe.allow = 'fullscreen; autoplay';
       iframe.referrerPolicy = 'no-referrer-when-downgrade';
-      root.replaceChildren(iframe);
+      const fs = document.createElement('button');
+      fs.type = 'button';
+      fs.className = 'btn btn-secondary absolute right-2 top-2 z-10 !min-h-9 !px-3 !py-1.5 text-xs backdrop-blur';
+      fs.textContent = 'Vollbild';
+      fs.addEventListener('click', () => {
+        const el = root as HTMLElement & { webkitRequestFullscreen?: () => void };
+        if (el.requestFullscreen) el.requestFullscreen().catch(() => {});
+        else el.webkitRequestFullscreen?.();
+      });
+      root.replaceChildren(iframe, fs);
       root.focus();
     });
+  });
+
+  // Arrived via "Zufallsslot": start right away if external media is already allowed.
+  window.addEventListener('load', () => {
+    if (!new URLSearchParams(location.search).has('zufall')) return;
+    const root = document.querySelector<HTMLElement>('[data-demo-root]');
+    const btn = root?.querySelector<HTMLButtonElement>('[data-demo-start]');
+    root?.closest('section')?.scrollIntoView({ block: 'start' });
+    const api = (window as unknown as { KSAConsent?: { has: (c: 'media') => boolean } }).KSAConsent;
+    if (btn && api?.has('media')) btn.click();
+    else btn?.focus();
   });
 </script>
