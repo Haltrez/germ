@@ -35,8 +35,9 @@ export const FEATURES = [
   'respins',
   'gamble',
   'retrigger',
+  'bonus-buy',
 ] as const;
-export const CATEGORY_CODES = ['book', 'hold-and-win', 'megaways', 'fruit', 'classic'] as const;
+export const CATEGORY_CODES = ['book', 'hold-and-win', 'megaways', 'fruit', 'classic', 'bonus-buy'] as const;
 export const PAYMENT_METHODS = [
   'paypal',
   'paysafecard',

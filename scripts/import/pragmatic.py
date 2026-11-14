@@ -38,13 +38,8 @@ for sm in re.findall(r'https://www\.pragmaticplay\.com/games-sitemap\d*\.xml', i
 
 def num(s): return float(s.replace(',', ''))
 
-FEATURES = [
-    ('free-spins', r'free spins?'), ('cascades', r'tumbl|cascad|avalanche'), ('multipliers', r'multiplier'),
-    ('megaways', r'megaways'), ('hold-and-win', r'hold\s*(?:&|and)\s*(?:spin|win)|money symbols?'),
-    ('scatter-pays', r'pay anywhere|anywhere on the screen'), ('cluster-pays', r'cluster'),
-    ('sticky-wilds', r'sticky wild'), ('walking-wilds', r'walking wild'), ('expanding-symbols', r'expand'),
-    ('wilds', r'\bwild'), ('respins', r'respin|re-spin'), ('retrigger', r'retrigger'),
-]
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from common import FEATURES  # shared feature keywords
 
 games = []
 for i, u in enumerate(sorted(urls)):

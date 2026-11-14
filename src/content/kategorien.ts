@@ -34,6 +34,14 @@ export const CATEGORY_TEXT: Record<CategoryCode, { title: string; description: s
       'Wer es übersichtlich mag, ist hier richtig. Viele Früchte-Slots kommen mit wenigen Gewinnlinien und klaren Regeln aus. Probier die Spiele kostenlos mit Spielgeld aus und vergleiche RTP und Volatilität direkt auf der jeweiligen Slot-Seite.',
     ],
   },
+  'bonus-buy': {
+    title: 'Bonus-Buy-Slots kostenlos spielen – Demos',
+    description: 'Bonus-Buy-Slots kostenlos testen: Spielautomaten mit Bonuskauf als Spielgeld-Demo. Wichtig: Bei legalen deutschen Anbietern gibt es keinen Bonuskauf.',
+    intro: [
+      'Bei Bonus-Buy-Slots kann man international die Freispiele oder ein Feature direkt kaufen, statt auf die Scatter zu warten. Der Preis ist ein Vielfaches des Einsatzes, oft 50x bis 100x oder mehr. In unseren kostenlosen Demos siehst du, wie diese Funktion aussieht und was sie mit der Spielmechanik macht – ganz ohne echtes Geld.',
+      'Wichtig für Deutschland: Bei Online-Spielotheken mit Erlaubnis der GGL gibt es keinen Bonuskauf. Dort gelten höchstens 1 € Einsatz pro Spin und mindestens fünf Sekunden pro Runde. Ein gekaufter Bonus ist im Kern ein sehr hoher Einsatz auf einen Schlag – und damit ein hohes Risiko. Die Demos auf dieser Seite sind rein zum Kennenlernen gedacht.',
+    ],
+  },
   classic: {
     title: 'Klassiker-Slots kostenlos spielen – Demos ohne Anmeldung',
     description: 'Klassische Spielautomaten kostenlos spielen: bekannte Slots mit einfachen Regeln als Spielgeld-Demo ohne Anmeldung und ohne Download.',

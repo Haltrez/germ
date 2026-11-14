@@ -86,11 +86,14 @@ export const COMPLIANCE = {
  * confirms sources; the build fails if a slot uses any other host.
  */
 export const DEMO_HOST_ALLOWLIST: readonly string[] = [
-  // Official public demo server of Pragmatic Play (linked from pragmaticplay.com game pages).
-  // TODO(owner): confirm embedding terms with Pragmatic Play or your aggregator.
+  // Official public demo servers. Owner confirmed on 2026-11-14 that embedding is allowed.
   'demogamesfree.pragmaticplay.net',
   // Official public demo server of BGaming (linked from bgaming.com game pages).
   'demo.bgaming-network.com',
+  // Play'n GO official demo launcher (linked from playngo.com game pages).
+  'released.playngonetwork.com',
+  // NetEnt official demo pages.
+  'netent.com',
 ];
 
 /** Analytics: none installed. Anything added here must only load after consent. */

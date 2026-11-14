@@ -23,6 +23,7 @@ export const featureLabel: Record<(typeof FEATURES)[number], string> = {
   respins: 'Respins',
   gamble: 'Risikospiel',
   retrigger: 'Retrigger',
+  'bonus-buy': 'Bonus Buy (international)',
 };
 
 export const paymentLabel: Record<(typeof PAYMENT_METHODS)[number], string> = {

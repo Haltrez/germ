@@ -13,7 +13,8 @@
   "minStake": "TODO",
   "maxStake": "TODO",
   "features": [
-    "multipliers"
+    "multipliers",
+    "bonus-buy"
   ],
   "themes": [],
   "categories": [],

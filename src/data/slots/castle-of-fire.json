@@ -12,7 +12,8 @@
   "minStake": "TODO",
   "maxStake": "TODO",
   "features": [
-    "free-spins"
+    "free-spins",
+    "bonus-buy"
   ],
   "themes": [],
   "categories": [],

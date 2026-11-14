@@ -34,6 +34,7 @@ FEATURES = [
     ('megaways', r'megaways'), ('hold-and-win', r'hold\s*(?:&|and|n)\s*(?:spin|win)|money symbols?|coin respin'),
     ('scatter-pays', r'pay anywhere|anywhere on the screen|scatter pays'), ('cluster-pays', r'cluster'),
     ('sticky-wilds', r'sticky wild'), ('walking-wilds', r'walking wild'), ('expanding-symbols', r'expand'),
+    ('bonus-buy', r'bonus buy|buy bonus|feature buy|buy feature|bonus purchase|buy the (?:bonus|feature)|buy free spins'),
     ('wilds', r'\bwild'), ('respins', r'respin|re-spin'), ('retrigger', r'retrigger'),
 ]
 def features(desc):

@@ -27,6 +27,7 @@ export function deriveCategories(s: Slot): CategoryCode[] {
   const set = new Set<CategoryCode>(s.categories);
   if (s.features.includes('megaways')) set.add('megaways');
   if (s.features.includes('hold-and-win')) set.add('hold-and-win');
+  if (s.features.includes('bonus-buy')) set.add('bonus-buy');
   if (/\bbook\b/i.test(s.name)) set.add('book');
   return CATEGORIES.map((c) => c.code).filter((c) => set.has(c));
 }

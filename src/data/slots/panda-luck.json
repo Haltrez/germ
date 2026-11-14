@@ -18,6 +18,7 @@
   "maxStake": "TODO",
   "features": [
     "multipliers",
+    "bonus-buy",
     "respins"
   ],
   "themes": [],

@@ -21,6 +21,7 @@
   "maxStake": "TODO",
   "features": [
     "multipliers",
+    "bonus-buy",
     "wilds",
     "respins"
   ],

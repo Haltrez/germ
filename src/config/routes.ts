@@ -13,9 +13,9 @@ export interface NavItem {
  * Slot categories. `code` is language-neutral (used in data files),
  * `slug` / `label` are the German presentation.
  *
- * Deliberately NOT included (see project notes):
- * - bonus-buy: feature purchase is not permitted for virtual slot machines
- *   in Germany (GlüStV 2021 § 22a). Only an informational guide may cover it.
+ * bonus-buy: demo-only category. Feature purchase is not offered at
+ *   GGL-licensed sites; the category page says so explicitly.
+ * Deliberately NOT included:
  * - jackpot: jackpots are not permitted for virtual slot machines in Germany.
  */
 export const CATEGORIES = [
@@ -24,6 +24,7 @@ export const CATEGORIES = [
   { code: 'megaways', slug: 'megaways', label: 'Megaways-Slots', short: 'Megaways' },
   { code: 'fruit', slug: 'fruechte-slots', label: 'Früchte-Slots', short: 'Früchte' },
   { code: 'classic', slug: 'klassiker', label: 'Klassiker', short: 'Klassiker' },
+  { code: 'bonus-buy', slug: 'bonus-buy-slots', label: 'Bonus-Buy-Slots', short: 'Bonus Buy' },
 ] as const;
 
 export type CategoryCode = (typeof CATEGORIES)[number]['code'];

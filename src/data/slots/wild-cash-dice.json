@@ -18,6 +18,7 @@
   "features": [
     "multipliers",
     "expanding-symbols",
+    "bonus-buy",
     "wilds"
   ],
   "themes": [],

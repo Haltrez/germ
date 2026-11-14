@@ -1,0 +1,11 @@
+{
+  "name": "Play'n GO",
+  "country": "TODO",
+  "founded": "TODO",
+  "availableAtGGLSites": "TODO",
+  "description": {
+    "de": "Play'n GO ist vor allem durch Book of Dead und die Abenteuer von Rich Wilde bekannt geworden. Dazu kommen Reihen wie Reactoonz, Rise of Olympus oder Legacy of Dead. Viele Spiele setzen auf klassische Book-Mechaniken, andere auf Cluster-Gewinne und Kaskaden. Die offiziellen Demos des Herstellers kannst du hier kostenlos mit Spielgeld spielen."
+  },
+  "website": "https://www.playngo.com/",
+  "sourceUrls": ["https://www.playngo.com/games"]
+}
