@@ -1,0 +1,37 @@
+{
+  "name": "Ghost Pirates",
+  "provider": "netent",
+  "releaseDate": "2010-04-22",
+  "rtp": 96.88,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 6.2",
+  "maxWinMultiplier": 1000.0,
+  "hitRate": 2.33,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 243
+  },
+  "minStake": 0.25,
+  "maxStake": 62.5,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/ghost-pirates",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/ghost-pirates"
+  ],
+  "lastVerified": "2026-11-14"
+}

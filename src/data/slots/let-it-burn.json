@@ -1,0 +1,39 @@
+{
+  "name": "Let It Burn",
+  "provider": "netent",
+  "releaseDate": "2023-03-10",
+  "rtp": 96.0,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 5.7",
+  "maxWinMultiplier": 2700.0,
+  "hitRate": 4.0,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 1024
+  },
+  "minStake": 0.1,
+  "maxStake": 100.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "expanding-symbols",
+    "wilds",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/let-it-burn",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/let-it-burn"
+  ],
+  "lastVerified": "2026-11-14"
+}

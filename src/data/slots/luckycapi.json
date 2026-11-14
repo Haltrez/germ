@@ -1,0 +1,28 @@
+{
+  "name": "Luckycapi",
+  "provider": "novomatic",
+  "releaseDate": "2026-06-30",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://www.greentube.com/game/luckycapi/"
+  ],
+  "lastVerified": "2026-11-14"
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Reel Rush 2",
+  "provider": "netent",
+  "releaseDate": "2019-02-27",
+  "rtp": 96.58,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 6.6",
+  "maxWinMultiplier": 4800.0,
+  "hitRate": 3.45,
+  "reels": 5,
+  "rows": 5,
+  "winLines": {
+    "type": "lines",
+    "count": 3125
+  },
+  "minStake": 0.2,
+  "maxStake": 40.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "expanding-symbols",
+    "wilds",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/reel-rush-2",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/reel-rush-2"
+  ],
+  "lastVerified": "2026-11-14"
+}

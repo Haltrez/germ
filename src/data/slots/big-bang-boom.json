@@ -1,0 +1,40 @@
+{
+  "name": "Big Bang Boom",
+  "provider": "netent",
+  "releaseDate": "2023-08-10",
+  "rtp": 96.07,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 7.7",
+  "maxWinMultiplier": 4300.0,
+  "hitRate": 3.45,
+  "reels": 4,
+  "rows": 4,
+  "winLines": {
+    "type": "lines",
+    "count": 10000
+  },
+  "minStake": 0.25,
+  "maxStake": 100.0,
+  "features": [
+    "free-spins",
+    "cascades",
+    "multipliers",
+    "cluster-pays",
+    "expanding-symbols",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/big-bang-boom",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/big-bang-boom"
+  ],
+  "lastVerified": "2026-11-14"
+}

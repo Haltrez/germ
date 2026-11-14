@@ -1,0 +1,36 @@
+{
+  "name": "Starburst XXXtreme",
+  "provider": "netent",
+  "releaseDate": "2021-07-15",
+  "rtp": 96.45,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 9.9",
+  "maxWinMultiplier": 16800.0,
+  "hitRate": 1.15,
+  "reels": 5,
+  "rows": 3,
+  "winLines": "TODO",
+  "minStake": 0.1,
+  "maxStake": 50.0,
+  "features": [
+    "multipliers",
+    "expanding-symbols",
+    "wilds",
+    "respins",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/starburst-xxxtreme",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/starburst-xxxtreme"
+  ],
+  "lastVerified": "2026-11-14"
+}

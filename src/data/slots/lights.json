@@ -1,0 +1,36 @@
+{
+  "name": "Lights",
+  "provider": "netent",
+  "releaseDate": "2014-05-22",
+  "rtp": 96.1,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 5.4",
+  "maxWinMultiplier": 600.0,
+  "hitRate": 3.45,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 9
+  },
+  "minStake": 0.09,
+  "maxStake": 90.0,
+  "features": [
+    "free-spins",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/lights",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/lights"
+  ],
+  "lastVerified": "2026-11-14"
+}

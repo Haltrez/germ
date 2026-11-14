@@ -1,0 +1,36 @@
+{
+  "name": "Starburst Galaxy",
+  "provider": "netent",
+  "releaseDate": "2024-11-26",
+  "rtp": 96.0,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 8.4",
+  "maxWinMultiplier": 17288.0,
+  "hitRate": 4.17,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": 0.2,
+  "maxStake": 20.0,
+  "features": [
+    "cascades",
+    "multipliers",
+    "expanding-symbols",
+    "wilds",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/starburst-galaxy",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/starburst-galaxy"
+  ],
+  "lastVerified": "2026-11-14"
+}

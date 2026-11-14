@@ -1,0 +1,36 @@
+{
+  "name": "Vegas Night Life",
+  "provider": "netent",
+  "releaseDate": "2020-10-29",
+  "rtp": 96.0,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 3.8",
+  "maxWinMultiplier": 1100.0,
+  "hitRate": 3.12,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 20
+  },
+  "minStake": 0.2,
+  "maxStake": 100.0,
+  "features": [
+    "free-spins",
+    "multipliers"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/vegas-night-life",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/vegas-night-life"
+  ],
+  "lastVerified": "2026-11-14"
+}

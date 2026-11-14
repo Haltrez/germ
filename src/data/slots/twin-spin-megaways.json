@@ -1,0 +1,39 @@
+{
+  "name": "Twin Spin Megaways",
+  "provider": "netent",
+  "releaseDate": "2020-11-12",
+  "rtp": 96.04,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 8.4",
+  "maxWinMultiplier": 4900.0,
+  "hitRate": 2.86,
+  "reels": 6,
+  "rows": 7,
+  "winLines": {
+    "type": "lines",
+    "count": 117649
+  },
+  "minStake": 0.1,
+  "maxStake": 100.0,
+  "features": [
+    "free-spins",
+    "cascades",
+    "multipliers",
+    "megaways",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/twin-spin-megaways",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/twin-spin-megaways"
+  ],
+  "lastVerified": "2026-11-14"
+}

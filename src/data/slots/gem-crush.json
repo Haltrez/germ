@@ -1,0 +1,37 @@
+{
+  "name": "Gem Crush",
+  "provider": "netent",
+  "releaseDate": "2023-12-11",
+  "rtp": 96.13,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 11.63",
+  "maxWinMultiplier": 4361.0,
+  "hitRate": 3.58,
+  "reels": 6,
+  "rows": 8,
+  "winLines": "TODO",
+  "minStake": 0.1,
+  "maxStake": 40.0,
+  "features": [
+    "free-spins",
+    "cascades",
+    "multipliers",
+    "cluster-pays",
+    "wilds",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/gem-crush",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/gem-crush"
+  ],
+  "lastVerified": "2026-11-14"
+}

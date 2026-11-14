@@ -1,0 +1,37 @@
+{
+  "name": "The Reel Steal",
+  "provider": "netent",
+  "releaseDate": "2008-10-03",
+  "rtp": 95.87,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 8.9",
+  "maxWinMultiplier": 4400.0,
+  "hitRate": 4.35,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 9
+  },
+  "minStake": 0.09,
+  "maxStake": 45.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/the-reel-steal",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/the-reel-steal"
+  ],
+  "lastVerified": "2026-11-14"
+}

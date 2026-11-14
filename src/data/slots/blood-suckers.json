@@ -1,0 +1,37 @@
+{
+  "name": "Blood Suckers",
+  "provider": "netent",
+  "releaseDate": "2009-11-10",
+  "rtp": 98.0,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 2.7",
+  "maxWinMultiplier": 900.0,
+  "hitRate": 2.22,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 25
+  },
+  "minStake": 0.25,
+  "maxStake": 50.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/blood-suckers",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/blood-suckers"
+  ],
+  "lastVerified": "2026-11-14"
+}

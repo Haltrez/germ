@@ -1,0 +1,36 @@
+{
+  "name": "Buster’s Bones",
+  "provider": "netent",
+  "releaseDate": "2023-04-20",
+  "rtp": 96.07,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 6.5",
+  "maxWinMultiplier": 900.0,
+  "hitRate": 3.12,
+  "reels": 6,
+  "rows": 6,
+  "winLines": "TODO",
+  "minStake": 0.1,
+  "maxStake": 200.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "cluster-pays",
+    "wilds",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/busters-bones",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/busters-bones"
+  ],
+  "lastVerified": "2026-11-14"
+}

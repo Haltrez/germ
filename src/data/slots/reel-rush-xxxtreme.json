@@ -1,0 +1,40 @@
+{
+  "name": "Reel Rush XXXtreme",
+  "provider": "netent",
+  "releaseDate": "2025-06-12",
+  "rtp": 96.06,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 9.2",
+  "maxWinMultiplier": 8130.0,
+  "hitRate": 4.0,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 3125
+  },
+  "minStake": 0.3,
+  "maxStake": 600.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "sticky-wilds",
+    "expanding-symbols",
+    "wilds",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/reel-rush-xxxtreme",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/reel-rush-xxxtreme"
+  ],
+  "lastVerified": "2026-11-14"
+}

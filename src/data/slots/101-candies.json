@@ -1,0 +1,37 @@
+{
+  "name": "101 Candies",
+  "provider": "netent",
+  "releaseDate": "2023-08-02",
+  "rtp": 96.08,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 6.8",
+  "maxWinMultiplier": 3580.0,
+  "hitRate": 4.0,
+  "reels": 7,
+  "rows": 7,
+  "winLines": "TODO",
+  "minStake": 0.2,
+  "maxStake": 120.0,
+  "features": [
+    "free-spins",
+    "cascades",
+    "multipliers",
+    "cluster-pays",
+    "wilds",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/101-candies",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/101-candies"
+  ],
+  "lastVerified": "2026-11-14"
+}

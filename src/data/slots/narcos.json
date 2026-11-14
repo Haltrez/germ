@@ -1,0 +1,39 @@
+{
+  "name": "Narcos",
+  "provider": "netent",
+  "releaseDate": "2019-05-19",
+  "rtp": 96.23,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 6.6",
+  "maxWinMultiplier": 1000.0,
+  "hitRate": 3.7,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 243
+  },
+  "minStake": 0.2,
+  "maxStake": 400.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "cluster-pays",
+    "walking-wilds",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/narcos",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/narcos"
+  ],
+  "lastVerified": "2026-11-14"
+}

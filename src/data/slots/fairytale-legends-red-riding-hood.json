@@ -1,0 +1,40 @@
+{
+  "name": "Fairytale Legends: Red Riding Hood",
+  "provider": "netent",
+  "releaseDate": "2016-10-24",
+  "rtp": 96.33,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 4.9",
+  "maxWinMultiplier": 800.0,
+  "hitRate": 5.0,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 20
+  },
+  "minStake": 0.2,
+  "maxStake": 200.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "cluster-pays",
+    "sticky-wilds",
+    "wilds",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/fairytale-legends-red-riding-hood",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/fairytale-legends-red-riding-hood"
+  ],
+  "lastVerified": "2026-11-14"
+}

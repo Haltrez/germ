@@ -1,0 +1,36 @@
+{
+  "name": "Fruit Spin",
+  "provider": "netent",
+  "releaseDate": "2017-06-15",
+  "rtp": 96.84,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 4.9",
+  "maxWinMultiplier": 500.0,
+  "hitRate": 4.0,
+  "reels": 5,
+  "rows": 4,
+  "winLines": {
+    "type": "lines",
+    "count": 40
+  },
+  "minStake": 0.2,
+  "maxStake": 200.0,
+  "features": [
+    "free-spins",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/fruit-spin",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/fruit-spin"
+  ],
+  "lastVerified": "2026-11-14"
+}

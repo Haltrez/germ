@@ -1,0 +1,38 @@
+{
+  "name": "Hotline",
+  "provider": "netent",
+  "releaseDate": "2018-03-22",
+  "rtp": 97.04,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 5.6",
+  "maxWinMultiplier": 1200.0,
+  "hitRate": 3.57,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 30
+  },
+  "minStake": 0.15,
+  "maxStake": 450.0,
+  "features": [
+    "free-spins",
+    "expanding-symbols",
+    "wilds",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/hotline",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/hotline"
+  ],
+  "lastVerified": "2026-11-14"
+}

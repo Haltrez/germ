@@ -1,0 +1,38 @@
+{
+  "name": "Ozzy Osbourne",
+  "provider": "netent",
+  "releaseDate": "2019-11-21",
+  "rtp": 96.67,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 9.4",
+  "maxWinMultiplier": 6000.0,
+  "hitRate": 3.85,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 20
+  },
+  "minStake": 0.2,
+  "maxStake": 50.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "wilds",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/ozzy-osbourne",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/ozzy-osbourne"
+  ],
+  "lastVerified": "2026-11-14"
+}

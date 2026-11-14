@@ -1,0 +1,36 @@
+{
+  "name": "Milkshake XXXtreme",
+  "provider": "netent",
+  "releaseDate": "2023-02-08",
+  "rtp": 96.04,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 8.5",
+  "maxWinMultiplier": 7100.0,
+  "hitRate": 5.0,
+  "reels": 6,
+  "rows": 6,
+  "winLines": "TODO",
+  "minStake": 0.25,
+  "maxStake": 50.0,
+  "features": [
+    "cascades",
+    "multipliers",
+    "scatter-pays",
+    "wilds",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/milkshake-xxxtreme",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/milkshake-xxxtreme"
+  ],
+  "lastVerified": "2026-11-14"
+}

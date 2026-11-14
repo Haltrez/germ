@@ -1,0 +1,37 @@
+{
+  "name": "The Wish Master Megaways",
+  "provider": "netent",
+  "releaseDate": "2023-06-12",
+  "rtp": 96.07,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 18.13",
+  "maxWinMultiplier": 27018.0,
+  "hitRate": 4.88,
+  "reels": 6,
+  "rows": 7,
+  "winLines": {
+    "type": "lines",
+    "count": 117649
+  },
+  "minStake": 0.1,
+  "maxStake": 20.0,
+  "features": [
+    "multipliers",
+    "megaways",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/the-wish-master-megaways",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/the-wish-master-megaways"
+  ],
+  "lastVerified": "2026-11-14"
+}

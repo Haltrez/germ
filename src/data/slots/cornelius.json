@@ -1,0 +1,37 @@
+{
+  "name": "Cornelius",
+  "provider": "netent",
+  "releaseDate": "2022-09-29",
+  "rtp": 96.04,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 4.8",
+  "maxWinMultiplier": 1000.0,
+  "hitRate": 2.63,
+  "reels": 5,
+  "rows": 4,
+  "winLines": {
+    "type": "lines",
+    "count": 1024
+  },
+  "minStake": 0.2,
+  "maxStake": 400.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/cornelius",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/cornelius"
+  ],
+  "lastVerified": "2026-11-14"
+}

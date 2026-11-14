@@ -1,0 +1,39 @@
+{
+  "name": "Spice",
+  "provider": "netent",
+  "releaseDate": "2026-07-23",
+  "rtp": 96.09,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 9.9",
+  "maxWinMultiplier": 15000.0,
+  "hitRate": 5.1,
+  "reels": 6,
+  "rows": 6,
+  "winLines": {
+    "type": "lines",
+    "count": 15625
+  },
+  "minStake": 0.2,
+  "maxStake": 20.0,
+  "features": [
+    "free-spins",
+    "cascades",
+    "multipliers",
+    "wilds",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/spice",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/spice"
+  ],
+  "lastVerified": "2026-11-14"
+}

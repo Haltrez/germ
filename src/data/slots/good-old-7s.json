@@ -1,0 +1,36 @@
+{
+  "name": "Good Old 7’s",
+  "provider": "netent",
+  "releaseDate": "2024-02-28",
+  "rtp": 96.1,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 14.82",
+  "maxWinMultiplier": 3348.0,
+  "hitRate": 3.88,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 243
+  },
+  "minStake": 0.1,
+  "maxStake": 150.0,
+  "features": [
+    "multipliers",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/good-old-7s",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/good-old-7s"
+  ],
+  "lastVerified": "2026-11-14"
+}

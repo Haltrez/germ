@@ -1,0 +1,36 @@
+{
+  "name": "Flowers",
+  "provider": "netent",
+  "releaseDate": "2011-04-07",
+  "rtp": 96.32,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 6.9",
+  "maxWinMultiplier": "TODO",
+  "hitRate": 2.22,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 30
+  },
+  "minStake": 0.3,
+  "maxStake": 75.0,
+  "features": [
+    "free-spins",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/flowers",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/flowers"
+  ],
+  "lastVerified": "2026-11-14"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Bursting Buffalo Pots",
+  "provider": "novomatic",
+  "releaseDate": "2026-10-13",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "expanding-symbols",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://www.greentube.com/game/bursting-buffalo-pots/"
+  ],
+  "lastVerified": "2026-11-14"
+}

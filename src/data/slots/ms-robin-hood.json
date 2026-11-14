@@ -1,0 +1,37 @@
+{
+  "name": "Ms Robin Hood",
+  "provider": "netent",
+  "releaseDate": "2024-10-15",
+  "rtp": 96.19,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 17.26",
+  "maxWinMultiplier": 12574.0,
+  "hitRate": 4.06,
+  "reels": 5,
+  "rows": 4,
+  "winLines": {
+    "type": "lines",
+    "count": 1024
+  },
+  "minStake": 0.1,
+  "maxStake": 500.0,
+  "features": [
+    "free-spins",
+    "wilds",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/ms-robin-hood",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/ms-robin-hood"
+  ],
+  "lastVerified": "2026-11-14"
+}

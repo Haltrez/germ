@@ -1,0 +1,28 @@
+{
+  "name": "Roulette Advanced",
+  "provider": "netent",
+  "releaseDate": "2017-10-01",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": 0.1,
+  "maxStake": 5000.0,
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/roulette-advanced",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/roulette-advanced"
+  ],
+  "lastVerified": "2026-11-14"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Lights, Camera, Cash!",
+  "provider": "netent",
+  "releaseDate": "2023-11-02",
+  "rtp": 96.09,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 18.73",
+  "maxWinMultiplier": 25000.0,
+  "hitRate": 6.38,
+  "reels": 3,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 1
+  },
+  "minStake": 0.1,
+  "maxStake": 6.0,
+  "features": [
+    "multipliers",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/lights-camera-cash",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/lights-camera-cash"
+  ],
+  "lastVerified": "2026-11-14"
+}

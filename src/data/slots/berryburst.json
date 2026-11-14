@@ -1,0 +1,34 @@
+{
+  "name": "Berryburst",
+  "provider": "netent",
+  "releaseDate": "2018-08-23",
+  "rtp": 95.56,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 4.2",
+  "maxWinMultiplier": 1300.0,
+  "hitRate": 5.0,
+  "reels": 5,
+  "rows": 3,
+  "winLines": "TODO",
+  "minStake": 0.1,
+  "maxStake": 200.0,
+  "features": [
+    "expanding-symbols",
+    "wilds",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/berryburst",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/berryburst"
+  ],
+  "lastVerified": "2026-11-14"
+}

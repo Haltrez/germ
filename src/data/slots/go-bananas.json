@@ -1,0 +1,35 @@
+{
+  "name": "Go Bananas!",
+  "provider": "netent",
+  "releaseDate": "2014-09-24",
+  "rtp": 96.91,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 4.4",
+  "maxWinMultiplier": 500.0,
+  "hitRate": 3.12,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 20
+  },
+  "minStake": 0.2,
+  "maxStake": 200.0,
+  "features": [
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/go-bananas",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/go-bananas"
+  ],
+  "lastVerified": "2026-11-14"
+}

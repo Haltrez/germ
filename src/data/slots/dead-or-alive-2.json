@@ -1,0 +1,39 @@
+{
+  "name": "Dead or Alive 2",
+  "provider": "netent",
+  "releaseDate": "2019-04-23",
+  "rtp": 96.8,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 9.9",
+  "maxWinMultiplier": 1600.0,
+  "hitRate": 3.33,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 9
+  },
+  "minStake": 0.09,
+  "maxStake": 9.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "sticky-wilds",
+    "wilds",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/dead-or-alive-2",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/dead-or-alive-2"
+  ],
+  "lastVerified": "2026-11-14"
+}

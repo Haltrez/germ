@@ -1,0 +1,37 @@
+{
+  "name": "Jingle Bells Bonanza",
+  "provider": "netent",
+  "releaseDate": "2023-11-30",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 15.51",
+  "maxWinMultiplier": 4186.0,
+  "hitRate": 3.4,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 20
+  },
+  "minStake": 0.1,
+  "maxStake": 20.0,
+  "features": [
+    "multipliers",
+    "expanding-symbols",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/jingle-bells-bonanza",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/jingle-bells-bonanza"
+  ],
+  "lastVerified": "2026-11-14"
+}

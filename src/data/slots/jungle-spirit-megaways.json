@@ -1,0 +1,39 @@
+{
+  "name": "Jungle Spirit Megaways",
+  "provider": "netent",
+  "releaseDate": "2017-03-21",
+  "rtp": 96.2,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 7.6",
+  "maxWinMultiplier": 6500.0,
+  "hitRate": 2.94,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 117649
+  },
+  "minStake": 0.2,
+  "maxStake": 60.0,
+  "features": [
+    "free-spins",
+    "cascades",
+    "megaways",
+    "expanding-symbols",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/jungle-spirit-megaways",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/jungle-spirit-megaways"
+  ],
+  "lastVerified": "2026-11-14"
+}

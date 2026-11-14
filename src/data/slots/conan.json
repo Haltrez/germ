@@ -1,0 +1,37 @@
+{
+  "name": "Conan",
+  "provider": "netent",
+  "releaseDate": "2019-09-24",
+  "rtp": 96.65,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 7",
+  "maxWinMultiplier": 1800.0,
+  "hitRate": 4.0,
+  "reels": 6,
+  "rows": 4,
+  "winLines": {
+    "type": "lines",
+    "count": 24
+  },
+  "minStake": 0.2,
+  "maxStake": 200.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/conan",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/conan"
+  ],
+  "lastVerified": "2026-11-14"
+}

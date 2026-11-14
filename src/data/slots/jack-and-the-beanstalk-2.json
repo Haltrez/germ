@@ -1,0 +1,36 @@
+{
+  "name": "Jack and the Beanstalk 2",
+  "provider": "netent",
+  "releaseDate": "2026-09-17",
+  "rtp": 96.32,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 10",
+  "maxWinMultiplier": 20000.0,
+  "reels": 5,
+  "rows": 5,
+  "winLines": "TODO",
+  "minStake": 0.2,
+  "maxStake": 20.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "walking-wilds",
+    "wilds",
+    "respins",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/jack-and-the-beanstalk-2",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/jack-and-the-beanstalk-2"
+  ],
+  "lastVerified": "2026-11-14"
+}

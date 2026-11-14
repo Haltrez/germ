@@ -1,0 +1,28 @@
+{
+  "name": "Blackjack",
+  "provider": "netent",
+  "releaseDate": "2022-06-15",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": 12000.0,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": 1.0,
+  "maxStake": 500.0,
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/blackjack",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/blackjack"
+  ],
+  "lastVerified": "2026-11-14"
+}

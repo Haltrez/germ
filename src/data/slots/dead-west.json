@@ -1,0 +1,37 @@
+{
+  "name": "Dead West",
+  "provider": "netent",
+  "releaseDate": "2025-10-07",
+  "rtp": 96.06,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 8.9",
+  "maxWinMultiplier": 10863.0,
+  "hitRate": 4.0,
+  "reels": 7,
+  "rows": 7,
+  "winLines": "TODO",
+  "minStake": 0.2,
+  "maxStake": 400.0,
+  "features": [
+    "free-spins",
+    "cascades",
+    "multipliers",
+    "expanding-symbols",
+    "wilds",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/dead-west",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/dead-west"
+  ],
+  "lastVerified": "2026-11-14"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Theme Park: Tickets of Fortune",
+  "provider": "netent",
+  "releaseDate": "2016-06-23",
+  "rtp": 96.52,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 5.3",
+  "maxWinMultiplier": 1000.0,
+  "hitRate": 3.57,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 50
+  },
+  "minStake": 0.25,
+  "maxStake": 250.0,
+  "features": [
+    "multipliers",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/theme-park-tickets-of-fortune-touch",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/theme-park-tickets-of-fortune-touch"
+  ],
+  "lastVerified": "2026-11-14"
+}

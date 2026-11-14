@@ -1,0 +1,38 @@
+{
+  "name": "Dark King: Forbidden Riches",
+  "provider": "netent",
+  "releaseDate": "2020-10-08",
+  "rtp": 96.06,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 7",
+  "maxWinMultiplier": 1600.0,
+  "hitRate": 2.63,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 20
+  },
+  "minStake": 0.2,
+  "maxStake": 400.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "sticky-wilds",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/dark-king-forbidden-riches",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/dark-king-forbidden-riches"
+  ],
+  "lastVerified": "2026-11-14"
+}

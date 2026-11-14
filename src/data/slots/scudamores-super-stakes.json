@@ -1,0 +1,37 @@
+{
+  "name": "Scudamore’s Super Stakes",
+  "provider": "netent",
+  "releaseDate": "2019-03-07",
+  "rtp": 96.99,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 9.8",
+  "maxWinMultiplier": 5200.0,
+  "hitRate": 4.0,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 10
+  },
+  "minStake": 0.1,
+  "maxStake": 100.0,
+  "features": [
+    "multipliers",
+    "expanding-symbols",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/scudamores-super-stakes",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/scudamores-super-stakes"
+  ],
+  "lastVerified": "2026-11-14"
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Rome: The Golden Age",
+  "provider": "netent",
+  "releaseDate": "2021-02-09",
+  "rtp": 96.06,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 8.9",
+  "maxWinMultiplier": 19000.0,
+  "hitRate": 5.56,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 20
+  },
+  "minStake": 0.1,
+  "maxStake": 50.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/rome-the-golden-age",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/rome-the-golden-age"
+  ],
+  "lastVerified": "2026-11-14"
+}

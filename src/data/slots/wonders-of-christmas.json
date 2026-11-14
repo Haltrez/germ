@@ -1,0 +1,37 @@
+{
+  "name": "Wonders of Christmas",
+  "provider": "netent",
+  "releaseDate": "2022-12-01",
+  "rtp": 96.06,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 8.9",
+  "maxWinMultiplier": 19000.0,
+  "hitRate": 5.56,
+  "reels": 5,
+  "rows": 5,
+  "winLines": {
+    "type": "lines",
+    "count": 20
+  },
+  "minStake": 0.1,
+  "maxStake": 50.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/wonders-of-christmas",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/wonders-of-christmas"
+  ],
+  "lastVerified": "2026-11-14"
+}

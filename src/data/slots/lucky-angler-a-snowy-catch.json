@@ -1,0 +1,37 @@
+{
+  "name": "Lucky Angler: A Snowy Catch",
+  "provider": "netent",
+  "releaseDate": "2012-11-21",
+  "rtp": 96.41,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 5.4",
+  "maxWinMultiplier": 900.0,
+  "hitRate": 2.38,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 15
+  },
+  "minStake": 0.3,
+  "maxStake": 150.0,
+  "features": [
+    "free-spins",
+    "sticky-wilds",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/lucky-angler-a-snowy-catch",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/lucky-angler-a-snowy-catch"
+  ],
+  "lastVerified": "2026-11-14"
+}

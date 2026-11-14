@@ -30,7 +30,7 @@ for u in urls:
     gid = re.search(r'gid=([a-z0-9_]+)', html.unescape(s))
     if gid: g['demo'] = f'https://released.playngonetwork.com/casino/ContainerLauncher?pid=2&gid={gid.group(1)}&lang=de_DE&practice=1&channel=desktop&demo=2'
     i = t.find('Game features')
-    desc = t[i:i + 3000] if i >= 0 else ''
+    desc = re.split(r'If you liked|Privacy Statement', t[i:i + 3000])[0] if i >= 0 else ''
     m = re.search(r'max(?:imum)? win(?: potential)?(?: of)?(?: up to)? ([\d,]+)\s*x', desc, re.I)
     if m: g['maxWin'] = float(m.group(1).replace(',', ''))
     m = re.search(r'(\d+)\s+(?:fixed\s+)?(paylines|ways)', desc, re.I)

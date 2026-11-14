@@ -1,0 +1,38 @@
+{
+  "name": "Leprechaun Joy",
+  "provider": "netent",
+  "releaseDate": "2024-04-17",
+  "rtp": 96.19,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 13.28",
+  "maxWinMultiplier": 5255.0,
+  "hitRate": 3.08,
+  "reels": 5,
+  "rows": 4,
+  "winLines": {
+    "type": "lines",
+    "count": 25
+  },
+  "minStake": 0.1,
+  "maxStake": 80.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "wilds",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/leprechaun-joy",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/leprechaun-joy"
+  ],
+  "lastVerified": "2026-11-14"
+}

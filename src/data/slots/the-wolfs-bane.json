@@ -1,0 +1,38 @@
+{
+  "name": "The Wolf's Bane",
+  "provider": "netent",
+  "releaseDate": "2019-10-24",
+  "rtp": 96.74,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 4.7",
+  "maxWinMultiplier": 500.0,
+  "hitRate": 4.55,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 10
+  },
+  "minStake": 0.1,
+  "maxStake": 100.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "expanding-symbols",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/the-wolfs-bane",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/the-wolfs-bane"
+  ],
+  "lastVerified": "2026-11-14"
+}

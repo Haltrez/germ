@@ -1,0 +1,40 @@
+{
+  "name": "Jelly Belly Megaways",
+  "provider": "netent",
+  "releaseDate": "2024-01-14",
+  "rtp": 96.08,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 37.02",
+  "maxWinMultiplier": 20000.0,
+  "hitRate": 2.82,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 117649
+  },
+  "minStake": 0.1,
+  "maxStake": 300.0,
+  "features": [
+    "free-spins",
+    "cascades",
+    "multipliers",
+    "megaways",
+    "wilds",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/jelly-belly-megaways",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/jelly-belly-megaways"
+  ],
+  "lastVerified": "2026-11-14"
+}

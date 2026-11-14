@@ -1,0 +1,39 @@
+{
+  "name": "Santa vs Rudolf",
+  "provider": "netent",
+  "releaseDate": "2019-11-28",
+  "rtp": 96.35,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 6.9",
+  "maxWinMultiplier": 500.0,
+  "hitRate": 3.45,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 20
+  },
+  "minStake": 0.2,
+  "maxStake": 100.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "walking-wilds",
+    "wilds",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/santa-vs-rudolf",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/santa-vs-rudolf"
+  ],
+  "lastVerified": "2026-11-14"
+}

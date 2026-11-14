@@ -1,0 +1,28 @@
+{
+  "name": "Golden Jokers",
+  "provider": "novomatic",
+  "releaseDate": "2026-05-14",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 6,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "expanding-symbols"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://www.greentube.com/game/golden-jokers/"
+  ],
+  "lastVerified": "2026-11-14"
+}

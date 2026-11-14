@@ -1,0 +1,38 @@
+{
+  "name": "Silverback Gold",
+  "provider": "netent",
+  "releaseDate": "2021-12-16",
+  "rtp": 96.11,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 9.5",
+  "maxWinMultiplier": 9300.0,
+  "hitRate": 2.7,
+  "reels": 5,
+  "rows": 4,
+  "winLines": {
+    "type": "lines",
+    "count": 1024
+  },
+  "minStake": 0.1,
+  "maxStake": 100.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "wilds",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/silverback-gold",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/silverback-gold"
+  ],
+  "lastVerified": "2026-11-14"
+}

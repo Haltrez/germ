@@ -1,0 +1,35 @@
+{
+  "name": "Butterfly Staxx 2",
+  "provider": "netent",
+  "releaseDate": "2019-08-22",
+  "rtp": 96.35,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 4.9",
+  "maxWinMultiplier": 300.0,
+  "hitRate": 4.0,
+  "reels": 5,
+  "rows": 4,
+  "winLines": {
+    "type": "lines",
+    "count": 40
+  },
+  "minStake": 0.25,
+  "maxStake": 1250.0,
+  "features": [
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/butterfly-staxx-2",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/butterfly-staxx-2"
+  ],
+  "lastVerified": "2026-11-14"
+}

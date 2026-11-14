@@ -1,0 +1,38 @@
+{
+  "name": "Jimi Hendrix Online Slot",
+  "provider": "netent",
+  "releaseDate": "2016-04-21",
+  "rtp": 96.9,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 3.7",
+  "maxWinMultiplier": 400.0,
+  "hitRate": 3.33,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 20
+  },
+  "minStake": 0.2,
+  "maxStake": 200.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "wilds",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/jimi-hendrix",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/jimi-hendrix"
+  ],
+  "lastVerified": "2026-11-14"
+}

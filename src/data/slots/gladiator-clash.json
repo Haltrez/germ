@@ -1,0 +1,37 @@
+{
+  "name": "Gladiator Clash",
+  "provider": "netent",
+  "releaseDate": "2024-06-13",
+  "rtp": 96.1,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 19.29",
+  "maxWinMultiplier": 1006.0,
+  "hitRate": 8.11,
+  "reels": 3,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 3
+  },
+  "minStake": 0.1,
+  "maxStake": 40.0,
+  "features": [
+    "wilds",
+    "respins",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/gladiator-clash",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/gladiator-clash"
+  ],
+  "lastVerified": "2026-11-14"
+}

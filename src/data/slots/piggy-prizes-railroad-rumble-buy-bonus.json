@@ -1,0 +1,28 @@
+{
+  "name": "Piggy Prizes Railroad Rumble Buy Bonus",
+  "provider": "novomatic",
+  "releaseDate": "2026-04-28",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://www.greentube.com/game/piggy-prizes-railroad-rumble-buy-bonus/"
+  ],
+  "lastVerified": "2026-11-14"
+}

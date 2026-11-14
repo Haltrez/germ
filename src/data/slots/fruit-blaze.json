@@ -1,0 +1,38 @@
+{
+  "name": "Fruit Blaze",
+  "provider": "netent",
+  "releaseDate": "2021-09-16",
+  "rtp": 96.01,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 8.7",
+  "maxWinMultiplier": 4000.0,
+  "hitRate": 4.55,
+  "reels": 4,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 1296
+  },
+  "minStake": 0.2,
+  "maxStake": 200.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "expanding-symbols",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/fruit-blaze",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/fruit-blaze"
+  ],
+  "lastVerified": "2026-11-14"
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Reel Rush",
+  "provider": "netent",
+  "releaseDate": "2013-07-24",
+  "rtp": 96.96,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 5.9",
+  "maxWinMultiplier": 1000.0,
+  "hitRate": 3.57,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 3125
+  },
+  "minStake": 0.5,
+  "maxStake": 100.0,
+  "features": [
+    "free-spins",
+    "cluster-pays",
+    "wilds",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/reel-rush",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/reel-rush"
+  ],
+  "lastVerified": "2026-11-14"
+}

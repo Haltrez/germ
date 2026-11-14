@@ -1,0 +1,38 @@
+{
+  "name": "Dazzle Me Megaways",
+  "provider": "netent",
+  "releaseDate": "2021-05-19",
+  "rtp": 96.1,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 9.6",
+  "maxWinMultiplier": 13400.0,
+  "hitRate": 4.17,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 99225
+  },
+  "minStake": 0.1,
+  "maxStake": 50.0,
+  "features": [
+    "free-spins",
+    "cascades",
+    "megaways",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/dazzle-me-megaways",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/dazzle-me-megaways"
+  ],
+  "lastVerified": "2026-11-14"
+}

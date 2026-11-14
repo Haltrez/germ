@@ -1,0 +1,36 @@
+{
+  "name": "Mermaids",
+  "provider": "netent",
+  "releaseDate": "2024-09-06",
+  "rtp": 96.09,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 16.09",
+  "maxWinMultiplier": 2007.0,
+  "hitRate": 4.47,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 20
+  },
+  "minStake": 0.1,
+  "maxStake": 20.0,
+  "features": [
+    "multipliers",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/mermaids",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/mermaids"
+  ],
+  "lastVerified": "2026-11-14"
+}

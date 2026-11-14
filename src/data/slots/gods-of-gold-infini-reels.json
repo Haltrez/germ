@@ -1,0 +1,37 @@
+{
+  "name": "Gods of Gold: InfiniReels",
+  "provider": "netent",
+  "releaseDate": "2020-05-14",
+  "rtp": 96.21,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 8.5",
+  "maxWinMultiplier": 7300.0,
+  "hitRate": 5.0,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 2147483647
+  },
+  "minStake": 0.2,
+  "maxStake": 200.0,
+  "features": [
+    "free-spins",
+    "wilds",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/gods-of-gold-infini-reels",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/gods-of-gold-infini-reels"
+  ],
+  "lastVerified": "2026-11-14"
+}

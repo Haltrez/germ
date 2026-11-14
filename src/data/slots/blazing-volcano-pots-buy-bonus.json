@@ -1,0 +1,30 @@
+{
+  "name": "Blazing Volcano Pots Buy Bonus",
+  "provider": "novomatic",
+  "releaseDate": "2026-11-17",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 5,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "expanding-symbols",
+    "bonus-buy",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://www.greentube.com/game/blazing-volcano-pots-buy-bonus/"
+  ],
+  "lastVerified": "2026-11-14"
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Flock Me",
+  "provider": "netent",
+  "releaseDate": "2025-11-20",
+  "rtp": 96.0,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 6.2",
+  "maxWinMultiplier": 8594.0,
+  "hitRate": 4.35,
+  "reels": 6,
+  "rows": 7,
+  "winLines": "TODO",
+  "minStake": 0.2,
+  "maxStake": 50.0,
+  "features": [
+    "free-spins",
+    "cascades",
+    "multipliers",
+    "cluster-pays",
+    "wilds",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/flock-me",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/flock-me"
+  ],
+  "lastVerified": "2026-11-14"
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Ocean's Treasure",
+  "provider": "netent",
+  "releaseDate": "2020-02-24",
+  "rtp": 95.99,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 6.8",
+  "maxWinMultiplier": 1400.0,
+  "hitRate": 3.7,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 15
+  },
+  "minStake": 0.15,
+  "maxStake": 300.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/oceans-treasure",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/oceans-treasure"
+  ],
+  "lastVerified": "2026-11-14"
+}

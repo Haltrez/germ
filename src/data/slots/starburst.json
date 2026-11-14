@@ -1,0 +1,37 @@
+{
+  "name": "Starburst",
+  "provider": "netent",
+  "releaseDate": "2012-01-23",
+  "rtp": 96.08,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 3.1",
+  "maxWinMultiplier": 800.0,
+  "hitRate": 4.35,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 10
+  },
+  "minStake": 0.1,
+  "maxStake": 100.0,
+  "features": [
+    "expanding-symbols",
+    "wilds",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/starburst",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/starburst"
+  ],
+  "lastVerified": "2026-11-14"
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Gonzo's Gold",
+  "provider": "netent",
+  "releaseDate": "2021-10-14",
+  "rtp": 96.11,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 7.7",
+  "maxWinMultiplier": 3484.0,
+  "hitRate": 3.7,
+  "reels": 5,
+  "rows": 5,
+  "winLines": "TODO",
+  "minStake": 0.1,
+  "maxStake": 200.0,
+  "features": [
+    "free-spins",
+    "cluster-pays",
+    "expanding-symbols"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/gonzos-gold",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/gonzos-gold"
+  ],
+  "lastVerified": "2026-11-14"
+}

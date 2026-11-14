@@ -1,0 +1,38 @@
+{
+  "name": "Fruit Shop Frenzy",
+  "provider": "netent",
+  "releaseDate": "2023-08-23",
+  "rtp": 96.18,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 15.6",
+  "maxWinMultiplier": 10868.0,
+  "hitRate": 3.41,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 15
+  },
+  "minStake": 0.1,
+  "maxStake": 40.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "wilds",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/fruit-shop-frenzy",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/fruit-shop-frenzy"
+  ],
+  "lastVerified": "2026-11-14"
+}

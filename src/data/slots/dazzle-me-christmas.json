@@ -1,0 +1,39 @@
+{
+  "name": "Dazzle Me Christmas",
+  "provider": "netent",
+  "releaseDate": "2024-12-12",
+  "rtp": 96.21,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 6.8",
+  "maxWinMultiplier": 2200.0,
+  "hitRate": 6.67,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 90
+  },
+  "minStake": 0.2,
+  "maxStake": 200.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "expanding-symbols",
+    "wilds",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/dazzle-me-christmas",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/dazzle-me-christmas"
+  ],
+  "lastVerified": "2026-11-14"
+}

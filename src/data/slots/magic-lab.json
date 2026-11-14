@@ -1,0 +1,37 @@
+{
+  "name": "Magic Lab",
+  "provider": "netent",
+  "releaseDate": "2024-03-21",
+  "rtp": 96.1,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 15.43",
+  "maxWinMultiplier": 5999.0,
+  "hitRate": 2.69,
+  "reels": 6,
+  "rows": 5,
+  "winLines": "TODO",
+  "minStake": 0.1,
+  "maxStake": 40.0,
+  "features": [
+    "free-spins",
+    "cascades",
+    "multipliers",
+    "scatter-pays",
+    "wilds",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/magic-lab",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/magic-lab"
+  ],
+  "lastVerified": "2026-11-14"
+}

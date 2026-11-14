@@ -1,0 +1,36 @@
+{
+  "name": "Pork Knox",
+  "provider": "netent",
+  "releaseDate": "2021-08-10",
+  "rtp": 96.0,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 5.1",
+  "maxWinMultiplier": 1000.0,
+  "hitRate": 3.03,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 20
+  },
+  "minStake": 0.2,
+  "maxStake": 100.0,
+  "features": [
+    "free-spins",
+    "multipliers"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/pork-knox",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/pork-knox"
+  ],
+  "lastVerified": "2026-11-14"
+}

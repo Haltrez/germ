@@ -1,0 +1,36 @@
+{
+  "name": "Jack Hammer",
+  "provider": "netent",
+  "releaseDate": "2010-10-11",
+  "rtp": 96.96,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 3.8",
+  "maxWinMultiplier": 700.0,
+  "hitRate": 4.0,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 25
+  },
+  "minStake": 0.25,
+  "maxStake": 250.0,
+  "features": [
+    "free-spins",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/jack-hammer",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/jack-hammer"
+  ],
+  "lastVerified": "2026-11-14"
+}

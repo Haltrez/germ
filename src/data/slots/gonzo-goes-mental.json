@@ -1,0 +1,40 @@
+{
+  "name": "Gonzo Goes Mental",
+  "provider": "netent",
+  "releaseDate": "2026-11-26",
+  "rtp": 96.04,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 9.7",
+  "maxWinMultiplier": 15000.0,
+  "hitRate": 4.89,
+  "reels": 5,
+  "rows": 8,
+  "winLines": {
+    "type": "lines",
+    "count": 1048576
+  },
+  "minStake": 0.2,
+  "maxStake": 20.0,
+  "features": [
+    "free-spins",
+    "cascades",
+    "multipliers",
+    "expanding-symbols",
+    "wilds",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/gonzo-goes-mental",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/gonzo-goes-mental"
+  ],
+  "lastVerified": "2026-11-14"
+}

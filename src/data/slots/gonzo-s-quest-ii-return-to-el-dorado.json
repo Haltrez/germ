@@ -1,0 +1,40 @@
+{
+  "name": "Gonzo's Quest II: Return to El Dorado",
+  "provider": "netent",
+  "releaseDate": "2025-09-25",
+  "rtp": 96.06,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 9.8",
+  "maxWinMultiplier": 15825.0,
+  "hitRate": 4.35,
+  "reels": 6,
+  "rows": 4,
+  "winLines": {
+    "type": "lines",
+    "count": 262144
+  },
+  "minStake": 0.3,
+  "maxStake": 300.0,
+  "features": [
+    "free-spins",
+    "cascades",
+    "multipliers",
+    "expanding-symbols",
+    "wilds",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/gonzo-s-quest-ii-return-to-el-dorado",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/gonzo-s-quest-ii-return-to-el-dorado"
+  ],
+  "lastVerified": "2026-11-14"
+}

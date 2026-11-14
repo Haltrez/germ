@@ -1,0 +1,30 @@
+{
+  "name": "Jacks or Better Double Up",
+  "provider": "netent",
+  "releaseDate": "2014-06-16",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": 1.0,
+  "maxStake": 5.0,
+  "features": [
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/jacks-or-better-double-up",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/jacks-or-better-double-up"
+  ],
+  "lastVerified": "2026-11-14"
+}

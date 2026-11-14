@@ -1,0 +1,39 @@
+{
+  "name": "Don’t Eat the Candy",
+  "provider": "netent",
+  "releaseDate": "2023-10-24",
+  "rtp": 96.13,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 15.32",
+  "maxWinMultiplier": 3110.0,
+  "hitRate": 5.44,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 25
+  },
+  "minStake": 0.1,
+  "maxStake": 150.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "expanding-symbols",
+    "wilds",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/dont-eat-the-candy",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/dont-eat-the-candy"
+  ],
+  "lastVerified": "2026-11-14"
+}

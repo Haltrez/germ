@@ -1,0 +1,40 @@
+{
+  "name": "MONOPOLY Money Line",
+  "provider": "netent",
+  "releaseDate": "2026-01-15",
+  "rtp": 96.18,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 9.8",
+  "maxWinMultiplier": 10078.0,
+  "hitRate": 3.01,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 10
+  },
+  "minStake": 0.1,
+  "maxStake": 40.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "walking-wilds",
+    "wilds",
+    "respins",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/monopoly-money-line",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/monopoly-money-line"
+  ],
+  "lastVerified": "2026-11-14"
+}

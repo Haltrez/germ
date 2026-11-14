@@ -1,0 +1,33 @@
+{
+  "name": "Mega Joker",
+  "provider": "netent",
+  "releaseDate": "2008-10-01",
+  "rtp": 99.0,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 9.9",
+  "maxWinMultiplier": 200.0,
+  "hitRate": 5.88,
+  "reels": 3,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 5
+  },
+  "minStake": 1.0,
+  "maxStake": 10.0,
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/mega-joker",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/mega-joker"
+  ],
+  "lastVerified": "2026-11-14"
+}

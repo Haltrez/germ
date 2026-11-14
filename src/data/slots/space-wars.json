@@ -1,0 +1,36 @@
+{
+  "name": "Space Wars",
+  "provider": "netent",
+  "releaseDate": "2013-04-24",
+  "rtp": 96.75,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 5.2",
+  "maxWinMultiplier": 1000.0,
+  "hitRate": 6.25,
+  "reels": 5,
+  "rows": 4,
+  "winLines": {
+    "type": "lines",
+    "count": 40
+  },
+  "minStake": 0.4,
+  "maxStake": 200.0,
+  "features": [
+    "wilds",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/space-wars",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/space-wars"
+  ],
+  "lastVerified": "2026-11-14"
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Pirates Party",
+  "provider": "netent",
+  "releaseDate": "2024-01-25",
+  "rtp": 96.17,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 15.13",
+  "maxWinMultiplier": 3046.0,
+  "hitRate": 3.89,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 243
+  },
+  "minStake": 0.1,
+  "maxStake": 150.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/pirates-party",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/pirates-party"
+  ],
+  "lastVerified": "2026-11-14"
+}

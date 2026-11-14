@@ -1,0 +1,29 @@
+{
+  "name": "Brilliant Pots – Tumbling Joker",
+  "provider": "novomatic",
+  "releaseDate": "2026-09-08",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "cascades",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://www.greentube.com/game/brilliant-pots-tumbling-joker/"
+  ],
+  "lastVerified": "2026-11-14"
+}

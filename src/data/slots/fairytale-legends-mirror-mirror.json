@@ -1,0 +1,37 @@
+{
+  "name": "Fairytale Legends: Mirror Mirror",
+  "provider": "netent",
+  "releaseDate": "2018-07-24",
+  "rtp": 96.48,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 4.8",
+  "maxWinMultiplier": 1200.0,
+  "hitRate": 5.26,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 243
+  },
+  "minStake": 0.1,
+  "maxStake": 100.0,
+  "features": [
+    "free-spins",
+    "cluster-pays",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/fairytale-legends-mirror-mirror",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/fairytale-legends-mirror-mirror"
+  ],
+  "lastVerified": "2026-11-14"
+}

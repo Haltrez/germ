@@ -1,0 +1,38 @@
+{
+  "name": "Buckshot Wilds",
+  "provider": "netent",
+  "releaseDate": "2024-01-31",
+  "rtp": 96.05,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 7.1",
+  "maxWinMultiplier": 800.0,
+  "hitRate": 3.7,
+  "reels": 5,
+  "rows": 4,
+  "winLines": {
+    "type": "lines",
+    "count": 48
+  },
+  "minStake": 0.2,
+  "maxStake": 500.0,
+  "features": [
+    "free-spins",
+    "expanding-symbols",
+    "wilds",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/buckshot-wilds",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/buckshot-wilds"
+  ],
+  "lastVerified": "2026-11-14"
+}

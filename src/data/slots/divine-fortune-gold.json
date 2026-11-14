@@ -1,0 +1,35 @@
+{
+  "name": "Divine Fortune Gold",
+  "provider": "netent",
+  "releaseDate": "2026-04-30",
+  "rtp": 96.63,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 4",
+  "maxWinMultiplier": 1000.0,
+  "hitRate": 3.59,
+  "reels": 5,
+  "rows": 3,
+  "winLines": "TODO",
+  "minStake": 0.1,
+  "maxStake": 500.0,
+  "features": [
+    "free-spins",
+    "expanding-symbols",
+    "wilds",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/divine-fortune-gold",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/divine-fortune-gold"
+  ],
+  "lastVerified": "2026-11-14"
+}

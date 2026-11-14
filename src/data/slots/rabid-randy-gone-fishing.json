@@ -1,0 +1,39 @@
+{
+  "name": "Rabid Randy Gone Fishing",
+  "provider": "netent",
+  "releaseDate": "2026-02-17",
+  "rtp": 96.03,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 6.1",
+  "maxWinMultiplier": 2591.0,
+  "hitRate": 3.64,
+  "reels": 5,
+  "rows": 4,
+  "winLines": {
+    "type": "lines",
+    "count": 25
+  },
+  "minStake": 0.2,
+  "maxStake": 120.0,
+  "features": [
+    "free-spins",
+    "walking-wilds",
+    "wilds",
+    "respins",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/rabid-randy-gone-fishing",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/rabid-randy-gone-fishing"
+  ],
+  "lastVerified": "2026-11-14"
+}

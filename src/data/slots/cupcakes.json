@@ -1,0 +1,36 @@
+{
+  "name": "Cupcakes",
+  "provider": "netent",
+  "releaseDate": "2022-12-07",
+  "rtp": 96.05,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 5.8",
+  "maxWinMultiplier": 2700.0,
+  "hitRate": 3.12,
+  "reels": 7,
+  "rows": 6,
+  "winLines": "TODO",
+  "minStake": 0.1,
+  "maxStake": 200.0,
+  "features": [
+    "free-spins",
+    "cascades",
+    "multipliers",
+    "scatter-pays",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/cupcakes",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/cupcakes"
+  ],
+  "lastVerified": "2026-11-14"
+}

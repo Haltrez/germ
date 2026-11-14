@@ -1,0 +1,36 @@
+{
+  "name": "Strolling Staxx: Cubic Fruits",
+  "provider": "netent",
+  "releaseDate": "2019-01-24",
+  "rtp": 95.98,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 6.1",
+  "maxWinMultiplier": 1400.0,
+  "hitRate": 5.88,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 10
+  },
+  "minStake": 0.15,
+  "maxStake": 300.0,
+  "features": [
+    "wilds",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/strolling-staxx-cubic-fruits",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/strolling-staxx-cubic-fruits"
+  ],
+  "lastVerified": "2026-11-14"
+}

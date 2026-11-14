@@ -1,0 +1,35 @@
+{
+  "name": "Temple of Nudges",
+  "provider": "netent",
+  "releaseDate": "2019-03-21",
+  "rtp": 96.03,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 5.2",
+  "maxWinMultiplier": 600.0,
+  "hitRate": 6.67,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 243
+  },
+  "minStake": 0.25,
+  "maxStake": 250.0,
+  "features": [
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/temple-of-nudges",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/temple-of-nudges"
+  ],
+  "lastVerified": "2026-11-14"
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Excalibur",
+  "provider": "netent",
+  "releaseDate": "2012-07-09",
+  "rtp": 95.08,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 4.6",
+  "maxWinMultiplier": 1800.0,
+  "hitRate": 2.86,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 20
+  },
+  "minStake": 0.2,
+  "maxStake": 80.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/excalibur",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/excalibur"
+  ],
+  "lastVerified": "2026-11-14"
+}

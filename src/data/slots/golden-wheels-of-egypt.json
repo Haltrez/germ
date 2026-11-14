@@ -1,0 +1,40 @@
+{
+  "name": "Golden Wheels of Egypt",
+  "provider": "netent",
+  "releaseDate": "2024-04-15",
+  "rtp": 96.08,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 6.3",
+  "maxWinMultiplier": 5000.0,
+  "hitRate": 3.85,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 20
+  },
+  "minStake": 0.2,
+  "maxStake": 100.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "sticky-wilds",
+    "walking-wilds",
+    "wilds",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/golden-wheels-of-egypt",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/golden-wheels-of-egypt"
+  ],
+  "lastVerified": "2026-11-14"
+}

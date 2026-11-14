@@ -1,0 +1,39 @@
+{
+  "name": "Thrill to Grill",
+  "provider": "netent",
+  "releaseDate": "2023-09-15",
+  "rtp": 96.05,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 5",
+  "maxWinMultiplier": 1900.0,
+  "hitRate": 4.17,
+  "reels": 5,
+  "rows": 5,
+  "winLines": {
+    "type": "lines",
+    "count": 3125
+  },
+  "minStake": 0.2,
+  "maxStake": 200.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "expanding-symbols",
+    "respins",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/thrill-to-grill",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/thrill-to-grill"
+  ],
+  "lastVerified": "2026-11-14"
+}

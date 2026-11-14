@@ -1,0 +1,36 @@
+{
+  "name": "Jack Hammer 3: Diamond Affair",
+  "provider": "netent",
+  "releaseDate": "2024-04-05",
+  "rtp": 96.08,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 6.3",
+  "maxWinMultiplier": 1300.0,
+  "hitRate": 5.88,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": 0.2,
+  "maxStake": 200.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "wilds",
+    "respins",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/jack-hammer-3",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/jack-hammer-3"
+  ],
+  "lastVerified": "2026-11-14"
+}

@@ -12,8 +12,7 @@
   "minStake": "TODO",
   "maxStake": "TODO",
   "features": [
-    "multipliers",
-    "wilds"
+    "multipliers"
   ],
   "themes": [],
   "categories": [],

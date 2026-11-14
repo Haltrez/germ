@@ -1,0 +1,37 @@
+{
+  "name": "Hotline 2",
+  "provider": "netent",
+  "releaseDate": "2020-08-24",
+  "rtp": 96.05,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 8",
+  "maxWinMultiplier": 3500.0,
+  "hitRate": 5.0,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 1944
+  },
+  "minStake": 0.1,
+  "maxStake": 150.0,
+  "features": [
+    "free-spins",
+    "expanding-symbols",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/hotline-2",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/hotline-2"
+  ],
+  "lastVerified": "2026-11-14"
+}

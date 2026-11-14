@@ -1,0 +1,36 @@
+{
+  "name": "Jumanji",
+  "provider": "netent",
+  "releaseDate": "2018-06-20",
+  "rtp": 96.33,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 4.2",
+  "maxWinMultiplier": 500.0,
+  "hitRate": 4.0,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 36
+  },
+  "minStake": 0.1,
+  "maxStake": 200.0,
+  "features": [
+    "free-spins",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/jumanji",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/jumanji"
+  ],
+  "lastVerified": "2026-11-14"
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Divine Fortune Megaways",
+  "provider": "netent",
+  "releaseDate": "2020-11-24",
+  "rtp": 96.09,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 6.5",
+  "maxWinMultiplier": 4500.0,
+  "hitRate": 2.44,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 117649
+  },
+  "minStake": 0.1,
+  "maxStake": 100.0,
+  "features": [
+    "free-spins",
+    "megaways",
+    "expanding-symbols",
+    "wilds",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/divine-fortune-megaways",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/divine-fortune-megaways"
+  ],
+  "lastVerified": "2026-11-14"
+}

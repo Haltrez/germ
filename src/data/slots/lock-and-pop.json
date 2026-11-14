@@ -1,0 +1,38 @@
+{
+  "name": "Lock and Pop",
+  "provider": "netent",
+  "releaseDate": "2024-05-21",
+  "rtp": 96.09,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 5",
+  "maxWinMultiplier": 4000.0,
+  "hitRate": 3.33,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 20
+  },
+  "minStake": 0.2,
+  "maxStake": 120.0,
+  "features": [
+    "free-spins",
+    "wilds",
+    "retrigger",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/lock-and-pop",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/lock-and-pop"
+  ],
+  "lastVerified": "2026-11-14"
+}

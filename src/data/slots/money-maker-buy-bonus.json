@@ -1,0 +1,29 @@
+{
+  "name": "Money Maker 2 Buy Bonus",
+  "provider": "novomatic",
+  "releaseDate": "2026-06-16",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 3,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "bonus-buy",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://www.greentube.com/game/money-maker-buy-bonus/"
+  ],
+  "lastVerified": "2026-11-14"
+}

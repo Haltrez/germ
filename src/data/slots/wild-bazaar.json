@@ -1,0 +1,36 @@
+{
+  "name": "Wild Bazaar",
+  "provider": "netent",
+  "releaseDate": "2018-10-24",
+  "rtp": 96.15,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 6.5",
+  "maxWinMultiplier": 800.0,
+  "hitRate": 3.57,
+  "reels": 5,
+  "rows": 4,
+  "winLines": {
+    "type": "lines",
+    "count": 26
+  },
+  "minStake": 0.2,
+  "maxStake": 400.0,
+  "features": [
+    "multipliers",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/wild-bazaar",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/wild-bazaar"
+  ],
+  "lastVerified": "2026-11-14"
+}

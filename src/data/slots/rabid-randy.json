@@ -1,0 +1,39 @@
+{
+  "name": "Rabid Randy",
+  "provider": "netent",
+  "releaseDate": "2024-10-08",
+  "rtp": 96.13,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 7",
+  "maxWinMultiplier": 1200.0,
+  "hitRate": 5.56,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 20
+  },
+  "minStake": 0.1,
+  "maxStake": 300.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "expanding-symbols",
+    "wilds",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/rabid-randy",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/rabid-randy"
+  ],
+  "lastVerified": "2026-11-14"
+}

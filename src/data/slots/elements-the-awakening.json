@@ -1,0 +1,37 @@
+{
+  "name": "Elements: The Awakening",
+  "provider": "netent",
+  "releaseDate": "2012-08-22",
+  "rtp": 96.02,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 4.8",
+  "maxWinMultiplier": 800.0,
+  "hitRate": 3.45,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 20
+  },
+  "minStake": 0.2,
+  "maxStake": 100.0,
+  "features": [
+    "cascades",
+    "expanding-symbols",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/elements-the-awakening",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/elements-the-awakening"
+  ],
+  "lastVerified": "2026-11-14"
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Mummy Megaways",
+  "provider": "netent",
+  "releaseDate": "2024-10-29",
+  "rtp": 96.2,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 17.96",
+  "maxWinMultiplier": 16321.0,
+  "hitRate": 3.77,
+  "reels": 6,
+  "rows": 7,
+  "winLines": {
+    "type": "lines",
+    "count": 117649
+  },
+  "minStake": 0.1,
+  "maxStake": 100.0,
+  "features": [
+    "cascades",
+    "megaways",
+    "expanding-symbols",
+    "wilds",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/mummy-megaways",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/mummy-megaways"
+  ],
+  "lastVerified": "2026-11-14"
+}

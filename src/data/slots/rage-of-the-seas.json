@@ -1,0 +1,38 @@
+{
+  "name": "Rage of the Seas",
+  "provider": "netent",
+  "releaseDate": "2020-09-17",
+  "rtp": 96.04,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 8.1",
+  "maxWinMultiplier": 2000.0,
+  "hitRate": 3.57,
+  "reels": 5,
+  "rows": 7,
+  "winLines": {
+    "type": "lines",
+    "count": 5488
+  },
+  "minStake": 0.2,
+  "maxStake": 400.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "expanding-symbols",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/rage-of-the-seas",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/rage-of-the-seas"
+  ],
+  "lastVerified": "2026-11-14"
+}

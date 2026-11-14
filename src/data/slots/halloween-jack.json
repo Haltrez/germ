@@ -1,0 +1,39 @@
+{
+  "name": "Halloween Jack",
+  "provider": "netent",
+  "releaseDate": "2018-10-24",
+  "rtp": 96.28,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 7.7",
+  "maxWinMultiplier": 7100.0,
+  "hitRate": 2.94,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 20
+  },
+  "minStake": 0.2,
+  "maxStake": 100.0,
+  "features": [
+    "free-spins",
+    "walking-wilds",
+    "expanding-symbols",
+    "wilds",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/halloween-jack",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/halloween-jack"
+  ],
+  "lastVerified": "2026-11-14"
+}

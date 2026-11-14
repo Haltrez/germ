@@ -1,0 +1,38 @@
+{
+  "name": "Space Wars Megaways XXXtreme",
+  "provider": "netent",
+  "releaseDate": "2024-08-13",
+  "rtp": 96.16,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 9.6",
+  "maxWinMultiplier": 14400.0,
+  "hitRate": 6.67,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 117649
+  },
+  "minStake": 0.4,
+  "maxStake": 32.0,
+  "features": [
+    "megaways",
+    "wilds",
+    "respins",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/space-wars-megaways-xxxtreme",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/space-wars-megaways-xxxtreme"
+  ],
+  "lastVerified": "2026-11-14"
+}

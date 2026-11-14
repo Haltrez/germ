@@ -1,0 +1,36 @@
+{
+  "name": "Golden Grimoire",
+  "provider": "netent",
+  "releaseDate": "2019-02-21",
+  "rtp": 96.44,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 5",
+  "maxWinMultiplier": 500.0,
+  "hitRate": 4.76,
+  "reels": 5,
+  "rows": 4,
+  "winLines": {
+    "type": "lines",
+    "count": 20
+  },
+  "minStake": 0.2,
+  "maxStake": 400.0,
+  "features": [
+    "free-spins",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/golden-grimoire",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/golden-grimoire"
+  ],
+  "lastVerified": "2026-11-14"
+}

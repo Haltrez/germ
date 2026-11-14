@@ -1,0 +1,37 @@
+{
+  "name": "Jungle Spirit: Call of the Wild",
+  "provider": "netent",
+  "releaseDate": "2017-03-18",
+  "rtp": 96.47,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 9.1",
+  "maxWinMultiplier": 7700.0,
+  "hitRate": 5.88,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 1024
+  },
+  "minStake": 0.2,
+  "maxStake": 100.0,
+  "features": [
+    "free-spins",
+    "expanding-symbols",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/jungle-spirit-call-of-the-wild",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/jungle-spirit-call-of-the-wild"
+  ],
+  "lastVerified": "2026-11-14"
+}

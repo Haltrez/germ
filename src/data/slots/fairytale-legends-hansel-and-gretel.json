@@ -1,0 +1,39 @@
+{
+  "name": "Fairytale Legends: Hansel and Gretel",
+  "provider": "netent",
+  "releaseDate": "2017-04-24",
+  "rtp": 96.71,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 4.3",
+  "maxWinMultiplier": 800.0,
+  "hitRate": 6.25,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 10
+  },
+  "minStake": 0.1,
+  "maxStake": 20.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "cluster-pays",
+    "wilds",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/fairytale-legends-hansel-and-gretel",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/fairytale-legends-hansel-and-gretel"
+  ],
+  "lastVerified": "2026-11-14"
+}

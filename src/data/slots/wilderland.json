@@ -1,0 +1,39 @@
+{
+  "name": "Wilderland",
+  "provider": "netent",
+  "releaseDate": "2020-03-24",
+  "rtp": 96.16,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 4.3",
+  "maxWinMultiplier": 800.0,
+  "hitRate": 2.5,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 20
+  },
+  "minStake": 0.2,
+  "maxStake": 400.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "walking-wilds",
+    "expanding-symbols",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/wilderland",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/wilderland"
+  ],
+  "lastVerified": "2026-11-14"
+}

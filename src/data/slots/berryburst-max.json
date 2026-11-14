@@ -1,0 +1,34 @@
+{
+  "name": "Berryburst MAX",
+  "provider": "netent",
+  "releaseDate": "2018-08-23",
+  "rtp": 96.23,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 9.4",
+  "maxWinMultiplier": 3000.0,
+  "hitRate": 6.67,
+  "reels": 5,
+  "rows": 3,
+  "winLines": "TODO",
+  "minStake": 0.1,
+  "maxStake": 200.0,
+  "features": [
+    "expanding-symbols",
+    "wilds",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/berryburst-max",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/berryburst-max"
+  ],
+  "lastVerified": "2026-11-14"
+}

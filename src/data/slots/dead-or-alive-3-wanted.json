@@ -1,0 +1,37 @@
+{
+  "name": "Dead or Alive 3: Wanted",
+  "provider": "netent",
+  "releaseDate": "2026-03-26",
+  "rtp": 96.03,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 10",
+  "maxWinMultiplier": 66666.0,
+  "hitRate": 4.35,
+  "reels": 5,
+  "rows": 5,
+  "winLines": "TODO",
+  "minStake": 0.1,
+  "maxStake": 14.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "sticky-wilds",
+    "wilds",
+    "respins",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/dead-or-alive-3-wanted",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/dead-or-alive-3-wanted"
+  ],
+  "lastVerified": "2026-11-14"
+}

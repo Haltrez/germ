@@ -1,0 +1,28 @@
+{
+  "name": "Multi Coins Joker",
+  "provider": "novomatic",
+  "releaseDate": "2027-01-19",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 3,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "hold-and-win"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://www.greentube.com/game/multi-coins-joker/"
+  ],
+  "lastVerified": "2026-11-14"
+}

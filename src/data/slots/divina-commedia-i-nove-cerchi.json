@@ -1,0 +1,33 @@
+{
+  "name": "Divina Commedia I Nove Cerchi",
+  "provider": "play-n-go",
+  "releaseDate": "2025-10-28",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "hold-and-win",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://released.playngonetwork.com/casino/ContainerLauncher?pid=2&gid=divinacommedia&lang=de_DE&practice=1&channel=desktop&demo=2",
+  "demoSource": "official-provider",
+  "demoSourceName": "Play'n GO",
+  "demoLicenseNote": "Offizielle Demo von Play'n GO, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://www.playngo.com/games/divina-commedia-i-nove-cerchi"
+  ],
+  "lastVerified": "2026-11-14"
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Robin Hood: Shifting Riches",
+  "provider": "netent",
+  "releaseDate": "2011-09-14",
+  "rtp": 96.75,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 4.3",
+  "maxWinMultiplier": 1300.0,
+  "hitRate": 2.78,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 20
+  },
+  "minStake": 0.2,
+  "maxStake": 100.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/robin-hood-shifting-riches",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/robin-hood-shifting-riches"
+  ],
+  "lastVerified": "2026-11-14"
+}

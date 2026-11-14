@@ -1,0 +1,41 @@
+{
+  "name": "Fruit Shop Grand Re-Opening",
+  "provider": "netent",
+  "releaseDate": "2026-07-02",
+  "rtp": 96.37,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 9.5",
+  "maxWinMultiplier": 5000.0,
+  "hitRate": 4.56,
+  "reels": 5,
+  "rows": 6,
+  "winLines": {
+    "type": "lines",
+    "count": 34
+  },
+  "minStake": 0.2,
+  "maxStake": 100.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "sticky-wilds",
+    "expanding-symbols",
+    "wilds",
+    "respins",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/fruit-shop-grand-re-opening",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/fruit-shop-grand-re-opening"
+  ],
+  "lastVerified": "2026-11-14"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Vikings Video Slot",
+  "provider": "netent",
+  "releaseDate": "2018-11-22",
+  "rtp": 96.05,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 9.6",
+  "maxWinMultiplier": 5600.0,
+  "hitRate": 5.56,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 78125
+  },
+  "minStake": 0.2,
+  "maxStake": 100.0,
+  "features": [
+    "cluster-pays",
+    "expanding-symbols"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/vikings",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/vikings"
+  ],
+  "lastVerified": "2026-11-14"
+}

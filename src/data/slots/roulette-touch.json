@@ -1,0 +1,28 @@
+{
+  "name": "Roulette Touch",
+  "provider": "netent",
+  "releaseDate": "2014-05-28",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": 4620.0,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": 1.0,
+  "maxStake": 500.0,
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/roulette-touch",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/roulette-touch"
+  ],
+  "lastVerified": "2026-11-14"
+}

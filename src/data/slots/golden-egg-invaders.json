@@ -1,0 +1,38 @@
+{
+  "name": "Golden Egg Invaders",
+  "provider": "netent",
+  "releaseDate": "2025-04-14",
+  "rtp": 96.13,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 7",
+  "maxWinMultiplier": 2200.0,
+  "hitRate": 5.56,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 20
+  },
+  "minStake": 0.1,
+  "maxStake": 300.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "wilds",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/golden-egg-invaders",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/golden-egg-invaders"
+  ],
+  "lastVerified": "2026-11-14"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Dazzle Me",
+  "provider": "netent",
+  "releaseDate": "2015-08-24",
+  "rtp": 96.91,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 3.8",
+  "maxWinMultiplier": 700.0,
+  "hitRate": 5.26,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 76
+  },
+  "minStake": 0.2,
+  "maxStake": 200.0,
+  "features": [
+    "free-spins",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/dazzle-me",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/dazzle-me"
+  ],
+  "lastVerified": "2026-11-14"
+}

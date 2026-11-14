@@ -1,0 +1,39 @@
+{
+  "name": "Nunchucks",
+  "provider": "netent",
+  "releaseDate": "2026-10-29",
+  "rtp": 96.21,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 9.1",
+  "maxWinMultiplier": 12000.0,
+  "hitRate": 3.57,
+  "reels": 6,
+  "rows": 4,
+  "winLines": {
+    "type": "lines",
+    "count": 4096
+  },
+  "minStake": 0.2,
+  "maxStake": 40.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "wilds",
+    "respins",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/nunchucks",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/nunchucks"
+  ],
+  "lastVerified": "2026-11-14"
+}

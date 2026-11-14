@@ -1,0 +1,35 @@
+{
+  "name": "Wild Mining XXXtreme",
+  "provider": "netent",
+  "releaseDate": "2025-02-27",
+  "rtp": 96.08,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 9.9",
+  "maxWinMultiplier": 25000.0,
+  "hitRate": 4.35,
+  "reels": 6,
+  "rows": 5,
+  "winLines": "TODO",
+  "minStake": 0.2,
+  "maxStake": 20.0,
+  "features": [
+    "cascades",
+    "multipliers",
+    "wilds",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/wild-mining-xxxtreme",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/wild-mining-xxxtreme"
+  ],
+  "lastVerified": "2026-11-14"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Turn Your Fortune",
+  "provider": "netent",
+  "releaseDate": "2019-01-03",
+  "rtp": 96.24,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 6.8",
+  "maxWinMultiplier": 2000.0,
+  "hitRate": 4.17,
+  "reels": 5,
+  "rows": 4,
+  "winLines": {
+    "type": "lines",
+    "count": 40
+  },
+  "minStake": 0.2,
+  "maxStake": 200.0,
+  "features": [
+    "free-spins",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/turn-your-fortune",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/turn-your-fortune"
+  ],
+  "lastVerified": "2026-11-14"
+}

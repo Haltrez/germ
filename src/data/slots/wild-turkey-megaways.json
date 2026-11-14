@@ -1,0 +1,38 @@
+{
+  "name": "Wild Turkey Megaways",
+  "provider": "netent",
+  "releaseDate": "2023-07-20",
+  "rtp": 96.05,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 13.4",
+  "maxWinMultiplier": 7239.0,
+  "hitRate": 4.55,
+  "reels": 6,
+  "rows": 7,
+  "winLines": {
+    "type": "lines",
+    "count": 117649
+  },
+  "minStake": 0.1,
+  "maxStake": 80.0,
+  "features": [
+    "free-spins",
+    "megaways",
+    "wilds",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/wild-turkey-megaways",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/wild-turkey-megaways"
+  ],
+  "lastVerified": "2026-11-14"
+}

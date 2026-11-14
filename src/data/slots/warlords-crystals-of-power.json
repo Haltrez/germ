@@ -1,0 +1,39 @@
+{
+  "name": "Warlords - Crystals of Power",
+  "provider": "netent",
+  "releaseDate": "2019-11-24",
+  "rtp": 96.89,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 4.9",
+  "maxWinMultiplier": 1500.0,
+  "hitRate": 3.03,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 30
+  },
+  "minStake": 0.15,
+  "maxStake": 150.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "sticky-wilds",
+    "wilds",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/warlords-crystals-of-power",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/warlords-crystals-of-power"
+  ],
+  "lastVerified": "2026-11-14"
+}

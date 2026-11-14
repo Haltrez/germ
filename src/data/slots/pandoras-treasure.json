@@ -1,0 +1,38 @@
+{
+  "name": "Pandora’s Treasure",
+  "provider": "netent",
+  "releaseDate": "2024-05-02",
+  "rtp": 96.13,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 10.35",
+  "maxWinMultiplier": 10368.0,
+  "hitRate": 3.71,
+  "reels": 6,
+  "rows": 4,
+  "winLines": {
+    "type": "lines",
+    "count": 4096
+  },
+  "minStake": 0.1,
+  "maxStake": 40.0,
+  "features": [
+    "free-spins",
+    "cascades",
+    "retrigger",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/pandoras-treasure",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/pandoras-treasure"
+  ],
+  "lastVerified": "2026-11-14"
+}

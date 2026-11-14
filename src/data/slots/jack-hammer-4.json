@@ -1,0 +1,38 @@
+{
+  "name": "Jack Hammer 4: Chasing the Dragon",
+  "provider": "netent",
+  "releaseDate": "2025-07-10",
+  "rtp": 96.03,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 9.9",
+  "maxWinMultiplier": 10000.0,
+  "hitRate": 4.17,
+  "reels": 6,
+  "rows": 6,
+  "winLines": "TODO",
+  "minStake": 0.2,
+  "maxStake": 400.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "cluster-pays",
+    "expanding-symbols",
+    "wilds",
+    "respins",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/jack-hammer-4",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/jack-hammer-4"
+  ],
+  "lastVerified": "2026-11-14"
+}

@@ -1,0 +1,38 @@
+{
+  "name": "King of 3 Kingdoms",
+  "provider": "netent",
+  "releaseDate": "2019-08-30",
+  "rtp": 96.88,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 6.2",
+  "maxWinMultiplier": 1000.0,
+  "hitRate": 2.33,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 243
+  },
+  "minStake": 0.25,
+  "maxStake": 125.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "wilds",
+    "retrigger"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/king-of-3-kingdoms",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/king-of-3-kingdoms"
+  ],
+  "lastVerified": "2026-11-14"
+}

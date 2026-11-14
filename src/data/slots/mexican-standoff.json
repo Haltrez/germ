@@ -1,0 +1,38 @@
+{
+  "name": "Mexican Standoff",
+  "provider": "netent",
+  "releaseDate": "2026-11-12",
+  "rtp": 96.05,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 10",
+  "maxWinMultiplier": 15000.0,
+  "hitRate": 4.54,
+  "reels": 6,
+  "rows": 6,
+  "winLines": "TODO",
+  "minStake": 0.2,
+  "maxStake": 20.0,
+  "features": [
+    "free-spins",
+    "cascades",
+    "multipliers",
+    "cluster-pays",
+    "expanding-symbols",
+    "wilds",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/mexican-standoff",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/mexican-standoff"
+  ],
+  "lastVerified": "2026-11-14"
+}

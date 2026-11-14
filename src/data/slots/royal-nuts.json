@@ -1,0 +1,38 @@
+{
+  "name": "Royal Nuts",
+  "provider": "netent",
+  "releaseDate": "2024-06-25",
+  "rtp": 96.05,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 6.1",
+  "maxWinMultiplier": 5700.0,
+  "hitRate": 4.35,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 36
+  },
+  "minStake": 0.2,
+  "maxStake": 80.0,
+  "features": [
+    "free-spins",
+    "expanding-symbols",
+    "wilds",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/royal-nuts",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/royal-nuts"
+  ],
+  "lastVerified": "2026-11-14"
+}

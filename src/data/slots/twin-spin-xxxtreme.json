@@ -1,0 +1,37 @@
+{
+  "name": "Twin Spin XXXtreme",
+  "provider": "netent",
+  "releaseDate": "2023-05-25",
+  "rtp": 96.06,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 9.8",
+  "maxWinMultiplier": 9600.0,
+  "hitRate": 4.0,
+  "reels": 6,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 729
+  },
+  "minStake": 0.25,
+  "maxStake": 50.0,
+  "features": [
+    "multipliers",
+    "expanding-symbols",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/twin-spin-xxxtreme",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/twin-spin-xxxtreme"
+  ],
+  "lastVerified": "2026-11-14"
+}

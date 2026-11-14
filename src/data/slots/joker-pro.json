@@ -1,0 +1,37 @@
+{
+  "name": "Joker Pro",
+  "provider": "netent",
+  "releaseDate": "2016-07-12",
+  "rtp": 96.8,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 8.4",
+  "maxWinMultiplier": 1000.0,
+  "hitRate": 7.14,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 10
+  },
+  "minStake": 0.1,
+  "maxStake": 100.0,
+  "features": [
+    "sticky-wilds",
+    "wilds",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/joker-pro",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/joker-pro"
+  ],
+  "lastVerified": "2026-11-14"
+}

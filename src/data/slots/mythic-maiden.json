@@ -1,0 +1,38 @@
+{
+  "name": "Mythic Maiden",
+  "provider": "netent",
+  "releaseDate": "2011-11-26",
+  "rtp": 96.58,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 4",
+  "maxWinMultiplier": 2100.0,
+  "hitRate": 2.7,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 30
+  },
+  "minStake": 0.3,
+  "maxStake": 150.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "wilds",
+    "retrigger"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/mythic-maiden",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/mythic-maiden"
+  ],
+  "lastVerified": "2026-11-14"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Casino Hold'em Poker",
+  "provider": "netent",
+  "releaseDate": "2019-06-04",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": 10.0,
+  "maxStake": 10000.0,
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/casino-hold-em-poker",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/casino-hold-em-poker"
+  ],
+  "lastVerified": "2026-11-14"
+}

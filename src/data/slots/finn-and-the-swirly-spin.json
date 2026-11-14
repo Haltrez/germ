@@ -1,0 +1,35 @@
+{
+  "name": "Finn and the Swirly Spin",
+  "provider": "netent",
+  "releaseDate": "2017-11-23",
+  "rtp": 96.62,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 4.4",
+  "maxWinMultiplier": 300.0,
+  "hitRate": 4.55,
+  "reels": 5,
+  "rows": 5,
+  "winLines": "TODO",
+  "minStake": 0.1,
+  "maxStake": 200.0,
+  "features": [
+    "free-spins",
+    "cascades",
+    "sticky-wilds",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/finn-and-the-swirly-spin",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/finn-and-the-swirly-spin"
+  ],
+  "lastVerified": "2026-11-14"
+}

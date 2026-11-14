@@ -1,0 +1,36 @@
+{
+  "name": "Butterfly Staxx",
+  "provider": "netent",
+  "releaseDate": "2017-06-21",
+  "rtp": 96.8,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 3.5",
+  "maxWinMultiplier": 300.0,
+  "hitRate": 4.17,
+  "reels": 5,
+  "rows": 4,
+  "winLines": {
+    "type": "lines",
+    "count": 40
+  },
+  "minStake": 0.2,
+  "maxStake": 400.0,
+  "features": [
+    "wilds",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/butterfly-staxx",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/butterfly-staxx"
+  ],
+  "lastVerified": "2026-11-14"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Baccarat professional series",
+  "provider": "netent",
+  "releaseDate": "2016-01-05",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": 9000.0,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": 0.1,
+  "maxStake": 1000.0,
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/baccarat-professional-series-1",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/baccarat-professional-series-1"
+  ],
+  "lastVerified": "2026-11-14"
+}

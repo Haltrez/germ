@@ -1,0 +1,31 @@
+{
+  "name": "Casino Night",
+  "provider": "netent",
+  "releaseDate": "2024-08-27",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": 10000.0,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": 0.1,
+  "maxStake": 200.0,
+  "features": [
+    "free-spins",
+    "multipliers"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/casino-night",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/casino-night"
+  ],
+  "lastVerified": "2026-11-14"
+}

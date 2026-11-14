@@ -1,0 +1,33 @@
+{
+  "name": "24k Dragon",
+  "provider": "play-n-go",
+  "releaseDate": "2020-11-19",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "wilds",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://released.playngonetwork.com/casino/ContainerLauncher?pid=2&gid=twentyfourkdragon&lang=de_DE&practice=1&channel=desktop&demo=2",
+  "demoSource": "official-provider",
+  "demoSourceName": "Play'n GO",
+  "demoLicenseNote": "Offizielle Demo von Play'n GO, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://www.playngo.com/games/24k-dragon"
+  ],
+  "lastVerified": "2026-11-14"
+}

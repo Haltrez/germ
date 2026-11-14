@@ -1,0 +1,35 @@
+{
+  "name": "Coins of Egypt",
+  "provider": "netent",
+  "releaseDate": "2018-03-20",
+  "rtp": 96.97,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 3.7",
+  "maxWinMultiplier": 200.0,
+  "hitRate": 3.45,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 20
+  },
+  "minStake": 0.2,
+  "maxStake": 200.0,
+  "features": [
+    "free-spins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/coins-of-egypt",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/coins-of-egypt"
+  ],
+  "lastVerified": "2026-11-14"
+}

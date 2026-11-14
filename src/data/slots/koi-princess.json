@@ -1,0 +1,37 @@
+{
+  "name": "Koi Princess",
+  "provider": "netent",
+  "releaseDate": "2015-11-24",
+  "rtp": 96.23,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 5.8",
+  "maxWinMultiplier": 1500.0,
+  "hitRate": 3.45,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 20
+  },
+  "minStake": 0.2,
+  "maxStake": 400.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/koi-princess",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/koi-princess"
+  ],
+  "lastVerified": "2026-11-14"
+}

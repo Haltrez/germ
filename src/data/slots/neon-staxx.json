@@ -1,0 +1,36 @@
+{
+  "name": "Neon Staxx",
+  "provider": "netent",
+  "releaseDate": "2015-06-24",
+  "rtp": 96.9,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 4.1",
+  "maxWinMultiplier": 600.0,
+  "hitRate": 3.57,
+  "reels": 5,
+  "rows": 4,
+  "winLines": {
+    "type": "lines",
+    "count": 40
+  },
+  "minStake": 0.2,
+  "maxStake": 100.0,
+  "features": [
+    "free-spins",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/neon-staxx",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/neon-staxx"
+  ],
+  "lastVerified": "2026-11-14"
+}

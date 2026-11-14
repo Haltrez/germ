@@ -1,0 +1,39 @@
+{
+  "name": "Big Money Wheel",
+  "provider": "netent",
+  "releaseDate": "2024-06-04",
+  "rtp": 96.07,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 9.1",
+  "maxWinMultiplier": 12000.0,
+  "hitRate": 4.55,
+  "reels": 6,
+  "rows": 4,
+  "winLines": {
+    "type": "lines",
+    "count": 1024
+  },
+  "minStake": 0.2,
+  "maxStake": 40.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "wilds",
+    "respins",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/big-money-wheel",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/big-money-wheel"
+  ],
+  "lastVerified": "2026-11-14"
+}

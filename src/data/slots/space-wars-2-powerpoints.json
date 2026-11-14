@@ -1,0 +1,36 @@
+{
+  "name": "Space Wars 2 Powerpoints",
+  "provider": "netent",
+  "releaseDate": "2022-06-30",
+  "rtp": 96.1,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 9.8",
+  "maxWinMultiplier": 10000.0,
+  "hitRate": 2.33,
+  "reels": 6,
+  "rows": 6,
+  "winLines": "TODO",
+  "minStake": 0.2,
+  "maxStake": 100.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "cluster-pays",
+    "expanding-symbols",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/space-wars-2-powerpoints",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/space-wars-2-powerpoints"
+  ],
+  "lastVerified": "2026-11-14"
+}

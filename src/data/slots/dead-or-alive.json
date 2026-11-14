@@ -1,0 +1,38 @@
+{
+  "name": "Dead or Alive",
+  "provider": "netent",
+  "releaseDate": "2009-11-10",
+  "rtp": 96.82,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 9.9",
+  "maxWinMultiplier": 8600.0,
+  "hitRate": 3.33,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 9
+  },
+  "minStake": 0.09,
+  "maxStake": 18.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "sticky-wilds",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/dead-or-alive",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/dead-or-alive"
+  ],
+  "lastVerified": "2026-11-14"
+}

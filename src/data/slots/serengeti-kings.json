@@ -1,0 +1,38 @@
+{
+  "name": "Serengeti Kings",
+  "provider": "netent",
+  "releaseDate": "2020-01-23",
+  "rtp": 96.2,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 8.7",
+  "maxWinMultiplier": 4900.0,
+  "hitRate": 4.17,
+  "reels": 5,
+  "rows": 4,
+  "winLines": {
+    "type": "lines",
+    "count": 26
+  },
+  "minStake": 0.1,
+  "maxStake": 100.0,
+  "features": [
+    "free-spins",
+    "multipliers",
+    "wilds",
+    "bonus-buy"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/serengeti-kings",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/serengeti-kings"
+  ],
+  "lastVerified": "2026-11-14"
+}

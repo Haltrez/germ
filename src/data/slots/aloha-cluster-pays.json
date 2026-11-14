@@ -1,0 +1,34 @@
+{
+  "name": "Aloha! Cluster Pays",
+  "provider": "netent",
+  "releaseDate": "2016-03-22",
+  "rtp": 96.42,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 3.9",
+  "maxWinMultiplier": 700.0,
+  "hitRate": 4.76,
+  "reels": 6,
+  "rows": 5,
+  "winLines": "TODO",
+  "minStake": 0.1,
+  "maxStake": 200.0,
+  "features": [
+    "free-spins",
+    "cluster-pays",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/aloha-cluster-pays",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/aloha-cluster-pays"
+  ],
+  "lastVerified": "2026-11-14"
+}

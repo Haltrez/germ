@@ -1,0 +1,36 @@
+{
+  "name": "Fortune Rangers",
+  "provider": "netent",
+  "releaseDate": "2019-10-14",
+  "rtp": 96.9,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 3.8",
+  "maxWinMultiplier": 700.0,
+  "hitRate": 5.26,
+  "reels": 5,
+  "rows": 5,
+  "winLines": {
+    "type": "lines",
+    "count": 76
+  },
+  "minStake": 0.2,
+  "maxStake": 200.0,
+  "features": [
+    "free-spins",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/fortune-rangers",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/fortune-rangers"
+  ],
+  "lastVerified": "2026-11-14"
+}

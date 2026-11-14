@@ -1,0 +1,38 @@
+{
+  "name": "Mercy of the Gods",
+  "provider": "netent",
+  "releaseDate": "2018-12-17",
+  "rtp": 96.64,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 8.1",
+  "maxWinMultiplier": 2500.0,
+  "hitRate": 5.56,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 20
+  },
+  "minStake": 0.2,
+  "maxStake": 100.0,
+  "features": [
+    "free-spins",
+    "expanding-symbols",
+    "wilds",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/mercy-of-the-gods",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/mercy-of-the-gods"
+  ],
+  "lastVerified": "2026-11-14"
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Motörhead",
+  "provider": "netent",
+  "releaseDate": "2016-09-22",
+  "rtp": 96.98,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 3.5",
+  "maxWinMultiplier": 600.0,
+  "hitRate": 6.25,
+  "reels": 5,
+  "rows": "3-5",
+  "winLines": {
+    "type": "lines",
+    "count": 76
+  },
+  "minStake": 0.2,
+  "maxStake": 200.0,
+  "features": [
+    "free-spins",
+    "cluster-pays",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/motorhead",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/motorhead"
+  ],
+  "lastVerified": "2026-11-14"
+}

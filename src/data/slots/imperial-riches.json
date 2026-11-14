@@ -1,0 +1,36 @@
+{
+  "name": "Imperial Riches",
+  "provider": "netent",
+  "releaseDate": "2019-09-04",
+  "rtp": 96.88,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 2.5",
+  "maxWinMultiplier": 200.0,
+  "hitRate": 2.44,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 15
+  },
+  "minStake": 0.15,
+  "maxStake": 30.0,
+  "features": [
+    "cascades",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/imperial-riches",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/imperial-riches"
+  ],
+  "lastVerified": "2026-11-14"
+}

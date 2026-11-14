@@ -1,0 +1,38 @@
+{
+  "name": "Dr. Toonz",
+  "provider": "play-n-go",
+  "releaseDate": "TODO",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "ways",
+    "count": 262144
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "cascades",
+    "multipliers",
+    "cluster-pays",
+    "wilds",
+    "retrigger"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://released.playngonetwork.com/casino/ContainerLauncher?pid=2&gid=drtoonz&lang=de_DE&practice=1&channel=desktop&demo=2",
+  "demoSource": "official-provider",
+  "demoSourceName": "Play'n GO",
+  "demoLicenseNote": "Offizielle Demo von Play'n GO, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://www.playngo.com/games/dr-toonz"
+  ],
+  "lastVerified": "2026-11-14"
+}

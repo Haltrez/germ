@@ -1,0 +1,36 @@
+{
+  "name": "Super Striker",
+  "provider": "netent",
+  "releaseDate": "2020-04-29",
+  "rtp": 96.93,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 7.4",
+  "maxWinMultiplier": 1700.0,
+  "hitRate": 7.14,
+  "reels": 3,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 5
+  },
+  "minStake": 0.1,
+  "maxStake": 75.0,
+  "features": [
+    "free-spins",
+    "multipliers"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/super-striker",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/super-striker"
+  ],
+  "lastVerified": "2026-11-14"
+}

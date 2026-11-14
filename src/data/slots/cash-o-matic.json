@@ -1,0 +1,37 @@
+{
+  "name": "Cashomatic",
+  "provider": "netent",
+  "releaseDate": "2019-06-24",
+  "rtp": 96.33,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 8.2",
+  "maxWinMultiplier": 2200.0,
+  "hitRate": 8.33,
+  "reels": 5,
+  "rows": 4,
+  "winLines": {
+    "type": "lines",
+    "count": 1024
+  },
+  "minStake": 0.2,
+  "maxStake": 100.0,
+  "features": [
+    "free-spins",
+    "cascades",
+    "multipliers"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/cash-o-matic",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/cash-o-matic"
+  ],
+  "lastVerified": "2026-11-14"
+}

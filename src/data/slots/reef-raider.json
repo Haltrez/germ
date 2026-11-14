@@ -1,0 +1,36 @@
+{
+  "name": "Reef Raider",
+  "provider": "netent",
+  "releaseDate": "2021-08-12",
+  "rtp": 96.1,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 9.4",
+  "maxWinMultiplier": 8700.0,
+  "hitRate": 3.03,
+  "reels": 7,
+  "rows": 7,
+  "winLines": "TODO",
+  "minStake": 0.2,
+  "maxStake": 100.0,
+  "features": [
+    "free-spins",
+    "cascades",
+    "multipliers",
+    "cluster-pays",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/reef-raider",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/reef-raider"
+  ],
+  "lastVerified": "2026-11-14"
+}

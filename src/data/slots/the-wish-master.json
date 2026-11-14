@@ -1,0 +1,37 @@
+{
+  "name": "The Wish Master",
+  "provider": "netent",
+  "releaseDate": "2014-08-14",
+  "rtp": 96.64,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 7.8",
+  "maxWinMultiplier": 2200.0,
+  "hitRate": 2.63,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 20
+  },
+  "minStake": 0.2,
+  "maxStake": 100.0,
+  "features": [
+    "multipliers",
+    "expanding-symbols",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/the-wish-master",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/the-wish-master"
+  ],
+  "lastVerified": "2026-11-14"
+}

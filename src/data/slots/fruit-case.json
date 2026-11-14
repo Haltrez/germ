@@ -1,0 +1,37 @@
+{
+  "name": "Fruit Case",
+  "provider": "netent",
+  "releaseDate": "2011-01-02",
+  "rtp": 96.42,
+  "volatility": "TODO",
+  "volatilityNote": "NetEnt-Wert 6.5",
+  "maxWinMultiplier": 2600.0,
+  "hitRate": 2.44,
+  "reels": 5,
+  "rows": 3,
+  "winLines": {
+    "type": "lines",
+    "count": 20
+  },
+  "minStake": 0.2,
+  "maxStake": 100.0,
+  "features": [
+    "cascades",
+    "multipliers",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://netent.com/demo/fruit-case",
+  "demoSource": "official-provider",
+  "demoSourceName": "NetEnt",
+  "demoLicenseNote": "Offizielle Demo von NetEnt, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://netent.com/games/fruit-case"
+  ],
+  "lastVerified": "2026-11-14"
+}
