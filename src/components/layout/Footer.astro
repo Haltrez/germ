@@ -1,6 +1,6 @@
 ---
 import Logo from './Logo.astro';
-import { FOOTER_LEGAL } from '../../config/routes.ts';
+import { FOOTER_LEGAL, isLive } from '../../config/routes.ts';
 import { RG, SITE_NAME } from '../../config/site.ts';
 
 const columns = [
@@ -25,6 +25,7 @@ const columns = [
   },
 ];
 const year = new Date().getFullYear();
+const cols = columns.map((c) => ({ ...c, links: c.links.filter((l) => isLive(l.href)) }));
 ---
 <footer class="mt-16 border-t border-line bg-ink-900/60">
   <div class="container-site grid gap-10 py-12 md:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1fr]">
@@ -34,13 +35,9 @@ const year = new Date().getFullYear();
         Kostenlose Spielautomaten als Spielgeld-Demo, ehrliche Daten zu jedem Slot und ein Vergleich ausschließlich
         von Online-Spielotheken mit deutscher GGL-Erlaubnis.
       </p>
-      <p class="mt-4 text-xs text-subtle">
-        Wir sind kein Glücksspielanbieter und nehmen keine Einsätze an. Einige Links sind Affiliate-Links.{' '}
-        <a href="/affiliate-hinweis/" class="underline underline-offset-2 hover:text-fg">Wie wir Geld verdienen</a>
-      </p>
     </div>
 
-    {columns.map((col) => (
+    {cols.map((col) => (
       <div>
         <p class="font-display text-sm font-bold uppercase tracking-wider text-fg">{col.title}</p>
         <ul class="mt-4 space-y-2.5 text-sm">
@@ -65,11 +62,10 @@ const year = new Date().getFullYear();
       <div class="flex items-start gap-3">
         <span class="mt-0.5 inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full border-2 border-coral-400 font-display text-[0.7rem] font-extrabold text-coral-300" aria-hidden="true">{RG.minAge}+</span>
         <p class="max-w-2xl">
-          <strong class="text-muted">Glücksspiel ab {RG.minAge} Jahren. Glücksspiel kann süchtig machen.</strong>{' '}
-          Hilfe und Beratung erhältst du kostenlos und anonym unter{' '}
-          <a href={RG.helplinePhoneHref} class="whitespace-nowrap underline underline-offset-2 hover:text-fg">{RG.helplinePhone}</a>{' '}
-          und auf <a href={RG.helplineUrl} target="_blank" rel="noopener" class="underline underline-offset-2 hover:text-fg">{RG.helplineUrlLabel}</a>.
-          Mehr zu OASIS, LUGAS und Limits: <a href={RG.rgPagePath} class="underline underline-offset-2 hover:text-fg">Verantwortungsvoll spielen</a>.
+          Glücksspiel ab {RG.minAge} Jahren. Glücksspiel kann süchtig machen. Hilfe:{' '}
+          <a href={RG.helplineUrl} target="_blank" rel="noopener" class="underline underline-offset-2 hover:text-fg">{RG.helplineUrlLabel}</a>{' '}
+          · <a href={RG.helplinePhoneHref} class="whitespace-nowrap underline underline-offset-2 hover:text-fg">{RG.helplinePhone}</a>{' '}
+          · <a href={RG.rgPagePath} class="underline underline-offset-2 hover:text-fg">Verantwortungsvoll spielen</a>
         </p>
       </div>
       <p class="shrink-0">© {year} {SITE_NAME}</p>

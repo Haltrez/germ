@@ -69,5 +69,8 @@ export const STUB_PAGES: Record<string, { title: string; h1: string; phase: numb
   '/glossar/': { title: 'Slot-Glossar: Begriffe einfach erklärt', h1: 'Glossar', phase: 6 },
 };
 
+/** True when a link points to a finished page (stubs are hidden from navigation). */
+export const isLive = (href: string) => !(href.split(/[?#]/)[0] in STUB_PAGES);
+
 /** Every path that must carry `noindex` and stay out of the sitemap. */
 export const NOINDEX_PATHS = new Set<string>([...Object.keys(STUB_PAGES), '/404/']);

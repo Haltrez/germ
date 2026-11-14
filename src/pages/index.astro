@@ -4,7 +4,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import Faq from '../components/ui/Faq.astro';
 import SlotCard from '../components/slot/SlotCard.astro';
 import { getSlotViews } from '../lib/slots.ts';
-import { CATEGORIES } from '../config/routes.ts';
+import { CATEGORIES, isLive } from '../config/routes.ts';
 import { COMPLIANCE } from '../config/site.ts';
 import { isPromotable } from '../lib/compliance.ts';
 import { organizationSchema, websiteSchema, faqSchema } from '../lib/schema.ts';
@@ -31,7 +31,7 @@ const description =
 
 const chips = [
   ...CATEGORIES.filter((c) => c.code !== 'fruit').map((c) => ({ label: c.short, href: `/kategorien/${c.slug}/` })),
-  { label: 'Neu', href: '/ranglisten/neue-slots/' },
+  { label: 'Alle Slots', href: '/spielautomaten/' },
 ];
 
 const method = [
@@ -71,7 +71,7 @@ const faq = [
   },
 ];
 ---
-<BaseLayout {title} {description} jsonLd={[organizationSchema(), websiteSchema(), faqSchema(faq)]}>
+<BaseLayout {title} {description} showRgBlock jsonLd={[organizationSchema(), websiteSchema(), faqSchema(faq)]}>
   <!-- Hero -->
   <section class="container-site grid items-center gap-10 pb-8 pt-10 sm:pt-14 lg:grid-cols-[1.25fr_1fr] lg:pt-20">
     <div>

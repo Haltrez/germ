@@ -2,18 +2,6 @@
 interface Props { variant?: 'inline' | 'box'; class?: string }
 const { variant = 'box', class: cls } = Astro.props;
 ---
-{variant === 'inline' ? (
-  <p class:list={['text-xs text-subtle', cls]} data-affiliate-disclosure>
-    Anzeige: Affiliate-Link. Wir erhalten ggf. eine Provision, für dich entstehen keine Kosten.{' '}
-    <a href="/affiliate-hinweis/" class="underline underline-offset-2 hover:text-fg">Mehr dazu</a>
-  </p>
-) : (
-  <div class:list={['flex gap-3 rounded-xl border border-line bg-ink-900/60 p-3 text-xs text-muted', cls]} data-affiliate-disclosure role="note">
-    <span class="mt-px shrink-0 rounded bg-white/10 px-1.5 py-px text-[0.625rem] font-bold uppercase tracking-wider text-fg">Anzeige</span>
-    <p>
-      Diese Box enthält Affiliate-Links zu Online-Spielotheken mit deutscher Erlaubnis (GGL-Whitelist). Meldest du dich
-      über einen solchen Link an, erhalten wir möglicherweise eine Provision. Auf unsere Daten und Bewertungen hat das keinen
-      Einfluss. <a href="/affiliate-hinweis/" class="underline underline-offset-2 hover:text-fg">Wie wir Geld verdienen</a>
-    </p>
-  </div>
-)}
+<p class:list={['text-xs text-subtle', cls]} data-affiliate-disclosure>
+  Anzeige · <a href="/affiliate-hinweis/" class="underline underline-offset-2 hover:text-fg">Wie wir Geld verdienen</a>
+</p>

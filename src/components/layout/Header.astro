@@ -1,6 +1,7 @@
 ---
 import Logo from './Logo.astro';
-import { NAV } from '../../config/routes.ts';
+import { NAV, isLive } from '../../config/routes.ts';
+const nav = NAV.filter((i) => isLive(i.href)).map((i) => ({ ...i, children: i.children?.filter((c) => isLive(c.href)) }));
 
 const current = Astro.url.pathname;
 const isActive = (href: string) => (href === '/' ? current === '/' : current.startsWith(href));
@@ -11,7 +12,7 @@ const isActive = (href: string) => (href === '/' ? current === '/' : current.sta
 
     <nav aria-label="Hauptnavigation" class="hidden lg:block">
       <ul class="flex items-center gap-1">
-        {NAV.map((item) => (
+        {nav.map((item) => (
           <li class="group relative">
             <a
               href={item.href}
@@ -62,7 +63,7 @@ const isActive = (href: string) => (href === '/' ? current === '/' : current.sta
 
   <nav id="mobile-nav" aria-label="Mobile Navigation" class="border-t border-line bg-ink-950 lg:hidden" hidden>
     <ul class="container-site space-y-1 py-4">
-      {NAV.map((item) => (
+      {nav.map((item) => (
         <li>
           <a href={item.href} class="block rounded-xl px-3 py-3 font-semibold text-fg hover:bg-white/5">{item.label}</a>
           {item.children && (

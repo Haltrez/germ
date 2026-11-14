@@ -1,5 +1,4 @@
 ---
-import { COMPLIANCE } from '../../config/site.ts';
 import { formatDateDE, UNVERIFIED } from '../../lib/i18n/de.ts';
 import { rtpText, maxWinText, volatilityText, layoutText, winLinesText, featureList, isTodo, type SlotView } from '../../lib/slots.ts';
 interface Props { slot: SlotView }
@@ -42,10 +41,5 @@ const features = featureList(s);
       </ul>
     </div>
   )}
-  <p class="mt-4 text-xs text-subtle">
-    Bei legalen Online-Spielotheken in Deutschland gilt ein Höchsteinsatz von {COMPLIANCE.maxStakePerSpinEur} € pro Spin.
-    Quelle: offizielle Angaben des Herstellers
-    {!isTodo(s.lastVerified) && <>, geprüft am {formatDateDE(s.lastVerified)}</>}.
-    „{UNVERIFIED}“ heißt: Der Hersteller hat diesen Wert nicht öffentlich angegeben oder wir haben ihn noch nicht bestätigt.
-  </p>
+  <p class="mt-4 text-xs text-subtle">Quelle: Hersteller{!isTodo(s.lastVerified) && <> · Stand {formatDateDE(s.lastVerified)}</>}</p>
 </section>

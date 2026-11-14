@@ -10,7 +10,8 @@ import Faq from '../../components/ui/Faq.astro';
 import { getSlotViews, similarSlots, rtpText, rtpMax, isTodo, type SlotView } from '../../lib/slots.ts';
 import { articleSchema, faqSchema, videoGameSchema } from '../../lib/schema.ts';
 import { formatDateDE } from '../../lib/i18n/de.ts';
-import { CATEGORIES } from '../../config/routes.ts';
+import { CATEGORIES, isLive } from '../../config/routes.ts';
+const Rank = isLive('/ranglisten/') ? 'a' : 'div';
 
 export const getStaticPaths = (async () => {
   const all = await getSlotViews();
@@ -114,16 +115,15 @@ const jsonLd = [
     <section class="mt-14" aria-labelledby="rank-title">
       <h2 id="rank-title" class="text-2xl font-bold text-fg">{s.name} im Vergleich: RTP- und Max-Win-Rangliste</h2>
       <div class="mt-4 grid gap-4 sm:grid-cols-2">
-        <a href="/ranglisten/" class="card block p-5 hover:border-mint-400/60">
+        <Rank href={isLive('/ranglisten/') ? '/ranglisten/' : undefined} class="card block p-5">
           <p class="text-sm text-subtle">Auszahlungsquote (RTP)</p>
           <p class="mt-1 font-display text-2xl font-extrabold text-fg">{rtpRank ? `Platz ${rtpRank} von ${withRtp.length}` : 'noch nicht gelistet'}</p>
-        </a>
-        <a href="/ranglisten/" class="card block p-5 hover:border-mint-400/60">
+        </Rank>
+        <Rank href={isLive('/ranglisten/') ? '/ranglisten/' : undefined} class="card block p-5">
           <p class="text-sm text-subtle">Maximalgewinn</p>
           <p class="mt-1 font-display text-2xl font-extrabold text-fg">{maxWinRank ? `Platz ${maxWinRank} von ${maxWinRanked.length}` : 'noch nicht gelistet'}</p>
-        </a>
+        </Rank>
       </div>
-      <p class="mt-3 text-xs text-subtle">Theoretische Werte laut Hersteller. Jeder Spin ist zufällig, und auf lange Sicht behält die Spielothek einen Teil der Einsätze.</p>
     </section>
 
     {text && text.faq.length > 0 && <div class="mt-14 max-w-4xl"><Faq items={text.faq} title={`Häufige Fragen zu ${s.name}`} /></div>}
@@ -138,18 +138,11 @@ const jsonLd = [
       </section>
     )}
 
-    <aside class="mt-14 grid gap-4 md:grid-cols-2">
-      <div class="card p-5 text-sm text-muted">
-        <p class="font-bold text-fg">Spiel verantwortungsvoll</p>
-        <p class="mt-1">Die Demo nutzt nur Spielgeld. Bei Echtgeld entscheidet allein der Zufall, und es gibt keine Tricks. Setz dir ein Limit. <a href="/verantwortungsvoll-spielen/" class="text-mint-300 underline underline-offset-2">Hilfe und Infos</a></p>
-      </div>
-      {text && (
-        <div class="card p-5 text-sm text-muted">
-          <p class="font-bold text-fg">{author?.data.isPlaceholder ? <span class="todo-marker">{author.data.name}</span> : author?.data.name}</p>
-          <p>{author?.data.role}</p>
-          <p class="mt-1">Zuletzt aktualisiert: <time datetime={text.updated}>{formatDateDE(text.updated)}</time> · <a href="/bewertungsmethodik/" class="text-mint-300 underline underline-offset-2">So prüfen wir</a></p>
-        </div>
-      )}
-    </aside>
+    {text && (
+      <aside class="card mt-14 p-5 text-sm text-muted">
+        <p class="font-bold text-fg">{author?.data.isPlaceholder ? <span class="todo-marker">{author.data.name}</span> : author?.data.name}</p>
+        <p>{author?.data.role} · Zuletzt aktualisiert: <time datetime={text.updated}>{formatDateDE(text.updated)}</time> · <a href="/bewertungsmethodik/" class="text-mint-300 underline underline-offset-2">So prüfen wir</a></p>
+      </aside>
+    )}
   </div>
 </BaseLayout>

@@ -1,6 +1,5 @@
 ---
 import '../styles/global.css';
-import RgTopBar from '../components/compliance/RgTopBar.astro';
 import RgBlock from '../components/compliance/RgBlock.astro';
 import CookieConsent from '../components/compliance/CookieConsent.astro';
 import Header from '../components/layout/Header.astro';
@@ -24,7 +23,9 @@ interface Props {
   ogType?: 'website' | 'article';
   /** "informational" allows neutral mentions of illegal offers / "Online Casino"; forbids affiliate links. */
   complianceContext?: ComplianceContext;
-  /** Hide the responsible-gambling block above the footer (the RG page itself). */
+  /** Show the large responsible-gambling block above the footer (homepage). */
+  showRgBlock?: boolean;
+  /** @deprecated kept for compatibility */
   hideRgBlock?: boolean;
 }
 
@@ -37,7 +38,7 @@ const {
   ogImage = DEFAULT_OG_IMAGE,
   ogType = 'website',
   complianceContext = 'standard',
-  hideRgBlock = false,
+  showRgBlock = false,
 } = Astro.props;
 
 const path = Astro.url.pathname.endsWith('/') ? Astro.url.pathname : `${Astro.url.pathname}/`;
@@ -77,13 +78,12 @@ const ld = [...(crumbs ? [breadcrumbSchema(crumbs)] : []), ...jsonLd];
   </head>
   <body class="flex min-h-dvh flex-col">
     <a href="#main" class="sr-only z-[60] rounded-lg bg-mint-400 px-4 py-2 font-semibold text-mint-950 focus:not-sr-only focus:fixed focus:left-4 focus:top-4">Zum Inhalt springen</a>
-    <RgTopBar />
     <Header />
     {crumbs && <Breadcrumbs crumbs={crumbs} />}
     <main id="main" class="flex-1">
       <slot />
     </main>
-    {!hideRgBlock && <RgBlock />}
+    {showRgBlock && <RgBlock />}
     <Footer />
     <CookieConsent />
   </body>
