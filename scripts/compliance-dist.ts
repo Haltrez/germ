@@ -22,6 +22,7 @@ import {
   CASINO_WORD_RULE,
   findPhraseViolations,
   isPromotable,
+  rulesForContext,
 } from '../src/lib/compliance.ts';
 import { ADS, RG, SITE_URL } from '../src/config/site.ts';
 import { ROOT, walk, readJson, Report } from './lib.ts';
@@ -96,13 +97,13 @@ for (const file of pages) {
   // --- wording
   const context = doc.querySelector('meta[name="compliance-context"]')?.getAttribute('content') ?? 'standard';
   const informational = context === 'informational';
-  const rules = informational ? [] : [...ILLEGAL_OFFER_RULES, ...HYPE_RULES, CASINO_WORD_RULE];
+  const rules = rulesForContext(context);
   const titleAndMeta = `${title} ${desc}`;
   for (const hit of findPhraseViolations(`${titleAndMeta} ${text}`, rules)) {
     r.error(`${where}: forbidden wording "${hit.match}" – ${hit.rule.reason}`);
   }
   // Even on informational pages, titles/descriptions must never target illegal-offer keywords.
-  for (const hit of findPhraseViolations(titleAndMeta, ILLEGAL_OFFER_RULES)) {
+  for (const hit of findPhraseViolations(titleAndMeta, ILLEGAL_OFFER_RULES.filter((x) => context !== 'ggl-crypto' || x.id !== 'crypto'))) {
     r.error(`${where}: title/description targets "${hit.match}"`);
   }
 

@@ -37,6 +37,7 @@ export const paymentLabel: Record<(typeof PAYMENT_METHODS)[number], string> = {
   'bank-transfer': 'Banküberweisung',
   skrill: 'Skrill',
   neteller: 'Neteller',
+  crypto: 'Kryptowährungen',
 };
 
 /** Shown wherever a data value is still "TODO". */

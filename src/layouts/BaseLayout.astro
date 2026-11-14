@@ -8,6 +8,7 @@ import Footer from '../components/layout/Footer.astro';
 import Breadcrumbs from '../components/layout/Breadcrumbs.astro';
 import { SITE_NAME, SITE_URL, SITE_OG_LOCALE, DEFAULT_OG_IMAGE } from '../config/site.ts';
 import { NOINDEX_PATHS } from '../config/routes.ts';
+import type { ComplianceContext } from '../lib/compliance.ts';
 import { breadcrumbSchema, absUrl, type Crumb, type JsonLd } from '../lib/schema.ts';
 
 interface Props {
@@ -22,7 +23,7 @@ interface Props {
   ogImage?: string;
   ogType?: 'website' | 'article';
   /** "informational" allows neutral mentions of illegal offers / "Online Casino"; forbids affiliate links. */
-  complianceContext?: 'standard' | 'informational';
+  complianceContext?: ComplianceContext;
   /** Hide the responsible-gambling block above the footer (the RG page itself). */
   hideRgBlock?: boolean;
 }

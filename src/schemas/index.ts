@@ -49,6 +49,7 @@ export const PAYMENT_METHODS = [
   'bank-transfer',
   'skrill',
   'neteller',
+  'crypto',
 ] as const;
 export const LOCALES = ['de'] as const;
 

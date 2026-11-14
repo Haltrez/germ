@@ -49,6 +49,20 @@ export const CASINO_WORD_RULE: PhraseRule = {
   reason: 'Use "Online-Spielothek" for slot sites; "Online Casino" only on informational pages',
 };
 
+/**
+ * Page contexts:
+ * - standard: all rules apply
+ * - informational: neutral explanations; only hype rules apply; no affiliate links allowed
+ * - ggl-crypto: the crypto page; crypto wording allowed because only GGL-verified
+ *   operators can be listed (enforced by OperatorCta + dist audit); all other rules apply
+ */
+export type ComplianceContext = 'standard' | 'informational' | 'ggl-crypto';
+export function rulesForContext(ctx: string): PhraseRule[] {
+  if (ctx === 'informational') return HYPE_RULES;
+  if (ctx === 'ggl-crypto') return [...ILLEGAL_OFFER_RULES.filter((r) => r.id !== 'crypto'), ...HYPE_RULES, CASINO_WORD_RULE];
+  return [...ILLEGAL_OFFER_RULES, ...HYPE_RULES, CASINO_WORD_RULE];
+}
+
 export function findPhraseViolations(text: string, rules: PhraseRule[]) {
   const hits: { rule: PhraseRule; match: string }[] = [];
   for (const rule of rules) {
