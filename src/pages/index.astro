@@ -2,6 +2,8 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Faq from '../components/ui/Faq.astro';
+import SlotCard from '../components/slot/SlotCard.astro';
+import { getSlotViews } from '../lib/slots.ts';
 import { CATEGORIES } from '../config/routes.ts';
 import { COMPLIANCE } from '../config/site.ts';
 import { isPromotable } from '../lib/compliance.ts';
@@ -13,6 +15,7 @@ const [slots, providers, operators] = await Promise.all([
   getCollection('operators'),
 ]);
 const slotCount = slots.length;
+const reviewed = (await getSlotViews()).filter((v) => v.indexable).slice(0, 12);
 const stats = [
   { value: slotCount, label: 'kostenlose Demo-Slots' },
   { value: providers.length, label: 'Hersteller' },
@@ -139,6 +142,21 @@ const faq = [
       ))}
     </dl>
   </section>
+
+  {reviewed.length > 0 && (
+    <section class="container-site mt-20" aria-labelledby="tested-title">
+      <div class="flex flex-wrap items-end justify-between gap-4">
+        <div>
+          <p class="eyebrow">Ausführlich getestet</p>
+          <h2 id="tested-title" class="mt-2 text-3xl font-bold text-fg sm:text-4xl">Beliebte Spielautomaten kostenlos spielen</h2>
+        </div>
+        <a href="/spielautomaten/" class="btn btn-secondary">Alle {slotCount.toLocaleString('de-DE')} Slots</a>
+      </div>
+      <div class="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
+        {reviewed.map((v) => <SlotCard slot={v} />)}
+      </div>
+    </section>
+  )}
 
   <!-- Trust / method -->
   <section class="container-site mt-20" aria-labelledby="trust-title">
