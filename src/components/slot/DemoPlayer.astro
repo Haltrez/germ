@@ -14,7 +14,7 @@ const { demoUrl, demoSourceName, name } = { ...slot.data, name: slot.data.name }
 ---
 <section id="demo" aria-label={`${name} Demo`} class="card overflow-hidden p-0">
   <div class="flex items-center justify-between gap-3 border-b border-line px-4 py-2.5 text-xs">
-    <h2 class="font-display text-sm font-bold text-fg">{name} Demo <span class="font-sans font-semibold text-mint-300">· Spielgeld, kein Echtgeld</span></h2>
+    <h2 class="font-display text-sm font-bold text-fg">{demoUrl ? <>{name} Demo <span class="font-sans font-semibold text-mint-300">· Spielgeld, kein Echtgeld</span></> : <>{name} · Demo folgt</>}</h2>
     <span class="text-subtle">{RG.minAge}+ · Glücksspiel kann süchtig machen</span>
   </div>
 
