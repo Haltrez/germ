@@ -107,6 +107,14 @@ for (const [id, op] of operators) {
   }
 }
 
+// ---- Slot reviews must belong to an existing slot (file name = slot slug)
+for (const file of walk(join(ROOT, 'src/content/slot-texts'), (p) => /\.mdx?$/.test(p))) {
+  const id = basename(file).replace(/\.mdx?$/, '');
+  const declared = readFileSync(file, 'utf8').match(/^slot:\s*['"]?([a-z0-9-]+)/m)?.[1];
+  if (declared !== id) r.error(`${rel(file)}: front matter "slot: ${declared}" must equal the file name`);
+  if (!slots.has(id)) r.error(`${rel(file)}: no slot data file src/data/slots/${id}.json`);
+}
+
 // ---- MDX / Markdown content: phrase lint unless marked informational
 for (const file of walk(join(ROOT, 'src/content'), (p) => /\.mdx?$/.test(p))) {
   const src = readFileSync(file, 'utf8');
