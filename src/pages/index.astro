@@ -17,7 +17,7 @@ const ops = operators
   .filter((o) => isPromotable(o.data))
   .sort((a, b) => Number(b.data.featured) - Number(a.data.featured) || (b.data.rating?.total ?? 0) - (a.data.rating?.total ?? 0));
 const featured = ops.find((o) => o.data.featured) ?? ops[0];
-const reviewed = views.filter((v) => v.indexable);
+const reviewed = views.filter((v) => v.reviewed);
 const slotCount = views.length;
 const n = (x: number) => x.toLocaleString('de-DE');
 
@@ -37,7 +37,7 @@ const stats = [
 ];
 
 const spotlightIds = ['gates-of-olympus', 'book-of-dead', 'starburst', 'le-bandit'];
-const spotlight = spotlightIds.map((id) => views.find((v) => v.id === id)).filter((v) => v?.indexable) as typeof views;
+const spotlight = spotlightIds.map((id) => views.find((v) => v.id === id)).filter((v) => v?.reviewed) as typeof views;
 const rtpTop = reviewed.filter((v) => rtpMax(v.data) !== null).sort((a, b) => rtpMax(b.data)! - rtpMax(a.data)!).slice(0, 6);
 
 const rules = [

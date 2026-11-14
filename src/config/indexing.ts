@@ -16,9 +16,9 @@ const list = (dir: string, ext: RegExp) => {
   }
 };
 
+/** All slot pages carry a review (hand-written or data-driven), so none are noindex. */
 export function noindexSlotPaths(): Set<string> {
-  const reviewed = new Set(list('src/content/slot-texts/de', /\.mdx?$/));
-  return new Set(list('src/data/slots', /\.json$/).filter((s) => !reviewed.has(s)).map((s) => `/spielautomaten/${s}/`));
+  return new Set();
 }
 
 export const hasReview = (slug: string) =>

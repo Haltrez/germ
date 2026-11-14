@@ -10,6 +10,7 @@ import Faq from '../../components/ui/Faq.astro';
 import { getSlotViews, similarSlots, rtpText, rtpMax, isTodo, type SlotView } from '../../lib/slots.ts';
 import { articleSchema, faqSchema, videoGameSchema } from '../../lib/schema.ts';
 import { formatDateDE } from '../../lib/i18n/de.ts';
+import { buildAutoReview, autoMetaDescription } from '../../lib/autotext.ts';
 import { CATEGORIES, isLive } from '../../config/routes.ts';
 const Rank = isLive('/ranglisten/') ? 'a' : 'div';
 
@@ -25,6 +26,8 @@ const providerName = slot.provider?.data.name ?? s.provider;
 const text = slot.text?.data;
 const Content = slot.text ? (await render(slot.text)).Content : null;
 const author = text ? await getEntry('authors', text.author) : undefined;
+const auto = text ? null : buildAutoReview(slot);
+const faqItems = text ? text.faq : auto!.faq;
 
 const fit = (...opts: string[]) => opts.find((o) => [...o].length <= 60) ?? opts[opts.length - 1].slice(0, 60);
 const hasDemo = !!s.demoUrl;
@@ -34,7 +37,8 @@ const title = text?.metaTitle ?? (hasDemo
   : fit(`${s.name} Slot: Test, RTP & Max Win`, `${s.name} Slot: RTP & Max Win`, `${s.name} Slot`, s.name));
 const mw = isTodo(s.maxWinMultiplier) ? '' : `, Max Win ${s.maxWinMultiplier.toLocaleString('de-DE')}x`;
 const autoDesc = `${s.name}${hasDemo ? ` kostenlos spielen: ${providerName} Demo ohne Anmeldung` : ` von ${providerName}: alle Fakten`}${isTodo(s.rtp) ? '' : `, RTP ${rtpText(s)}`}${mw}, Freispiele & alle Fakten zum Slot.`;
-const description = text?.metaDescription ?? (autoDesc.length <= 155 ? autoDesc : `${s.name} kostenlos spielen: Demo ohne Anmeldung und alle Fakten zum Slot.`.slice(0, 155));
+const description = text?.metaDescription ?? autoMetaDescription(slot);
+void autoDesc;
 
 // Rank by published RTP among slots with a known value (leaderboards come in phase 3).
 const withRtp = all.filter((v) => rtpMax(v.data) !== null).sort((a, b) => rtpMax(b.data)! - rtpMax(a.data)!);
@@ -58,7 +62,7 @@ const jsonLd = [
       }),
       ...(text.faq.length ? [faqSchema(text.faq)] : []),
     ]
-  : []),
+  : faqItems.length ? [faqSchema(faqItems)] : []),
 ];
 ---
 <BaseLayout
@@ -74,7 +78,7 @@ const jsonLd = [
     <header class="max-w-4xl">
       <h1 class="text-3xl font-extrabold text-fg sm:text-4xl lg:text-5xl">{h1}</h1>
       <p class="mt-3 text-muted">
-        {text?.intro ?? `${s.name} ist ein Spielautomat von ${providerName}. ${isTodo(s.rtp) ? '' : `Laut Hersteller liegt die Auszahlungsquote (RTP) bei ${rtpText(s)}. `}${hasDemo ? 'Hier kannst du die Demo kostenlos mit Spielgeld ausprobieren – ohne Anmeldung und ohne Einzahlung.' : 'Hier findest du alle offiziellen Daten des Herstellers auf einen Blick.'}`}
+        {text?.intro ?? auto!.intro}
       </p>
       {cats.length > 0 && (
         <ul class="mt-4 flex flex-wrap gap-2">
@@ -118,9 +122,16 @@ const jsonLd = [
         )}
       </article>
     ) : (
-      <section class="card mt-10 max-w-3xl p-5 text-sm text-muted">
-        <p><strong class="text-fg">Ausführlicher Test folgt.</strong> Unsere Redaktion prüft {s.name} gerade. Bis dahin findest du hier die offiziellen Daten des Herstellers und die kostenlose Demo.</p>
-      </section>
+      <article class="prose-site mt-14">
+        {auto!.sections.map((sec) => (
+          <>
+            <h2>{sec.h2}</h2>
+            {sec.paragraphs.map((p) => <p>{p}</p>)}
+            {sec.list && <ul>{sec.list.map((li) => <li>{li}</li>)}</ul>}
+          </>
+        ))}
+        <p class="text-sm text-subtle">Alle Angaben basieren auf den offiziellen Informationen von {providerName} (Stand {isTodo(s.lastVerified) ? 'unbekannt' : formatDateDE(s.lastVerified)}). <a href="/bewertungsmethodik/">So prüfen wir</a></p>
+      </article>
     )}
 
     <section class="mt-14" aria-labelledby="rank-title">
@@ -137,7 +148,7 @@ const jsonLd = [
       </div>
     </section>
 
-    {text && text.faq.length > 0 && <div class="mt-14 max-w-4xl"><Faq items={text.faq} title={`Häufige Fragen zu ${s.name}`} /></div>}
+    {faqItems.length > 0 && <div class="mt-14 max-w-4xl"><Faq items={faqItems} title={`Häufige Fragen zu ${s.name}`} /></div>}
 
     {similar.length > 0 && (
       <section class="mt-14" aria-labelledby="similar-title">

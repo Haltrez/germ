@@ -5,7 +5,7 @@ import { getSlotViews } from '../../lib/slots.ts';
 import { itemListSchema } from '../../lib/schema.ts';
 
 const all = await getSlotViews();
-const reviewed = all.filter((v) => v.indexable);
+const reviewed = all.filter((v) => v.reviewed);
 const providers = new Set(all.map((v) => v.data.provider)).size;
 ---
 <BaseLayout

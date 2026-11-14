@@ -14,8 +14,10 @@ export interface SlotView {
   provider: ProviderEntry | undefined;
   text: SlotTextEntry | undefined;
   categories: CategoryCode[];
-  /** Indexable only with an original German review. Data-only pages are noindex. */
+  /** All slot pages are indexable (hand-written or data-driven review). */
   indexable: boolean;
+  /** Has a hand-written German review (src/content/slot-texts/de). */
+  reviewed: boolean;
   path: string;
 }
 
@@ -49,11 +51,12 @@ export function getSlotViews(): Promise<SlotView[]> {
         provider: prov.get(s.data.provider),
         text: txt.get(s.id),
         categories: deriveCategories(s.data),
-        indexable: txt.has(s.id),
+        indexable: true,
+        reviewed: txt.has(s.id),
         path: `/spielautomaten/${s.id}/`,
       }))
       .sort((a, b) =>
-        Number(b.indexable) - Number(a.indexable) ||
+        Number(b.reviewed) - Number(a.reviewed) ||
         Number(!!b.data.thumbnail) - Number(!!a.data.thumbnail) ||
         a.data.name.localeCompare(b.data.name, 'de'));
   })();
@@ -133,5 +136,5 @@ export const lobbyRecord = (v: SlotView) => ({
   c: v.categories,
   d: !!v.data.demoUrl,
   t: v.data.thumbnail?.src ?? null,
-  x: v.indexable,
+  x: v.reviewed,
 });
