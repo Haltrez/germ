@@ -1,0 +1,35 @@
+{
+  "name": "Wild Million",
+  "provider": "bgaming",
+  "releaseDate": "2025-11-18",
+  "rtp": 97.2,
+  "volatility": "medium",
+  "volatilityNote": "medium",
+  "maxWinMultiplier": 5000.0,
+  "hitRate": 2.41,
+  "freeSpinsRate": 176,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/WildMillion/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/wild-million"
+  ],
+  "lastVerified": "2026-11-14"
+}

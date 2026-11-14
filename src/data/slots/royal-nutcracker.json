@@ -1,0 +1,39 @@
+{
+  "name": "Royal Nutcracker",
+  "provider": "bgaming",
+  "releaseDate": "2026-12-10",
+  "rtp": 96.0,
+  "volatility": "medium",
+  "volatilityNote": "medium",
+  "maxWinMultiplier": 15000.0,
+  "hitRate": 6.0,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 10
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "multipliers",
+    "hold-and-win",
+    "expanding-symbols",
+    "wilds",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/RoyalNutcracker/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/royal-nutcracker"
+  ],
+  "lastVerified": "2026-11-14"
+}

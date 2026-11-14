@@ -1,0 +1,36 @@
+{
+  "name": "Star Trek: The Next Generation",
+  "provider": "bgaming",
+  "releaseDate": "2025-11-13",
+  "rtp": 96.46,
+  "volatility": "high",
+  "volatilityNote": "medium-high",
+  "maxWinMultiplier": 10000.0,
+  "hitRate": 3.33,
+  "freeSpinsRate": 197,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "cascades",
+    "multipliers",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/StarTrekNextGen/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/star-trek-the-next-generation"
+  ],
+  "lastVerified": "2026-11-14"
+}

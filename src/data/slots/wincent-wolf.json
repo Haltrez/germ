@@ -1,0 +1,40 @@
+{
+  "name": "Wincent Wolf",
+  "provider": "bgaming",
+  "releaseDate": "2026-09-08",
+  "rtp": 97.0,
+  "volatility": "high",
+  "volatilityNote": "medium-high",
+  "maxWinMultiplier": 10000.0,
+  "hitRate": 2.99,
+  "freeSpinsRate": 149,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 20
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "sticky-wilds",
+    "wilds",
+    "retrigger"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/WincentWolf/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/wincent-wolf"
+  ],
+  "lastVerified": "2026-11-14"
+}

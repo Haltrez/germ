@@ -1,0 +1,37 @@
+{
+  "name": "Sugar Merge Up",
+  "provider": "bgaming",
+  "releaseDate": "2026-03-31",
+  "rtp": 97.0,
+  "volatility": "very-high",
+  "volatilityNote": "very high",
+  "maxWinMultiplier": 10000.0,
+  "hitRate": 3.4,
+  "freeSpinsRate": 409,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "cluster"
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "cluster-pays"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/SugarMergeUp/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/sugar-merge-up"
+  ],
+  "lastVerified": "2026-11-14"
+}

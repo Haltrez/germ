@@ -1,0 +1,34 @@
+{
+  "name": "Sakura Riches 60",
+  "provider": "bgaming",
+  "releaseDate": "2025-01-15",
+  "rtp": 97.16,
+  "volatility": "very-high",
+  "volatilityNote": "very high",
+  "maxWinMultiplier": 3000.0,
+  "hitRate": 5.4,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "multipliers",
+    "scatter-pays",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/SakuraRiches60/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/sakura-riches-60"
+  ],
+  "lastVerified": "2026-11-14"
+}

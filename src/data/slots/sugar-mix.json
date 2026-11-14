@@ -1,0 +1,38 @@
+{
+  "name": "Sugar Mix",
+  "provider": "bgaming",
+  "releaseDate": "2025-04-22",
+  "rtp": 97.37,
+  "volatility": "medium",
+  "volatilityNote": "medium",
+  "maxWinMultiplier": 4000.0,
+  "hitRate": 3.4,
+  "freeSpinsRate": 117,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 20
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/SugarMix/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/sugar-mix"
+  ],
+  "lastVerified": "2026-11-14"
+}

@@ -1,0 +1,38 @@
+{
+  "name": "West Town",
+  "provider": "bgaming",
+  "releaseDate": "2016-04-02",
+  "rtp": 96.95,
+  "volatility": "low",
+  "volatilityNote": "low",
+  "maxWinMultiplier": 570.0,
+  "hitRate": 2.88,
+  "freeSpinsRate": 56,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 9
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/WestTown/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/west-town"
+  ],
+  "lastVerified": "2026-11-14"
+}

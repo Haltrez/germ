@@ -1,0 +1,39 @@
+{
+  "name": "Yokai",
+  "provider": "bgaming",
+  "releaseDate": "2026-07-06",
+  "rtp": 97.0,
+  "volatility": "high",
+  "volatilityNote": "medium-high",
+  "maxWinMultiplier": 8000.0,
+  "hitRate": 3.82,
+  "freeSpinsRate": 161,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 20
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "sticky-wilds",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/Yokai/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/yokai"
+  ],
+  "lastVerified": "2026-11-14"
+}

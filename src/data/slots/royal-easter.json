@@ -1,0 +1,38 @@
+{
+  "name": "Royal Easter",
+  "provider": "bgaming",
+  "releaseDate": "2026-03-26",
+  "rtp": 97.0,
+  "volatility": "low",
+  "volatilityNote": "low",
+  "maxWinMultiplier": 500.0,
+  "hitRate": 7.05,
+  "freeSpinsRate": 241,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 243
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "retrigger"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/RoyalEaster/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/royal-easter"
+  ],
+  "lastVerified": "2026-11-14"
+}

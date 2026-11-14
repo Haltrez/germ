@@ -1,0 +1,39 @@
+{
+  "name": "Road 2 Riches X-mas",
+  "provider": "bgaming",
+  "releaseDate": "2021-11-11",
+  "rtp": 96.24,
+  "volatility": "high",
+  "volatilityNote": "high",
+  "maxWinMultiplier": 2000.0,
+  "hitRate": 4.3,
+  "freeSpinsRate": 145,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 50
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "sticky-wilds",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/Road2Riches/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/road-2-riches-xmas"
+  ],
+  "lastVerified": "2026-11-14"
+}

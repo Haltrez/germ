@@ -1,0 +1,39 @@
+{
+  "name": "Princess of Sky",
+  "provider": "bgaming",
+  "releaseDate": "2016-04-02",
+  "rtp": 95.99,
+  "volatility": "high",
+  "volatilityNote": "medium-high",
+  "maxWinMultiplier": 2649.0,
+  "hitRate": 3.49,
+  "freeSpinsRate": 51,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 9
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "wilds",
+    "retrigger"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/PrincessOfSky/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/princess-of-sky"
+  ],
+  "lastVerified": "2026-11-14"
+}

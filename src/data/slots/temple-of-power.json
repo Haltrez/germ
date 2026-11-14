@@ -1,0 +1,38 @@
+{
+  "name": "Temple of Power",
+  "provider": "bgaming",
+  "releaseDate": "2026-04-01",
+  "rtp": 96.03,
+  "volatility": "very-high",
+  "volatilityNote": "very high",
+  "maxWinMultiplier": 15000.0,
+  "hitRate": 3.76,
+  "freeSpinsRate": 372,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "scatter-pays"
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "cascades",
+    "multipliers",
+    "scatter-pays"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/GatesOfPower/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/temple-of-power"
+  ],
+  "lastVerified": "2026-11-14"
+}

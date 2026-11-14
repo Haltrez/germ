@@ -1,0 +1,37 @@
+{
+  "name": "Wild Clusters",
+  "provider": "bgaming",
+  "releaseDate": "2025-04-01",
+  "rtp": 96.71,
+  "volatility": "very-high",
+  "volatilityNote": "very high",
+  "maxWinMultiplier": 5000.0,
+  "hitRate": 1.68,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "cluster"
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "cascades",
+    "multipliers",
+    "cluster-pays",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/WildClustersP/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/wild-clusters"
+  ],
+  "lastVerified": "2026-11-14"
+}

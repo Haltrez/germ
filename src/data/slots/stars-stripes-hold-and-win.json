@@ -1,0 +1,38 @@
+{
+  "name": "Stars & Stripes Hold and Win",
+  "provider": "bgaming",
+  "releaseDate": "2026-06-30",
+  "rtp": 96.7,
+  "volatility": "very-high",
+  "volatilityNote": "very high",
+  "maxWinMultiplier": 5000.0,
+  "hitRate": 4.33,
+  "freeSpinsRate": 229,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "cascades",
+    "multipliers",
+    "hold-and-win",
+    "wilds",
+    "respins",
+    "retrigger"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/StarsAndStripesHoldAndWin/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/stars-stripes-hold-and-win"
+  ],
+  "lastVerified": "2026-11-14"
+}

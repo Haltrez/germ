@@ -1,0 +1,37 @@
+{
+  "name": "Shark & Spark Hold & Win",
+  "provider": "bgaming",
+  "releaseDate": "2026-05-28",
+  "rtp": 97.0,
+  "volatility": "high",
+  "volatilityNote": "medium-high",
+  "maxWinMultiplier": 5000.0,
+  "hitRate": 4.4,
+  "freeSpinsRate": 205,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "scatter-pays"
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "multipliers",
+    "hold-and-win",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/SharkAndSparkHoldAndWin/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/shark-spark-hold-win"
+  ],
+  "lastVerified": "2026-11-14"
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Princess Royal",
+  "provider": "bgaming",
+  "releaseDate": "2016-04-02",
+  "rtp": 97.1,
+  "volatility": "high",
+  "volatilityNote": "high",
+  "maxWinMultiplier": 9000.0,
+  "hitRate": 4.06,
+  "freeSpinsRate": 156,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 9
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "wilds",
+    "retrigger"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/PrincessRoyal/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/princess-royal"
+  ],
+  "lastVerified": "2026-11-14"
+}

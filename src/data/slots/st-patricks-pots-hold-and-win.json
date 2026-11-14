@@ -1,0 +1,36 @@
+{
+  "name": "St. Patrick’s Pots Hold and Win",
+  "provider": "bgaming",
+  "releaseDate": "2026-08-11",
+  "rtp": 97.75,
+  "volatility": "medium",
+  "volatilityNote": "medium",
+  "maxWinMultiplier": 3000.0,
+  "hitRate": 38.29,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 243
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "multipliers",
+    "hold-and-win"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/StPatricksPotsHoldAndWin/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/st-patricks-pots-hold-and-win"
+  ],
+  "lastVerified": "2026-11-14"
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Yommi Rush",
+  "provider": "bgaming",
+  "releaseDate": "2025-09-25",
+  "rtp": 96.32,
+  "volatility": "medium",
+  "volatilityNote": "medium",
+  "maxWinMultiplier": 2000.0,
+  "hitRate": 3.74,
+  "freeSpinsRate": 166,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "cluster"
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "cluster-pays"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/YommiRush/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/yommi-rush"
+  ],
+  "lastVerified": "2026-11-14"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Spin and Spell",
+  "provider": "bgaming",
+  "releaseDate": "2019-10-17",
+  "rtp": 95.9,
+  "volatility": "very-high",
+  "volatilityNote": "very high",
+  "maxWinMultiplier": 3049.0,
+  "hitRate": 5.95,
+  "freeSpinsRate": 102,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 20
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "expanding-symbols",
+    "wilds",
+    "retrigger"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/SpinAndSpell/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/spin-and-spell"
+  ],
+  "lastVerified": "2026-11-14"
+}

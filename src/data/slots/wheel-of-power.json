@@ -1,0 +1,33 @@
+{
+  "name": "Wheel of Power",
+  "provider": "bgaming",
+  "releaseDate": "2026-11-24",
+  "rtp": 96.13,
+  "volatility": "high",
+  "volatilityNote": "medium-high",
+  "maxWinMultiplier": 3000.0,
+  "hitRate": 5.13,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "multipliers",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demo.bgaming-network.com/play/WheelOfPower/FUN?server=demo",
+  "demoSource": "official-provider",
+  "demoSourceName": "BGaming",
+  "demoLicenseNote": "Offizielle Demo von BGaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://bgaming.com/games/wheel-of-power"
+  ],
+  "lastVerified": "2026-11-14"
+}
