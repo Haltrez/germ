@@ -50,7 +50,13 @@ for u in urls:
         except ValueError: pass
     g['features'] = features(page_text(s)[:6000])
     gid = re.search(r'data-gameid="(\d+)"', s)
-    if gid: g['gameId'] = gid.group(1)
+    if gid:
+        g['gameId'] = gid.group(1)
+        base = f"https://static-live.hacksawgaming.com/{g['gameId']}"
+        g['demo'] = (f"{base}/{{version}}/index.html?language=de&channel=desktop&gameid={g['gameId']}&mode=2&token=demo"
+                     "&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi"
+                     "&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi")
+        g['demoVersionUrl'] = f'{base}/version.json'
     games.append(g)
 json.dump(games, open(out, 'w'), indent=1, ensure_ascii=False)
 print(f'{len(urls)} URLs, {len(games)} slots written to {out}')

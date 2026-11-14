@@ -95,7 +95,10 @@ export const slotSchema = z
     features: z.array(z.enum(FEATURES)).default([]),
     themes: z.array(slug()).default([]),
     categories: z.array(z.enum(CATEGORY_CODES)).default([]),
+    /** May contain a "{version}" placeholder, resolved on click via demoVersionUrl. */
     demoUrl: z.url().nullable(),
+    /** JSON endpoint returning {"version": "..."} for demoUrl's {version} placeholder. */
+    demoVersionUrl: z.url().optional(),
     demoSource: z.enum(['official-provider', 'licensed-aggregator', 'none']),
     demoSourceName: z.string().optional(),
     demoLicenseNote: z.string().optional(),
@@ -123,6 +126,9 @@ export const slotSchema = z
   .superRefine((s, ctx) => {
     if (s.demoUrl && s.demoSource === 'none') {
       ctx.addIssue({ code: 'custom', message: 'demoUrl is set but demoSource is "none"', path: ['demoSource'] });
+    }
+    if (s.demoUrl?.includes('{version}') !== !!s.demoVersionUrl && s.demoUrl) {
+      ctx.addIssue({ code: 'custom', message: 'demoUrl with {version} needs demoVersionUrl (and vice versa)', path: ['demoVersionUrl'] });
     }
     if (s.demoUrl && !s.demoLicenseNote) {
       ctx.addIssue({ code: 'custom', message: 'demoUrl requires demoLicenseNote', path: ['demoLicenseNote'] });

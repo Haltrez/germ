@@ -6,11 +6,11 @@
  * - Without an official demo URL a fallback with game info is shown.
  */
 import SlotArt from './SlotArt.astro';
-import { RG } from '../../config/site.ts';
+import { RG, DEMO_HOST_ALLOWLIST } from '../../config/site.ts';
 import type { SlotView } from '../../lib/slots.ts';
 interface Props { slot: SlotView }
 const { slot } = Astro.props;
-const { demoUrl, demoSourceName, name } = { ...slot.data, name: slot.data.name };
+const { demoUrl, demoVersionUrl, demoSourceName, name } = slot.data;
 ---
 <section id="demo" aria-label={`${name} Demo`} class="card overflow-hidden p-0">
   <div class="flex items-center justify-between gap-3 border-b border-line px-4 py-2.5 text-xs">
@@ -18,7 +18,7 @@ const { demoUrl, demoSourceName, name } = { ...slot.data, name: slot.data.name }
     <span class="text-subtle">{RG.minAge}+ · Glücksspiel kann süchtig machen</span>
   </div>
 
-  <div class="relative aspect-[16/10] w-full bg-ink-950" data-demo-root data-demo-url={demoUrl ?? undefined}>
+  <div class="relative aspect-[16/10] w-full bg-ink-950" data-demo-root data-demo-url={demoUrl ?? undefined} data-demo-version-url={demoVersionUrl} data-demo-hosts={DEMO_HOST_ALLOWLIST.join(' ')}>
     <div class="absolute inset-0 opacity-40 blur-[2px]"><SlotArt slug={slot.id} name={name} large class="!aspect-auto h-full !rounded-none" /></div>
     <div class="absolute inset-0 bg-gradient-to-t from-ink-950 via-ink-950/60 to-transparent"></div>
 
@@ -61,10 +61,30 @@ const { demoUrl, demoSourceName, name } = { ...slot.data, name: slot.data.name }
     if (!url || !btn) return;
     const api = () => (window as unknown as { KSAConsent?: ConsentApi }).KSAConsent;
     if (!api()?.has('media')) root.querySelector('[data-demo-consent-note]')?.classList.remove('hidden');
-    btn.addEventListener('click', () => {
+    btn.addEventListener('click', async () => {
       if (!api()?.has('media')) api()?.grant('media');
+      btn.disabled = true;
+      let src = url;
+      try {
+        const versionUrl = root.dataset.demoVersionUrl;
+        if (versionUrl) {
+          const res = await fetch(versionUrl, { cache: 'no-store' });
+          const v = String((await res.json()).version ?? '');
+          if (!/^[\w.-]{1,40}$/.test(v)) throw new Error('bad version');
+          src = src.replace('{version}', v);
+        }
+        if (window.matchMedia('(max-width: 768px)').matches) src = src.replace('channel=desktop', 'channel=mobile');
+        const host = new URL(src).hostname;
+        const allowed = (root.dataset.demoHosts ?? '').split(' ').filter(Boolean);
+        if (!allowed.includes(host)) throw new Error('host not allowed');
+      } catch {
+        btn.disabled = false;
+        const note = root.querySelector('[data-demo-consent-note]');
+        if (note) { note.textContent = 'Die Demo konnte gerade nicht geladen werden. Bitte versuch es später noch einmal.'; note.classList.remove('hidden'); }
+        return;
+      }
       const iframe = document.createElement('iframe');
-      iframe.src = url;
+      iframe.src = src;
       iframe.title = 'Spielgeld-Demo';
       iframe.className = 'absolute inset-0 h-full w-full border-0';
       iframe.allow = 'fullscreen; autoplay';

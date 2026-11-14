@@ -44,6 +44,7 @@ for g in json.load(open(src)):
         'themes': [],
         'categories': [],
         'demoUrl': demo,
+        **({'demoVersionUrl': g['demoVersionUrl']} if demo and g.get('demoVersionUrl') else {}),
         'demoSource': 'official-provider' if demo else 'none',
         **({'demoSourceName': source_name,
             'demoLicenseNote': f'Offizielle Demo von {source_name}, geladen vom öffentlichen Demo-Server des Herstellers.'} if demo else {}),

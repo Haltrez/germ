@@ -94,6 +94,8 @@ export const DEMO_HOST_ALLOWLIST: readonly string[] = [
   'released.playngonetwork.com',
   // NetEnt official demo pages.
   'netent.com',
+  // Hacksaw Gaming official demo server (build version resolved on click via version.json).
+  'static-live.hacksawgaming.com',
 ];
 
 /** Analytics: none installed. Anything added here must only load after consent. */

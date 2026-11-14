@@ -87,8 +87,9 @@ for (const [id, s] of slots) {
     if (!op) r.error(`slot ${id}: unknown operator "${opSlug}"`);
     else if (!isPromotable(op)) r.error(`slot ${id}: lists operator "${opSlug}" which is not GGL-verified`);
   }
-  if (s.demoUrl) {
-    const host = new URL(s.demoUrl).hostname;
+  for (const u of [s.demoUrl, s.demoVersionUrl]) {
+    if (!u) continue;
+    const host = new URL(u).hostname;
     if (!DEMO_HOST_ALLOWLIST.includes(host)) {
       r.error(`slot ${id}: demo host "${host}" is not on DEMO_HOST_ALLOWLIST (src/config/site.ts)`);
     }
