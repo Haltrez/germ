@@ -1,0 +1,38 @@
+{
+  "name": "Red Rascal",
+  "provider": "hacksaw-gaming",
+  "releaseDate": "2026-05-21",
+  "rtp": [
+    96.34,
+    94.29,
+    92.26,
+    86.35
+  ],
+  "volatility": "high",
+  "volatilityNote": "4/5",
+  "maxWinMultiplier": 15000.0,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines"
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "wilds",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://www.hacksawgaming.com/games/red-rascal"
+  ],
+  "lastVerified": "2026-11-14"
+}

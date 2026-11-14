@@ -1,0 +1,36 @@
+{
+  "name": "Le Football Fan",
+  "provider": "hacksaw-gaming",
+  "releaseDate": "2026-06-08",
+  "rtp": [
+    96.41,
+    94.29,
+    92.3
+  ],
+  "volatility": "low",
+  "volatilityNote": "2/5",
+  "maxWinMultiplier": 2500.0,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "cluster"
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "cluster-pays"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://www.hacksawgaming.com/games/le-football-fan"
+  ],
+  "lastVerified": "2026-11-14"
+}

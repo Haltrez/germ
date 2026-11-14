@@ -1,0 +1,38 @@
+{
+  "name": "Le Vampire",
+  "provider": "hacksaw-gaming",
+  "releaseDate": "2026-10-01",
+  "rtp": [
+    97.0,
+    96.0,
+    94.0,
+    92.0,
+    86.0
+  ],
+  "volatility": "medium",
+  "volatilityNote": "3/5",
+  "maxWinMultiplier": 15000.0,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "cluster"
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "cluster-pays"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://www.hacksawgaming.com/games/le-vampire"
+  ],
+  "lastVerified": "2026-11-14"
+}

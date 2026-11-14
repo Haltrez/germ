@@ -1,0 +1,38 @@
+{
+  "name": "Nitro Nights",
+  "provider": "hacksaw-gaming",
+  "releaseDate": "2026-06-23",
+  "rtp": [
+    96.31,
+    94.34,
+    92.22,
+    86.26
+  ],
+  "volatility": "high",
+  "volatilityNote": "4/5",
+  "maxWinMultiplier": 15000.0,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines"
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://www.hacksawgaming.com/games/nitro-nights"
+  ],
+  "lastVerified": "2026-11-14"
+}

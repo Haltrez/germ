@@ -1,0 +1,38 @@
+{
+  "name": "Wicked Grin",
+  "provider": "hacksaw-gaming",
+  "releaseDate": "2026-10-08",
+  "rtp": [
+    96.27,
+    94.32,
+    92.28,
+    86.28
+  ],
+  "volatility": "medium",
+  "volatilityNote": "3/5",
+  "maxWinMultiplier": 10000.0,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "scatter-pays"
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "expanding-symbols"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://www.hacksawgaming.com/games/wicked-grin"
+  ],
+  "lastVerified": "2026-11-14"
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Epic SixSixSix",
+  "provider": "hacksaw-gaming",
+  "releaseDate": "2026-10-22",
+  "rtp": [
+    96.0,
+    94.0,
+    92.0
+  ],
+  "volatility": "very-high",
+  "volatilityNote": "5/5",
+  "maxWinMultiplier": 20666.0,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines"
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://www.hacksawgaming.com/games/epic-sixsixsix"
+  ],
+  "lastVerified": "2026-11-14"
+}

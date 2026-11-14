@@ -1,0 +1,36 @@
+{
+  "name": "Le Hooligan",
+  "provider": "hacksaw-gaming",
+  "releaseDate": "2026-06-08",
+  "rtp": [
+    96.34,
+    94.23,
+    92.17
+  ],
+  "volatility": "medium",
+  "volatilityNote": "3/5",
+  "maxWinMultiplier": 10000.0,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "cluster"
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "cluster-pays"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://www.hacksawgaming.com/games/le-hooligan"
+  ],
+  "lastVerified": "2026-11-14"
+}

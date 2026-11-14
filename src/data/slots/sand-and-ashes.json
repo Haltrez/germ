@@ -1,0 +1,39 @@
+{
+  "name": "Sand and Ashes",
+  "provider": "hacksaw-gaming",
+  "releaseDate": "2026-05-14",
+  "rtp": [
+    96.27,
+    94.21,
+    92.3,
+    86.19
+  ],
+  "volatility": "medium",
+  "volatilityNote": "3/5",
+  "maxWinMultiplier": 10000.0,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines"
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "wilds",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://www.hacksawgaming.com/games/sand-and-ashes"
+  ],
+  "lastVerified": "2026-11-14"
+}

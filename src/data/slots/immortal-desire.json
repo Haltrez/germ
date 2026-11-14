@@ -1,0 +1,39 @@
+{
+  "name": "Immortal Desire",
+  "provider": "hacksaw-gaming",
+  "releaseDate": "TODO",
+  "rtp": [
+    96.24,
+    94.12,
+    92.27,
+    88.25
+  ],
+  "volatility": "high",
+  "volatilityNote": "4/5",
+  "maxWinMultiplier": 10000.0,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "ways",
+    "count": 1024
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://www.hacksawgaming.com/games/immortal-desire"
+  ],
+  "lastVerified": "2026-11-14"
+}

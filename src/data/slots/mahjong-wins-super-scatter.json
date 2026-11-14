@@ -1,0 +1,37 @@
+{
+  "name": "Mahjong Wins Super Scatter",
+  "provider": "pragmatic-play",
+  "releaseDate": "TODO",
+  "rtp": 96.5,
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": "TODO",
+  "rows": "TODO",
+  "grid": "5×5",
+  "winLines": {
+    "type": "ways",
+    "count": 2000
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "cascades",
+    "multipliers",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswaysmwss&websiteUrl=https%3A%2F%2Fdemogamesfree.pragmaticplay.net&jurisdiction=99&lang=de&cur=EUR",
+  "demoSource": "official-provider",
+  "demoSourceName": "Pragmatic Play",
+  "demoLicenseNote": "Offizielle Demo von Pragmatic Play, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/mahjong-wins-super-scatter/"
+  ],
+  "lastVerified": "2026-11-14"
+}

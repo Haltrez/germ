@@ -89,6 +89,8 @@ export const DEMO_HOST_ALLOWLIST: readonly string[] = [
   // Official public demo server of Pragmatic Play (linked from pragmaticplay.com game pages).
   // TODO(owner): confirm embedding terms with Pragmatic Play or your aggregator.
   'demogamesfree.pragmaticplay.net',
+  // Official public demo server of BGaming (linked from bgaming.com game pages).
+  'demo.bgaming-network.com',
 ];
 
 /** Analytics: none installed. Anything added here must only load after consent. */

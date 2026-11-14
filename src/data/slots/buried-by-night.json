@@ -1,0 +1,39 @@
+{
+  "name": "Buried by Night",
+  "provider": "hacksaw-gaming",
+  "releaseDate": "2026-11-10",
+  "rtp": [
+    96.0,
+    94.0,
+    92.0,
+    86.0
+  ],
+  "volatility": "high",
+  "volatilityNote": "4/5",
+  "maxWinMultiplier": 15000.0,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines"
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "expanding-symbols",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://www.hacksawgaming.com/games/buried-by-night"
+  ],
+  "lastVerified": "2026-11-14"
+}

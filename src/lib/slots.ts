@@ -75,7 +75,8 @@ export function rtpMax(s: Slot): number | null {
 }
 export const maxWinText = (s: Slot) =>
   isTodo(s.maxWinMultiplier) ? UNVERIFIED : `${s.maxWinMultiplier.toLocaleString('de-DE')}× Einsatz`;
-export const volatilityText = (s: Slot) => (isTodo(s.volatility) ? UNVERIFIED : volatilityLabel[s.volatility]);
+export const volatilityText = (s: Slot) =>
+  isTodo(s.volatility) ? UNVERIFIED : volatilityLabel[s.volatility] + (s.volatilityNote && /\d\/\d/.test(s.volatilityNote) ? ` (${s.volatilityNote} laut Hersteller)` : '');
 export const layoutText = (s: Slot) =>
   !isTodo(s.reels) && !isTodo(s.rows)
     ? `${s.reels} Walzen × ${String(s.rows).replace('-', '–')} Reihen`

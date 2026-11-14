@@ -1,0 +1,31 @@
+{
+  "name": "Lucky Monkey",
+  "provider": "pragmatic-play",
+  "releaseDate": "TODO",
+  "rtp": 96.5,
+  "volatility": "TODO",
+  "maxWinMultiplier": 5000.0,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "hold-and-win",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs5luckymly&websiteUrl=https%3A%2F%2Fdemogamesfree.pragmaticplay.net&jurisdiction=99&lang=de&cur=EUR",
+  "demoSource": "official-provider",
+  "demoSourceName": "Pragmatic Play",
+  "demoLicenseNote": "Offizielle Demo von Pragmatic Play, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/lucky-monkey/"
+  ],
+  "lastVerified": "2026-11-14"
+}

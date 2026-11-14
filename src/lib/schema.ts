@@ -85,3 +85,19 @@ export const itemListSchema = (name: string, items: { name: string; path: string
   numberOfItems: items.length,
   itemListElement: items.map((it, i) => ({ '@type': 'ListItem', position: i + 1, name: it.name, url: absUrl(it.path) })),
 });
+
+/** Game entity for slot pages (no ratings). */
+export const videoGameSchema = (g: { name: string; path: string; publisher: string; description: string; datePublished?: string }): JsonLd => ({
+  '@context': 'https://schema.org',
+  '@type': 'VideoGame',
+  name: g.name,
+  url: absUrl(g.path),
+  description: g.description,
+  inLanguage: 'de-DE',
+  genre: 'Spielautomat',
+  gamePlatform: ['Webbrowser', 'Smartphone'],
+  applicationCategory: 'Game',
+  isAccessibleForFree: true,
+  publisher: { '@type': 'Organization', name: g.publisher },
+  ...(g.datePublished ? { datePublished: g.datePublished } : {}),
+});

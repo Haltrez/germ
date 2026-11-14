@@ -107,7 +107,7 @@ const reviewed = all.filter((v) => v.indexable);
       <div class="flex flex-1 flex-col px-1.5 pb-1 pt-3">
         <h3 class="font-display text-base font-bold leading-tight text-fg"><a href="${href}" class="hover:text-mint-300">${esc(r.n)}</a></h3>
         <p class="mt-1 text-xs text-subtle">${esc(r.p)} · RTP ${rtp}</p>
-        <a href="${href}#demo" class="btn btn-secondary mt-3 !min-h-9 w-full !py-2 text-sm">Demo spielen</a>
+        <a href="${href}#demo" class="btn btn-secondary mt-3 !min-h-9 w-full !py-2 text-sm">Demo spielen<span class="sr-only"> – ${esc(r.n)} kostenlos</span></a>
       </div></article>`;
   };
 

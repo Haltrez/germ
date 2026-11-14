@@ -1,0 +1,36 @@
+{
+  "name": "Marlin Masters OG",
+  "provider": "hacksaw-gaming",
+  "releaseDate": "2026-07-28",
+  "rtp": [
+    96.25,
+    94.23,
+    92.27
+  ],
+  "volatility": "medium",
+  "volatilityNote": "3/5",
+  "maxWinMultiplier": 7500.0,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines"
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://www.hacksawgaming.com/games/marlin-masters-og"
+  ],
+  "lastVerified": "2026-11-14"
+}

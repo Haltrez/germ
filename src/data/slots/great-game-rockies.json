@@ -1,0 +1,38 @@
+{
+  "name": "Great Game Rockies",
+  "provider": "hacksaw-gaming",
+  "releaseDate": "2026-06-11",
+  "rtp": [
+    96.33,
+    94.33,
+    92.29,
+    86.25
+  ],
+  "volatility": "medium",
+  "volatilityNote": "3/5",
+  "maxWinMultiplier": 5000.0,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines"
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://www.hacksawgaming.com/games/great-game-rockies"
+  ],
+  "lastVerified": "2026-11-14"
+}

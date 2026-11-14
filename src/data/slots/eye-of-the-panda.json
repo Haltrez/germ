@@ -1,0 +1,41 @@
+{
+  "name": "Eye of the Panda",
+  "provider": "hacksaw-gaming",
+  "releaseDate": "TODO",
+  "rtp": [
+    96.26,
+    94.21,
+    92.25,
+    88.31
+  ],
+  "volatility": "medium",
+  "volatilityNote": "3/5",
+  "maxWinMultiplier": 10000.0,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 27
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "cascades",
+    "multipliers",
+    "wilds",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://www.hacksawgaming.com/games/eye-of-the-panda"
+  ],
+  "lastVerified": "2026-11-14"
+}

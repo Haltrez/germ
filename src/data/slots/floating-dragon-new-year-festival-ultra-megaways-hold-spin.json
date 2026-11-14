@@ -1,0 +1,39 @@
+{
+  "name": "Floating Dragon New Year Festival Ultra Megaways Hold & Spin",
+  "provider": "pragmatic-play",
+  "releaseDate": "TODO",
+  "rtp": 96.7,
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "ways"
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "cascades",
+    "multipliers",
+    "megaways",
+    "hold-and-win",
+    "wilds",
+    "respins",
+    "retrigger"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswaysfltdrgny&websiteUrl=https%3A%2F%2Fdemogamesfree.pragmaticplay.net&jurisdiction=99&lang=de&cur=EUR",
+  "demoSource": "official-provider",
+  "demoSourceName": "Pragmatic Play",
+  "demoLicenseNote": "Offizielle Demo von Pragmatic Play, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/floating-dragon-new-year-festival-ultra-megaways-hold-spin/"
+  ],
+  "lastVerified": "2026-11-14"
+}

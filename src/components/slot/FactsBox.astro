@@ -21,7 +21,7 @@ const rows: [string, string, string?][] = [
 const features = featureList(s);
 ---
 <section aria-labelledby="facts-title" class="card p-5 sm:p-6">
-  <h2 id="facts-title" class="text-xl font-bold text-fg">Die wichtigsten Fakten zu {s.name}</h2>
+  <h2 id="facts-title" class="text-xl font-bold text-fg">{s.name} RTP, Volatilität &amp; Max Win</h2>
   <dl class="mt-4 grid gap-x-6">
     {rows.map(([k, v, href]) => (
       <div class="flex items-baseline justify-between gap-4 border-b border-line py-2.5 text-sm">

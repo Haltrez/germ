@@ -1,0 +1,37 @@
+{
+  "name": "Chaos Crew",
+  "provider": "hacksaw-gaming",
+  "releaseDate": "TODO",
+  "rtp": [
+    96.3,
+    92.4,
+    88.4
+  ],
+  "volatility": "very-high",
+  "volatilityNote": "5/5",
+  "maxWinMultiplier": 10000.0,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 19
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://www.hacksawgaming.com/games/chaos-crew"
+  ],
+  "lastVerified": "2026-11-14"
+}

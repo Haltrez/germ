@@ -1,0 +1,34 @@
+{
+  "name": "Fire Strike",
+  "provider": "pragmatic-play",
+  "releaseDate": "TODO",
+  "rtp": 96.5,
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": "TODO",
+  "rows": "TODO",
+  "grid": "3×5",
+  "winLines": {
+    "type": "lines",
+    "count": 10
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10firestrike&websiteUrl=https%3A%2F%2Fdemogamesfree.pragmaticplay.net&jurisdiction=99&lang=de&cur=EUR",
+  "demoSource": "official-provider",
+  "demoSourceName": "Pragmatic Play",
+  "demoLicenseNote": "Offizielle Demo von Pragmatic Play, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/fire-strike-slot/"
+  ],
+  "lastVerified": "2026-11-14"
+}

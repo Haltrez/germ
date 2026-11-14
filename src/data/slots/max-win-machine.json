@@ -1,0 +1,33 @@
+{
+  "name": "Max Win Machine",
+  "provider": "hacksaw-gaming",
+  "releaseDate": "2026-08-06",
+  "rtp": [
+    96.22,
+    94.28,
+    92.2
+  ],
+  "volatility": "very-high",
+  "volatilityNote": "5/5",
+  "maxWinMultiplier": 10000.0,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines"
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://www.hacksawgaming.com/games/max-win-machine"
+  ],
+  "lastVerified": "2026-11-14"
+}

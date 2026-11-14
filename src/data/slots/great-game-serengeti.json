@@ -1,0 +1,38 @@
+{
+  "name": "Great Game Serengeti",
+  "provider": "hacksaw-gaming",
+  "releaseDate": "TODO",
+  "rtp": [
+    96.29,
+    94.21,
+    92.3,
+    86.24
+  ],
+  "volatility": "medium",
+  "volatilityNote": "3/5",
+  "maxWinMultiplier": 5000.0,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines"
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://www.hacksawgaming.com/games/great-game-serengeti"
+  ],
+  "lastVerified": "2026-11-14"
+}

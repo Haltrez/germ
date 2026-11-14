@@ -71,6 +71,8 @@ export const slotSchema = z
     /** RTP version typically used at German licensed sites, if known. */
     rtpDE: todoOr(z.number().min(80).max(100)).optional(),
     volatility: todoOr(z.enum(VOLATILITY)),
+    /** Provider's own wording/scale, e.g. "4/5" or "Very high". */
+    volatilityNote: z.string().optional(),
     maxWinMultiplier: todoOr(z.number().positive()),
     reels: todoOr(z.number().int().positive()),
     rows: todoOr(z.union([z.number().int().positive(), z.string().regex(/^\d+-\d+$/)])),

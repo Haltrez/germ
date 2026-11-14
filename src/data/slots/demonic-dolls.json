@@ -1,0 +1,40 @@
+{
+  "name": "Demonic Dolls",
+  "provider": "hacksaw-gaming",
+  "releaseDate": "2026-10-06",
+  "rtp": [
+    96.26,
+    94.19,
+    92.24,
+    86.21
+  ],
+  "volatility": "medium",
+  "volatilityNote": "3/5",
+  "maxWinMultiplier": 10000.0,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "cluster"
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "cluster-pays",
+    "wilds",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://www.hacksawgaming.com/games/demonic-dolls"
+  ],
+  "lastVerified": "2026-11-14"
+}

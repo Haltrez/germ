@@ -1,0 +1,38 @@
+{
+  "name": "Dr Zappo",
+  "provider": "hacksaw-gaming",
+  "releaseDate": "2026-09-29",
+  "rtp": [
+    96.0,
+    94.0,
+    92.0,
+    86.0
+  ],
+  "volatility": "medium",
+  "volatilityNote": "3/5",
+  "maxWinMultiplier": 10000.0,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines"
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://www.hacksawgaming.com/games/dr-zappo"
+  ],
+  "lastVerified": "2026-11-14"
+}

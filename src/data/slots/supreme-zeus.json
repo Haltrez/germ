@@ -1,0 +1,36 @@
+{
+  "name": "Supreme Zeus",
+  "provider": "hacksaw-gaming",
+  "releaseDate": "2026-07-30",
+  "rtp": [
+    96.39,
+    94.3,
+    92.31,
+    86.32
+  ],
+  "volatility": "high",
+  "volatilityNote": "4/5",
+  "maxWinMultiplier": 12500.0,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "ways"
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://www.hacksawgaming.com/games/supreme-zeus"
+  ],
+  "lastVerified": "2026-11-14"
+}

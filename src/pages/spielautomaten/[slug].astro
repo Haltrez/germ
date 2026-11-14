@@ -8,7 +8,7 @@ import EchtgeldBox from '../../components/slot/EchtgeldBox.astro';
 import SlotCard from '../../components/slot/SlotCard.astro';
 import Faq from '../../components/ui/Faq.astro';
 import { getSlotViews, similarSlots, rtpText, rtpMax, isTodo, type SlotView } from '../../lib/slots.ts';
-import { articleSchema, faqSchema } from '../../lib/schema.ts';
+import { articleSchema, faqSchema, videoGameSchema } from '../../lib/schema.ts';
 import { formatDateDE } from '../../lib/i18n/de.ts';
 import { CATEGORIES } from '../../config/routes.ts';
 
@@ -27,7 +27,8 @@ const author = text ? await getEntry('authors', text.author) : undefined;
 
 const fit = (...opts: string[]) => opts.find((o) => [...o].length <= 60) ?? opts[opts.length - 1].slice(0, 60);
 const title = text?.metaTitle ?? fit(`${s.name} kostenlos spielen – Demo ohne Anmeldung`, `${s.name} kostenlos spielen – Demo`, `${s.name} kostenlos spielen`, s.name);
-const autoDesc = `${s.name} von ${providerName} kostenlos spielen: Spielgeld-Demo ohne Anmeldung, RTP ${rtpText(s)} und alle Fakten zum Slot.`;
+const mw = isTodo(s.maxWinMultiplier) ? '' : `, Max Win ${s.maxWinMultiplier.toLocaleString('de-DE')}x`;
+const autoDesc = `${s.name} kostenlos spielen: ${providerName} Demo ohne Anmeldung${isTodo(s.rtp) ? '' : `, RTP ${rtpText(s)}`}${mw}, Freispiele & alle Fakten zum Slot.`;
 const description = text?.metaDescription ?? (autoDesc.length <= 155 ? autoDesc : `${s.name} kostenlos spielen: Demo ohne Anmeldung und alle Fakten zum Slot.`.slice(0, 155));
 
 // Rank by published RTP among slots with a known value (leaderboards come in phase 3).
@@ -38,7 +39,9 @@ const maxWinRank = maxWinRanked.findIndex((v) => v.id === slot.id) + 1;
 
 const similar = similarSlots(all, slot);
 const cats = CATEGORIES.filter((c) => slot.categories.includes(c.code));
-const jsonLd = text
+const jsonLd = [
+  videoGameSchema({ name: s.name, path: slot.path, publisher: providerName, description, datePublished: isTodo(s.releaseDate) ? undefined : s.releaseDate }),
+  ...(text
   ? [
       articleSchema({
         headline: `${s.name} kostenlos spielen – Test und Demo`,
@@ -50,14 +53,15 @@ const jsonLd = text
       }),
       ...(text.faq.length ? [faqSchema(text.faq)] : []),
     ]
-  : [];
+  : []),
+];
 ---
 <BaseLayout
   {title}
   {description}
   noindex={!slot.indexable}
   ogType={text ? 'article' : 'website'}
-  breadcrumbs={[{ name: 'Spielautomaten', href: '/spielautomaten/' }, { name: providerName, href: `/hersteller/${s.provider}/` }, { name: s.name, href: slot.path }]}
+  breadcrumbs={[{ name: 'Spielautomaten', href: '/spielautomaten/' }, { name: `${providerName} Slots`, href: `/hersteller/${s.provider}/` }, { name: s.name, href: slot.path }]}
   {jsonLd}
 >
   <div class="container-site pt-6">
@@ -104,7 +108,7 @@ const jsonLd = text
     )}
 
     <section class="mt-14" aria-labelledby="rank-title">
-      <h2 id="rank-title" class="text-2xl font-bold text-fg">{s.name} in unseren Ranglisten</h2>
+      <h2 id="rank-title" class="text-2xl font-bold text-fg">{s.name} im Vergleich: RTP- und Max-Win-Rangliste</h2>
       <div class="mt-4 grid gap-4 sm:grid-cols-2">
         <a href="/ranglisten/" class="card block p-5 hover:border-mint-400/60">
           <p class="text-sm text-subtle">Auszahlungsquote (RTP)</p>
@@ -122,7 +126,8 @@ const jsonLd = text
 
     {similar.length > 0 && (
       <section class="mt-14" aria-labelledby="similar-title">
-        <h2 id="similar-title" class="text-2xl font-bold text-fg">Ähnliche Slots</h2>
+        <h2 id="similar-title" class="text-2xl font-bold text-fg">Ähnliche Slots wie {s.name}</h2>
+        <p class="mt-2 text-sm text-muted">Mehr <a href={`/hersteller/${s.provider}/`} class="text-mint-300 underline underline-offset-2">{providerName} Slots kostenlos spielen</a>{cats.map((c) => <> · <a href={`/kategorien/${c.slug}/`} class="text-mint-300 underline underline-offset-2">{c.label} kostenlos</a></>)}</p>
         <div class="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
           {similar.map((o) => <SlotCard slot={o} />)}
         </div>

@@ -1,0 +1,40 @@
+{
+  "name": "Le Prechaun",
+  "provider": "hacksaw-gaming",
+  "releaseDate": "2026-07-16",
+  "rtp": [
+    97.52,
+    96.28,
+    94.29,
+    92.28,
+    86.31
+  ],
+  "volatility": "medium",
+  "volatilityNote": "3/5",
+  "maxWinMultiplier": 15000.0,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "cluster"
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "cluster-pays",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://www.hacksawgaming.com/games/le-prechaun"
+  ],
+  "lastVerified": "2026-11-14"
+}

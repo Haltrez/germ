@@ -1,0 +1,39 @@
+{
+  "name": "Death Becomes You",
+  "provider": "hacksaw-gaming",
+  "releaseDate": "2026-06-25",
+  "rtp": [
+    96.34,
+    94.36,
+    92.23,
+    86.28
+  ],
+  "volatility": "high",
+  "volatilityNote": "4/5",
+  "maxWinMultiplier": 15000.0,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines"
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "expanding-symbols",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://www.hacksawgaming.com/games/death-becomes-you"
+  ],
+  "lastVerified": "2026-11-14"
+}

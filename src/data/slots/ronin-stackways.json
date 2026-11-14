@@ -1,0 +1,39 @@
+{
+  "name": "Ronin Stackways",
+  "provider": "hacksaw-gaming",
+  "releaseDate": "TODO",
+  "rtp": [
+    96.35,
+    94.33,
+    92.24,
+    88.23
+  ],
+  "volatility": "low",
+  "volatilityNote": "2/5",
+  "maxWinMultiplier": 5000.0,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "ways",
+    "count": 100000
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "respins",
+    "retrigger"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://www.hacksawgaming.com/games/ronin-stackways"
+  ],
+  "lastVerified": "2026-11-14"
+}

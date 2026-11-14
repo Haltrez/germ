@@ -1,0 +1,38 @@
+{
+  "name": "Grug Make Fire",
+  "provider": "hacksaw-gaming",
+  "releaseDate": "2026-07-09",
+  "rtp": [
+    96.19,
+    94.28,
+    92.27,
+    86.22
+  ],
+  "volatility": "high",
+  "volatilityNote": "4/5",
+  "maxWinMultiplier": 10000.0,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines"
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "sourceUrls": [
+    "https://www.hacksawgaming.com/games/grug-make-fire"
+  ],
+  "lastVerified": "2026-11-14"
+}
