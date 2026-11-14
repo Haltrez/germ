@@ -1,0 +1,89 @@
+---
+import '../styles/global.css';
+import RgTopBar from '../components/compliance/RgTopBar.astro';
+import RgBlock from '../components/compliance/RgBlock.astro';
+import CookieConsent from '../components/compliance/CookieConsent.astro';
+import Header from '../components/layout/Header.astro';
+import Footer from '../components/layout/Footer.astro';
+import Breadcrumbs from '../components/layout/Breadcrumbs.astro';
+import { SITE_NAME, SITE_URL, SITE_OG_LOCALE, DEFAULT_OG_IMAGE } from '../config/site.ts';
+import { NOINDEX_PATHS } from '../config/routes.ts';
+import { breadcrumbSchema, absUrl, type Crumb, type JsonLd } from '../lib/schema.ts';
+
+interface Props {
+  /** Full <title>, max. 60 characters. */
+  title: string;
+  /** Meta description, max. 155 characters. */
+  description: string;
+  /** Breadcrumb trail without "Startseite" (added automatically). Omit on the homepage. */
+  breadcrumbs?: Crumb[];
+  jsonLd?: JsonLd[];
+  noindex?: boolean;
+  ogImage?: string;
+  ogType?: 'website' | 'article';
+  /** "informational" allows neutral mentions of illegal offers / "Online Casino"; forbids affiliate links. */
+  complianceContext?: 'standard' | 'informational';
+  /** Hide the responsible-gambling block above the footer (the RG page itself). */
+  hideRgBlock?: boolean;
+}
+
+const {
+  title,
+  description,
+  breadcrumbs,
+  jsonLd = [],
+  noindex = false,
+  ogImage = DEFAULT_OG_IMAGE,
+  ogType = 'website',
+  complianceContext = 'standard',
+  hideRgBlock = false,
+} = Astro.props;
+
+const path = Astro.url.pathname.endsWith('/') ? Astro.url.pathname : `${Astro.url.pathname}/`;
+const canonical = new URL(path, SITE_URL).href;
+const robotsNoindex = noindex || NOINDEX_PATHS.has(path);
+const crumbs: Crumb[] | null = breadcrumbs ? [{ name: 'Startseite', href: '/' }, ...breadcrumbs] : null;
+const ld = [...(crumbs ? [breadcrumbSchema(crumbs)] : []), ...jsonLd];
+---
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {robotsNoindex
+      ? <meta name="robots" content="noindex, follow" />
+      : <meta name="robots" content="index, follow, max-image-preview:large" />}
+    <meta name="theme-color" content="#050a1c" />
+    <meta name="compliance-context" content={complianceContext} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="alternate" type="application/rss+xml" title={`Neue Slots – ${SITE_NAME}`} href="/rss.xml" />
+
+    <meta property="og:locale" content={SITE_OG_LOCALE} />
+    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={absUrl(ogImage)} />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    {ld.map((obj) => <script type="application/ld+json" set:html={JSON.stringify(obj)} />)}
+  </head>
+  <body class="flex min-h-dvh flex-col">
+    <a href="#main" class="sr-only z-[60] rounded-lg bg-mint-400 px-4 py-2 font-semibold text-mint-950 focus:not-sr-only focus:fixed focus:left-4 focus:top-4">Zum Inhalt springen</a>
+    <RgTopBar />
+    <Header />
+    {crumbs && <Breadcrumbs crumbs={crumbs} />}
+    <main id="main" class="flex-1">
+      <slot />
+    </main>
+    {!hideRgBlock && <RgBlock />}
+    <Footer />
+    <CookieConsent />
+  </body>
+</html>

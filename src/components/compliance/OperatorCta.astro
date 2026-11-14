@@ -1,0 +1,34 @@
+---
+/**
+ * The ONLY way to render an affiliate link. Fails the build if the operator is
+ * not GGL-licensed/verified or if the CTA label is not on the allowlist.
+ * Always renders a disclosure directly next to the link.
+ */
+import type { Operator } from '../../schemas/index.ts';
+import { AFFILIATE_REL, assertCtaLabel, assertPromotable, ComplianceError, type CtaLabel } from '../../lib/compliance.ts';
+
+interface Props {
+  slug: string;
+  operator: Operator;
+  label?: CtaLabel;
+  variant?: 'primary' | 'secondary';
+  class?: string;
+}
+const { slug, operator, label = 'Zum Anbieter', variant = 'primary', class: cls } = Astro.props;
+assertPromotable(slug, operator);
+assertCtaLabel(label);
+if (!operator.affiliateUrl) throw new ComplianceError(`Operator "${slug}" has no affiliateUrl`);
+---
+<span class:list={['inline-flex flex-col items-stretch gap-1', cls]}>
+  <a
+    href={operator.affiliateUrl}
+    rel={AFFILIATE_REL}
+    target="_blank"
+    data-affiliate={slug}
+    class:list={['btn', variant === 'primary' ? 'btn-primary' : 'btn-secondary']}
+  >
+    {label}
+    <span class="sr-only">(öffnet {operator.name} in neuem Tab, Affiliate-Link)</span>
+  </a>{' '}
+  <span class="text-center text-[0.6875rem] text-subtle" data-affiliate-disclosure>Anzeige · Affiliate-Link · 18+</span>
+</span>

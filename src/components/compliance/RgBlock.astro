@@ -1,0 +1,36 @@
+---
+import { RG, COMPLIANCE } from '../../config/site.ts';
+---
+<section aria-labelledby="rg-block-title" class="container-site mt-20" data-rg-block>
+  <div class="card relative overflow-hidden p-6 sm:p-8">
+    <div class="pointer-events-none absolute -right-20 -top-24 h-64 w-64 rounded-full bg-coral-400/10 blur-3xl" aria-hidden="true"></div>
+    <div class="grid gap-8 lg:grid-cols-[1.2fr_1fr] lg:items-center">
+      <div>
+        <p class="eyebrow !text-coral-300">Spielerschutz</p>
+        <h2 id="rg-block-title" class="mt-2 text-2xl font-bold text-fg sm:text-3xl">Spiel mit klarem Kopf – und mit Limit</h2>
+        <p class="mt-3 max-w-xl text-muted">
+          Unsere Demos laufen mit Spielgeld. Wenn du um echtes Geld spielst, ist das Unterhaltung mit Kosten, kein Weg zum Geldverdienen.
+          Langfristig gewinnt die Spielothek. Setz dir vorher ein festes Budget und hör auf, wenn es aufgebraucht ist.
+        </p>
+        <ul class="mt-5 grid gap-2 text-sm text-muted sm:grid-cols-2">
+          <li class="flex gap-2"><span class="text-mint-400" aria-hidden="true">●</span> Max. {COMPLIANCE.maxStakePerSpinEur} € Einsatz pro Spin</li>
+          <li class="flex gap-2"><span class="text-mint-400" aria-hidden="true">●</span> Mind. {COMPLIANCE.minSecondsPerSpin} Sekunden pro Spielrunde</li>
+          <li class="flex gap-2"><span class="text-mint-400" aria-hidden="true">●</span> Einzahlungslimit über LUGAS</li>
+          <li class="flex gap-2"><span class="text-mint-400" aria-hidden="true">●</span> Sperre über OASIS jederzeit möglich</li>
+        </ul>
+      </div>
+      <div class="rounded-2xl border border-line bg-ink-900/70 p-5">
+        <p class="font-display text-lg font-bold text-fg">Du machst dir Sorgen um dein Spielverhalten?</p>
+        <p class="mt-1 text-sm text-muted">Kostenlose und anonyme Beratung:</p>
+        <p class="mt-3">
+          <a href={RG.helplinePhoneHref} class="font-display text-2xl font-extrabold text-mint-300 hover:text-mint-400">{RG.helplinePhone}</a>
+        </p>
+        <p class="text-xs text-subtle">{RG.helplineName}</p>
+        <div class="mt-4 flex flex-wrap gap-2">
+          <a href={RG.helplineUrl} target="_blank" rel="noopener" class="btn btn-secondary">{RG.helplineUrlLabel}</a>{' '}
+          <a href={RG.rgPagePath} class="btn btn-secondary">Verantwortungsvoll spielen</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

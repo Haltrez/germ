@@ -1,0 +1,29 @@
+---
+/**
+ * Banner-style ad unit. For kind="virtual-slot" with ADS.virtualSlotAdsNightOnly,
+ * the unit is rendered `hidden` and only revealed between 21:00 and 06:00
+ * Europe/Berlin time (GlüStV 2021 § 5 Abs. 3). Without JavaScript it stays
+ * hidden. Editorial content never uses this component.
+ */
+import { ADS } from '../../config/site.ts';
+interface Props { kind: 'virtual-slot' | 'general'; id: string; class?: string }
+const { kind, id, class: cls } = Astro.props;
+const timeRestricted = kind === 'virtual-slot' && ADS.virtualSlotAdsNightOnly;
+---
+{ADS.enabled && (
+  <aside
+    class:list={['card p-3 text-center', cls]}
+    aria-label="Anzeige"
+    data-ad-unit={kind}
+    data-ad-id={id}
+    data-ad-time-restricted={timeRestricted ? 'true' : undefined}
+    hidden={timeRestricted}
+  >
+    <p class="mb-2 text-[0.6875rem] font-semibold uppercase tracking-wider text-subtle">Anzeige</p>
+    <slot />
+  </aside>
+)}
+
+{ADS.enabled && timeRestricted && (
+  <script is:inline set:html={`(function(){var f=${ADS.blockedFromHour},u=${ADS.blockedUntilHour};function a(){var h=Number(new Intl.DateTimeFormat('de-DE',{hour:'numeric',hourCycle:'h23',timeZone:'Europe/Berlin'}).format(new Date()));var b=h>=f&&h<u;document.querySelectorAll('[data-ad-time-restricted="true"]').forEach(function(e){e.hidden=b;});}a();setInterval(a,60000);})();`} />
+)}

@@ -1,0 +1,19 @@
+---
+import { RG } from '../../config/site.ts';
+---
+<div class="border-b border-line bg-ink-900 text-[0.8125rem] text-muted" data-rg-notice>
+  <div class="container-site flex flex-wrap items-center justify-center gap-x-3 gap-y-1 py-1.5 text-center">
+    <span class="inline-flex items-center gap-1.5 font-semibold text-fg">
+      <span class="rounded bg-coral-400 px-1.5 py-px text-[0.6875rem] font-extrabold text-ink-950">{RG.minAge}+</span>{' '}
+      Glücksspiel ab {RG.minAge} Jahren
+    </span>{' '}
+    <span aria-hidden="true" class="hidden sm:inline">·</span>{' '}
+    <span>Glücksspiel kann süchtig machen.</span>{' '}
+    <span aria-hidden="true" class="hidden sm:inline">·</span>{' '}
+    <span>
+      Hilfe: <a class="underline underline-offset-2 hover:text-fg" href={RG.helplineUrl} rel="noopener" target="_blank">{RG.helplineUrlLabel}</a>{' '}
+      oder <a class="whitespace-nowrap underline underline-offset-2 hover:text-fg" href={RG.helplinePhoneHref}>{RG.helplinePhone}</a>{' '}
+      <span class="hidden md:inline">(kostenlos &amp; anonym)</span>
+    </span>
+  </div>
+</div>

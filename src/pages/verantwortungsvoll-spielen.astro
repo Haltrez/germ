@@ -1,0 +1,106 @@
+---
+import LegalLayout from '../layouts/LegalLayout.astro';
+import { RG, COMPLIANCE } from '../config/site.ts';
+---
+<LegalLayout
+  title="Verantwortungsvoll spielen: Limits, OASIS & Hilfe"
+  description="Glücksspiel kann süchtig machen. Warnsignale, Tipps für sicheres Spielen, OASIS-Sperre, LUGAS-Limit und kostenlose Hilfe bei Spielsucht."
+  h1="Verantwortungsvoll spielen"
+  crumb="Verantwortungsvoll spielen"
+  updated="2026-11-14"
+  complianceContext="informational"
+  hideRgBlock
+  intro="Glücksspiel ist Unterhaltung, die Geld kostet – und es kann süchtig machen. Hier erfährst du, wie du die Kontrolle behältst, welche Schutzregeln in Deutschland gelten und wo du schnell Hilfe bekommst."
+>
+  <div class="not-prose card !mt-8 p-6" data-rg-notice>
+    <p class="font-display text-xl font-bold text-fg">Sofort Hilfe – kostenlos und anonym</p>
+    <p class="mt-2">
+      Telefon: <a href={RG.helplinePhoneHref} class="font-bold">{RG.helplinePhone}</a><br />
+      Online: <a href={RG.helplineUrl} target="_blank" rel="noopener">{RG.helplineUrlLabel}</a><br />
+      <span class="text-sm text-subtle">{RG.helplineName}</span>
+    </p>
+  </div>
+
+  <h2>Glücksspiel ab {RG.minAge} – und nie um Geld, das du brauchst</h2>
+  <p>
+    Echtgeldspiel ist in Deutschland erst ab {RG.minAge} Jahren erlaubt. Spielautomaten arbeiten mit einem Zufallsgenerator
+    und haben eine eingebaute Auszahlungsquote (RTP) unter 100 %. Das heißt: Über viele Spielrunden hinweg verlierst du im
+    Durchschnitt Geld. Einzelne Gewinne sind Zufall, keine Belohnung für Geschick. Es gibt keine Tricks oder Strategien,
+    die das ändern.
+  </p>
+
+  <h2>Warnsignale: Wann wird Spielen zum Problem?</h2>
+  <p>Frag dich ehrlich, ob eines dieser Anzeichen auf dich zutrifft:</p>
+  <ul>
+    <li>Du spielst länger oder mit mehr Geld als geplant.</li>
+    <li>Du versuchst, Verluste durch weiteres Spielen zurückzuholen.</li>
+    <li>Du denkst auch außerhalb des Spielens oft daran.</li>
+    <li>Du leihst dir Geld oder verschweigst anderen, wie viel du spielst.</li>
+    <li>Du wirst unruhig oder gereizt, wenn du nicht spielen kannst.</li>
+    <li>Schule, Arbeit, Familie oder Freundschaften leiden unter dem Spielen.</li>
+  </ul>
+  <p>
+    Trifft etwas davon zu, sprich mit jemandem darüber. Einen anonymen Selbsttest und viele Informationen findest du auf{' '}
+    <a href={RG.helplineUrl} target="_blank" rel="noopener">{RG.helplineUrlLabel}</a>.
+  </p>
+
+  <h2>Tipps für kontrolliertes Spielen</h2>
+  <ul>
+    <li><strong>Budget festlegen:</strong> Lege vorher fest, wie viel du höchstens verlieren willst, und bleib dabei.</li>
+    <li><strong>Zeitlimit setzen:</strong> Stell dir einen Wecker und mach regelmäßig Pausen.</li>
+    <li><strong>Verluste nicht jagen:</strong> Was weg ist, ist weg. Hör auf, wenn das Budget aufgebraucht ist.</li>
+    <li><strong>Nicht unter Druck spielen:</strong> Nicht bei Stress, Frust, unter Alkohol oder um Probleme zu vergessen.</li>
+    <li><strong>Limits beim Anbieter nutzen:</strong> Einzahlungs-, Einsatz- und Verlustlimits kannst du in deinem Konto selbst einstellen.</li>
+    <li><strong>Erst kostenlos testen:</strong> Mit unseren Spielgeld-Demos lernst du ein Spiel kennen, ohne Geld zu riskieren.</li>
+  </ul>
+
+  <h2>Schutzregeln für Online-Spielotheken in Deutschland</h2>
+  <p>Seit dem Glücksspielstaatsvertrag 2021 gelten für virtuelle Automatenspiele bei legalen Anbietern unter anderem diese Regeln:</p>
+  <ul>
+    <li>Höchstens {COMPLIANCE.maxStakePerSpinEur} € Einsatz pro Spielrunde.</li>
+    <li>Eine Spielrunde dauert mindestens {COMPLIANCE.minSecondsPerSpin} Sekunden.</li>
+    <li>Keine Autoplay-Funktion: Jeder Spin wird von dir selbst ausgelöst.</li>
+    <li>Ein anbieterübergreifendes Einzahlungslimit, standardmäßig {COMPLIANCE.lugasDefaultMonthlyDepositLimitEur.toLocaleString('de-DE')} € pro Monat.</li>
+    <li>Du kannst nicht gleichzeitig bei mehreren Anbietern spielen.</li>
+    <li>Ein Panik-Button ermöglicht dir eine sofortige Spielpause von 24 Stunden.</li>
+  </ul>
+
+  <h2>Was ist LUGAS?</h2>
+  <p>
+    LUGAS steht für „Länderübergreifendes Glücksspielaufsichtssystem“. Lizenzierte Anbieter melden darüber unter anderem
+    deine Einzahlungen. So wird sichergestellt, dass das monatliche Einzahlungslimit für alle Anbieter zusammen gilt und du
+    nicht parallel bei mehreren Spielotheken spielst. Anbieter ohne Anbindung an LUGAS haben keine deutsche Erlaubnis.
+  </p>
+
+  <h2>Was ist OASIS – und wie lässt du dich sperren?</h2>
+  <p>
+    OASIS ist das bundesweite, spielformübergreifende Spielersperrsystem. Eine Sperre gilt für alle legalen Anbieter in
+    Deutschland: für Online-Spielotheken genauso wie für Spielhallen, Spielbanken und Sportwetten. Lizenzierte Anbieter
+    müssen vor jedem Spiel prüfen, ob eine Sperre vorliegt.
+  </p>
+  <ul>
+    <li><strong>Selbstsperre:</strong> Du kannst sie direkt bei jedem legalen Anbieter oder beim Regierungspräsidium Darmstadt beantragen, das OASIS betreibt. Eine Selbstsperre gilt mindestens drei Monate.</li>
+    <li><strong>Kurzzeitsperre:</strong> Über den Panik-Button bei deinem Anbieter sperrst du dich sofort für 24 Stunden.</li>
+    <li><strong>Fremdsperre:</strong> Auch Angehörige oder andere Dritte können eine Sperre anregen, wenn sie Anzeichen einer Spielsucht sehen.</li>
+    <li><strong>Aufhebung:</strong> Eine Sperre endet nicht automatisch. Sie wird nur auf deinen schriftlichen Antrag nach Ablauf der Mindestdauer aufgehoben.</li>
+  </ul>
+  <p>
+    Wichtig: Anbieter ohne OASIS-Anbindung haben keine deutsche Erlaubnis und bieten keinen Spielerschutz. Wer dort spielt,
+    spielt illegal und ohne die Sicherheit, dass Gewinne ausgezahlt werden. Wir verlinken solche Angebote grundsätzlich nicht.
+  </p>
+
+  <h2>Hier bekommst du Hilfe</h2>
+  <ul>
+    <li><strong>Beratungstelefon:</strong> <a href={RG.helplinePhoneHref}>{RG.helplinePhone}</a> – kostenlos und anonym ({RG.helplineName})</li>
+    <li><strong>Online-Beratung und Selbsttest:</strong> <a href={RG.helplineUrl} target="_blank" rel="noopener">{RG.helplineUrlLabel}</a></li>
+    <li><strong>Suchtberatungsstellen vor Ort:</strong> In fast jeder Stadt gibt es kostenlose Beratung, auch für Angehörige.</li>
+    <li><strong>Selbsthilfegruppen:</strong> Der Austausch mit anderen Betroffenen kann sehr entlasten.</li>
+  </ul>
+  <p><span class="todo">TODO: Links zum OASIS-Antragsformular des RP Darmstadt und zu Selbsthilfe-Verbänden nach Prüfung ergänzen.</span></p>
+
+  <h2>Kinder und Jugendliche schützen</h2>
+  <p>
+    Unsere Demos sind für Erwachsene gedacht. Wenn Kinder dein Gerät nutzen, helfen Jugendschutzfilter und getrennte
+    Benutzerkonten. Bewahre Zugangsdaten zu Spielotheken-Konten sicher auf.
+  </p>
+</LegalLayout>

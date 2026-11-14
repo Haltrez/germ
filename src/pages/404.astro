@@ -1,0 +1,21 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { CATEGORIES } from '../config/routes.ts';
+// TODO(phase 2): show popular slots here once slot data exists.
+---
+<BaseLayout title="Seite nicht gefunden – KostenloseSpielautomaten" description="Diese Seite gibt es leider nicht. Such einfach nach deinem Slot oder stöbere in unseren Kategorien." noindex>
+  <section class="container-site py-16 text-center">
+    <p class="font-display text-7xl font-extrabold text-mint-400">404</p>
+    <h1 class="mt-4 text-3xl font-extrabold text-fg sm:text-4xl">Diese Seite haben wir nicht gefunden</h1>
+    <p class="mx-auto mt-3 max-w-lg text-muted">Vielleicht hat sich die Adresse geändert. Such einfach nach deinem Slot:</p>
+    <form action="/spielautomaten/" method="get" role="search" class="mx-auto mt-6 flex max-w-md gap-2">
+      <label for="nf-search" class="sr-only">Slot suchen</label>
+      <input id="nf-search" name="q" type="search" placeholder="Slot oder Hersteller" class="min-w-0 flex-1 rounded-full border border-ink-600 bg-ink-900 px-5 text-fg placeholder:text-subtle focus:border-mint-400 focus:outline-none" />
+      <button class="btn btn-primary" type="submit">Suchen</button>
+    </form>
+    <ul class="mt-8 flex flex-wrap justify-center gap-2">
+      {CATEGORIES.map((c) => (<li><a class="chip" href={`/kategorien/${c.slug}/`}>{c.label}</a></li>))}
+      <li><a class="chip" href="/">Startseite</a></li>
+    </ul>
+  </section>
+</BaseLayout>

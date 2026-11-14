@@ -1,0 +1,65 @@
+---
+import LegalLayout from '../layouts/LegalLayout.astro';
+import { COMPLIANCE } from '../config/site.ts';
+
+/** Proposed weights. TODO(owner): confirm. Must match the rating data in operators/*.json. */
+const criteria = [
+  { name: 'Lizenz und Sicherheit', weight: 25, text: 'Gültige GGL-Erlaubnis (Pflicht), Datum der letzten Whitelist-Prüfung, Transparenz zum Betreiber.' },
+  { name: 'Spielerschutz', weight: 25, text: 'Limits, Panik-Button, Hinweise auf Hilfsangebote, verständliche Informationen zu OASIS und LUGAS.' },
+  { name: 'Spielangebot', weight: 20, text: 'Auswahl an Slots und Herstellern, Angaben zu RTP-Versionen, Bedienbarkeit auf dem Smartphone.' },
+  { name: 'Ein- und Auszahlungen', weight: 20, text: 'Zahlungsmethoden, Gebühren, tatsächlich gemessene Auszahlungsdauer, Verifizierung.' },
+  { name: 'Service', weight: 10, text: 'Erreichbarkeit und Qualität des Kundenservice auf Deutsch, Klarheit der Bonusbedingungen.' },
+];
+---
+<LegalLayout
+  title="Bewertungsmethodik: So prüfen wir Slots & Spielotheken"
+  description="So prüfen wir: GGL-Lizenzcheck, offizielle Herstellerdaten, eigene Tests und feste Kriterien für die Bewertung von Online-Spielotheken."
+  h1="So prüfen wir Slots und Spielotheken"
+  crumb="Bewertungsmethodik"
+  updated="2026-11-14"
+  intro="Unsere Bewertungen folgen festen Regeln. Hier legen wir offen, woher unsere Daten stammen und wie eine Spielothek ihre Note bekommt."
+>
+  <h2>Unser Prüfverfahren in vier Schritten</h2>
+  <ol>
+    <li><strong>Lizenz prüfen:</strong> Wir gleichen jeden Anbieter mit der offiziellen Whitelist der GGL ab. Ohne gültige Erlaubnis keine Aufnahme – ohne Ausnahme. Das Prüfdatum steht bei jedem Anbieter.</li>
+    <li><strong>Daten belegen:</strong> Spielwerte übernehmen wir aus den offiziellen Datenblättern der Hersteller und speichern die Quelle. Was wir nicht belegen können, kennzeichnen wir als „wird geprüft“.</li>
+    <li><strong>Selbst testen:</strong> Wir spielen die Demos selbst, eröffnen Testkonten bei Spielotheken und prüfen Einzahlung, Auszahlung und Kundenservice.</li>
+    <li><strong>Ehrlich bewerten:</strong> Die Gesamtnote ergibt sich aus festen, gewichteten Kriterien. Provisionen haben darauf keinen Einfluss.</li>
+  </ol>
+
+  <h2>So prüfen wir Slot-Daten</h2>
+  <ul>
+    <li><strong>RTP:</strong> Viele Slots gibt es in mehreren RTP-Versionen. Wir nennen alle bekannten Versionen und, wenn bekannt, die bei deutschen Anbietern übliche.</li>
+    <li><strong>Volatilität:</strong> Wir übernehmen die Einstufung des Herstellers (niedrig, mittel, hoch, sehr hoch).</li>
+    <li><strong>Maximalgewinn:</strong> Angegeben als Vielfaches des Einsatzes laut Hersteller. Das ist ein theoretischer Höchstwert, der extrem selten erreicht wird.</li>
+    <li><strong>Einsatz:</strong> Wir nennen die Einsatzspanne des Herstellers. Bei legalen Anbietern in Deutschland liegt der Höchsteinsatz bei {COMPLIANCE.maxStakePerSpinEur} € pro Spin.</li>
+    <li><strong>Aktualität:</strong> Jede Slot-Seite zeigt, wann wir die Daten zuletzt geprüft haben.</li>
+  </ul>
+
+  <h2>So bewerten wir Online-Spielotheken</h2>
+  <p>
+    Bewertet werden nur Anbieter mit GGL-Erlaubnis. Jedes Kriterium bekommt 0 bis 10 Punkte, die Gesamtnote ist der
+    gewichtete Durchschnitt. <span class="todo">TODO: Gewichtung bestätigen oder anpassen.</span>
+  </p>
+  <table>
+    <thead><tr><th scope="col">Kriterium</th><th scope="col">Gewicht</th><th scope="col">Was wir prüfen</th></tr></thead>
+    <tbody>
+      {criteria.map((c) => (<tr><td>{c.name}</td><td>{c.weight} %</td><td>{c.text}</td></tr>))}
+    </tbody>
+  </table>
+  <p>
+    Bonusangebote fließen nicht in die Note ein. Wir zeigen nur geprüfte Angebote mit Link zu den Bedingungen und weisen auf
+    deutsche Vorgaben wie das Einzahlungslimit hin.
+  </p>
+
+  <h2>Was wir nicht tun</h2>
+  <ul>
+    <li>Wir verkaufen keine Platzierungen und keine besseren Noten.</li>
+    <li>Wir zeigen keine Echtgeld-Gewinne von Spielern und keine erfundenen Erfahrungsberichte.</li>
+    <li>Wir versprechen keine Gewinne und verraten keine „Tricks“, denn die gibt es nicht.</li>
+    <li>Wir verlinken keine Anbieter ohne deutsche Erlaubnis.</li>
+  </ul>
+
+  <h2>Fehler gefunden?</h2>
+  <p>Wenn dir ein falscher Wert auffällt, schreib uns über die Kontaktdaten im <a href="/impressum/">Impressum</a>. Wir prüfen jeden Hinweis.</p>
+</LegalLayout>

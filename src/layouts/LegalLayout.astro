@@ -1,0 +1,28 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import { formatDateDE } from '../lib/i18n/de.ts';
+
+interface Props {
+  title: string;
+  description: string;
+  h1: string;
+  crumb: string;
+  updated: string;
+  intro?: string;
+  complianceContext?: 'standard' | 'informational';
+  hideRgBlock?: boolean;
+}
+const { title, description, h1, crumb, updated, intro, complianceContext, hideRgBlock } = Astro.props;
+---
+<BaseLayout {title} {description} breadcrumbs={[{ name: crumb, href: Astro.url.pathname }]} {complianceContext} {hideRgBlock}>
+  <article class="container-site pb-4 pt-8">
+    <header class="max-w-3xl">
+      <h1 class="text-3xl font-extrabold text-fg sm:text-5xl">{h1}</h1>
+      {intro && <p class="mt-4 text-lg text-muted">{intro}</p>}
+      <p class="mt-4 text-sm text-subtle">Stand: <time datetime={updated}>{formatDateDE(updated)}</time></p>
+    </header>
+    <div class="prose-site mt-10">
+      <slot />
+    </div>
+  </article>
+</BaseLayout>

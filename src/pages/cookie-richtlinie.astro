@@ -1,0 +1,49 @@
+---
+import LegalLayout from '../layouts/LegalLayout.astro';
+---
+<LegalLayout
+  title="Cookie-Richtlinie – KostenloseSpielautomaten"
+  description="Welche Cookies und Speichertechniken KostenloseSpielautomaten nutzt, wofür sie dienen und wie du deine Einwilligung änderst."
+  h1="Cookie-Richtlinie"
+  crumb="Cookie-Richtlinie"
+  updated="2026-11-14"
+  intro="Wir speichern so wenig wie möglich. Ohne deine Einwilligung wird nur deine Datenschutz-Auswahl selbst gespeichert."
+>
+  <p>
+    <button type="button" data-open-consent class="btn btn-secondary">Cookie-Einstellungen öffnen</button>
+  </p>
+
+  <h2>Kategorien</h2>
+  <table>
+    <thead>
+      <tr><th scope="col">Kategorie</th><th scope="col">Zweck</th><th scope="col">Einwilligung nötig?</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Notwendig</td><td>Speichert deine Auswahl im Einwilligungs-Banner.</td><td>Nein</td></tr>
+      <tr><td>Externe Medien</td><td>Lädt Spiele-Demos von Servern der Hersteller. Diese können eigene Cookies setzen.</td><td>Ja</td></tr>
+      <tr><td>Statistik</td><td>Anonyme Reichweitenmessung. Derzeit nicht im Einsatz.</td><td>Ja</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Was wir konkret speichern</h2>
+  <table>
+    <thead>
+      <tr><th scope="col">Name</th><th scope="col">Art</th><th scope="col">Anbieter</th><th scope="col">Zweck</th><th scope="col">Dauer</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><code>ksa-consent</code></td><td>localStorage</td><td>KostenloseSpielautomaten</td><td>Deine Einwilligungsauswahl</td><td>Bis du sie löschst oder änderst</td></tr>
+    </tbody>
+  </table>
+  <p>
+    Cookies der Spielehersteller werden erst gesetzt, wenn du eine Demo startest und der Kategorie „Externe Medien“ zugestimmt
+    hast. Welche das sind, legt der jeweilige Hersteller fest.{' '}
+    <span class="todo">TODO: Liste der Demo-Anbieter und deren Datenschutzhinweise ergänzen, sobald die Demo-Quellen feststehen.</span>
+  </p>
+
+  <h2>Einwilligung ändern oder widerrufen</h2>
+  <p>
+    Du kannst deine Auswahl jederzeit über den Link „Cookie-Einstellungen“ im Footer oder den Button oben ändern. „Alle ablehnen“
+    ist dabei genauso einfach wie „Alle akzeptieren“. Zusätzlich kannst du gespeicherte Daten in den Einstellungen deines
+    Browsers löschen. Mehr Informationen findest du in unserer <a href="/datenschutz/">Datenschutzerklärung</a>.
+  </p>
+</LegalLayout>

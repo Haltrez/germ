@@ -1,0 +1,88 @@
+---
+import LegalLayout from '../layouts/LegalLayout.astro';
+import { COMPANY } from '../config/site.ts';
+---
+<LegalLayout
+  title="Datenschutzerklärung – KostenloseSpielautomaten"
+  description="Datenschutzerklärung: welche Daten beim Besuch von KostenloseSpielautomaten verarbeitet werden, wofür und welche Rechte du hast."
+  h1="Datenschutzerklärung"
+  crumb="Datenschutz"
+  updated="2026-11-14"
+  intro="Kurz gesagt: Wir setzen ohne deine Einwilligung keine Tracking- oder Analyse-Tools ein. Spiele-Demos der Hersteller laden erst, wenn du es möchtest."
+>
+  <h2>1. Verantwortlicher</h2>
+  <p>
+    <span class="todo">{COMPANY.legalName}</span>, <span class="todo">{COMPANY.street}</span>,{' '}
+    <span class="todo">{COMPANY.postalCode}</span> <span class="todo">{COMPANY.city}</span><br />
+    E-Mail: <span class="todo">{COMPANY.email}</span>
+  </p>
+  <p><span class="todo">TODO: Falls ein Datenschutzbeauftragter benannt ist, hier Kontaktdaten ergänzen.</span></p>
+
+  <h2>2. Hosting und Server-Logfiles</h2>
+  <p>
+    Diese Website wird bei <span class="todo">{COMPANY.hostingProvider}</span> gehostet. Beim Aufruf einer Seite verarbeitet
+    der Hosting-Anbieter technisch notwendige Daten wie IP-Adresse, Datum und Uhrzeit, aufgerufene Seite, Referrer sowie
+    Browser und Betriebssystem. Das ist erforderlich, um die Website sicher und stabil auszuliefern. Rechtsgrundlage ist
+    Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einem sicheren Betrieb). Logfiles werden nach{' '}
+    <span class="todo">TODO: Speicherdauer</span> gelöscht.{' '}
+    <span class="todo">TODO: Auftragsverarbeitungsvertrag und ggf. Drittlandübermittlung (Art. 44 ff. DSGVO) beschreiben.</span>
+  </p>
+
+  <h2>3. Einwilligungsverwaltung</h2>
+  <p>
+    Deine Auswahl im Einwilligungs-Banner speichern wir im lokalen Speicher deines Browsers (localStorage, Schlüssel{' '}
+    <code>ksa-consent</code>). Diese Speicherung ist unbedingt erforderlich, damit wir deine Entscheidung respektieren können
+    (§ 25 Abs. 2 Nr. 2 TDDDG). Die Daten verlassen deinen Browser nicht. Du kannst deine Auswahl jederzeit über
+    „Cookie-Einstellungen“ im Footer ändern oder widerrufen. Details findest du in unserer{' '}
+    <a href="/cookie-richtlinie/">Cookie-Richtlinie</a>.
+  </p>
+
+  <h2>4. Spiele-Demos der Hersteller</h2>
+  <p>
+    Die Demo-Spiele werden von den Servern des jeweiligen Spieleherstellers oder eines lizenzierten Demo-Anbieters geladen.
+    Das passiert erst, wenn du auf „Demo spielen“ klickst und der Kategorie „Externe Medien“ zugestimmt hast. Dabei wird
+    deine IP-Adresse an den jeweiligen Anbieter übertragen, und dieser kann Cookies oder ähnliche Technologien einsetzen.
+    Rechtsgrundlage ist deine Einwilligung (Art. 6 Abs. 1 lit. a DSGVO, § 25 Abs. 1 TDDDG). Welcher Anbieter eine Demo
+    bereitstellt, steht jeweils direkt beim Spiel.
+  </p>
+
+  <h2>5. Affiliate-Links</h2>
+  <p>
+    Einige Links führen zu Online-Spielotheken mit deutscher Erlaubnis und sind als Affiliate-Link gekennzeichnet. Wir
+    setzen dafür auf unserer Website keine eigenen Tracking-Cookies. Sobald du die Website des Anbieters aufrufst, gilt
+    dessen Datenschutzerklärung; der Anbieter kann erfassen, dass du über unsere Seite gekommen bist.{' '}
+    <span class="todo">TODO: Prüfen, ob Affiliate-Netzwerke Parameter oder Weiterleitungen nutzen, und ggf. ergänzen.</span>
+  </p>
+
+  <h2>6. Reichweitenmessung</h2>
+  <p>
+    Derzeit setzen wir keine Analyse-Tools ein. Sollten wir künftig eine Reichweitenmessung einführen, geschieht das nur
+    nach deiner Einwilligung in der Kategorie „Statistik“, und wir ergänzen diese Erklärung vorher.
+  </p>
+
+  <h2>7. Schriftarten</h2>
+  <p>Alle Schriftarten liegen auf unserem eigenen Server. Beim Seitenaufruf wird keine Verbindung zu externen Schriftanbietern hergestellt.</p>
+
+  <h2>8. Kontakt per E-Mail</h2>
+  <p>
+    Wenn du uns schreibst, verarbeiten wir deine Angaben, um deine Anfrage zu beantworten (Art. 6 Abs. 1 lit. b bzw. f DSGVO).
+    Wir löschen die Daten, sobald sie dafür nicht mehr erforderlich sind und keine gesetzlichen Aufbewahrungspflichten bestehen.
+  </p>
+
+  <h2>9. Deine Rechte</h2>
+  <p>Du hast das Recht auf:</p>
+  <ul>
+    <li>Auskunft über deine gespeicherten Daten (Art. 15 DSGVO)</li>
+    <li>Berichtigung (Art. 16 DSGVO) und Löschung (Art. 17 DSGVO)</li>
+    <li>Einschränkung der Verarbeitung (Art. 18 DSGVO)</li>
+    <li>Datenübertragbarkeit (Art. 20 DSGVO)</li>
+    <li>Widerspruch gegen Verarbeitungen auf Grundlage berechtigter Interessen (Art. 21 DSGVO)</li>
+    <li>Widerruf einer Einwilligung mit Wirkung für die Zukunft (Art. 7 Abs. 3 DSGVO)</li>
+  </ul>
+
+  <h2>10. Beschwerderecht</h2>
+  <p>
+    Du kannst dich bei einer Datenschutz-Aufsichtsbehörde beschweren, insbesondere in dem Bundesland, in dem du wohnst,
+    oder bei der für uns zuständigen Behörde: <span class="todo">TODO: zuständige Landesdatenschutzbehörde</span>.
+  </p>
+</LegalLayout>

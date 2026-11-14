@@ -1,0 +1,41 @@
+---
+import LegalLayout from '../layouts/LegalLayout.astro';
+import { getCollection } from 'astro:content';
+const authors = await getCollection('authors');
+---
+<LegalLayout
+  title="Über uns – KostenloseSpielautomaten"
+  description="Wer hinter KostenloseSpielautomaten steht, was wir machen und warum wir nur GGL-lizenzierte Spielotheken empfehlen."
+  h1="Über uns"
+  crumb="Über uns"
+  updated="2026-11-14"
+  intro="Wir wollen, dass du Spielautomaten kennenlernen kannst, ohne Geld zu riskieren – und dass du ehrliche Informationen bekommst, falls du dich für Echtgeld entscheidest."
+>
+  <h2>Was wir machen</h2>
+  <p>
+    Auf KostenloseSpielautomaten findest du offizielle Spielgeld-Demos bekannter Slots, die wichtigsten Daten zu jedem Spiel
+    und verständliche Ratgeber. Wenn du um echtes Geld spielen möchtest, zeigen wir dir ausschließlich Online-Spielotheken
+    mit deutscher Erlaubnis der GGL.
+  </p>
+
+  <h2>Wofür wir stehen</h2>
+  <ul>
+    <li><strong>Ehrlichkeit:</strong> Keine Gewinnversprechen, keine „Tricks“, keine erfundenen Zahlen.</li>
+    <li><strong>Belegte Daten:</strong> Werte wie RTP und Maximalgewinn stammen aus den Datenblättern der Hersteller.</li>
+    <li><strong>Nur legale Angebote:</strong> Wir verlinken nur Anbieter von der offiziellen GGL-Whitelist.</li>
+    <li><strong>Spielerschutz:</strong> Hinweise zu Limits, Sperren und Hilfe gehören für uns auf jede Seite.</li>
+  </ul>
+
+  <h2>Unsere Redaktion</h2>
+  {authors.map((a) => (
+    <div class="not-prose card mt-4 p-5">
+      <p class="font-display text-lg font-bold text-fg">{a.data.isPlaceholder ? <span class="todo-marker">{a.data.name}</span> : a.data.name}</p>
+      <p class="text-sm text-mint-300">{a.data.role}</p>
+      <p class="mt-2 text-sm text-muted">{a.data.bio}</p>
+    </div>
+  ))}
+  <p><span class="todo">TODO: Gründungsgeschichte, Team und Kontaktmöglichkeit ergänzen.</span></p>
+
+  <h2>Wie wir uns finanzieren</h2>
+  <p>Transparent erklärt auf der Seite <a href="/affiliate-hinweis/">Wie wir Geld verdienen</a>. Wie wir Spiele und Anbieter prüfen, steht in der <a href="/bewertungsmethodik/">Bewertungsmethodik</a>.</p>
+</LegalLayout>

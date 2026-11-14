@@ -1,0 +1,134 @@
+---
+/**
+ * GDPR / TDDDG (formerly TTDSG) consent banner.
+ * - Nothing optional loads before consent. Analytics and external game demos
+ *   subscribe via window.KSAConsent.onChange().
+ * - "Alle ablehnen" and "Alle akzeptieren" have identical size, style and
+ *   position level, so rejecting is as easy as accepting.
+ * - The choice itself is stored in localStorage (strictly necessary storage).
+ */
+---
+<div
+  id="consent"
+  role="dialog"
+  aria-modal="false"
+  aria-labelledby="consent-title"
+  aria-describedby="consent-desc"
+  class="fixed inset-x-0 bottom-0 z-50 p-3 sm:p-4"
+  hidden
+>
+  <div class="card mx-auto max-w-3xl border-ink-600 p-5 shadow-2xl sm:p-6">
+    <h2 id="consent-title" class="text-lg font-bold text-fg">Deine Privatsphäre-Einstellungen</h2>
+    <p id="consent-desc" class="mt-2 text-sm text-muted">
+      Wir verwenden nur technisch notwendige Speicherung, damit die Seite funktioniert. Mit deiner Einwilligung laden wir
+      zusätzlich Spiele-Demos der Hersteller (externe Inhalte, dabei können Cookies gesetzt werden) und künftig eine
+      anonyme Reichweitenmessung. Du kannst deine Auswahl jederzeit in den{' '}
+      <a href="/cookie-richtlinie/" class="underline underline-offset-2 hover:text-fg">Cookie-Einstellungen</a> ändern.
+      Mehr in der <a href="/datenschutz/" class="underline underline-offset-2 hover:text-fg">Datenschutzerklärung</a>.
+    </p>
+
+    <form id="consent-details" class="mt-4 space-y-3" hidden>
+      <fieldset class="space-y-3">
+        <legend class="sr-only">Kategorien</legend>
+        <label class="flex items-start gap-3 rounded-xl border border-line p-3">
+          <input type="checkbox" checked disabled class="mt-1 h-4 w-4 accent-mint-400" />
+          <span class="text-sm"><strong class="text-fg">Notwendig</strong><br /><span class="text-muted">Speichert deine Einwilligung. Immer aktiv.</span></span>
+        </label>
+        <label class="flex items-start gap-3 rounded-xl border border-line p-3">
+          <input type="checkbox" name="media" class="mt-1 h-4 w-4 accent-mint-400" />
+          <span class="text-sm"><strong class="text-fg">Externe Medien (Spiele-Demos)</strong><br /><span class="text-muted">Lädt Demo-Spiele von den Servern der Hersteller, sobald du auf „Demo spielen“ klickst.</span></span>
+        </label>
+        <label class="flex items-start gap-3 rounded-xl border border-line p-3">
+          <input type="checkbox" name="statistics" class="mt-1 h-4 w-4 accent-mint-400" />
+          <span class="text-sm"><strong class="text-fg">Statistik</strong><br /><span class="text-muted">Anonyme Reichweitenmessung, damit wir sehen, welche Inhalte hilfreich sind. Derzeit nicht im Einsatz.</span></span>
+        </label>
+      </fieldset>
+    </form>
+
+    <div class="mt-5 grid gap-2 sm:grid-cols-3">
+      <button type="button" class="btn btn-secondary w-full" data-consent="reject">Alle ablehnen</button>
+      <button type="button" class="btn btn-secondary w-full" data-consent="details" aria-controls="consent-details" aria-expanded="false">Auswahl anpassen</button>
+      <button type="button" class="btn btn-secondary w-full" data-consent="accept">Alle akzeptieren</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  type Consent = { v: 1; ts: string; media: boolean; statistics: boolean };
+  const KEY = 'ksa-consent';
+  const listeners: ((c: Consent | null) => void)[] = [];
+
+  const read = (): Consent | null => {
+    try {
+      const raw = localStorage.getItem(KEY);
+      if (!raw) return null;
+      const c = JSON.parse(raw) as Consent;
+      return c && c.v === 1 ? c : null;
+    } catch {
+      return null;
+    }
+  };
+  const write = (media: boolean, statistics: boolean) => {
+    const c: Consent = { v: 1, ts: new Date().toISOString(), media, statistics };
+    try { localStorage.setItem(KEY, JSON.stringify(c)); } catch { /* storage blocked: choice applies to this page view */ }
+    current = c;
+    listeners.forEach((fn) => fn(c));
+    document.dispatchEvent(new CustomEvent('ksa:consent', { detail: c }));
+    return c;
+  };
+
+  let current = read();
+  const banner = document.getElementById('consent')!;
+  const details = document.getElementById('consent-details') as HTMLFormElement;
+  const detailsBtn = banner.querySelector<HTMLButtonElement>('[data-consent="details"]')!;
+  const acceptBtn = banner.querySelector<HTMLButtonElement>('[data-consent="accept"]')!;
+
+  const open = () => {
+    const c = read();
+    (details.elements.namedItem('media') as HTMLInputElement).checked = !!c?.media;
+    (details.elements.namedItem('statistics') as HTMLInputElement).checked = !!c?.statistics;
+    banner.hidden = false;
+  };
+  const close = () => { banner.hidden = true; };
+  const showDetails = (show: boolean) => {
+    details.toggleAttribute("hidden", !show);
+    detailsBtn.setAttribute('aria-expanded', String(show));
+    acceptBtn.textContent = show ? 'Auswahl speichern' : 'Alle akzeptieren';
+    acceptBtn.dataset.mode = show ? 'save' : 'all';
+  };
+
+  banner.addEventListener('click', (e) => {
+    const btn = (e.target as HTMLElement).closest<HTMLButtonElement>('[data-consent]');
+    if (!btn) return;
+    const action = btn.dataset.consent;
+    if (action === 'reject') { write(false, false); close(); }
+    else if (action === 'details') { showDetails(details.hasAttribute('hidden')); }
+    else if (action === 'accept') {
+      if (acceptBtn.dataset.mode === 'save') {
+        write(
+          (details.elements.namedItem('media') as HTMLInputElement).checked,
+          (details.elements.namedItem('statistics') as HTMLInputElement).checked,
+        );
+      } else {
+        write(true, true);
+      }
+      close();
+      showDetails(false);
+    }
+  });
+
+  document.addEventListener('click', (e) => {
+    if ((e.target as HTMLElement).closest('[data-open-consent]')) { open(); showDetails(true); }
+  });
+
+  // Public API for islands (demo loader, analytics). No optional script may run without it.
+  (window as unknown as { KSAConsent: unknown }).KSAConsent = {
+    get: () => current,
+    has: (cat: 'media' | 'statistics') => !!current?.[cat],
+    grant: (cat: 'media' | 'statistics') => write(cat === 'media' ? true : !!current?.media, cat === 'statistics' ? true : !!current?.statistics),
+    onChange: (fn: (c: Consent | null) => void) => { listeners.push(fn); fn(current); },
+    open: () => { open(); showDetails(true); },
+  };
+
+  if (!current) open();
+</script>

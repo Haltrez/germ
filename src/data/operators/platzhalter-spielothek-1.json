@@ -1,0 +1,21 @@
+{
+  "name": "TODO: Name der Spielothek (exakt wie auf der GGL-Whitelist)",
+  "isPlaceholder": true,
+  "gglLicensed": false,
+  "licenseNumber": null,
+  "licenseHolder": "TODO",
+  "gglWhitelistCheckedAt": null,
+  "affiliateUrl": null,
+  "websiteUrl": "TODO",
+  "bonusText": "TODO",
+  "bonusTermsUrl": null,
+  "paymentMethods": [],
+  "slotSlugs": [],
+  "strengthTag": "TODO",
+  "pros": [],
+  "cons": [],
+  "minDeposit": "TODO",
+  "payoutSpeed": "TODO",
+  "rating": null,
+  "featured": false
+}

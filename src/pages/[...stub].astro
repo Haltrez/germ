@@ -1,0 +1,43 @@
+---
+/**
+ * Temporary "im Aufbau" pages for hubs that later phases will build.
+ * Always noindex and excluded from the sitemap (see src/config/routes.ts).
+ */
+import type { GetStaticPaths } from 'astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { STUB_PAGES } from '../config/routes.ts';
+
+export const getStaticPaths = (() =>
+  Object.entries(STUB_PAGES).map(([path, page]) => ({
+    params: { stub: path.replace(/^\/|\/$/g, '') },
+    props: { path, ...page },
+  }))) satisfies GetStaticPaths;
+
+const { path, title, h1 } = Astro.props;
+const segments = path.split('/').filter(Boolean);
+const crumbs = segments.map((_, i) => {
+  const href = `/${segments.slice(0, i + 1).join('/')}/`;
+  return { name: STUB_PAGES[href]?.h1 ?? segments[i], href };
+});
+---
+<BaseLayout
+  title={title}
+  description={`${h1}: Dieser Bereich von KostenloseSpielautomaten wird gerade aufgebaut. Hier findest du bald alle Inhalte zum Thema.`}
+  breadcrumbs={crumbs}
+  noindex
+>
+  <section class="container-site pt-10">
+    <div class="card max-w-2xl p-8">
+      <p class="eyebrow">Im Aufbau</p>
+      <h1 class="mt-2 text-3xl font-extrabold text-fg sm:text-4xl">{h1}</h1>
+      <p class="mt-4 text-muted">
+        An diesem Bereich arbeiten wir gerade. Schau bald wieder vorbei – bis dahin findest du auf der Startseite
+        alles Wichtige zu kostenlosen Spielautomaten und zum Spielerschutz in Deutschland.
+      </p>
+      <div class="mt-6 flex flex-wrap gap-2">
+        <a href="/" class="btn btn-primary">Zur Startseite</a>{' '}
+        <a href="/verantwortungsvoll-spielen/" class="btn btn-secondary">Verantwortungsvoll spielen</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
