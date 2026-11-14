@@ -26,9 +26,13 @@ const Content = slot.text ? (await render(slot.text)).Content : null;
 const author = text ? await getEntry('authors', text.author) : undefined;
 
 const fit = (...opts: string[]) => opts.find((o) => [...o].length <= 60) ?? opts[opts.length - 1].slice(0, 60);
-const title = text?.metaTitle ?? fit(`${s.name} kostenlos spielen – Demo ohne Anmeldung`, `${s.name} kostenlos spielen – Demo`, `${s.name} kostenlos spielen`, s.name);
+const hasDemo = !!s.demoUrl;
+const h1 = hasDemo ? `${s.name} kostenlos spielen – Demo ohne Anmeldung` : `${s.name}: Test, RTP & Max Win`;
+const title = text?.metaTitle ?? (hasDemo
+  ? fit(`${s.name} kostenlos spielen – Demo ohne Anmeldung`, `${s.name} kostenlos spielen – Demo`, `${s.name} kostenlos spielen`, s.name)
+  : fit(`${s.name} Slot: Test, RTP & Max Win`, `${s.name} Slot: RTP & Max Win`, `${s.name} Slot`, s.name));
 const mw = isTodo(s.maxWinMultiplier) ? '' : `, Max Win ${s.maxWinMultiplier.toLocaleString('de-DE')}x`;
-const autoDesc = `${s.name} kostenlos spielen: ${providerName} Demo ohne Anmeldung${isTodo(s.rtp) ? '' : `, RTP ${rtpText(s)}`}${mw}, Freispiele & alle Fakten zum Slot.`;
+const autoDesc = `${s.name}${hasDemo ? ` kostenlos spielen: ${providerName} Demo ohne Anmeldung` : ` von ${providerName}: alle Fakten`}${isTodo(s.rtp) ? '' : `, RTP ${rtpText(s)}`}${mw}, Freispiele & alle Fakten zum Slot.`;
 const description = text?.metaDescription ?? (autoDesc.length <= 155 ? autoDesc : `${s.name} kostenlos spielen: Demo ohne Anmeldung und alle Fakten zum Slot.`.slice(0, 155));
 
 // Rank by published RTP among slots with a known value (leaderboards come in phase 3).
@@ -66,9 +70,9 @@ const jsonLd = [
 >
   <div class="container-site pt-6">
     <header class="max-w-4xl">
-      <h1 class="text-3xl font-extrabold text-fg sm:text-4xl lg:text-5xl">{s.name} kostenlos spielen – Demo ohne Anmeldung</h1>
+      <h1 class="text-3xl font-extrabold text-fg sm:text-4xl lg:text-5xl">{h1}</h1>
       <p class="mt-3 text-muted">
-        {text?.intro ?? `${s.name} ist ein Spielautomat von ${providerName}. ${isTodo(s.rtp) ? '' : `Laut Hersteller liegt die Auszahlungsquote (RTP) bei ${rtpText(s)}. `}Hier kannst du die Demo kostenlos mit Spielgeld ausprobieren – ohne Anmeldung und ohne Einzahlung.`}
+        {text?.intro ?? `${s.name} ist ein Spielautomat von ${providerName}. ${isTodo(s.rtp) ? '' : `Laut Hersteller liegt die Auszahlungsquote (RTP) bei ${rtpText(s)}. `}${hasDemo ? 'Hier kannst du die Demo kostenlos mit Spielgeld ausprobieren – ohne Anmeldung und ohne Einzahlung.' : 'Hier findest du alle offiziellen Daten des Herstellers auf einen Blick.'}`}
       </p>
       {cats.length > 0 && (
         <ul class="mt-4 flex flex-wrap gap-2">
