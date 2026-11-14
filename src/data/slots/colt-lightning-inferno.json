@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1061/hero-desktop/0-c2325b3c1231074b",
-  "sourceUrls": [
-    "https://www.playngo.com/games/colt-lightning-inferno"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/colt-lightning-inferno.webp",
     "alt": "Colt Lightning Inferno Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/colt-lightning-inferno"
+  ],
+  "lastVerified": "2026-11-14"
 }

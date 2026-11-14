@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2026/05/Fury-of-Anubis_339x180.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/fury-of-anubis/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/fury-of-anubis.webp",
     "alt": "Fury of Anubis Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/fury-of-anubis/"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/643/hero-desktop/0-987646317aad1b77",
-  "sourceUrls": [
-    "https://www.playngo.com/games/scales-of-dead"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/scales-of-dead.webp",
     "alt": "Scales of Dead Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/scales-of-dead"
+  ],
+  "lastVerified": "2026-11-14"
 }

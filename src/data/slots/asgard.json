@@ -30,12 +30,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2018/05/thumb_Asgard_330x140-1.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/asgard-slot/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/asgard.webp",
     "alt": "Asgard Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/asgard-slot/"
+  ],
+  "lastVerified": "2026-11-14"
 }

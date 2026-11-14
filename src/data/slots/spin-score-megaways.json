@@ -30,12 +30,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2022/10/Spin__Score_Megaways_339x180.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/spin-score-megaways/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/spin-score-megaways.webp",
     "alt": "Spin & Score Megaways Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/spin-score-megaways/"
+  ],
+  "lastVerified": "2026-11-14"
 }

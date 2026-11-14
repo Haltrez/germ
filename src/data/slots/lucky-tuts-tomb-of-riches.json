@@ -22,12 +22,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/2026/10/lucky-tuts-tomb-of-riches-icon.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/lucky-tuts-tomb-of-riches/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/lucky-tuts-tomb-of-riches.webp",
     "alt": "Lucky Tut’s Tomb of Riches Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/lucky-tuts-tomb-of-riches/"
+  ],
+  "lastVerified": "2026-11-14"
 }

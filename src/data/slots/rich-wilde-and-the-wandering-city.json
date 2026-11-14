@@ -24,12 +24,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/563/hero-desktop/0-ef689d7fa6d24f06",
-  "sourceUrls": [
-    "https://www.playngo.com/games/rich-wilde-and-the-wandering-city"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/rich-wilde-and-the-wandering-city.webp",
     "alt": "Rich Wilde and the Wandering City Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/rich-wilde-and-the-wandering-city"
+  ],
+  "lastVerified": "2026-11-14"
 }

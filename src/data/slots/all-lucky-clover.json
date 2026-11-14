@@ -30,12 +30,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/6695120b51f2fa07d381cf60_All_Lucky_clovers_1020x1280.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/all-lucky-clover"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/all-lucky-clover.webp",
     "alt": "All Lucky Clovers Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/all-lucky-clover"
+  ],
+  "lastVerified": "2026-11-14"
 }

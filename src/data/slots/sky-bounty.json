@@ -31,12 +31,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2023/07/Sky-Bounty_339x180-1.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/sky-bounty/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/sky-bounty.webp",
     "alt": "Sky Bounty Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/sky-bounty/"
+  ],
+  "lastVerified": "2026-11-14"
 }

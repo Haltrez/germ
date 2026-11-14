@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2023/01/monster_superlanche-1.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/monster-superlanche/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/monster-superlanche.webp",
     "alt": "Monster Superlanche Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/monster-superlanche/"
+  ],
+  "lastVerified": "2026-11-14"
 }

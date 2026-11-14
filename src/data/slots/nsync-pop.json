@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/629/hero-desktop/0-e4520a71291ccf3d",
-  "sourceUrls": [
-    "https://www.playngo.com/games/nsync-pop"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/nsync-pop.webp",
     "alt": "*NSYNC Pop Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/nsync-pop"
+  ],
+  "lastVerified": "2026-11-14"
 }

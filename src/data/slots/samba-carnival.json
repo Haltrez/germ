@@ -22,12 +22,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/304/hero-desktop/0-78a056d0069ac52c",
-  "sourceUrls": [
-    "https://www.playngo.com/games/samba-carnival"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/samba-carnival.webp",
     "alt": "Samba Carnival Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/samba-carnival"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -28,12 +28,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2025/06/Pig-Farm_339x180_NB.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/pig-farm/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/pig-farm.webp",
     "alt": "Pig Farm Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/pig-farm/"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -1,0 +1,33 @@
+{
+  "name": "Great American Wilds",
+  "provider": "novomatic",
+  "releaseDate": "2020-03-10",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 5,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/greatamericanwilds-30627-gamebutton.png",
+  "sourceUrls": [
+    "https://www.greentube.com/game/great-american-wilds/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/great-american-wilds.webp",
+    "alt": "Great American Wilds Spielautomat"
+  }
+}

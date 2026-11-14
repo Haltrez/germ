@@ -1,0 +1,33 @@
+{
+  "name": "Sizzling Hot deluxe 10: Win Ways",
+  "provider": "novomatic",
+  "releaseDate": "2022-05-17",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 10,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/2x2-3.jpg",
+  "sourceUrls": [
+    "https://www.greentube.com/game/sizzling-hot-deluxe-win/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/sizzling-hot-deluxe-win.webp",
+    "alt": "Sizzling Hot deluxe 10: Win Ways Spielautomat"
+  }
+}

@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/459/hero-desktop/0-f20d22ebdf26dabe",
-  "sourceUrls": [
-    "https://www.playngo.com/games/bull-in-a-china-shop"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/bull-in-a-china-shop.webp",
     "alt": "Bull in a China Shop Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/bull-in-a-china-shop"
+  ],
+  "lastVerified": "2026-11-14"
 }

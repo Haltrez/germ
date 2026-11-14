@@ -32,12 +32,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://fan-cdn.nolimitcity.com/small_druids_magic_icon5_9afb6966e1.png",
-  "sourceUrls": [
-    "https://netent.com/games/druids-magic"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/druids-magic.webp",
     "alt": "Druid’s Magic Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://netent.com/games/druids-magic"
+  ],
+  "lastVerified": "2026-11-14"
 }

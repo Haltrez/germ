@@ -22,12 +22,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/2026/06/silver-lux-magic-sevens-icon.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/silver-lux-magic-sevens/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/silver-lux-magic-sevens.webp",
     "alt": "Silver Lux – Magic Sevens Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/silver-lux-magic-sevens/"
+  ],
+  "lastVerified": "2026-11-14"
 }

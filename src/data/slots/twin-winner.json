@@ -1,0 +1,31 @@
+{
+  "name": "Twin Winner",
+  "provider": "novomatic",
+  "releaseDate": "2022-03-01",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 4,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/twinwinner-25791-gamebutton.jpg",
+  "sourceUrls": [
+    "https://www.greentube.com/game/twin-winner/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/twin-winner.webp",
+    "alt": "Twin Winner Spielautomat"
+  }
+}

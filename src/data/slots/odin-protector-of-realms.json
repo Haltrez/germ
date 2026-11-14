@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/537/hero-desktop/0-934805860e93ec22",
-  "sourceUrls": [
-    "https://www.playngo.com/games/odin-protector-of-realms"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/odin-protector-of-realms.webp",
     "alt": "Odin Protector of Realms Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/odin-protector-of-realms"
+  ],
+  "lastVerified": "2026-11-14"
 }

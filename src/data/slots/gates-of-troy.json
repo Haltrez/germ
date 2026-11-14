@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/618/hero-desktop/0-3d51f7275fc4e409",
-  "sourceUrls": [
-    "https://www.playngo.com/games/gates-of-troy"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/gates-of-troy.webp",
     "alt": "Gates of Troy Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/gates-of-troy"
+  ],
+  "lastVerified": "2026-11-14"
 }

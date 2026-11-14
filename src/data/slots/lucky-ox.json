@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2025/04/Lucky-Bull_339x180_B-1.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/lucky-ox/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/lucky-ox.webp",
     "alt": "Lucky Bull Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/lucky-ox/"
+  ],
+  "lastVerified": "2026-11-14"
 }

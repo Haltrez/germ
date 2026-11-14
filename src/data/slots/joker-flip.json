@@ -28,12 +28,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/974/hero-desktop/0-44bf596a288e5b4d",
-  "sourceUrls": [
-    "https://www.playngo.com/games/joker-flip"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/joker-flip.webp",
     "alt": "Joker Flip Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/joker-flip"
+  ],
+  "lastVerified": "2026-11-14"
 }

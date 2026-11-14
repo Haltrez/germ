@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2026/01/Sweet-Burst_339x180_B-1.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/sweet-burst/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/sweet-burst.webp",
     "alt": "Sweet Burst Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/sweet-burst/"
+  ],
+  "lastVerified": "2026-11-14"
 }

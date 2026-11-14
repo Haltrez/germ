@@ -1,0 +1,31 @@
+{
+  "name": "Twin Spinner",
+  "provider": "novomatic",
+  "releaseDate": "2021-11-10",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 4,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/icon-11-8.jpg",
+  "sourceUrls": [
+    "https://www.greentube.com/game/twin-spinner/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/twin-spinner.webp",
+    "alt": "Twin Spinner Spielautomat"
+  }
+}

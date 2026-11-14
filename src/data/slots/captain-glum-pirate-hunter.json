@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/640/hero-desktop/0-1da871379c9b3d2a",
-  "sourceUrls": [
-    "https://www.playngo.com/games/captain-glum-pirate-hunter"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/captain-glum-pirate-hunter.webp",
     "alt": "Captain Glum: Pirate Hunter Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/captain-glum-pirate-hunter"
+  ],
+  "lastVerified": "2026-11-14"
 }

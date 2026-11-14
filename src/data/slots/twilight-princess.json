@@ -29,12 +29,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2023/09/Twilight-Princess_339x180.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/twilight-princess/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/twilight-princess.webp",
     "alt": "Twilight Princess Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/twilight-princess/"
+  ],
+  "lastVerified": "2026-11-14"
 }

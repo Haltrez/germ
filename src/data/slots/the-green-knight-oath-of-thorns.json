@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/964/hero-desktop/0-0fc0bc4169f75475",
-  "sourceUrls": [
-    "https://www.playngo.com/games/the-green-knight-oath-of-thorns"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/the-green-knight-oath-of-thorns.webp",
     "alt": "The Green Knight Oath of Thorns Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/the-green-knight-oath-of-thorns"
+  ],
+  "lastVerified": "2026-11-14"
 }

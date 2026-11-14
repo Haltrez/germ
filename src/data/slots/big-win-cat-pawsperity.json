@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1028/hero-desktop/0-82cdf180b9a4cc3b",
-  "sourceUrls": [
-    "https://www.playngo.com/games/big-win-cat-pawsperity"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/big-win-cat-pawsperity.webp",
     "alt": "Big Win Cat Pawsperity Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/big-win-cat-pawsperity"
+  ],
+  "lastVerified": "2026-11-14"
 }

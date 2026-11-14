@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2017/09/thumbs-pt-site_Vegas-Nights_330x140px-3.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/vegas-nights-slot/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/vegas-nights.webp",
     "alt": "Vegas Nights Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/vegas-nights-slot/"
+  ],
+  "lastVerified": "2026-11-14"
 }

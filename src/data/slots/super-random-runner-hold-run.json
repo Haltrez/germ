@@ -1,0 +1,31 @@
+{
+  "name": "Super Random Runner Hold & Run",
+  "provider": "novomatic",
+  "releaseDate": "2023-04-13",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 6,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/icon-22.jpg",
+  "sourceUrls": [
+    "https://www.greentube.com/game/super-random-runner-hold-run/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/super-random-runner-hold-run.webp",
+    "alt": "Super Random Runner Hold & Run Spielautomat"
+  }
+}

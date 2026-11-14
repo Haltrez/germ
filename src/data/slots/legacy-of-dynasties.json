@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/593/hero-desktop/0-e33cc50cf7299fa2",
-  "sourceUrls": [
-    "https://www.playngo.com/games/legacy-of-dynasties"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/legacy-of-dynasties.webp",
     "alt": "Legacy of Dynasties Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/legacy-of-dynasties"
+  ],
+  "lastVerified": "2026-11-14"
 }

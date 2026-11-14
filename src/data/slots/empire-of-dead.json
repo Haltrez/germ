@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/empire-of-dead-1080x1080-3.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/empire-of-dead/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/empire-of-dead.webp",
     "alt": "Empire of Dead Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/empire-of-dead/"
+  ],
+  "lastVerified": "2026-11-14"
 }

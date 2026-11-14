@@ -28,12 +28,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2024/03/Big-Burger-Load-It-Up-With-Xtra-Cheese_339x180.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/big-burger-load-it-up-with-xtra-cheese/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/big-burger-load-it-up-with-xtra-cheese.webp",
     "alt": "Big Burger Load it up with Xtra cheese Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/big-burger-load-it-up-with-xtra-cheese/"
+  ],
+  "lastVerified": "2026-11-14"
 }

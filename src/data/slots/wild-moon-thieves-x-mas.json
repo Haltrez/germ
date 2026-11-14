@@ -35,12 +35,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/67165d40091bf2e4bb0e590b_Wild_Moon_Thieves_Xmas_1020x1280-e1794585313553.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/wild-moon-thieves-x-mas"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/wild-moon-thieves-x-mas.webp",
     "alt": "Wild Moon Thieves X-mas Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/wild-moon-thieves-x-mas"
+  ],
+  "lastVerified": "2026-11-14"
 }

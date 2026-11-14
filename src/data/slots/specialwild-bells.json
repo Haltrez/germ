@@ -20,12 +20,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/2026/11/specialwild-bells-icon.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/specialwild-bells/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/specialwild-bells.webp",
     "alt": "Specialwild Bells Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/specialwild-bells/"
+  ],
+  "lastVerified": "2026-11-14"
 }

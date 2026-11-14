@@ -30,12 +30,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2024/09/Vampy-Party_339x180.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/vampy-party/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/vampy-party.webp",
     "alt": "Vampy Party Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/vampy-party/"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/873/hero-desktop/0-84230f2e8a1c6d73",
-  "sourceUrls": [
-    "https://www.playngo.com/games/reactoonz-100"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/reactoonz-100.webp",
     "alt": "Reactoonz 100 Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/reactoonz-100"
+  ],
+  "lastVerified": "2026-11-14"
 }

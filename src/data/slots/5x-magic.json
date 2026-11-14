@@ -22,12 +22,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/199/hero-desktop/0-a0a656d0d9ae0311",
-  "sourceUrls": [
-    "https://www.playngo.com/games/5x-magic"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/5x-magic.webp",
     "alt": "5x Magic Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/5x-magic"
+  ],
+  "lastVerified": "2026-11-14"
 }

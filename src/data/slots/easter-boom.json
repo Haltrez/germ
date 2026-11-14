@@ -20,12 +20,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/2026/01/easter-boom-icon.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/easter-boom/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/easter-boom.webp",
     "alt": "Easter BOOM Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/easter-boom/"
+  ],
+  "lastVerified": "2026-11-14"
 }

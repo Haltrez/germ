@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/742/hero-desktop/0-61fe28c223ba5cfa",
-  "sourceUrls": [
-    "https://www.playngo.com/games/trinity-impact"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/trinity-impact.webp",
     "alt": "Trinity Impact Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/trinity-impact"
+  ],
+  "lastVerified": "2026-11-14"
 }

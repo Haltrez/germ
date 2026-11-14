@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2021/07/Rise_of_Giza_PN_EN_339x180.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/rise-of-giza-powernudge/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/rise-of-giza-powernudge.webp",
     "alt": "Rise of Giza PowerNudge Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/rise-of-giza-powernudge/"
+  ],
+  "lastVerified": "2026-11-14"
 }

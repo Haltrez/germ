@@ -22,12 +22,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/barkin-clusters-ante-bet-icon.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/barkin-clusters-ante-bet/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/barkin-clusters-ante-bet.webp",
     "alt": "Barkin’ Clusters Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/barkin-clusters-ante-bet/"
+  ],
+  "lastVerified": "2026-11-14"
 }

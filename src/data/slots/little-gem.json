@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2022/05/Little-Gem_339x180-1.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/little-gem/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/little-gem.webp",
     "alt": "Little Gem Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/little-gem/"
+  ],
+  "lastVerified": "2026-11-14"
 }

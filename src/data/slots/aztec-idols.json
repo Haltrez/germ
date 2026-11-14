@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/243/hero-desktop/0-eebd05ad0bf2ee64",
-  "sourceUrls": [
-    "https://www.playngo.com/games/aztec-idols"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/aztec-idols.webp",
     "alt": "Aztec Idols Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/aztec-idols"
+  ],
+  "lastVerified": "2026-11-14"
 }

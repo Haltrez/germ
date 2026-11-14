@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/677/hero-desktop/0-ff84e926d73e6a27",
-  "sourceUrls": [
-    "https://www.playngo.com/games/the-sword-and-the-grail-excalibur"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/the-sword-and-the-grail-excalibur.webp",
     "alt": "The Sword and the Grail Excalibur Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/the-sword-and-the-grail-excalibur"
+  ],
+  "lastVerified": "2026-11-14"
 }

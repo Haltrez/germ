@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1101/hero-desktop/0-8b67b01108e24b56",
-  "sourceUrls": [
-    "https://www.playngo.com/games/moon-princess-extreme"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/moon-princess-extreme.webp",
     "alt": "Moon Princess Extreme Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/moon-princess-extreme"
+  ],
+  "lastVerified": "2026-11-14"
 }

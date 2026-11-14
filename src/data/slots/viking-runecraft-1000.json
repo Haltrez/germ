@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1109/hero-desktop/0-050a65b2426c71b5",
-  "sourceUrls": [
-    "https://www.playngo.com/games/viking-runecraft-1000"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/viking-runecraft-1000.webp",
     "alt": "Viking Runecraft 1000 Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/viking-runecraft-1000"
+  ],
+  "lastVerified": "2026-11-14"
 }

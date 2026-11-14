@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2023/05/Sticky-Bees_339x180.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/sticky-bees/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/sticky-bees.webp",
     "alt": "Sticky Bees Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/sticky-bees/"
+  ],
+  "lastVerified": "2026-11-14"
 }

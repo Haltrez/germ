@@ -34,12 +34,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/66953e13abc3f80989204a97_Wild_Chicago_1020x1280.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/wild-chicago"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/wild-chicago.webp",
     "alt": "Wild Chicago Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/wild-chicago"
+  ],
+  "lastVerified": "2026-11-14"
 }

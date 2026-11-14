@@ -31,12 +31,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2026/02/Golden_Avalon_Hold_and_Win_1080x1280-1.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/golden-avalon-hold-and-win"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/golden-avalon-hold-and-win.webp",
     "alt": "Golden Avalon Hold and Win Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/golden-avalon-hold-and-win"
+  ],
+  "lastVerified": "2026-11-14"
 }

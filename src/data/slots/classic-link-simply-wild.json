@@ -20,12 +20,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/classiclink-simplywild-icon1080x1080.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/classic-link-simply-wild/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/classic-link-simply-wild.webp",
     "alt": "Classic Link Simply Wild Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/classic-link-simply-wild/"
+  ],
+  "lastVerified": "2026-11-14"
 }

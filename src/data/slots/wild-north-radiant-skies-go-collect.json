@@ -31,12 +31,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1054/hero-desktop/0-ed790d3be5a13e68",
-  "sourceUrls": [
-    "https://www.playngo.com/games/wild-north-radiant-skies-go-collect"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/wild-north-radiant-skies-go-collect.webp",
     "alt": "Wild North Radiant Skies GO Collect Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/wild-north-radiant-skies-go-collect"
+  ],
+  "lastVerified": "2026-11-14"
 }

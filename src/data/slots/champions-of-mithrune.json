@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/588/hero-desktop/0-69b358dd127b15e1",
-  "sourceUrls": [
-    "https://www.playngo.com/games/champions-of-mithrune"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/champions-of-mithrune.webp",
     "alt": "Champions of Mithrune Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/champions-of-mithrune"
+  ],
+  "lastVerified": "2026-11-14"
 }

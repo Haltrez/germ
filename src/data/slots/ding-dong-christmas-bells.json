@@ -30,12 +30,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2023/11/Ding-Dong-Christmas-Bells-_339x180.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/ding-dong-christmas-bells/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/ding-dong-christmas-bells.webp",
     "alt": "Ding Dong Christmas Bells Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/ding-dong-christmas-bells/"
+  ],
+  "lastVerified": "2026-11-14"
 }

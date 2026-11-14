@@ -28,12 +28,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2018/06/thumb_madame_destiny_330x140-3.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/madame-destiny-slot/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/madame-destiny.webp",
     "alt": "Madame Destiny Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/madame-destiny-slot/"
+  ],
+  "lastVerified": "2026-11-14"
 }

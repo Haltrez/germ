@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/384/hero-desktop/0-4f0346f62337e5ff",
-  "sourceUrls": [
-    "https://www.playngo.com/games/riches-of-robin"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/riches-of-robin.webp",
     "alt": "Riches of Robin Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/riches-of-robin"
+  ],
+  "lastVerified": "2026-11-14"
 }

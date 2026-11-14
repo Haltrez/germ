@@ -28,12 +28,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/369/hero-desktop/0-a9b086380407b3ed",
-  "sourceUrls": [
-    "https://www.playngo.com/games/game-of-gladiators"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/game-of-gladiators.webp",
     "alt": "Game of Gladiators Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/game-of-gladiators"
+  ],
+  "lastVerified": "2026-11-14"
 }

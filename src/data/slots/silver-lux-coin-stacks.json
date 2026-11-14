@@ -24,12 +24,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/silver-lux-coin-stacks-1171x1171.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/silver-lux-coin-stacks/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/silver-lux-coin-stacks.webp",
     "alt": "Silver Lux – Coin Stacks Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/silver-lux-coin-stacks/"
+  ],
+  "lastVerified": "2026-11-14"
 }

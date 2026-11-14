@@ -29,12 +29,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2022/11/Shield-of-Sparta_339x180-1.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/shield-of-sparta/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/shield-of-sparta.webp",
     "alt": "Shield of Sparta Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/shield-of-sparta/"
+  ],
+  "lastVerified": "2026-11-14"
 }

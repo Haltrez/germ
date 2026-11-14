@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2018/03/thumbs-pt-site_fire88_330x140px-1.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/88-fire-slot/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/88-fire.webp",
     "alt": "Fire 88 Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/88-fire-slot/"
+  ],
+  "lastVerified": "2026-11-14"
 }

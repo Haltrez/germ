@@ -28,12 +28,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1021/hero-desktop/0-1283f73f148b28c7",
-  "sourceUrls": [
-    "https://www.playngo.com/games/book-of-dead-go-collect"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/book-of-dead-go-collect.webp",
     "alt": "Book of Dead GO Collect Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/book-of-dead-go-collect"
+  ],
+  "lastVerified": "2026-11-14"
 }

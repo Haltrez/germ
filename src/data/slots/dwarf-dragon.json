@@ -28,12 +28,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2024/05/Dwarf-Dragon_339x180.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/dwarf-dragon/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/dwarf-dragon.webp",
     "alt": "Dwarf & Dragon Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/dwarf-dragon/"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -34,12 +34,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/6695382d028e25da32dee9b7_Royal_High-Road_1020x1280.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/royal-high-road"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/royal-high-road.webp",
     "alt": "Royal High-Road Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/royal-high-road"
+  ],
+  "lastVerified": "2026-11-14"
 }

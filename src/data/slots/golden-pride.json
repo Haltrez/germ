@@ -33,12 +33,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/671657034e0370f77cb924c5_Golden_Pride_1020x1280.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/golden-pride"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/golden-pride.webp",
     "alt": "Golden Pride Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/golden-pride"
+  ],
+  "lastVerified": "2026-11-14"
 }

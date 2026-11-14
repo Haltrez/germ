@@ -20,12 +20,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/2025/09/1080x1080-2.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/simply-wild-superstars/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/simply-wild-superstars.webp",
     "alt": "Simply Wild SuperStars Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/simply-wild-superstars/"
+  ],
+  "lastVerified": "2026-11-14"
 }

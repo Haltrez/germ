@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/356/hero-desktop/0-c41f9a767baf6062",
-  "sourceUrls": [
-    "https://www.playngo.com/games/battle-royal"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/battle-royal.webp",
     "alt": "Battle Royal Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/battle-royal"
+  ],
+  "lastVerified": "2026-11-14"
 }

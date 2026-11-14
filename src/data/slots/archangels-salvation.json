@@ -30,12 +30,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://fan-cdn.nolimitcity.com/small_archangels_icon5_a5fa5be564.png",
-  "sourceUrls": [
-    "https://netent.com/games/archangels-salvation"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/archangels-salvation.webp",
     "alt": "Archangels: Salvation Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://netent.com/games/archangels-salvation"
+  ],
+  "lastVerified": "2026-11-14"
 }

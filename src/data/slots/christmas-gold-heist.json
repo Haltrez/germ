@@ -22,12 +22,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1121/hero-desktop/0-851b4fb01bb935ac",
-  "sourceUrls": [
-    "https://www.playngo.com/games/christmas-gold-heist"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/christmas-gold-heist.webp",
     "alt": "Christmas Gold Heist Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/christmas-gold-heist"
+  ],
+  "lastVerified": "2026-11-14"
 }

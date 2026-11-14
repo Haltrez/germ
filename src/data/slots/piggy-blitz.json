@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/853/hero-desktop/0-48778e91f31bb93e",
-  "sourceUrls": [
-    "https://www.playngo.com/games/piggy-blitz"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/piggy-blitz.webp",
     "alt": "Piggy Blitz Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/piggy-blitz"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/659/hero-desktop/0-8cb9521c448bfa83",
-  "sourceUrls": [
-    "https://www.playngo.com/games/usa-flip"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/usa-flip.webp",
     "alt": "USA Flip Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/usa-flip"
+  ],
+  "lastVerified": "2026-11-14"
 }

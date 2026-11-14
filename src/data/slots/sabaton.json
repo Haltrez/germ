@@ -28,12 +28,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/378/hero-desktop/0-b51a28ba6793cb2a",
-  "sourceUrls": [
-    "https://www.playngo.com/games/sabaton"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/sabaton.webp",
     "alt": "Sabaton Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/sabaton"
+  ],
+  "lastVerified": "2026-11-14"
 }

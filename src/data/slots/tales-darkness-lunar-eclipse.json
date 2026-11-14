@@ -1,0 +1,36 @@
+{
+  "name": "Tales of Darkness Lunar Eclipse",
+  "provider": "novomatic",
+  "releaseDate": "2018-10-02",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 6,
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 10
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/lunareclipse-30294-gamebutton.png",
+  "sourceUrls": [
+    "https://www.greentube.com/game/tales-darkness-lunar-eclipse/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/tales-darkness-lunar-eclipse.webp",
+    "alt": "Tales of Darkness Lunar Eclipse Spielautomat"
+  }
+}

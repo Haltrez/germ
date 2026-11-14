@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/196/hero-desktop/0-df404ab2254f76e4",
-  "sourceUrls": [
-    "https://www.playngo.com/games/fortune-teller"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/fortune-teller.webp",
     "alt": "Fortune Teller Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/fortune-teller"
+  ],
+  "lastVerified": "2026-11-14"
 }

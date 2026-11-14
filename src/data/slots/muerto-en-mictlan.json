@@ -24,12 +24,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/545/hero-desktop/0-8c16387a7b748d32",
-  "sourceUrls": [
-    "https://www.playngo.com/games/muerto-en-mictlan"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/muerto-en-mictlan.webp",
     "alt": "Muerto en Mictlán Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/muerto-en-mictlan"
+  ],
+  "lastVerified": "2026-11-14"
 }

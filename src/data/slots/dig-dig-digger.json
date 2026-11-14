@@ -35,12 +35,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/66951850a759f92eddca3895_Dig_Dig_Digger_1020x1280.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/dig-dig-digger"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/dig-dig-digger.webp",
     "alt": "Dig Dig Digger Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/dig-dig-digger"
+  ],
+  "lastVerified": "2026-11-14"
 }

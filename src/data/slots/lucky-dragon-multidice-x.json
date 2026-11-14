@@ -32,12 +32,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/669526380be9fcd6c9c8d487_Lucky_Dragon_MultiDice_X_1020x1280.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/lucky-dragon-multidice-x"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/lucky-dragon-multidice-x.webp",
     "alt": "Lucky Dragon MultiDice X Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/lucky-dragon-multidice-x"
+  ],
+  "lastVerified": "2026-11-14"
 }

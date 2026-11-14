@@ -22,12 +22,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2022/03/Drill_That_Gold_EN_339x180.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/drill-that-gold/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/drill-that-gold.webp",
     "alt": "Drill that Gold Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/drill-that-gold/"
+  ],
+  "lastVerified": "2026-11-14"
 }

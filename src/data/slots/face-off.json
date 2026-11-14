@@ -32,12 +32,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2025/09/Face_Off_1020x618.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/face-off"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/face-off.webp",
     "alt": "Face Off Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/face-off"
+  ],
+  "lastVerified": "2026-11-14"
 }

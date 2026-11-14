@@ -20,12 +20,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/2026/04/greedy-joker-icon.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/greedy-joker/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/greedy-joker.webp",
     "alt": "Greedy Joker Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/greedy-joker/"
+  ],
+  "lastVerified": "2026-11-14"
 }

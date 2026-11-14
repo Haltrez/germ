@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2020/09/Wild-Walker™_EN_339x180_02.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/wild-walker-slot/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/wild-walker.webp",
     "alt": "Wild Walker Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/wild-walker-slot/"
+  ],
+  "lastVerified": "2026-11-14"
 }

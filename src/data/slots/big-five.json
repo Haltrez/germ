@@ -1,0 +1,33 @@
+{
+  "name": "Big Five",
+  "provider": "novomatic",
+  "releaseDate": "2020-10-20",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 5,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/bigfivegtsk-25057-gamebutton.png",
+  "sourceUrls": [
+    "https://www.greentube.com/game/big-five/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/big-five.webp",
+    "alt": "Big Five Spielautomat"
+  }
+}

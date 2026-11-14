@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/310/hero-desktop/0-c16bf1b9c868a502",
-  "sourceUrls": [
-    "https://www.playngo.com/games/book-of-dead"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/book-of-dead.webp",
     "alt": "Book of Dead Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/book-of-dead"
+  ],
+  "lastVerified": "2026-11-14"
 }

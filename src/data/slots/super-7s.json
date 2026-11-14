@@ -22,12 +22,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2020/01/Super7s™_EN_339x180_03.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/super-7s-slot/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/super-7s.webp",
     "alt": "Super 7s Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/super-7s-slot/"
+  ],
+  "lastVerified": "2026-11-14"
 }

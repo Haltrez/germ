@@ -33,12 +33,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2025/06/6694eab26ff1377cee14d35e_KrakensHanger_1020x1280.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/krakens-hunger"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/krakens-hunger.webp",
     "alt": "Kraken’s Hunger Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/krakens-hunger"
+  ],
+  "lastVerified": "2026-11-14"
 }

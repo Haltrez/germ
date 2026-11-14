@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/930/hero-desktop/0-d504202873b7b4bc",
-  "sourceUrls": [
-    "https://www.playngo.com/games/beasts-of-fire-maximum"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/beasts-of-fire-maximum.webp",
     "alt": "Beasts of Fire Maximum Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/beasts-of-fire-maximum"
+  ],
+  "lastVerified": "2026-11-14"
 }

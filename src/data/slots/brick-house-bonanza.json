@@ -24,12 +24,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2025/01/Brick-House-Bonanza_339x180-1.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/brick-house-bonanza/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/brick-house-bonanza.webp",
     "alt": "Brick House Bonanza Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/brick-house-bonanza/"
+  ],
+  "lastVerified": "2026-11-14"
 }

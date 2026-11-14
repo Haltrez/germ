@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/328/hero-desktop/0-58e0aed834149fb6",
-  "sourceUrls": [
-    "https://www.playngo.com/games/prosperity-palace"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/prosperity-palace.webp",
     "alt": "Prosperity Palace Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/prosperity-palace"
+  ],
+  "lastVerified": "2026-11-14"
 }

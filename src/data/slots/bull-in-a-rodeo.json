@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/646/hero-desktop/0-56ed13a5aaafb273",
-  "sourceUrls": [
-    "https://www.playngo.com/games/bull-in-a-rodeo"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/bull-in-a-rodeo.webp",
     "alt": "Bull in a Rodeo Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/bull-in-a-rodeo"
+  ],
+  "lastVerified": "2026-11-14"
 }

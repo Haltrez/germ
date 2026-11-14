@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1084/hero-desktop/0-e83750bff2a2904a",
-  "sourceUrls": [
-    "https://www.playngo.com/games/redtail-robber-cash-vault-heist"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/redtail-robber-cash-vault-heist.webp",
     "alt": "Redtail Robber Cash Vault Heist Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/redtail-robber-cash-vault-heist"
+  ],
+  "lastVerified": "2026-11-14"
 }

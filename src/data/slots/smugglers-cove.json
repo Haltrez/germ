@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2021/11/SMUGGLERS-COVE_339x180.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/smugglers-cove/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/smugglers-cove.webp",
     "alt": "Smugglers Cove Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/smugglers-cove/"
+  ],
+  "lastVerified": "2026-11-14"
 }

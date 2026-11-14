@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1048/hero-desktop/0-b2173da805db6535",
-  "sourceUrls": [
-    "https://www.playngo.com/games/bao-shi"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/bao-shi.webp",
     "alt": "Bao Shi Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/bao-shi"
+  ],
+  "lastVerified": "2026-11-14"
 }

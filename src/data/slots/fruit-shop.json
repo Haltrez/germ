@@ -31,12 +31,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://fan-cdn.nolimitcity.com/small_fruit_shop_icon5_3c31a4a0f1.png",
-  "sourceUrls": [
-    "https://netent.com/games/fruit-shop"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/fruit-shop.webp",
     "alt": "Fruit Shop Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://netent.com/games/fruit-shop"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -36,12 +36,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/2269_hero_Device_Desktop.png",
-  "sourceUrls": [
-    "https://www.hacksawgaming.com/games/coffee-dealer"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/coffee-dealer.webp",
     "alt": "Coffee Dealer Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.hacksawgaming.com/games/coffee-dealer"
+  ],
+  "lastVerified": "2026-11-14"
 }

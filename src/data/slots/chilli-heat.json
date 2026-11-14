@@ -28,12 +28,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2018/01/thumbs-pt-site_Chilli-Heat_330x140px-1.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/chilli-heat-slot/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/chilli-heat.webp",
     "alt": "Chilli Heat Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/chilli-heat-slot/"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/587/hero-desktop/0-340fe271c82349d6",
-  "sourceUrls": [
-    "https://www.playngo.com/games/cash-of-command"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/cash-of-command.webp",
     "alt": "Cash of Command Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/cash-of-command"
+  ],
+  "lastVerified": "2026-11-14"
 }

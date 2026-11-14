@@ -1,0 +1,33 @@
+{
+  "name": "Strike It Gold: Win Ways",
+  "provider": "novomatic",
+  "releaseDate": "2021-01-01",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 6,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/screenshot-2022-03-01-at-11-05-27.png",
+  "sourceUrls": [
+    "https://www.greentube.com/game/strike-gold-win-ways/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/strike-gold-win-ways.webp",
+    "alt": "Strike It Gold: Win Ways Spielautomat"
+  }
+}

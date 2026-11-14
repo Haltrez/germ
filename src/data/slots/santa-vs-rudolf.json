@@ -33,12 +33,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://fan-cdn.nolimitcity.com/small_santa_vs_rudolf_icon5_c64479145b.png",
-  "sourceUrls": [
-    "https://netent.com/games/santa-vs-rudolf"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/santa-vs-rudolf.webp",
     "alt": "Santa vs Rudolf Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://netent.com/games/santa-vs-rudolf"
+  ],
+  "lastVerified": "2026-11-14"
 }

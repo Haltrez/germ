@@ -20,12 +20,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/random-runnder-4ortune-icon.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/random-runner-4ortune/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/random-runner-4ortune.webp",
     "alt": "Random Runner 4ortune Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/random-runner-4ortune/"
+  ],
+  "lastVerified": "2026-11-14"
 }

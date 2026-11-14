@@ -24,12 +24,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/566/hero-desktop/0-0db920a9a61dd63d",
-  "sourceUrls": [
-    "https://www.playngo.com/games/sparky-shortz"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/sparky-shortz.webp",
     "alt": "Sparky & Shortz Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/sparky-shortz"
+  ],
+  "lastVerified": "2026-11-14"
 }

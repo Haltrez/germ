@@ -31,12 +31,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://fan-cdn.nolimitcity.com/small_the_wish_master_icon5_6b3469f82f.png",
-  "sourceUrls": [
-    "https://netent.com/games/the-wish-master"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/the-wish-master.webp",
     "alt": "The Wish Master Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://netent.com/games/the-wish-master"
+  ],
+  "lastVerified": "2026-11-14"
 }

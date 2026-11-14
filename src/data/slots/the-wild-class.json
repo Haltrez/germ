@@ -24,12 +24,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/554/hero-desktop/0-711aed484cebc89a",
-  "sourceUrls": [
-    "https://www.playngo.com/games/the-wild-class"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/the-wild-class.webp",
     "alt": "The Wild Class Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/the-wild-class"
+  ],
+  "lastVerified": "2026-11-14"
 }

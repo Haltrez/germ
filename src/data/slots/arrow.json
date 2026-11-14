@@ -29,12 +29,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2025/06/67d41535cd3d4512a44c2934_Arrow_Slot_1020х1280-2.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/arrow-slot"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/arrow.webp",
     "alt": "Arrow Slot Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/arrow-slot"
+  ],
+  "lastVerified": "2026-11-14"
 }

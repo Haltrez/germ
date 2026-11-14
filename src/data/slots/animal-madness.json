@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/617/hero-desktop/0-ac5e62fdbadd49af",
-  "sourceUrls": [
-    "https://www.playngo.com/games/animal-madness"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/animal-madness.webp",
     "alt": "Animal Madness Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/animal-madness"
+  ],
+  "lastVerified": "2026-11-14"
 }

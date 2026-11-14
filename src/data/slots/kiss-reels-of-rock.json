@@ -30,12 +30,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/553/hero-desktop/0-71461bf839809ecf",
-  "sourceUrls": [
-    "https://www.playngo.com/games/kiss-reels-of-rock"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/kiss-reels-of-rock.webp",
     "alt": "Kiss Reels of Rock Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/kiss-reels-of-rock"
+  ],
+  "lastVerified": "2026-11-14"
 }

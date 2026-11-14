@@ -28,12 +28,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2024/08/Oodles-of-Noodles_339x180.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/oodles-of-noodles/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/oodles-of-noodles.webp",
     "alt": "Oodles of Noodles Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/oodles-of-noodles/"
+  ],
+  "lastVerified": "2026-11-14"
 }

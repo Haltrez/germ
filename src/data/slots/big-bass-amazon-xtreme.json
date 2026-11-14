@@ -28,12 +28,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2023/06/BBAEx_EN_339x180.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/big-bass-amazon-xtreme/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/big-bass-amazon-xtreme.webp",
     "alt": "Big Bass Amazon Xtreme Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/big-bass-amazon-xtreme/"
+  ],
+  "lastVerified": "2026-11-14"
 }

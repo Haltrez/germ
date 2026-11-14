@@ -32,12 +32,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2022/09/Floating-Dragon-Megaways_339x180-1.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/floating-dragon-megaways/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/floating-dragon-megaways.webp",
     "alt": "Floating Dragon Megaways Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/floating-dragon-megaways/"
+  ],
+  "lastVerified": "2026-11-14"
 }

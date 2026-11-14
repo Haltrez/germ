@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/453/hero-desktop/0-4fa43d6f15d2e754",
-  "sourceUrls": [
-    "https://www.playngo.com/games/frozen-gems"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/frozen-gems.webp",
     "alt": "Frozen Gems Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/frozen-gems"
+  ],
+  "lastVerified": "2026-11-14"
 }

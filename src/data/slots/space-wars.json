@@ -30,12 +30,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://fan-cdn.nolimitcity.com/small_space_wars_icon5_02640540a3.png",
-  "sourceUrls": [
-    "https://netent.com/games/space-wars"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/space-wars.webp",
     "alt": "Space Wars Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://netent.com/games/space-wars"
+  ],
+  "lastVerified": "2026-11-14"
 }

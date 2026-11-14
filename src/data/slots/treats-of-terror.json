@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1019/hero-desktop/0-f629878c02a55e1b",
-  "sourceUrls": [
-    "https://www.playngo.com/games/treats-of-terror"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/treats-of-terror.webp",
     "alt": "Treats of Terror Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/treats-of-terror"
+  ],
+  "lastVerified": "2026-11-14"
 }

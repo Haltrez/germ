@@ -28,12 +28,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/284/hero-desktop/0-360cfe5d6a85cbde",
-  "sourceUrls": [
-    "https://www.playngo.com/games/crazy-cows"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/crazy-cows.webp",
     "alt": "Crazy Cows Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/crazy-cows"
+  ],
+  "lastVerified": "2026-11-14"
 }

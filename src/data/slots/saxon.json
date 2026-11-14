@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/422/hero-desktop/0-df9f4c2ab459bc5a",
-  "sourceUrls": [
-    "https://www.playngo.com/games/saxon"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/saxon.webp",
     "alt": "Saxon Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/saxon"
+  ],
+  "lastVerified": "2026-11-14"
 }

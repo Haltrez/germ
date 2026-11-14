@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/417/hero-desktop/0-785dcbdde0c91109",
-  "sourceUrls": [
-    "https://www.playngo.com/games/doom-of-egypt"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/doom-of-egypt.webp",
     "alt": "Doom of Egypt Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/doom-of-egypt"
+  ],
+  "lastVerified": "2026-11-14"
 }

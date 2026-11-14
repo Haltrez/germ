@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/362/hero-desktop/0-47fc733f90369fb8",
-  "sourceUrls": [
-    "https://www.playngo.com/games/mahjong-88"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/mahjong-88.webp",
     "alt": "Mahjong 88 Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/mahjong-88"
+  ],
+  "lastVerified": "2026-11-14"
 }

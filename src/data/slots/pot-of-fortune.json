@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2024/03/Pot-of-Fortune_339x180.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/pot-of-fortune/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/pot-of-fortune.webp",
     "alt": "Pot of Fortune Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/pot-of-fortune/"
+  ],
+  "lastVerified": "2026-11-14"
 }

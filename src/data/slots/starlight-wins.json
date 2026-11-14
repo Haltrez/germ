@@ -30,12 +30,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2025/07/Starlight-Wins_339x180_B.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/starlight-wins/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/starlight-wins.webp",
     "alt": "Starlight Wins Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/starlight-wins/"
+  ],
+  "lastVerified": "2026-11-14"
 }

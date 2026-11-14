@@ -31,12 +31,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://fan-cdn.nolimitcity.com/small_rome_icon5_e8382716fd.png",
-  "sourceUrls": [
-    "https://netent.com/games/rome-the-golden-age"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/rome-the-golden-age.webp",
     "alt": "Rome: The Golden Age Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://netent.com/games/rome-the-golden-age"
+  ],
+  "lastVerified": "2026-11-14"
 }

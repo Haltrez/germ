@@ -1,0 +1,31 @@
+{
+  "name": "Simply Wild Twin",
+  "provider": "novomatic",
+  "releaseDate": "2023-01-12",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 4,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/button_simplywildtwin.png",
+  "sourceUrls": [
+    "https://www.greentube.com/game/simply-wild-twin/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/simply-wild-twin.webp",
+    "alt": "Simply Wild Twin Spielautomat"
+  }
+}

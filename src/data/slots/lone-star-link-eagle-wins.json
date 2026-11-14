@@ -22,12 +22,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/lone-star-link-eagle-wins-icon.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/lone-star-link-eagle-wins/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/lone-star-link-eagle-wins.webp",
     "alt": "Lone Star Link: Eagle Wins Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/lone-star-link-eagle-wins/"
+  ],
+  "lastVerified": "2026-11-14"
 }

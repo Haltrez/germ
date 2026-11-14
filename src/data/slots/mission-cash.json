@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/379/hero-desktop/0-4f82e9cbcdcff4ef",
-  "sourceUrls": [
-    "https://www.playngo.com/games/mission-cash"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/mission-cash.webp",
     "alt": "Mission Cash Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/mission-cash"
+  ],
+  "lastVerified": "2026-11-14"
 }

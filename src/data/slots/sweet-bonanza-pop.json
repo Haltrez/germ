@@ -28,12 +28,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2026/10/Sweet-Bonanza-POP_339x180_NB.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/sweet-bonanza-pop/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/sweet-bonanza-pop.webp",
     "alt": "Sweet Bonanza POP Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/sweet-bonanza-pop/"
+  ],
+  "lastVerified": "2026-11-14"
 }

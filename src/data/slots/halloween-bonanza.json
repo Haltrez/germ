@@ -32,12 +32,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/669521daa5ec535c5b33e679_Halloween_Bonanza_1020x1280.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/halloween-bonanza"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/halloween-bonanza.webp",
     "alt": "Halloween Bonanza Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/halloween-bonanza"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -32,12 +32,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/66953dbaa69a2e72e70d3a29_Wild_Cash_Dice_1020x1280.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/wild-cash-dice"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/wild-cash-dice.webp",
     "alt": "Wild Cash Dice Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/wild-cash-dice"
+  ],
+  "lastVerified": "2026-11-14"
 }

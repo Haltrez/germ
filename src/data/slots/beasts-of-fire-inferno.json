@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1114/hero-desktop/0-eadb3bf1166b7a9f",
-  "sourceUrls": [
-    "https://www.playngo.com/games/beasts-of-fire-inferno"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/beasts-of-fire-inferno.webp",
     "alt": "Beasts of Fire Inferno Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/beasts-of-fire-inferno"
+  ],
+  "lastVerified": "2026-11-14"
 }

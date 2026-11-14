@@ -20,12 +20,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/classiclink_randomrunner_icon1080x1080.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/classic-link-random-runner/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/classic-link-random-runner.webp",
     "alt": "Classic Link Random Runner Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/classic-link-random-runner/"
+  ],
+  "lastVerified": "2026-11-14"
 }

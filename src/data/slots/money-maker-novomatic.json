@@ -1,0 +1,33 @@
+{
+  "name": "Money Maker",
+  "provider": "novomatic",
+  "releaseDate": "2023-05-23",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 3,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/icon-13-8.jpg",
+  "sourceUrls": [
+    "https://www.greentube.com/game/money-maker/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/money-maker-novomatic.webp",
+    "alt": "Money Maker Spielautomat"
+  }
+}

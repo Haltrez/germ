@@ -20,12 +20,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/dc-mighty-santa-boarded-up-icon.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/diamond-cash-mighty-santa-boarded-up/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/diamond-cash-mighty-santa-boarded-up.webp",
     "alt": "Diamond Cash: Mighty Santa Boarded Up Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/diamond-cash-mighty-santa-boarded-up/"
+  ],
+  "lastVerified": "2026-11-14"
 }

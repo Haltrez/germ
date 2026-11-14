@@ -24,12 +24,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/99/hero-desktop/0-1de2cb3e8ccabd65",
-  "sourceUrls": [
-    "https://www.playngo.com/games/ace-of-spades"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/ace-of-spades.webp",
     "alt": "Ace of Spades Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/ace-of-spades"
+  ],
+  "lastVerified": "2026-11-14"
 }

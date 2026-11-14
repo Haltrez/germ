@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2024/06/Big-Bass-Mission-Fishin_339x180.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/big-bass-mission-fishin/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/big-bass-mission-fishin.webp",
     "alt": "Big Bass Mission Fishin’ Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/big-bass-mission-fishin/"
+  ],
+  "lastVerified": "2026-11-14"
 }

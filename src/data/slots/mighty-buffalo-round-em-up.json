@@ -20,12 +20,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/2026/07/mighty-buffalo-round-em-up-icon.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/mighty-buffalo-round-em-up/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/mighty-buffalo-round-em-up.webp",
     "alt": "Mighty Buffalo: Round ‘Em Up! Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/mighty-buffalo-round-em-up/"
+  ],
+  "lastVerified": "2026-11-14"
 }

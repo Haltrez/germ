@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/594/hero-desktop/0-27698fa5a777ec6c",
-  "sourceUrls": [
-    "https://www.playngo.com/games/tomb-of-gold"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/tomb-of-gold.webp",
     "alt": "Tomb of Gold Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/tomb-of-gold"
+  ],
+  "lastVerified": "2026-11-14"
 }

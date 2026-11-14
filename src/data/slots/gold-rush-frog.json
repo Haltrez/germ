@@ -34,12 +34,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/64fc090119ae7b462188a542_6466238b5b385d7defd4f7fe_GoldRushFrog_bitstarz_455x574.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/gold-rush-frog"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/gold-rush-frog.webp",
     "alt": "Gold Rush Frog Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/gold-rush-frog"
+  ],
+  "lastVerified": "2026-11-14"
 }

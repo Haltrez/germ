@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2023/07/Piggy-Bankers_339x180-1.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/piggy-bankers/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/piggy-bankers.webp",
     "alt": "Piggy Bankers Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/piggy-bankers/"
+  ],
+  "lastVerified": "2026-11-14"
 }

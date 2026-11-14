@@ -1,0 +1,31 @@
+{
+  "name": "Running Wild Super",
+  "provider": "novomatic",
+  "releaseDate": "2023-03-08",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 5,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/icon1-1.jpg",
+  "sourceUrls": [
+    "https://www.greentube.com/game/running-wild-super/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/running-wild-super.webp",
+    "alt": "Running Wild Super Spielautomat"
+  }
+}

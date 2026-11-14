@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/magic-luck-casino-icon-1200x1200.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/magic-luck-casino/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/magic-luck-casino.webp",
     "alt": "Magic Luck Casino Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/magic-luck-casino/"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -28,12 +28,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://fan-cdn.nolimitcity.com/small_bee_hive_bonanza_icon5_8f67da05dd.png",
-  "sourceUrls": [
-    "https://netent.com/games/bee-hive-bonanza"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/bee-hive-bonanza.webp",
     "alt": "Bee Hive Bonanza Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://netent.com/games/bee-hive-bonanza"
+  ],
+  "lastVerified": "2026-11-14"
 }

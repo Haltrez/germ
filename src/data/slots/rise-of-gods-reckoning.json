@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/584/hero-desktop/0-efad18e581f418ca",
-  "sourceUrls": [
-    "https://www.playngo.com/games/rise-of-gods-reckoning"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/rise-of-gods-reckoning.webp",
     "alt": "Rise of Gods: Reckoning Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/rise-of-gods-reckoning"
+  ],
+  "lastVerified": "2026-11-14"
 }

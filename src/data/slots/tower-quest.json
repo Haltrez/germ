@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/287/hero-desktop/0-5b788939ddd8c2d0",
-  "sourceUrls": [
-    "https://www.playngo.com/games/tower-quest"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/tower-quest.webp",
     "alt": "Tower Quest Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/tower-quest"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2025/08/Spell-Master_339x180_EN.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/spellmaster/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/spellmaster.webp",
     "alt": "Spellmaster Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/spellmaster/"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2023/03/l_R0x2-4.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/african-elephant/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/african-elephant.webp",
     "alt": "African Elephant Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/african-elephant/"
+  ],
+  "lastVerified": "2026-11-14"
 }

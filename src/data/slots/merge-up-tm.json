@@ -33,12 +33,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/669532016b1c0c3856b182f9_Merge_Up_1020x1280.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/merge-up-tm"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/merge-up-tm.webp",
     "alt": "Merge Up Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/merge-up-tm"
+  ],
+  "lastVerified": "2026-11-14"
 }

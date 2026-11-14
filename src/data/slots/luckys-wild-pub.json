@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2025/02/Luckys-Wild-Pub_339x180_Without-Border.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/luckys-wild-pub/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/luckys-wild-pub.webp",
     "alt": "Lucky’s Wild Pub Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/luckys-wild-pub/"
+  ],
+  "lastVerified": "2026-11-14"
 }

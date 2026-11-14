@@ -31,12 +31,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://fan-cdn.nolimitcity.com/small_drive_icon5_ed65e58493.png",
-  "sourceUrls": [
-    "https://netent.com/games/drive"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/drive.webp",
     "alt": "Drive: Multiplier Mayhem Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://netent.com/games/drive"
+  ],
+  "lastVerified": "2026-11-14"
 }

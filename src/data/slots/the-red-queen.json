@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2023/03/FCkYil5o.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/the-red-queen/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/the-red-queen.webp",
     "alt": "The Red Queen Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/the-red-queen/"
+  ],
+  "lastVerified": "2026-11-14"
 }

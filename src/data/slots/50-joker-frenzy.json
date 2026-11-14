@@ -20,12 +20,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/2025/12/50-joker-frenzy-icon.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/50-joker-frenzy/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/50-joker-frenzy.webp",
     "alt": "50 Joker Frenzy Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/50-joker-frenzy/"
+  ],
+  "lastVerified": "2026-11-14"
 }

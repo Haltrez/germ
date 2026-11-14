@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/924/hero-desktop/0-721b18f57b877d20",
-  "sourceUrls": [
-    "https://www.playngo.com/games/piggy-blitz-disco-gold"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/piggy-blitz-disco-gold.webp",
     "alt": "Piggy Blitz Disco Gold Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/piggy-blitz-disco-gold"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -39,12 +39,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/1344_hero_Device_Desktop.png",
-  "sourceUrls": [
-    "https://www.hacksawgaming.com/games/eye-of-the-panda"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/eye-of-the-panda.webp",
     "alt": "Eye of the Panda Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.hacksawgaming.com/games/eye-of-the-panda"
+  ],
+  "lastVerified": "2026-11-14"
 }

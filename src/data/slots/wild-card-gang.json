@@ -33,12 +33,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/6790cb317e2cf39d98c7f789_WildCardGang_MergeUp_1020x1280.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/wild-card-gang"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/wild-card-gang.webp",
     "alt": "Wild Card Gang Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/wild-card-gang"
+  ],
+  "lastVerified": "2026-11-14"
 }

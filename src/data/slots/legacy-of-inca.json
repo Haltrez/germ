@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/755/hero-desktop/0-cbfbd08a96e31a88",
-  "sourceUrls": [
-    "https://www.playngo.com/games/legacy-of-inca"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/legacy-of-inca.webp",
     "alt": "Legacy of Inca Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/legacy-of-inca"
+  ],
+  "lastVerified": "2026-11-14"
 }

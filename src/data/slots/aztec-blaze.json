@@ -29,12 +29,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2022/09/Aztec-Blaze_339x180.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/aztec-blaze/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/aztec-blaze.webp",
     "alt": "Aztec Blaze Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/aztec-blaze/"
+  ],
+  "lastVerified": "2026-11-14"
 }

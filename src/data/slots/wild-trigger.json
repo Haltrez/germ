@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/616/hero-desktop/0-db61caacef721256",
-  "sourceUrls": [
-    "https://www.playngo.com/games/wild-trigger"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/wild-trigger.webp",
     "alt": "Wild Trigger Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/wild-trigger"
+  ],
+  "lastVerified": "2026-11-14"
 }

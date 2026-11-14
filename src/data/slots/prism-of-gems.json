@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/532/hero-desktop/0-4cc619aee6aec65b",
-  "sourceUrls": [
-    "https://www.playngo.com/games/prism-of-gems"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/prism-of-gems.webp",
     "alt": "Prism of Gems Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/prism-of-gems"
+  ],
+  "lastVerified": "2026-11-14"
 }

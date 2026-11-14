@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/245/hero-desktop/0-1f5e0cee2b634c5a",
-  "sourceUrls": [
-    "https://www.playngo.com/games/myth"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/myth.webp",
     "alt": "Myth Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/myth"
+  ],
+  "lastVerified": "2026-11-14"
 }

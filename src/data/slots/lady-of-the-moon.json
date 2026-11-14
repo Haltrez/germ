@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2016/05/35_Lady-of-the-Moon_desktop_330x140px-2.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/lady-of-the-moon-slot/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/lady-of-the-moon.webp",
     "alt": "Lady of the Moon Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/lady-of-the-moon-slot/"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/404/hero-desktop/0-e800a622f11e4a6b",
-  "sourceUrls": [
-    "https://www.playngo.com/games/wild-blood-2"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/wild-blood-2.webp",
     "alt": "Wild Blood 2 Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/wild-blood-2"
+  ],
+  "lastVerified": "2026-11-14"
 }

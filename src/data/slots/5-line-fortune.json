@@ -1,0 +1,31 @@
+{
+  "name": "5-Line Fortune",
+  "provider": "novomatic",
+  "releaseDate": "2020-09-15",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 3,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/fivelinefortune-30556-gamebutton.png",
+  "sourceUrls": [
+    "https://www.greentube.com/game/5-line-fortune/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/5-line-fortune.webp",
+    "alt": "5-Line Fortune Spielautomat"
+  }
+}

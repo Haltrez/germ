@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2024/11/Gates-Of-Olympus-X-mas-1000_339x180.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/gates-of-olympus-xmas-1000/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/gates-of-olympus-xmas-1000.webp",
     "alt": "Gates of Olympus Xmas 1000 Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/gates-of-olympus-xmas-1000/"
+  ],
+  "lastVerified": "2026-11-14"
 }

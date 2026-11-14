@@ -34,12 +34,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://fan-cdn.nolimitcity.com/small_red_riding_hood_icon5_1d8420f7c6.png",
-  "sourceUrls": [
-    "https://netent.com/games/fairytale-legends-red-riding-hood"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/fairytale-legends-red-riding-hood.webp",
     "alt": "Fairytale Legends: Red Riding Hood Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://netent.com/games/fairytale-legends-red-riding-hood"
+  ],
+  "lastVerified": "2026-11-14"
 }

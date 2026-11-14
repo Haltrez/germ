@@ -20,12 +20,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/mm-golden-safari-icon.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/match-more-golden-safari/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/match-more-golden-safari.webp",
     "alt": "Match More: Golden Safari Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/match-more-golden-safari/"
+  ],
+  "lastVerified": "2026-11-14"
 }

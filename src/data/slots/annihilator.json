@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/418/hero-desktop/0-3b9bfef8d0e86672",
-  "sourceUrls": [
-    "https://www.playngo.com/games/annihilator"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/annihilator.webp",
     "alt": "Annihilator Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/annihilator"
+  ],
+  "lastVerified": "2026-11-14"
 }

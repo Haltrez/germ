@@ -32,12 +32,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2025/02/669535f3e706a57c76078f35_Panda_Luck_1020x1280.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/panda-luck"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/panda-luck.webp",
     "alt": "Panda Luck Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/panda-luck"
+  ],
+  "lastVerified": "2026-11-14"
 }

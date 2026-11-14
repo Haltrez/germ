@@ -32,12 +32,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://fan-cdn.nolimitcity.com/small_dead_or_alive_icon5_c45ed3ddf7.png",
-  "sourceUrls": [
-    "https://netent.com/games/dead-or-alive"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/dead-or-alive.webp",
     "alt": "Dead or Alive Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://netent.com/games/dead-or-alive"
+  ],
+  "lastVerified": "2026-11-14"
 }

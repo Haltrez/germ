@@ -1,0 +1,33 @@
+{
+  "name": "Fruit King",
+  "provider": "novomatic",
+  "releaseDate": "2021-07-13",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 5,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/fruitlink-30521-gamebutton.jpg",
+  "sourceUrls": [
+    "https://www.greentube.com/game/fruit-king/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/fruit-king.webp",
+    "alt": "Fruit King Spielautomat"
+  }
+}

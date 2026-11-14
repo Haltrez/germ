@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/590/hero-desktop/0-1024008e32e99619",
-  "sourceUrls": [
-    "https://www.playngo.com/games/canine-carnage"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/canine-carnage.webp",
     "alt": "Canine Carnage Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/canine-carnage"
+  ],
+  "lastVerified": "2026-11-14"
 }

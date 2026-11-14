@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/531/hero-desktop/0-58c4395e4940ea36",
-  "sourceUrls": [
-    "https://www.playngo.com/games/alice-cooper-and-the-tome-of-madness"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/alice-cooper-and-the-tome-of-madness.webp",
     "alt": "Alice Cooper and the Tome of Madness Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/alice-cooper-and-the-tome-of-madness"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -1,0 +1,35 @@
+{
+  "name": "Smashing Sevens: Win Ways",
+  "provider": "novomatic",
+  "releaseDate": "2026-07-07",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 6,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "cascades",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/smashing-sevens-icon.png",
+  "sourceUrls": [
+    "https://www.greentube.com/game/smashing-sevens-win-ways-adapted/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/smashing-sevens-win-ways-adapted.webp",
+    "alt": "Smashing Sevens: Win Ways Spielautomat"
+  }
+}

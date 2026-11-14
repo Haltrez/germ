@@ -32,12 +32,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2025/08/685a5687310931bd642cd5bb_Tramp_Day_TrueWays_1020x1280_11zon.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/tramp-day-trueways-tm"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/tramp-day-trueways-tm.webp",
     "alt": "Tramp Day TRUEWAYS Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/tramp-day-trueways-tm"
+  ],
+  "lastVerified": "2026-11-14"
 }

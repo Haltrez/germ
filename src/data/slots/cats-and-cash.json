@@ -24,12 +24,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/193/hero-desktop/0-ebaf553373870211",
-  "sourceUrls": [
-    "https://www.playngo.com/games/cats-and-cash"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/cats-and-cash.webp",
     "alt": "Cats and Cash Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/cats-and-cash"
+  ],
+  "lastVerified": "2026-11-14"
 }

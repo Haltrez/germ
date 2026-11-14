@@ -20,12 +20,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/egyptian-underworld-deluxe-icon.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/egyptian-underworld-deluxe/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/egyptian-underworld-deluxe.webp",
     "alt": "Egyptian Underworld deluxe Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/egyptian-underworld-deluxe/"
+  ],
+  "lastVerified": "2026-11-14"
 }

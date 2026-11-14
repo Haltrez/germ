@@ -29,12 +29,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://fan-cdn.nolimitcity.com/small_gorilla_kingdom_icon5_e3d3dca15e.png",
-  "sourceUrls": [
-    "https://netent.com/games/gorilla-kingdom"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/gorilla-kingdom.webp",
     "alt": "Gorilla Kingdom Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://netent.com/games/gorilla-kingdom"
+  ],
+  "lastVerified": "2026-11-14"
 }

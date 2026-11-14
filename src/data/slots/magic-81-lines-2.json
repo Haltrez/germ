@@ -1,0 +1,31 @@
+{
+  "name": "Magic 81 Lines",
+  "provider": "novomatic",
+  "releaseDate": "2020-01-01",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 4,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/magic81-25459-gamebutton.png",
+  "sourceUrls": [
+    "https://www.greentube.com/game/magic-81-lines-2/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/magic-81-lines-2.webp",
+    "alt": "Magic 81 Lines Spielautomat"
+  }
+}

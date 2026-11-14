@@ -31,12 +31,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2026/07/St.-Patricks_Pots_Hold_and_Win_1020x1280.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/st-patricks-pots-hold-and-win"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/st-patricks-pots-hold-and-win.webp",
     "alt": "St. Patrick’s Pots Hold and Win Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/st-patricks-pots-hold-and-win"
+  ],
+  "lastVerified": "2026-11-14"
 }

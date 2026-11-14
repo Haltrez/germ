@@ -1,0 +1,31 @@
+{
+  "name": "Madly Wild",
+  "provider": "novomatic",
+  "releaseDate": "2022-04-05",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 3,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/madlywild-30121-gamebutton.jpg",
+  "sourceUrls": [
+    "https://www.greentube.com/game/madly-wild/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/madly-wild.webp",
+    "alt": "Madly Wild Spielautomat"
+  }
+}

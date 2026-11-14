@@ -30,12 +30,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2020/01/Money-Mouse™_EN_339x180_02-1.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/money-mouse-slot/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/money-mouse.webp",
     "alt": "Money Mouse Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/money-mouse-slot/"
+  ],
+  "lastVerified": "2026-11-14"
 }

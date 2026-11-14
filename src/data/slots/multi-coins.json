@@ -22,12 +22,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/2025/05/multi-coins-icon.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/multi-coins/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/multi-coins.webp",
     "alt": "Multi Coins Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/multi-coins/"
+  ],
+  "lastVerified": "2026-11-14"
 }

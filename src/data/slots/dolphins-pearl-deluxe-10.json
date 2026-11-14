@@ -1,0 +1,33 @@
+{
+  "name": "Dolphin’s Pearl deluxe 10",
+  "provider": "novomatic",
+  "releaseDate": "2021-05-18",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 4,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/pl-game-icon-2.png",
+  "sourceUrls": [
+    "https://www.greentube.com/game/dolphins-pearl-deluxe-10/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/dolphins-pearl-deluxe-10.webp",
+    "alt": "Dolphin’s Pearl deluxe 10 Spielautomat"
+  }
+}

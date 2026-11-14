@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/464/hero-desktop/0-e4bf769b98db0ad3",
-  "sourceUrls": [
-    "https://www.playngo.com/games/holiday-spirits"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/holiday-spirits.webp",
     "alt": "Holiday Spirits Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/holiday-spirits"
+  ],
+  "lastVerified": "2026-11-14"
 }

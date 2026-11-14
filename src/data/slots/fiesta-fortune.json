@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2025/04/Fiesta-Fortune_339x180.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/fiesta-fortune/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/fiesta-fortune.webp",
     "alt": "Fiesta Fortune Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/fiesta-fortune/"
+  ],
+  "lastVerified": "2026-11-14"
 }

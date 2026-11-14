@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/389/hero-desktop/0-0cae9d7f17585038",
-  "sourceUrls": [
-    "https://www.playngo.com/games/chronos-joker"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/chronos-joker.webp",
     "alt": "Chronos Joker Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/chronos-joker"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -29,12 +29,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2023/12/Blade-Fangs_339x180.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/blade-fangs/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/blade-fangs.webp",
     "alt": "Blade & Fangs Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/blade-fangs/"
+  ],
+  "lastVerified": "2026-11-14"
 }

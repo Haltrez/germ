@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2023/04/Diamond_Of_Egypt.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/diamonds-of-egypt/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/diamonds-of-egypt.webp",
     "alt": "Diamonds Of Egypt Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/diamonds-of-egypt/"
+  ],
+  "lastVerified": "2026-11-14"
 }

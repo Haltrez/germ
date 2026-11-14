@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/dm-fruitilicious-deluxe-icon.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/diamond-mystery-fruitilicious-deluxe/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/diamond-mystery-fruitilicious-deluxe.webp",
     "alt": "Diamond Mystery Fruitilicious deluxe Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/diamond-mystery-fruitilicious-deluxe/"
+  ],
+  "lastVerified": "2026-11-14"
 }

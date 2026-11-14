@@ -29,12 +29,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2017/09/thumbs-pt-site_Diamond-Strike_330x140px-1.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/diamond-strike-slot/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/diamond-strike.webp",
     "alt": "Diamond Strike Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/diamond-strike-slot/"
+  ],
+  "lastVerified": "2026-11-14"
 }

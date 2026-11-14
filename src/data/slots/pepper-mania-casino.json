@@ -20,12 +20,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/2024/12/pepper-mania-casino-icon.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/pepper-mania-casino/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/pepper-mania-casino.webp",
     "alt": "Pepper Mania Casino Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/pepper-mania-casino/"
+  ],
+  "lastVerified": "2026-11-14"
 }

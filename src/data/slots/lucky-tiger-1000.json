@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2025/05/Lucky-Tiger-1000_339x180_B.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/lucky-tiger-1000/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/lucky-tiger-1000.webp",
     "alt": "Lucky Tiger 1000 Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/lucky-tiger-1000/"
+  ],
+  "lastVerified": "2026-11-14"
 }

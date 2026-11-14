@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/671/hero-desktop/0-79a2bfcc4780c967",
-  "sourceUrls": [
-    "https://www.playngo.com/games/sparky-shortz-hidden-joules"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/sparky-shortz-hidden-joules.webp",
     "alt": "Sparky&Shortz Hidden Joules Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/sparky-shortz-hidden-joules"
+  ],
+  "lastVerified": "2026-11-14"
 }

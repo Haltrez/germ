@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/910/hero-desktop/0-2c681a28e5c532b5",
-  "sourceUrls": [
-    "https://www.playngo.com/games/divina-commedia-i-nove-cerchi"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/divina-commedia-i-nove-cerchi.webp",
     "alt": "Divina Commedia I Nove Cerchi Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/divina-commedia-i-nove-cerchi"
+  ],
+  "lastVerified": "2026-11-14"
 }

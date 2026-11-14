@@ -1,0 +1,33 @@
+{
+  "name": "Egyptian Underworld",
+  "provider": "novomatic",
+  "releaseDate": "2023-04-25",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 5,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/1080x1080-2.jpg",
+  "sourceUrls": [
+    "https://www.greentube.com/game/egyptian-underworld/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/egyptian-underworld.webp",
+    "alt": "Egyptian Underworld Spielautomat"
+  }
+}

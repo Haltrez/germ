@@ -1,0 +1,31 @@
+{
+  "name": "Gemini Twin",
+  "provider": "novomatic",
+  "releaseDate": "2018-05-02",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 4,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/geminitwin-30108-gamebutton.jpg",
+  "sourceUrls": [
+    "https://www.greentube.com/game/gemini-twin/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/gemini-twin.webp",
+    "alt": "Gemini Twin Spielautomat"
+  }
+}

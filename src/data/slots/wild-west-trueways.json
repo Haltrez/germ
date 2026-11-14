@@ -36,12 +36,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/667e6d409d99b6ea7e8390d1_Wild_West_TrueWays_1020x1280.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/wild-west-trueways"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/wild-west-trueways.webp",
     "alt": "Wild West TRUEWAYS Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/wild-west-trueways"
+  ],
+  "lastVerified": "2026-11-14"
 }

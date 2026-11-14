@@ -34,12 +34,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2026/03/Derby_Rush_1020_1280_1x-1.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/derby-rush"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/derby-rush.webp",
     "alt": "Derby Rush Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/derby-rush"
+  ],
+  "lastVerified": "2026-11-14"
 }

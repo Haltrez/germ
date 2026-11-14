@@ -28,12 +28,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2023/08/Cyclops-Smash_339x180.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/cyclops-smash/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/cyclops-smash.webp",
     "alt": "Cyclops Smash Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/cyclops-smash/"
+  ],
+  "lastVerified": "2026-11-14"
 }

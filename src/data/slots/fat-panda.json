@@ -28,12 +28,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2023/06/Fat_Panda_339x180.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/fat-panda/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/fat-panda.webp",
     "alt": "Fat Panda Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/fat-panda/"
+  ],
+  "lastVerified": "2026-11-14"
 }

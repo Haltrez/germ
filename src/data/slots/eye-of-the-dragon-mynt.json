@@ -20,12 +20,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/2025/11/eye-of-the-dragon-icon.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/eye-of-the-dragon-mynt/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/eye-of-the-dragon-mynt.webp",
     "alt": "Eye of the Dragon Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/eye-of-the-dragon-mynt/"
+  ],
+  "lastVerified": "2026-11-14"
 }

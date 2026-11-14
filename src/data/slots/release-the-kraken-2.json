@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2022/10/Release_The_Kraken_2_339x180.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/release-the-kraken-2/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/release-the-kraken-2.webp",
     "alt": "Release the Kraken 2 Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/release-the-kraken-2/"
+  ],
+  "lastVerified": "2026-11-14"
 }

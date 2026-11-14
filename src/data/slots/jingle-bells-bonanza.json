@@ -31,12 +31,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://fan-cdn.nolimitcity.com/small_jingle_bells_icon5_60a55439f2.png",
-  "sourceUrls": [
-    "https://netent.com/games/jingle-bells-bonanza"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/jingle-bells-bonanza.webp",
     "alt": "Jingle Bells Bonanza Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://netent.com/games/jingle-bells-bonanza"
+  ],
+  "lastVerified": "2026-11-14"
 }

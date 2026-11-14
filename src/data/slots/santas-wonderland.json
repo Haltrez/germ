@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2021/11/Santass-Wonderland_339x180-2.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/santas-wonderland/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/santas-wonderland.webp",
     "alt": "Santa’s Wonderland Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/santas-wonderland/"
+  ],
+  "lastVerified": "2026-11-14"
 }

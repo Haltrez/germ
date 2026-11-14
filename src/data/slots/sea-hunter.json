@@ -24,12 +24,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/331/hero-desktop/0-892389966eea92f2",
-  "sourceUrls": [
-    "https://www.playngo.com/games/sea-hunter"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/sea-hunter.webp",
     "alt": "Sea Hunter Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/sea-hunter"
+  ],
+  "lastVerified": "2026-11-14"
 }

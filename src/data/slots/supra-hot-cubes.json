@@ -1,0 +1,34 @@
+{
+  "name": "Supra Hot Cubes",
+  "provider": "novomatic",
+  "releaseDate": "2021-09-21",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 4,
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 25
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/suprahotcubes-31097-gamebutton.png",
+  "sourceUrls": [
+    "https://www.greentube.com/game/supra-hot-cubes/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/supra-hot-cubes.webp",
+    "alt": "Supra Hot Cubes Spielautomat"
+  }
+}

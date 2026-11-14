@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/698/hero-desktop/0-e1405d3e59477c98",
-  "sourceUrls": [
-    "https://www.playngo.com/games/loot-labyrinths"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/loot-labyrinths.webp",
     "alt": "Loot & Labyrinths Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/loot-labyrinths"
+  ],
+  "lastVerified": "2026-11-14"
 }

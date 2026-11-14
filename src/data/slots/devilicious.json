@@ -28,12 +28,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2024/05/Devilicious_339x180.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/devilicious/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/devilicious.webp",
     "alt": "Devilicious Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/devilicious/"
+  ],
+  "lastVerified": "2026-11-14"
 }

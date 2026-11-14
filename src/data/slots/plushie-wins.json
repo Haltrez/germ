@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2025/06/Plushie-Wins_339x180_B.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/plushie-wins/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/plushie-wins.webp",
     "alt": "Plushie Wins Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/plushie-wins/"
+  ],
+  "lastVerified": "2026-11-14"
 }

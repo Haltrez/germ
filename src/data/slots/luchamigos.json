@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/735/hero-desktop/0-97149eaff8976fa4",
-  "sourceUrls": [
-    "https://www.playngo.com/games/luchamigos"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/luchamigos.webp",
     "alt": "Luchamigos Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/luchamigos"
+  ],
+  "lastVerified": "2026-11-14"
 }

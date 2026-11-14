@@ -1,0 +1,31 @@
+{
+  "name": "Crazy Hot Slots",
+  "provider": "novomatic",
+  "releaseDate": "2019-05-23",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 3,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/crazyhotslots-30392-gamebutton.jpg",
+  "sourceUrls": [
+    "https://www.greentube.com/game/crazy-hot-slots/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/crazy-hot-slots.webp",
+    "alt": "Crazy Hot Slots Spielautomat"
+  }
+}

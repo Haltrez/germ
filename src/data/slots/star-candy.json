@@ -1,0 +1,33 @@
+{
+  "name": "Star Candy",
+  "provider": "novomatic",
+  "releaseDate": "2022-12-06",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 5,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/starcandyicon_.png",
+  "sourceUrls": [
+    "https://www.greentube.com/game/star-candy/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/star-candy.webp",
+    "alt": "Star Candy Spielautomat"
+  }
+}

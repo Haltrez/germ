@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/237/hero-desktop/0-906bfcb6925ed28c",
-  "sourceUrls": [
-    "https://www.playngo.com/games/riches-of-ra"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/riches-of-ra.webp",
     "alt": "Riches of RA Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/riches-of-ra"
+  ],
+  "lastVerified": "2026-11-14"
 }

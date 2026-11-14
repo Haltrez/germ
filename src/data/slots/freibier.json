@@ -1,0 +1,34 @@
+{
+  "name": "Freibier!",
+  "provider": "novomatic",
+  "releaseDate": "2017-05-30",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 5,
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 40
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/freibier-25263-gamebutton.png",
+  "sourceUrls": [
+    "https://www.greentube.com/game/freibier/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/freibier.webp",
+    "alt": "Freibier! Spielautomat"
+  }
+}

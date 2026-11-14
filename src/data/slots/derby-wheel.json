@@ -24,12 +24,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/476/hero-desktop/0-f060c74314089c32",
-  "sourceUrls": [
-    "https://www.playngo.com/games/derby-wheel"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/derby-wheel.webp",
     "alt": "Derby Wheel Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/derby-wheel"
+  ],
+  "lastVerified": "2026-11-14"
 }

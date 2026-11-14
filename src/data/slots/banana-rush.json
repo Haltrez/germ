@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1057/hero-desktop/0-7431ccc372a23a8c",
-  "sourceUrls": [
-    "https://www.playngo.com/games/banana-rush"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/banana-rush.webp",
     "alt": "Banana Rush Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/banana-rush"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -22,12 +22,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/party-parrots-icon.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/party-parrots/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/party-parrots.webp",
     "alt": "Party Parrots Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/party-parrots/"
+  ],
+  "lastVerified": "2026-11-14"
 }

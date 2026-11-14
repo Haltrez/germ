@@ -30,12 +30,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2022/09/Muertos-Multiplier-Megaways_339x180.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/muertos-multiplier-megaways/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/muertos-multiplier-megaways.webp",
     "alt": "Muertos Multiplier Megaways Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/muertos-multiplier-megaways/"
+  ],
+  "lastVerified": "2026-11-14"
 }

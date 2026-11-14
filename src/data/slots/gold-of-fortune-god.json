@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/736/hero-desktop/0-295820bec41bf9dd",
-  "sourceUrls": [
-    "https://www.playngo.com/games/gold-of-fortune-god"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/gold-of-fortune-god.webp",
     "alt": "Gold of Fortune God Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/gold-of-fortune-god"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/253/hero-desktop/0-242a40197ee9047b",
-  "sourceUrls": [
-    "https://www.playngo.com/games/ninja-fruits"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/ninja-fruits.webp",
     "alt": "Ninja Fruits Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/ninja-fruits"
+  ],
+  "lastVerified": "2026-11-14"
 }

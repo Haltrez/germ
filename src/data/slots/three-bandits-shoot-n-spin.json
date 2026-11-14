@@ -20,12 +20,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/2025/10/three-bandits-shoot-n-spin-icon.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/three-bandits-shoot-n-spin/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/three-bandits-shoot-n-spin.webp",
     "alt": "Three Bandits: Shoot ’n’ Spin Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/three-bandits-shoot-n-spin/"
+  ],
+  "lastVerified": "2026-11-14"
 }

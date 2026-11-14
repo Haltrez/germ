@@ -22,12 +22,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/292/hero-desktop/0-6ab9868af8de13c0",
-  "sourceUrls": [
-    "https://www.playngo.com/games/spin-party"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/spin-party.webp",
     "alt": "Spin Party Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/spin-party"
+  ],
+  "lastVerified": "2026-11-14"
 }

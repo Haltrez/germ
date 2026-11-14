@@ -28,12 +28,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2023/09/Fortunes-of-the-Aztec_339x180.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/fortunes-of-aztec/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/fortunes-of-aztec.webp",
     "alt": "Fortunes of Aztec Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/fortunes-of-aztec/"
+  ],
+  "lastVerified": "2026-11-14"
 }

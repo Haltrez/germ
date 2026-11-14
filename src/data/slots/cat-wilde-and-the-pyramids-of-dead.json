@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/613/hero-desktop/0-a6d43a582c9b3051",
-  "sourceUrls": [
-    "https://www.playngo.com/games/cat-wilde-and-the-pyramids-of-dead"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/cat-wilde-and-the-pyramids-of-dead.webp",
     "alt": "Cat Wilde and the Pyramids of Dead Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/cat-wilde-and-the-pyramids-of-dead"
+  ],
+  "lastVerified": "2026-11-14"
 }

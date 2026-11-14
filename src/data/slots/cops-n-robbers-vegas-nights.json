@@ -1,0 +1,33 @@
+{
+  "name": "Cops ‘n’ Robbers Vegas Nights",
+  "provider": "novomatic",
+  "releaseDate": "2021-02-23",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 5,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/copsandrobbersvegasnights-30797-gamebutton.png",
+  "sourceUrls": [
+    "https://www.greentube.com/game/cops-n-robbers-vegas-nights/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/cops-n-robbers-vegas-nights.webp",
+    "alt": "Cops ‘n’ Robbers Vegas Nights Spielautomat"
+  }
+}

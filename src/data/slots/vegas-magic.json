@@ -29,12 +29,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2018/09/thumb-Vegas-Magic_330x140px-2.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/vegas-magic-slot/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/vegas-magic.webp",
     "alt": "Vegas Magic Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/vegas-magic-slot/"
+  ],
+  "lastVerified": "2026-11-14"
 }

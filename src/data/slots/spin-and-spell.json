@@ -34,12 +34,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/66953c626a2f248cc6848ac2_Spin_And_Spell_1020x1280.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/spin-and-spell"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/spin-and-spell.webp",
     "alt": "Spin and Spell Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/spin-and-spell"
+  ],
+  "lastVerified": "2026-11-14"
 }

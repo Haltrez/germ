@@ -30,12 +30,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/449/hero-desktop/0-fbe37cd8ed07373d",
-  "sourceUrls": [
-    "https://www.playngo.com/games/disco-diamonds"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/disco-diamonds.webp",
     "alt": "Disco Diamonds Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/disco-diamonds"
+  ],
+  "lastVerified": "2026-11-14"
 }

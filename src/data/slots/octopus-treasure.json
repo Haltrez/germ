@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/441/hero-desktop/0-1b8ff13f6ce2f4ca",
-  "sourceUrls": [
-    "https://www.playngo.com/games/octopus-treasure"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/octopus-treasure.webp",
     "alt": "Octopus Treasure Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/octopus-treasure"
+  ],
+  "lastVerified": "2026-11-14"
 }

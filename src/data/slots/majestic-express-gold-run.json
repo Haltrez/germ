@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2025/05/Majestic-Express-Gold-Run_667x414-339x180-1.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/majestic-express-gold-run/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/majestic-express-gold-run.webp",
     "alt": "Majestic Express – Gold Run Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/majestic-express-gold-run/"
+  ],
+  "lastVerified": "2026-11-14"
 }

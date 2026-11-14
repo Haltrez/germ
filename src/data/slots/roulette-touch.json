@@ -22,12 +22,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://fan-cdn.nolimitcity.com/small_roulette_touch_icon5_1b93519e8d.png",
-  "sourceUrls": [
-    "https://netent.com/games/roulette-touch"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/roulette-touch.webp",
     "alt": "Roulette Touch Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://netent.com/games/roulette-touch"
+  ],
+  "lastVerified": "2026-11-14"
 }

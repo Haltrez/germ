@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2026/04/Mr.-Nulls-Wicked-Wares_339x180_EN.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/mr-nulls-wicked-wares/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/mr-nulls-wicked-wares.webp",
     "alt": "Mr Null’s Wicked Wares Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/mr-nulls-wicked-wares/"
+  ],
+  "lastVerified": "2026-11-14"
 }

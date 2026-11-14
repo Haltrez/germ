@@ -32,12 +32,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2026/05/gemhalla_xtreme_1020_1280.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/gemhalla-xtreme"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/gemhalla-xtreme.webp",
     "alt": "Gemhalla Xtreme Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/gemhalla-xtreme"
+  ],
+  "lastVerified": "2026-11-14"
 }

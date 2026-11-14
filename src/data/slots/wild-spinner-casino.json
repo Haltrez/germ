@@ -1,0 +1,31 @@
+{
+  "name": "Wild Spinner casino",
+  "provider": "novomatic",
+  "releaseDate": "2018-06-13",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 4,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/wildspinner-25824-gamebutton.jpg",
+  "sourceUrls": [
+    "https://www.greentube.com/game/wild-spinner-casino/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/wild-spinner-casino.webp",
+    "alt": "Wild Spinner casino Spielautomat"
+  }
+}

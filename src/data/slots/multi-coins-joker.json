@@ -20,12 +20,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/2026/03/multi-coins-joker-icon.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/multi-coins-joker/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/multi-coins-joker.webp",
     "alt": "Multi Coins Joker Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/multi-coins-joker/"
+  ],
+  "lastVerified": "2026-11-14"
 }

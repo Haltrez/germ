@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/619/hero-desktop/0-0ea4437dbce76d9c",
-  "sourceUrls": [
-    "https://www.playngo.com/games/puebla-parade"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/puebla-parade.webp",
     "alt": "Puebla Parade Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/puebla-parade"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -20,12 +20,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/1080x1080.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/diamond-tales-the-emperors-new-clothes/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/diamond-tales-the-emperors-new-clothes.webp",
     "alt": "Diamond Tales: The Emperor’s New Clothes Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/diamond-tales-the-emperors-new-clothes/"
+  ],
+  "lastVerified": "2026-11-14"
 }

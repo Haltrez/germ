@@ -24,12 +24,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1039/hero-desktop/0-4def91074e520945",
-  "sourceUrls": [
-    "https://www.playngo.com/games/rings-of-prosperity"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/rings-of-prosperity.webp",
     "alt": "Rings of Prosperity Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/rings-of-prosperity"
+  ],
+  "lastVerified": "2026-11-14"
 }

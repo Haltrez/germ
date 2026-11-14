@@ -29,12 +29,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/364/hero-desktop/0-340a92aaf304c1de",
-  "sourceUrls": [
-    "https://www.playngo.com/games/firefly-frenzy"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/firefly-frenzy.webp",
     "alt": "Firefly Frenzy Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/firefly-frenzy"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/932/hero-desktop/0-a01382fbccda0a33",
-  "sourceUrls": [
-    "https://www.playngo.com/games/oasis-of-dead"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/oasis-of-dead.webp",
     "alt": "Oasis of Dead Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/oasis-of-dead"
+  ],
+  "lastVerified": "2026-11-14"
 }

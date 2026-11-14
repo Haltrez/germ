@@ -30,12 +30,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://fan-cdn.nolimitcity.com/small_stickers_icon5_ac7d0f34b3.png",
-  "sourceUrls": [
-    "https://netent.com/games/stickers"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/stickers.webp",
     "alt": "Stickers Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://netent.com/games/stickers"
+  ],
+  "lastVerified": "2026-11-14"
 }

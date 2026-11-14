@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1031/hero-desktop/0-554378b3b4c9e8d3",
-  "sourceUrls": [
-    "https://www.playngo.com/games/city-of-sound"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/city-of-sound.webp",
     "alt": "City of Sound Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/city-of-sound"
+  ],
+  "lastVerified": "2026-11-14"
 }

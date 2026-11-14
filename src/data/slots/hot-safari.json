@@ -31,12 +31,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2016/05/03_Hot-Safari_desktop_330x140px-2.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/hot-safari-slot/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/hot-safari.webp",
     "alt": "Hot Safari Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/hot-safari-slot/"
+  ],
+  "lastVerified": "2026-11-14"
 }

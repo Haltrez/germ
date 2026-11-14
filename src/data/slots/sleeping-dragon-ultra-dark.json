@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2026/07/Sleeping-Dragon-Ultra-Dark_667x414_EN-339x180-1.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/sleeping-dragon-ultra-dark/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/sleeping-dragon-ultra-dark.webp",
     "alt": "Sleeping Dragon Ultra Dark Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/sleeping-dragon-ultra-dark/"
+  ],
+  "lastVerified": "2026-11-14"
 }

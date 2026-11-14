@@ -30,12 +30,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2026/03/Inca-Queen_339x180_EN.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/inca-queen/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/inca-queen.webp",
     "alt": "Inca Queen Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/inca-queen/"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -28,12 +28,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2026/11/Wheel_of_Power_1020x1280.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/wheel-of-power"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/wheel-of-power.webp",
     "alt": "Wheel of Power Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/wheel-of-power"
+  ],
+  "lastVerified": "2026-11-14"
 }

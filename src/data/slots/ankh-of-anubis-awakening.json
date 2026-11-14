@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/692/hero-desktop/0-e180acdd0f925993",
-  "sourceUrls": [
-    "https://www.playngo.com/games/ankh-of-anubis-awakening"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/ankh-of-anubis-awakening.webp",
     "alt": "Ankh of Anubis Awakening Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/ankh-of-anubis-awakening"
+  ],
+  "lastVerified": "2026-11-14"
 }

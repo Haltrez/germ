@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/699/hero-desktop/0-e23ba4b46ed17849",
-  "sourceUrls": [
-    "https://www.playngo.com/games/baron-lord-of-saturday"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/baron-lord-of-saturday.webp",
     "alt": "Baron: Lord of Saturday Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/baron-lord-of-saturday"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -28,12 +28,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2021/05/CashElevator_EN_339x180_04-1.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/cash-elevator/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/cash-elevator.webp",
     "alt": "Cash Elevator Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/cash-elevator/"
+  ],
+  "lastVerified": "2026-11-14"
 }

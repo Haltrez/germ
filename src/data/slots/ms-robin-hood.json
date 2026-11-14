@@ -31,12 +31,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://fan-cdn.nolimitcity.com/small_ms_robin_hood_icon5_9a9bc1c6c5.png",
-  "sourceUrls": [
-    "https://netent.com/games/ms-robin-hood"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/ms-robin-hood.webp",
     "alt": "Ms Robin Hood Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://netent.com/games/ms-robin-hood"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -28,12 +28,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/548/hero-desktop/0-2dba1c5eb6bb5ae4",
-  "sourceUrls": [
-    "https://www.playngo.com/games/hugo-carts"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/hugo-carts.webp",
     "alt": "Hugo Carts Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/hugo-carts"
+  ],
+  "lastVerified": "2026-11-14"
 }

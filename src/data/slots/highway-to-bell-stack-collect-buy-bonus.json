@@ -20,12 +20,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/2026/06/highway-to-bell-stack-collect-icon.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/highway-to-bell-stack-collect-buy-bonus/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/highway-to-bell-stack-collect-buy-bonus.webp",
     "alt": "Highway to Bell Stack & Collect Buy Bonus Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/highway-to-bell-stack-collect-buy-bonus/"
+  ],
+  "lastVerified": "2026-11-14"
 }

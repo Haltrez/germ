@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/701/hero-desktop/0-d9e066f6354faac6",
-  "sourceUrls": [
-    "https://www.playngo.com/games/invading-vegas-las-christmas"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/invading-vegas-las-christmas.webp",
     "alt": "Invading Vegas: Las Christmas Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/invading-vegas-las-christmas"
+  ],
+  "lastVerified": "2026-11-14"
 }

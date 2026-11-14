@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1073/hero-desktop/0-f704e4af2f397b99",
-  "sourceUrls": [
-    "https://www.playngo.com/games/unigoat"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/unigoat.webp",
     "alt": "Unigoat Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/unigoat"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/294/hero-desktop/0-b3427c3bad93b09a",
-  "sourceUrls": [
-    "https://www.playngo.com/games/wild-north"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/wild-north.webp",
     "alt": "Wild North Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/wild-north"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -22,12 +22,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/452/hero-desktop/0-2e18b560e606d4db",
-  "sourceUrls": [
-    "https://www.playngo.com/games/coils-of-cash"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/coils-of-cash.webp",
     "alt": "Coils of Cash Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/coils-of-cash"
+  ],
+  "lastVerified": "2026-11-14"
 }

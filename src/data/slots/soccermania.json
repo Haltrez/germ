@@ -30,12 +30,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2025/07/Soccermania_1020x1280.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/soccermania"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/soccermania.webp",
     "alt": "Soccermania Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/soccermania"
+  ],
+  "lastVerified": "2026-11-14"
 }

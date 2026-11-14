@@ -28,12 +28,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2022/11/HOT-PEPPER_339x180.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/hot-pepper/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/hot-pepper.webp",
     "alt": "Hot Pepper Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/hot-pepper/"
+  ],
+  "lastVerified": "2026-11-14"
 }

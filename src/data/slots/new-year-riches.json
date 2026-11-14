@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/457/hero-desktop/0-b50540bc90aa8ca0",
-  "sourceUrls": [
-    "https://www.playngo.com/games/new-year-riches"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/new-year-riches.webp",
     "alt": "New Year Riches Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/new-year-riches"
+  ],
+  "lastVerified": "2026-11-14"
 }

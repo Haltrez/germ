@@ -30,12 +30,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2021/01/MDM_EN_339x180.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/madame-destiny-megaways/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/madame-destiny-megaways.webp",
     "alt": "Madame Destiny Megaways Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/madame-destiny-megaways/"
+  ],
+  "lastVerified": "2026-11-14"
 }

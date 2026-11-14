@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2020/05/Ultra_Burn_EN_339x180-1.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/ultra-burn-slot/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/ultra-burn.webp",
     "alt": "Ultra Burn Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/ultra-burn-slot/"
+  ],
+  "lastVerified": "2026-11-14"
 }

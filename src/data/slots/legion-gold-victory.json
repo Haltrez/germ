@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/965/hero-desktop/0-9156af56d22876d6",
-  "sourceUrls": [
-    "https://www.playngo.com/games/legion-gold-victory"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/legion-gold-victory.webp",
     "alt": "Legion Gold Victory! Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/legion-gold-victory"
+  ],
+  "lastVerified": "2026-11-14"
 }

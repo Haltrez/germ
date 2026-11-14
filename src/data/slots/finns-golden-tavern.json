@@ -29,12 +29,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://fan-cdn.nolimitcity.com/small_Finn_Golden_Tavern_icon5_ff4a60f0cc.png",
-  "sourceUrls": [
-    "https://netent.com/games/finns-golden-tavern"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/finns-golden-tavern.webp",
     "alt": "Finn's Golden Tavern Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://netent.com/games/finns-golden-tavern"
+  ],
+  "lastVerified": "2026-11-14"
 }

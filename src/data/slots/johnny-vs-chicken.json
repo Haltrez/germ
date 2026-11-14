@@ -34,12 +34,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2026/08/Johnny_vs_Chicken_1020x1280.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/johnny-vs-chicken"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/johnny-vs-chicken.webp",
     "alt": "Johnny vs Chicken Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/johnny-vs-chicken"
+  ],
+  "lastVerified": "2026-11-14"
 }

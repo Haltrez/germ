@@ -32,12 +32,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/66953d14af650755aa1b335c_WBC_Ring_of_riches_1020x1280.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/wbc-ring-of-riches"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/wbc-ring-of-riches.webp",
     "alt": "WBC Ring of Riches Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/wbc-ring-of-riches"
+  ],
+  "lastVerified": "2026-11-14"
 }

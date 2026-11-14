@@ -34,12 +34,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2026/09/Noche_de_Almas_1020х1280.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/noche-de-almas"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/noche-de-almas.webp",
     "alt": "Noche de Almas Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/noche-de-almas"
+  ],
+  "lastVerified": "2026-11-14"
 }

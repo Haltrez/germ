@@ -32,12 +32,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/6695371e34a61036b4178ccf_Potion_Spells_1020x1280.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/potion-spells"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/potion-spells.webp",
     "alt": "Potion Spells Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/potion-spells"
+  ],
+  "lastVerified": "2026-11-14"
 }

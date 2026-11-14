@@ -36,12 +36,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/1356_hero_Device_Desktop.png",
-  "sourceUrls": [
-    "https://www.hacksawgaming.com/games/benny-the-beer"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/benny-the-beer.webp",
     "alt": "Benny the Beer Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.hacksawgaming.com/games/benny-the-beer"
+  ],
+  "lastVerified": "2026-11-14"
 }

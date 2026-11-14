@@ -35,12 +35,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2026/10/train_heist_johnny_coin_1020_1280_1x.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/train-heist-johnny-coin"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/train-heist-johnny-coin.webp",
     "alt": "Train Heist Johnny Coin Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/train-heist-johnny-coin"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -20,12 +20,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/2026/07/santas-wilde-ride-icon.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/santas-wild-ride/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/santas-wild-ride.webp",
     "alt": "Santa’s Wild Ride Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/santas-wild-ride/"
+  ],
+  "lastVerified": "2026-11-14"
 }

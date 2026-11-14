@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/456/hero-desktop/0-b5ad565be6ea3bd8",
-  "sourceUrls": [
-    "https://www.playngo.com/games/cat-wilde-and-the-lost-chapter"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/cat-wilde-and-the-lost-chapter.webp",
     "alt": "Cat Wilde and the Lost Chapter Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/cat-wilde-and-the-lost-chapter"
+  ],
+  "lastVerified": "2026-11-14"
 }

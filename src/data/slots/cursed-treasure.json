@@ -31,12 +31,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://fan-cdn.nolimitcity.com/small_cursed_treasure_icon5_ecd086313d.png",
-  "sourceUrls": [
-    "https://netent.com/games/cursed-treasure"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/cursed-treasure.webp",
     "alt": "Cursed Treasure Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://netent.com/games/cursed-treasure"
+  ],
+  "lastVerified": "2026-11-14"
 }

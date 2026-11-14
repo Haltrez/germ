@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/549/hero-desktop/0-696dd76dc00cd1b1",
-  "sourceUrls": [
-    "https://www.playngo.com/games/ghost-of-dead"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/ghost-of-dead.webp",
     "alt": "Ghost of Dead Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/ghost-of-dead"
+  ],
+  "lastVerified": "2026-11-14"
 }

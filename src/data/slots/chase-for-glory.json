@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2023/10/Chase-for-Glory_339x180.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/chase-for-glory/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/chase-for-glory.webp",
     "alt": "Chase for Glory Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/chase-for-glory/"
+  ],
+  "lastVerified": "2026-11-14"
 }

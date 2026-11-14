@@ -28,12 +28,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2026/09/Coven-Rising_339x180_EN.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/coven-rising/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/coven-rising.webp",
     "alt": "Coven Rising Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/coven-rising/"
+  ],
+  "lastVerified": "2026-11-14"
 }

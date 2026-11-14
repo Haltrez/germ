@@ -29,12 +29,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/732/hero-desktop/0-0b7727c56f67d830",
-  "sourceUrls": [
-    "https://www.playngo.com/games/legacy-of-gems-blitzways"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/legacy-of-gems-blitzways.webp",
     "alt": "Legacy of Gems Blitzways Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/legacy-of-gems-blitzways"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -29,12 +29,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2024/02/Gears-of-Horus_339x180-1.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/gears-of-horus/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/gears-of-horus.webp",
     "alt": "Gears of Horus Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/gears-of-horus/"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -32,12 +32,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/675c0f57996882d306d54cd9_Disco_Party_1020x1280.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/disco-party"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/disco-party.webp",
     "alt": "Disco Party Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/disco-party"
+  ],
+  "lastVerified": "2026-11-14"
 }

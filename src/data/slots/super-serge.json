@@ -29,12 +29,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2026/07/Super-Serge_339x180_EN.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/super-serge/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/super-serge.webp",
     "alt": "Super Serge Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/super-serge/"
+  ],
+  "lastVerified": "2026-11-14"
 }

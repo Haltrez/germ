@@ -22,12 +22,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/calacas-cash-icon.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/calacas-cash-buy-bonus/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/calacas-cash-buy-bonus.webp",
     "alt": "Calacas Cash Buy Bonus Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/calacas-cash-buy-bonus/"
+  ],
+  "lastVerified": "2026-11-14"
 }

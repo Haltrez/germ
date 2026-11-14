@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/815/hero-desktop/0-fb059221bfd0013f",
-  "sourceUrls": [
-    "https://www.playngo.com/games/mafia-gold"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/mafia-gold.webp",
     "alt": "Mafia Gold Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/mafia-gold"
+  ],
+  "lastVerified": "2026-11-14"
 }

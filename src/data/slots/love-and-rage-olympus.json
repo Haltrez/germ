@@ -20,12 +20,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/love-and-rage-olympus-icon.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/love-and-rage-olympus/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/love-and-rage-olympus.webp",
     "alt": "Love and Rage – Olympus Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/love-and-rage-olympus/"
+  ],
+  "lastVerified": "2026-11-14"
 }

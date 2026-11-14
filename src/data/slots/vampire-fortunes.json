@@ -1,0 +1,33 @@
+{
+  "name": "Vampire Fortunes",
+  "provider": "novomatic",
+  "releaseDate": "2019-03-26",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 5,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/vampirefortunes-30390-gamebutton.png",
+  "sourceUrls": [
+    "https://www.greentube.com/game/vampire-fortunes/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/vampire-fortunes.webp",
+    "alt": "Vampire Fortunes Spielautomat"
+  }
+}

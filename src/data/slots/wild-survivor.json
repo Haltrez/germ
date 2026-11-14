@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/724/hero-desktop/0-de7cd5616027e26d",
-  "sourceUrls": [
-    "https://www.playngo.com/games/wild-survivor"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/wild-survivor.webp",
     "alt": "Wild Survivor Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/wild-survivor"
+  ],
+  "lastVerified": "2026-11-14"
 }

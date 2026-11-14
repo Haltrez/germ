@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/magnificent-merlin-icon.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/magnificent-merlin/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/magnificent-merlin.webp",
     "alt": "Magnificent Merlin Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/magnificent-merlin/"
+  ],
+  "lastVerified": "2026-11-14"
 }

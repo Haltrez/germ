@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/306/hero-desktop/0-930471dd6a806864",
-  "sourceUrls": [
-    "https://www.playngo.com/games/iron-girl"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/iron-girl.webp",
     "alt": "Iron Girl Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/iron-girl"
+  ],
+  "lastVerified": "2026-11-14"
 }

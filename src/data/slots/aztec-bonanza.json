@@ -29,12 +29,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2020/02/Aztec-Bonanza™_EN_03_339x180_01-1.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/aztec-bonanza-slot/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/aztec-bonanza.webp",
     "alt": "Aztec Bonanza Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/aztec-bonanza-slot/"
+  ],
+  "lastVerified": "2026-11-14"
 }

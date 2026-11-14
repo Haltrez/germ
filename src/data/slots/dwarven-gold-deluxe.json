@@ -29,12 +29,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2016/05/thumbs-pt-site_Dwarven-Gold-Deluxe_330x140px-1.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/dwarven-gold-deluxe-slot/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/dwarven-gold-deluxe.webp",
     "alt": "Dwarven Gold Deluxe Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/dwarven-gold-deluxe-slot/"
+  ],
+  "lastVerified": "2026-11-14"
 }

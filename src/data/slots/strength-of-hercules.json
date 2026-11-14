@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/1697_hero_Device_Desktop.png",
-  "sourceUrls": [
-    "https://www.hacksawgaming.com/games/strength-of-hercules"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/strength-of-hercules.webp",
     "alt": "Strength of Hercules Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.hacksawgaming.com/games/strength-of-hercules"
+  ],
+  "lastVerified": "2026-11-14"
 }

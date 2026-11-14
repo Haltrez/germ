@@ -34,12 +34,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2025/06/6669c68151839e61cc5e60cd_Dragon-Age_HW_1020x1280-2.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/dragon-age-hold-win"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/dragon-age-hold-win.webp",
     "alt": "Dragon Age Hold & Win Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/dragon-age-hold-win"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/5-line-hold-spin-1080x1080.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/5-line-hold-spin/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/5-line-hold-spin.webp",
     "alt": "5-Line Hold & Spin Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/5-line-hold-spin/"
+  ],
+  "lastVerified": "2026-11-14"
 }

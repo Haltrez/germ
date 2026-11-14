@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/567/hero-desktop/0-6a45f348bfc52749",
-  "sourceUrls": [
-    "https://www.playngo.com/games/15-crystal-roses-a-tale-of-love"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/15-crystal-roses-a-tale-of-love.webp",
     "alt": "15 Crystal Roses: A Tale of Love Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/15-crystal-roses-a-tale-of-love"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -22,12 +22,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/dolphinspearlclassic-25186-gamebutton.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/dolphins-pearl/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/dolphins-pearl.webp",
     "alt": "Dolphin’s Pearl Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/dolphins-pearl/"
+  ],
+  "lastVerified": "2026-11-14"
 }

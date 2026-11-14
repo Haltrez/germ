@@ -28,12 +28,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2025/08/Jackpot-Blaze_339x180_EN.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/jackpot-blaze/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/jackpot-blaze.webp",
     "alt": "Jackpot Blaze Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/jackpot-blaze/"
+  ],
+  "lastVerified": "2026-11-14"
 }

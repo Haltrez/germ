@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1077/hero-desktop/0-05e8140056e8fc95",
-  "sourceUrls": [
-    "https://www.playngo.com/games/temple-of-three"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/temple-of-three.webp",
     "alt": "Temple of Three Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/temple-of-three"
+  ],
+  "lastVerified": "2026-11-14"
 }

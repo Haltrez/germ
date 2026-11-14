@@ -29,12 +29,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2026/05/MoneyMaker_1020x1280.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/money-maker"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/money-maker.webp",
     "alt": "Money Maker Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/money-maker"
+  ],
+  "lastVerified": "2026-11-14"
 }

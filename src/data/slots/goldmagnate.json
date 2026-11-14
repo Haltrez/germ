@@ -30,12 +30,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/6695212d874545d49782e61a_Gold_Magnate_1020x1280.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/goldmagnate"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/goldmagnate.webp",
     "alt": "Gold Magnate Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/goldmagnate"
+  ],
+  "lastVerified": "2026-11-14"
 }

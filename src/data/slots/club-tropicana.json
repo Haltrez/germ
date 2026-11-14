@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2023/01/Club-Tropicana_339x180.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/club-tropicana/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/club-tropicana.webp",
     "alt": "Club Tropicana Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/club-tropicana/"
+  ],
+  "lastVerified": "2026-11-14"
 }

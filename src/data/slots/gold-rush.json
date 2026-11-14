@@ -29,12 +29,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2017/12/thumbs-pt-site_Gold-Rush_330x140px-2.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/gold-rush-slot/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/gold-rush.webp",
     "alt": "Gold Rush Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/gold-rush-slot/"
+  ],
+  "lastVerified": "2026-11-14"
 }

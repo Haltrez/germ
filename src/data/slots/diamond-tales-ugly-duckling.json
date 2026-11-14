@@ -1,0 +1,31 @@
+{
+  "name": "Diamond Tales: The Ugly Duckling",
+  "provider": "novomatic",
+  "releaseDate": "2022-11-22",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 5,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/32178_512x512.jpg",
+  "sourceUrls": [
+    "https://www.greentube.com/game/diamond-tales-ugly-duckling/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/diamond-tales-ugly-duckling.webp",
+    "alt": "Diamond Tales: The Ugly Duckling Spielautomat"
+  }
+}

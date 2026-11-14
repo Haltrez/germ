@@ -1,0 +1,31 @@
+{
+  "name": "Diamond Link: Mighty Sevens",
+  "provider": "novomatic",
+  "releaseDate": "2020-06-23",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 5,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/button_diamondlinkmightysevens.png",
+  "sourceUrls": [
+    "https://www.greentube.com/game/diamond-link-mighty-sevens/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/diamond-link-mighty-sevens.webp",
+    "alt": "Diamond Link: Mighty Sevens Spielautomat"
+  }
+}

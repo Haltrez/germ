@@ -1,0 +1,33 @@
+{
+  "name": "Früchteparadies 10",
+  "provider": "novomatic",
+  "releaseDate": "2021-06-08",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 5,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/fruchteparadies10-31081-gamebutton.jpg",
+  "sourceUrls": [
+    "https://www.greentube.com/game/fruchteparadies-10/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/fruchteparadies-10.webp",
+    "alt": "Früchteparadies 10 Spielautomat"
+  }
+}

@@ -32,12 +32,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/66951437aa118e9dab004015_Bone_Bonanza_1020x1280.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/bone-bonanza"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/bone-bonanza.webp",
     "alt": "Bone Bonanza Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/bone-bonanza"
+  ],
+  "lastVerified": "2026-11-14"
 }

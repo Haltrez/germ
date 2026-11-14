@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2021/12/Wild-Depth_339x180-1.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/wild-depths/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/wild-depths.webp",
     "alt": "Wild Depths Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/wild-depths/"
+  ],
+  "lastVerified": "2026-11-14"
 }

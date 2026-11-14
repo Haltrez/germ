@@ -29,12 +29,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2023/07/Rocket-Blast-Megaways_339x180-1.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/rocket-blast-megaways/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/rocket-blast-megaways.webp",
     "alt": "Rocket Blast Megaways Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/rocket-blast-megaways/"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -33,12 +33,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2025/05/6669c85190a9bd52b1074be8_Chicken_Rush_1020x1280-1.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/chicken-rush"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/chicken-rush.webp",
     "alt": "Chicken Rush Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/chicken-rush"
+  ],
+  "lastVerified": "2026-11-14"
 }

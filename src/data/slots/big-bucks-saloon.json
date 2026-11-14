@@ -33,12 +33,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2025/07/685a7b0c19078c3330fafc4c_Big_Bucks_Saloon_1020х1280.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/big-bucks-saloon"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/big-bucks-saloon.webp",
     "alt": "Big Bucks Saloon Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/big-bucks-saloon"
+  ],
+  "lastVerified": "2026-11-14"
 }

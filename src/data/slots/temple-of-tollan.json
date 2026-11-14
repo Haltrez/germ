@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/733/hero-desktop/0-2ea1a88b4aa7a1b1",
-  "sourceUrls": [
-    "https://www.playngo.com/games/temple-of-tollan"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/temple-of-tollan.webp",
     "alt": "Temple of Tollan Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/temple-of-tollan"
+  ],
+  "lastVerified": "2026-11-14"
 }

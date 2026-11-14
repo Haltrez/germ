@@ -30,12 +30,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://fan-cdn.nolimitcity.com/small_neon_staxx_icon5_d720803a89.png",
-  "sourceUrls": [
-    "https://netent.com/games/neon-staxx"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/neon-staxx.webp",
     "alt": "Neon Staxx Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://netent.com/games/neon-staxx"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -31,12 +31,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2025/10/Frozen-Fruit_1020x1280.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/frozen-fruit"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/frozen-fruit.webp",
     "alt": "Frozen Fruit Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/frozen-fruit"
+  ],
+  "lastVerified": "2026-11-14"
 }

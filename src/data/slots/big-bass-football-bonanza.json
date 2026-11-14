@@ -28,12 +28,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2026/05/Big-Bass-Football-Bonanza_339x180_EN.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/big-bass-football-bonanza/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/big-bass-football-bonanza.webp",
     "alt": "Big Bass Football Bonanza Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/big-bass-football-bonanza/"
+  ],
+  "lastVerified": "2026-11-14"
 }

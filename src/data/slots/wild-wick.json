@@ -32,12 +32,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2025/10/Wild_Wick_1020х1280-2.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/wild-wick"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/wild-wick.webp",
     "alt": "Wild Wick Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/wild-wick"
+  ],
+  "lastVerified": "2026-11-14"
 }

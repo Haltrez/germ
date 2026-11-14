@@ -28,12 +28,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/985/hero-desktop/0-6d5a7ad45c687cf5",
-  "sourceUrls": [
-    "https://www.playngo.com/games/1001-mystery-genie-fortunes"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/1001-mystery-genie-fortunes.webp",
     "alt": "1001 Mystery Genie Fortunes Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/1001-mystery-genie-fortunes"
+  ],
+  "lastVerified": "2026-11-14"
 }

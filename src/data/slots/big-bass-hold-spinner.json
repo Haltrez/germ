@@ -28,12 +28,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2023/03/BBHaS_EN_339x180_04.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/big-bass-hold-spinner/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/big-bass-hold-spinner.webp",
     "alt": "Big Bass – Hold & Spinner Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/big-bass-hold-spinner/"
+  ],
+  "lastVerified": "2026-11-14"
 }

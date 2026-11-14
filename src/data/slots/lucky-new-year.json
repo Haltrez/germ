@@ -30,12 +30,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2018/01/thumb-Lucky-New-Year_330x140px-2-1.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/lucky-new-year-slot/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/lucky-new-year.webp",
     "alt": "Lucky New Year Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/lucky-new-year-slot/"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/2026/05/reeling-in-cash-icon.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/reeling-in-cash/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/reeling-in-cash.webp",
     "alt": "Reeling in Cash Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/reeling-in-cash/"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2025/06/Gem-Fire-Fortune_339x180.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/gem-fire-fortune/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/gem-fire-fortune.webp",
     "alt": "Gem Fire Fortune Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/gem-fire-fortune/"
+  ],
+  "lastVerified": "2026-11-14"
 }

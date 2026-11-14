@@ -20,12 +20,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/mm-flame-queen-icon.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/match-more-flame-queen/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/match-more-flame-queen.webp",
     "alt": "Match More: Flame Queen Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/match-more-flame-queen/"
+  ],
+  "lastVerified": "2026-11-14"
 }

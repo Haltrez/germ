@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/407/hero-desktop/0-429f3db08d4ad10c",
-  "sourceUrls": [
-    "https://www.playngo.com/games/dawn-of-egypt"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/dawn-of-egypt.webp",
     "alt": "Dawn of Egypt Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/dawn-of-egypt"
+  ],
+  "lastVerified": "2026-11-14"
 }

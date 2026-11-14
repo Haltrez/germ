@@ -22,12 +22,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/xmas-bells-icon.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/xmas-bells/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/xmas-bells.webp",
     "alt": "Xmas Bells Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/xmas-bells/"
+  ],
+  "lastVerified": "2026-11-14"
 }

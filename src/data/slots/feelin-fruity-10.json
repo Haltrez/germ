@@ -1,0 +1,33 @@
+{
+  "name": "Feelin’ Fruity 10",
+  "provider": "novomatic",
+  "releaseDate": "2021-06-08",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 5,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/feelinfruity10-31013-gamebutton.jpg",
+  "sourceUrls": [
+    "https://www.greentube.com/game/feelin-fruity-10/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/feelin-fruity-10.webp",
+    "alt": "Feelin’ Fruity 10 Spielautomat"
+  }
+}

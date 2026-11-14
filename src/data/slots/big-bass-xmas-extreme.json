@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2024/10/Big-Bass-Xmas-Xtreme_339x180.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/big-bass-xmas-extreme/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/big-bass-xmas-extreme.webp",
     "alt": "Big Bass Xmas Extreme Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/big-bass-xmas-extreme/"
+  ],
+  "lastVerified": "2026-11-14"
 }

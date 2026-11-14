@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/462/hero-desktop/0-3017672a80a1ee22",
-  "sourceUrls": [
-    "https://www.playngo.com/games/the-faces-of-freya"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/the-faces-of-freya.webp",
     "alt": "The Faces of Freya Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/the-faces-of-freya"
+  ],
+  "lastVerified": "2026-11-14"
 }

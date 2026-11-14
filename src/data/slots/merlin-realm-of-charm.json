@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/902/hero-desktop/0-e1cdefc2354c7907",
-  "sourceUrls": [
-    "https://www.playngo.com/games/merlin-realm-of-charm"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/merlin-realm-of-charm.webp",
     "alt": "Merlin Realm of Charm Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/merlin-realm-of-charm"
+  ],
+  "lastVerified": "2026-11-14"
 }

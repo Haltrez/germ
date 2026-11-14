@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2017/04/thumb__WOLF_GOLD__330x140px.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/wolf-gold-slot/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/wolf-gold.webp",
     "alt": "Wolf Gold Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/wolf-gold-slot/"
+  ],
+  "lastVerified": "2026-11-14"
 }

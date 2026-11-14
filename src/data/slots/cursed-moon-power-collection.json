@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1082/hero-desktop/0-ca3b8404778ce516",
-  "sourceUrls": [
-    "https://www.playngo.com/games/cursed-moon-power-collection"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/cursed-moon-power-collection.webp",
     "alt": "Cursed Moon Power Collection Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/cursed-moon-power-collection"
+  ],
+  "lastVerified": "2026-11-14"
 }

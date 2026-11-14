@@ -28,12 +28,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/710/hero-desktop/0-fe31e26c086ded6b",
-  "sourceUrls": [
-    "https://www.playngo.com/games/sweet-alchemy-2"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/sweet-alchemy-2.webp",
     "alt": "Sweet Alchemy 2 Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/sweet-alchemy-2"
+  ],
+  "lastVerified": "2026-11-14"
 }

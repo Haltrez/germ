@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/399/hero-desktop/0-90e5d9d219caf5b9",
-  "sourceUrls": [
-    "https://www.playngo.com/games/inferno-joker"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/inferno-joker.webp",
     "alt": "Inferno Joker Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/inferno-joker"
+  ],
+  "lastVerified": "2026-11-14"
 }

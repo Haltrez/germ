@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/390/hero-desktop/0-1d6e7e0887b36fe3",
-  "sourceUrls": [
-    "https://www.playngo.com/games/xmas-magic"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/xmas-magic.webp",
     "alt": "Xmas Magic Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/xmas-magic"
+  ],
+  "lastVerified": "2026-11-14"
 }

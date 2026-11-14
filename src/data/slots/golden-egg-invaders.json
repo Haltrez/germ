@@ -32,12 +32,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://fan-cdn.nolimitcity.com/small_golden_egg_invaders_icon5_70d922d0f9.png",
-  "sourceUrls": [
-    "https://netent.com/games/golden-egg-invaders"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/golden-egg-invaders.webp",
     "alt": "Golden Egg Invaders Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://netent.com/games/golden-egg-invaders"
+  ],
+  "lastVerified": "2026-11-14"
 }

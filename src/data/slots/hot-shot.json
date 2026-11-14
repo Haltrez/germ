@@ -1,0 +1,31 @@
+{
+  "name": "Hot Shot",
+  "provider": "novomatic",
+  "releaseDate": "2017-12-15",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/hotshot-30110-gamebutton.png",
+  "sourceUrls": [
+    "https://www.greentube.com/game/hot-shot/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/hot-shot.webp",
+    "alt": "Hot Shot Spielautomat"
+  }
+}

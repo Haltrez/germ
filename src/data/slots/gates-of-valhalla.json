@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2022/01/Gate_Of_Valhalla_EN_339x180.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/gates-of-valhalla/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/gates-of-valhalla.webp",
     "alt": "Gates of Valhalla Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/gates-of-valhalla/"
+  ],
+  "lastVerified": "2026-11-14"
 }

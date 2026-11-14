@@ -34,12 +34,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://fan-cdn.nolimitcity.com/small_monopoly_money_line_playin_ne_icon_thumbnail_346x346_8bde9b0471.png",
-  "sourceUrls": [
-    "https://netent.com/games/monopoly-money-line"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/monopoly-money-line.webp",
     "alt": "MONOPOLY Money Line Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://netent.com/games/monopoly-money-line"
+  ],
+  "lastVerified": "2026-11-14"
 }

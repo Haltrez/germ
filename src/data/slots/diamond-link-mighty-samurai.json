@@ -24,12 +24,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/2026/09/dl-mighty-samurai-icon.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/diamond-link-mighty-samurai/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/diamond-link-mighty-samurai.webp",
     "alt": "Diamond Link: Mighty Samurai Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/diamond-link-mighty-samurai/"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/469/hero-desktop/0-3f9d946bc9d1d23b",
-  "sourceUrls": [
-    "https://www.playngo.com/games/hammerfall"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/hammerfall.webp",
     "alt": "HammerFall Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/hammerfall"
+  ],
+  "lastVerified": "2026-11-14"
 }

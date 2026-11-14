@@ -1,0 +1,34 @@
+{
+  "name": "5 Line Mystery",
+  "provider": "novomatic",
+  "releaseDate": "2016-01-01",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 3,
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 5
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/5LineMystery-1.png",
+  "sourceUrls": [
+    "https://www.greentube.com/game/5-line-mystery/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/5-line-mystery.webp",
+    "alt": "5 Line Mystery Spielautomat"
+  }
+}

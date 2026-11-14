@@ -32,12 +32,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2025/06/6765903d7d583728bcc18f73_Lucky_Ducky_Merge_Up_1020х1280.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/lucky-ducky"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/lucky-ducky.webp",
     "alt": "Lucky Ducky Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/lucky-ducky"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/680/hero-desktop/0-a52118481227f4b6",
-  "sourceUrls": [
-    "https://www.playngo.com/games/return-of-the-green-knight"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/return-of-the-green-knight.webp",
     "alt": "Return of The Green Knight Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/return-of-the-green-knight"
+  ],
+  "lastVerified": "2026-11-14"
 }

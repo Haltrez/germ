@@ -22,12 +22,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/bayou-queen-icon-new.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/bayou-queen/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/bayou-queen.webp",
     "alt": "Bayou Queen Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/bayou-queen/"
+  ],
+  "lastVerified": "2026-11-14"
 }

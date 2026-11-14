@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/button_thundercashcandelasdelosmuertossenormuerte.png",
-  "sourceUrls": [
-    "https://www.greentube.com/game/thunder-cash-candelas-de-los-muertos-senor-muerte/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/thunder-cash-candelas-de-los-muertos-senor-muerte.webp",
     "alt": "Thunder Cash – Candelas de los Muertos – Señor Muerte Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/thunder-cash-candelas-de-los-muertos-senor-muerte/"
+  ],
+  "lastVerified": "2026-11-14"
 }

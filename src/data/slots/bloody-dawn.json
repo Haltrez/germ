@@ -28,12 +28,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2025/11/Bloody-Dawn_339x180_EN.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/bloody-dawn/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/bloody-dawn.webp",
     "alt": "Bloody Dawn Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/bloody-dawn/"
+  ],
+  "lastVerified": "2026-11-14"
 }

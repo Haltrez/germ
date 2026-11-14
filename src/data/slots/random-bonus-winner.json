@@ -1,0 +1,31 @@
+{
+  "name": "Random Bonus Winner",
+  "provider": "novomatic",
+  "releaseDate": "2023-02-24",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 6,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/button_randombonuswinner-1.png",
+  "sourceUrls": [
+    "https://www.greentube.com/game/random-bonus-winner/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/random-bonus-winner.webp",
+    "alt": "Random Bonus Winner Spielautomat"
+  }
+}

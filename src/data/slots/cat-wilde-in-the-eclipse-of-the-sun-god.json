@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/460/hero-desktop/0-6eecc0e21b50a68f",
-  "sourceUrls": [
-    "https://www.playngo.com/games/cat-wilde-in-the-eclipse-of-the-sun-god"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/cat-wilde-in-the-eclipse-of-the-sun-god.webp",
     "alt": "Cat Wilde in the Eclipse of the Sun God Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/cat-wilde-in-the-eclipse-of-the-sun-god"
+  ],
+  "lastVerified": "2026-11-14"
 }

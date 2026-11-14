@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/361/hero-desktop/0-6bc8a1f1a6a00806",
-  "sourceUrls": [
-    "https://www.playngo.com/games/raging-rex"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/raging-rex.webp",
     "alt": "Raging Rex Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/raging-rex"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -34,12 +34,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/669513846ff1377cee2e8d89_Beast_Band_1020x1280.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/beast-band"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/beast-band.webp",
     "alt": "Beast Band Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/beast-band"
+  ],
+  "lastVerified": "2026-11-14"
 }

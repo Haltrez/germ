@@ -29,12 +29,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1024/hero-desktop/0-8da4e5901fc93926",
-  "sourceUrls": [
-    "https://www.playngo.com/games/lady-of-fortune-destiny-spins"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/lady-of-fortune-destiny-spins.webp",
     "alt": "Lady of Fortune Destiny Spins Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/lady-of-fortune-destiny-spins"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -32,12 +32,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/66953d80ac74c5cc77b9f7dc_West_Town_1020x1280.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/west-town"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/west-town.webp",
     "alt": "West Town Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/west-town"
+  ],
+  "lastVerified": "2026-11-14"
 }

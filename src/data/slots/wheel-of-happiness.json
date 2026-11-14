@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2025/12/Wheel-of-Happiness_339x180_EN.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/wheel-of-happiness/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/wheel-of-happiness.webp",
     "alt": "Wheel of Happiness Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/wheel-of-happiness/"
+  ],
+  "lastVerified": "2026-11-14"
 }

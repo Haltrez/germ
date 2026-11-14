@@ -36,12 +36,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2026/07/Mystic-Reels_1020x1280.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/mystic-reels"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/mystic-reels.webp",
     "alt": "Mystic Reels Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/mystic-reels"
+  ],
+  "lastVerified": "2026-11-14"
 }

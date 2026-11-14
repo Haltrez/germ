@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1025/hero-desktop/0-8719da60ef5678ef",
-  "sourceUrls": [
-    "https://www.playngo.com/games/13th-trial-hercules-abyssways"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/13th-trial-hercules-abyssways.webp",
     "alt": "13th Trial Hercules Abyssways Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/13th-trial-hercules-abyssways"
+  ],
+  "lastVerified": "2026-11-14"
 }

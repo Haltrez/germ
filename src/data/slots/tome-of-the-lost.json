@@ -22,12 +22,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1015/hero-desktop/0-701c75f3f76207ac",
-  "sourceUrls": [
-    "https://www.playngo.com/games/tome-of-the-lost"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/tome-of-the-lost.webp",
     "alt": "Tome of the Lost Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/tome-of-the-lost"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2026/04/Sweet-Bonanza-2500_339x180_EN.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/sweet-bonanza-2500/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/sweet-bonanza-2500.webp",
     "alt": "Sweet Bonanza 2500 Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/sweet-bonanza-2500/"
+  ],
+  "lastVerified": "2026-11-14"
 }

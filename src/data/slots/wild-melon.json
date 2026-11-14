@@ -24,12 +24,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/4/hero-desktop/0-304078660b1c566a",
-  "sourceUrls": [
-    "https://www.playngo.com/games/wild-melon"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/wild-melon.webp",
     "alt": "Wild Melon Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/wild-melon"
+  ],
+  "lastVerified": "2026-11-14"
 }

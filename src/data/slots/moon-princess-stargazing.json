@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/623/hero-desktop/0-e868244b0788207b",
-  "sourceUrls": [
-    "https://www.playngo.com/games/moon-princess-stargazing"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/moon-princess-stargazing.webp",
     "alt": "Moon Princess Stargazing Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/moon-princess-stargazing"
+  ],
+  "lastVerified": "2026-11-14"
 }

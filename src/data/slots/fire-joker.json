@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/307/hero-desktop/0-2b30d4d9fc56befc",
-  "sourceUrls": [
-    "https://www.playngo.com/games/fire-joker"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/fire-joker.webp",
     "alt": "Fire Joker Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/fire-joker"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -32,12 +32,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/64fd62bd65ba18cc5d209199_640209c871830c389286401f_Alchemist_Bonanza_FEATURED_vertical.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/alchemist-bonanza"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/alchemist-bonanza.webp",
     "alt": "Alchemist Bonanza Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/alchemist-bonanza"
+  ],
+  "lastVerified": "2026-11-14"
 }

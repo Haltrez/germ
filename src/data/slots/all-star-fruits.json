@@ -33,12 +33,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2025/06/6790b5b88d15849acf1038ab_All-Star_Fruits_1020х1280-2.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/all-star-fruits"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/all-star-fruits.webp",
     "alt": "All-Star Fruits Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/all-star-fruits"
+  ],
+  "lastVerified": "2026-11-14"
 }

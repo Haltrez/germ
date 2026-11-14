@@ -22,12 +22,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/dl_almighty-kraken-1080x1080.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/diamond-link-almighty-kraken-v2-2/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/diamond-link-almighty-kraken-v2-2.webp",
     "alt": "Diamond Link : Almighty Kraken Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/diamond-link-almighty-kraken-v2-2/"
+  ],
+  "lastVerified": "2026-11-14"
 }

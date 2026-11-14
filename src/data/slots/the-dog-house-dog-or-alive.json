@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2024/03/The-Dog-House-Dog-or-Alive_339x180-2.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/the-dog-house-dog-or-alive/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/the-dog-house-dog-or-alive.webp",
     "alt": "The Dog House – Dog or Alive Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/the-dog-house-dog-or-alive/"
+  ],
+  "lastVerified": "2026-11-14"
 }

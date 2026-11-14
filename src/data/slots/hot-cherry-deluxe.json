@@ -1,0 +1,34 @@
+{
+  "name": "Hot Cherry Deluxe",
+  "provider": "novomatic",
+  "releaseDate": "2020-07-21",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 3,
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 5
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/hotcherrydeluxe-30621-gamebutton.png",
+  "sourceUrls": [
+    "https://www.greentube.com/game/hot-cherry-deluxe/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/hot-cherry-deluxe.webp",
+    "alt": "Hot Cherry Deluxe Spielautomat"
+  }
+}

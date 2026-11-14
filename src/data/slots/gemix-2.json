@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/468/hero-desktop/0-b0d6bbdf5f089cf2",
-  "sourceUrls": [
-    "https://www.playngo.com/games/gemix-2"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/gemix-2.webp",
     "alt": "Gemix 2 Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/gemix-2"
+  ],
+  "lastVerified": "2026-11-14"
 }

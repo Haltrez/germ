@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1047/hero-desktop/0-32192c3b8b2be8ca",
-  "sourceUrls": [
-    "https://www.playngo.com/games/fangs-fire"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/fangs-fire.webp",
     "alt": "Fangs & Fire Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/fangs-fire"
+  ],
+  "lastVerified": "2026-11-14"
 }

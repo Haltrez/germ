@@ -1,0 +1,31 @@
+{
+  "name": "Twin Player – Pepper Mania",
+  "provider": "novomatic",
+  "releaseDate": "2023-02-23",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 3,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/twinplayer_peppermania.jpg",
+  "sourceUrls": [
+    "https://www.greentube.com/game/twin-player-pepper-mania/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/twin-player-pepper-mania.webp",
+    "alt": "Twin Player – Pepper Mania Spielautomat"
+  }
+}

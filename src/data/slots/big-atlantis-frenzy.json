@@ -33,12 +33,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2025/04/669513bfd65bcaa513d857c5_Big_Atlantis_Frenzy_1020x1280.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/big-atlantis-frenzy"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/big-atlantis-frenzy.webp",
     "alt": "Big Atlantis Frenzy Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/big-atlantis-frenzy"
+  ],
+  "lastVerified": "2026-11-14"
 }

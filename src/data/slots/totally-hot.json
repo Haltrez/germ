@@ -31,12 +31,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2025/11/Totally_Hot_1020_1280.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/totally-hot"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/totally-hot.webp",
     "alt": "Totally Hot X-mas Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/totally-hot"
+  ],
+  "lastVerified": "2026-11-14"
 }

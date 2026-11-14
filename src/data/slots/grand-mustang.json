@@ -36,12 +36,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2025/08/68766408d15b58a8b34a9cbf_Grand_Mustang_1020х1280.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/grand-mustang"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/grand-mustang.webp",
     "alt": "Grand Mustang Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/grand-mustang"
+  ],
+  "lastVerified": "2026-11-14"
 }

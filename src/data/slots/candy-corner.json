@@ -28,12 +28,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2024/09/Candy-Corner_339x180.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/candy-corner/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/candy-corner.webp",
     "alt": "Candy Corner Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/candy-corner/"
+  ],
+  "lastVerified": "2026-11-14"
 }

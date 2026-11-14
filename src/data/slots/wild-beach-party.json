@@ -28,12 +28,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2022/02/Wild_Beach_Party_EN_339x180-1.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/wild-beach-party/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/wild-beach-party.webp",
     "alt": "Wild Beach Party Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/wild-beach-party/"
+  ],
+  "lastVerified": "2026-11-14"
 }

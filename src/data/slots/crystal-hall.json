@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/973/hero-desktop/0-8d34c3d18602c7fb",
-  "sourceUrls": [
-    "https://www.playngo.com/games/crystal-hall"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/crystal-hall.webp",
     "alt": "Crystal Hall Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/crystal-hall"
+  ],
+  "lastVerified": "2026-11-14"
 }

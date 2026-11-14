@@ -20,12 +20,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/book-of-ra-10-dice-icon.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/book-of-ra-10-dice/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/book-of-ra-10-dice.webp",
     "alt": "Book of Ra 10 Dice Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/book-of-ra-10-dice/"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -1,0 +1,35 @@
+{
+  "name": "Cops ‘n’ Robbers",
+  "provider": "novomatic",
+  "releaseDate": "2026-05-05",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 5,
+  "rows": "TODO",
+  "winLines": "TODO",
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "expanding-symbols",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/copsandrobbers-25161-gamebutton.png",
+  "sourceUrls": [
+    "https://www.greentube.com/game/cobsn-robbers/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/cobsn-robbers.webp",
+    "alt": "Cops ‘n’ Robbers Spielautomat"
+  }
+}

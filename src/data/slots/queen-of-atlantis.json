@@ -28,12 +28,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2017/03/thumbs-pt-site_QUEEN-of-Atlantis__330x140px-4-1.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/queen-of-atlantis-slot/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/queen-of-atlantis.webp",
     "alt": "Queen of Atlantis Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/queen-of-atlantis-slot/"
+  ],
+  "lastVerified": "2026-11-14"
 }

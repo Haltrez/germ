@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/2024/12/joker-winner-icon.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/joker-winner/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/joker-winner.webp",
     "alt": "Joker Winner Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/joker-winner/"
+  ],
+  "lastVerified": "2026-11-14"
 }

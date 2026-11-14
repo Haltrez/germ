@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/676/hero-desktop/0-5e4c370c5864dfc7",
-  "sourceUrls": [
-    "https://www.playngo.com/games/boat-bonanza-down-under"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/boat-bonanza-down-under.webp",
     "alt": "Boat Bonanza Down Under Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/boat-bonanza-down-under"
+  ],
+  "lastVerified": "2026-11-14"
 }

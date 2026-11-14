@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1051/hero-desktop/0-a4bd893f98ee47be",
-  "sourceUrls": [
-    "https://www.playngo.com/games/wheel-of-mictlan"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/wheel-of-mictlan.webp",
     "alt": "Wheel of Mictlan Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/wheel-of-mictlan"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -20,12 +20,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/2026/05/xtension-link-stars-up-icon.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/xtension-link-stars-up/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/xtension-link-stars-up.webp",
     "alt": "Xtension Link – Stars Up Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/xtension-link-stars-up/"
+  ],
+  "lastVerified": "2026-11-14"
 }

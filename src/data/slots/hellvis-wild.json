@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2023/06/Hellvis-wild__339x180.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/hellvis-wild/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/hellvis-wild.webp",
     "alt": "Hellvis Wild Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/hellvis-wild/"
+  ],
+  "lastVerified": "2026-11-14"
 }

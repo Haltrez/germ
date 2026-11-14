@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/708/hero-desktop/0-d32f2fb01d2a4cc4",
-  "sourceUrls": [
-    "https://www.playngo.com/games/athena-ascending"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/athena-ascending.webp",
     "alt": "Athena Ascending Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/athena-ascending"
+  ],
+  "lastVerified": "2026-11-14"
 }

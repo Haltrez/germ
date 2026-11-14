@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1008/hero-desktop/0-26eab89b7642f877",
-  "sourceUrls": [
-    "https://www.playngo.com/games/moon-princess-origins"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/moon-princess-origins.webp",
     "alt": "Moon Princess Origins Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/moon-princess-origins"
+  ],
+  "lastVerified": "2026-11-14"
 }

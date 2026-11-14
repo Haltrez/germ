@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2017/11/thumbs-pt-site_Panda-Fortune_330x140px-1.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/pandas-fortune-slot/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/pandas-fortune.webp",
     "alt": "Panda’s Fortune Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/pandas-fortune-slot/"
+  ],
+  "lastVerified": "2026-11-14"
 }

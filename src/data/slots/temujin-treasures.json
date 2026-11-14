@@ -30,12 +30,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2021/03/Tamujin_Treasures_EN_339x180.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/temujin-treasures/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/temujin-treasures.webp",
     "alt": "Temujin Treasures Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/temujin-treasures/"
+  ],
+  "lastVerified": "2026-11-14"
 }

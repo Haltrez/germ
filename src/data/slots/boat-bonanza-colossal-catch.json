@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/675/hero-desktop/0-9bf624cc2920a4d5",
-  "sourceUrls": [
-    "https://www.playngo.com/games/boat-bonanza-colossal-catch"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/boat-bonanza-colossal-catch.webp",
     "alt": "Boat Bonanza Colossal Catch Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/boat-bonanza-colossal-catch"
+  ],
+  "lastVerified": "2026-11-14"
 }

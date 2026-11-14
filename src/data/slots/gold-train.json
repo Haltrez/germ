@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2017/05/thumbs-pt-site_Gold-Train_330x140px-1-2.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/gold-train-slot/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/gold-train.webp",
     "alt": "Gold Train Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/gold-train-slot/"
+  ],
+  "lastVerified": "2026-11-14"
 }

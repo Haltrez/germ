@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2025/05/Lucky-Monkey_339x180_NB.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/lucky-monkey/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/lucky-monkey.webp",
     "alt": "Lucky Monkey Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/lucky-monkey/"
+  ],
+  "lastVerified": "2026-11-14"
 }

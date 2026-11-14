@@ -29,12 +29,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2018/08/thumb_DaVincis-Treasure_339x180_ver2.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/da-vincis-treasure-slot/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/da-vincis-treasure.webp",
     "alt": "John Hunter and the secrets of Da Vinci’s Treasure Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/da-vincis-treasure-slot/"
+  ],
+  "lastVerified": "2026-11-14"
 }

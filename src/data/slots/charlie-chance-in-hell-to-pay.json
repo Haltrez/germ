@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/425/hero-desktop/0-2a4c87f95b588f68",
-  "sourceUrls": [
-    "https://www.playngo.com/games/charlie-chance-in-hell-to-pay"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/charlie-chance-in-hell-to-pay.webp",
     "alt": "Charlie Chance in Hell to Pay Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/charlie-chance-in-hell-to-pay"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -31,12 +31,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/1490_hero_Device_Desktop.png",
-  "sourceUrls": [
-    "https://www.hacksawgaming.com/games/divine-drop"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/divine-drop.webp",
     "alt": "Divine Drop Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.hacksawgaming.com/games/divine-drop"
+  ],
+  "lastVerified": "2026-11-14"
 }

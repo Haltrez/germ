@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/983/hero-desktop/0-37fcba97ca27729c",
-  "sourceUrls": [
-    "https://www.playngo.com/games/midnight-gold"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/midnight-gold.webp",
     "alt": "Midnight Gold Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/midnight-gold"
+  ],
+  "lastVerified": "2026-11-14"
 }

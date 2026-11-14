@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/282/hero-desktop/0-70688b5f6181cbab",
-  "sourceUrls": [
-    "https://www.playngo.com/games/pearls-of-india"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/pearls-of-india.webp",
     "alt": "Pearls of India Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/pearls-of-india"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -29,12 +29,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2020/10/Book_of_KingdomsOao_EN_339x180.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/book-of-kingdoms/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/book-of-kingdoms.webp",
     "alt": "Book of Kingdoms Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/book-of-kingdoms/"
+  ],
+  "lastVerified": "2026-11-14"
 }

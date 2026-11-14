@@ -29,12 +29,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2024/10/Moleionaire_339x180-1.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/moleionaire/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/moleionaire.webp",
     "alt": "Moleionaire Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/moleionaire/"
+  ],
+  "lastVerified": "2026-11-14"
 }

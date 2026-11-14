@@ -26,12 +26,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/697/hero-desktop/0-feabd4ebd144c354",
-  "sourceUrls": [
-    "https://www.playngo.com/games/pandastic-adventure"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/pandastic-adventure.webp",
     "alt": "Pandastic Adventure Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/pandastic-adventure"
+  ],
+  "lastVerified": "2026-11-14"
 }

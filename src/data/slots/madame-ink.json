@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/435/hero-desktop/0-26bf64099b27280f",
-  "sourceUrls": [
-    "https://www.playngo.com/games/madame-ink"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/madame-ink.webp",
     "alt": "Madame Ink Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/madame-ink"
+  ],
+  "lastVerified": "2026-11-14"
 }

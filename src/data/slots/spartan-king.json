@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2020/11/Spartan-King™_EN_339x180_01.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/spartan-king/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/spartan-king.webp",
     "alt": "Spartan King Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/spartan-king/"
+  ],
+  "lastVerified": "2026-11-14"
 }

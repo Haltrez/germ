@@ -22,12 +22,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/753/hero-desktop/0-cf14fb0ecda3c6b1",
-  "sourceUrls": [
-    "https://www.playngo.com/games/stepping-diamonds"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/stepping-diamonds.webp",
     "alt": "Stepping Diamonds Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/stepping-diamonds"
+  ],
+  "lastVerified": "2026-11-14"
 }

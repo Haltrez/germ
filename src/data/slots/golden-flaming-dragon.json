@@ -22,12 +22,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/2026/01/golden-flaming-dragon-icon.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/golden-flaming-dragon/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/golden-flaming-dragon.webp",
     "alt": "Golden Flaming Dragon Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/golden-flaming-dragon/"
+  ],
+  "lastVerified": "2026-11-14"
 }

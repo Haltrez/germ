@@ -28,12 +28,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.pragmaticplay.com/wp-content/uploads/2022/03/TTT_EN_339x180_04.png",
-  "sourceUrls": [
-    "https://www.pragmaticplay.com/en/games/tic-tac-take/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/tic-tac-take.webp",
     "alt": "Tic Tac Take Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.pragmaticplay.com/en/games/tic-tac-take/"
+  ],
+  "lastVerified": "2026-11-14"
 }

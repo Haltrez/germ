@@ -22,12 +22,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/40/hero-desktop/0-405bf4c34b2e456b",
-  "sourceUrls": [
-    "https://www.playngo.com/games/jolly-roger"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/jolly-roger.webp",
     "alt": "Jolly Roger Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/jolly-roger"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -25,12 +25,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/934/hero-desktop/0-30a4c57aa878f32f",
-  "sourceUrls": [
-    "https://www.playngo.com/games/easter-eggspedition"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/easter-eggspedition.webp",
     "alt": "Easter Eggspedition Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/easter-eggspedition"
+  ],
+  "lastVerified": "2026-11-14"
 }

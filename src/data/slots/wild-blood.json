@@ -28,12 +28,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/250/hero-desktop/0-1979d4a11d432e27",
-  "sourceUrls": [
-    "https://www.playngo.com/games/wild-blood"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/wild-blood.webp",
     "alt": "Wild Blood Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/wild-blood"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -23,12 +23,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://www.greentube.com/wp-content/uploads/2025/07/creepy-candy-icon.jpg",
-  "sourceUrls": [
-    "https://www.greentube.com/game/creepy-candy/"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/creepy-candy.webp",
     "alt": "Creepy Candy Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.greentube.com/game/creepy-candy/"
+  ],
+  "lastVerified": "2026-11-14"
 }

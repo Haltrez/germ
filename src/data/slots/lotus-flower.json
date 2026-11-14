@@ -1,0 +1,36 @@
+{
+  "name": "Lotus Flower",
+  "provider": "novomatic",
+  "releaseDate": "2020-07-14",
+  "rtp": "TODO",
+  "volatility": "TODO",
+  "maxWinMultiplier": "TODO",
+  "reels": 5,
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines",
+    "count": 10
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": null,
+  "demoSource": "none",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www.greentube.com/wp-content/uploads/lotusflower-30657-gamebutton.png",
+  "sourceUrls": [
+    "https://www.greentube.com/game/lotus-flower/"
+  ],
+  "lastVerified": "2026-11-14",
+  "thumbnail": {
+    "src": "/thumbs/lotus-flower.webp",
+    "alt": "Lotus Flower Spielautomat"
+  }
+}

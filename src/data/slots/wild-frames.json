@@ -27,12 +27,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/398/hero-desktop/0-32677e6579e69f47",
-  "sourceUrls": [
-    "https://www.playngo.com/games/wild-frames"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/wild-frames.webp",
     "alt": "Wild Frames Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://www.playngo.com/games/wild-frames"
+  ],
+  "lastVerified": "2026-11-14"
 }

@@ -30,12 +30,12 @@
   "gglOperatorSlugs": [],
   "screenshots": [],
   "thumbSource": "https://bgaming.com/wp-content/uploads/2025/10/Wild_Million_1020х1280.webp",
-  "sourceUrls": [
-    "https://bgaming.com/games/wild-million"
-  ],
-  "lastVerified": "2026-11-14",
   "thumbnail": {
     "src": "/thumbs/wild-million.webp",
     "alt": "Wild Million Spielautomat"
-  }
+  },
+  "sourceUrls": [
+    "https://bgaming.com/games/wild-million"
+  ],
+  "lastVerified": "2026-11-14"
 }
