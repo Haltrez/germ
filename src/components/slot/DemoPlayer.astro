@@ -8,11 +8,14 @@
 import SlotArt from './SlotArt.astro';
 import { DEMO_HOST_ALLOWLIST } from '../../config/site.ts';
 import type { SlotView } from '../../lib/slots.ts';
-interface Props { slot: SlotView }
-const { slot } = Astro.props;
+import type { RealMoneyOp } from '../../lib/realmoney.ts';
+import { RG } from '../../config/site.ts';
+interface Props { slot: SlotView; realMoney?: RealMoneyOp[] }
+const { slot, realMoney = [] } = Astro.props;
+const first = realMoney[0];
 const { demoUrl, demoVersionUrl, demoSourceName, name } = slot.data;
 ---
-<section id="demo" aria-label={`${name} Demo`} class="card scroll-mt-20 overflow-hidden p-0">
+<section id="demo" aria-label={`${name} Demo`} class="card relative scroll-mt-20 overflow-hidden p-0">
   <div class="flex items-center justify-between gap-3 border-b border-line px-4 py-2.5 text-xs">
     <h2 class="font-title text-sm font-bold text-fg">{demoUrl ? `${name} Demo` : `${name} · Demo folgt`}</h2>
     {demoUrl && (
@@ -50,9 +53,56 @@ const { demoUrl, demoVersionUrl, demoSourceName, name } = slot.data;
       </div>
     )}
   </div>
+
+  {demoUrl && first && (
+    <div class="absolute inset-0 z-20 flex items-center justify-center bg-ink-950/70 p-4 backdrop-blur-sm" data-rm-prompt data-ad-unit="virtual-slot" data-ad-time-restricted="true" data-ad-manual hidden role="dialog" aria-modal="true" aria-labelledby="rm-title" data-rm-ops={JSON.stringify(realMoney)}>
+      <div class="card w-full max-w-sm p-5 text-center shadow-2xl">
+        <p class="text-[0.6875rem] font-semibold uppercase tracking-wider text-subtle">Anzeige</p>
+        <p id="rm-title" class="mt-1 font-title text-xl font-bold text-fg">{name} mit Echtgeld spielen?</p>
+        <div class="mt-4 flex items-center justify-center gap-3">
+          <img src={first.logo ?? ''} alt="" width="56" height="56" class="h-14 w-14 rounded-xl object-contain" data-rm-logo hidden={!first.logo} />
+          <div class="text-left">
+            <p class="font-semibold text-fg" data-rm-name>{first.name}</p>
+            <p class="text-xs text-gold-400" data-rm-tag>{first.tag}</p>
+          </div>
+        </div>
+        <a href={first.href} rel={first.rel} target="_blank" class="btn btn-primary mt-4 w-full !min-h-12 text-base" data-rm-link>Echtgeld-Version ansehen</a>
+        <button type="button" class="btn btn-secondary mt-2 w-full" data-rm-close>Weiter mit Spielgeld</button>
+        <p class="mt-3 text-[0.6875rem] text-subtle">Nur Spielotheken mit GGL-Erlaubnis · {RG.minAge}+ · Glücksspiel kann süchtig machen · Hilfe: {RG.helplinePhone}</p>
+      </div>
+    </div>
+  )}
 </section>
 
 <script>
+  /** Every 90 s of demo play, offer the real-money version at a rotating GGL operator (night hours only). */
+  function startRealMoneyPrompt(section: Element | null) {
+    const prompt = section?.querySelector<HTMLElement>('[data-rm-prompt]');
+    if (!prompt) return;
+    const ops = JSON.parse(prompt.dataset.rmOps ?? '[]') as { name: string; logo: string | null; tag: string | null; href: string; rel: string; affiliate: boolean; id: string }[];
+    if (!ops.length) return;
+    let idx = 0;
+    try { idx = (Number(sessionStorage.getItem('ksa-rm-idx')) || Math.floor(Math.random() * ops.length)) % ops.length; } catch { idx = Math.floor(Math.random() * ops.length); }
+    const link = prompt.querySelector<HTMLAnchorElement>('[data-rm-link]')!;
+    const logo = prompt.querySelector<HTMLImageElement>('[data-rm-logo]')!;
+    const show = () => {
+      if (!prompt.hidden || !(window as unknown as { __ksaAdsAllowed?: boolean }).__ksaAdsAllowed) return;
+      const o = ops[idx % ops.length];
+      idx = (idx + 1) % ops.length;
+      try { sessionStorage.setItem('ksa-rm-idx', String(idx)); } catch { /* ignore */ }
+      prompt.querySelector('[data-rm-name]')!.textContent = o.name;
+      prompt.querySelector('[data-rm-tag]')!.textContent = o.tag ?? '';
+      if (o.logo) { logo.src = o.logo; logo.hidden = false; } else logo.hidden = true;
+      link.href = o.href;
+      link.rel = o.rel;
+      if (o.affiliate) link.dataset.affiliate = o.id; else delete link.dataset.affiliate;
+      prompt.hidden = false;
+    };
+    const hide = () => { prompt.hidden = true; };
+    prompt.querySelector('[data-rm-close]')?.addEventListener('click', hide);
+    link.addEventListener('click', () => setTimeout(hide, 300));
+    setInterval(show, 90_000);
+  }
   type ConsentApi = { has: (c: 'media') => boolean; grant: (c: 'media') => void };
   document.querySelectorAll<HTMLElement>('[data-demo-root]').forEach((root) => {
     const url = root.dataset.demoUrl;
@@ -89,6 +139,7 @@ const { demoUrl, demoVersionUrl, demoSourceName, name } = slot.data;
       iframe.allow = 'fullscreen; autoplay';
       iframe.referrerPolicy = 'no-referrer-when-downgrade';
       root.replaceChildren(iframe);
+      startRealMoneyPrompt(root.closest('section'));
       root.focus();
     });
   });

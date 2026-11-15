@@ -25,5 +25,5 @@ const timeRestricted = kind === 'virtual-slot' && ADS.virtualSlotAdsNightOnly;
 )}
 
 {ADS.enabled && timeRestricted && (
-  <script is:inline set:html={`(function(){var f=${ADS.blockedFromHour},u=${ADS.blockedUntilHour};function a(){var h=Number(new Intl.DateTimeFormat('de-DE',{hour:'numeric',hourCycle:'h23',timeZone:'Europe/Berlin'}).format(new Date()));var b=h>=f&&h<u;document.querySelectorAll('[data-ad-time-restricted="true"]').forEach(function(e){e.hidden=b;});}a();setInterval(a,60000);})();`} />
+  <script is:inline set:html={`(function(){var f=${ADS.blockedFromHour},u=${ADS.blockedUntilHour};function a(){var h=Number(new Intl.DateTimeFormat('en-GB',{hour:'2-digit',hourCycle:'h23',timeZone:'Europe/Berlin'}).formatToParts(new Date()).find(function(x){return x.type==='hour'}).value);var b=h>=f&&h<u;document.querySelectorAll('[data-ad-time-restricted="true"]').forEach(function(e){e.hidden=b;});}a();setInterval(a,60000);})();`} />
 )}

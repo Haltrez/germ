@@ -1,0 +1,31 @@
+---
+/** "Echtgeld-Version" box above the review: up to 4 GGL-verified Spielotheken. */
+import type { RealMoneyOp } from '../../lib/realmoney.ts';
+import { RG } from '../../config/site.ts';
+interface Props { name: string; ops: RealMoneyOp[] }
+const { name, ops } = Astro.props;
+---
+{ops.length > 0 && (
+  <section class="card mt-14 border-gold-500/40 p-5 sm:p-6" aria-labelledby="realmoney-title" data-ad-unit="virtual-slot" data-ad-time-restricted="true" hidden>
+    <div class="flex flex-wrap items-baseline justify-between gap-2">
+      <h2 id="realmoney-title" class="font-title text-xl font-bold text-fg">{name} um Echtgeld spielen</h2>
+      <span class="text-[0.6875rem] font-semibold uppercase tracking-wider text-subtle">Anzeige</span>
+    </div>
+    <p class="mt-1 text-sm text-muted">Nur Online-Spielotheken mit Erlaubnis der GGL. Max. 1 € pro Spin, 5 Sekunden pro Runde.</p>
+    <ul class="mt-4 grid gap-3 sm:grid-cols-2">
+      {ops.map((o) => (
+        <li class="flex items-center gap-3 rounded-xl border border-line bg-ink-950/50 p-3">
+          {o.logo && <img src={o.logo} alt={`${o.name} Logo`} width="48" height="48" class="h-12 w-12 shrink-0 rounded-lg object-contain" />}
+          <div class="min-w-0 flex-1">
+            <p class="font-semibold text-fg">{o.name}</p>
+            {o.tag && <p class="truncate text-xs text-gold-400">{o.tag}</p>}
+          </div>
+          <a href={o.href} rel={o.rel} target="_blank" data-affiliate={o.affiliate ? o.id : undefined} class="btn btn-primary !min-h-10 shrink-0 !px-4 text-sm">Echtgeld-Version ansehen</a>
+        </li>
+      ))}
+    </ul>
+    <p class="mt-3 text-xs text-subtle" data-affiliate-disclosure>
+      Anzeige: Wir erhalten ggf. eine Provision. {RG.minAge}+ · Glücksspiel kann süchtig machen · Hilfe: <a href={RG.helplinePhoneHref} class="underline">{RG.helplinePhone}</a>
+    </p>
+  </section>
+)}
