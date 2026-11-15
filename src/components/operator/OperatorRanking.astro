@@ -11,7 +11,7 @@ const { ops } = Astro.props;
     <li class:list={['card relative grid gap-5 p-5 sm:p-6 lg:grid-cols-[auto_auto_1fr_20rem] lg:items-center', i === 0 && 'border-gold-500/60']}>
       {i === 0 && <span class="absolute -top-3 left-6 rounded-md bg-gold-400 px-3 py-0.5 text-[0.7rem] font-bold uppercase tracking-wider text-[#241600]">Unsere Empfehlung</span>}
       <span class:list={['font-display text-6xl', i === 0 ? 'text-gold-400' : 'text-transparent [-webkit-text-stroke:1.5px_var(--color-gold-500)]']}>{i + 1}</span>
-      <div class="flex h-24 w-28 items-center justify-center rounded-2xl bg-ink-950 font-title font-bold text-fg">{o.data.name}</div>
+      <div class="flex h-24 w-28 items-center justify-center overflow-hidden rounded-2xl bg-ink-950 font-title font-bold text-fg">{o.data.logo ? <img src={o.data.logo} alt={`${o.data.name} Logo`} width="96" height="96" loading="lazy" class="h-20 w-20 rounded-xl object-contain" /> : o.data.name}</div>
       <div>
         <h3 class="font-display text-3xl uppercase text-fg">{o.data.name}</h3>
         {o.data.strengthTag && <p class="text-sm font-semibold text-gold-400">Stark bei: {o.data.strengthTag}</p>}

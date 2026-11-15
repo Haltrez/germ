@@ -212,6 +212,8 @@ export const operatorSchema = z
     payoutSpeed: todoOr(z.string()),
     rating: ratingSchema.nullable().default(null),
     featured: z.boolean().default(false),
+    /** Path of the logo in /public, e.g. /operators/leovegas.png. */
+    logo: z.string().optional(),
     /** Manual position in the comparison (lower = higher up). */
     sortOrder: z.number().int().default(100),
   })

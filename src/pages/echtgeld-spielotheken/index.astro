@@ -12,7 +12,7 @@ import { formatDateDE } from '../../lib/i18n/de.ts';
 const ops = (await getCollection('operators'))
   .filter((o) => isPromotable(o.data))
   .sort((a, b) => a.data.sortOrder - b.data.sortOrder || Number(b.data.featured) - Number(a.data.featured) || (b.data.rating?.total ?? 0) - (a.data.rating?.total ?? 0));
-const updated = '2026-11-14';
+const updated = '2026-11-15';
 const n = (x: number) => x.toLocaleString('de-DE');
 
 const checks = [
@@ -41,7 +41,7 @@ const faq = [
     <p class="section-sub">
       Hier vergleichen wir Online-Spielotheken, die eine Erlaubnis der Gemeinsamen Glücksspielbehörde der Länder (GGL) haben.
       Jeder Anbieter steht auf der offiziellen Whitelist der GGL.
-      <span class="text-subtle">Stand: {formatDateDE(updated)}</span>
+      {' '}<span class="text-subtle">Stand: {formatDateDE(updated)}</span>
     </p>
 
     {ops.length > 0 ? (

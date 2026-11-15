@@ -22,5 +22,6 @@
   "payoutSpeed": "TODO",
   "rating": null,
   "featured": false,
-  "sortOrder": 1
+  "sortOrder": 1,
+  "logo": "/operators/leovegas.png"
 }

@@ -23,7 +23,7 @@ if (!operator.affiliateUrl && !website) throw new ComplianceError(`Operator "${s
 ---
 {!operator.affiliateUrl ? (
   <a href={website} rel="nofollow noopener" target="_blank" class:list={['btn', variant === 'primary' ? 'btn-primary' : 'btn-secondary', cls]}>
-    Zur Website<span class="sr-only"> von {operator.name} (öffnet in neuem Tab)</span>
+    {label}<span class="sr-only"> (öffnet {operator.name} in neuem Tab)</span>
   </a>
 ) : (
 <span class:list={['inline-flex flex-col items-stretch gap-1', cls]}>

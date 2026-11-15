@@ -22,5 +22,6 @@
   "payoutSpeed": "TODO",
   "rating": null,
   "featured": false,
-  "sortOrder": 2
+  "sortOrder": 2,
+  "logo": "/operators/merkur.png"
 }

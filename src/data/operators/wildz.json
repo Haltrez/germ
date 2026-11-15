@@ -22,5 +22,6 @@
   "payoutSpeed": "TODO",
   "rating": null,
   "featured": false,
-  "sortOrder": 3
+  "sortOrder": 3,
+  "logo": "/operators/wildz.png"
 }
