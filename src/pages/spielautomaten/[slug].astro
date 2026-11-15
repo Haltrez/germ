@@ -100,6 +100,14 @@ const jsonLd = [
     <div class="mt-8 grid gap-6 lg:grid-cols-[1.6fr_1fr] lg:items-start">
       <div class="space-y-3">
         <DemoPlayer {slot} realMoney={rmOps} />
+        <RealMoneyBox name={s.name} ops={rmOps} class="mt-4" headingId="realmoney-top" columns={1} />
+        <div class="card mt-4 flex flex-col items-center gap-3 border-gold-500/50 p-5 text-center sm:flex-row sm:text-left" data-day-only>
+          <div class="flex-1">
+            <p class="font-title text-lg font-bold text-fg">{s.name} mit Echtgeld spielen?</p>
+            <p class="text-sm text-muted">Vergleiche Online-Spielotheken mit deutscher Erlaubnis – geprüft auf der GGL-Whitelist.</p>
+          </div>
+          <a href="/echtgeld-spielotheken/" class="btn btn-primary !min-h-12 w-full !px-6 text-base sm:w-auto">Spielotheken vergleichen</a>
+        </div>
         <div class="flex flex-wrap items-center justify-between gap-3">
           <a href={`/hersteller/${s.provider}/`} class="inline-block py-2 text-sm text-mint-300 underline underline-offset-2">Mehr {providerName} Slots</a>
         </div>
