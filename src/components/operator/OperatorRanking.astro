@@ -16,7 +16,7 @@ const { ops } = Astro.props;
         <h3 class="font-display text-3xl uppercase text-fg">{o.data.name}</h3>
         {o.data.strengthTag && <p class="text-sm font-semibold text-gold-400">Stark bei: {o.data.strengthTag}</p>}
         <ul class="mt-2 space-y-1 text-sm text-fg">{o.data.pros.slice(0, 3).map((p) => <li class="flex gap-2"><span class="text-mint-400">✔</span>{p}</li>)}</ul>
-        <p class="mt-2"><span class="badge-ggl">GGL-Lizenz {o.data.licenseNumber}</span></p>
+        <p class="mt-2"><span class="badge-ggl">GGL-Lizenz{/\d/.test(o.data.licenseNumber ?? '') ? ` ${o.data.licenseNumber}` : ''}</span></p>
       </div>
       <div class="space-y-2">
         {o.data.bonusText !== 'TODO' && (

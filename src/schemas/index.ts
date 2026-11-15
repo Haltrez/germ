@@ -212,6 +212,8 @@ export const operatorSchema = z
     payoutSpeed: todoOr(z.string()),
     rating: ratingSchema.nullable().default(null),
     featured: z.boolean().default(false),
+    /** Manual position in the comparison (lower = higher up). */
+    sortOrder: z.number().int().default(100),
   })
   .superRefine((o, ctx) => {
     if (o.gglLicensed !== true) {

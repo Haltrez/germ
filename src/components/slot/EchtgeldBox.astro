@@ -12,7 +12,7 @@ const ops = (await getCollection('operators'))
   .filter((o) => isPromotable(o.data))
   .filter((o) => slot.data.availableInDE === true)
   .filter((o) => o.data.slotSlugs.includes(slot.id) || slot.data.gglOperatorSlugs.includes(o.id))
-  .sort((a, b) => (b.data.rating?.total ?? 0) - (a.data.rating?.total ?? 0))
+  .sort((a, b) => a.data.sortOrder - b.data.sortOrder || (b.data.rating?.total ?? 0) - (a.data.rating?.total ?? 0))
   .slice(0, 3);
 ---
 {ops.length > 0 && (

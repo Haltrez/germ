@@ -15,8 +15,8 @@ import { organizationSchema, websiteSchema, faqSchema } from '../lib/schema.ts';
 const [views, providers, operators] = await Promise.all([getSlotViews(), getCollection('providers'), getCollection('operators')]);
 const ops = operators
   .filter((o) => isPromotable(o.data))
-  .sort((a, b) => Number(b.data.featured) - Number(a.data.featured) || (b.data.rating?.total ?? 0) - (a.data.rating?.total ?? 0));
-const featured = ops.find((o) => o.data.featured) ?? ops[0];
+  .sort((a, b) => a.data.sortOrder - b.data.sortOrder || Number(b.data.featured) - Number(a.data.featured) || (b.data.rating?.total ?? 0) - (a.data.rating?.total ?? 0));
+const featured = ops.find((o) => o.data.featured);
 const reviewed = views.filter((v) => v.reviewed);
 const slotCount = views.length;
 const n = (x: number) => x.toLocaleString('de-DE');

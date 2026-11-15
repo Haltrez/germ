@@ -17,8 +17,15 @@ interface Props {
 const { slug, operator, label = 'Zum Anbieter', variant = 'primary', class: cls } = Astro.props;
 assertPromotable(slug, operator);
 assertCtaLabel(label);
-if (!operator.affiliateUrl) throw new ComplianceError(`Operator "${slug}" has no affiliateUrl`);
+// Until a tracking link exists, link to the operator's official website (no affiliate tracking).
+const website = operator.websiteUrl !== 'TODO' ? operator.websiteUrl : null;
+if (!operator.affiliateUrl && !website) throw new ComplianceError(`Operator "${slug}" has neither affiliateUrl nor websiteUrl`);
 ---
+{!operator.affiliateUrl ? (
+  <a href={website} rel="nofollow noopener" target="_blank" class:list={['btn', variant === 'primary' ? 'btn-primary' : 'btn-secondary', cls]}>
+    Zur Website<span class="sr-only"> von {operator.name} (öffnet in neuem Tab)</span>
+  </a>
+) : (
 <span class:list={['inline-flex flex-col items-stretch gap-1', cls]}>
   <a
     href={operator.affiliateUrl}
@@ -32,3 +39,4 @@ if (!operator.affiliateUrl) throw new ComplianceError(`Operator "${slug}" has no
   </a>{' '}
   <span class="text-center text-[0.6875rem] text-subtle" data-affiliate-disclosure>Anzeige</span>
 </span>
+)}

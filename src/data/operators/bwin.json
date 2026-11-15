@@ -1,0 +1,26 @@
+{
+  "name": "bwin",
+  "isPlaceholder": false,
+  "gglLicensed": true,
+  "licenseNumber": "GGL-Whitelist",
+  "licenseHolder": "TODO",
+  "gglWhitelistCheckedAt": "2026-11-15",
+  "affiliateUrl": null,
+  "websiteUrl": "https://www.bwin.de/",
+  "bonusText": "TODO",
+  "bonusTermsUrl": null,
+  "paymentMethods": [],
+  "slotSlugs": [],
+  "strengthTag": "Slots und Sportwetten",
+  "pros": [
+    "Erlaubnis der GGL für virtuelle Automatenspiele",
+    "Slots und Sportwetten mit einem Konto",
+    "Bekannte Marke in Deutschland"
+  ],
+  "cons": [],
+  "minDeposit": "TODO",
+  "payoutSpeed": "TODO",
+  "rating": null,
+  "featured": false,
+  "sortOrder": 4
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Merkur Slots",
+  "isPlaceholder": false,
+  "gglLicensed": true,
+  "licenseNumber": "GGL-Whitelist",
+  "licenseHolder": "TODO",
+  "gglWhitelistCheckedAt": "2026-11-15",
+  "affiliateUrl": null,
+  "websiteUrl": "https://www.merkur-slots.de/",
+  "bonusText": "TODO",
+  "bonusTermsUrl": null,
+  "paymentMethods": [],
+  "slotSlugs": [],
+  "strengthTag": "Deutsche Traditionsmarke",
+  "pros": [
+    "Erlaubnis der GGL für virtuelle Automatenspiele",
+    "Deutsche Traditionsmarke der Gauselmann-Gruppe",
+    "Bekannt aus Spielhallen"
+  ],
+  "cons": [],
+  "minDeposit": "TODO",
+  "payoutSpeed": "TODO",
+  "rating": null,
+  "featured": false,
+  "sortOrder": 2
+}

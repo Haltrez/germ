@@ -21,5 +21,5 @@ const d = op.data;
     </div>
   )}
   <OperatorCta slug={op.id} operator={d} class="mt-5 w-full" />
-  <p class="mt-2 text-center text-xs text-subtle"><span class="badge-ggl">GGL-Lizenz {d.licenseNumber}</span></p>
+  <p class="mt-2 text-center text-xs text-subtle"><span class="badge-ggl">GGL-Lizenz{/\d/.test(d.licenseNumber ?? '') ? ` ${d.licenseNumber}` : ''}</span></p>
 </div>
