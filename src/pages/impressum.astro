@@ -20,7 +20,7 @@ import { COMPANY, SITE_DOMAIN } from '../config/site.ts';
 
   <h2>Kontakt</h2>
   <p>
-    E-Mail: <span class="todo">{COMPANY.email}</span><br />
+    E-Mail: <a href={`mailto:${COMPANY.email}`}>{COMPANY.email}</a><br />
     Telefon: <span class="todo">{COMPANY.phone}</span>
   </p>
 

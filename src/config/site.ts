@@ -30,13 +30,13 @@ export const COMPANY = {
   postalCode: 'TODO: PLZ',
   city: 'TODO: Ort',
   country: 'Deutschland',
-  email: 'TODO: kontakt@kostenlosespielautomaten.de',
+  email: 'editorial@kostenlosespielautomaten.de',
   phone: 'TODO: Telefonnummer',
   registerCourt: 'TODO: Registergericht',
   registerNumber: 'TODO: Handelsregisternummer',
   vatId: 'TODO: USt-IdNr. nach § 27a UStG',
   editorialResponsible: 'TODO: Verantwortliche Person nach § 18 Abs. 2 MStV (Name, Anschrift)',
-  hostingProvider: 'TODO: Hosting-Anbieter (z. B. Cloudflare, Netlify oder Vercel) inkl. Anschrift',
+  hostingProvider: 'Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, USA',
 } as const;
 
 /** Responsible-gambling help resources shown on every page. */
