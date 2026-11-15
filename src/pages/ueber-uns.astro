@@ -28,10 +28,13 @@ const authors = await getCollection('authors');
 
   <h2>Unsere Redaktion</h2>
   {authors.map((a) => (
-    <div class="not-prose card mt-4 p-5">
+    <div class="not-prose card mt-4 flex items-start gap-4 p-5">
+      {a.data.image && <img src={a.data.image} alt={`Foto von ${a.data.name}`} width="80" height="80" class="h-20 w-20 shrink-0 rounded-full object-cover" />}
+      <div>
       <p class="font-display text-lg font-bold text-fg">{a.data.isPlaceholder ? <span class="todo-marker">{a.data.name}</span> : a.data.name}</p>
       <p class="text-sm text-mint-300">{a.data.role}</p>
       <p class="mt-2 text-sm text-muted">{a.data.bio}</p>
+      </div>
     </div>
   ))}
 

@@ -30,7 +30,7 @@ const others = (await getCollection('guides', (x) => !x.data.draft && x.id !== g
   ogType="article"
   breadcrumbs={[{ name: 'Ratgeber', href: '/ratgeber/' }, { name: g.title, href: path }]}
   jsonLd={[
-    articleSchema({ headline: g.title, description: g.description, path, authorName, authorType: authorIsTeam ? 'Organization' : 'Person', datePublished: g.published, dateModified: g.updated }),
+    articleSchema({ headline: g.title, description: g.description, path, authorName, authorType: authorIsTeam ? 'Organization' : 'Person', authorImage: authorIsTeam ? undefined : author?.data.image, datePublished: g.published, dateModified: g.updated }),
     ...(g.faq.length ? [faqSchema(g.faq)] : []),
   ]}
 >
@@ -38,7 +38,7 @@ const others = (await getCollection('guides', (x) => !x.data.draft && x.id !== g
     <header class="max-w-3xl">
       <h1 class="text-3xl font-extrabold text-fg sm:text-5xl">{g.title}</h1>
       <p class="mt-4 text-lg text-muted">{g.description}</p>
-      <p class="mt-4 text-sm text-subtle">{authorName} · Stand: <time datetime={g.updated}>{formatDateDE(g.updated)}</time></p>
+      <p class="mt-4 flex items-center gap-3 text-sm text-subtle">{!authorIsTeam && author?.data.image && <img src={author.data.image} alt={`Foto von ${authorName}`} width="40" height="40" class="h-10 w-10 rounded-full object-cover" />}<span>{authorName} · Stand: <time datetime={g.updated}>{formatDateDE(g.updated)}</time></span></p>
     </header>
     <div class="prose-site mt-10"><Content /></div>
     {g.faq.length > 0 && <div class="mt-12 max-w-4xl"><Faq items={g.faq} title="Häufige Fragen" /></div>}

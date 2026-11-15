@@ -71,4 +71,5 @@ export const STUB_PAGES: Record<string, { title: string; h1: string; phase: numb
 export const isLive = (href: string) => !(href.split(/[?#]/)[0] in STUB_PAGES);
 
 /** Every path that must carry `noindex` and stay out of the sitemap. */
-export const NOINDEX_PATHS = new Set<string>([...Object.keys(STUB_PAGES), '/404/']);
+/** The Impressum carries the operator's legal name and stays out of search results. */
+export const NOINDEX_PATHS = new Set<string>([...Object.keys(STUB_PAGES), '/404/', '/impressum/']);

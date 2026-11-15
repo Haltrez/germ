@@ -61,6 +61,7 @@ const jsonLd = [
         path: slot.path,
         authorName,
         authorType: authorIsTeam ? 'Organization' : 'Person',
+        authorImage: authorIsTeam ? undefined : author?.data.image,
         image: s.thumbnail?.src,
         datePublished: text.updated,
         dateModified: text.updated,
@@ -167,9 +168,12 @@ const jsonLd = [
     )}
 
     {text && (
-      <aside class="card mt-14 p-5 text-sm text-muted">
+      <aside class="card mt-14 flex items-center gap-4 p-5 text-sm text-muted">
+        {!authorIsTeam && author?.data.image && <img src={author.data.image} alt={`Foto von ${authorName}`} width="56" height="56" loading="lazy" class="h-14 w-14 shrink-0 rounded-full object-cover" />}
+        <div>
         <p class="font-bold text-fg">{authorName}</p>
         <p>{!authorIsTeam && `${author?.data.role} · `}Zuletzt aktualisiert: <time datetime={text.updated}>{formatDateDE(text.updated)}</time> · <a href="/bewertungsmethodik/" class="text-mint-300 underline underline-offset-2">So prüfen wir</a></p>
+        </div>
       </aside>
     )}
   </div>
