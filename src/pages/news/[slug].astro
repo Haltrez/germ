@@ -1,0 +1,72 @@
+---
+/** A single news article (MDX in src/content/news). */
+import type { GetStaticPaths } from 'astro';
+import { getCollection, getEntry, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SlotCard from '../../components/slot/SlotCard.astro';
+import { getSlotViews } from '../../lib/slots.ts';
+import { absUrl } from '../../lib/schema.ts';
+import { formatDateDE } from '../../lib/i18n/de.ts';
+import { SITE_URL } from '../../config/site.ts';
+
+export const getStaticPaths = (async () =>
+  (await getCollection('news', (n) => !n.data.draft)).map((n) => ({ params: { slug: n.id }, props: { item: n } }))) satisfies GetStaticPaths;
+
+const LABEL: Record<string, string> = { 'neue-slots': 'Neue Slots', markt: 'Markt & Regulierung', report: 'Report' };
+const { item } = Astro.props;
+const n = item.data;
+const { Content } = await render(item);
+const author = await getEntry('authors', n.author);
+const authorIsTeam = !author || author.data.isPlaceholder;
+const authorName = authorIsTeam ? 'Redaktion KostenloseSpielautomaten' : author!.data.name;
+const path = `/news/${item.id}/`;
+const views = await getSlotViews();
+const related = n.relatedSlots.map((s) => views.find((v) => v.id === s)).filter((v) => !!v);
+const newsLd = {
+  '@context': 'https://schema.org',
+  '@type': 'NewsArticle',
+  headline: n.title,
+  description: n.description,
+  mainEntityOfPage: absUrl(path),
+  inLanguage: 'de-DE',
+  datePublished: n.published,
+  dateModified: n.updated,
+  author: { '@type': authorIsTeam ? 'Organization' : 'Person', name: authorName, ...(!authorIsTeam && author?.data.image ? { image: absUrl(author.data.image) } : {}) },
+  publisher: { '@id': `${SITE_URL}/#organization` },
+  ...(related[0]?.data.thumbnail ? { image: absUrl(related[0].data.thumbnail.src) } : {}),
+};
+---
+<BaseLayout
+  title={n.metaTitle ?? (n.title.length <= 60 ? n.title : `${n.title.slice(0, 57)}…`)}
+  description={n.description}
+  ogType="article"
+  ogImage={related[0]?.data.thumbnail?.src}
+  breadcrumbs={[{ name: 'News', href: '/news/' }, { name: n.title, href: path }]}
+  jsonLd={[newsLd]}
+>
+  <article class="container-site pb-4 pt-8">
+    <header class="max-w-3xl">
+      <p class="text-xs font-semibold uppercase tracking-wider text-gold-400">{LABEL[n.category]}</p>
+      <h1 class="mt-2 text-3xl font-extrabold text-fg sm:text-5xl">{n.title}</h1>
+      <p class="mt-4 text-lg text-muted">{n.description}</p>
+      <p class="mt-4 flex items-center gap-3 text-sm text-subtle">
+        {!authorIsTeam && author?.data.image && <img src={author.data.image} alt={`Foto von ${authorName}`} width="40" height="40" class="h-10 w-10 rounded-full object-cover" />}
+        <span>{authorName} · <time datetime={n.published}>{formatDateDE(n.published)}</time>{n.updated !== n.published && <> · aktualisiert {formatDateDE(n.updated)}</>}</span>
+      </p>
+    </header>
+    <div class="prose-site mt-10"><Content /></div>
+    {n.sources.length > 0 && (
+      <div class="mt-8 max-w-3xl text-sm text-subtle">
+        <p class="font-semibold text-muted">Quellen</p>
+        <ul class="mt-1 list-disc pl-5">{n.sources.map((s) => <li><a href={s.url} target="_blank" rel="noopener nofollow" class="underline underline-offset-2">{s.label}</a></li>)}</ul>
+      </div>
+    )}
+    {related.length > 0 && (
+      <section class="mt-12">
+        <h2 class="section-title">Slots aus diesem Artikel kostenlos spielen</h2>
+        <div class="mt-6 grid grid-cols-2 gap-x-3 gap-y-5 sm:grid-cols-3 lg:grid-cols-4">{related.map((v) => <SlotCard slot={v} />)}</div>
+      </section>
+    )}
+    <p class="mt-10"><a href="/news/" class="text-mint-300 underline underline-offset-2">← Alle News</a></p>
+  </article>
+</BaseLayout>
