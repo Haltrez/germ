@@ -1,0 +1,31 @@
+---
+/** All slots starting with one letter, as plain crawlable links. */
+import type { GetStaticPaths } from 'astro';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getSlotViews } from '../../../lib/slots.ts';
+import { LETTERS, groupByLetter } from '../../../lib/az.ts';
+
+export const getStaticPaths = (async () => {
+  const groups = groupByLetter(await getSlotViews());
+  return LETTERS.filter((l) => groups.has(l)).map((l) => ({ params: { letter: l }, props: { letter: l, slots: groups.get(l)!, letters: LETTERS.filter((x) => groups.has(x)) } }));
+}) satisfies GetStaticPaths;
+const { letter, slots, letters } = Astro.props;
+const L = letter === '0-9' ? '0–9' : letter.toUpperCase();
+---
+<BaseLayout
+  title={`Spielautomaten mit ${L}: alle Slots kostenlos`}
+  description={`Alle ${slots.length} Spielautomaten mit ${L} kostenlos spielen: offizielle Demos und Herstellerdaten zu RTP und Max Win – alphabetisch sortiert.`}
+  breadcrumbs={[{ name: 'Spielautomaten', href: '/spielautomaten/' }, { name: 'A–Z', href: '/spielautomaten/a-z/' }, { name: L, href: `/spielautomaten/a-z/${letter}/` }]}
+>
+  <section class="container-site pt-6">
+    <h1 class="text-3xl font-extrabold text-fg sm:text-5xl">Spielautomaten mit {L}</h1>
+    <nav aria-label="Buchstaben" class="mt-6 flex flex-wrap gap-2">
+      {letters.map((l) => <a href={`/spielautomaten/a-z/${l}/`} class:list={['chip !min-h-9 uppercase', l === letter && '!border-gold-400 !text-gold-300']}>{l}</a>)}
+    </nav>
+    <ul class="mt-8 columns-1 gap-x-8 sm:columns-2 lg:columns-3">
+      {slots.map((s) => (
+        <li class="break-inside-avoid py-1.5"><a href={`/spielautomaten/${s.id}/`} class="text-fg hover:text-gold-300 hover:underline">{s.data.name}</a> <span class="text-xs text-subtle">· {s.provider?.data.name ?? s.data.provider}</span></li>
+      ))}
+    </ul>
+  </section>
+</BaseLayout>

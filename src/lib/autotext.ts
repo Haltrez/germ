@@ -196,6 +196,13 @@ export function autoMetaDescription(v: SlotView): string {
     s.features.includes('free-spins') ? 'Freispiele' : '',
   ].filter(Boolean);
   let out = parts.join(', ');
-  if (out.length < 120) out += ' – Test, Tipps & FAQ.';
+  const extras = [
+    s.features.includes('multipliers') ? 'Multiplikatoren' : '',
+    s.features.includes('wilds') ? 'Wilds' : '',
+    s.features.includes('megaways') ? 'Megaways' : '',
+  ].filter((x) => x && !out.includes(x));
+  if (extras.length && out.length < 110) out += `, ${extras.join(', ')}`;
+  if (out.length < 120) out += ' – Test, Regeln, Features & FAQ.';
+  if (out.length < 120) out += ' Alle Daten laut Hersteller.';
   return out.length <= 155 ? out : out.slice(0, 152).replace(/[ ,–]+\S*$/, '') + '…';
 }
