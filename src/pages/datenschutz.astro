@@ -15,16 +15,17 @@ import { COMPANY } from '../config/site.ts';
     Betreiber von KostenloseSpielautomaten (vollständige Angaben folgen in Kürze, siehe <a href="/impressum/">Impressum</a>)<br />
     E-Mail: <a href={`mailto:${COMPANY.email}`}>{COMPANY.email}</a>
   </p>
-  <p><span class="todo">TODO: Falls ein Datenschutzbeauftragter benannt ist, hier Kontaktdaten ergänzen.</span></p>
+  <p>Ein Datenschutzbeauftragter ist nicht benannt, da hierzu keine gesetzliche Pflicht besteht.</p>
 
   <h2>2. Hosting und Server-Logfiles</h2>
   <p>
     Diese Website wird bei {COMPANY.hostingProvider} gehostet. Beim Aufruf einer Seite verarbeitet
     der Hosting-Anbieter technisch notwendige Daten wie IP-Adresse, Datum und Uhrzeit, aufgerufene Seite, Referrer sowie
     Browser und Betriebssystem. Das ist erforderlich, um die Website sicher und stabil auszuliefern. Rechtsgrundlage ist
-    Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einem sicheren Betrieb). Logfiles werden nach{' '}
-    <span class="todo">TODO: Speicherdauer</span> gelöscht.{' '}
-    <span class="todo">TODO: Auftragsverarbeitungsvertrag und ggf. Drittlandübermittlung (Art. 44 ff. DSGVO) beschreiben.</span>
+    Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einem sicheren Betrieb). Logfiles werden vom Hosting-Anbieter nur so lange gespeichert,
+    wie es für den Betrieb und die Sicherheit nötig ist, und danach automatisch gelöscht. Mit Vercel besteht ein Vertrag zur
+    Auftragsverarbeitung (Art. 28 DSGVO). Vercel ist ein US-Unternehmen; die Übermittlung in die USA erfolgt auf Grundlage
+    des EU-US Data Privacy Framework (Art. 45 DSGVO) sowie der EU-Standardvertragsklauseln (Art. 46 DSGVO).
   </p>
 
   <h2>3. Einwilligungsverwaltung</h2>
@@ -49,8 +50,9 @@ import { COMPANY } from '../config/site.ts';
   <p>
     Einige Links führen zu Online-Spielotheken mit deutscher Erlaubnis und sind als Affiliate-Link gekennzeichnet. Wir
     setzen dafür auf unserer Website keine eigenen Tracking-Cookies. Sobald du die Website des Anbieters aufrufst, gilt
-    dessen Datenschutzerklärung; der Anbieter kann erfassen, dass du über unsere Seite gekommen bist.{' '}
-    <span class="todo">TODO: Prüfen, ob Affiliate-Netzwerke Parameter oder Weiterleitungen nutzen, und ggf. ergänzen.</span>
+    dessen Datenschutzerklärung; der Anbieter kann erfassen, dass du über unsere Seite gekommen bist.
+    Wir erhalten vom Anbieter lediglich zusammengefasste, anonyme Auswertungen (etwa die Zahl der Klicks und Einzahlungen),
+    aber keine Namen oder sonstigen Daten, mit denen wir dich identifizieren könnten.
   </p>
 
   <h2>6. Reichweitenmessung</h2>
@@ -82,6 +84,7 @@ import { COMPANY } from '../config/site.ts';
   <h2>10. Beschwerderecht</h2>
   <p>
     Du kannst dich bei einer Datenschutz-Aufsichtsbehörde beschweren, insbesondere in dem Bundesland, in dem du wohnst,
-    oder bei der für uns zuständigen Behörde: <span class="todo">TODO: zuständige Landesdatenschutzbehörde</span>.
+    Eine Übersicht aller Aufsichtsbehörden findest du bei der
+    <a href="https://www.bfdi.bund.de/DE/Service/Anschriften/Laender/Laender-node.html" target="_blank" rel="noopener">Bundesbeauftragten für den Datenschutz</a>.
   </p>
 </LegalLayout>
