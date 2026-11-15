@@ -1,0 +1,32 @@
+---
+/** Ratgeber hub: lists all published guides. */
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { itemListSchema } from '../../lib/schema.ts';
+
+const guides = (await getCollection('guides', (g) => !g.data.draft)).sort((a, b) => a.data.title.localeCompare(b.data.title, 'de'));
+---
+<BaseLayout
+  title="Ratgeber: Spielautomaten einfach erklärt"
+  description="Ratgeber zu Spielautomaten: RTP, Volatilität, Freispiele, OASIS-Sperre, LUGAS-Limit und legale Spielotheken – verständlich erklärt."
+  breadcrumbs={[{ name: 'Ratgeber', href: '/ratgeber/' }]}
+  jsonLd={[itemListSchema('Ratgeber', guides.map((g) => ({ name: g.data.title, path: `/ratgeber/${g.id}/` })))]}
+>
+  <section class="container-site pt-8">
+    <p class="eyebrow">Wissen statt Mythen</p>
+    <h1 class="mt-3 section-title !text-[clamp(2.2rem,5vw,3.75rem)]">Ratgeber</h1>
+    <p class="section-sub">
+      Hier erklären wir, wie Spielautomaten funktionieren, worauf du bei Zahlen wie RTP und Volatilität achten solltest und
+      welche Regeln in Deutschland gelten.
+    </p>
+    <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {guides.map((g) => (
+        <a href={`/ratgeber/${g.id}/`} class="card block p-6 transition hover:border-gold-500/60">
+          <p class="font-title text-xl font-bold text-fg">{g.data.title}</p>
+          <p class="mt-2 text-sm text-muted">{g.data.description}</p>
+          <p class="mt-4 text-sm font-semibold text-gold-300">Weiterlesen →</p>
+        </a>
+      ))}
+    </div>
+  </section>
+</BaseLayout>

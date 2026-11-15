@@ -1,0 +1,62 @@
+---
+/** A single guide (MDX in src/content/ratgeber). */
+import type { GetStaticPaths } from 'astro';
+import { getCollection, getEntry, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Faq from '../../components/ui/Faq.astro';
+import SlotCard from '../../components/slot/SlotCard.astro';
+import { getSlotViews } from '../../lib/slots.ts';
+import { articleSchema, faqSchema } from '../../lib/schema.ts';
+import { formatDateDE } from '../../lib/i18n/de.ts';
+
+export const getStaticPaths = (async () =>
+  (await getCollection('guides', (g) => !g.data.draft)).map((g) => ({ params: { slug: g.id }, props: { guide: g } }))) satisfies GetStaticPaths;
+
+const { guide } = Astro.props;
+const g = guide.data;
+const { Content } = await render(guide);
+const author = await getEntry('authors', g.author);
+const authorIsTeam = !author || author.data.isPlaceholder;
+const authorName = authorIsTeam ? 'Redaktion KostenloseSpielautomaten' : author!.data.name;
+const path = `/ratgeber/${guide.id}/`;
+const views = await getSlotViews();
+const related = g.relatedSlots.map((s) => views.find((v) => v.id === s)).filter((v) => !!v);
+const others = (await getCollection('guides', (x) => !x.data.draft && x.id !== guide.id)).slice(0, 4);
+---
+<BaseLayout
+  title={g.metaTitle ?? g.title}
+  description={g.description}
+  complianceContext={g.complianceContext}
+  ogType="article"
+  breadcrumbs={[{ name: 'Ratgeber', href: '/ratgeber/' }, { name: g.title, href: path }]}
+  jsonLd={[
+    articleSchema({ headline: g.title, description: g.description, path, authorName, authorType: authorIsTeam ? 'Organization' : 'Person', datePublished: g.published, dateModified: g.updated }),
+    ...(g.faq.length ? [faqSchema(g.faq)] : []),
+  ]}
+>
+  <article class="container-site pb-4 pt-8">
+    <header class="max-w-3xl">
+      <h1 class="text-3xl font-extrabold text-fg sm:text-5xl">{g.title}</h1>
+      <p class="mt-4 text-lg text-muted">{g.description}</p>
+      <p class="mt-4 text-sm text-subtle">{authorName} · Stand: <time datetime={g.updated}>{formatDateDE(g.updated)}</time></p>
+    </header>
+    <div class="prose-site mt-10"><Content /></div>
+    {g.faq.length > 0 && <div class="mt-12 max-w-4xl"><Faq items={g.faq} title="Häufige Fragen" /></div>}
+    {related.length > 0 && (
+      <section class="mt-12">
+        <h2 class="section-title">Passende Slots zum Ausprobieren</h2>
+        <div class="mt-6 grid grid-cols-2 gap-x-3 gap-y-5 sm:grid-cols-3 lg:grid-cols-4">
+          {related.map((v) => <SlotCard slot={v} />)}
+        </div>
+      </section>
+    )}
+    {others.length > 0 && (
+      <section class="mt-12">
+        <h2 class="section-title">Weitere Ratgeber</h2>
+        <ul class="mt-4 grid gap-2 sm:grid-cols-2">
+          {others.map((o) => <li><a href={`/ratgeber/${o.id}/`} class="text-mint-300 underline underline-offset-2">{o.data.title}</a></li>)}
+        </ul>
+      </section>
+    )}
+  </article>
+</BaseLayout>

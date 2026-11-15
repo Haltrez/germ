@@ -1,7 +1,7 @@
 {
-  "name": "TODO: Name der Autorin / des Autors",
-  "isPlaceholder": true,
+  "name": "Lukas Hartmann",
+  "isPlaceholder": false,
   "role": "Redaktion KostenloseSpielautomaten",
-  "bio": "TODO: Kurzbiografie (Erfahrung mit Spielautomaten, Hintergrund, warum diese Person die Inhalte prüft).",
-  "expertise": ["TODO: z. B. Slot-Analysen", "TODO: z. B. Glücksspielrecht in Deutschland"]
+  "bio": "Lukas Hartmann schreibt und prüft die Slot-Tests und Ratgeber auf KostenloseSpielautomaten. Er gleicht RTP, Max Win und Features mit den Datenblättern der Hersteller ab und achtet darauf, dass nur Spielotheken mit GGL-Erlaubnis empfohlen werden.",
+  "expertise": ["Slot-Tests und Herstellerdaten", "Spielerschutz und GGL-Regeln in Deutschland"]
 }

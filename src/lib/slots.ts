@@ -25,12 +25,24 @@ export interface SlotView {
  * Categories = explicit data + rules derived from official facts:
  * Megaways / Hold & Win from features, Book from the name.
  */
+/** Fruit slots: recognised by name (fruit symbols and the classic "Hot" fruit series). */
+const FRUIT_NAME = /fruit|frucht|früchte|cherr|melon|berry|lemon|sizzling|ultra hot|always hot|supra hot|fire hot|shining hot|red hot|hot to burn|burning hot|striking hot|hottest|joker|sevens|\b7s\b|777|fruity|juicy|plenty of fruit/i;
+/** Classic slots: 3 reels, or a fruit/sevens slot with few fixed lines and no free spins, cascades or Megaways. */
+function isClassic(s: Slot): boolean {
+  if (s.reels === 3) return true;
+  const wl = s.winLines;
+  const fewLines = typeof wl === 'object' && wl !== null && 'count' in wl && wl.type === 'lines' && typeof wl.count === 'number' && wl.count <= 10;
+  return fewLines && FRUIT_NAME.test(s.name) && !/\bbook\b/i.test(s.name) && !s.features.includes('free-spins') && !s.features.includes('cascades') && !s.features.includes('megaways');
+}
+
 export function deriveCategories(s: Slot): CategoryCode[] {
   const set = new Set<CategoryCode>(s.categories);
   if (s.features.includes('megaways')) set.add('megaways');
   if (s.features.includes('hold-and-win')) set.add('hold-and-win');
   if (s.features.includes('bonus-buy')) set.add('bonus-buy');
   if (/\bbook\b/i.test(s.name)) set.add('book');
+  if (FRUIT_NAME.test(s.name)) set.add('fruit');
+  if (isClassic(s)) set.add('classic');
   return CATEGORIES.map((c) => c.code).filter((c) => set.has(c));
 }
 

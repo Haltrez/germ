@@ -26,6 +26,9 @@ const providerName = slot.provider?.data.name ?? s.provider;
 const text = slot.text?.data;
 const Content = slot.text ? (await render(slot.text)).Content : null;
 const author = text ? await getEntry('authors', text.author) : undefined;
+// Until a real editor is named, credit the editorial team instead of showing the placeholder.
+const authorIsTeam = !author || author.data.isPlaceholder;
+const authorName = authorIsTeam ? 'Redaktion KostenloseSpielautomaten' : author!.data.name;
 const auto = text ? null : buildAutoReview(slot);
 const faqItems = text ? text.faq : auto!.faq;
 
@@ -56,7 +59,9 @@ const jsonLd = [
         headline: `${s.name} kostenlos spielen – Test und Demo`,
         description,
         path: slot.path,
-        authorName: author?.data.name ?? 'Redaktion',
+        authorName,
+        authorType: authorIsTeam ? 'Organization' : 'Person',
+        image: s.thumbnail?.src,
         datePublished: text.updated,
         dateModified: text.updated,
       }),
@@ -71,6 +76,7 @@ const jsonLd = [
   noindex={!slot.indexable}
   mobileSlot={hasDemo ? s.name : undefined}
   ogType={text ? 'article' : 'website'}
+  ogImage={s.thumbnail?.src}
   breadcrumbs={[{ name: 'Spielautomaten', href: '/spielautomaten/' }, { name: `${providerName} Slots`, href: `/hersteller/${s.provider}/` }, { name: s.name, href: slot.path }]}
   {jsonLd}
 >
@@ -162,8 +168,8 @@ const jsonLd = [
 
     {text && (
       <aside class="card mt-14 p-5 text-sm text-muted">
-        <p class="font-bold text-fg">{author?.data.isPlaceholder ? <span class="todo-marker">{author.data.name}</span> : author?.data.name}</p>
-        <p>{author?.data.role} · Zuletzt aktualisiert: <time datetime={text.updated}>{formatDateDE(text.updated)}</time> · <a href="/bewertungsmethodik/" class="text-mint-300 underline underline-offset-2">So prüfen wir</a></p>
+        <p class="font-bold text-fg">{authorName}</p>
+        <p>{!authorIsTeam && `${author?.data.role} · `}Zuletzt aktualisiert: <time datetime={text.updated}>{formatDateDE(text.updated)}</time> · <a href="/bewertungsmethodik/" class="text-mint-300 underline underline-offset-2">So prüfen wir</a></p>
       </aside>
     )}
   </div>

@@ -60,6 +60,8 @@ export const articleSchema = (a: {
   path: string;
   authorName: string;
   authorPath?: string;
+  /** Use 'Organization' while no named editor exists. */
+  authorType?: 'Person' | 'Organization';
   datePublished: string;
   dateModified: string;
   image?: string;
@@ -70,7 +72,7 @@ export const articleSchema = (a: {
   description: a.description,
   mainEntityOfPage: absUrl(a.path),
   inLanguage: 'de-DE',
-  author: { '@type': 'Person', name: a.authorName, ...(a.authorPath ? { url: absUrl(a.authorPath) } : {}) },
+  author: { '@type': a.authorType ?? 'Person', name: a.authorName, ...(a.authorPath ? { url: absUrl(a.authorPath) } : {}) },
   publisher: { '@id': `${SITE_URL}/#organization` },
   datePublished: a.datePublished,
   dateModified: a.dateModified,
