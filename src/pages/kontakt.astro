@@ -1,0 +1,27 @@
+---
+import LegalLayout from '../layouts/LegalLayout.astro';
+import { COMPANY, RG } from '../config/site.ts';
+---
+<LegalLayout
+  title="Kontakt – KostenloseSpielautomaten"
+  description="So erreichst du KostenloseSpielautomaten: Fragen, Hinweise zu Slot-Tests, Fehlermeldungen oder Kooperationsanfragen per E-Mail."
+  h1="Kontakt"
+  crumb="Kontakt"
+  updated="2026-11-15"
+  intro="Du hast eine Frage, einen Fehler entdeckt oder möchtest mit uns zusammenarbeiten? Schreib uns – wir antworten so schnell wie möglich."
+>
+  <h2>E-Mail</h2>
+  <p><a href={`mailto:${COMPANY.email}`}>{COMPANY.email}</a></p>
+
+  <h2>Hinweise zu Slot-Tests und Ratgebern</h2>
+  <p>
+    Du hast in einem Test einen falschen Wert entdeckt, etwa beim RTP oder Max Win? Schreib uns den Namen des Slots und
+    die Quelle – wir prüfen das und korrigieren es.
+  </p>
+
+  <h2>Hilfe bei Spielproblemen</h2>
+  <p>
+    Wir sind keine Beratungsstelle. Wenn du Hilfe brauchst, wende dich kostenlos und anonym an die BZgA:
+    <a href={RG.helplinePhoneHref}>{RG.helplinePhone}</a> oder <a href={RG.helplineUrl} target="_blank" rel="noopener">{RG.helplineUrlLabel}</a>.
+  </p>
+</LegalLayout>

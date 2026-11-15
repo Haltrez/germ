@@ -51,6 +51,7 @@ export const FOOTER_LEGAL: { label: string; href: string }[] = [
   { label: 'Affiliate-Hinweis', href: '/affiliate-hinweis/' },
   { label: 'Verantwortungsvoll spielen', href: '/verantwortungsvoll-spielen/' },
   { label: 'Über uns', href: '/ueber-uns/' },
+  { label: 'Kontakt', href: '/kontakt/' },
   { label: 'Bewertungsmethodik', href: '/bewertungsmethodik/' },
 ];
 
