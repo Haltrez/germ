@@ -26,6 +26,10 @@ import {
 } from '../src/lib/compliance.ts';
 import { ADS, RG, SITE_URL } from '../src/config/site.ts';
 import { ROOT, walk, readJson, Report } from './lib.ts';
+import { OFFSHORE_OPERATORS, OFFSHORE_PAGE_PATH } from '../src/data/offshore-operators.ts';
+
+// Offshore operators: allowed only on OFFSHORE_PAGE_PATH and only next to the offshore disclaimer.
+const offshoreAffiliateUrls = new Set(OFFSHORE_OPERATORS.map((o) => o.affiliateUrl));
 
 const r = new Report();
 const DIST = join(ROOT, 'dist');
@@ -118,7 +122,8 @@ for (const file of pages) {
       const relAttr = a.getAttribute('rel') ?? '';
       const href = a.getAttribute('href') ?? '';
       if (!/\bsponsored\b/.test(relAttr) || !/\bnofollow\b/.test(relAttr)) r.error(`${where}: affiliate link ${href} lacks rel="sponsored nofollow"`);
-      if (!allowedAffiliateUrls.has(href)) r.error(`${where}: affiliate link ${href} does not belong to a GGL-verified operator`);
+      const offshoreOk = path === OFFSHORE_PAGE_PATH && offshoreAffiliateUrls.has(href) && !!body.querySelector('[data-offshore-disclaimer]');
+      if (!allowedAffiliateUrls.has(href) && !offshoreOk) r.error(`${where}: affiliate link ${href} does not belong to a GGL-verified operator (or an offshore operator on ${OFFSHORE_PAGE_PATH} with disclaimer)`);
     }
   }
   for (const a of links) {
