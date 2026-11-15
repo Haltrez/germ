@@ -33,7 +33,7 @@ const placeholders = Array.from({ length: Math.max(0, TOTAL_SLOTS - OFFSHORE_OPE
       {OFFSHORE_OPERATORS.map((o, i) => (
         <li class:list={['card relative grid gap-5 p-5 sm:p-6 lg:grid-cols-[auto_auto_1fr_20rem] lg:items-center', i === 0 && 'border-gold-500/60']}>
           <span class:list={['font-display text-6xl', i === 0 ? 'text-gold-400' : 'text-transparent [-webkit-text-stroke:1.5px_var(--color-gold-500)]']}>{i + 1}</span>
-          <div class="flex h-24 w-28 items-center justify-center overflow-hidden rounded-2xl bg-ink-950 p-2 text-center font-title font-bold text-fg">{o.name}</div>
+          <div class="flex h-24 w-28 items-center justify-center overflow-hidden rounded-2xl bg-ink-950 p-2 text-center font-title font-bold text-fg">{o.logo ? <img src={o.logo} alt={`${o.name} Logo`} width="96" height="64" loading="eager" class="h-16 w-24 object-contain" /> : o.name}</div>
           <div>
             <h2 class="font-display text-3xl uppercase text-fg">{o.name}</h2>
             <p class="mt-2"><span class="inline-block rounded-md border border-line px-2 py-0.5 text-xs text-muted">{o.license}</span></p>

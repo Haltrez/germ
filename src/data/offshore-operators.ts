@@ -11,6 +11,7 @@ export interface OffshoreOperator {
   name: string;
   affiliateUrl: string;
   license: string;
+  logo?: string;
   bonusText: string;
   bonusNote?: string;
 }
@@ -20,6 +21,7 @@ export const OFFSHORE_OPERATORS: OffshoreOperator[] = [
     id: '7bitcasino',
     name: '7BitCasino',
     affiliateUrl: 'https://7bit.partners/pumbaxt1d',
+    logo: '/operators/7bitcasino.svg',
     license: 'Offshore-Lizenz (Curaçao)',
     bonusText: '325 % + 250 Freispiele',
     bonusNote: 'Willkommensbonus',
@@ -28,6 +30,7 @@ export const OFFSHORE_OPERATORS: OffshoreOperator[] = [
     id: 'miraxcasino',
     name: 'Mirax Casino',
     affiliateUrl: 'https://mirax.partners/pozice6cz',
+    logo: '/operators/miraxcasino.svg',
     license: 'Offshore-Lizenz (Curaçao)',
     bonusText: '325 % + 150 Freispiele',
     bonusNote: 'Willkommenspaket bis zu 5 BTC',
