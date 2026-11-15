@@ -35,4 +35,13 @@ export const OFFSHORE_OPERATORS: OffshoreOperator[] = [
     bonusText: '325 % + 150 Freispiele',
     bonusNote: 'Willkommenspaket bis zu 5 BTC',
   },
+  {
+    id: 'playamo',
+    name: 'PlayAmo',
+    affiliateUrl: 'https://mo.zenlaneo.com/redirect.aspx?pid=422914&bid=1511&lpid=87',
+    logo: '/operators/playamo.svg',
+    license: 'Offshore-Lizenz (Curaçao)',
+    bonusText: '200 € Bonus + 50 Freirunden',
+    bonusNote: 'Willkommensbonus',
+  },
 ];
