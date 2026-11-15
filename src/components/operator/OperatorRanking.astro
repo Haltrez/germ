@@ -8,17 +8,17 @@ const { ops } = Astro.props;
 ---
 <ol class="mt-8 space-y-5">
   {ops.map((o, i) => (
-    <li class:list={['card relative grid gap-5 p-5 sm:p-6 lg:grid-cols-[auto_auto_1fr_20rem] lg:items-center', i === 0 && 'border-gold-500/60']}>
+    <li class:list={['card relative grid grid-cols-[auto_auto_1fr] items-center gap-x-4 gap-y-4 p-5 sm:gap-x-5 sm:p-6 lg:grid-cols-[auto_auto_1fr_20rem]', i === 0 && 'border-gold-500/60']}>
       {i === 0 && <span class="absolute -top-3 left-6 rounded-md bg-gold-400 px-3 py-0.5 text-[0.7rem] font-bold uppercase tracking-wider text-[#241600]">Unsere Empfehlung</span>}
-      <span class:list={['font-display text-6xl', i === 0 ? 'text-gold-400' : 'text-transparent [-webkit-text-stroke:1.5px_var(--color-gold-500)]']}>{i + 1}</span>
-      <div class="flex h-24 w-28 items-center justify-center overflow-hidden rounded-2xl bg-ink-950 font-title font-bold text-fg">{o.data.logo ? <img src={o.data.logo} alt={`${o.data.name} Logo`} width="96" height="96" loading="lazy" class="h-20 w-20 rounded-xl object-contain" /> : o.data.name}</div>
+      <span class:list={['font-display text-4xl sm:text-6xl', i === 0 ? 'text-gold-400' : 'text-transparent [-webkit-text-stroke:1.5px_var(--color-gold-500)]']}>{i + 1}</span>
+      <div class="flex h-16 w-16 items-center justify-center overflow-hidden rounded-2xl bg-ink-950 font-title text-xs font-bold text-fg sm:h-24 sm:w-28">{o.data.logo ? <img src={o.data.logo} alt={`${o.data.name} Logo`} width="96" height="96" class="h-14 w-14 rounded-xl object-contain sm:h-20 sm:w-20" /> : o.data.name}</div>
       <div>
-        <h3 class="font-display text-3xl uppercase text-fg">{o.data.name}</h3>
+        <h3 class="font-display text-2xl uppercase text-fg sm:text-3xl">{o.data.name}</h3>
         {o.data.strengthTag && <p class="text-sm font-semibold text-gold-400">Stark bei: {o.data.strengthTag}</p>}
         <ul class="mt-2 space-y-1 text-sm text-fg">{o.data.pros.slice(0, 3).map((p) => <li class="flex gap-2"><span class="text-mint-400">✔</span>{p}</li>)}</ul>
         <p class="mt-2"><span class="badge-ggl">GGL-Lizenz{/\d/.test(o.data.licenseNumber ?? '') ? ` ${o.data.licenseNumber}` : ''}</span></p>
       </div>
-      <div class="space-y-2">
+      <div class="col-span-full space-y-2 lg:col-span-1">
         {o.data.bonusText !== 'TODO' && (
           <div class="rounded-xl border border-line bg-ink-950/60 p-3">
             <p class="text-[0.7rem] font-bold uppercase tracking-wider text-gold-400">Angebot</p>
