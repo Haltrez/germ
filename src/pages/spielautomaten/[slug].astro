@@ -4,7 +4,9 @@ import { getEntry, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import DemoPlayer from '../../components/slot/DemoPlayer.astro';
 import FactsBox from '../../components/slot/FactsBox.astro';
-import EchtgeldBox from '../../components/slot/EchtgeldBox.astro';
+import RealMoneyBox from '../../components/slot/RealMoneyBox.astro';
+import NightOnlyScript from '../../components/compliance/NightOnlyScript.astro';
+import { realMoneyOps } from '../../lib/realmoney.ts';
 import SlotCard from '../../components/slot/SlotCard.astro';
 import Faq from '../../components/ui/Faq.astro';
 import { getSlotViews, similarSlots, rtpText, rtpMax, isTodo, type SlotView } from '../../lib/slots.ts';
@@ -22,6 +24,7 @@ export const getStaticPaths = (async () => {
 const { slot } = Astro.props as { slot: SlotView };
 const all = await getSlotViews();
 const s = slot.data;
+const rmOps = await realMoneyOps(4);
 const providerName = slot.provider?.data.name ?? s.provider;
 const text = slot.text?.data;
 const Content = slot.text ? (await render(slot.text)).Content : null;
@@ -96,14 +99,21 @@ const jsonLd = [
 
     <div class="mt-8 grid gap-6 lg:grid-cols-[1.6fr_1fr] lg:items-start">
       <div class="space-y-3">
-        <DemoPlayer {slot} />
+        <DemoPlayer {slot} realMoney={rmOps} />
+        <RealMoneyBox name={s.name} ops={rmOps} class="mt-4" headingId="realmoney-top" columns={1} />
+        <div class="card mt-4 flex flex-col items-center gap-3 border-gold-500/50 p-5 text-center sm:flex-row sm:text-left" data-day-only>
+          <div class="flex-1">
+            <p class="font-title text-lg font-bold text-fg">{s.name} mit Echtgeld spielen?</p>
+            <p class="text-sm text-muted">Vergleiche Online-Spielotheken mit deutscher Erlaubnis – geprüft auf der GGL-Whitelist.</p>
+          </div>
+          <a href="/echtgeld-spielotheken/" class="btn btn-primary !min-h-12 w-full !px-6 text-base sm:w-auto">Spielotheken vergleichen</a>
+        </div>
         <div class="flex flex-wrap items-center justify-between gap-3">
           <a href={`/hersteller/${s.provider}/`} class="inline-block py-2 text-sm text-mint-300 underline underline-offset-2">Mehr {providerName} Slots</a>
         </div>
       </div>
       <div class="space-y-6">
         <FactsBox {slot} />
-        <EchtgeldBox {slot} />
         <div class="card border-gold-500/40 p-5 sm:p-6">
           <p class="font-title text-lg font-bold text-fg">{s.name} mit Echtgeld spielen?</p>
           <p class="mt-1 text-sm text-muted">Vergleiche Online-Spielotheken mit deutscher Erlaubnis – geprüft auf der offiziellen GGL-Whitelist.</p>
@@ -111,6 +121,9 @@ const jsonLd = [
         </div>
       </div>
     </div>
+
+    <RealMoneyBox name={s.name} ops={rmOps} />
+    <NightOnlyScript />
 
     {Content ? (
       <article class="prose-site mt-14">

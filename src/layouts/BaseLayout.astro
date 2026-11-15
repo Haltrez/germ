@@ -2,6 +2,7 @@
 import '../styles/global.css';
 import RgBlock from '../components/compliance/RgBlock.astro';
 import CookieConsent from '../components/compliance/CookieConsent.astro';
+import VercelAnalytics from '../components/compliance/VercelAnalytics.astro';
 import Header from '../components/layout/Header.astro';
 import Footer from '../components/layout/Footer.astro';
 import Breadcrumbs from '../components/layout/Breadcrumbs.astro';
@@ -91,5 +92,6 @@ const ld = [...(crumbs ? [breadcrumbSchema(crumbs)] : []), ...jsonLd];
     <Footer />
     <MobileBar slotName={mobileSlot} />
     <CookieConsent />
+    <VercelAnalytics />
   </body>
 </html>

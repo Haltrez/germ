@@ -1,0 +1,35 @@
+---
+/** News hub: newest first. */
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { itemListSchema } from '../../lib/schema.ts';
+import { formatDateDE } from '../../lib/i18n/de.ts';
+
+const LABEL: Record<string, string> = { 'neue-slots': 'Neue Slots', markt: 'Markt & Regulierung', report: 'Report' };
+const items = (await getCollection('news', (n) => !n.data.draft)).sort((a, b) => b.data.published.localeCompare(a.data.published) || a.id.localeCompare(b.id));
+---
+<BaseLayout
+  title="Slot-News: Neue Spielautomaten & Markt-News"
+  description="Aktuelle Slot-News: neue Spielautomaten der Hersteller, Nachrichten zum deutschen Glücksspielmarkt und Reports – mehrmals pro Woche aktualisiert."
+  breadcrumbs={[{ name: 'News', href: '/news/' }]}
+  jsonLd={[itemListSchema('Slot-News', items.slice(0, 30).map((n) => ({ name: n.data.title, path: `/news/${n.id}/` })))]}
+>
+  <section class="container-site pt-8">
+    <p class="eyebrow">Mehrmals pro Woche neu</p>
+    <h1 class="mt-3 section-title !text-[clamp(2.2rem,5vw,3.75rem)]">Slot-News</h1>
+    <p class="section-sub">Neue Spielautomaten, Nachrichten zum deutschen Glücksspielmarkt und unsere Reports.</p>
+    {items.length === 0 ? <p class="mt-8 text-muted">Die ersten Artikel erscheinen in Kürze.</p> : (
+      <ul class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {items.map((n) => (
+          <li>
+            <a href={`/news/${n.id}/`} class="card block h-full p-6 transition hover:border-gold-500/60">
+              <p class="text-xs font-semibold uppercase tracking-wider text-gold-400">{LABEL[n.data.category]} · <time datetime={n.data.published}>{formatDateDE(n.data.published)}</time></p>
+              <p class="mt-2 font-title text-lg font-bold text-fg">{n.data.title}</p>
+              <p class="mt-2 text-sm text-muted">{n.data.description}</p>
+            </a>
+          </li>
+        ))}
+      </ul>
+    )}
+  </section>
+</BaseLayout>

@@ -267,6 +267,23 @@ export const guideSchema = z.object({
   draft: z.boolean().default(false),
 });
 
+// ---------------------------------------------------------------- News
+export const NEWS_CATEGORIES = ['neue-slots', 'markt', 'report'] as const;
+export const newsSchema = z.object({
+  title: z.string().min(10).max(110),
+  metaTitle: z.string().max(60).optional(),
+  description: z.string().max(155),
+  category: z.enum(NEWS_CATEGORIES),
+  author: slug(),
+  published: isoDate(),
+  updated: isoDate(),
+  /** Official sources (provider press pages, GGL, etc.) the article is based on. */
+  sources: z.array(z.object({ label: z.string(), url: z.url() })).default([]),
+  relatedSlots: z.array(slug()).default([]),
+  draft: z.boolean().default(false),
+});
+export type NewsArticle = z.infer<typeof newsSchema>;
+
 // ---------------------------------------------------------------- Glossary
 export const glossarySchema = z.object({
   term: z.string().min(1),

@@ -1,0 +1,16 @@
+---
+/**
+ * Vercel Web Analytics (cookieless). Loaded only after "Statistik" consent,
+ * as promised in the consent banner and the privacy policy.
+ */
+---
+<script>
+  import { inject } from '@vercel/analytics';
+  let loaded = false;
+  const load = () => { if (!loaded) { loaded = true; inject({ framework: 'astro' }); } };
+  try {
+    const c = JSON.parse(localStorage.getItem('ksa-consent') ?? 'null');
+    if (c?.v === 1 && c.statistics) load();
+  } catch { /* storage blocked */ }
+  document.addEventListener('ksa:consent', (e) => { if ((e as CustomEvent).detail?.statistics) load(); });
+</script>

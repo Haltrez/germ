@@ -1,0 +1,22 @@
+---
+/** A–Z directory hub: crawlable links to every letter page. */
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getSlotViews } from '../../../lib/slots.ts';
+import { LETTERS, groupByLetter } from '../../../lib/az.ts';
+const groups = groupByLetter(await getSlotViews());
+---
+<BaseLayout
+  title="Alle Spielautomaten von A bis Z"
+  description="Alle kostenlosen Spielautomaten von A bis Z: über 2.300 Slots mit offizieller Demo und Herstellerdaten – alphabetisch sortiert zum schnellen Finden."
+  breadcrumbs={[{ name: 'Spielautomaten', href: '/spielautomaten/' }, { name: 'A–Z', href: '/spielautomaten/a-z/' }]}
+>
+  <section class="container-site pt-6">
+    <h1 class="text-3xl font-extrabold text-fg sm:text-5xl">Alle Spielautomaten von A bis Z</h1>
+    <p class="mt-4 max-w-3xl text-muted">Wähle einen Anfangsbuchstaben und finde jeden Slot, den du bei uns kostenlos spielen kannst.</p>
+    <ul class="mt-8 grid grid-cols-4 gap-3 sm:grid-cols-7 lg:grid-cols-9">
+      {LETTERS.filter((l) => groups.has(l)).map((l) => (
+        <li><a href={`/spielautomaten/a-z/${l}/`} class="card flex h-20 flex-col items-center justify-center hover:border-gold-500/60"><span class="font-display text-2xl uppercase text-fg">{l}</span><span class="text-xs text-subtle">{groups.get(l)!.length} Slots</span></a></li>
+      ))}
+    </ul>
+  </section>
+</BaseLayout>

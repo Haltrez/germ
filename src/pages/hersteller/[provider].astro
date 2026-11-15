@@ -36,7 +36,14 @@ const title = [`${name} Slots kostenlos spielen – alle Spiele`, `${name} Slots
       {slots.slice(0, 60).map((s) => <SlotCard slot={s} />)}
     </div>
     {slots.length > 60 && (
-      <p class="mt-6 text-center"><a class="btn btn-secondary" href={`/spielautomaten/?hersteller=${p.id}`}>Alle {slots.length.toLocaleString('de-DE')} {name} Slots in der Spielhalle</a></p>
+      <section class="mt-12">
+        <h2 class="text-2xl font-bold text-fg">Alle {slots.length.toLocaleString('de-DE')} {name} Slots von A bis Z</h2>
+        <ul class="mt-4 columns-2 gap-x-6 text-sm sm:columns-3 lg:columns-4">
+          {[...slots].sort((a, b) => a.data.name.localeCompare(b.data.name, 'de')).map((s) => (
+            <li class="break-inside-avoid py-1"><a href={`/spielautomaten/${s.id}/`} class="text-muted hover:text-fg hover:underline">{s.data.name}</a></li>
+          ))}
+        </ul>
+      </section>
     )}
   </section>
 </BaseLayout>
