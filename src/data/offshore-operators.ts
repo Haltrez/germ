@@ -29,6 +29,8 @@ export const OFFSHORE_OPERATORS: OffshoreOperator[] = [
     websiteUrl: 'https://koalabet.io/',
     logo: '/operators/koalabet.png',
     license: 'Offshore-Lizenz (Komoren)',
+    bonusText: 'Bis zu 700 $',
+    bonusNote: 'Willkommensbonus',
     topPick: true,
   },
   {
