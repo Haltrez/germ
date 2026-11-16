@@ -17,7 +17,7 @@ export const SITE_OG_LOCALE = 'de_DE';
 export const SITE_TIMEZONE = 'Europe/Berlin';
 
 /** Default social preview image (in /public). */
-export const DEFAULT_OG_IMAGE = '/og-default.png';
+export const DEFAULT_OG_IMAGE = '/og-default.jpg';
 
 /**
  * Company details for Impressum / schema. All TODO until the owner fills them in.

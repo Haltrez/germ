@@ -25,7 +25,7 @@ const title = slotCount >= 50
   ? `Kostenlose Spielautomaten – ${n(Math.floor(slotCount / 100) * 100)}+ Slots gratis spielen`
   : 'Kostenlose Spielautomaten – gratis spielen ohne Anmeldung';
 const description =
-  'Kostenlose Spielautomaten ohne Anmeldung: über 1.700 offizielle Slot-Demos, echte Herstellerdaten zu RTP & Max Win und nur GGL-lizenzierte Spielotheken.';
+  `Kostenlose Spielautomaten ohne Anmeldung: über ${n(Math.floor(slotCount / 100) * 100)} offizielle Slot-Demos, echte Herstellerdaten zu RTP & Max Win und nur GGL-lizenzierte Spielotheken.`;
 
 const chips = [
   ...['hold-and-win', 'book', 'megaways', 'bonus-buy', 'classic'].map((code) => CATEGORIES.find((c) => c.code === code)!)
