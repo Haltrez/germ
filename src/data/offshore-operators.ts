@@ -26,7 +26,7 @@ export const OFFSHORE_OPERATORS: OffshoreOperator[] = [
   {
     id: 'koalabet',
     name: 'KoalaBet',
-    websiteUrl: 'https://koalabet.io/',
+    affiliateUrl: 'https://click.koalabetaffiliates.com/redirect.aspx?pid=2408&lpid=8&bid=1479',
     logo: '/operators/koalabet.png',
     license: 'Offshore-Lizenz (Komoren)',
     bonusText: 'Bis zu 700 $',
