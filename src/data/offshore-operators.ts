@@ -9,14 +9,28 @@ export const OFFSHORE_PAGE_PATH = '/krypto-spielotheken/';
 export interface OffshoreOperator {
   id: string;
   name: string;
-  affiliateUrl: string;
+  /** Tracking link. Rendered as a sponsored link with an "Anzeige" label. */
+  affiliateUrl?: string;
+  /** Plain website link, used until a tracking link exists (no "Anzeige", rel="nofollow"). */
+  websiteUrl?: string;
   license: string;
   logo?: string;
-  bonusText: string;
+  /** Omit until the operator's current offer is confirmed. */
+  bonusText?: string;
   bonusNote?: string;
+  /** Shown first with the "Unsere Empfehlung" badge. */
+  topPick?: boolean;
 }
 
 export const OFFSHORE_OPERATORS: OffshoreOperator[] = [
+  {
+    id: 'koalabet',
+    name: 'KoalaBet',
+    websiteUrl: 'https://koalabet.io/',
+    logo: '/operators/koalabet.png',
+    license: 'Offshore-Lizenz (Komoren)',
+    topPick: true,
+  },
   {
     id: '7bitcasino',
     name: '7BitCasino',

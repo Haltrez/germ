@@ -9,7 +9,8 @@ import { OFFSHORE_OPERATORS } from '../data/offshore-operators.ts';
 import { AFFILIATE_REL } from '../lib/compliance.ts';
 
 const TOTAL_SLOTS = 5;
-const placeholders = Array.from({ length: Math.max(0, TOTAL_SLOTS - OFFSHORE_OPERATORS.length) }, (_, i) => OFFSHORE_OPERATORS.length + i + 1);
+const ops = [...OFFSHORE_OPERATORS].sort((a, b) => Number(!!b.topPick) - Number(!!a.topPick));
+const placeholders = Array.from({ length: Math.max(0, TOTAL_SLOTS - ops.length) }, (_, i) => ops.length + i + 1);
 ---
 <BaseLayout
   title="Krypto-Spielotheken im Vergleich"
@@ -23,15 +24,16 @@ const placeholders = Array.from({ length: Math.max(0, TOTAL_SLOTS - OFFSHORE_OPE
     <div class="card mt-6 border-gold-500/40 p-4 text-sm text-muted sm:p-5" data-offshore-disclaimer role="note">
       <p class="font-bold text-fg">Hinweis: Offshore-Anbieter</p>
       <p class="mt-1">
-        Die hier gelisteten Anbieter sind Offshore-Anbieter mit einer Lizenz aus Curaçao. Sie haben keine deutsche
+        Die hier gelisteten Anbieter sind Offshore-Anbieter mit einer Lizenz aus Curaçao oder von den Komoren. Sie haben keine deutsche
         Glücksspiellizenz und richten sich nicht an Spieler mit Wohnsitz in Deutschland. Prüfe vor der Anmeldung, ob die
         Teilnahme in deinem Land erlaubt ist. Es gelten die Bonusbedingungen des jeweiligen Anbieters. Spielen ab 18 Jahren.
       </p>
     </div>
 
     <ol class="mt-8 space-y-5">
-      {OFFSHORE_OPERATORS.map((o, i) => (
+      {ops.map((o, i) => (
         <li class:list={['card relative grid gap-5 p-5 sm:p-6 lg:grid-cols-[auto_auto_1fr_20rem] lg:items-center', i === 0 && 'border-gold-500/60']}>
+          {o.topPick && <span class="absolute -top-3 left-6 rounded-md bg-gold-400 px-3 py-0.5 text-[0.7rem] font-bold uppercase tracking-wider text-[#241600]">Unsere Empfehlung</span>}
           <span class:list={['font-display text-6xl', i === 0 ? 'text-gold-400' : 'text-transparent [-webkit-text-stroke:1.5px_var(--color-gold-500)]']}>{i + 1}</span>
           <div class="flex h-24 w-28 items-center justify-center overflow-hidden rounded-2xl bg-ink-950 p-2 text-center font-title font-bold text-fg">{o.logo ? <img src={o.logo} alt={`${o.name} Logo`} width="96" height="64" loading="eager" class="h-16 w-24 object-contain" /> : o.name}</div>
           <div>
@@ -41,15 +43,21 @@ const placeholders = Array.from({ length: Math.max(0, TOTAL_SLOTS - OFFSHORE_OPE
           <div class="space-y-2">
             <div class="rounded-xl border border-line bg-ink-950/60 p-3">
               <p class="text-[0.7rem] font-bold uppercase tracking-wider text-gold-400">Angebot</p>
-              <p class="font-bold text-fg">{o.bonusText}</p>
+              <p class="font-bold text-fg">{o.bonusText ?? 'Details beim Anbieter'}</p>
               {o.bonusNote && <p class="text-sm text-muted">{o.bonusNote}</p>}
             </div>
-            <span class="flex flex-col items-stretch gap-1">
-              <a href={o.affiliateUrl} rel={AFFILIATE_REL} target="_blank" data-affiliate={o.id} class="btn btn-primary w-full">
-                Zum Anbieter<span class="sr-only"> (öffnet {o.name} in neuem Tab, Affiliate-Link)</span>
+            {o.affiliateUrl ? (
+              <span class="flex flex-col items-stretch gap-1">
+                <a href={o.affiliateUrl} rel={AFFILIATE_REL} target="_blank" data-affiliate={o.id} class="btn btn-primary w-full">
+                  Zum Anbieter<span class="sr-only"> (öffnet {o.name} in neuem Tab, Affiliate-Link)</span>
+                </a>
+                <span class="text-center text-[0.6875rem] text-subtle" data-affiliate-disclosure>Anzeige</span>
+              </span>
+            ) : (
+              <a href={o.websiteUrl} rel="nofollow noopener" target="_blank" class="btn btn-primary w-full">
+                Zum Anbieter<span class="sr-only"> (öffnet {o.name} in neuem Tab)</span>
               </a>
-              <span class="text-center text-[0.6875rem] text-subtle" data-affiliate-disclosure>Anzeige</span>
-            </span>
+            )}
           </div>
         </li>
       ))}
