@@ -60,11 +60,4 @@ export const OFFSHORE_OPERATORS: OffshoreOperator[] = [
     bonusText: '200 € Bonus + 50 Freirunden',
     bonusNote: 'Willkommensbonus',
   },
-  {
-    id: 'metawin',
-    name: 'MetaWin',
-    affiliateUrl: 'https://affiliates-link.metawin.com/dnXkrJyz?campaign=german',
-    logo: '/operators/metawin.png',
-    license: 'Offshore-Lizenz (Komoren)',
-  },
 ];
