@@ -1,0 +1,184 @@
+---
+/**
+ * Factual profile of one GGL-licensed operator. Shows only what was verified on the
+ * official whitelist or the operator's own website; unverified points are named as such.
+ */
+import type { GetStaticPaths } from 'astro';
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import OperatorCta from '../../components/compliance/OperatorCta.astro';
+import AffiliateDisclosure from '../../components/compliance/AffiliateDisclosure.astro';
+import Faq from '../../components/ui/Faq.astro';
+import { isPromotable } from '../../lib/compliance.ts';
+import { faqSchema } from '../../lib/schema.ts';
+import { formatDateDE } from '../../lib/i18n/de.ts';
+
+const WHITELIST = 'https://www.gluecksspiel-behoerde.de/de/fuer-spielende/uebersicht-erlaubter-anbieter-whitelist';
+
+export const getStaticPaths = (async () => {
+  const ops = (await getCollection('operators')).filter((o) => isPromotable(o.data)).sort((a, b) => a.data.sortOrder - b.data.sortOrder);
+  return ops.map((o) => ({ params: { operator: o.id }, props: { op: o, others: ops.filter((x) => x.id !== o.id) } }));
+}) satisfies GetStaticPaths;
+
+const { op, others } = Astro.props;
+const d = op.data;
+const p = d.profile;
+const path = `/echtgeld-spielotheken/${op.id}/`;
+const since = d.licensedSince ? formatDateDE(d.licensedSince) : null;
+const checked = formatDateDE(d.gglWhitelistCheckedAt!);
+const products = d.licensedProducts.join(', ');
+const title = `${d.name}: Lizenz, Angebot & Fakten im Check`;
+const description = `${d.name} im Check: Erlaubnis der GGL${since ? ` seit ${since}` : ''}, Betreiber${p?.offer ? ', Willkommensangebot' : ''}${p?.payments.length ? ', Zahlungswege' : ''} und Regeln. Geprüft am ${checked}.`;
+
+const faq = [
+  { q: `Ist ${d.name} in Deutschland legal?`, a: `Ja. ${d.name} steht auf der Whitelist der Gemeinsamen Glücksspielbehörde der Länder (GGL)${d.licenseHolder !== 'TODO' ? `, Inhaber der Erlaubnis ist die ${d.licenseHolder}` : ''}. Wir haben den Eintrag zuletzt am ${checked} geprüft.` },
+  { q: `Wie hoch ist der maximale Einsatz bei ${d.name}?`, a: 'Wie bei allen Anbietern mit deutscher Erlaubnis höchstens 1 € pro Spiel. Dazu kommen die 5-Sekunden-Regel und das Verbot von Autoplay.' },
+  ...(p?.offer ? [{ q: `Welches Willkommensangebot hat ${d.name}?`, a: `Laut Anbieterseite (Stand ${formatDateDE(p.checkedAt)}): ${p.offer.headline}. Es gelten Umsatzbedingungen und Fristen, die du vor der Einzahlung lesen solltest.` }] : []),
+  ...(p?.payments.length ? [{ q: `Welche Zahlungsmethoden gibt es bei ${d.name}?`, a: `Der Anbieter nennt ${p.payments.join(', ')}. Eingezahlt wird in Euro, das Einzahlungslimit über LUGAS gilt auch hier.` }] : []),
+  { q: `Kann ich die Slots von ${d.name} vorher kostenlos testen?`, a: 'Viele Slots bekannter Hersteller findest du bei uns als kostenlose Demo ohne Anmeldung. So lernst du ein Spiel kennen, bevor du Geld einsetzt.' },
+];
+---
+<BaseLayout
+  title={title.length <= 60 ? title : `${d.name}: Lizenz & Fakten im Check`}
+  description={description.slice(0, 155)}
+  breadcrumbs={[{ name: 'Spielotheken', href: '/echtgeld-spielotheken/' }, { name: d.name, href: path }]}
+  jsonLd={[faqSchema(faq)]}
+>
+  <article class="container-site pb-4 pt-8">
+    <header class="flex flex-wrap items-center gap-5">
+      {d.logo && <img src={d.logo} alt={`${d.name} Logo`} width="96" height="96" class="h-20 w-20 rounded-2xl bg-ink-950 object-contain p-2 sm:h-24 sm:w-24" />}
+      <div class="min-w-0 flex-1">
+        <p class="eyebrow">Geprüft auf der GGL-Whitelist</p>
+        <h1 class="mt-2 text-3xl font-extrabold text-fg sm:text-5xl">{d.name} im Check</h1>
+        <p class="mt-2 text-sm text-subtle">Zuletzt geprüft: <time datetime={d.gglWhitelistCheckedAt}>{checked}</time></p>
+      </div>
+    </header>
+
+    <div class="mt-8 grid gap-6 lg:grid-cols-[1fr_20rem]">
+      <div class="card overflow-hidden">
+        <table class="w-full text-sm">
+          <tbody class="[&_td]:px-4 [&_td]:py-3 [&_th]:w-40 [&_th]:px-4 [&_th]:py-3 [&_th]:text-left [&_th]:font-semibold [&_th]:text-subtle [&_tr]:border-b [&_tr]:border-line last:[&_tr]:border-0">
+            {d.licenseHolder !== 'TODO' && <tr><th scope="row">Betreiber</th><td>{d.licenseHolder}{d.licenseHolderAddress && <span class="block text-xs text-subtle">{d.licenseHolderAddress}</span>}</td></tr>}
+            <tr><th scope="row">Erlaubnis</th><td>Gemeinsame Glücksspielbehörde der Länder (GGL)</td></tr>
+            {products && <tr><th scope="row">Erlaubt sind</th><td>{products}</td></tr>}
+            {since && <tr><th scope="row">Erlaubnis seit</th><td>{since} (virtuelle Automatenspiele)</td></tr>}
+            {d.whitelistDomains.length > 0 && <tr><th scope="row">Adresse laut Whitelist</th><td>{d.whitelistDomains.join(', ')}</td></tr>}
+            <tr><th scope="row">Höchsteinsatz</th><td>1 € pro Spiel</td></tr>
+            <tr><th scope="row">Mindestalter</th><td>18 Jahre</td></tr>
+            {p?.slotCount && <tr><th scope="row">Spielangebot</th><td>{p.slotCount}</td></tr>}
+          </tbody>
+        </table>
+      </div>
+      <aside class="card h-fit p-5">
+        {p?.offer && (
+          <>
+            <p class="text-[0.7rem] font-bold uppercase tracking-wider text-gold-400">Angebot für Neukunden</p>
+            <p class="mt-1 font-bold text-fg">{p.offer.headline}</p>
+            <p class="mt-1 text-xs text-subtle">Es gelten die <a href={p.offer.termsUrl} rel="nofollow noopener" target="_blank" class="underline">Bedingungen des Anbieters</a>.</p>
+          </>
+        )}
+        <OperatorCta slug={op.id} operator={d} class="mt-4 w-full" />
+        <AffiliateDisclosure class="mt-3" />
+      </aside>
+    </div>
+
+    <div class="prose-site mt-10">
+      <h2>Lizenz und Betreiber</h2>
+      <p>
+        {d.name} steht auf der <a href={WHITELIST} rel="nofollow noopener" target="_blank">offiziellen Whitelist der GGL</a>.
+        {d.licenseHolder !== 'TODO' && <> Inhaber der Erlaubnis ist die {d.licenseHolder}{d.licenseHolderAddress?.includes('Malta') ? ' mit Sitz in Malta' : ''}.</>}
+        {since && <> Die Erlaubnis für virtuelle Automatenspiele besteht seit dem {since}.</>}
+        {d.licensedProducts.length > 1 && <> Außerdem ist der Anbieter für {d.licensedProducts.filter((x) => x !== 'Virtuelle Automatenspiele').join(' und ')} zugelassen.</>}
+      </p>
+      <p>
+        Der Sitz im Ausland ändert nichts an den Regeln: Maßgeblich ist die deutsche Erlaubnis. Damit gelten das
+        {' '}<a href="/glossar/einsatzlimit/">Einsatzlimit</a> von 1 €, die <a href="/glossar/5-sekunden-regel/">5-Sekunden-Regel</a>,
+        das Einzahlungslimit über <a href="/glossar/lugas/">LUGAS</a>, die Abfrage der Sperrdatei
+        {' '}<a href="/glossar/oasis/">OASIS</a> und der <a href="/glossar/panik-button/">Panik-Button</a>.
+      </p>
+
+      <h2>Willkommensangebot</h2>
+      {p?.offer ? (
+        <>
+          <p>Laut Anbieterseite gilt derzeit (Stand {formatDateDE(p.checkedAt)}): <strong>{p.offer.headline}</strong>.</p>
+          <ul>{p.offer.terms.map((t) => <li>{t}</li>)}</ul>
+          <p>
+            Ein Bonus ist kein geschenktes Geld. Bevor du auszahlen kannst, musst du den geforderten Umsatz in der Frist
+            erreichen, und das gelingt nicht immer. Lies die <a href={p.offer.termsUrl} rel="nofollow noopener" target="_blank">vollständigen Bedingungen</a>,
+            bevor du einzahlst. Angebote können sich jederzeit ändern.
+          </p>
+        </>
+      ) : (
+        <p>
+          Die aktuellen Bonusbedingungen von {d.name} konnten wir nicht direkt auf der Anbieterseite prüfen. Deshalb nennen wir
+          hier keine Zahlen aus zweiter Hand. Das gültige Angebot samt Umsatzbedingungen und Fristen steht auf der Seite des
+          Anbieters. Lies es, bevor du einzahlst.
+        </p>
+      )}
+
+      <h2>Ein- und Auszahlungen</h2>
+      {p?.payments.length ? (
+        <>
+          <p>{d.name} nennt diese Zahlungswege: {p.payments.join(', ')}. Das Konto wird in Euro geführt.</p>
+          {p.payoutNote && <p>{p.payoutNote}</p>}
+        </>
+      ) : (
+        <p>Welche Zahlungswege {d.name} aktuell anbietet, steht auf der Seite des Anbieters. Von uns geprüfte Angaben liegen noch nicht vor.</p>
+      )}
+      <p>
+        Unabhängig vom Anbieter gilt: Über alle legalen Spielotheken hinweg kannst du standardmäßig höchstens 1.000 € im Monat
+        einzahlen. Vor der ersten Auszahlung musst du deine Identität bestätigen. Mehr dazu im Ratgeber
+        {' '}<a href="/ratgeber/lugas-einzahlungslimit/">LUGAS und Einzahlungslimit</a>.
+      </p>
+
+      <h2>Spielangebot</h2>
+      {p?.providers.length ? (
+        <p>
+          {p.slotCount ? <>Der Anbieter nennt {p.slotCount}. </> : null}
+          Als Hersteller führt er unter anderem {p.providers.join(', ')} auf. Tischspiele und Live-Spiele gehören nicht zur
+          Erlaubnis für virtuelle Automatenspiele, <a href="/glossar/jackpot/">Jackpots</a> sind bei Slots nicht erlaubt.
+        </p>
+      ) : (
+        <p>
+          Zum Umfang des Spielangebots liegen uns keine geprüften Angaben des Anbieters vor. Fest steht: Die Erlaubnis gilt für
+          virtuelle Automatenspiele, also Slots. <a href="/glossar/jackpot/">Jackpots</a> sind dabei nicht erlaubt.
+        </p>
+      )}
+      <p>
+        Viele bekannte Slots kannst du bei uns vorab als <a href="/spielautomaten/">kostenlose Demo</a> testen, sortiert zum
+        Beispiel nach <a href="/hersteller/">Hersteller</a>.
+      </p>
+
+      {(p?.support || p?.apps) && (
+        <>
+          <h2>Kundendienst und App</h2>
+          {p.support && <p>Kundendienst: {p.support}.</p>}
+          {p.apps && <p>{p.apps}</p>}
+        </>
+      )}
+
+      <h2>So haben wir geprüft</h2>
+      <p>
+        Lizenz, Betreiber und Datum stammen von der Whitelist der GGL (geprüft am {checked}).
+        {p ? <> Angaben zu Angebot, Zahlungen, Spielen und Service stammen von der Internetseite des Anbieters (Stand {formatDateDE(p.checkedAt)}).</> : <> Weitere Angaben ergänzen wir, sobald wir sie direkt beim Anbieter prüfen konnten.</>}
+        {' '}Wie wir vorgehen, steht in unserer <a href="/bewertungsmethodik/">Bewertungsmethodik</a>.
+      </p>
+      <p>
+        Glücksspiel kann süchtig machen. Setze nur Geld ein, dessen Verlust du verkraftest. Hilfe findest du unter
+        {' '}<a href="/verantwortungsvoll-spielen/">Verantwortungsvoll spielen</a>.
+      </p>
+    </div>
+
+    <div class="mt-12 max-w-4xl"><Faq items={faq} title={`Häufige Fragen zu ${d.name}`} /></div>
+
+    {others.length > 0 && (
+      <section class="mt-12">
+        <h2 class="section-title">Weitere Anbieter mit GGL-Erlaubnis</h2>
+        <ul class="mt-4 flex flex-wrap gap-3">
+          {others.map((o) => <li><a href={`/echtgeld-spielotheken/${o.id}/`} class="card block px-5 py-3 font-semibold text-fg hover:border-gold-500/60">{o.data.name}</a></li>)}
+          <li><a href="/echtgeld-spielotheken/" class="card block px-5 py-3 font-semibold text-mint-300 hover:border-gold-500/60">Zum Vergleich →</a></li>
+        </ul>
+      </section>
+    )}
+  </article>
+</BaseLayout>

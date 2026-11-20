@@ -3,10 +3,10 @@
   "isPlaceholder": false,
   "gglLicensed": true,
   "licenseNumber": "GGL-Whitelist",
-  "licenseHolder": "TODO",
-  "gglWhitelistCheckedAt": "2026-11-15",
+  "licenseHolder": "Merkur Bets Malta Limited",
+  "gglWhitelistCheckedAt": "2026-11-20",
   "affiliateUrl": null,
-  "websiteUrl": "https://www.merkur-slots.de/",
+  "websiteUrl": "https://www.merkurbets.de/slots",
   "bonusText": "TODO",
   "bonusTermsUrl": null,
   "paymentMethods": [],
@@ -23,5 +23,15 @@
   "rating": null,
   "featured": false,
   "sortOrder": 2,
-  "logo": "/operators/merkur.png"
+  "logo": "/operators/merkur.png",
+  "licenseHolderAddress": "Level 3, St Julians Business Centre, Triq Elija Zammit, St. Julian’s STJ 3155, Malta",
+  "licensedSince": "2023-11-03",
+  "licensedProducts": [
+    "Virtuelle Automatenspiele",
+    "Sportwetten"
+  ],
+  "whitelistDomains": [
+    "merkurslots.de",
+    "merkurbets.de"
+  ]
 }
