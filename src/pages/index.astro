@@ -11,6 +11,7 @@ import { COMPLIANCE } from '../config/site.ts';
 import { isPromotable } from '../lib/compliance.ts';
 import { getSlotViews, rtpMax, rtpText, volatilityText } from '../lib/slots.ts';
 import { organizationSchema, websiteSchema, faqSchema } from '../lib/schema.ts';
+import { formatDateDE } from '../lib/i18n/de.ts';
 
 const [views, providers, operators] = await Promise.all([getSlotViews(), getCollection('providers'), getCollection('operators')]);
 const ops = operators
@@ -19,6 +20,8 @@ const ops = operators
 const featured = ops.find((o) => o.data.featured);
 const reviewed = views.filter((v) => v.reviewed);
 const slotCount = views.length;
+const demoCount = views.filter((v) => !!v.data.demoUrl).length;
+const latestNews = (await getCollection('news', (x) => !x.data.draft)).sort((a, b) => b.data.published.localeCompare(a.data.published)).slice(0, 3);
 const n = (x: number) => x.toLocaleString('de-DE');
 
 const title = slotCount >= 50
@@ -63,15 +66,15 @@ const faq = [
 <BaseLayout {title} {description} showRgBlock jsonLd={[organizationSchema(), websiteSchema(), faqSchema(faq)]}>
   <!-- HERO -->
   <section class="border-b border-line">
-    <div class="container-site grid items-center gap-10 pb-14 pt-10 sm:pt-14 lg:grid-cols-[1.35fr_1fr] lg:gap-14 lg:pt-20">
+    <div class="container-site grid items-center gap-8 pb-10 pt-6 sm:gap-10 sm:pb-14 sm:pt-14 lg:grid-cols-[1.35fr_1fr] lg:gap-14 lg:pt-20">
       <div class="min-w-0">
         <p class="eyebrow">Offizielle Demos · Echte Daten · Ohne Anmeldung</p>
         <h1 class="mt-4 text-[2.6rem] uppercase text-fg min-[400px]:text-5xl sm:text-6xl lg:text-7xl">
           Kostenlose Spielautomaten <span class="text-gold-400">ohne Anmeldung spielen</span>
         </h1>
-        <p class="mt-5 max-w-xl text-lg text-muted">
-          Über {n(Math.floor(slotCount / 100) * 100)} offizielle Slot-Demos von {providers.length} Herstellern – mit Spielgeld, ohne Konto und ohne Einzahlung.
-          Zu jedem Spiel bekommst du die Werte direkt vom Hersteller: RTP, Volatilität und Maximalgewinn.
+        <p class="mt-4 max-w-xl text-base text-muted sm:mt-5 sm:text-lg">
+          Über {n(Math.floor(slotCount / 100) * 100)} Spielautomaten von {providers.length} Herstellern, davon über {n(Math.floor(demoCount / 100) * 100)} als offizielle Demo – mit Spielgeld, ohne Konto und ohne Einzahlung.
+          <span class="hidden sm:inline">Zu jedem Spiel bekommst du die Werte direkt vom Hersteller: RTP, Volatilität und Maximalgewinn.</span>
         </p>
 
         <div class="mt-7 flex flex-wrap gap-3">
@@ -204,6 +207,26 @@ const faq = [
   )}
 
   <!-- SPIELERSCHUTZ -->
+  {latestNews.length > 0 && (
+    <section class="container-site py-14" aria-labelledby="news-title">
+      <div class="flex flex-wrap items-end justify-between gap-3">
+        <h2 id="news-title" class="section-title">Aktuelle Slot-News</h2>
+        <a href="/news/" class="text-sm font-semibold text-gold-300 hover:underline">Alle News →</a>
+      </div>
+      <ul class="mt-6 grid gap-4 md:grid-cols-3">
+        {latestNews.map((x) => (
+          <li>
+            <a href={`/news/${x.id}/`} class="card block h-full p-5 transition hover:border-gold-500/60">
+              <p class="text-xs font-semibold uppercase tracking-wider text-gold-400"><time datetime={x.data.published}>{formatDateDE(x.data.published)}</time></p>
+              <p class="mt-2 font-title text-lg font-bold text-fg">{x.data.title}</p>
+              <p class="mt-2 line-clamp-3 text-sm text-muted">{x.data.description}</p>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
   <section class="band-alt py-16" aria-labelledby="rules-title">
     <div class="container-site">
       <h2 id="rules-title" class="section-title">Klare Regeln bei legalen Spielotheken</h2>

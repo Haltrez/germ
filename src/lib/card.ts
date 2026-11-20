@@ -28,7 +28,8 @@ export function cardHtml(r: LobbyRec, eager = false): string {
   const href = `/spielautomaten/${r.s}/`;
   let media: string;
   if (r.t) {
-    media = `<img src="${r.t}" alt="${esc(r.n)} Spielautomat" loading="${eager ? 'eager' : 'lazy'}" decoding="async" width="480" height="360" class="h-full w-full object-cover transition duration-300 group-hover:scale-[1.05]">`;
+    const sm = r.t.replace('/thumbs/', '/thumbs/sm/');
+    media = `<img src="${r.t}" srcset="${sm} 240w, ${r.t} 480w" sizes="(min-width:1280px) 200px, (min-width:1024px) 23vw, (min-width:640px) 30vw, 46vw" alt="${esc(r.n)} Spielautomat" loading="${eager ? 'eager' : 'lazy'}" decoding="async" width="480" height="360" class="h-full w-full object-cover transition duration-300 group-hover:scale-[1.05]">`;
   } else {
     let h = 0;
     for (const ch of r.s) h = (h * 31 + ch.charCodeAt(0)) >>> 0;

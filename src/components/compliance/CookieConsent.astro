@@ -17,9 +17,10 @@
   class="fixed inset-x-0 bottom-0 z-50 p-3 sm:p-4"
   hidden
 >
-  <div class="card mx-auto max-w-3xl border-ink-600 p-5 shadow-2xl sm:p-6">
-    <h2 id="consent-title" class="text-lg font-bold text-fg">Deine Privatsphäre-Einstellungen</h2>
-    <p id="consent-desc" class="mt-2 text-sm text-muted">
+  <div class="card mx-auto max-w-3xl border-ink-600 p-4 shadow-2xl sm:p-6">
+    <h2 id="consent-title" class="text-base font-bold text-fg sm:text-lg">Deine Privatsphäre-Einstellungen</h2>
+    <p class="mt-1 text-sm text-muted sm:hidden">Notwendige Speicherung ist immer aktiv. Mit deiner Einwilligung laden wir Spiele-Demos der Hersteller und eine anonyme Statistik. <a href="/datenschutz/" class="underline underline-offset-2">Datenschutz</a></p>
+    <p id="consent-desc" class="mt-2 hidden text-sm text-muted sm:block">
       Wir verwenden nur technisch notwendige Speicherung, damit die Seite funktioniert. Mit deiner Einwilligung laden wir
       zusätzlich Spiele-Demos der Hersteller (externe Inhalte, dabei können Cookies gesetzt werden) und eine anonyme,
       cookielose Reichweitenmessung. Du kannst deine Auswahl jederzeit in den{' '}
@@ -45,10 +46,10 @@
       </fieldset>
     </form>
 
-    <div class="mt-5 grid gap-2 sm:grid-cols-3">
-      <button type="button" class="btn btn-secondary w-full" data-consent="reject">Alle ablehnen</button>
-      <button type="button" class="btn btn-secondary w-full" data-consent="details" aria-controls="consent-details" aria-expanded="false">Auswahl anpassen</button>
-      <button type="button" class="btn btn-secondary w-full" data-consent="accept">Alle akzeptieren</button>
+    <div class="mt-3 grid grid-cols-2 gap-2 sm:mt-5 sm:grid-cols-3">
+      <button type="button" class="btn btn-secondary w-full !px-3" data-consent="reject">Alle ablehnen</button>
+      <button type="button" class="btn btn-secondary order-last col-span-2 w-full !min-h-9 !border-transparent !bg-transparent text-sm underline underline-offset-2 sm:order-none sm:col-span-1 sm:!min-h-11 sm:!border-line sm:no-underline" data-consent="details" aria-controls="consent-details" aria-expanded="false">Auswahl anpassen</button>
+      <button type="button" class="btn btn-secondary w-full !px-3" data-consent="accept">Alle akzeptieren</button>
     </div>
   </div>
 </div>
