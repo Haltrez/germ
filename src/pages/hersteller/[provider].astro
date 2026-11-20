@@ -5,6 +5,8 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import SlotCard from '../../components/slot/SlotCard.astro';
 import { getSlotViews, rtpMax } from '../../lib/slots.ts';
 import { UNVERIFIED } from '../../lib/i18n/de.ts';
+import Faq from '../../components/ui/Faq.astro';
+import { faqSchema } from '../../lib/schema.ts';
 
 export const getStaticPaths = (async () =>
   (await getCollection('providers')).map((p) => ({ params: { provider: p.id }, props: { p } }))) satisfies GetStaticPaths;
@@ -15,12 +17,30 @@ const rtps = slots.map((s) => rtpMax(s.data)).filter((x): x is number => x !== n
 const avgRtp = rtps.length ? rtps.reduce((a, b) => a + b, 0) / rtps.length : null;
 const avail = p.data.availableAtGGLSites;
 const name = p.data.name;
-const title = [`${name} Slots kostenlos spielen – alle Spiele`, `${name} Slots kostenlos spielen`].find((t) => t.length <= 60) ?? name;
+const short = name.split(' (')[0];
+const demoCount = slots.filter((s) => !!s.data.demoUrl).length;
+const top = slots.filter((s) => s.reviewed).slice(0, 12);
+const topNames = top.slice(0, 4).map((s) => s.data.name).join(', ');
+const fmt = (x: number) => x.toLocaleString('de-DE');
+const faq = [
+  { q: `Kann man ${short} Slots kostenlos spielen?`, a: demoCount > 0
+      ? `Ja. ${fmt(demoCount)} ${short} Spielautomaten kannst du bei uns als offizielle Demo mit Spielgeld spielen – ohne Anmeldung und ohne Download.`
+      : `${short} bietet derzeit keine öffentlichen Demos zum Einbinden an. Bei uns findest du deshalb zu jedem Spiel Regeln, Features und Fakten – und ähnliche Slots anderer Hersteller als kostenlose Demo.` },
+  ...(topNames ? [{ q: `Welche ${short} Spiele sind am bekanntesten?`, a: `Zu den bekanntesten ${short} Spielautomaten gehören ${topNames}. Zu jedem dieser Spiele findest du bei uns einen ausführlichen Test.` }] : []),
+  { q: `Wie hoch ist der RTP bei ${short} Slots?`, a: avgRtp
+      ? `Der Durchschnitt der veröffentlichten RTP-Werte liegt bei ${avgRtp.toLocaleString('de-DE', { maximumFractionDigits: 2 })} %. Den genauen Wert findest du auf der jeweiligen Slot-Seite.`
+      : `${short} veröffentlicht die Auszahlungsquoten nicht zentral. Den RTP der jeweiligen Version findest du in den Spielinformationen des Spiels.` },
+  { q: `Wo kann man ${short} Slots um Echtgeld spielen?`, a: `In Deutschland nur bei Online-Spielotheken mit Erlaubnis der GGL. Dort gelten 1 € Höchsteinsatz pro Spin und ein monatliches Einzahlungslimit. Welche Spiele ein Anbieter führt, steht in dessen Spielangebot.` },
+];
+const title = (demoCount > 0
+  ? [`${short} Spiele & Slots kostenlos spielen – alle Demos`, `${short} Spiele & Slots kostenlos spielen`]
+  : [`${short} Spiele & Slots online: alle ${fmt(slots.length)} Automaten`, `${short} Spiele & Slots online`]).find((t) => t.length <= 60) ?? name;
 ---
 <BaseLayout
   {title}
   description={`${name} Slots kostenlos spielen: ${slots.length.toLocaleString('de-DE')} Spielautomaten als Demo ohne Anmeldung, mit RTP-Angaben laut Hersteller.`.slice(0, 155)}
   breadcrumbs={[{ name: 'Hersteller', href: '/hersteller/' }, { name, href: `/hersteller/${p.id}/` }]}
+  jsonLd={[faqSchema(faq)]}
 >
   <section class="container-site pt-6">
     <h1 class="text-3xl font-extrabold text-fg sm:text-5xl">{name} Slots kostenlos spielen</h1>
@@ -45,5 +65,30 @@ const title = [`${name} Slots kostenlos spielen – alle Spiele`, `${name} Slots
         </ul>
       </section>
     )}
+    {top.length > 0 && (
+      <section class="mt-14 max-w-4xl">
+        <h2 class="text-2xl font-bold text-fg">Beliebte {short} Spiele im Test</h2>
+        <ol class="mt-4 grid gap-2 sm:grid-cols-2">
+          {top.map((s, i) => <li class="flex gap-2"><span class="font-display text-gold-400">{i + 1}.</span><a href={`/spielautomaten/${s.id}/`} class="text-fg hover:text-gold-300 hover:underline">{s.data.name}</a></li>)}
+        </ol>
+      </section>
+    )}
+    <div class="prose-site mt-14">
+      <h2>{short} Spielautomaten online spielen</h2>
+      <p>
+        Bei uns findest du {fmt(slots.length)} {short} Spiele mit allen Daten, die der Hersteller veröffentlicht.
+        {demoCount > 0
+          ? ` ${fmt(demoCount)} davon kannst du direkt als kostenlose Demo mit Spielgeld starten – ohne Anmeldung.`
+          : ` Öffentliche Demos stellt ${short} derzeit nicht zum Einbinden bereit; ähnliche Spiele anderer Hersteller findest du in unserer Spielhalle als kostenlose Demo.`}
+      </p>
+      <h2>{short} Slots um Echtgeld</h2>
+      <p>
+        Um Echtgeld kannst du {short} Spielautomaten in Deutschland nur bei Online-Spielotheken mit Erlaubnis der GGL spielen.
+        Dort gelten 1 € Höchsteinsatz pro Spin, mindestens fünf Sekunden pro Runde und ein anbieterübergreifendes Einzahlungslimit.
+        Geprüfte Anbieter findest du in unserem <a href="/echtgeld-spielotheken/">Vergleich der Online-Spielotheken mit deutscher Lizenz</a>,
+        Hintergründe im Ratgeber <a href="/ratgeber/legale-online-spielotheken-erkennen/">Legale Online-Spielotheken erkennen</a>.
+      </p>
+    </div>
+    <div class="mt-12 max-w-4xl"><Faq items={faq} title={`Häufige Fragen zu ${short} Slots`} /></div>
   </section>
 </BaseLayout>
