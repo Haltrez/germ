@@ -5,6 +5,8 @@ import SlotCard from '../../components/slot/SlotCard.astro';
 import { CATEGORIES } from '../../config/routes.ts';
 import { CATEGORY_TEXT } from '../../content/kategorien.ts';
 import { getSlotViews } from '../../lib/slots.ts';
+import Faq from '../../components/ui/Faq.astro';
+import { faqSchema } from '../../lib/schema.ts';
 
 export const getStaticPaths = (() => CATEGORIES.map((c) => ({ params: { category: c.slug }, props: { c } }))) satisfies GetStaticPaths;
 const { c } = Astro.props as { c: (typeof CATEGORIES)[number] };
@@ -16,6 +18,7 @@ const LIMIT = 60;
   title={t.title}
   description={t.description}
   breadcrumbs={[{ name: 'Kategorien', href: '/kategorien/' }, { name: c.label, href: `/kategorien/${c.slug}/` }]}
+  jsonLd={t.faq?.length ? [faqSchema(t.faq)] : []}
 >
   <section class="container-site pt-6">
     <h1 class="text-3xl font-extrabold text-fg sm:text-5xl">{c.label} kostenlos spielen</h1>
@@ -31,5 +34,22 @@ const LIMIT = 60;
     {slots.length > LIMIT && (
       <p class="mt-6 text-center"><a class="btn btn-secondary" href={`/spielautomaten/?kategorie=${c.code}`}>Alle {slots.length.toLocaleString('de-DE')} {c.label} in der Spielhalle</a></p>
     )}
+    {slots.some((s) => s.reviewed) && (
+      <section class="mt-14 max-w-4xl">
+        <h2 class="text-2xl font-bold text-fg">Beliebte {c.label} im Test</h2>
+        <ol class="mt-4 grid gap-2 sm:grid-cols-2">
+          {slots.filter((s) => s.reviewed).slice(0, 12).map((s, i) => (
+            <li class="flex gap-2"><span class="font-display text-gold-400">{i + 1}.</span><a href={`/spielautomaten/${s.id}/`} class="text-fg hover:text-gold-300 hover:underline">{s.data.name}</a><span class="text-xs text-subtle self-center">· {s.provider?.data.name ?? s.data.provider}</span></li>
+          ))}
+        </ol>
+      </section>
+    )}
+    {t.sections && (
+      <div class="prose-site mt-14">
+        {t.sections.map((sec) => <><h2>{sec.h2}</h2>{sec.paragraphs.map((p) => <p>{p}</p>)}</>)}
+        <p>Mehr Hintergrundwissen findest du in unseren <a href="/ratgeber/">Ratgebern</a>, zum Beispiel zu <a href="/ratgeber/rtp-auszahlungsquote/">RTP</a> und <a href="/ratgeber/volatilitaet/">Volatilität</a>.</p>
+      </div>
+    )}
+    {t.faq && t.faq.length > 0 && <div class="mt-12 max-w-4xl"><Faq items={t.faq} title={`Häufige Fragen zu ${c.label}`} /></div>}
   </section>
 </BaseLayout>
