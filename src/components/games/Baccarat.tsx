@@ -1,6 +1,6 @@
 /** Free baccarat (Punto Banco): 8 decks, banker pays 0.95 to 1, tie pays 8 to 1. */
 import { useRef, useState } from 'preact/hooks';
-import { Arc, CardView, ChipRack, ChipStack, Coach, Hud, Table, fmt, newShoe, useBank, useBook, type Card } from './shared.tsx';
+import { Msg, sfx, Arc, CardView, ChipRack, ChipStack, Coach, Hud, Table, fmt, newShoe, useBank, useBook, type Card } from './shared.tsx';
 
 type Side = 'player' | 'banker' | 'tie';
 const pv = (c: Card) => (c.r === 14 ? 1 : c.r >= 10 ? 0 : c.r);
@@ -17,7 +17,7 @@ const BOX: { k: Side; name: string; pays: string; edge: string; cls: string }[] 
   { k: 'banker', name: 'Bank', pays: 'zahlt 0,95 zu 1', edge: 'Hausvorteil 1,06 %', cls: 'good' },
 ];
 export default function Baccarat() {
-  const bank = useBank();
+  const bank = useBank('baccarat');
   const bk = useBook('baccarat');
   const [chip, setChip] = useState(5);
   const [coach, setCoach] = useState(true);
@@ -26,7 +26,7 @@ export default function Baccarat() {
   const shoe = useRef(newShoe(8));
   const last = useRef({ player: 0, banker: 0, tie: 0 });
   const total = bets.player + bets.banker + bets.tie;
-  const place = (k: Side) => { if (st.busy) return; if (st.win) setSt((s) => ({ ...s, win: null, p: [], b: [], msg: 'Setze deinen Einsatz', tone: '' })); if (total + chip <= bank.bank) setBets((x) => ({ ...x, [k]: x[k] + chip })); };
+  const place = (k: Side) => { if (st.busy) return; if (st.win) setSt((s) => ({ ...s, win: null, p: [], b: [], msg: 'Setze deinen Einsatz', tone: '' })); if (total + chip <= bank.bank) { sfx.chip(); setBets((x) => ({ ...x, [k]: x[k] + chip })); } };
   const deal = () => {
     if (st.busy || total <= 0 || total > bank.bank) return;
     bk.judge(bets.tie === 0, bets.tie === 0 ? (bets.banker >= bets.player ? 'Bank ist die beste Wette' : 'Spieler ist fast so gut wie Bank') : 'Unentschieden hat 14,36 % Hausvorteil');
@@ -47,7 +47,7 @@ export default function Baccarat() {
       let back = 0;
       if (win === 'player') back = bets.player * 2; else if (win === 'banker') back = bets.banker * 1.95; else back = bets.tie * 9 + bets.player + bets.banker;
       bank.add(back); const delta = back - total;
-      setSt((s) => ({ ...s, busy: false, win, delta, tone: delta > 0 ? 'win' : delta < 0 ? 'lose' : '', msg: `${win === 'player' ? 'Spieler gewinnt' : win === 'banker' ? 'Bank gewinnt' : 'Unentschieden'} ${fp} : ${fb} · ${delta > 0 ? `+${fmt(delta)}` : delta === 0 ? '±0' : fmt(delta)}` }));
+      setSt((s) => ({ ...s, busy: false, win, delta, tone: delta > 0 ? 'win' : delta < 0 ? 'lose' : 'push', msg: `${win === 'player' ? 'Spieler gewinnt' : win === 'banker' ? 'Bank gewinnt' : 'Unentschieden'} ${fp} : ${fb} · ${delta > 0 ? `+${fmt(delta)}` : delta === 0 ? '±0' : fmt(delta)}` }));
       setBets({ player: 0, banker: 0, tie: 0 }); bk.round();
     });
     steps.forEach((f, i) => setTimeout(f, 1100 + i * 900));
@@ -56,7 +56,7 @@ export default function Baccarat() {
     : total === 0 ? 'Baccarat ist reines Glück, es gibt keine Entscheidung nach dem Setzen. Das Lehrbuch ist kurz: Bank hat mit 1,06 % den niedrigsten Hausvorteil, Spieler liegt mit 1,24 % knapp dahinter. Unentschieden meiden.'
     : bets.banker > 0 ? 'Bank ist die Wette mit dem niedrigsten Hausvorteil (1,06 %), trotz 5 % Kommission auf den Gewinn.' : 'Spieler hat 1,24 % Hausvorteil und zahlt ohne Kommission. Eine solide Wahl.';
   return (
-    <Table felt="blue">
+    <Table felt="blue" tone={st.tone} say={st.msg}>
       <Hud bank={bank.bank} bet={total} delta={st.delta} onReset={bank.reset} />
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px' }}>
         {([['player', 'Spieler', st.p], ['banker', 'Bank', st.b]] as const).map(([k, name, cs]) => (
@@ -68,7 +68,7 @@ export default function Baccarat() {
         ))}
       </div>
       <Arc top="Punto Banco" sub="DIE HAND NÄHER AN 9 GEWINNT" />
-      <div class={`tg-msg ${st.tone}`} aria-live="polite">{st.msg}</div>
+      <Msg tone={st.tone}>{st.msg}</Msg>
       <div class="tg-bets" style={{ gridTemplateColumns: 'repeat(3,1fr)' }}>
         {BOX.map((x) => <button type="button" key={x.k} class={`tg-bet${st.win === x.k ? ' hit' : ''}`} onClick={() => place(x.k)}><b>{x.name}</b><small>{x.pays}</small><span class={`edge ${x.cls}`}>{x.edge}</span>{bets[x.k] > 0 && <ChipStack amount={bets[x.k]} />}</button>)}
       </div>

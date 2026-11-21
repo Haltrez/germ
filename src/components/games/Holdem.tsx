@@ -1,6 +1,6 @@
 /** Free Casino Hold'em: ante, flop, then call (2x ante) or fold. Dealer qualifies with a pair of fours. */
 import { useRef, useState } from 'preact/hooks';
-import { Arc, CardView, ChipRack, ChipStack, Coach, Hud, Table, fmt, newShoe, useBank, useBook, type Card } from './shared.tsx';
+import { Msg, Arc, CardView, ChipRack, ChipStack, Coach, Hud, Table, fmt, newShoe, useBank, useBook, type Card } from './shared.tsx';
 
 const CAT = ['Höchste Karte', 'Ein Paar', 'Zwei Paare', 'Drilling', 'Straße', 'Flush', 'Full House', 'Vierling', 'Straight Flush'];
 /** Best five-card poker hand out of up to seven cards, as a comparable score. */
@@ -40,7 +40,7 @@ function book(hole: Card[], flop: Card[]): { call: boolean; why: string } {
 }
 
 export default function Holdem() {
-  const bank = useBank();
+  const bank = useBank('casino-holdem');
   const bk = useBook('casino-holdem');
   const [chip, setChip] = useState(5);
   const [coach, setCoach] = useState(true);
@@ -72,13 +72,13 @@ export default function Holdem() {
       else if (c === 0) { back = ante * 3; msg = 'Unentschieden – Einsätze zurück'; }
       else msg = `Die Bank gewinnt mit ${handName(dl)}`;
       bank.add(back); const delta = back - ante * 3;
-      setSt((s) => ({ ...s, phase: 'done', msg: `${msg} · ${delta > 0 ? `+${fmt(delta)}` : delta === 0 ? '±0' : fmt(delta)}`, tone: delta > 0 ? 'win' : delta < 0 ? 'lose' : '', delta, pName: handName(p), dName: handName(dl) + (qualifies ? '' : ' · nicht qualifiziert') }));
+      setSt((s) => ({ ...s, phase: 'done', msg: `${msg} · ${delta > 0 ? `+${fmt(delta)}` : delta === 0 ? '±0' : fmt(delta)}`, tone: delta > 0 ? 'win' : delta < 0 ? 'lose' : 'push', delta, pName: handName(p), dName: handName(dl) + (qualifies ? '' : ' · nicht qualifiziert') }));
       bk.round();
     }, 1500);
   };
   const showDealer = st.phase === 'done' && st.call > 0;
   return (
-    <Table felt="purple">
+    <Table felt="purple" tone={st.tone} say={st.msg}>
       <Hud bank={bank.bank} bet={st.phase === 'bet' ? ante : ante + st.call} delta={st.delta} onReset={bank.reset} />
       <div class="tg-seat">
         <div class="tg-label">Bank</div>
@@ -90,7 +90,7 @@ export default function Holdem() {
         <div class="tg-hand">{st.board.map((c, i) => <CardView key={`b${i}`} card={c} i={i} />)}</div>
       </div>
       <Arc top="Casino Hold'em" sub="BANK QUALIFIZIERT SICH AB PAAR VIEREN" />
-      <div class={`tg-msg ${st.tone}`} aria-live="polite">{st.msg}</div>
+      <Msg tone={st.tone}>{st.msg}</Msg>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-end', gap: '26px', flexWrap: 'wrap' }}>
         <div class="tg-seat">
           <div class="tg-hand">{st.hole.map((c, i) => <CardView key={`h${i}`} card={c} i={i} />)}</div>

@@ -8,9 +8,9 @@ export const TABLE_GAMES: TableGame[] = [
   {
     slug: 'blackjack', name: 'Blackjack', short: 'Näher an 21 als die Bank, mit Tipp zu jedem Zug.',
     title: 'Blackjack kostenlos spielen – mit Strategie-Tipps',
-    description: 'Blackjack kostenlos und ohne Anmeldung spielen: 6 Decks, Blackjack zahlt 3 zu 2. Der Buch-Tipp zeigt dir zu jeder Hand den Zug der Basisstrategie.',
-    intro: 'Spiele Blackjack kostenlos mit Spielgeld, direkt im Browser. Der Buch-Tipp zeigt dir zu jeder Hand, was die Basisstrategie rät, und zählt mit, wie oft du ihr folgst.',
-    facts: [['Decks', '6'], ['Blackjack zahlt', '3 zu 2'], ['Bank', 'hält bei allen 17'], ['Verdoppeln', 'jede Starthand, auch nach Teilen'], ['Teilen', 'einmal pro Runde'], ['Hausvorteil', 'rund 0,5 % mit Basisstrategie']],
+    description: 'Blackjack kostenlos spielen: 1.000 € Demo-Guthaben, Nebenwetten Perfect Pairs und 21+3, animierter Dealer und Strategie-Tipp zu jeder Hand.',
+    intro: 'Spiele Blackjack kostenlos mit 1.000 € Demo-Guthaben, direkt im Browser und mit den Nebenwetten Perfect Pairs und 21+3. Der Buch-Tipp zeigt dir zu jeder Hand, was die Basisstrategie rät, und zählt mit, wie oft du ihr folgst.',
+    facts: [['Decks', '6'], ['Blackjack zahlt', '3 zu 2'], ['Bank', 'hält bei allen 17'], ['Verdoppeln', 'jede Starthand, auch nach Teilen'], ['Teilen', 'einmal pro Runde'], ['Hausvorteil', 'rund 0,5 % mit Basisstrategie'], ['Perfect Pairs', '6 / 12 / 25 zu 1'], ['21+3', '5 / 10 / 30 / 40 / 100 zu 1']],
     rules: [
       'Ziel ist, mit deinen Karten näher an 21 zu kommen als die Bank, ohne 21 zu überschreiten.',
       'Zahlenkarten zählen ihren Wert, Bildkarten 10, das Ass 1 oder 11.',
@@ -18,6 +18,8 @@ export const TABLE_GAMES: TableGame[] = [
       'Karte: Du nimmst eine weitere Karte. Halten: Du bleibst bei deiner Summe.',
       'Verdoppeln: Einsatz verdoppeln, genau eine Karte nehmen. Teilen: Ein Paar wird zu zwei Händen.',
       'Die Bank zieht bis 16 und hält ab 17. Ein Blackjack (Ass plus Zehnerkarte) zahlt 3 zu 2.',
+      'Nebenwette Perfect Pairs: Sie gewinnt, wenn deine ersten zwei Karten ein Paar sind. Gemischtes Paar 6 zu 1, gleiche Farbe 12 zu 1, identische Karten 25 zu 1.',
+      'Nebenwette 21+3: Deine zwei Karten und die offene Bankkarte bilden eine Pokerhand. Flush 5 zu 1, Straße 10 zu 1, Drilling 30 zu 1, Straight Flush 40 zu 1, Drilling in einer Farbe 100 zu 1.',
     ],
     tips: [
       { t: 'Asse und Achten immer teilen', d: 'Zwei Asse sind als 12 schwach, getrennt aber zwei starke Starts. Zwei Achten ergeben 16, die schlechteste Hand im Spiel.' },
@@ -25,13 +27,15 @@ export const TABLE_GAMES: TableGame[] = [
       { t: '11 verdoppeln', d: 'Gegen jede Bankkarte außer dem Ass ist 11 die beste Hand zum Verdoppeln.' },
       { t: '12 bis 16 gegen 2 bis 6 halten', d: 'Zeigt die Bank eine niedrige Karte, überkauft sie sich oft. Ausnahme: 12 gegen 2 oder 3 ziehst du.' },
       { t: '12 bis 16 gegen 7 und höher ziehen', d: 'Die Bank hat dann meist 17 oder mehr. Stehenbleiben verliert häufiger als Ziehen.' },
+      { t: 'Nebenwetten sind teurer', d: 'Perfect Pairs hat rund 4 % Hausvorteil, 21+3 rund 3 %. Sie machen Spaß, kosten auf Dauer aber ein Vielfaches der Hauptwette.' },
       { t: 'Soft 18 ist keine sichere Hand', d: 'Gegen 9, 10 oder Ass nimmst du eine Karte. Gegen 3 bis 6 verdoppelst du.' },
     ],
-    edges: [['Basisstrategie (diese Regeln)', 'rund 0,5 %', 'good'], ['Spiel nach Gefühl', 'meist 2 % und mehr', 'bad'], ['Blackjack zahlt nur 6 zu 5', 'rund 1,4 % höher', 'bad']],
+    edges: [['Basisstrategie (diese Regeln)', 'rund 0,5 %', 'good'], ['Spiel nach Gefühl', 'meist 2 % und mehr', 'bad'], ['Nebenwette 21+3', 'rund 3,2 %', ''], ['Nebenwette Perfect Pairs', 'rund 4,1 %', ''], ['Blackjack zahlt nur 6 zu 5', 'rund 1,4 % höher', 'bad']],
     faq: [
       { q: 'Kann ich hier Blackjack kostenlos spielen?', a: 'Ja. Du spielst mit Spielgeld, ohne Anmeldung, ohne Einzahlung und ohne Download. Gewinne sind nicht auszahlbar.' },
       { q: 'Was ist die Basisstrategie?', a: 'Eine Tabelle, die für jede Kombination aus deiner Hand und der offenen Bankkarte den mathematisch besten Zug nennt. Sie senkt den Hausvorteil auf rund 0,5 %, hebt ihn aber nicht auf.' },
       { q: 'Kann man mit der Basisstrategie dauerhaft gewinnen?', a: 'Nein. Auch bei fehlerfreiem Spiel bleibt ein kleiner Vorteil bei der Bank. Die Strategie verringert nur, wie viel du im Schnitt verlierst.' },
+      { q: 'Was sind Perfect Pairs und 21+3?', a: 'Zwei Nebenwetten, die unabhängig von deiner Hand entschieden werden. Perfect Pairs gewinnt, wenn deine ersten zwei Karten ein Paar sind. 21+3 wertet deine zwei Karten und die offene Bankkarte als Pokerhand aus drei Karten.' },
       { q: 'Funktioniert Kartenzählen hier?', a: 'Nein. Der Kartenschlitten wird regelmäßig neu gemischt, und im Internet wird ohnehin meist nach jeder Runde gemischt.' },
       { q: 'Gibt es Blackjack um Echtgeld legal in Deutschland?', a: 'Tischspiele im Internet fallen nicht unter die bundesweite Erlaubnis für virtuelle Automatenspiele. Sie sind Sache der Bundesländer und nur dort erlaubt, wo ein Land sie zugelassen hat. In Spielbanken vor Ort ist Blackjack regulär spielbar.' },
     ],

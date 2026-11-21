@@ -1,6 +1,6 @@
 /** Free craps with the core bets: Pass, Don't Pass, Field, Any Seven, Place 6 and Place 8. */
 import { useState } from 'preact/hooks';
-import { Arc, ChipRack, ChipStack, Coach, Hud, Table, fmt, rnd, useBank, useBook } from './shared.tsx';
+import { Msg, sfx, Arc, ChipRack, ChipStack, Coach, Hud, Table, fmt, rnd, useBank, useBook } from './shared.tsx';
 
 type Bet = 'pass' | 'dont' | 'field' | 'seven' | 'p6' | 'p8';
 const ZERO: Record<Bet, number> = { pass: 0, dont: 0, field: 0, seven: 0, p6: 0, p8: 0 };
@@ -23,7 +23,7 @@ function Die({ v, turns, rolling }: { v: number; turns: number; rolling: boolean
   );
 }
 export default function Craps() {
-  const bank = useBank();
+  const bank = useBank('craps');
   const bk = useBook('craps');
   const [chip, setChip] = useState(5);
   const [coach, setCoach] = useState(true);
@@ -31,7 +31,7 @@ export default function Craps() {
   const [st, setSt] = useState({ d: [3, 4] as [number, number], turns: 0, rolling: false, point: null as number | null, msg: 'Come-Out-Wurf: Setze auf Pass oder Don\'t Pass', tone: '', delta: null as number | null, hit: [] as Bet[] });
   const total = Object.values(bets).reduce((a, b) => a + b, 0);
   const allowed = (k: Bet) => (k === 'pass' || k === 'dont' ? st.point === null : k === 'p6' || k === 'p8' ? st.point !== null : true);
-  const place = (k: Bet) => { if (st.rolling || !allowed(k) || chip > bank.bank) return; bank.add(-chip); setBets((b) => ({ ...b, [k]: b[k] + chip })); };
+  const place = (k: Bet) => { if (st.rolling || !allowed(k) || chip > bank.bank) return; bank.add(-chip); sfx.chip(); setBets((b) => ({ ...b, [k]: b[k] + chip })); };
   const clear = () => { // only bets that are not locked by an established point
     const keep = st.point !== null ? { pass: bets.pass, dont: bets.dont } : { pass: 0, dont: 0 };
     bank.add(total - keep.pass - keep.dont); setBets({ ...ZERO, ...keep });
@@ -40,7 +40,7 @@ export default function Craps() {
     if (st.rolling || total <= 0) return;
     bk.judge(bets.seven === 0 && bets.field === 0, bets.seven > 0 ? 'Any Seven hat 16,67 % Hausvorteil' : bets.field > 0 ? 'Field ist teurer als die Pass Line' : 'Nur Wetten mit niedrigem Hausvorteil');
     const d: [number, number] = [rnd(6) + 1, rnd(6) + 1]; const sum = d[0] + d[1];
-    setSt((s) => ({ ...s, d, turns: s.turns + 2, rolling: true, hit: [], msg: 'Die Würfel rollen …', tone: '' }));
+    sfx.dice(); setSt((s) => ({ ...s, d, turns: s.turns + 2, rolling: true, hit: [], msg: 'Die Würfel rollen …', tone: '' }));
     setTimeout(() => {
       const nb = { ...bets }; let back = 0; let point = st.point; const hit: Bet[] = []; let text = `${sum} gewürfelt`;
       const win = (k: Bet, mult: number) => { back += nb[k] * (1 + mult); if (nb[k] > 0) hit.push(k); nb[k] = 0; };
@@ -71,7 +71,7 @@ export default function Craps() {
     : st.point === null ? 'Im Come-Out-Wurf rät das Lehrbuch zu Pass Line (1,41 %) oder Don\'t Pass (1,36 %). Das sind die günstigsten Wetten im Spiel.'
     : `Der Point ist ${st.point}. Deine Pass- oder Don't-Pass-Wette bleibt stehen, bis der Point oder eine 7 fällt. Place 6 und Place 8 sind mit 1,52 % die einzigen Zusatzwetten, die das Lehrbuch gelten lässt.`;
   return (
-    <Table>
+    <Table tone={st.tone} say={st.msg}>
       <Hud bank={bank.bank} bet={total} delta={st.delta} onReset={() => { bank.reset(); setBets({ ...ZERO }); setSt((s) => ({ ...s, point: null })); }} />
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '14px' }}>
         <span class={`dc-puck ${st.point ? 'on' : 'off'}`}>{st.point ? `ON ${st.point}` : 'OFF'}</span>
@@ -79,7 +79,7 @@ export default function Craps() {
       </div>
       <div class="dc-stage"><Die v={st.d[0]} turns={st.turns} rolling={st.rolling} /><Die v={st.d[1]} turns={st.turns} rolling={st.rolling} /></div>
       <Arc top="Craps" sub="PASS LINE GEWINNT BEI 7 ODER 11" />
-      <div class={`tg-msg ${st.tone}`} aria-live="polite">{st.msg}</div>
+      <Msg tone={st.tone}>{st.msg}</Msg>
       <div class="tg-bets" style={{ gridTemplateColumns: 'repeat(2,1fr)' }}>
         {BOX.map((x) => <button type="button" key={x.k} class={`tg-bet${st.hit.includes(x.k) ? ' hit' : ''}${allowed(x.k) ? '' : ' off'}`} onClick={() => place(x.k)} aria-disabled={!allowed(x.k)}><b>{x.name}</b><small>{x.pays}</small><span class={`edge ${x.cls}`}>{x.edge}</span>{bets[x.k] > 0 && <ChipStack amount={bets[x.k]} />}</button>)}
       </div>

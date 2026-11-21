@@ -1,6 +1,6 @@
 /** Free European roulette (single zero). Inside bets on single numbers plus all outside bets. */
 import { useRef, useState } from 'preact/hooks';
-import { ChipRack, Coach, Hud, Table, fmt, rnd, useBank, useBook } from './shared.tsx';
+import { Msg, sfx, ChipRack, Coach, Hud, Table, fmt, rnd, useBank, useBook } from './shared.tsx';
 
 const WHEEL = [0, 32, 15, 19, 4, 21, 2, 25, 17, 34, 6, 27, 13, 36, 11, 30, 8, 23, 10, 5, 24, 16, 33, 1, 20, 14, 31, 9, 22, 18, 29, 7, 28, 12, 35, 3, 26];
 const RED = new Set([1, 3, 5, 7, 9, 12, 14, 16, 18, 19, 21, 23, 25, 27, 30, 32, 34, 36]);
@@ -38,7 +38,7 @@ function Wheel() {
 }
 
 export default function Roulette() {
-  const bank = useBank();
+  const bank = useBank('roulette');
   const bk = useBook('roulette');
   const [chip, setChip] = useState(5);
   const [coach, setCoach] = useState(true);
@@ -49,7 +49,7 @@ export default function Roulette() {
   const [hist, setHist] = useState<number[]>([]);
   const last = useRef<Record<Key, number>>({});
   const total = Object.values(bets).reduce((a, b) => a + b, 0);
-  const place = (k: Key) => { if (spin.busy) return; if (spin.hit !== null) setSpin((s) => ({ ...s, hit: null })); if (total + chip > bank.bank) return; setBets((b) => ({ ...b, [k]: (b[k] ?? 0) + chip })); };
+  const place = (k: Key) => { if (spin.busy) return; if (spin.hit !== null) setSpin((s) => ({ ...s, hit: null })); if (total + chip > bank.bank) return; sfx.chip(); setBets((b) => ({ ...b, [k]: (b[k] ?? 0) + chip })); };
   const go = () => {
     if (spin.busy || total <= 0 || total > bank.bank) return;
     const share = total / bank.bank;
@@ -59,12 +59,12 @@ export default function Roulette() {
     const wheel = spin.wheel + 720 + rnd(360);
     const target = (((i * SEG + wheel) % 360) + 360) % 360;
     let ball = spin.ball - 1440; ball -= ((((ball - target) % 360) + 360) % 360);
-    setSpin({ wheel, ball, busy: true, hit: null }); setMsg({ t: 'Nichts geht mehr …', tone: '' });
+    sfx.spin(); setSpin({ wheel, ball, busy: true, hit: null }); setMsg({ t: 'Nichts geht mehr …', tone: '' });
     setTimeout(() => {
       let back = 0; for (const [k, v] of Object.entries(bets)) { const w = wins(k, n); if (w > 0) back += v * (w + 1); }
       bank.add(back); const d = back - total; setDelta(d); setHist((h) => [n, ...h].slice(0, 12));
       setSpin((s) => ({ ...s, busy: false, hit: n })); setBets({});
-      setMsg({ t: `${n} ${n === 0 ? 'Grün' : RED.has(n) ? 'Rot' : 'Schwarz'} · ${d > 0 ? `+${fmt(d)}` : d === 0 ? '±0' : fmt(d)}`, tone: d > 0 ? 'win' : d < 0 ? 'lose' : '' });
+      setMsg({ t: `${n} ${n === 0 ? 'Grün' : RED.has(n) ? 'Rot' : 'Schwarz'} · ${d > 0 ? `+${fmt(d)}` : d === 0 ? '±0' : fmt(d)}`, tone: d > 0 ? 'win' : d < 0 ? 'lose' : 'push' });
       bk.round();
     }, 5400);
   };
@@ -80,7 +80,7 @@ export default function Roulette() {
     : straight > 6 ? 'Viele Einzelzahlen zu belegen erhöht die Trefferzahl, aber nicht die Auszahlung im Schnitt. Der Hausvorteil bleibt 2,70 % auf jeden gesetzten Jeton.'
     : 'Einsatz im Rahmen. Denk daran: Die Kugel hat kein Gedächtnis. Nach fünfmal Rot ist Schwarz nicht wahrscheinlicher.';
   return (
-    <Table felt="red">
+    <Table felt="red" tone={msg.tone} say={msg.t}>
       <Hud bank={bank.bank} bet={total} delta={delta} onReset={bank.reset} />
       <div class="rl-wrap">
         <div>
@@ -89,16 +89,16 @@ export default function Roulette() {
             <div class="rl-ballring" style={{ transform: `rotate(${spin.ball}deg)` }}><div class="rl-ball" /></div>
             <div class="rl-hub">{spin.hit ?? ''}</div>
           </div>
-          <div class={`tg-msg ${msg.tone}`} aria-live="polite">{msg.t}</div>
+          <Msg tone={msg.tone}>{msg.t}</Msg>
           <div class="rl-hist" aria-label="Letzte Zahlen">{hist.map((n, i) => <span key={i} class={col(n)}>{n}</span>)}</div>
         </div>
         <div>
           <div class="rl-board">
             {cell('n0', '0', 'g')}
             {[3, 2, 1].map((row) => <>{Array.from({ length: 12 }, (_, c) => { const n = c * 3 + row; return cell(`n${n}`, String(n), col(n)); })}{cell(`c${row === 3 ? 3 : row}`, '2:1', 'out')}</>)}
-            <span />{cell('d1', '1. Dutzend', 'out', { gridColumn: 'span 4' })}{cell('d2', '2. Dutzend', 'out', { gridColumn: 'span 4' })}{cell('d3', '3. Dutzend', 'out', { gridColumn: 'span 4' })}<span />
-            <span />{OUT.map((o) => cell(o.k, o.label, `out${o.k === 'red' ? ' r' : o.k === 'black' ? ' b' : ''}`, { gridColumn: `span ${o.span}` }))}<span />
-          </div>
+</div>
+          <div class="rl-out three">{cell('d1', '1. Dutzend', 'out')}{cell('d2', '2. Dutzend', 'out')}{cell('d3', '3. Dutzend', 'out')}</div>
+          <div class="rl-out six">{OUT.map((o) => cell(o.k, o.label, `out${o.k === 'red' ? ' r' : o.k === 'black' ? ' b' : ''}`))}</div>
           <div style={{ marginTop: '16px' }}><ChipRack value={chip} onPick={setChip} /></div>
           <div class="tg-actions">
             <button type="button" class="tg-btn" disabled={spin.busy || total === 0} onClick={go}>Drehen</button>
