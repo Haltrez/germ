@@ -10,7 +10,7 @@ export const TABLE_GAMES: TableGame[] = [
     title: 'Blackjack kostenlos spielen – mit Strategie-Tipps',
     description: 'Blackjack kostenlos spielen: 1.000 € Demo-Guthaben, Nebenwetten Perfect Pairs und 21+3, animierter Dealer und Strategie-Tipp zu jeder Hand.',
     intro: 'Spiele Blackjack kostenlos mit 1.000 € Demo-Guthaben, direkt im Browser und mit den Nebenwetten Perfect Pairs und 21+3. Der Buch-Tipp zeigt dir zu jeder Hand, was die Basisstrategie rät, und zählt mit, wie oft du ihr folgst.',
-    facts: [['Decks', '6'], ['Blackjack zahlt', '3 zu 2'], ['Bank', 'hält bei allen 17'], ['Verdoppeln', 'jede Starthand, auch nach Teilen'], ['Teilen', 'einmal pro Runde'], ['Hausvorteil', 'rund 0,5 % mit Basisstrategie'], ['Perfect Pairs', '6 / 12 / 25 zu 1'], ['21+3', '5 / 10 / 30 / 40 / 100 zu 1']],
+    facts: [['Decks', '6'], ['Blackjack zahlt', '3 zu 2'], ['Bank', 'hält bei allen 17'], ['Verdoppeln', 'jede Starthand, auch nach Teilen'], ['Teilen', 'einmal pro Hand'], ['Hände', '1 bis 3 gleichzeitig'], ['Hausvorteil', 'rund 0,5 % mit Basisstrategie'], ['Perfect Pairs', '6 / 12 / 25 zu 1'], ['21+3', '5 / 10 / 30 / 40 / 100 zu 1']],
     rules: [
       'Ziel ist, mit deinen Karten näher an 21 zu kommen als die Bank, ohne 21 zu überschreiten.',
       'Zahlenkarten zählen ihren Wert, Bildkarten 10, das Ass 1 oder 11.',
@@ -35,6 +35,7 @@ export const TABLE_GAMES: TableGame[] = [
       { q: 'Kann ich hier Blackjack kostenlos spielen?', a: 'Ja. Du spielst mit Spielgeld, ohne Anmeldung, ohne Einzahlung und ohne Download. Gewinne sind nicht auszahlbar.' },
       { q: 'Was ist die Basisstrategie?', a: 'Eine Tabelle, die für jede Kombination aus deiner Hand und der offenen Bankkarte den mathematisch besten Zug nennt. Sie senkt den Hausvorteil auf rund 0,5 %, hebt ihn aber nicht auf.' },
       { q: 'Kann man mit der Basisstrategie dauerhaft gewinnen?', a: 'Nein. Auch bei fehlerfreiem Spiel bleibt ein kleiner Vorteil bei der Bank. Die Strategie verringert nur, wie viel du im Schnitt verlierst.' },
+      { q: 'Kann ich mehrere Hände gleichzeitig spielen?', a: 'Ja, bis zu drei. Jede Hand hat ihren eigenen Einsatz und eigene Nebenwetten und wird nacheinander gespielt. Der Hausvorteil pro Hand bleibt gleich.' },
       { q: 'Was sind Perfect Pairs und 21+3?', a: 'Zwei Nebenwetten, die unabhängig von deiner Hand entschieden werden. Perfect Pairs gewinnt, wenn deine ersten zwei Karten ein Paar sind. 21+3 wertet deine zwei Karten und die offene Bankkarte als Pokerhand aus drei Karten.' },
       { q: 'Funktioniert Kartenzählen hier?', a: 'Nein. Der Kartenschlitten wird regelmäßig neu gemischt, und im Internet wird ohnehin meist nach jeder Runde gemischt.' },
       { q: 'Gibt es Blackjack um Echtgeld legal in Deutschland?', a: 'Tischspiele im Internet fallen nicht unter die bundesweite Erlaubnis für virtuelle Automatenspiele. Sie sind Sache der Bundesländer und nur dort erlaubt, wo ein Land sie zugelassen hat. In Spielbanken vor Ort ist Blackjack regulär spielbar.' },

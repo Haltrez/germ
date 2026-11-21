@@ -3,7 +3,7 @@ import { useRef, useState } from 'preact/hooks';
 import { Arc, CardView, ChipRack, ChipStack, Coach, Hud, Msg, Table, fmt, newShoe, sfx, useBank, useBook, type Card } from './shared.tsx';
 
 type Move = 'H' | 'S' | 'D' | 'P';
-interface Hand { cards: Card[]; bet: number; done: boolean; doubled: boolean; split: boolean }
+interface Hand { cards: Card[]; bet: number; done: boolean; doubled: boolean; split: boolean; seat: number; out?: string; tone?: string }
 const val = (c: Card) => (c.r === 14 ? 11 : Math.min(c.r, 10));
 export function total(cards: Card[]) {
   let t = cards.reduce((a, c) => a + val(c), 0);
@@ -72,6 +72,8 @@ export function twentyOnePlus3(cs: Card[]): [string, number] | null {
   return null;
 }
 type Spot = 'main' | 'pp' | 't3';
+interface Seat { main: number; pp: number; t3: number; res: { t: string; w: boolean }[] }
+const emptySeat = (): Seat => ({ main: 0, pp: 0, t3: 0, res: [] });
 
 export default function Blackjack() {
   const bank = useBank('blackjack');
@@ -79,37 +81,43 @@ export default function Blackjack() {
   const [chip, setChip] = useState(5);
   const [coach, setCoach] = useState(true);
   const [, force] = useState(0);
-  const g = useRef({ phase: 'bet' as 'bet' | 'player' | 'dealer' | 'done', bet: 0, pp: 0, t3: 0, hands: [] as Hand[], dealer: [] as Card[], hole: true, cur: 0, msg: 'Ihre Einsätze, bitte!', tone: '', delta: null as number | null, side: 0, res: [] as { t: string; w: boolean }[], shoe: newShoe(6) }).current;
+  const g = useRef({ phase: 'bet' as 'bet' | 'player' | 'dealer' | 'done', n: 1, seats: [emptySeat(), emptySeat(), emptySeat()], hands: [] as Hand[], dealer: [] as Card[], hole: true, cur: 0, msg: 'Ihre Einsätze, bitte!', tone: '', delta: null as number | null, side: 0, shoe: newShoe(6) }).current;
   const up = () => force((x) => x + 1);
   const draw = () => { if (g.shoe.length < 60) g.shoe = newShoe(6); return g.shoe.pop()!; };
-  const clearTable = () => { g.phase = 'bet'; g.hands = []; g.dealer = []; g.res = []; g.msg = 'Ihre Einsätze, bitte!'; g.tone = ''; };
-  const staked0 = () => g.bet + g.pp + g.t3;
+  const active = () => g.seats.slice(0, g.n);
+  const clearTable = () => { g.phase = 'bet'; g.hands = []; g.dealer = []; g.seats.forEach((s) => { s.res = []; }); g.msg = 'Ihre Einsätze, bitte!'; g.tone = ''; };
+  const wipe = () => { g.seats = [emptySeat(), emptySeat(), emptySeat()]; };
+  const staked0 = () => active().reduce((a, s) => a + (s.main > 0 ? s.main + s.pp + s.t3 : 0), 0);
+  const setSeats = (n: number) => { if (g.phase === 'done') { clearTable(); } if (g.phase !== 'bet') return; g.n = n; sfx.chip(); up(); };
 
-  const addBet = (spot: Spot = 'main') => {
-    if (g.phase === 'done') { clearTable(); g.bet = 0; g.pp = 0; g.t3 = 0; }
+  const addBet = (i: number, spot: Spot) => {
+    if (g.phase === 'done') { clearTable(); wipe(); }
     if (g.phase !== 'bet') return;
+    const s = g.seats[i];
     if (staked0() + chip > bank.now()) { g.msg = 'Dafür reicht das Guthaben nicht.'; return up(); }
-    if (spot === 'main') { if (g.bet + chip <= 500) g.bet += chip; }
-    else if (g.bet === 0) { g.msg = 'Nebenwetten brauchen einen Haupteinsatz.'; return up(); }
-    else if (g[spot] + chip <= 100) g[spot] += chip;
+    if (spot === 'main') { if (s.main + chip <= 500) s.main += chip; }
+    else if (s.main === 0) { g.msg = 'Nebenwetten brauchen einen Haupteinsatz.'; return up(); }
+    else if (s[spot] + chip <= 100) s[spot] += chip;
     sfx.chip(); up();
   };
   const settle = () => {
     const d = total(g.dealer).t; const dBJ = g.dealer.length === 2 && d === 21;
     let back = 0, staked = 0;
     for (const h of g.hands) {
-      staked += h.bet; const p = total(h.cards).t;
-      if (p > 21) continue;
-      if (isBJ(h) && !dBJ) back += h.bet * 2.5;
-      else if (dBJ && !isBJ(h)) continue;
-      else if (d > 21 || p > d) back += h.bet * 2;
-      else if (p === d) back += h.bet;
+      staked += h.bet; const p = total(h.cards).t; let r = 0;
+      if (p > 21) r = 0;
+      else if (isBJ(h) && !dBJ) r = h.bet * 2.5;
+      else if (dBJ && !isBJ(h)) r = 0;
+      else if (d > 21 || p > d) r = h.bet * 2;
+      else if (p === d) r = h.bet;
+      back += r; const net = r - h.bet;
+      h.out = net > 0 ? `+${fmt(net)}` : net === 0 ? 'Unentschieden' : fmt(net); h.tone = net > 0 ? 'w' : net < 0 ? 'l' : '';
     }
     bank.add(back); const main = back - staked; g.delta = main + g.side; g.phase = 'done'; g.hole = false;
     const sum = `${g.delta > 0 ? '+' : ''}${fmt(g.delta)}`;
-    g.msg = g.hands.some(isBJ) && !dBJ ? `Blackjack! ${sum}` : dBJ && main < 0 ? `Die Bank hat Blackjack · ${sum}` : main > 0 ? `Gewonnen! ${sum}` : main === 0 ? (g.delta === 0 ? 'Unentschieden – Einsatz zurück' : `Unentschieden · ${sum}`) : g.delta > 0 ? `Hand verloren, Nebenwette gewinnt · ${sum}` : `Verloren · ${sum}`;
+    g.msg = g.hands.some(isBJ) && !dBJ && main > 0 ? `Blackjack! ${sum}` : dBJ && main < 0 ? `Die Bank hat Blackjack · ${sum}` : g.delta > 0 ? `Gewonnen! ${sum}` : g.delta === 0 ? 'Unentschieden – Einsatz zurück' : `Verloren · ${sum}`;
     g.tone = g.delta > 0 ? 'win' : g.delta < 0 ? 'lose' : 'push';
-    if (g.delta >= g.bet * 5 && g.delta > 0) sfx.big();
+    if (g.delta > 0 && g.delta >= staked * 3) sfx.big();
     bk.round(); up();
   };
   const dealerPlay = () => {
@@ -120,44 +128,52 @@ export default function Blackjack() {
   const next = () => {
     while (g.cur < g.hands.length && g.hands[g.cur].done) g.cur++;
     if (g.cur < g.hands.length) { const h = g.hands[g.cur]; if (h.cards.length === 1) { h.cards.push(draw()); if (h.cards[0].r === 14 || total(h.cards).t === 21) { h.done = true; return next(); } } g.msg = g.hands.length > 1 ? `Hand ${g.cur + 1}: Ihr Zug` : 'Ihr Zug'; up(); return; }
-    if (g.hands.every((h) => total(h.cards).t > 21)) { g.hole = false; settle(); } else dealerPlay();
+    // the bank only draws if at least one hand is still live and not a natural
+    if (g.hands.every((h) => total(h.cards).t > 21 || isBJ(h))) { g.hole = false; up(); setTimeout(settle, 500); } else dealerPlay();
   };
   const deal = (rebet = false) => {
-    if (rebet) { clearTable(); if (staked0() > bank.now()) { g.pp = 0; g.t3 = 0; } if (g.bet > bank.now()) g.bet = 0; }
-    if (g.phase !== 'bet' || g.bet <= 0) return up();
-    bank.add(-staked0()); g.delta = null; g.tone = ''; g.side = -(g.pp + g.t3); g.res = [];
-    g.hands = [{ cards: [draw()], bet: g.bet, done: false, doubled: false, split: false }]; g.dealer = [draw()]; g.hands[0].cards.push(draw()); g.dealer.push(draw());
+    if (rebet) { clearTable(); if (staked0() > bank.now()) active().forEach((s) => { s.pp = 0; s.t3 = 0; }); if (staked0() > bank.now()) wipe(); }
+    if (g.phase !== 'bet' || staked0() <= 0) return up();
+    bank.add(-staked0()); g.delta = null; g.tone = ''; g.side = 0;
+    g.hands = []; active().forEach((s, i) => { s.res = []; if (s.main > 0) g.hands.push({ cards: [draw()], bet: s.main, done: false, doubled: false, split: false, seat: i }); });
+    g.dealer = [draw()]; g.hands.forEach((h) => h.cards.push(draw())); g.dealer.push(draw());
     g.hole = true; g.cur = 0; g.phase = 'player';
-    const [c1, c2] = g.hands[0].cards;
-    if (g.pp > 0) { const r = perfectPair(c1, c2); if (r) { bank.add(g.pp * (r[1] + 1)); g.side += g.pp * (r[1] + 1); } g.res.push({ t: r ? `Perfect Pairs: ${r[0]} zahlt ${r[1]} zu 1 · +${fmt(g.pp * r[1])}` : 'Perfect Pairs: kein Paar', w: !!r }); }
-    if (g.t3 > 0) { const r = twentyOnePlus3([c1, c2, g.dealer[0]]); if (r) { bank.add(g.t3 * (r[1] + 1)); g.side += g.t3 * (r[1] + 1); } g.res.push({ t: r ? `21+3: ${r[0]} zahlt ${r[1]} zu 1 · +${fmt(g.t3 * r[1])}` : '21+3: nichts getroffen', w: !!r }); }
-    if (g.res.some((r) => r.w)) setTimeout(() => sfx.win(), 500);
+    let sideWin = false;
+    for (const h of g.hands) {
+      const s = g.seats[h.seat]; const [c1, c2] = h.cards; g.side -= s.pp + s.t3;
+      if (s.pp > 0) { const r = perfectPair(c1, c2); if (r) { bank.add(s.pp * (r[1] + 1)); g.side += s.pp * (r[1] + 1); sideWin = true; } s.res.push({ t: r ? `PP: ${r[0]} ${r[1]}:1 · +${fmt(s.pp * r[1])}` : 'PP: kein Paar', w: !!r }); }
+      if (s.t3 > 0) { const r = twentyOnePlus3([c1, c2, g.dealer[0]]); if (r) { bank.add(s.t3 * (r[1] + 1)); g.side += s.t3 * (r[1] + 1); sideWin = true; } s.res.push({ t: r ? `21+3: ${r[0]} ${r[1]}:1 · +${fmt(s.t3 * r[1])}` : '21+3: nichts', w: !!r }); }
+    }
+    if (sideWin) setTimeout(() => sfx.win(), 500);
     const dUp = val(g.dealer[0]); const dBJ = total(g.dealer).t === 21;
-    if (isBJ(g.hands[0]) || ((dUp === 11 || dUp === 10) && dBJ)) { g.hands[0].done = true; g.msg = 'Einen Moment …'; up(); setTimeout(settle, 900); return; }
-    g.msg = 'Ihr Zug'; up();
+    if ((dUp === 11 || dUp === 10) && dBJ) { g.hands.forEach((h) => { h.done = true; }); g.msg = 'Einen Moment …'; up(); setTimeout(settle, 900); return; }
+    g.hands.forEach((h) => { if (isBJ(h)) h.done = true; });
+    g.msg = 'Ihr Zug'; up(); if (g.hands[0].done) setTimeout(next, 700);
   };
   const cur = g.hands[g.cur];
   const canDouble = !!cur && g.phase === 'player' && cur.cards.length === 2 && bank.bank >= cur.bet;
-  const canSplit = !!cur && g.phase === 'player' && g.hands.length === 1 && cur.cards.length === 2 && val(cur.cards[0]) === val(cur.cards[1]) && bank.bank >= cur.bet;
-  const tip = cur && g.phase === 'player' ? book(cur.cards, g.dealer[0], canDouble, canSplit) : null;
+  const canSplit = !!cur && g.phase === 'player' && !cur.split && cur.cards.length === 2 && val(cur.cards[0]) === val(cur.cards[1]) && bank.bank >= cur.bet;
+  const tip = cur && g.phase === 'player' && !cur.done ? book(cur.cards, g.dealer[0], canDouble, canSplit) : null;
   const act = (m: Move) => {
     if (!cur || g.phase !== 'player' || !tip) return;
     bk.judge(m === tip.m, m === tip.m ? NAME[m] : `Lehrbuch: ${NAME[tip.m]}`);
     if (m === 'H') { cur.cards.push(draw()); if (total(cur.cards).t >= 21) cur.done = true; }
     else if (m === 'S') cur.done = true;
     else if (m === 'D') { bank.add(-cur.bet); sfx.chip(); cur.bet *= 2; cur.doubled = true; cur.cards.push(draw()); cur.done = true; }
-    else if (m === 'P') { bank.add(-cur.bet); sfx.chip(); const [a, b] = cur.cards; g.hands = [{ cards: [a, draw()], bet: cur.bet, done: false, doubled: false, split: true }, { cards: [b], bet: cur.bet, done: false, doubled: false, split: true }]; if (a.r === 14) g.hands[0].done = true; if (total(g.hands[0].cards).t === 21) g.hands[0].done = true; g.cur = 0; }
+    else if (m === 'P') {
+      bank.add(-cur.bet); sfx.chip(); const [a, b] = cur.cards;
+      const h1: Hand = { cards: [a, draw()], bet: cur.bet, done: false, doubled: false, split: true, seat: cur.seat };
+      const h2: Hand = { cards: [b], bet: cur.bet, done: false, doubled: false, split: true, seat: cur.seat };
+      if (a.r === 14 || total(h1.cards).t === 21) h1.done = true;
+      g.hands.splice(g.cur, 1, h1, h2);
+    }
     up(); if (!g.hands[g.cur] || g.hands[g.cur].done) setTimeout(next, 350);
   };
   const dt = total(g.hole ? g.dealer.slice(0, 1) : g.dealer).t;
-  const staked = g.phase === 'bet' ? staked0() : g.hands.reduce((a, h) => a + h.bet, 0) + g.pp + g.t3;
+  const staked = g.phase === 'bet' ? staked0() : g.hands.reduce((a, h) => a + h.bet, 0) + active().reduce((a, s) => a + (s.main > 0 ? s.pp + s.t3 : 0), 0);
   const bookCls = (m: Move) => (coach && tip?.m === m ? ' book' : '');
   const betting = g.phase === 'bet' || g.phase === 'done';
-  const sideSpot = (k: 'pp' | 't3', label: string) => (
-    <button type="button" class={`tg-spot side${g.res.some((r) => r.w && r.t.startsWith(k === 'pp' ? 'Perfect' : '21+3')) ? ' hit' : ''}`} onClick={() => addBet(k)} disabled={!betting} aria-label={`Nebenwette ${label} setzen`}>
-      {g[k] > 0 ? <ChipStack amount={g[k]} /> : label}
-    </button>
-  );
+  const small = g.hands.length > 1;
 
   return (
     <Table tone={g.tone === 'push' ? '' : g.tone} say={g.msg}>
@@ -168,44 +184,51 @@ export default function Blackjack() {
         {g.dealer.length > 0 && <span class={`tg-total${dt > 21 ? ' bust' : ''}`}>{dt}</span>}
       </div>
       <Arc top="Blackjack zahlt 3 zu 2" sub="BANK HÄLT BEI ALLEN 17 · PERFECT PAIRS · 21+3" />
-      <Msg tone={g.tone === 'push' ? 'push' : g.tone}>{g.msg}</Msg>
-      <div style={{ display: 'flex', justifyContent: 'center', gap: '28px', flexWrap: 'wrap' }}>
-        {g.hands.map((h, hi) => { const { t, soft } = total(h.cards); return (
-          <div class="tg-seat" key={hi} style={{ opacity: g.phase === 'player' && hi !== g.cur ? 0.55 : 1 }}>
-            <div class="tg-hand">{h.cards.map((c, i) => <CardView key={`${hi}-${i}`} card={c} small={g.hands.length > 1} i={i} win={g.phase === 'done' && isBJ(h)} />)}</div>
-            <span class={`tg-total${t > 21 ? ' bust' : isBJ(h) ? ' bj' : ''}`}>{isBJ(h) ? 'Blackjack' : t > 21 ? `${t} · überkauft` : `${soft && t < 21 ? 'Soft ' : ''}${t}`}</span>
-            {g.hands.length > 1 && <div style={{ marginTop: '10px', height: '46px' }}><ChipStack amount={h.bet} /></div>}
+      <Msg tone={g.tone}>{g.msg}</Msg>
+      <div class="bj-seats" data-n={g.n}>
+        {active().map((s, si) => { const hs = g.hands.filter((h) => h.seat === si); const seatBet = hs.length ? hs.reduce((a, h) => a + h.bet, 0) : s.main; return (
+          <div class="bj-seat" key={si}>
+            <div class="bj-hands">
+              {hs.map((h) => { const hi = g.hands.indexOf(h); const { t, soft } = total(h.cards); return (
+                <div class={`tg-seat${g.phase === 'player' && hi === g.cur ? ' turn' : ''}`} key={hi} style={{ opacity: g.phase === 'player' && hi !== g.cur ? 0.5 : 1 }}>
+                  <div class="tg-hand">{h.cards.map((c, i) => <CardView key={`${hi}-${i}-${c.r}-${c.s}`} card={c} small={small} i={i} win={g.phase === 'done' && h.tone === 'w'} />)}</div>
+                  <span class={`tg-total${t > 21 ? ' bust' : isBJ(h) ? ' bj' : ''}`}>{isBJ(h) ? 'Blackjack' : t > 21 ? `${t} · überkauft` : `${soft && t < 21 ? 'Soft ' : ''}${t}`}</span>
+                  {h.out && <span class={`bj-out ${h.tone}`}>{h.out}</span>}
+                </div>); })}
+            </div>
+            <div class="bj-spots">
+              <button type="button" class="tg-spot" onClick={() => addBet(si, 'main')} disabled={!betting} aria-label={`Hand ${si + 1}: Haupteinsatz setzen`}>{seatBet > 0 ? <ChipStack amount={seatBet} /> : g.n > 1 ? `Hand ${si + 1}` : 'Einsatz'}</button>
+              <div class="bj-sides">
+                {(['pp', 't3'] as const).map((k) => <button type="button" key={k} class={`tg-spot side${s.res.some((r) => r.w && r.t.startsWith(k === 'pp' ? 'PP' : '21+3')) ? ' hit' : ''}`} onClick={() => addBet(si, k)} disabled={!betting} aria-label={`Hand ${si + 1}: Nebenwette ${k === 'pp' ? 'Perfect Pairs' : '21+3'} setzen`}>{s[k] > 0 ? <ChipStack amount={s[k]} /> : k === 'pp' ? 'Perfect Pairs' : '21+3'}</button>)}
+              </div>
+            </div>
+            <div class="tg-side-res">{s.res.map((r, i) => <span key={i} class={r.w ? 'w' : ''}>{r.t}</span>)}</div>
           </div>); })}
       </div>
-      <div class="tg-spots" style={{ marginTop: g.hands.length ? '14px' : '4px' }}>
-        {sideSpot('pp', 'Perfect Pairs')}
-        <button type="button" class="tg-spot" onClick={() => addBet('main')} disabled={!betting} aria-label="Haupteinsatz setzen">{(g.hands.length === 1 ? g.hands[0].bet : g.bet) > 0 && g.hands.length < 2 ? <ChipStack amount={g.hands.length === 1 ? g.hands[0].bet : g.bet} /> : 'Einsatz'}</button>
-        {sideSpot('t3', '21+3')}
-      </div>
-      <div class="tg-side-res">{g.res.map((r, i) => <span key={i} class={r.w ? 'w' : ''}>{r.t}</span>)}</div>
       {g.phase === 'player' ? (
         <div class="tg-actions">
-          <button type="button" class={`tg-btn green${bookCls('H')}`} onClick={() => act('H')}>Karte</button>
-          <button type="button" class={`tg-btn red${bookCls('S')}`} onClick={() => act('S')}>Halten</button>
-          <button type="button" class={`tg-btn${bookCls('D')}`} disabled={!canDouble} onClick={() => act('D')}>Verdoppeln</button>
-          <button type="button" class={`tg-btn alt${bookCls('P')}`} disabled={!canSplit} onClick={() => act('P')}>Teilen</button>
+          <button type="button" class={`tg-btn green${bookCls('H')}`} disabled={!tip} onClick={() => act('H')}>Karte</button>
+          <button type="button" class={`tg-btn red${bookCls('S')}`} disabled={!tip} onClick={() => act('S')}>Halten</button>
+          <button type="button" class={`tg-btn${bookCls('D')}`} disabled={!canDouble || !tip} onClick={() => act('D')}>Verdoppeln</button>
+          <button type="button" class={`tg-btn alt${bookCls('P')}`} disabled={!canSplit || !tip} onClick={() => act('P')}>Teilen</button>
         </div>
       ) : g.phase !== 'dealer' && (
         <>
-          <div style={{ marginTop: '14px' }}><ChipRack value={chip} onPick={(v) => { setChip(v); }} /></div>
+          <div class="bj-n" role="group" aria-label="Anzahl der Hände">{[1, 2, 3].map((n) => <button type="button" key={n} class={g.n === n ? 'on' : ''} aria-pressed={g.n === n} onClick={() => setSeats(n)}>{n} {n === 1 ? 'Hand' : 'Hände'}</button>)}</div>
+          <div style={{ marginTop: '12px' }}><ChipRack value={chip} onPick={(v) => { setChip(v); }} /></div>
           <div class="tg-actions">
             {g.phase === 'bet' ? <>
-              <button type="button" class="tg-btn alt" disabled={staked0() === 0} onClick={() => { g.bet = 0; g.pp = 0; g.t3 = 0; up(); }}>Löschen</button>
-              <button type="button" class="tg-btn" disabled={g.bet === 0} onClick={() => deal()}>Geben</button>
+              <button type="button" class="tg-btn alt" disabled={staked0() === 0} onClick={() => { wipe(); up(); }}>Löschen</button>
+              <button type="button" class="tg-btn" disabled={staked0() === 0} onClick={() => deal()}>Geben</button>
             </> : <>
-              <button type="button" class="tg-btn" disabled={g.bet > bank.bank} onClick={() => deal(true)}>Gleicher Einsatz ({fmt(staked0())})</button>
-              <button type="button" class="tg-btn alt" onClick={() => { clearTable(); g.bet = 0; g.pp = 0; g.t3 = 0; up(); }}>Neuer Einsatz</button>
+              <button type="button" class="tg-btn" disabled={staked0() === 0 || active().reduce((a, s) => a + s.main, 0) > bank.bank} onClick={() => deal(true)}>Gleicher Einsatz ({fmt(staked0())})</button>
+              <button type="button" class="tg-btn alt" onClick={() => { clearTable(); wipe(); up(); }}>Neuer Einsatz</button>
             </>}
           </div>
           <p style={{ margin: '10px 0 0', textAlign: 'center', fontSize: '.72rem', color: '#ffffffa0' }}>Jeton wählen, dann auf einen Kreis tippen. Perfect Pairs: 6 / 12 / 25 zu 1 · 21+3: 5 / 10 / 30 / 40 / 100 zu 1</p>
         </>
       )}
-      <Coach on={coach} setOn={setCoach} book={bk} tip={tip ? <><b>{NAME[tip.m]}.</b> {tip.why}</> : g.pp + g.t3 > 0 ? 'Nebenwetten zahlen hoch, kosten aber mehr: Perfect Pairs hat rund 4 % Hausvorteil, 21+3 rund 3 %. Das Lehrbuch setzt sie nicht, weil die Hauptwette mit rund 0,5 % deutlich günstiger ist. Zum Ausprobieren mit Demo-Guthaben spricht nichts dagegen.' : 'Der Tipp erscheint, sobald du am Zug bist. Er folgt der Basisstrategie für 6 Decks. Mit ihr sinkt der Hausvorteil auf rund 0,5 %, verschwinden kann er nicht.'} />
+      <Coach on={coach} setOn={setCoach} book={bk} tip={tip ? <>{g.hands.length > 1 && <b>Hand {g.cur + 1}: </b>}<b>{NAME[tip.m]}.</b> {tip.why}</> : active().some((s) => s.pp + s.t3 > 0) ? 'Nebenwetten zahlen hoch, kosten aber mehr: Perfect Pairs hat rund 4 % Hausvorteil, 21+3 rund 3 %. Das Lehrbuch setzt sie nicht, weil die Hauptwette mit rund 0,5 % deutlich günstiger ist. Zum Ausprobieren mit Demo-Guthaben spricht nichts dagegen.' : 'Der Tipp erscheint, sobald du am Zug bist. Er folgt der Basisstrategie für 6 Decks. Mit ihr sinkt der Hausvorteil auf rund 0,5 %, verschwinden kann er nicht. Mehrere Hände ändern den Hausvorteil nicht, nur das Tempo.'} />
     </Table>
   );
 }

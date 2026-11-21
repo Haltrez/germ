@@ -4,7 +4,7 @@ import type { ComponentChildren } from 'preact';
 
 export interface Card { r: number; s: number } // r: 2..14 (11 J, 12 Q, 13 K, 14 A), s: 0♠ 1♥ 2♦ 3♣
 const SUITS = ['♠', '♥', '♦', '♣'];
-export const rankLabel = (r: number) => (r <= 10 ? String(r) : { 11: 'B', 12: 'D', 13: 'K', 14: 'A' }[r]!);
+export const rankLabel = (r: number) => (r <= 10 ? String(r) : { 11: 'J', 12: 'Q', 13: 'K', 14: 'A' }[r]!);
 
 /** Unbiased random integer in [0, n) from the browser's crypto source. */
 export function rnd(n: number) {
@@ -60,12 +60,23 @@ export function CardView({ card, down = false, small = false, win = false, i = 0
       <div class="tg-card-in">
         <div class={`tg-face${red ? ' red' : ''}${court ? ' court' : ''}`}>
           <div class="ix">{rankLabel(card.r)}<span>{suit}</span></div>
-          <div class="pip">{court ? <><i>{suit}</i><b>{{ 11: '♞', 12: '♛', 13: '♚' }[card.r]}</b><i>{suit}</i></> : card.r === 14 ? <span class="ace">{suit}</span> : suit}</div>
+          <div class="pip">{court ? <span class="band"><Court r={card.r} /><i>{suit}</i></span> : card.r === 14 ? <span class="ace">{suit}</span> : suit}</div>
           <div class="ix b">{rankLabel(card.r)}<span>{suit}</span></div>
         </div>
         <div class="tg-back" />
       </div>
     </div>
+  );
+}
+
+/** Court card emblem: crown (king), tiara (queen), sword (jack). Drawn as SVG so it looks the same on every device. */
+function Court({ r }: { r: number }) {
+  return (
+    <svg viewBox="0 0 48 48" aria-hidden="true">
+      {r === 13 && <><path d="M6 36 L9 14 L18 25 L24 9 L30 25 L39 14 L42 36Z" fill="currentColor" stroke="#f6cd68" stroke-width="1.6" stroke-linejoin="round" /><rect x="6" y="37" width="36" height="5" rx="1.5" fill="currentColor" stroke="#f6cd68" stroke-width="1.2" /><circle cx="24" cy="7" r="2.6" fill="#f6cd68" /><circle cx="9" cy="12" r="2.2" fill="#f6cd68" /><circle cx="39" cy="12" r="2.2" fill="#f6cd68" /></>}
+      {r === 12 && <><path d="M7 36 C7 24 10 20 12 14 L18 27 L24 11 L30 27 L36 14 C38 20 41 24 41 36Z" fill="currentColor" stroke="#f6cd68" stroke-width="1.6" stroke-linejoin="round" /><rect x="7" y="37" width="34" height="5" rx="2.5" fill="currentColor" stroke="#f6cd68" stroke-width="1.2" /><circle cx="24" cy="8" r="3" fill="#f6cd68" /><circle cx="12" cy="11.5" r="2.4" fill="#f6cd68" /><circle cx="36" cy="11.5" r="2.4" fill="#f6cd68" /><circle cx="24" cy="31" r="2.4" fill="#f6cd68" /></>}
+      {r === 11 && <><path d="M24 4 L28 10 L26.5 31 L21.5 31 L20 10Z" fill="currentColor" stroke="#f6cd68" stroke-width="1.4" stroke-linejoin="round" /><rect x="13" y="30" width="22" height="4.5" rx="2.2" fill="currentColor" stroke="#f6cd68" stroke-width="1.2" /><rect x="22" y="34" width="4" height="8" fill="currentColor" /><circle cx="24" cy="43.5" r="3" fill="#f6cd68" /></>}
+    </svg>
   );
 }
 
