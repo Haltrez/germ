@@ -1,0 +1,32 @@
+{
+  "name": "Löwen Play",
+  "isPlaceholder": false,
+  "gglLicensed": true,
+  "licenseNumber": "GGL-Whitelist",
+  "licenseHolder": "Löwen Play digital GmbH",
+  "gglWhitelistCheckedAt": "2026-11-21",
+  "affiliateUrl": null,
+  "websiteUrl": "https://www.loewen-play.de/",
+  "bonusText": "TODO",
+  "bonusTermsUrl": null,
+  "paymentMethods": [],
+  "slotSlugs": [],
+  "strengthTag": "Bekannt aus der Spielhalle",
+  "pros": [
+    "Erlaubnis der GGL für virtuelle Automatenspiele",
+    "Betreiber mit Sitz in Deutschland",
+    "Marke aus den Löwen-Play-Spielhallen"
+  ],
+  "cons": [],
+  "minDeposit": "TODO",
+  "payoutSpeed": "TODO",
+  "rating": null,
+  "featured": false,
+  "sortOrder": 8,
+  "licensedProducts": [
+    "Virtuelle Automatenspiele"
+  ],
+  "whitelistDomains": [
+    "loewen-play.de"
+  ]
+}

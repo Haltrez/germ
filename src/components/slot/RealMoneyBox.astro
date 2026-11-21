@@ -20,7 +20,7 @@ const { name, ops, class: cls = 'mt-14', headingId = 'realmoney-title', columns 
             <p class="font-semibold text-fg">{o.name}</p>
             {o.tag && <p class="truncate text-xs text-gold-400">{o.tag}</p>}
           </div>
-          <a href={o.href} rel={o.rel} target="_blank" data-affiliate={o.affiliate ? o.id : undefined} class="btn btn-primary !min-h-12 w-full shrink-0 !px-5 text-base sm:w-auto">Echtgeld-Version ansehen</a>
+          <a href={o.href} rel={o.rel} target="_blank" data-affiliate={o.affiliate ? o.id : undefined} data-op={o.id} data-place="slot-box" class="btn btn-primary !min-h-12 w-full shrink-0 !px-5 text-base sm:w-auto">Echtgeld-Version ansehen</a>
         </li>
       ))}
     </ul>

@@ -62,6 +62,7 @@ const faq = [
   { q: 'Ist das Spielen an Online-Spielautomaten in Deutschland legal?', a: 'Seit dem Glücksspielstaatsvertrag 2021 ist virtuelles Automatenspiel bei Anbietern mit Erlaubnis der GGL legal. Wir vergleichen ausschließlich solche Anbieter.' },
   { q: 'Was ist der Zufallsslot?', a: 'Ein Klick auf den Würfel öffnet einen zufällig ausgewählten Slot mit offizieller Demo. Ideal, wenn du neue Spiele entdecken willst.' },
 ];
+import { TABLE_GAMES } from '../content/tischspiele.ts';
 ---
 <BaseLayout {title} {description} showRgBlock jsonLd={[organizationSchema(), websiteSchema(), faqSchema(faq)]}>
   <!-- HERO -->
@@ -134,6 +135,24 @@ const faq = [
   </section>
 
   <!-- CTA: Spielotheken -->
+  <section class="container-site pt-16" aria-labelledby="tg-title">
+    <div class="flex flex-wrap items-end justify-between gap-3">
+      <div>
+        <h2 id="tg-title" class="section-title">Tischspiele kostenlos</h2>
+        <p class="section-sub">Blackjack, Poker, Roulette und mehr: direkt im Browser, mit 1.000 € Demo-Guthaben und Tipp zu jeder Entscheidung.</p>
+      </div>
+      <a href="/tischspiele/" class="btn-ghost">Alle Tischspiele</a>
+    </div>
+    <div class="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
+      {TABLE_GAMES.map((g) => (
+        <a href={`/tischspiele/${g.slug}/`} class="card group flex flex-col p-4 transition hover:border-gold-400/60">
+          <span class="font-display text-xl uppercase text-fg group-hover:text-gold-300">{g.name.replace("Texas Hold'em ", '')}</span>
+          <span class="mt-1 text-xs text-muted">{g.short}</span>
+        </a>
+      ))}
+    </div>
+  </section>
+
   <section class="container-site mt-16">
     <div class="relative overflow-hidden rounded-3xl border border-gold-500/40 bg-gradient-to-br from-ink-800 via-ink-850 to-ink-900 p-7 sm:p-10">
       <div class="pointer-events-none absolute -right-20 -top-24 h-72 w-72 rounded-full bg-gold-400/15 blur-3xl" aria-hidden="true"></div>

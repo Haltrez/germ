@@ -1,0 +1,34 @@
+{
+  "name": "bet365 Slots",
+  "isPlaceholder": false,
+  "gglLicensed": true,
+  "licenseNumber": "GGL-Whitelist",
+  "licenseHolder": "TODO",
+  "gglWhitelistCheckedAt": "2026-11-21",
+  "affiliateUrl": null,
+  "websiteUrl": "https://www.bet365.de/",
+  "bonusText": "TODO",
+  "bonusTermsUrl": null,
+  "paymentMethods": [],
+  "slotSlugs": [],
+  "strengthTag": "Slots und Sportwetten",
+  "pros": [
+    "Erlaubnis der GGL für virtuelle Automatenspiele",
+    "International bekannte Marke",
+    "Auch für Sportwetten zugelassen"
+  ],
+  "cons": [],
+  "minDeposit": "TODO",
+  "payoutSpeed": "TODO",
+  "rating": null,
+  "featured": false,
+  "sortOrder": 9,
+  "licensedProducts": [
+    "Virtuelle Automatenspiele",
+    "Sportwetten"
+  ],
+  "whitelistDomains": [
+    "bet365.de"
+  ],
+  "licensedSince": "2025-05-27"
+}

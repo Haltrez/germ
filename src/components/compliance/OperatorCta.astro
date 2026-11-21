@@ -22,7 +22,7 @@ const website = operator.websiteUrl !== 'TODO' ? operator.websiteUrl : null;
 if (!operator.affiliateUrl && !website) throw new ComplianceError(`Operator "${slug}" has neither affiliateUrl nor websiteUrl`);
 ---
 {!operator.affiliateUrl ? (
-  <a href={website} rel="nofollow noopener" target="_blank" class:list={['btn', variant === 'primary' ? 'btn-primary' : 'btn-secondary', cls]}>
+  <a href={website} rel="nofollow noopener" target="_blank" data-op={slug} data-place="cta" class:list={['btn', variant === 'primary' ? 'btn-primary' : 'btn-secondary', cls]}>
     {label}<span class="sr-only"> (öffnet {operator.name} in neuem Tab)</span>
   </a>
 ) : (
@@ -32,6 +32,8 @@ if (!operator.affiliateUrl && !website) throw new ComplianceError(`Operator "${s
     rel={AFFILIATE_REL}
     target="_blank"
     data-affiliate={slug}
+    data-op={slug}
+    data-place="cta"
     class:list={['btn', variant === 'primary' ? 'btn-primary' : 'btn-secondary']}
   >
     {label}

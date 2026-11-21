@@ -12,5 +12,12 @@
     const c = JSON.parse(localStorage.getItem('ksa-consent') ?? 'null');
     if (c?.v === 1 && c.statistics) load();
   } catch { /* storage blocked */ }
+  // Counts clicks on operator buttons (only when analytics is active). No personal data: operator, placement, page path.
+  document.addEventListener('click', (e) => {
+    const a = (e.target as Element | null)?.closest?.('a[data-op]') as HTMLAnchorElement | null;
+    const va = (window as unknown as { va?: (t: string, p: unknown) => void }).va;
+    if (!a || !loaded || !va) return;
+    va('event', { name: 'operator_click', data: { operator: a.dataset.op ?? '', placement: a.dataset.place ?? '', page: location.pathname } });
+  }, true);
   document.addEventListener('ksa:consent', (e) => { if ((e as CustomEvent).detail?.statistics) load(); });
 </script>

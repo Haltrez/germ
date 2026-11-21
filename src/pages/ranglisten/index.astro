@@ -1,0 +1,29 @@
+---
+/** Hub for the ranking lists, with a top 5 preview of each. */
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { RANKINGS, rankingRows } from '../../lib/rankings.ts';
+import { maxWinText, rtpText } from '../../lib/slots.ts';
+import { itemListSchema } from '../../lib/schema.ts';
+import { formatDateDE } from '../../lib/i18n/de.ts';
+const lists = await Promise.all(RANKINGS.map(async (r) => ({ r, top: (await rankingRows(r)).slice(0, 5) })));
+---
+<BaseLayout title="Slot-Ranglisten: RTP, Max Win und neue Spiele" description="Ranglisten aus offiziellen Herstellerdaten: Slots mit der höchsten Auszahlungsquote, dem höchsten Maximalgewinn und die neuesten Spiele. Alle mit Demo." breadcrumbs={[{ name: 'Ranglisten', href: '/ranglisten/' }]} jsonLd={[itemListSchema('Slot-Ranglisten', RANKINGS.map((r) => ({ name: r.h1, path: `/ranglisten/${r.slug}/` })))]}>
+  <section class="container-site pt-8">
+    <p class="eyebrow">Aus offiziellen Herstellerdaten</p>
+    <h1 class="mt-3 section-title !text-[clamp(2.2rem,5vw,3.75rem)]">Ranglisten</h1>
+    <p class="section-sub">Welche Slots haben die höchste Auszahlungsquote, welche den höchsten Maximalgewinn, und was ist neu? Jede Liste zeigt die Top 50, jedes Spiel ist als Demo spielbar.</p>
+    <div class="mt-8 grid gap-5 lg:grid-cols-3">
+      {lists.map(({ r, top }) => (
+        <div class="card flex flex-col p-6">
+          <h2 class="font-title text-xl font-bold text-fg">{r.h1}</h2>
+          <ol class="mt-4 flex-1 space-y-2 text-sm">
+            {top.map((v, i) => (
+              <li class="flex items-baseline gap-3"><span class="font-display text-lg text-gold-400">{i + 1}</span><a href={v.path} class="min-w-0 flex-1 truncate font-semibold text-fg hover:text-gold-300">{v.data.name}</a><span class="shrink-0 text-muted">{r.slug === 'hoechster-rtp' ? rtpText(v.data) : r.slug === 'hoechster-max-win' ? maxWinText(v.data).replace(' Einsatz', '') : formatDateDE(String(v.data.releaseDate))}</span></li>
+            ))}
+          </ol>
+          <a href={`/ranglisten/${r.slug}/`} class="btn btn-secondary mt-5">Ganze Top 50 ansehen</a>
+        </div>
+      ))}
+    </div>
+  </section>
+</BaseLayout>

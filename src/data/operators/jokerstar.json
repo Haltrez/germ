@@ -1,0 +1,35 @@
+{
+  "name": "Jokerstar",
+  "isPlaceholder": false,
+  "gglLicensed": true,
+  "licenseNumber": "GGL-Whitelist",
+  "licenseHolder": "Jokerstar GmbH",
+  "gglWhitelistCheckedAt": "2026-11-21",
+  "affiliateUrl": null,
+  "websiteUrl": "https://www.jokerstar.de/",
+  "bonusText": "TODO",
+  "bonusTermsUrl": null,
+  "paymentMethods": [],
+  "slotSlugs": [],
+  "strengthTag": "Anbieter mit Sitz in Deutschland",
+  "pros": [
+    "Erlaubnis der GGL für virtuelle Automatenspiele",
+    "Betreiber mit Sitz in Deutschland",
+    "Erlaubnis seit August 2022"
+  ],
+  "cons": [],
+  "minDeposit": "TODO",
+  "payoutSpeed": "TODO",
+  "rating": null,
+  "featured": false,
+  "sortOrder": 5,
+  "licensedProducts": [
+    "Virtuelle Automatenspiele"
+  ],
+  "whitelistDomains": [
+    "jokerstar.de"
+  ],
+  "licenseHolderAddress": "Ziegeleistraße 26, 88255 Baindt, Deutschland",
+  "licensedSince": "2022-08-09",
+  "logo": "/operators/jokerstar.png"
+}

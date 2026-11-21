@@ -62,9 +62,6 @@ export const FOOTER_LEGAL: { label: string; href: string }[] = [
  * page replaces the stub.
  */
 export const STUB_PAGES: Record<string, { title: string; h1: string; phase: number }> = {
-  '/ranglisten/': { title: 'Ranglisten: das Big Win Board', h1: 'Ranglisten', phase: 3 },
-  '/ranglisten/neue-slots/': { title: 'Neue Slots kostenlos testen', h1: 'Neue Slots', phase: 3 },
-  '/tools/': { title: 'Tools: Budget- und RTP-Rechner', h1: 'Tools', phase: 5 },
 };
 
 /** True when a link points to a finished page (stubs are hidden from navigation). */
