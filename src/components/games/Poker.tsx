@@ -151,8 +151,23 @@ export default function Poker() {
   const role = (i: number) => (i === g.button ? 'D' : i === (g.button + 1) % 4 ? 'SB' : i === (g.button + 2) % 4 ? 'BB' : '');
 
   return (
-    <Table felt="blue" tone={g.tone === 'push' ? '' : g.tone} say={g.msg}>
+    <Table felt="blue" tone={g.tone === 'push' ? '' : g.tone} say={g.msg} side={<>
       <Hud bank={me.human ? bank.bank : 0} bet={me.total} delta={g.delta} onReset={() => { if (!idle) return; bank.reset(); me.stack = 1000; up(); }} />
+      {myTurn ? (
+        <div class="tg-actions">
+          <button type="button" class={`tg-btn red${cls('fold')}`} onClick={() => mine('fold')}>Aufgeben</button>
+          <button type="button" class={`tg-btn green${cls('call')}`} onClick={() => mine('call')}>{toCall > 0 ? `Mitgehen ${fmt(toCall)}` : 'Schieben'}</button>
+          {canRaise && sizeTo(0.5) < maxTo && <button type="button" class={`tg-btn alt${cls('raise')}`} onClick={() => mine('raise', sizeTo(0.5))}>{g.currentBet > 0 ? 'Erhöhen auf' : 'Setzen'} {fmt(sizeTo(0.5))}</button>}
+          {canRaise && sizeTo(1) < maxTo && sizeTo(1) > sizeTo(0.5) && <button type="button" class="tg-btn alt" onClick={() => mine('raise', sizeTo(1))}>Pot {fmt(sizeTo(1))}</button>}
+          {canRaise && <button type="button" class="tg-btn alt" onClick={() => mine('raise', maxTo)}>All-in {fmt(maxTo)}</button>}
+        </div>
+      ) : idle ? (
+        <div class="tg-actions">
+          {me.stack >= BB ? <button type="button" class="tg-btn" onClick={deal}>{g.street === 'idle' ? 'Karten geben' : 'Nächste Hand'}</button>
+            : <button type="button" class="tg-btn" onClick={() => { bank.reset(); me.stack = 1000; up(); }}>Guthaben auf 1.000 € setzen</button>}
+        </div>
+      ) : <div class="tg-actions" style={{ minHeight: '52px' }} />}
+      </>} foot={<Coach on={coach} setOn={setCoach} book={bk} tip={myTurn && g.tip ? <><b>{g.tip.k === 'fold' ? 'Aufgeben.' : g.tip.k === 'call' ? (toCall > 0 ? 'Mitgehen.' : 'Schieben.') : g.currentBet > 0 ? 'Erhöhen.' : 'Setzen.'}</b> {g.tip.why}</> : 'Der Tipp rechnet für jede Entscheidung deine ungefähre Gewinnchance aus und vergleicht sie mit den Pot Odds, also dem Preis fürs Mitgehen im Verhältnis zum Pot. Er rechnet gegen zufällige Hände. Wer viel setzt, hat meist bessere Karten, deshalb ist der Tipp eine Faustregel und keine perfekte Strategie.'} />}>
       <div class="pk-bots">
         {g.players.slice(1).map((p, k) => { const i = k + 1; return (
           <div class={`pk-seat${g.cur === i ? ' turn' : ''}${p.folded ? ' out' : ''}${p.won > 0 ? ' won' : ''}`} key={`${g.n}-${i}`}>
@@ -176,21 +191,6 @@ export default function Poker() {
           {me.last && <span class={`pk-tag${me.folded ? ' f' : ''}`}>{me.last}</span>}{me.won > 0 && <span class="pk-tag w">+{fmt(me.won)}</span>}
         </div>
       </div>
-      {myTurn ? (
-        <div class="tg-actions">
-          <button type="button" class={`tg-btn red${cls('fold')}`} onClick={() => mine('fold')}>Aufgeben</button>
-          <button type="button" class={`tg-btn green${cls('call')}`} onClick={() => mine('call')}>{toCall > 0 ? `Mitgehen ${fmt(toCall)}` : 'Schieben'}</button>
-          {canRaise && sizeTo(0.5) < maxTo && <button type="button" class={`tg-btn${cls('raise')}`} onClick={() => mine('raise', sizeTo(0.5))}>{g.currentBet > 0 ? 'Erhöhen auf' : 'Setzen'} {fmt(sizeTo(0.5))}</button>}
-          {canRaise && sizeTo(1) < maxTo && sizeTo(1) > sizeTo(0.5) && <button type="button" class="tg-btn" onClick={() => mine('raise', sizeTo(1))}>Pot {fmt(sizeTo(1))}</button>}
-          {canRaise && <button type="button" class="tg-btn alt" onClick={() => mine('raise', maxTo)}>All-in {fmt(maxTo)}</button>}
-        </div>
-      ) : idle ? (
-        <div class="tg-actions">
-          {me.stack >= BB ? <button type="button" class="tg-btn" onClick={deal}>{g.street === 'idle' ? 'Karten geben' : 'Nächste Hand'}</button>
-            : <button type="button" class="tg-btn" onClick={() => { bank.reset(); me.stack = 1000; up(); }}>Guthaben auf 1.000 € setzen</button>}
-        </div>
-      ) : <div class="tg-actions" style={{ minHeight: '52px' }} />}
-      <Coach on={coach} setOn={setCoach} book={bk} tip={myTurn && g.tip ? <><b>{g.tip.k === 'fold' ? 'Aufgeben.' : g.tip.k === 'call' ? (toCall > 0 ? 'Mitgehen.' : 'Schieben.') : g.currentBet > 0 ? 'Erhöhen.' : 'Setzen.'}</b> {g.tip.why}</> : 'Der Tipp rechnet für jede Entscheidung deine ungefähre Gewinnchance aus und vergleicht sie mit den Pot Odds, also dem Preis fürs Mitgehen im Verhältnis zum Pot. Er rechnet gegen zufällige Hände. Wer viel setzt, hat meist bessere Karten, deshalb ist der Tipp eine Faustregel und keine perfekte Strategie.'} />
     </Table>
   );
 }

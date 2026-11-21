@@ -30,9 +30,9 @@ function Wheel() {
     <svg viewBox="0 0 200 200" aria-hidden="true">
       <defs><radialGradient id="rl-g" cx="50%" cy="50%"><stop offset="60%" stop-color="#0000" /><stop offset="100%" stop-color="#0007" /></radialGradient></defs>
       {WHEEL.map((n, i) => { const a0 = i * SEG - SEG / 2, a1 = a0 + SEG; const [x0, y0] = pt(a0, R), [x1, y1] = pt(a1, R), [x2, y2] = pt(a1, r1), [x3, y3] = pt(a0, r1); const [tx, ty] = pt(i * SEG, 88);
-        return <g key={n}><path d={`M${x0} ${y0}A${R} ${R} 0 0 1 ${x1} ${y1}L${x2} ${y2}A${r1} ${r1} 0 0 0 ${x3} ${y3}Z`} fill={n === 0 ? '#0f8a4d' : RED.has(n) ? '#c81e2f' : '#14171f'} stroke="#f6cd68" stroke-width=".6" /><text x={tx} y={ty} fill="#fff" font-size="8.5" font-family="Anton,sans-serif" text-anchor="middle" dominant-baseline="central" transform={`rotate(${i * SEG} ${tx} ${ty})`}>{n}</text></g>; })}
-      <circle cx="100" cy="100" r={R} fill="url(#rl-g)" /><circle cx="100" cy="100" r={r1} fill="#3a1e09" stroke="#f6cd68" stroke-width="1.5" />
-      {[0, 45, 90, 135].map((a) => <line x1={pt(a, 58)[0]} y1={pt(a, 58)[1]} x2={pt(a + 180, 58)[0]} y2={pt(a + 180, 58)[1]} stroke="#c99a3d" stroke-width="3" stroke-linecap="round" />)}
+        return <g key={n}><path d={`M${x0} ${y0}A${R} ${R} 0 0 1 ${x1} ${y1}L${x2} ${y2}A${r1} ${r1} 0 0 0 ${x3} ${y3}Z`} fill={n === 0 ? '#1fbf7a' : RED.has(n) ? '#e5484d' : '#222c46'} stroke="#0c1220" stroke-width="1" /><text x={tx} y={ty} fill="#fff" font-size="8.5" font-family="Anton,sans-serif" text-anchor="middle" dominant-baseline="central" transform={`rotate(${i * SEG} ${tx} ${ty})`}>{n}</text></g>; })}
+      <circle cx="100" cy="100" r={R} fill="url(#rl-g)" /><circle cx="100" cy="100" r={r1} fill="#141c30" stroke="#0c1220" stroke-width="2" />
+      {[0, 45, 90, 135].map((a) => <line x1={pt(a, 58)[0]} y1={pt(a, 58)[1]} x2={pt(a + 180, 58)[0]} y2={pt(a + 180, 58)[1]} stroke="#26334f" stroke-width="2" stroke-linecap="round" />)}
     </svg>
   );
 }
@@ -80,8 +80,15 @@ export default function Roulette() {
     : straight > 6 ? 'Viele Einzelzahlen zu belegen erhöht die Trefferzahl, aber nicht die Auszahlung im Schnitt. Der Hausvorteil bleibt 2,70 % auf jeden gesetzten Jeton.'
     : 'Einsatz im Rahmen. Denk daran: Die Kugel hat kein Gedächtnis. Nach fünfmal Rot ist Schwarz nicht wahrscheinlicher.';
   return (
-    <Table felt="red" tone={msg.tone} say={msg.t}>
+    <Table felt="red" tone={msg.tone} say={msg.t} side={<>
       <Hud bank={bank.bank} bet={total} delta={delta} onReset={bank.reset} />
+          <div style={{ marginTop: '16px' }}><ChipRack value={chip} onPick={setChip} /></div>
+          <div class="tg-actions">
+            <button type="button" class="tg-btn" disabled={spin.busy || total === 0} onClick={go}>Drehen</button>
+            <button type="button" class="tg-btn alt" disabled={spin.busy || total === 0} onClick={() => setBets({})}>Löschen</button>
+            <button type="button" class="tg-btn alt" disabled={spin.busy || total > 0 || !Object.keys(last.current).length || Object.values(last.current).reduce((a, b) => a + b, 0) > bank.bank} onClick={() => { setBets(last.current); setSpin((s) => ({ ...s, hit: null })); }}>Wiederholen</button>
+          </div>
+      </>} foot={<Coach on={coach} setOn={setCoach} book={bk} tip={tip} />}>
       <div class="rl-wrap">
         <div>
           <div class="rl-wheel">
@@ -99,15 +106,8 @@ export default function Roulette() {
 </div>
           <div class="rl-out three">{cell('d1', '1. Dutzend', 'out')}{cell('d2', '2. Dutzend', 'out')}{cell('d3', '3. Dutzend', 'out')}</div>
           <div class="rl-out six">{OUT.map((o) => cell(o.k, o.label, `out${o.k === 'red' ? ' r' : o.k === 'black' ? ' b' : ''}`))}</div>
-          <div style={{ marginTop: '16px' }}><ChipRack value={chip} onPick={setChip} /></div>
-          <div class="tg-actions">
-            <button type="button" class="tg-btn" disabled={spin.busy || total === 0} onClick={go}>Drehen</button>
-            <button type="button" class="tg-btn alt" disabled={spin.busy || total === 0} onClick={() => setBets({})}>Löschen</button>
-            <button type="button" class="tg-btn alt" disabled={spin.busy || total > 0 || !Object.keys(last.current).length || Object.values(last.current).reduce((a, b) => a + b, 0) > bank.bank} onClick={() => { setBets(last.current); setSpin((s) => ({ ...s, hit: null })); }}>Wiederholen</button>
-          </div>
         </div>
       </div>
-      <Coach on={coach} setOn={setCoach} book={bk} tip={tip} />
     </Table>
   );
 }

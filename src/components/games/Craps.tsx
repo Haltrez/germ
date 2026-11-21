@@ -71,8 +71,14 @@ export default function Craps() {
     : st.point === null ? 'Im Come-Out-Wurf rät das Lehrbuch zu Pass Line (1,41 %) oder Don\'t Pass (1,36 %). Das sind die günstigsten Wetten im Spiel.'
     : `Der Point ist ${st.point}. Deine Pass- oder Don't-Pass-Wette bleibt stehen, bis der Point oder eine 7 fällt. Place 6 und Place 8 sind mit 1,52 % die einzigen Zusatzwetten, die das Lehrbuch gelten lässt.`;
   return (
-    <Table tone={st.tone} say={st.msg}>
+    <Table tone={st.tone} say={st.msg} side={<>
       <Hud bank={bank.bank} bet={total} delta={st.delta} onReset={() => { bank.reset(); setBets({ ...ZERO }); setSt((s) => ({ ...s, point: null })); }} />
+      <div style={{ marginTop: '18px' }}><ChipRack value={chip} onPick={setChip} /></div>
+      <div class="tg-actions">
+        <button type="button" class="tg-btn" disabled={st.rolling || total === 0} onClick={roll}>Würfeln</button>
+        <button type="button" class="tg-btn alt" disabled={st.rolling || total === 0} onClick={clear}>Löschen</button>
+      </div>
+      </>} foot={<Coach on={coach} setOn={setCoach} book={bk} tip={tip} />}>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '14px' }}>
         <span class={`dc-puck ${st.point ? 'on' : 'off'}`}>{st.point ? `ON ${st.point}` : 'OFF'}</span>
         <span class="tg-label" style={{ margin: 0 }}>{st.point ? `Point ${st.point}` : 'Come-Out'}</span>
@@ -83,12 +89,6 @@ export default function Craps() {
       <div class="tg-bets" style={{ gridTemplateColumns: 'repeat(2,1fr)' }}>
         {BOX.map((x) => <button type="button" key={x.k} class={`tg-bet${st.hit.includes(x.k) ? ' hit' : ''}${allowed(x.k) ? '' : ' off'}`} onClick={() => place(x.k)} aria-disabled={!allowed(x.k)}><b>{x.name}</b><small>{x.pays}</small><span class={`edge ${x.cls}`}>{x.edge}</span>{bets[x.k] > 0 && <ChipStack amount={bets[x.k]} />}</button>)}
       </div>
-      <div style={{ marginTop: '18px' }}><ChipRack value={chip} onPick={setChip} /></div>
-      <div class="tg-actions">
-        <button type="button" class="tg-btn" disabled={st.rolling || total === 0} onClick={roll}>Würfeln</button>
-        <button type="button" class="tg-btn alt" disabled={st.rolling || total === 0} onClick={clear}>Löschen</button>
-      </div>
-      <Coach on={coach} setOn={setCoach} book={bk} tip={tip} />
     </Table>
   );
 }

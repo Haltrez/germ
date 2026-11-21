@@ -32,7 +32,7 @@ const others = TABLE_GAMES.filter((x) => x.slug !== g.slug);
     <p class="eyebrow">Kostenlos · ohne Anmeldung · 1.000 € Demo-Guthaben</p>
     <h1 class="mt-2 text-3xl font-extrabold text-fg sm:text-5xl">{g.name} kostenlos spielen</h1>
     <p class="mt-3 max-w-3xl text-muted">{g.intro}</p>
-    <div class="mx-auto mt-6 max-w-5xl">
+    <div class="mx-auto mt-6 max-w-6xl">
       {g.slug === 'blackjack' && <Blackjack client:load />}
       {g.slug === 'roulette' && <Roulette client:load />}
       {g.slug === 'baccarat' && <Baccarat client:load />}

@@ -56,8 +56,15 @@ export default function Baccarat() {
     : total === 0 ? 'Baccarat ist reines Glück, es gibt keine Entscheidung nach dem Setzen. Das Lehrbuch ist kurz: Bank hat mit 1,06 % den niedrigsten Hausvorteil, Spieler liegt mit 1,24 % knapp dahinter. Unentschieden meiden.'
     : bets.banker > 0 ? 'Bank ist die Wette mit dem niedrigsten Hausvorteil (1,06 %), trotz 5 % Kommission auf den Gewinn.' : 'Spieler hat 1,24 % Hausvorteil und zahlt ohne Kommission. Eine solide Wahl.';
   return (
-    <Table felt="blue" tone={st.tone} say={st.msg}>
+    <Table felt="blue" tone={st.tone} say={st.msg} side={<>
       <Hud bank={bank.bank} bet={total} delta={st.delta} onReset={bank.reset} />
+      <div style={{ marginTop: '18px' }}><ChipRack value={chip} onPick={setChip} /></div>
+      <div class="tg-actions">
+        <button type="button" class="tg-btn" disabled={st.busy || total === 0} onClick={deal}>Geben</button>
+        <button type="button" class="tg-btn alt" disabled={st.busy || total === 0} onClick={() => setBets({ player: 0, banker: 0, tie: 0 })}>Löschen</button>
+        <button type="button" class="tg-btn alt" disabled={st.busy || total > 0 || last.current.player + last.current.banker + last.current.tie === 0 || last.current.player + last.current.banker + last.current.tie > bank.bank} onClick={() => { setBets(last.current); setSt((s) => ({ ...s, win: null, p: [], b: [] })); }}>Wiederholen</button>
+      </div>
+      </>} foot={<Coach on={coach} setOn={setCoach} book={bk} tip={tip} />}>
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px' }}>
         {([['player', 'Spieler', st.p], ['banker', 'Bank', st.b]] as const).map(([k, name, cs]) => (
           <div class="tg-seat" key={k}>
@@ -72,13 +79,6 @@ export default function Baccarat() {
       <div class="tg-bets" style={{ gridTemplateColumns: 'repeat(3,1fr)' }}>
         {BOX.map((x) => <button type="button" key={x.k} class={`tg-bet${st.win === x.k ? ' hit' : ''}`} onClick={() => place(x.k)}><b>{x.name}</b><small>{x.pays}</small><span class={`edge ${x.cls}`}>{x.edge}</span>{bets[x.k] > 0 && <ChipStack amount={bets[x.k]} />}</button>)}
       </div>
-      <div style={{ marginTop: '18px' }}><ChipRack value={chip} onPick={setChip} /></div>
-      <div class="tg-actions">
-        <button type="button" class="tg-btn" disabled={st.busy || total === 0} onClick={deal}>Geben</button>
-        <button type="button" class="tg-btn alt" disabled={st.busy || total === 0} onClick={() => setBets({ player: 0, banker: 0, tie: 0 })}>Löschen</button>
-        <button type="button" class="tg-btn alt" disabled={st.busy || total > 0 || last.current.player + last.current.banker + last.current.tie === 0 || last.current.player + last.current.banker + last.current.tie > bank.bank} onClick={() => { setBets(last.current); setSt((s) => ({ ...s, win: null, p: [], b: [] })); }}>Wiederholen</button>
-      </div>
-      <Coach on={coach} setOn={setCoach} book={bk} tip={tip} />
     </Table>
   );
 }

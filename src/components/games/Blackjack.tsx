@@ -184,8 +184,32 @@ export default function Blackjack() {
   const small = g.hands.length > 1;
 
   return (
-    <Table tone={g.tone === 'push' ? '' : g.tone} say={g.msg}>
+    <Table tone={g.tone === 'push' ? '' : g.tone} say={g.msg} side={<>
       <Hud bank={bank.bank} bet={staked} delta={g.delta} onReset={() => { bank.reset(); up(); }} />
+      {g.phase === 'player' ? (
+        <div class="tg-actions">
+          <button type="button" class={`tg-btn green${bookCls('H')}`} disabled={!tip} onClick={() => act('H')}>Karte</button>
+          <button type="button" class={`tg-btn red${bookCls('S')}`} disabled={!tip} onClick={() => act('S')}>Halten</button>
+          <button type="button" class={`tg-btn alt${bookCls('D')}`} disabled={!canDouble || !tip} onClick={() => act('D')}>Verdoppeln</button>
+          <button type="button" class={`tg-btn alt${bookCls('P')}`} disabled={!canSplit || !tip} onClick={() => act('P')}>Teilen</button>
+        </div>
+      ) : g.phase !== 'dealer' && g.phase !== 'dealing' && (
+        <>
+          <div class="bj-n" role="group" aria-label="Anzahl der Hände">{[1, 2, 3].map((n) => <button type="button" key={n} class={g.n === n ? 'on' : ''} aria-pressed={g.n === n} onClick={() => setSeats(n)}>{n} {n === 1 ? 'Hand' : 'Hände'}</button>)}</div>
+          <div style={{ marginTop: '12px' }}><ChipRack value={chip} onPick={(v) => { setChip(v); }} /></div>
+          <div class="tg-actions">
+            {g.phase === 'bet' ? <>
+              <button type="button" class="tg-btn alt" disabled={staked0() === 0} onClick={() => { wipe(); up(); }}>Löschen</button>
+              <button type="button" class="tg-btn" disabled={staked0() === 0} onClick={() => deal()}>Geben</button>
+            </> : <>
+              <button type="button" class="tg-btn" disabled={staked0() === 0 || active().reduce((a, s) => a + s.main, 0) > bank.bank} onClick={() => deal(true)}>Gleicher Einsatz ({fmt(staked0())})</button>
+              <button type="button" class="tg-btn alt" onClick={() => { clearTable(); wipe(); up(); }}>Neuer Einsatz</button>
+            </>}
+          </div>
+          <p style={{ margin: '10px 0 0', textAlign: 'center', fontSize: '.72rem', color: '#ffffffa0' }}>Jeton wählen, dann auf einen Kreis tippen. Perfect Pairs: 6 / 12 / 25 zu 1 · 21+3: 5 / 10 / 30 / 40 / 100 zu 1</p>
+        </>
+      )}
+      </>} foot={<Coach on={coach} setOn={setCoach} book={bk} tip={tip ? <>{g.hands.length > 1 && cur && <b>Hand {cur.seat + 1}: </b>}<b>{NAME[tip.m]}.</b> {tip.why}</> : active().some((s) => s.pp + s.t3 > 0) ? 'Nebenwetten zahlen hoch, kosten aber mehr: Perfect Pairs hat rund 4 % Hausvorteil, 21+3 rund 3 %. Das Lehrbuch setzt sie nicht, weil die Hauptwette mit rund 0,5 % deutlich günstiger ist. Zum Ausprobieren mit Demo-Guthaben spricht nichts dagegen.' : 'Der Tipp erscheint, sobald du am Zug bist. Er folgt der Basisstrategie für 6 Decks. Mit ihr sinkt der Hausvorteil auf rund 0,5 %, verschwinden kann er nicht. Mehrere Hände ändern den Hausvorteil nicht, nur das Tempo.'} />}>
       <div class="tg-seat">
         <div class="tg-label">Bank</div>
         <div class="tg-hand">{g.dealer.map((c, i) => <CardView key={`d${i}`} card={c} down={i === 1 && g.hole} />)}</div>
@@ -213,30 +237,6 @@ export default function Blackjack() {
             <div class="tg-side-res">{s.res.map((r, i) => <span key={i} class={r.w ? 'w' : ''}>{r.t}</span>)}</div>
           </div>); })}
       </div>
-      {g.phase === 'player' ? (
-        <div class="tg-actions">
-          <button type="button" class={`tg-btn green${bookCls('H')}`} disabled={!tip} onClick={() => act('H')}>Karte</button>
-          <button type="button" class={`tg-btn red${bookCls('S')}`} disabled={!tip} onClick={() => act('S')}>Halten</button>
-          <button type="button" class={`tg-btn${bookCls('D')}`} disabled={!canDouble || !tip} onClick={() => act('D')}>Verdoppeln</button>
-          <button type="button" class={`tg-btn alt${bookCls('P')}`} disabled={!canSplit || !tip} onClick={() => act('P')}>Teilen</button>
-        </div>
-      ) : g.phase !== 'dealer' && g.phase !== 'dealing' && (
-        <>
-          <div class="bj-n" role="group" aria-label="Anzahl der Hände">{[1, 2, 3].map((n) => <button type="button" key={n} class={g.n === n ? 'on' : ''} aria-pressed={g.n === n} onClick={() => setSeats(n)}>{n} {n === 1 ? 'Hand' : 'Hände'}</button>)}</div>
-          <div style={{ marginTop: '12px' }}><ChipRack value={chip} onPick={(v) => { setChip(v); }} /></div>
-          <div class="tg-actions">
-            {g.phase === 'bet' ? <>
-              <button type="button" class="tg-btn alt" disabled={staked0() === 0} onClick={() => { wipe(); up(); }}>Löschen</button>
-              <button type="button" class="tg-btn" disabled={staked0() === 0} onClick={() => deal()}>Geben</button>
-            </> : <>
-              <button type="button" class="tg-btn" disabled={staked0() === 0 || active().reduce((a, s) => a + s.main, 0) > bank.bank} onClick={() => deal(true)}>Gleicher Einsatz ({fmt(staked0())})</button>
-              <button type="button" class="tg-btn alt" onClick={() => { clearTable(); wipe(); up(); }}>Neuer Einsatz</button>
-            </>}
-          </div>
-          <p style={{ margin: '10px 0 0', textAlign: 'center', fontSize: '.72rem', color: '#ffffffa0' }}>Jeton wählen, dann auf einen Kreis tippen. Perfect Pairs: 6 / 12 / 25 zu 1 · 21+3: 5 / 10 / 30 / 40 / 100 zu 1</p>
-        </>
-      )}
-      <Coach on={coach} setOn={setCoach} book={bk} tip={tip ? <>{g.hands.length > 1 && cur && <b>Hand {cur.seat + 1}: </b>}<b>{NAME[tip.m]}.</b> {tip.why}</> : active().some((s) => s.pp + s.t3 > 0) ? 'Nebenwetten zahlen hoch, kosten aber mehr: Perfect Pairs hat rund 4 % Hausvorteil, 21+3 rund 3 %. Das Lehrbuch setzt sie nicht, weil die Hauptwette mit rund 0,5 % deutlich günstiger ist. Zum Ausprobieren mit Demo-Guthaben spricht nichts dagegen.' : 'Der Tipp erscheint, sobald du am Zug bist. Er folgt der Basisstrategie für 6 Decks. Mit ihr sinkt der Hausvorteil auf rund 0,5 %, verschwinden kann er nicht. Mehrere Hände ändern den Hausvorteil nicht, nur das Tempo.'} />
     </Table>
   );
 }

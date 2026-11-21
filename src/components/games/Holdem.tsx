@@ -78,8 +78,23 @@ export default function Holdem() {
   };
   const showDealer = st.phase === 'done' && st.call > 0;
   return (
-    <Table felt="purple" tone={st.tone} say={st.msg}>
+    <Table felt="purple" tone={st.tone} say={st.msg} side={<>
       <Hud bank={bank.bank} bet={st.phase === 'bet' ? ante : ante + st.call} delta={st.delta} onReset={bank.reset} />
+      {st.phase === 'flop' ? (
+        <div class="tg-actions">
+          <button type="button" class={`tg-btn green${coach && tip?.call ? ' book' : ''}`} onClick={() => decide(true)}>Mitgehen ({fmt(ante * 2)})</button>
+          <button type="button" class={`tg-btn red${coach && tip && !tip.call ? ' book' : ''}`} onClick={() => decide(false)}>Aufgeben</button>
+        </div>
+      ) : st.phase !== 'show' && (
+        <>
+          <div style={{ marginTop: '18px' }}><ChipRack value={chip} onPick={setChip} /></div>
+          <div class="tg-actions">
+            {st.phase === 'bet' ? <><button type="button" class="tg-btn alt" onClick={addAnte}>+ {chip} Ante</button><button type="button" class="tg-btn alt" disabled={ante === 0} onClick={() => setAnte(0)}>Löschen</button><button type="button" class="tg-btn" disabled={ante === 0} onClick={() => deal()}>Geben</button></>
+              : <><button type="button" class="tg-btn" disabled={lastAnte.current * 3 > bank.bank} onClick={() => deal(lastAnte.current)}>Gleicher Ante ({fmt(lastAnte.current)})</button><button type="button" class="tg-btn alt" onClick={addAnte}>Neuer Einsatz</button></>}
+          </div>
+        </>
+      )}
+      </>} foot={<Coach on={coach} setOn={setCoach} book={bk} tip={tip ? <><b>{tip.call ? 'Mitgehen.' : 'Aufgeben.'}</b> {tip.why}</> : 'Die einzige Entscheidung fällt nach dem Flop: mitgehen oder aufgeben. Als Faustregel gilt, in etwa vier von fünf Händen mitzugehen. Aufgeben ist nur bei zwei niedrigen Karten ohne Paar und ohne Zug richtig. Der Hausvorteil liegt bei guter Spielweise bei gut 2 % des Ante.'} />}>
       <div class="tg-seat">
         <div class="tg-label">Bank</div>
         <div class="tg-hand" style={{ minHeight: '96px' }}>{st.dealer.map((c, i) => <CardView key={`d${i}`} card={c} small down={!showDealer} i={i} />)}</div>
@@ -99,21 +114,6 @@ export default function Holdem() {
         <button type="button" class="tg-spot" style={{ margin: 0 }} onClick={addAnte} aria-label="Ante setzen">{ante > 0 ? <ChipStack amount={ante} /> : 'Ante'}</button>
         {st.call > 0 && <span class="tg-spot" style={{ cursor: 'default', margin: 0 }}><ChipStack amount={st.call} /></span>}
       </div>
-      {st.phase === 'flop' ? (
-        <div class="tg-actions">
-          <button type="button" class={`tg-btn green${coach && tip?.call ? ' book' : ''}`} onClick={() => decide(true)}>Mitgehen ({fmt(ante * 2)})</button>
-          <button type="button" class={`tg-btn red${coach && tip && !tip.call ? ' book' : ''}`} onClick={() => decide(false)}>Aufgeben</button>
-        </div>
-      ) : st.phase !== 'show' && (
-        <>
-          <div style={{ marginTop: '18px' }}><ChipRack value={chip} onPick={setChip} /></div>
-          <div class="tg-actions">
-            {st.phase === 'bet' ? <><button type="button" class="tg-btn alt" onClick={addAnte}>+ {chip} Ante</button><button type="button" class="tg-btn alt" disabled={ante === 0} onClick={() => setAnte(0)}>Löschen</button><button type="button" class="tg-btn" disabled={ante === 0} onClick={() => deal()}>Geben</button></>
-              : <><button type="button" class="tg-btn" disabled={lastAnte.current * 3 > bank.bank} onClick={() => deal(lastAnte.current)}>Gleicher Ante ({fmt(lastAnte.current)})</button><button type="button" class="tg-btn alt" onClick={addAnte}>Neuer Einsatz</button></>}
-          </div>
-        </>
-      )}
-      <Coach on={coach} setOn={setCoach} book={bk} tip={tip ? <><b>{tip.call ? 'Mitgehen.' : 'Aufgeben.'}</b> {tip.why}</> : 'Die einzige Entscheidung fällt nach dem Flop: mitgehen oder aufgeben. Als Faustregel gilt, in etwa vier von fünf Händen mitzugehen. Aufgeben ist nur bei zwei niedrigen Karten ohne Paar und ohne Zug richtig. Der Hausvorteil liegt bei guter Spielweise bei gut 2 % des Ante.'} />
     </Table>
   );
 }
