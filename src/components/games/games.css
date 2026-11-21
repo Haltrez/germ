@@ -253,3 +253,6 @@
 
 /* clip (not hidden) so nothing can scroll the table sideways */
 .tg-felt, .tg-scene { overflow:clip; }
+
+.tg-chip.mini[data-v="100"]::after { font-size:8px; letter-spacing:-.04em; } .tg-chip.mini[data-v="25"]::after { font-size:9px; }
+.tg-card { animation-duration:.5s; }

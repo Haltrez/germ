@@ -81,7 +81,7 @@ export default function Blackjack() {
   const [chip, setChip] = useState(5);
   const [coach, setCoach] = useState(true);
   const [, force] = useState(0);
-  const g = useRef({ phase: 'bet' as 'bet' | 'player' | 'dealer' | 'done', n: 1, seats: [emptySeat(), emptySeat(), emptySeat()], hands: [] as Hand[], dealer: [] as Card[], hole: true, cur: 0, msg: 'Ihre Einsätze, bitte!', tone: '', delta: null as number | null, side: 0, shoe: newShoe(6) }).current;
+  const g = useRef({ phase: 'bet' as 'bet' | 'dealing' | 'player' | 'dealer' | 'done', n: 1, seats: [emptySeat(), emptySeat(), emptySeat()], hands: [] as Hand[], dealer: [] as Card[], hole: true, cur: 0, msg: 'Ihre Einsätze, bitte!', tone: '', delta: null as number | null, side: 0, shoe: newShoe(6) }).current;
   const up = () => force((x) => x + 1);
   const draw = () => { if (g.shoe.length < 60) g.shoe = newShoe(6); return g.shoe.pop()!; };
   const active = () => g.seats.slice(0, g.n);
@@ -127,7 +127,7 @@ export default function Blackjack() {
   };
   const next = () => {
     while (g.cur < g.hands.length && g.hands[g.cur].done) g.cur++;
-    if (g.cur < g.hands.length) { const h = g.hands[g.cur]; if (h.cards.length === 1) { h.cards.push(draw()); if (h.cards[0].r === 14 || total(h.cards).t === 21) { h.done = true; return next(); } } g.msg = g.hands.length > 1 ? `Hand ${g.cur + 1}: Ihr Zug` : 'Ihr Zug'; up(); return; }
+    if (g.cur < g.hands.length) { const h = g.hands[g.cur]; if (h.cards.length === 1) { h.cards.push(draw()); if (h.cards[0].r === 14 || total(h.cards).t === 21) { h.done = true; return next(); } } g.msg = g.hands.length > 1 ? `Hand ${h.seat + 1}${h.split ? ' (geteilt)' : ''}: Ihr Zug` : 'Ihr Zug'; up(); return; }
     // the bank only draws if at least one hand is still live and not a natural
     if (g.hands.every((h) => total(h.cards).t > 21 || isBJ(h))) { g.hole = false; up(); setTimeout(settle, 500); } else dealerPlay();
   };
@@ -135,20 +135,28 @@ export default function Blackjack() {
     if (rebet) { clearTable(); if (staked0() > bank.now()) active().forEach((s) => { s.pp = 0; s.t3 = 0; }); if (staked0() > bank.now()) wipe(); }
     if (g.phase !== 'bet' || staked0() <= 0) return up();
     bank.add(-staked0()); g.delta = null; g.tone = ''; g.side = 0;
-    g.hands = []; active().forEach((s, i) => { s.res = []; if (s.main > 0) g.hands.push({ cards: [draw()], bet: s.main, done: false, doubled: false, split: false, seat: i }); });
-    g.dealer = [draw()]; g.hands.forEach((h) => h.cards.push(draw())); g.dealer.push(draw());
-    g.hole = true; g.cur = 0; g.phase = 'player';
+    // Hands are dealt and played from the player's right to left, as at a real table.
+    g.hands = []; active().forEach((s, i) => { s.res = []; if (s.main > 0) g.hands.unshift({ cards: [], bet: s.main, done: false, doubled: false, split: false, seat: i }); });
+    g.dealer = []; g.hole = true; g.cur = 0; g.phase = 'dealing'; g.msg = 'Die Karten kommen …'; up();
+    // one card at a time: every hand, then the bank, then the second round
+    const steps: (() => void)[] = [];
+    for (let round = 0; round < 2; round++) { g.hands.forEach((h) => steps.push(() => h.cards.push(draw()))); steps.push(() => g.dealer.push(draw())); }
+    steps.forEach((f, i) => setTimeout(() => { f(); up(); }, 250 + i * 420));
+    setTimeout(afterDeal, 250 + steps.length * 420 + 150);
+  };
+  const afterDeal = () => {
+    g.phase = 'player';
     let sideWin = false;
     for (const h of g.hands) {
       const s = g.seats[h.seat]; const [c1, c2] = h.cards; g.side -= s.pp + s.t3;
       if (s.pp > 0) { const r = perfectPair(c1, c2); if (r) { bank.add(s.pp * (r[1] + 1)); g.side += s.pp * (r[1] + 1); sideWin = true; } s.res.push({ t: r ? `PP: ${r[0]} ${r[1]}:1 · +${fmt(s.pp * r[1])}` : 'PP: kein Paar', w: !!r }); }
       if (s.t3 > 0) { const r = twentyOnePlus3([c1, c2, g.dealer[0]]); if (r) { bank.add(s.t3 * (r[1] + 1)); g.side += s.t3 * (r[1] + 1); sideWin = true; } s.res.push({ t: r ? `21+3: ${r[0]} ${r[1]}:1 · +${fmt(s.t3 * r[1])}` : '21+3: nichts', w: !!r }); }
     }
-    if (sideWin) setTimeout(() => sfx.win(), 500);
+    if (sideWin) sfx.win();
     const dUp = val(g.dealer[0]); const dBJ = total(g.dealer).t === 21;
     if ((dUp === 11 || dUp === 10) && dBJ) { g.hands.forEach((h) => { h.done = true; }); g.msg = 'Einen Moment …'; up(); setTimeout(settle, 900); return; }
     g.hands.forEach((h) => { if (isBJ(h)) h.done = true; });
-    g.msg = 'Ihr Zug'; up(); if (g.hands[0].done) setTimeout(next, 700);
+    g.msg = g.hands.length > 1 ? `Hand ${g.hands[0].seat + 1}: Ihr Zug` : 'Ihr Zug'; up(); if (g.hands[0].done) setTimeout(next, 700);
   };
   const cur = g.hands[g.cur];
   const canDouble = !!cur && g.phase === 'player' && cur.cards.length === 2 && bank.bank >= cur.bet;
@@ -180,19 +188,19 @@ export default function Blackjack() {
       <Hud bank={bank.bank} bet={staked} delta={g.delta} onReset={() => { bank.reset(); up(); }} />
       <div class="tg-seat">
         <div class="tg-label">Bank</div>
-        <div class="tg-hand">{g.dealer.map((c, i) => <CardView key={`d${i}`} card={c} down={i === 1 && g.hole} i={i} />)}</div>
+        <div class="tg-hand">{g.dealer.map((c, i) => <CardView key={`d${i}`} card={c} down={i === 1 && g.hole} />)}</div>
         {g.dealer.length > 0 && <span class={`tg-total${dt > 21 ? ' bust' : ''}`}>{dt}</span>}
       </div>
       <Arc top="Blackjack zahlt 3 zu 2" sub="BANK HÄLT BEI ALLEN 17 · PERFECT PAIRS · 21+3" />
       <Msg tone={g.tone}>{g.msg}</Msg>
       <div class="bj-seats" data-n={g.n}>
-        {active().map((s, si) => { const hs = g.hands.filter((h) => h.seat === si); const seatBet = hs.length ? hs.reduce((a, h) => a + h.bet, 0) : s.main; return (
+        {active().map((s, si) => { const hs = g.hands.filter((h) => h.seat === si).reverse(); const seatBet = hs.length ? hs.reduce((a, h) => a + h.bet, 0) : s.main; return (
           <div class="bj-seat" key={si}>
             <div class="bj-hands">
               {hs.map((h) => { const hi = g.hands.indexOf(h); const { t, soft } = total(h.cards); return (
                 <div class={`tg-seat${g.phase === 'player' && hi === g.cur ? ' turn' : ''}`} key={hi} style={{ opacity: g.phase === 'player' && hi !== g.cur ? 0.5 : 1 }}>
-                  <div class="tg-hand">{h.cards.map((c, i) => <CardView key={`${hi}-${i}-${c.r}-${c.s}`} card={c} small={small} i={i} win={g.phase === 'done' && h.tone === 'w'} />)}</div>
-                  <span class={`tg-total${t > 21 ? ' bust' : isBJ(h) ? ' bj' : ''}`}>{isBJ(h) ? 'Blackjack' : t > 21 ? `${t} · überkauft` : `${soft && t < 21 ? 'Soft ' : ''}${t}`}</span>
+                  <div class="tg-hand">{h.cards.map((c, i) => <CardView key={`${hi}-${i}-${c.r}-${c.s}`} card={c} small={small} win={g.phase === 'done' && h.tone === 'w'} />)}</div>
+                  {h.cards.length > 0 && <span class={`tg-total${t > 21 ? ' bust' : isBJ(h) ? ' bj' : ''}`}>{isBJ(h) ? 'Blackjack' : t > 21 ? `${t} · überkauft` : `${soft && t < 21 ? 'Soft ' : ''}${t}`}</span>}
                   {h.out && <span class={`bj-out ${h.tone}`}>{h.out}</span>}
                 </div>); })}
             </div>
@@ -212,7 +220,7 @@ export default function Blackjack() {
           <button type="button" class={`tg-btn${bookCls('D')}`} disabled={!canDouble || !tip} onClick={() => act('D')}>Verdoppeln</button>
           <button type="button" class={`tg-btn alt${bookCls('P')}`} disabled={!canSplit || !tip} onClick={() => act('P')}>Teilen</button>
         </div>
-      ) : g.phase !== 'dealer' && (
+      ) : g.phase !== 'dealer' && g.phase !== 'dealing' && (
         <>
           <div class="bj-n" role="group" aria-label="Anzahl der Hände">{[1, 2, 3].map((n) => <button type="button" key={n} class={g.n === n ? 'on' : ''} aria-pressed={g.n === n} onClick={() => setSeats(n)}>{n} {n === 1 ? 'Hand' : 'Hände'}</button>)}</div>
           <div style={{ marginTop: '12px' }}><ChipRack value={chip} onPick={(v) => { setChip(v); }} /></div>
@@ -228,7 +236,7 @@ export default function Blackjack() {
           <p style={{ margin: '10px 0 0', textAlign: 'center', fontSize: '.72rem', color: '#ffffffa0' }}>Jeton wählen, dann auf einen Kreis tippen. Perfect Pairs: 6 / 12 / 25 zu 1 · 21+3: 5 / 10 / 30 / 40 / 100 zu 1</p>
         </>
       )}
-      <Coach on={coach} setOn={setCoach} book={bk} tip={tip ? <>{g.hands.length > 1 && <b>Hand {g.cur + 1}: </b>}<b>{NAME[tip.m]}.</b> {tip.why}</> : active().some((s) => s.pp + s.t3 > 0) ? 'Nebenwetten zahlen hoch, kosten aber mehr: Perfect Pairs hat rund 4 % Hausvorteil, 21+3 rund 3 %. Das Lehrbuch setzt sie nicht, weil die Hauptwette mit rund 0,5 % deutlich günstiger ist. Zum Ausprobieren mit Demo-Guthaben spricht nichts dagegen.' : 'Der Tipp erscheint, sobald du am Zug bist. Er folgt der Basisstrategie für 6 Decks. Mit ihr sinkt der Hausvorteil auf rund 0,5 %, verschwinden kann er nicht. Mehrere Hände ändern den Hausvorteil nicht, nur das Tempo.'} />
+      <Coach on={coach} setOn={setCoach} book={bk} tip={tip ? <>{g.hands.length > 1 && cur && <b>Hand {cur.seat + 1}: </b>}<b>{NAME[tip.m]}.</b> {tip.why}</> : active().some((s) => s.pp + s.t3 > 0) ? 'Nebenwetten zahlen hoch, kosten aber mehr: Perfect Pairs hat rund 4 % Hausvorteil, 21+3 rund 3 %. Das Lehrbuch setzt sie nicht, weil die Hauptwette mit rund 0,5 % deutlich günstiger ist. Zum Ausprobieren mit Demo-Guthaben spricht nichts dagegen.' : 'Der Tipp erscheint, sobald du am Zug bist. Er folgt der Basisstrategie für 6 Decks. Mit ihr sinkt der Hausvorteil auf rund 0,5 %, verschwinden kann er nicht. Mehrere Hände ändern den Hausvorteil nicht, nur das Tempo.'} />
     </Table>
   );
 }
