@@ -40,6 +40,7 @@ export const NAV: NavItem[] = [
     ],
   },
   { label: 'Book-Slots', href: '/kategorien/book-slots/' },
+  { label: 'Tischspiele', href: '/tischspiele/' },
   { label: 'Spielotheken', href: '/echtgeld-spielotheken/' },
   { label: 'Krypto-Spielotheken', href: '/krypto-spielotheken/' },
 ];
