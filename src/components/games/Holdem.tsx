@@ -22,8 +22,8 @@ export function evalHand(cards: Card[]): number[] {
   if (groups[0][1] === 2) return [1, groups[0][0], ...rest([groups[0][0]], 3)];
   return [0, ...rest([], 5)];
 }
-const cmp = (a: number[], b: number[]) => { for (let i = 0; i < Math.max(a.length, b.length); i++) { const d = (a[i] ?? 0) - (b[i] ?? 0); if (d) return d; } return 0; };
-const handName = (s: number[]) => (s[0] === 8 && s[1] === 14 ? 'Royal Flush' : CAT[s[0]]);
+export const cmp = (a: number[], b: number[]) => { for (let i = 0; i < Math.max(a.length, b.length); i++) { const d = (a[i] ?? 0) - (b[i] ?? 0); if (d) return d; } return 0; };
+export const handName = (s: number[]) => (s[0] === 8 && s[1] === 14 ? 'Royal Flush' : CAT[s[0]]);
 const antePays = (s: number[]) => (s[0] === 8 ? (s[1] === 14 ? 100 : 20) : s[0] === 7 ? 10 : s[0] === 6 ? 3 : s[0] === 5 ? 2 : 1);
 
 /** Simplified call/fold rule of thumb for the flop decision. */

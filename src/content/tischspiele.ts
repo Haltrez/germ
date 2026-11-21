@@ -3,6 +3,8 @@ export interface TableGame {
   slug: string; name: string; short: string; title: string; description: string; intro: string;
   facts: [string, string][]; rules: string[]; tips: { t: string; d: string }[]; edges: [string, string, string][];
   faq: { q: string; a: string }[];
+  /** Replaces the default paragraph about real-money play when the legal situation differs. */
+  legal?: string;
 }
 export const TABLE_GAMES: TableGame[] = [
   {
@@ -39,6 +41,37 @@ export const TABLE_GAMES: TableGame[] = [
       { q: 'Was sind Perfect Pairs und 21+3?', a: 'Zwei Nebenwetten, die unabhängig von deiner Hand entschieden werden. Perfect Pairs gewinnt, wenn deine ersten zwei Karten ein Paar sind. 21+3 wertet deine zwei Karten und die offene Bankkarte als Pokerhand aus drei Karten.' },
       { q: 'Funktioniert Kartenzählen hier?', a: 'Nein. Der Kartenschlitten wird regelmäßig neu gemischt, und im Internet wird ohnehin meist nach jeder Runde gemischt.' },
       { q: 'Gibt es Blackjack um Echtgeld legal in Deutschland?', a: 'Tischspiele im Internet fallen nicht unter die bundesweite Erlaubnis für virtuelle Automatenspiele. Sie sind Sache der Bundesländer und nur dort erlaubt, wo ein Land sie zugelassen hat. In Spielbanken vor Ort ist Blackjack regulär spielbar.' },
+    ],
+  },
+  {
+    slug: 'poker', name: "Texas Hold'em Poker", short: 'No-Limit-Poker gegen drei Computergegner.',
+    title: "Poker kostenlos spielen – Texas Hold'em ohne Anmeldung",
+    description: "Texas Hold'em Poker kostenlos spielen: No Limit gegen drei Computergegner, 1.000 € Demo-Guthaben und Tipps zu Pot Odds bei jeder Entscheidung.",
+    intro: "Spiele Texas Hold'em kostenlos gegen drei Computergegner, ohne Anmeldung und mit 1.000 € Demo-Guthaben. Der Buch-Tipp rechnet dir bei jeder Entscheidung Gewinnchance und Pot Odds aus.",
+    facts: [['Variante', "Texas Hold'em, No Limit"], ['Spieler', 'du und 3 Computergegner'], ['Blinds', '5 € / 10 €'], ['Startguthaben', '1.000 € pro Spieler'], ['Karten', '1 Deck, neu gemischt pro Hand'], ['Tipp', 'Gewinnchance und Pot Odds']],
+    rules: [
+      'Jeder Spieler erhält zwei verdeckte Karten. Zwei Spieler setzen die Pflichteinsätze Small Blind und Big Blind.',
+      'Es folgen bis zu vier Setzrunden: vor dem Flop, nach dem Flop (drei Gemeinschaftskarten), nach dem Turn (vierte Karte) und nach dem River (fünfte Karte).',
+      'Bist du am Zug, kannst du aufgeben, schieben oder mitgehen, setzen oder erhöhen. No Limit heißt: Du darfst jederzeit dein ganzes Guthaben setzen.',
+      'Am Ende gewinnt die beste Pokerhand aus fünf Karten, gebildet aus den eigenen zwei und den fünf Gemeinschaftskarten.',
+      'Geben alle anderen auf, gewinnst du den Pot, ohne deine Karten zu zeigen.',
+      'Rangfolge von oben: Royal Flush, Straight Flush, Vierling, Full House, Flush, Straße, Drilling, zwei Paare, ein Paar, höchste Karte.',
+    ],
+    tips: [
+      { t: 'Pot Odds vor jedem Call', d: 'Teile den Betrag fürs Mitgehen durch den Pot einschließlich deines Calls. So viel Prozent Gewinnchance brauchst du mindestens.' },
+      { t: 'Wenige Starthände spielen', d: 'Hohe Paare, Ass mit hoher Beikarte und hohe Karten in gleicher Farbe sind stark. Die meisten anderen Hände gibst du vor dem Flop auf.' },
+      { t: 'Position zählt', d: 'Wer nach den anderen handelt, weiß mehr. Am Dealer-Button kannst du mehr Hände spielen als in den Blinds.' },
+      { t: 'Starke Hände setzen', d: 'Wer mit einer guten Hand nur schiebt, lässt Gegner billig ihre Züge treffen. Setzen baut den Pot auf und schützt die Hand.' },
+      { t: 'Ein Einsatz bedeutet etwas', d: 'Der Tipp rechnet gegen zufällige Hände. Setzt ein Gegner hoch, ist seine Hand im Schnitt besser. Sei bei großen Einsätzen vorsichtiger als die Zahl vermuten lässt.' },
+    ],
+    edges: [['Spiel gegen andere Spieler', 'kein fester Hausvorteil', ''], ['Echtgeld-Poker', 'Anbieter behält einen Anteil je Pot (Rake)', ''], ['Diese Demo', 'kein Rake, Computergegner', 'good']],
+    legal: 'Poker im Internet hat in Deutschland eine eigene bundesweite Erlaubnis der GGL, getrennt von der Erlaubnis für virtuelle Automatenspiele. Anbieter mit dieser Erlaubnis stehen auf der Whitelist der GGL. Auch dort gelten das anbieterübergreifende Einzahlungslimit, die Sperrdatei OASIS und die Pflicht zur Verifizierung. Anders als hier spielst du dort gegen echte Menschen, und der Anbieter behält einen Anteil je Pot.',
+    faq: [
+      { q: 'Kann ich hier Poker kostenlos spielen?', a: 'Ja. Du spielst Texas Hold\'em gegen drei Computergegner, ohne Anmeldung und mit Demo-Guthaben. Gewinne sind nicht auszahlbar.' },
+      { q: 'Spiele ich gegen echte Menschen?', a: 'Nein. Die drei Gegner werden vom Programm gesteuert. Sie spielen unterschiedlich vorsichtig und bluffen gelegentlich.' },
+      { q: 'Was sind Pot Odds?', a: 'Das Verhältnis zwischen dem Betrag, den du zahlen musst, und dem Pot, den du gewinnen kannst. Kostet das Mitgehen 20 € bei einem Pot von 60 €, brauchst du 25 % Gewinnchance, damit sich der Call rechnet.' },
+      { q: 'Wie berechnet der Buch-Tipp meine Gewinnchance?', a: 'Er spielt die Hand mehrere hundert Mal mit zufälligen Gegnerkarten durch und zählt, wie oft du gewinnst. Das ist eine Näherung, weil echte Gegner nicht mit zufälligen Karten setzen.' },
+      { q: 'Ist Online-Poker in Deutschland legal?', a: 'Ja, bei Anbietern mit einer Poker-Erlaubnis der Gemeinsamen Glücksspielbehörde der Länder. Sie stehen auf der offiziellen Whitelist.' },
     ],
   },
   {
