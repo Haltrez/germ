@@ -9,9 +9,9 @@ import NightOnlyScript from '../../components/compliance/NightOnlyScript.astro';
 import { realMoneyOps } from '../../lib/realmoney.ts';
 import SlotCard from '../../components/slot/SlotCard.astro';
 import Faq from '../../components/ui/Faq.astro';
-import { getSlotViews, similarSlots, rtpText, rtpMax, isTodo, type SlotView } from '../../lib/slots.ts';
+import { getSlotViews, similarSlots, rtpText, rtpMax, isTodo, volatilityText, maxWinText, layoutText, type SlotView } from '../../lib/slots.ts';
 import { articleSchema, faqSchema, videoGameSchema } from '../../lib/schema.ts';
-import { formatDateDE } from '../../lib/i18n/de.ts';
+import { formatDateDE, UNVERIFIED } from '../../lib/i18n/de.ts';
 import { buildAutoReview, autoMetaDescription } from '../../lib/autotext.ts';
 import { CATEGORIES, isLive } from '../../config/routes.ts';
 const Rank = isLive('/ranglisten/') ? 'a' : 'div';
@@ -62,7 +62,7 @@ const maxWinRank = maxWinRanked.findIndex((v) => v.id === slot.id) + 1;
 const similar = similarSlots(all, slot);
 const cats = CATEGORIES.filter((c) => slot.categories.includes(c.code));
 const jsonLd = [
-  videoGameSchema({ name: s.name, path: slot.path, publisher: providerName, description, datePublished: isTodo(s.releaseDate) ? undefined : s.releaseDate }),
+  videoGameSchema({ name: s.name, path: slot.path, publisher: providerName, description, datePublished: isTodo(s.releaseDate) ? undefined : s.releaseDate, facts: ([['Auszahlungsquote (RTP)', rtpText(s)], ['Volatilität', volatilityText(s)], ['Maximalgewinn', maxWinText(s)], ['Walzen und Reihen', layoutText(s)], ['Hersteller', providerName]] as [string, string][]).filter(([, v]) => v && !v.includes(UNVERIFIED)) }),
   ...(text
   ? [
       articleSchema({
