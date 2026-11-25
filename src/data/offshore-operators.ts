@@ -60,4 +60,11 @@ export const OFFSHORE_OPERATORS: OffshoreOperator[] = [
     bonusText: '200 € Bonus + 50 Freirunden',
     bonusNote: 'Willkommensbonus',
   },
+  {
+    id: 'duel',
+    name: 'Duel',
+    affiliateUrl: 'https://duel.com/r/scatterdrop',
+    logo: '/operators/duel.svg',
+    license: 'Offshore-Lizenz (Komoren)',
+  },
 ];
