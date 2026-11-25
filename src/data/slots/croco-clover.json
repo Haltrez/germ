@@ -1,0 +1,47 @@
+{
+  "name": "Croco Clover",
+  "provider": "hacksaw-gaming",
+  "releaseDate": "2026-11-24",
+  "rtp": [
+    96.0,
+    94.0,
+    92.0,
+    86.0
+  ],
+  "volatility": "medium",
+  "volatilityNote": "3/5",
+  "maxWinMultiplier": 2500.0,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines"
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "multipliers",
+    "wilds"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://static-live.hacksawgaming.com/2820/{version}/index.html?language=de&channel=desktop&gameid=2820&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "demoVersionUrl": "https://static-live.hacksawgaming.com/2820/version.json",
+  "demoSource": "official-provider",
+  "demoSourceName": "Hacksaw Gaming",
+  "demoLicenseNote": "Offizielle Demo von Hacksaw Gaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/2820_hero_Background16x9.jpg",
+  "thumbLogo": "https://www-live.hacksawgaming.com/casino_thumbnails/2820_logo_Logo_800width.png",
+  "thumbnail": {
+    "src": "/thumbs/croco-clover.webp",
+    "alt": "Croco Clover Spielautomat"
+  },
+  "sourceUrls": [
+    "https://www.hacksawgaming.com/games/croco-clover"
+  ],
+  "lastVerified": "2026-11-24"
+}

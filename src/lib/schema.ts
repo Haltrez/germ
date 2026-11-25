@@ -14,8 +14,11 @@ export const organizationSchema = (): JsonLd => ({
   '@type': 'Organization',
   '@id': `${SITE_URL}/#organization`,
   name: SITE_NAME,
+  alternateName: 'KSA',
   url: `${SITE_URL}/`,
   logo: absUrl('/logo-512.png'),
+  description: 'Deutschsprachiges Portal mit kostenlosen, offiziellen Slot-Demos, Spieldaten der Hersteller, Testberichten, kostenlosen Tischspielen und einem Vergleich von Online-Spielotheken mit Erlaubnis der GGL.',
+  knowsAbout: ['Spielautomaten', 'RTP', 'Volatilität', 'Glücksspielstaatsvertrag 2021', 'GGL-Lizenz', 'Blackjack-Basisstrategie'],
 });
 
 export const websiteSchema = (): JsonLd => ({
@@ -90,7 +93,7 @@ export const itemListSchema = (name: string, items: { name: string; path: string
 });
 
 /** Game entity for slot pages (no ratings). */
-export const videoGameSchema = (g: { name: string; path: string; publisher: string; description: string; datePublished?: string }): JsonLd => ({
+export const videoGameSchema = (g: { name: string; path: string; publisher: string; description: string; datePublished?: string; facts?: [string, string][] }): JsonLd => ({
   '@context': 'https://schema.org',
   '@type': 'VideoGame',
   name: g.name,
@@ -103,4 +106,6 @@ export const videoGameSchema = (g: { name: string; path: string; publisher: stri
   isAccessibleForFree: true,
   publisher: { '@type': 'Organization', name: g.publisher },
   ...(g.datePublished ? { datePublished: g.datePublished } : {}),
+  // Key facts in machine-readable form (RTP, volatility, max win …), only values the provider has published.
+  ...(g.facts?.length ? { additionalProperty: g.facts.map(([name, value]) => ({ '@type': 'PropertyValue', name, value })) } : {}),
 });

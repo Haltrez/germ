@@ -1,0 +1,24 @@
+---
+/** Tools hub. */
+import BaseLayout from '../../layouts/BaseLayout.astro';
+const tools = [
+  { href: '/tools/rtp-rechner/', name: 'RTP-Rechner', text: 'Was kostet eine Sitzung im Schnitt? Aus Einsatz, Anzahl der Spins und Auszahlungsquote berechnet der Rechner den erwarteten Verlust.' },
+  { href: '/tools/budget-rechner/', name: 'Budget-Rechner', text: 'Wie lange reicht mein Budget? Der Rechner zeigt, wie viele Spins und wie viel Spielzeit im Schnitt drin sind.' },
+];
+---
+<BaseLayout title="Slot-Tools: RTP-Rechner und Budget-Rechner" description="Kostenlose Rechner für Spielautomaten: erwarteter Verlust nach RTP, Kosten pro Stunde und wie lange ein Budget im Schnitt reicht." breadcrumbs={[{ name: 'Tools', href: '/tools/' }]}>
+  <section class="container-site pt-8">
+    <p class="eyebrow">Rechnen statt raten</p>
+    <h1 class="mt-3 section-title !text-[clamp(2.2rem,5vw,3.75rem)]">Tools</h1>
+    <p class="section-sub">Zwei einfache Rechner, die zeigen, was Spielautomaten im Schnitt kosten. Sie ersetzen kein Limit, helfen aber, eines zu setzen.</p>
+    <div class="mt-8 grid gap-5 sm:grid-cols-2">
+      {tools.map((t) => (
+        <a href={t.href} class="card block p-6 transition hover:border-gold-500/60">
+          <p class="font-title text-2xl font-bold text-fg">{t.name}</p>
+          <p class="mt-2 text-muted">{t.text}</p>
+          <p class="mt-4 text-sm font-semibold text-gold-300">Zum Rechner →</p>
+        </a>
+      ))}
+    </div>
+  </section>
+</BaseLayout>

@@ -216,6 +216,25 @@ export const operatorSchema = z
     logo: z.string().optional(),
     /** Manual position in the comparison (lower = higher up). */
     sortOrder: z.number().int().default(100),
+    /** Facts from the official GGL whitelist. */
+    licenseHolderAddress: z.string().optional(),
+    licensedSince: isoDate().optional(),
+    licensedProducts: z.array(z.string()).default([]),
+    whitelistDomains: z.array(z.string()).default([]),
+    /** Facts verified on the operator's own website. Leave out whatever could not be verified. */
+    profile: z
+      .object({
+        checkedAt: isoDate(),
+        sources: z.array(z.url()).default([]),
+        offer: z.object({ headline: z.string(), terms: z.array(z.string()), termsUrl: z.url() }).optional(),
+        payments: z.array(z.string()).default([]),
+        payoutNote: z.string().optional(),
+        slotCount: z.string().optional(),
+        providers: z.array(z.string()).default([]),
+        support: z.string().optional(),
+        apps: z.string().optional(),
+      })
+      .optional(),
   })
   .superRefine((o, ctx) => {
     if (o.gglLicensed !== true) {

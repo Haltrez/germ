@@ -11,7 +11,7 @@
     "compliance:data": "node --experimental-strip-types --no-warnings scripts/compliance-data.ts",
     "compliance:dist": "node --experimental-strip-types --no-warnings scripts/compliance-dist.ts",
     "check": "astro check",
-    "build": "npm run compliance:data && astro build && npm run compliance:dist",
+    "build": "npm run compliance:data && astro build && npm run compliance:dist && node scripts/indexnow.mjs",
     "preview": "astro preview"
   },
   "dependencies": {

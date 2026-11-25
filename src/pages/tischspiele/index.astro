@@ -1,0 +1,63 @@
+---
+/** Hub for the free table games. */
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { TABLE_GAMES } from '../../content/tischspiele.ts';
+import { itemListSchema } from '../../lib/schema.ts';
+const ART: Record<string, { felt: string; glyph: string }> = {
+  blackjack: { felt: 'from-emerald-600 to-emerald-950', glyph: 'A♠ K♥' },
+  poker: { felt: 'from-blue-700 to-blue-950', glyph: 'A♠ K♠' },
+  roulette: { felt: 'from-rose-700 to-rose-950', glyph: '0 · 32 · 15' },
+  baccarat: { felt: 'from-blue-700 to-blue-950', glyph: '9 : 8' },
+  'casino-holdem': { felt: 'from-purple-700 to-purple-950', glyph: 'A♦ A♣' },
+  craps: { felt: 'from-emerald-600 to-emerald-950', glyph: '⚅ ⚀' },
+};
+---
+<BaseLayout
+  title="Tischspiele kostenlos spielen – 6 Klassiker mit Tipps"
+  description="Blackjack, Poker, Roulette, Baccarat, Casino Hold'em und Craps kostenlos spielen: ohne Anmeldung, mit Demo-Guthaben und Buch-Tipps."
+  breadcrumbs={[{ name: 'Tischspiele', href: '/tischspiele/' }]}
+  jsonLd={[itemListSchema('Kostenlose Tischspiele', TABLE_GAMES.map((g) => ({ name: g.name, path: `/tischspiele/${g.slug}/` })))]}
+>
+  <section class="container-site pt-8">
+    <p class="eyebrow">Kostenlos · ohne Anmeldung</p>
+    <h1 class="mt-3 section-title !text-[clamp(2.2rem,5vw,3.75rem)]">Tischspiele kostenlos spielen</h1>
+    <p class="section-sub">
+      Die sechs bekanntesten Tischspiele, direkt im Browser und mit Spielgeld. Jedes Spiel hat einen Buch-Tipp: Er zeigt dir, was
+      die Mathematik zur aktuellen Situation sagt, und zählt mit, wie oft du dem Lehrbuch folgst.
+    </p>
+    <div class="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      {TABLE_GAMES.map((g) => (
+        <a href={`/tischspiele/${g.slug}/`} class="card group block overflow-hidden transition hover:border-gold-500/60">
+          <div class:list={['flex h-40 items-center justify-center bg-gradient-to-b font-display text-4xl text-white/90 shadow-[inset_0_0_60px_rgba(0,0,0,.6)]', ART[g.slug].felt]}>{ART[g.slug].glyph}</div>
+          <div class="p-5">
+            <p class="font-display text-2xl uppercase text-fg group-hover:text-gold-300">{g.name}</p>
+            <p class="mt-1 text-sm text-muted">{g.short}</p>
+            <p class="mt-3 text-sm font-semibold text-gold-300">Kostenlos spielen →</p>
+          </div>
+        </a>
+      ))}
+    </div>
+    <div class="prose-site mt-12">
+      <h2>Wie die Spiele funktionieren</h2>
+      <p>
+        Alle Ergebnisse stammen aus dem Zufallsgenerator deines Browsers. Karten werden gemischt und Würfel geworfen wie am echten
+        Tisch, mit denselben Regeln und Auszahlungen. Jedes Spiel startet mit 1.000 € Demo-Guthaben, das du jederzeit zurücksetzen kannst. Ein animierter Dealer führt durch die Runde.
+      </p>
+      <h2>Was der Buch-Tipp kann</h2>
+      <p>
+        Bei Blackjack, Poker und Casino Hold'em beeinflussen deine Entscheidungen, wie hoch der <a href="/glossar/hausvorteil/">Hausvorteil</a>
+        ausfällt. Der Tipp nennt den Zug, den die Strategie vorsieht. Bei Roulette, Baccarat und Craps gibt es nach dem Setzen nichts
+        mehr zu entscheiden. Dort zeigt der Tipp, welche Wetten günstig und welche teuer sind. In keinem Spiel lässt sich der Vorteil
+        der Bank aufheben.
+      </p>
+      <h2>Strategien zum Nachlesen</h2>
+      <p>
+        Die komplette <a href="/tischspiele/blackjack-strategie/">Blackjack-Strategie als Tabelle</a> zeigt den besten Zug für jede
+        Hand. Was von Martingale und anderen Systemen zu halten ist, steht im Ratgeber
+        {' '}<a href="/ratgeber/roulette-systeme/">Roulette-Systeme im Check</a>.
+      </p>
+      <h2>Lieber Slots?</h2>
+      <p>Über 2.300 Spielautomaten findest du als <a href="/spielautomaten/">kostenlose Demo</a>, Begriffe erklärt das <a href="/glossar/">Glossar</a>.</p>
+    </div>
+  </section>
+</BaseLayout>

@@ -7,6 +7,8 @@ export interface RealMoneyOp {
   name: string;
   logo: string | null;
   tag: string | null;
+  /** Welcome offer as stated by the operator, if verified. */
+  offer: string | null;
   href: string;
   rel: string;
   /** True when href is a tracked affiliate link (needs the "Anzeige" label). */
@@ -23,6 +25,7 @@ export async function realMoneyOps(limit = 4): Promise<RealMoneyOp[]> {
       name: o.data.name,
       logo: o.data.logo ?? null,
       tag: o.data.strengthTag ?? null,
+      offer: o.data.bonusText !== 'TODO' ? o.data.bonusText : null,
       href: (o.data.affiliateUrl ?? o.data.websiteUrl) as string,
       rel: o.data.affiliateUrl ? AFFILIATE_REL : 'nofollow noopener',
       affiliate: !!o.data.affiliateUrl,

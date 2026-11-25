@@ -1,7 +1,16 @@
 /** German intro texts for category pages (original editorial copy). */
 import type { CategoryCode } from '../config/routes.ts';
 
-export const CATEGORY_TEXT: Record<CategoryCode, { title: string; description: string; intro: string[] }> = {
+export interface CategoryText {
+  title: string;
+  description: string;
+  intro: string[];
+  /** Longer guide below the slot grid. */
+  sections?: { h2: string; paragraphs: string[] }[];
+  faq?: { q: string; a: string }[];
+}
+
+export const CATEGORY_TEXT: Record<CategoryCode, CategoryText> = {
   book: {
     title: 'Book-Slots kostenlos spielen – Demos ohne Anmeldung',
     description: 'Book-Slots kostenlos spielen: Spielautomaten mit Buch-Symbol und expandierendem Sonderzeichen als Demo ohne Anmeldung, mit RTP laut Hersteller.',
@@ -19,7 +28,7 @@ export const CATEGORY_TEXT: Record<CategoryCode, { title: string; description: s
     ],
   },
   megaways: {
-    title: 'Megaways Slots kostenlos spielen – Demos ohne Anmeldung',
+    title: 'Megaways Slots & Spiele kostenlos spielen – Demos',
     description: 'Megaways Slots kostenlos spielen: Spielautomaten mit wechselnder Walzenhöhe und vielen Gewinnwegen als Spielgeld-Demo ohne Anmeldung.',
     intro: [
       'Megaways ist eine Spielmechanik, bei der sich die Zahl der Symbole pro Walze mit jedem Spin ändert. Dadurch schwankt auch die Zahl der möglichen Gewinnwege – bei vielen Spielen von wenigen hundert bis zu über hunderttausend. Gewonnen wird, wenn gleiche Symbole auf benachbarten Walzen von links nach rechts liegen, egal in welcher Reihe.',
@@ -27,7 +36,7 @@ export const CATEGORY_TEXT: Record<CategoryCode, { title: string; description: s
     ],
   },
   fruit: {
-    title: 'Früchte-Slots kostenlos spielen – Klassiker als Demo',
+    title: 'Früchte Slots kostenlos spielen – Demos ohne Anmeldung',
     description: 'Früchte-Slots kostenlos spielen: Spielautomaten mit Kirschen, Melonen und Siebenen als Demo ohne Anmeldung, mit RTP-Angaben der Hersteller.',
     intro: [
       'Kirschen, Zitronen, Pflaumen und die rote Sieben: Früchte-Slots sind die Urform des Spielautomaten. Moderne Varianten setzen auf dieselben Symbole, bieten aber oft zusätzliche Funktionen wie Freispiele, Multiplikatoren oder Gewinne überall auf dem Spielfeld.',
@@ -51,3 +60,80 @@ export const CATEGORY_TEXT: Record<CategoryCode, { title: string; description: s
     ],
   },
 };
+
+/** Extended guides and FAQs per category (rendered below the grid). */
+const EXTRA: Partial<Record<CategoryCode, Pick<CategoryText, 'sections' | 'faq'>>> = {
+  fruit: {
+    sections: [
+      { h2: 'Was sind Früchte-Slots?', paragraphs: [
+        'Früchte-Slots sind Spielautomaten mit den klassischen Symbolen der ersten mechanischen Geräte: Kirschen, Zitronen, Orangen, Pflaumen, Melonen, Trauben, Glocken, Sterne und die Sieben. In Deutschland sind sie vor allem durch die Spielhallen-Klassiker von Novomatic bekannt, etwa Sizzling Hot oder Ultra Hot. Online gibt es heute Hunderte Varianten – von schlichten 3-Walzen-Spielen bis zu modernen Slots mit Freispielen und Multiplikatoren.',
+      ] },
+      { h2: 'Klassisch oder modern: die zwei Arten von Früchte-Slots', paragraphs: [
+        'Klassische Früchte-Slots kommen mit wenigen Linien und ohne Bonusrunde aus. Gewinne entstehen nur über die Linien und oft über einen Stern-Scatter, der überall zahlt. Das Spiel ist schnell und leicht zu verstehen – ideal, wenn du einfach drehen möchtest.',
+        'Moderne Früchte-Slots nutzen dieselben Symbole, ergänzen sie aber um Funktionen wie Freispiele, expandierende Wilds, Kaskaden oder Gewinne überall auf dem Feld. Beispiele sind Fruit Party oder Fruit Shop. Sie sind abwechslungsreicher, schwanken aber oft stärker.',
+      ] },
+      { h2: 'Worauf du achten solltest', paragraphs: [
+        'Vergleiche vor allem RTP und Volatilität. Viele klassische Früchte-Slots haben einen soliden RTP, aber einen niedrigen Maximalgewinn. Bei Novomatic-Klassikern veröffentlicht der Hersteller den RTP oft nicht zentral – dann findest du ihn in den Spielinformationen. Bei legalen deutschen Online-Spielotheken gilt außerdem ein Höchsteinsatz von 1 € pro Spin.',
+      ] },
+    ],
+    faq: [
+      { q: 'Kann man Früchte-Slots kostenlos spielen?', a: 'Ja. Viele Früchte-Slots kannst du bei uns als offizielle Demo mit Spielgeld spielen – ohne Anmeldung und ohne Download.' },
+      { q: 'Welche Früchte-Slots sind am bekanntesten?', a: 'In Deutschland vor allem Sizzling Hot deluxe, Ultra Hot deluxe und Always Hot von Novomatic sowie moderne Spiele wie Fire Joker, Fruit Party und Fruit Shop.' },
+      { q: 'Haben Früchte-Slots Freispiele?', a: 'Klassische Früchte-Slots meist nicht. Moderne Varianten bieten dagegen oft Freispiele, Multiplikatoren oder Respins.' },
+      { q: 'Gibt es Tricks für Früchte-Slots?', a: 'Nein. Auch Früchte-Slots arbeiten mit einem Zufallsgenerator. Kein Rhythmus und kein Einsatzmuster ändern die Gewinnchancen.' },
+    ],
+  },
+  megaways: {
+    sections: [
+      { h2: 'So funktionieren Megaways Spiele', paragraphs: [
+        'Bei Megaways Spielen zeigt jede Walze pro Spin eine andere Zahl an Symbolen, meist zwischen zwei und sieben. Die Zahl der Gewinnwege ergibt sich aus der Multiplikation der Symbole pro Walze – bei sechs Walzen mit je sieben Symbolen sind es 117.649 Wege. Gewonnen wird, wenn gleiche Symbole auf benachbarten Walzen von links liegen, egal in welcher Reihe.',
+      ] },
+      { h2: 'Typische Features', paragraphs: [
+        'Fast alle Megaways Slots kombinieren die Mechanik mit Kaskaden (Tumbles): Gewinnsymbole verschwinden, neue fallen nach. In den Freispielen steigt häufig ein Multiplikator mit jeder Kaskade. Manche Spiele haben eine Zusatzwalze über oder unter dem Feld, die weitere Symbole liefert.',
+        'Bekannte Reihen sind die Megaways-Versionen von Big Bass, Great Rhino, Buffalo King oder The Dog House. Auch NetEnt hat mit Twin Spin Megaways, Divine Fortune Megaways und Fruit Shop Megaways eigene Varianten im Programm.',
+      ] },
+      { h2: 'Volatilität bei Megaways', paragraphs: [
+        'Megaways Spiele sind oft hoch volatil: Lange Phasen mit kleinen Gewinnen wechseln sich mit seltenen großen Ausschlägen ab. Teste sie deshalb am besten zuerst kostenlos mit Spielgeld. Mehr dazu im Ratgeber zur Volatilität.',
+      ] },
+    ],
+    faq: [
+      { q: 'Was sind Megaways Spiele?', a: 'Spielautomaten, bei denen sich die Zahl der Symbole pro Walze mit jedem Spin ändert. Dadurch gibt es je nach Spin unterschiedlich viele Gewinnwege, oft bis zu 117.649.' },
+      { q: 'Kann man Megaways Slots kostenlos spielen?', a: 'Ja. Alle Megaways Slots auf dieser Seite kannst du als offizielle Demo mit Spielgeld spielen, ohne Anmeldung.' },
+      { q: 'Welche Megaways Slots sind beliebt?', a: 'Zum Beispiel Big Bass Bonanza Megaways, Great Rhino Megaways, Buffalo King Megaways, The Dog House Megaways und Twin Spin Megaways.' },
+      { q: 'Wer hat Megaways erfunden?', a: 'Die Mechanik stammt vom australischen Entwickler Big Time Gaming, der sie an andere Hersteller lizenziert.' },
+    ],
+  },
+  book: {
+    sections: [
+      { h2: 'Warum Book-Slots so beliebt sind', paragraphs: [
+        'Mit Book of Ra hat Novomatic das Prinzip in Deutschlands Spielhallen bekannt gemacht. Online folgten Book of Dead von Play\'n GO und viele weitere Varianten. Das Spielprinzip ist immer ähnlich und schnell gelernt – die Spannung entsteht vor allem in den Freispielen, wenn das Sonderzeichen ganze Walzen füllt.',
+      ] },
+      { h2: 'Unterschiede zwischen den Book-Slots', paragraphs: [
+        'Die Spiele unterscheiden sich vor allem bei RTP, Linienzahl, Maximalgewinn und Zusatzfunktionen. Manche Varianten bieten mehrere Sondersymbole gleichzeitig, wachsende Walzen oder zusätzliche Multiplikatoren. Vergleiche die Werte direkt auf den einzelnen Slot-Seiten.',
+      ] },
+    ],
+    faq: [
+      { q: 'Was ist der beliebteste Book-Slot?', a: 'In Deutschland vor allem Book of Ra deluxe von Novomatic und Book of Dead von Play\'n GO.' },
+      { q: 'Kann man Book-Slots kostenlos spielen?', a: 'Ja. Viele Book-Slots gibt es bei uns als offizielle Demo mit Spielgeld. Für Novomatic-Spiele gibt es derzeit keine öffentliche Demo.' },
+      { q: 'Wie funktioniert das Sondersymbol?', a: 'Vor den Freispielen wird ein Symbol ausgewählt. Es dehnt sich in den Freispielen über die ganze Walze aus und zahlt auch auf nicht benachbarten Walzen.' },
+    ],
+  },
+  classic: {
+    sections: [
+      { h2: 'Was klassische Spielautomaten ausmacht', paragraphs: [
+        'Klassische Slots erinnern an die Automaten aus Spielhallen und Kneipen: drei bis fünf Walzen, wenige feste Linien, Früchte und Siebenen. Statt komplexer Bonusrunden zählen die schnellen Spins. Viele Klassiker stammen von Novomatic, aber auch NetEnt, Play\'n GO und BGaming haben moderne Varianten im Programm.',
+      ] },
+    ],
+    faq: [
+      { q: 'Welche klassischen Slots sind bekannt?', a: 'Zum Beispiel Sizzling Hot deluxe, Ultra Hot deluxe, Mega Joker, Fire Joker und Always Hot.' },
+      { q: 'Kann man klassische Slots kostenlos spielen?', a: 'Ja, viele davon als offizielle Demo mit Spielgeld – ohne Anmeldung.' },
+    ],
+  },
+  'hold-and-win': {
+    faq: [
+      { q: 'Was ist ein Hold & Win Slot?', a: 'Ein Spielautomat mit Geldsymbolen und einer Respin-Bonusrunde. Geldsymbole bleiben stehen, jedes neue setzt die Respins zurück, am Ende werden alle Werte addiert.' },
+      { q: 'Welche Hold & Win Slots sind beliebt?', a: 'Zum Beispiel Big Bass Bonanza, Floating Dragon, Wolf Gold, Chilli Heat und Le Bandit.' },
+    ],
+  },
+};
+for (const [k, v] of Object.entries(EXTRA)) Object.assign(CATEGORY_TEXT[k as CategoryCode], v);

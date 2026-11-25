@@ -1,0 +1,98 @@
+---
+/** RTP calculator and budget calculator. Pure arithmetic in the browser. */
+import type { GetStaticPaths } from 'astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Faq from '../../components/ui/Faq.astro';
+import { faqSchema } from '../../lib/schema.ts';
+
+const TOOLS = {
+  'rtp-rechner': {
+    name: 'RTP-Rechner', title: 'RTP-Rechner: Was kostet eine Slot-Sitzung im Schnitt?',
+    description: 'RTP-Rechner für Spielautomaten: Einsatz, Anzahl der Spins und Auszahlungsquote eingeben und den erwarteten Verlust und die Kosten pro Stunde sehen.',
+    intro: 'Gib Einsatz, Anzahl der Spins und die Auszahlungsquote ein. Der Rechner zeigt, wie viel du insgesamt setzt und was davon im Schnitt verloren geht.',
+    faq: [
+      { q: 'Was berechnet der RTP-Rechner?', a: 'Den Gesamteinsatz und den erwarteten Verlust: Gesamteinsatz mal Hausvorteil, also 100 % minus RTP. Das ist ein Durchschnitt über sehr viele Spins.' },
+      { q: 'Verliere ich genau diesen Betrag?', a: 'Nein. In einer einzelnen Sitzung kann das Ergebnis deutlich besser oder schlechter ausfallen. Je höher die Volatilität des Slots, desto größer die Abweichung.' },
+      { q: 'Welchen RTP soll ich eingeben?', a: 'Den Wert aus den Spielregeln des Slots beim jeweiligen Anbieter. Bei Anbietern mit deutscher Erlaubnis liegt er oft unter der Herstellerangabe.' },
+      { q: 'Wie viele Spins sind pro Stunde möglich?', a: 'In Deutschland höchstens rund 720, weil ein Spiel mindestens fünf Sekunden dauern muss.' },
+    ],
+  },
+  'budget-rechner': {
+    name: 'Budget-Rechner', title: 'Budget-Rechner: Wie lange reicht mein Slot-Budget?',
+    description: 'Budget-Rechner für Spielautomaten: Budget, Einsatz und RTP eingeben und sehen, wie viele Spins und wie viel Spielzeit im Schnitt möglich sind.',
+    intro: 'Gib dein Budget, den Einsatz pro Spin und die Auszahlungsquote ein. Der Rechner zeigt, wie viele Spins und wie viel Spielzeit im Schnitt drin sind, bis das Budget aufgebraucht ist.',
+    faq: [
+      { q: 'Wie rechnet der Budget-Rechner?', a: 'Budget geteilt durch den durchschnittlichen Verlust pro Spin. Der Verlust pro Spin ist der Einsatz mal Hausvorteil.' },
+      { q: 'Reicht mein Budget wirklich so lange?', a: 'Nur im Durchschnitt. Bei Slots mit hoher Volatilität ist ein Budget oft viel schneller weg, manchmal hält es auch deutlich länger.' },
+      { q: 'Was ist ein sinnvolles Budget?', a: 'Ein Betrag, dessen Verlust dir nicht wehtut und den du vorher festlegst. Ist er aufgebraucht, ist die Sitzung zu Ende.' },
+      { q: 'Kann ich mit kleinerem Einsatz länger spielen?', a: 'Ja. Halber Einsatz bedeutet im Schnitt doppelt so viele Spins bei gleichem Budget.' },
+    ],
+  },
+} as const;
+export const getStaticPaths = (() => ['rtp-rechner', 'budget-rechner'].map((tool) => ({ params: { tool } }))) satisfies GetStaticPaths;
+const key = Astro.params.tool as keyof typeof TOOLS;
+const t = TOOLS[key];
+const budget = key === 'budget-rechner';
+const field = 'w-full rounded-xl border border-ink-600 bg-ink-900 px-4 py-3 text-lg font-semibold text-fg focus:border-gold-400 focus:outline-none';
+---
+<BaseLayout title={t.title} description={t.description} breadcrumbs={[{ name: 'Tools', href: '/tools/' }, { name: t.name, href: `/tools/${key}/` }]} jsonLd={[faqSchema([...t.faq])]}>
+  <section class="container-site pt-8">
+    <h1 class="text-3xl font-extrabold text-fg sm:text-5xl">{t.name}</h1>
+    <p class="mt-4 max-w-3xl text-muted">{t.intro}</p>
+    <div class="mt-8 grid gap-6 lg:grid-cols-2" data-calc={key}>
+      <form class="card space-y-4 p-6" onsubmit="return false">
+        {budget && <label class="block text-sm font-semibold text-muted">Budget in €<input class={`mt-1 ${field}`} type="number" inputmode="decimal" min="1" step="1" value="50" data-in="budget" /></label>}
+        <label class="block text-sm font-semibold text-muted">Einsatz pro Spin in €<input class={`mt-1 ${field}`} type="number" inputmode="decimal" min="0.01" max="1000" step="0.01" value="1" data-in="stake" /></label>
+        {!budget && <label class="block text-sm font-semibold text-muted">Anzahl der Spins<input class={`mt-1 ${field}`} type="number" inputmode="numeric" min="1" step="1" value="500" data-in="spins" /></label>}
+        <label class="block text-sm font-semibold text-muted">Auszahlungsquote (RTP) in %<input class={`mt-1 ${field}`} type="number" inputmode="decimal" min="50" max="99.99" step="0.01" value="94" data-in="rtp" /></label>
+        <p class="text-xs text-subtle">In Deutschland gilt bei legalen Anbietern ein Höchsteinsatz von 1 € pro Spin.</p>
+      </form>
+      <div class="card p-6" aria-live="polite">
+        <p class="text-xs font-bold uppercase tracking-wider text-gold-400">Ergebnis im Durchschnitt</p>
+        <dl class="mt-4 space-y-3">
+          {(budget ? [['spins', 'Spins, bis das Budget aufgebraucht ist'], ['time', 'Spielzeit bei 5 Sekunden pro Spin'], ['perspin', 'Verlust pro Spin'], ['hour', 'Kosten pro Stunde (720 Spins)']] : [['total', 'Gesamteinsatz'], ['loss', 'Erwarteter Verlust'], ['back', 'Erwartete Auszahlung'], ['hour', 'Kosten pro Stunde (720 Spins)']]).map(([k, label]) => (
+            <div class="flex items-baseline justify-between gap-4 border-b border-line pb-3 last:border-0"><dt class="text-sm text-muted">{label}</dt><dd class="font-display text-2xl text-fg" data-out={k}>–</dd></div>
+          ))}
+        </dl>
+      </div>
+    </div>
+    <div class="prose-site mt-10">
+      <h2>Was das Ergebnis bedeutet</h2>
+      <p>
+        Der Rechner arbeitet mit dem <a href="/glossar/hausvorteil/">Hausvorteil</a>: 100 % minus <a href="/glossar/rtp/">RTP</a>.
+        Bei 94 % RTP bleiben im Schnitt 6 Cent von jedem gesetzten Euro beim Anbieter. Das Ergebnis ist ein Mittelwert über sehr
+        viele Spins. Eine einzelne Sitzung kann stark davon abweichen, vor allem bei hoher
+        {' '}<a href="/glossar/volatilitaet/">Volatilität</a>.
+      </p>
+      <p>
+        Nutze die Zahl als Preis für die Unterhaltung, nicht als Vorhersage. Lege dein Budget vorher fest und höre auf, wenn es
+        aufgebraucht ist. Hilfe findest du unter <a href="/verantwortungsvoll-spielen/">Verantwortungsvoll spielen</a>.
+      </p>
+      <p>Welche Slots laut Hersteller die höchste Quote haben, zeigt die Rangliste {' '}<a href="/ranglisten/hoechster-rtp/">Höchste Auszahlungsquote</a>.</p>
+    </div>
+    <div class="mt-12 max-w-4xl"><Faq items={[...t.faq]} title="Häufige Fragen" /></div>
+  </section>
+</BaseLayout>
+<script is:inline>
+  (function () {
+    var root = document.querySelector('[data-calc]'); if (!root) return;
+    var eur = function (n) { return n.toLocaleString('de-DE', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' €'; };
+    var num = function (k) { var el = root.querySelector('[data-in="' + k + '"]'); return el ? parseFloat(String(el.value).replace(',', '.')) : NaN; };
+    var out = function (k, v) { var el = root.querySelector('[data-out="' + k + '"]'); if (el) el.textContent = v; };
+    function calc() {
+      var stake = num('stake'), rtp = num('rtp');
+      if (!(stake > 0) || !(rtp >= 50 && rtp < 100)) { root.querySelectorAll('[data-out]').forEach(function (e) { e.textContent = '–'; }); return; }
+      var edge = 1 - rtp / 100, per = stake * edge;
+      out('hour', eur(per * 720));
+      if (root.dataset.calc === 'budget-rechner') {
+        var b = num('budget'); if (!(b > 0)) return;
+        var spins = Math.floor(b / per), sec = spins * 5, h = Math.floor(sec / 3600), m = Math.round((sec % 3600) / 60);
+        out('spins', spins.toLocaleString('de-DE')); out('time', (h ? h + ' Std. ' : '') + m + ' Min.'); out('perspin', eur(per));
+      } else {
+        var n = num('spins'); if (!(n > 0)) return;
+        var total = stake * n; out('total', eur(total)); out('loss', eur(total * edge)); out('back', eur(total * (1 - edge)));
+      }
+    }
+    root.addEventListener('input', calc); calc();
+  })();
+</script>

@@ -1,0 +1,46 @@
+{
+  "name": "Ghost Vision",
+  "provider": "hacksaw-gaming",
+  "releaseDate": "2026-11-19",
+  "rtp": [
+    96.0,
+    94.0,
+    92.0,
+    86.0
+  ],
+  "volatility": "high",
+  "volatilityNote": "4/5",
+  "maxWinMultiplier": 10000.0,
+  "reels": "TODO",
+  "rows": "TODO",
+  "winLines": {
+    "type": "lines"
+  },
+  "minStake": "TODO",
+  "maxStake": "TODO",
+  "features": [
+    "free-spins",
+    "wilds",
+    "respins"
+  ],
+  "themes": [],
+  "categories": [],
+  "demoUrl": "https://static-live.hacksawgaming.com/2528/{version}/index.html?language=de&channel=desktop&gameid=2528&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "demoVersionUrl": "https://static-live.hacksawgaming.com/2528/version.json",
+  "demoSource": "official-provider",
+  "demoSourceName": "Hacksaw Gaming",
+  "demoLicenseNote": "Offizielle Demo von Hacksaw Gaming, geladen vom öffentlichen Demo-Server des Herstellers.",
+  "demoAvailableInDE": "TODO",
+  "availableInDE": "TODO",
+  "gglOperatorSlugs": [],
+  "screenshots": [],
+  "thumbSource": "https://www-live.hacksawgaming.com/casino_thumbnails/2528_hero_GhostVision_Devices_Desktop.png",
+  "thumbnail": {
+    "src": "/thumbs/ghost-vision.webp",
+    "alt": "Ghost Vision Spielautomat"
+  },
+  "sourceUrls": [
+    "https://www.hacksawgaming.com/games/ghost-vision"
+  ],
+  "lastVerified": "2026-11-24"
+}

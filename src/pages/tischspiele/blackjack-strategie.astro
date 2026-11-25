@@ -1,0 +1,90 @@
+---
+/** Blackjack basic strategy chart, generated from the same function the free game uses. */
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Faq from '../../components/ui/Faq.astro';
+import { book } from '../../components/games/Blackjack.tsx';
+import { articleSchema, faqSchema } from '../../lib/schema.ts';
+
+const UP = [2, 3, 4, 5, 6, 7, 8, 9, 10, 14];
+const c = (r: number) => ({ r, s: 0 });
+const cell = (cards: { r: number; s: number }[], up: number, split: boolean) => book(cards, c(up), true, split).m;
+const hard = [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17].map((t) => ({ label: t === 17 ? '17+' : t <= 8 && t === 5 ? '5–8' : String(t), cards: t <= 11 ? [c(2), c(t - 2)] : [c(10), c(t - 10)], t })).filter((r) => ![6, 7, 8].includes(r.t));
+const soft = [2, 3, 4, 5, 6, 7, 8, 9].map((x) => ({ label: `A + ${x}`, cards: [c(14), c(x)] }));
+const pairs = [2, 3, 4, 5, 6, 7, 8, 9, 10, 14].map((x) => ({ label: x === 14 ? 'A + A' : `${x} + ${x}`, cards: [c(x), c(x)] }));
+const NAME: Record<string, string> = { H: 'Karte', S: 'Halten', D: 'Verdoppeln', P: 'Teilen' };
+const COL: Record<string, string> = { H: 'bg-emerald-600/80 text-white', S: 'bg-rose-600/80 text-white', D: 'bg-gold-400 text-[#241600]', P: 'bg-sky-600/80 text-white' };
+const tables = [
+  { title: 'Harte Hände (ohne Ass als 11)', rows: hard, split: false },
+  { title: 'Weiche Hände (Ass zählt 11)', rows: soft, split: false },
+  { title: 'Paare', rows: pairs, split: true },
+];
+const faq = [
+  { q: 'Was ist die Blackjack-Basisstrategie?', a: 'Eine Tabelle, die für jede Kombination aus deiner Hand und der offenen Karte der Bank den mathematisch besten Zug nennt: Karte, Halten, Verdoppeln oder Teilen.' },
+  { q: 'Für welche Regeln gilt diese Tabelle?', a: 'Für 4 bis 8 Decks, die Bank hält bei allen 17, Verdoppeln ist mit jeder Starthand und nach dem Teilen erlaubt, Blackjack zahlt 3 zu 2. Bei anderen Regeln weichen einzelne Felder ab.' },
+  { q: 'Kann man mit der Basisstrategie gewinnen?', a: 'Nicht dauerhaft. Sie senkt den Hausvorteil auf rund 0,5 %, hebt ihn aber nicht auf. Auf lange Sicht bleibt der Vorteil bei der Bank.' },
+  { q: 'Was mache ich, wenn Verdoppeln nicht mehr möglich ist?', a: 'Hast du bereits drei oder mehr Karten, nimmst du statt zu verdoppeln eine Karte. Einzige Ausnahme: Mit Soft 18 bleibst du stehen.' },
+  { q: 'Soll ich die Versicherung nehmen?', a: 'Nein. Die Versicherung gegen einen Blackjack der Bank hat einen deutlich höheren Hausvorteil als das Spiel selbst. Die Basisstrategie lehnt sie immer ab.' },
+  { q: 'Wo kann ich die Strategie üben?', a: 'In unserem kostenlosen Blackjack zeigt der Buch-Tipp bei jeder Hand den Zug aus dieser Tabelle und zählt mit, wie oft du ihm folgst.' },
+];
+const path = '/tischspiele/blackjack-strategie/';
+const description = 'Blackjack-Strategie als Tabelle: der beste Zug für jede Hand gegen jede Bankkarte, mit Regeln zum Verdoppeln und Teilen. Kostenlos üben im Browser.';
+---
+<BaseLayout title="Blackjack Strategie Tabelle: Basisstrategie für jede Hand" description={description} breadcrumbs={[{ name: 'Tischspiele', href: '/tischspiele/' }, { name: 'Blackjack-Strategie', href: path }]}
+  jsonLd={[articleSchema({ headline: 'Blackjack Strategie Tabelle', description, path, authorName: 'Redaktion KostenloseSpielautomaten', authorType: 'Organization', datePublished: '2026-11-21', dateModified: '2026-11-21' }), faqSchema(faq)]}>
+  <article class="container-site pb-4 pt-8">
+    <p class="eyebrow">Basisstrategie · 6 Decks · Bank hält bei 17</p>
+    <h1 class="mt-3 text-3xl font-extrabold text-fg sm:text-5xl">Blackjack Strategie Tabelle</h1>
+    <p class="mt-4 max-w-3xl text-lg text-muted">
+      Die Basisstrategie sagt dir für jede Hand, welcher Zug im Schnitt am wenigsten kostet. Links steht deine Hand, oben die offene
+      Karte der Bank. Die Tabelle stammt aus derselben Logik wie der Buch-Tipp in unserem kostenlosen Blackjack.
+    </p>
+    <div class="mt-5 flex flex-wrap gap-3">
+      <a href="/tischspiele/blackjack/" class="btn btn-primary">Strategie kostenlos üben</a>
+      <ul class="flex flex-wrap items-center gap-2 text-xs font-bold">{Object.entries(NAME).map(([k, v]) => <li class={`rounded-md px-2.5 py-1.5 ${COL[k]}`}>{k} = {v}</li>)}</ul>
+    </div>
+    {tables.map((t) => (
+      <section class="mt-10">
+        <h2 class="font-title text-2xl font-bold text-fg">{t.title}</h2>
+        <div class="mt-4 overflow-x-auto rounded-2xl border border-line">
+          <table class="w-full min-w-[30rem] border-collapse text-center text-sm">
+            <thead class="bg-ink-900 text-xs text-subtle"><tr><th class="px-2 py-2 text-left">Deine Hand</th>{UP.map((u) => <th class="px-1 py-2" scope="col">{u === 14 ? 'A' : u}</th>)}</tr></thead>
+            <tbody>
+              {t.rows.map((r) => (
+                <tr class="border-t border-line"><th scope="row" class="whitespace-nowrap px-2 py-1.5 text-left font-semibold text-fg">{r.label}</th>
+                  {UP.map((u) => { const m = cell(r.cards, u, t.split); return <td class="p-0.5"><span class={`block rounded py-1.5 font-bold ${COL[m]}`} title={NAME[m]}>{m}</span></td>; })}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+    ))}
+    <div class="prose-site mt-12">
+      <h2>So liest du die Tabelle</h2>
+      <ol>
+        <li>Prüfe zuerst, ob du ein <strong>Paar</strong> hast. Dann gilt die Paar-Tabelle.</li>
+        <li>Hast du ein Ass, das als 11 zählt, gilt die Tabelle für <strong>weiche Hände</strong>.</li>
+        <li>In allen anderen Fällen gilt die Tabelle für <strong>harte Hände</strong>.</li>
+        <li>Suche in der Zeile deiner Hand die Spalte mit der offenen Karte der Bank. Bildkarten zählen als 10.</li>
+      </ol>
+      <p><strong>D</strong> heißt: verdoppeln, wenn es erlaubt ist. Hast du schon mehr als zwei Karten, nimmst du stattdessen eine Karte. Nur mit Soft 18 bleibst du in diesem Fall stehen.</p>
+      <h2>Die wichtigsten Regeln zum Merken</h2>
+      <ul>
+        <li><strong>Asse und Achten immer teilen</strong>, Zehner und Fünfer nie.</li>
+        <li><strong>11 verdoppeln</strong> gegen alles außer das Ass, 10 gegen 2 bis 9.</li>
+        <li><strong>12 bis 16 halten</strong>, wenn die Bank 2 bis 6 zeigt (Ausnahme: 12 gegen 2 und 3), sonst ziehen.</li>
+        <li><strong>Harte 17 und mehr</strong> immer halten.</li>
+        <li><strong>Soft 18</strong> gegen 9, 10 oder Ass ziehen.</li>
+      </ul>
+      <h2>Was die Strategie bringt und was nicht</h2>
+      <p>
+        Mit der Basisstrategie liegt der <a href="/glossar/hausvorteil/">Hausvorteil</a> bei diesen Regeln bei rund 0,5 %. Wer nach
+        Gefühl spielt, zahlt meist ein Mehrfaches. Die Strategie verhindert aber keine Verlustserien, und sie macht aus Blackjack
+        kein Spiel mit positivem Erwartungswert. Nebenwetten wie Perfect Pairs und 21+3 sind nicht Teil der Strategie, weil ihr
+        Hausvorteil deutlich höher ist.
+      </p>
+      <p>Glücksspiel kann süchtig machen. Hilfe findest du unter <a href="/verantwortungsvoll-spielen/">Verantwortungsvoll spielen</a>.</p>
+    </div>
+    <div class="mt-12 max-w-4xl"><Faq items={faq} title="Häufige Fragen zur Blackjack-Strategie" /></div>
+  </article>
+</BaseLayout>

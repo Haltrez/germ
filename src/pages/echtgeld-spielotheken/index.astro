@@ -12,7 +12,15 @@ import { formatDateDE } from '../../lib/i18n/de.ts';
 const ops = (await getCollection('operators'))
   .filter((o) => isPromotable(o.data))
   .sort((a, b) => a.data.sortOrder - b.data.sortOrder || Number(b.data.featured) - Number(a.data.featured) || (b.data.rating?.total ?? 0) - (a.data.rating?.total ?? 0));
-const updated = '2026-11-15';
+const updated = ops.map((o) => o.data.gglWhitelistCheckedAt ?? '').sort().at(-1) || '2026-11-15';
+/** Month of the current build: the site is rebuilt several times a week, so this stays current. */
+const monthYear = new Intl.DateTimeFormat('de-DE', { month: 'long', year: 'numeric', timeZone: 'Europe/Berlin' }).format(new Date());
+const steps = [
+  { t: 'Abgleich mit der Whitelist', d: 'Wir prüfen, ob Anbieter und Internetadresse auf der offiziellen Liste der GGL stehen. Das Prüfdatum steht bei jedem Eintrag.' },
+  { t: 'Spielerschutz', d: 'Einsatzlimit von 1 €, Einzahlungslimit über LUGAS, Abfrage der Sperrdatei OASIS und Panik-Button müssen vorhanden sein.' },
+  { t: 'Spielangebot', d: 'Welche Hersteller und wie viele Slots gibt es? Sind die Spielregeln und die Auszahlungsquote im Spiel einsehbar?' },
+  { t: 'Zahlungen und Service', d: 'Welche Zahlungswege gibt es, wie klar sind die Bedingungen, wie erreichbar ist der Kundendienst?' },
+];
 const n = (x: number) => x.toLocaleString('de-DE');
 
 const checks = [
@@ -26,18 +34,22 @@ const faq = [
   { q: 'Wie erkenne ich eine Spielothek mit deutscher Lizenz?', a: 'Am Eintrag auf der GGL-Whitelist, am Höchsteinsatz von 1 € pro Spin, an der Pflicht zur Verifizierung, am Einzahlungslimit über LUGAS und an der Anbindung an die Sperrdatei OASIS.' },
   { q: 'Welche Zahlungsmethoden gibt es bei legalen Spielotheken?', a: 'Je nach Anbieter zum Beispiel PayPal, Paysafecard, Trustly, Klarna, Kreditkarte oder Banküberweisung. Welche Methoden ein Anbieter akzeptiert, steht bei jedem Eintrag in unserem Vergleich.' },
   { q: 'Wie bewertet ihr die Spielotheken?', a: 'Nach festen Kriterien: Lizenz und Sicherheit, Spielerschutz, Spielangebot, Ein- und Auszahlungen sowie Service. Provisionen haben keinen Einfluss auf die Reihenfolge.' },
+  { q: 'Wie hoch ist der maximale Einsatz?', a: 'Bei allen Anbietern mit deutscher Erlaubnis höchstens 1 € pro Spiel. Das schreibt der Glücksspielstaatsvertrag vor.' },
+  { q: 'Wie viel darf ich pro Monat einzahlen?', a: 'Standardmäßig höchstens 1.000 € pro Monat, zusammengerechnet über alle legalen Anbieter. Kontrolliert wird das über die zentrale Datei LUGAS.' },
+  { q: 'Muss ich mich verifizieren?', a: 'Ja. Legale Anbieter müssen Identität und Alter prüfen, bevor du spielen und auszahlen kannst. Spielen ist erst ab 18 Jahren erlaubt.' },
+  { q: 'Wie oft wird der Vergleich aktualisiert?', a: 'Wir gleichen die Anbieter regelmäßig mit der GGL-Whitelist ab. Das Datum der letzten Prüfung steht bei jedem Anbieter.' },
   { q: 'Gibt es auch Spielotheken mit Kryptowährungen?', a: 'Auf unserer Seite zum Zahlen mit Kryptowährungen zeigen wir ausschließlich Anbieter, die Kryptowährungen akzeptieren und eine GGL-Erlaubnis haben.' },
 ];
 ---
 <BaseLayout
-  title="Online-Spielotheken mit GGL-Lizenz im Vergleich"
-  description="Online-Spielotheken mit deutscher Lizenz im Vergleich: nur Anbieter von der GGL-Whitelist, geprüft auf Zahlungen, Spielerschutz und Spielangebot."
+  title={`Online-Spielotheken mit GGL-Lizenz – ${monthYear}`}
+  description={`Online-Spielotheken mit deutscher Lizenz im Vergleich (${monthYear}): nur Anbieter von der GGL-Whitelist, mit Prüfdatum und klaren Kriterien.`}
   breadcrumbs={[{ name: 'Spielotheken', href: '/echtgeld-spielotheken/' }]}
   jsonLd={[faqSchema(faq)]}
 >
   <section class="container-site pt-6">
     <p class="eyebrow">Geprüft auf der GGL-Whitelist</p>
-    <h1 class="mt-3 section-title !text-[clamp(2.2rem,5vw,3.75rem)]">Online-Spielotheken mit deutscher Lizenz</h1>
+    <h1 class="mt-3 section-title !text-[clamp(2.2rem,5vw,3.75rem)]">Online-Spielotheken mit deutscher Lizenz <span class="text-gold-400">im {monthYear}</span></h1>
     <p class="section-sub">
       Hier vergleichen wir Online-Spielotheken, die eine Erlaubnis der Gemeinsamen Glücksspielbehörde der Länder (GGL) haben.
       Jeder Anbieter steht auf der offiziellen Whitelist der GGL.
@@ -53,7 +65,7 @@ const faq = [
           Wir prüfen aktuell die Anbieter auf der GGL-Whitelist und testen Einzahlung, Auszahlung und Kundenservice selbst.
           Sobald ein Anbieter unsere Prüfung bestanden hat, findest du ihn hier – mit Lizenznummer und Prüfdatum.
         </p>
-        <a href="/spielautomaten/" class="btn btn-primary mt-5 !min-h-12">Bis dahin: Slots kostenlos spielen</a>
+        {' '}<a href="/spielautomaten/" class="btn btn-primary mt-5 !min-h-12">Bis dahin: Slots kostenlos spielen</a>
       </div>
     )}
   </section>
@@ -70,16 +82,34 @@ const faq = [
 
   <section class="container-site py-14">
     <div class="prose-site">
-      <h2>Worauf wir beim Vergleich achten</h2>
+      <h2>So prüfen wir die Anbieter</h2>
+      <p>Jede Spielothek durchläuft dieselben vier Schritte. Wer den ersten nicht besteht, wird nicht aufgenommen.</p>
+      <ol>
+        {steps.map((x) => <li><strong>{x.t}:</strong> {x.d}</li>)}
+      </ol>
       <p>
-        Jede Spielothek durchläuft dieselben Schritte: Wir gleichen sie mit der GGL-Whitelist ab, prüfen Spielangebot und
-        Zahlungsmethoden, testen Ein- und Auszahlungen und bewerten den Spielerschutz. Die Gewichtung der Kriterien legen wir in
-        unserer <a href="/bewertungsmethodik/">Bewertungsmethodik</a> offen.
+        Die Gewichtung der Kriterien legen wir in unserer <a href="/bewertungsmethodik/">Bewertungsmethodik</a> offen.
+        Provisionen haben keinen Einfluss darauf, ob ein Anbieter aufgenommen wird.
+      </p>
+      <h2>Was bei allen Anbietern gleich ist</h2>
+      <p>
+        Weil die Regeln aus dem Glücksspielstaatsvertrag stammen, unterscheiden sich legale Spielotheken in einigen Punkten
+        nicht: Der <a href="/glossar/einsatzlimit/">Einsatz</a> ist auf 1 € pro Spiel begrenzt, jede Drehung dauert mindestens
+        fünf Sekunden (<a href="/glossar/5-sekunden-regel/">5-Sekunden-Regel</a>), <a href="/glossar/autoplay/">Autoplay</a>{' '}
+        und <a href="/glossar/jackpot/">Jackpots</a> gibt es nicht, und das Einzahlungslimit wird über
+        {' '}<a href="/glossar/lugas/">LUGAS</a> anbieterübergreifend kontrolliert. Unterschiede gibt es beim Spielangebot, bei den
+        Zahlungswegen, beim Willkommensangebot und beim Service.
+      </p>
+      <h2>Erst kostenlos testen</h2>
+      <p>
+        Bevor du Geld einsetzt, kannst du fast jeden Slot bei uns als <a href="/spielautomaten/">kostenlose Demo</a>{' '}
+        ausprobieren. So merkst du ohne Risiko, ob dir ein Spiel und seine <a href="/glossar/volatilitaet/">Volatilität</a>{' '}
+        liegen.
       </p>
       <h2>Zahlen mit Kryptowährungen</h2>
       <p>
         Du möchtest mit Bitcoin oder anderen Kryptowährungen zahlen? Auf unserer Seite zu
-        <a href="/krypto-spielotheken/">Krypto-Spielotheken</a> zeigen wir nur Anbieter, die Kryptowährungen akzeptieren und
+        {' '}<a href="/krypto-spielotheken/">Krypto-Spielotheken</a> zeigen wir nur Anbieter, die Kryptowährungen akzeptieren und
         gleichzeitig eine deutsche Erlaubnis haben.
       </p>
     </div>

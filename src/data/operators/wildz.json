@@ -3,8 +3,8 @@
   "isPlaceholder": false,
   "gglLicensed": true,
   "licenseNumber": "GGL-Whitelist",
-  "licenseHolder": "TODO",
-  "gglWhitelistCheckedAt": "2026-11-15",
+  "licenseHolder": "Rootz Limited",
+  "gglWhitelistCheckedAt": "2026-11-20",
   "affiliateUrl": null,
   "websiteUrl": "https://www.wildz.de/",
   "bonusText": "TODO",
@@ -23,5 +23,13 @@
   "rating": null,
   "featured": false,
   "sortOrder": 3,
-  "logo": "/operators/wildz.png"
+  "logo": "/operators/wildz.png",
+  "licenseHolderAddress": "Ewropa Business Centre, Dun Kerm Street, Level 3 - 701, Birkirkara BKR 9034, Malta",
+  "licensedSince": "2022-09-15",
+  "licensedProducts": [
+    "Virtuelle Automatenspiele"
+  ],
+  "whitelistDomains": [
+    "wildz.de"
+  ]
 }

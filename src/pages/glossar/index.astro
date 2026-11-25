@@ -1,0 +1,48 @@
+---
+/** Glossar hub: every term, grouped by first letter. */
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { itemListSchema } from '../../lib/schema.ts';
+
+const terms = (await getCollection('glossary')).sort((a, b) => a.data.term.localeCompare(b.data.term, 'de'));
+const letterOf = (t: string) => {
+  const c = t.normalize('NFD')[0].toUpperCase();
+  return /[A-Z]/.test(c) ? c : '#';
+};
+const groups = new Map<string, typeof terms>();
+for (const t of terms) {
+  const l = letterOf(t.data.term);
+  groups.set(l, [...(groups.get(l) ?? []), t]);
+}
+---
+<BaseLayout
+  title="Slot-Glossar: Begriffe einfach erklärt"
+  description="Slot-Glossar: RTP, Volatilität, Scatter, Wild, Bonus Buy, LUGAS und viele weitere Begriffe rund um Spielautomaten kurz und verständlich erklärt."
+  breadcrumbs={[{ name: 'Glossar', href: '/glossar/' }]}
+  jsonLd={[itemListSchema('Slot-Glossar', terms.map((t) => ({ name: t.data.term, path: `/glossar/${t.id}/` })))]}
+>
+  <section class="container-site pt-8">
+    <p class="eyebrow">Von A bis Z</p>
+    <h1 class="mt-3 section-title !text-[clamp(2.2rem,5vw,3.75rem)]">Slot-Glossar</h1>
+    <p class="section-sub">
+      {terms.length} Begriffe rund um Spielautomaten, kurz erklärt: von der Auszahlungsquote über Bonusfunktionen bis zu den
+      Regeln, die in Deutschland gelten.
+    </p>
+    <nav class="mt-6 flex flex-wrap gap-2" aria-label="Buchstaben">
+      {[...groups.keys()].map((l) => <a href={`#${l}`} class="rounded-lg border border-line px-3 py-1.5 text-sm font-bold text-fg hover:border-gold-500/60">{l}</a>)}
+    </nav>
+    {[...groups.entries()].map(([l, list]) => (
+      <section id={l} class="mt-10 scroll-mt-24">
+        <h2 class="font-title text-2xl font-bold text-gold-300">{l}</h2>
+        <div class="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          {list.map((t) => (
+            <a href={`/glossar/${t.id}/`} class="card block p-5 transition hover:border-gold-500/60">
+              <p class="font-title text-lg font-bold text-fg">{t.data.term}</p>
+              <p class="mt-1.5 text-sm text-muted">{t.data.short}</p>
+            </a>
+          ))}
+        </div>
+      </section>
+    ))}
+  </section>
+</BaseLayout>

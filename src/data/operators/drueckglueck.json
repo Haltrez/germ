@@ -1,0 +1,31 @@
+{
+  "name": "DrückGlück",
+  "isPlaceholder": false,
+  "gglLicensed": true,
+  "licenseNumber": "GGL-Whitelist",
+  "licenseHolder": "Skill On Net Limited",
+  "gglWhitelistCheckedAt": "2026-11-21",
+  "affiliateUrl": null,
+  "websiteUrl": "https://www.drueckglueck.de/",
+  "bonusText": "TODO",
+  "bonusTermsUrl": null,
+  "paymentMethods": [],
+  "slotSlugs": [],
+  "strengthTag": "Bekannt aus der TV-Werbung",
+  "pros": [
+    "Erlaubnis der GGL für virtuelle Automatenspiele",
+    "Seit Jahren im deutschen Markt bekannt"
+  ],
+  "cons": [],
+  "minDeposit": "TODO",
+  "payoutSpeed": "TODO",
+  "rating": null,
+  "featured": false,
+  "sortOrder": 7,
+  "licensedProducts": [
+    "Virtuelle Automatenspiele"
+  ],
+  "whitelistDomains": [
+    "drueckglueck.de"
+  ]
+}

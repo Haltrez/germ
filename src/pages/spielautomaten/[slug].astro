@@ -9,9 +9,9 @@ import NightOnlyScript from '../../components/compliance/NightOnlyScript.astro';
 import { realMoneyOps } from '../../lib/realmoney.ts';
 import SlotCard from '../../components/slot/SlotCard.astro';
 import Faq from '../../components/ui/Faq.astro';
-import { getSlotViews, similarSlots, rtpText, rtpMax, isTodo, type SlotView } from '../../lib/slots.ts';
+import { getSlotViews, similarSlots, rtpText, rtpMax, isTodo, volatilityText, maxWinText, layoutText, type SlotView } from '../../lib/slots.ts';
 import { articleSchema, faqSchema, videoGameSchema } from '../../lib/schema.ts';
-import { formatDateDE } from '../../lib/i18n/de.ts';
+import { formatDateDE, UNVERIFIED } from '../../lib/i18n/de.ts';
 import { buildAutoReview, autoMetaDescription } from '../../lib/autotext.ts';
 import { CATEGORIES, isLive } from '../../config/routes.ts';
 const Rank = isLive('/ranglisten/') ? 'a' : 'div';
@@ -33,14 +33,21 @@ const author = text ? await getEntry('authors', text.author) : undefined;
 const authorIsTeam = !author || author.data.isPlaceholder;
 const authorName = authorIsTeam ? 'Redaktion KostenloseSpielautomaten' : author!.data.name;
 const auto = text ? null : buildAutoReview(slot);
-const faqItems = text ? text.faq : auto!.faq;
+const baseFaq = text ? text.faq : auto!.faq;
+// Real-money questions people actually search for ("<slot> echtgeld", "<slot> online spielothek").
+const hasQ = (re: RegExp) => baseFaq.some((f) => re.test(f.q));
+const faqItems = [
+  ...baseFaq,
+  ...(hasQ(/echtgeld/i) ? [] : [{ q: `Wo kann ich ${slot.data.name} um Echtgeld spielen?`, a: `In Deutschland nur bei Online-Spielotheken mit Erlaubnis der GGL. Ob ein Anbieter ${slot.data.name} im Programm hat, siehst du in dessen Spielangebot. Geprüfte Anbieter findest du in unserem Vergleich der Online-Spielotheken mit deutscher Lizenz.` }]),
+  ...(hasQ(/einsatz/i) ? [] : [{ q: `Wie hoch ist der Einsatz bei ${slot.data.name} mit Echtgeld?`, a: `Bei legalen deutschen Online-Spielotheken beträgt der Höchsteinsatz 1 € pro Spin, und zwischen zwei Spins liegen mindestens fünf Sekunden. Das gilt für jeden Slot, also auch für ${slot.data.name}.` }]),
+];
 
 const fit = (...opts: string[]) => opts.find((o) => [...o].length <= 60) ?? opts[opts.length - 1].slice(0, 60);
 const hasDemo = !!s.demoUrl;
 const h1 = hasDemo ? `${s.name} kostenlos spielen – Demo ohne Anmeldung` : `${s.name}: Test, RTP & Max Win`;
 const title = text?.metaTitle ?? (hasDemo
   ? fit(`${s.name} kostenlos spielen – Demo ohne Anmeldung`, `${s.name} kostenlos spielen – Demo`, `${s.name} kostenlos spielen`, s.name)
-  : fit(`${s.name} Slot: Test, RTP & Max Win`, `${s.name} Slot: RTP & Max Win`, `${s.name} Slot`, s.name));
+  : fit(`${s.name}: Test, Echtgeld-Infos, RTP & Max Win`, `${s.name}: Test, Echtgeld-Infos & RTP`, `${s.name}: Test & Echtgeld-Infos`, `${s.name} Slot`, s.name));
 const mw = isTodo(s.maxWinMultiplier) ? '' : `, Max Win ${s.maxWinMultiplier.toLocaleString('de-DE')}x`;
 const autoDesc = `${s.name}${hasDemo ? ` kostenlos spielen: ${providerName} Demo ohne Anmeldung` : ` von ${providerName}: alle Fakten`}${isTodo(s.rtp) ? '' : `, RTP ${rtpText(s)}`}${mw}, Freispiele & alle Fakten zum Slot.`;
 const description = text?.metaDescription ?? autoMetaDescription(slot);
@@ -55,7 +62,7 @@ const maxWinRank = maxWinRanked.findIndex((v) => v.id === slot.id) + 1;
 const similar = similarSlots(all, slot);
 const cats = CATEGORIES.filter((c) => slot.categories.includes(c.code));
 const jsonLd = [
-  videoGameSchema({ name: s.name, path: slot.path, publisher: providerName, description, datePublished: isTodo(s.releaseDate) ? undefined : s.releaseDate }),
+  videoGameSchema({ name: s.name, path: slot.path, publisher: providerName, description, datePublished: isTodo(s.releaseDate) ? undefined : s.releaseDate, facts: ([['Auszahlungsquote (RTP)', rtpText(s)], ['Volatilität', volatilityText(s)], ['Maximalgewinn', maxWinText(s)], ['Walzen und Reihen', layoutText(s)], ['Hersteller', providerName]] as [string, string][]).filter(([, v]) => v && !v.includes(UNVERIFIED)) }),
   ...(text
   ? [
       articleSchema({
@@ -69,7 +76,7 @@ const jsonLd = [
         datePublished: text.updated,
         dateModified: text.updated,
       }),
-      ...(text.faq.length ? [faqSchema(text.faq)] : []),
+      ...(faqItems.length ? [faqSchema(faqItems)] : []),
     ]
   : faqItems.length ? [faqSchema(faqItems)] : []),
 ];
@@ -84,10 +91,10 @@ const jsonLd = [
   breadcrumbs={[{ name: 'Spielautomaten', href: '/spielautomaten/' }, { name: `${providerName} Slots`, href: `/hersteller/${s.provider}/` }, { name: s.name, href: slot.path }]}
   {jsonLd}
 >
-  <div class="container-site pt-6">
+  <div class="container-site pt-3 sm:pt-6">
     <header class="max-w-4xl">
-      <h1 class="text-3xl font-extrabold text-fg sm:text-4xl lg:text-5xl">{h1}</h1>
-      <p class="mt-3 text-muted">
+      <h1 class="text-2xl font-extrabold text-fg sm:text-4xl lg:text-5xl">{h1}</h1>
+      <p class="mt-2 line-clamp-2 text-sm text-muted sm:mt-3 sm:line-clamp-none sm:text-base">
         {text?.intro ?? auto!.intro}
       </p>
       {cats.length > 0 && (
@@ -166,6 +173,26 @@ const jsonLd = [
           <p class="mt-1 font-display text-2xl font-extrabold text-fg">{maxWinRank ? `Platz ${maxWinRank} von ${maxWinRanked.length}` : 'noch nicht gelistet'}</p>
         </Rank>
       </div>
+    </section>
+
+    <section class="prose-site mt-14" aria-labelledby="echtgeld-info">
+      <h2 id="echtgeld-info">{s.name} um Echtgeld spielen: Das gilt in Deutschland</h2>
+      <p>
+        {hasDemo ? `Die Demo oben läuft mit Spielgeld – du kannst dabei nichts gewinnen und nichts verlieren. ` : ''}Wenn du {s.name} um
+        Echtgeld spielen möchtest, geht das in Deutschland legal nur bei Online-Spielotheken mit Erlaubnis der Gemeinsamen
+        Glücksspielbehörde der Länder (GGL). Welche Anbieter das sind, steht auf der offiziellen Whitelist der Behörde.
+      </p>
+      <ul>
+        <li><strong>Höchsteinsatz:</strong> 1 € pro Spin, mindestens fünf Sekunden pro Runde.</li>
+        <li><strong>Einzahlungslimit:</strong> standardmäßig 1.000 € pro Monat über alle Anbieter hinweg (<a href="/ratgeber/lugas-einzahlungslimit/">LUGAS</a>).</li>
+        <li><strong>Nicht erlaubt:</strong> {s.features.includes('bonus-buy') ? 'Bonus-Kauf, ' : ''}Jackpots, Autoplay und Gamble-Funktionen – die Echtgeld-Version kann sich deshalb von der Demo unterscheiden.</li>
+        <li><strong>Verfügbarkeit:</strong> Jedes Spiel braucht in Deutschland eine eigene Erlaubnis. Ob eine Spielothek {s.name} anbietet, siehst du in ihrem Spielangebot.</li>
+      </ul>
+      <p>
+        Einen Überblick über geprüfte Anbieter findest du in unserem <a href="/echtgeld-spielotheken/">Vergleich der Online-Spielotheken mit deutscher Lizenz</a>.
+        Woran du legale Anbieter erkennst, erklären wir im Ratgeber <a href="/ratgeber/legale-online-spielotheken-erkennen/">Legale Online-Spielotheken erkennen</a>.
+        Setz dir vorher ein festes Budget und spiel nie mit Geld, das du für anderes brauchst.
+      </p>
     </section>
 
     {faqItems.length > 0 && <div class="mt-14 max-w-4xl"><Faq items={faqItems} title={`Häufige Fragen zu ${s.name}`} /></div>}

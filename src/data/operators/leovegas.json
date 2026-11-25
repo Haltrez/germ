@@ -3,13 +3,22 @@
   "isPlaceholder": false,
   "gglLicensed": true,
   "licenseNumber": "GGL-Whitelist",
-  "licenseHolder": "TODO",
+  "licenseHolder": "LVSPORTS Limited",
   "gglWhitelistCheckedAt": "2026-11-15",
   "affiliateUrl": null,
   "websiteUrl": "https://www.leovegas.de/",
-  "bonusText": "TODO",
-  "bonusTermsUrl": null,
-  "paymentMethods": [],
+  "bonusText": "Bis zu 100 € Bonus + bis zu 100 Freispiele",
+  "bonusTermsUrl": "https://www.leovegas.de/de-de/angebote/bedingungen",
+  "paymentMethods": [
+    "paypal",
+    "trustly",
+    "klarna",
+    "visa",
+    "mastercard",
+    "skrill",
+    "paysafecard",
+    "bank-transfer"
+  ],
   "slotSlugs": [],
   "strengthTag": "Große Slot-Auswahl",
   "pros": [
@@ -18,10 +27,64 @@
     "Bekannte internationale Marke"
   ],
   "cons": [],
-  "minDeposit": "TODO",
+  "minDeposit": 10,
   "payoutSpeed": "TODO",
   "rating": null,
   "featured": false,
   "sortOrder": 1,
-  "logo": "/operators/leovegas.png"
+  "logo": "/operators/leovegas.png",
+  "licenseHolderAddress": "Level 7, The Plaza Business Centre, Bisazza Street, Sliema SLM 1640, Malta",
+  "licensedSince": "2023-02-27",
+  "licensedProducts": [
+    "Virtuelle Automatenspiele",
+    "Sportwetten"
+  ],
+  "whitelistDomains": [
+    "leovegas.de"
+  ],
+  "profile": {
+    "checkedAt": "2026-11-20",
+    "sources": [
+      "https://www.leovegas.de/de-de/kundenservice/impressum",
+      "https://www.leovegas.de/de-de/angebote/bedingungen",
+      "https://www.leovegas.de/de-de/kundenservice/zahlungsmethoden",
+      "https://www.leovegas.de/de-de/kundenservice/mobil-apps"
+    ],
+    "offer": {
+      "headline": "Bis zu 100 € Bonus und bis zu 100 Freispiele für Book of Dead",
+      "termsUrl": "https://www.leovegas.de/de-de/angebote/bedingungen",
+      "terms": [
+        "Nur für Neukunden, Mindesteinzahlung 10 €",
+        "Gestaffelt nach Einzahlung: ab 10 € gibt es 10 € Bonus und 10 Freispiele, ab 30 € sind es 30 € und 30 Freispiele, ab 50 € sind es 50 € und 50 Freispiele, ab 100 € sind es 100 € und 100 Freispiele",
+        "Umsatz für den Bonus: das 20-Fache des Bonusbetrags mit Echtgeld-Einsätzen (zum Beispiel 2.000 € Umsatz für 100 € Bonus)",
+        "Einzahlung innerhalb von 7 Tagen nach der Registrierung, Umsatz innerhalb von 14 Tagen nach der Einzahlung",
+        "Freispiele zu je 0,25 € ohne Umsatzbedingung, einzulösen innerhalb von 72 Stunden"
+      ]
+    },
+    "payments": [
+      "PayPal",
+      "Trustly",
+      "Klarna",
+      "Visa",
+      "Mastercard",
+      "Skrill",
+      "Paysafecard",
+      "Banküberweisung"
+    ],
+    "payoutNote": "Laut AGB bemüht sich der Anbieter, Auszahlungen nach abgeschlossener Verifizierung innerhalb von 24 Stunden zu bearbeiten. Zeiten je Zahlungsweg nennt er nicht.",
+    "slotCount": "über 900 Slots laut Startseite",
+    "providers": [
+      "Merkur",
+      "Play’n GO",
+      "Gamomat",
+      "Novomatic/Greentube",
+      "Pragmatic Play",
+      "Relax Gaming",
+      "Hölle Games",
+      "Push Gaming",
+      "Synot"
+    ],
+    "support": "Live-Chat täglich von 8 bis 24 Uhr, dazu E-Mail",
+    "apps": "App für iOS im App Store. Für Android gibt es laut Anbieter derzeit keine App, dort läuft die Seite im mobilen Browser."
+  }
 }

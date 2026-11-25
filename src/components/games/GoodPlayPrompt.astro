@@ -1,0 +1,54 @@
+---
+/**
+ * Real-money hint for the free table games. Shown when a player has followed the
+ * textbook for a while (event "ksa:goodplay"), only 21:00–06:00 like every operator ad.
+ */
+import type { RealMoneyOp } from '../../lib/realmoney.ts';
+import { RG } from '../../config/site.ts';
+interface Props { ops: RealMoneyOp[] }
+const { ops } = Astro.props;
+const first = ops[0];
+---
+{first && (
+  <div class="fixed inset-0 z-50 flex items-center justify-center bg-ink-950/75 p-4 backdrop-blur-sm" data-gp-prompt data-ad-unit="virtual-slot" data-ad-time-restricted="true" data-ad-manual hidden role="dialog" aria-modal="true" aria-labelledby="gp-title" data-gp-ops={JSON.stringify(ops)}>
+    <div class="relative w-full max-w-sm overflow-hidden rounded-2xl border border-line bg-[#101014] px-5 pb-5 pt-9 text-center shadow-2xl">
+      <span class="absolute -left-10 top-4 w-36 -rotate-45 bg-red-600 py-1 text-center text-[0.65rem] font-extrabold uppercase tracking-wider text-white">GGL-Lizenz</span>
+      <button type="button" class="absolute right-2 top-2 flex h-9 w-9 items-center justify-center rounded-full bg-red-600 text-lg font-bold text-white hover:bg-red-500" data-gp-close aria-label="Schließen">×</button>
+      <p id="gp-title" class="font-display text-2xl uppercase text-gold-300">Stark gespielt!</p>
+      <p class="mt-1 text-sm text-muted"><span data-gp-pct>80</span> % deiner Entscheidungen folgten dem Lehrbuch.</p>
+      <img src={first.logo ?? ''} alt="" width="96" height="96" class="mx-auto mt-4 h-20 w-20 rounded-2xl object-contain" data-gp-logo hidden={!first.logo} />
+      <p class="mt-2 font-display text-3xl uppercase text-fg" data-gp-name>{first.name}</p>
+      <p class="mt-1 text-lg font-extrabold leading-snug text-white" data-gp-offer>{first.offer ?? first.tag}</p>
+      <p class="mt-2 text-sm text-muted">Teste dein Glück um Echtgeld: Slots mit deutscher Lizenz, höchstens 1 € pro Spin.</p>
+      <a href={first.href} rel={first.rel} target="_blank" class="mt-4 flex min-h-14 w-full items-center justify-center gap-2 rounded-xl bg-emerald-500 px-5 text-xl font-extrabold text-white shadow-lg transition hover:bg-emerald-400" data-op={first.id} data-place="game-popup" data-gp-link>Zum Anbieter</a>
+      <button type="button" class="mt-3 text-sm text-subtle underline underline-offset-2" data-gp-close>Weiter mit Spielgeld</button>
+      <p class="mt-3 text-[0.6875rem] text-subtle">Anzeige · {RG.minAge}+ | Es gelten die Bedingungen des Anbieters · Auch gutes Spiel hebt den Hausvorteil nicht auf · Glücksspiel kann süchtig machen · Hilfe: {RG.helplinePhone}</p>
+    </div>
+  </div>
+)}
+<script>
+  const prompt = document.querySelector<HTMLElement>('[data-gp-prompt]');
+  if (prompt) {
+    const ops = JSON.parse(prompt.dataset.gpOps ?? '[]') as { id: string; name: string; logo: string | null; tag: string | null; offer: string | null; href: string; rel: string; affiliate: boolean }[];
+    const link = prompt.querySelector<HTMLAnchorElement>('[data-gp-link]')!;
+    const logo = prompt.querySelector<HTMLImageElement>('[data-gp-logo]')!;
+    let idx = Math.floor(Math.random() * Math.max(ops.length, 1));
+    let lastShown = 0;
+    const hide = () => { prompt.hidden = true; };
+    prompt.querySelectorAll('[data-gp-close]').forEach((b) => b.addEventListener('click', hide));
+    link.addEventListener('click', () => setTimeout(hide, 300));
+    window.addEventListener('ksa:goodplay', (e) => {
+      if (!ops.length || !prompt.hidden || !(window as unknown as { __ksaAdsAllowed?: boolean }).__ksaAdsAllowed) return;
+      if (Date.now() - lastShown < 4 * 60_000) return;
+      const o = ops[idx % ops.length]; idx++;
+      prompt.querySelector('[data-gp-pct]')!.textContent = String((e as CustomEvent<{ pct: number }>).detail?.pct ?? 80);
+      prompt.querySelector('[data-gp-name]')!.textContent = o.name;
+      prompt.querySelector('[data-gp-offer]')!.textContent = o.offer ?? o.tag ?? '';
+      if (o.logo) { logo.src = o.logo; logo.hidden = false; } else logo.hidden = true;
+      link.href = o.href; link.rel = o.rel;
+      link.dataset.op = o.id;
+      if (o.affiliate) link.dataset.affiliate = o.id; else delete link.dataset.affiliate;
+      lastShown = Date.now(); prompt.hidden = false;
+    });
+  }
+</script>

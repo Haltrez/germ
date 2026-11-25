@@ -14,7 +14,7 @@ export interface SlotView {
   provider: ProviderEntry | undefined;
   text: SlotTextEntry | undefined;
   categories: CategoryCode[];
-  /** All slot pages are indexable (hand-written or data-driven review). */
+  /** Indexable when the page has a hand-written review or a playable demo (see config/indexing.ts). */
   indexable: boolean;
   /** Has a hand-written German review (src/content/slot-texts/de). */
   reviewed: boolean;
@@ -63,7 +63,7 @@ export function getSlotViews(): Promise<SlotView[]> {
         provider: prov.get(s.data.provider),
         text: txt.get(s.id),
         categories: deriveCategories(s.data),
-        indexable: true,
+        indexable: txt.has(s.id) || (typeof s.data.demoUrl === 'string' && s.data.demoUrl !== 'TODO' && s.data.demoUrl !== ''),
         reviewed: txt.has(s.id),
         path: `/spielautomaten/${s.id}/`,
       }))

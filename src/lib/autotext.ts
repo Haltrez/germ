@@ -167,11 +167,6 @@ export function buildAutoReview(v: SlotView): AutoReview {
       `Seiten, die ${name} Tricks versprechen, sagen nicht die Wahrheit: Das Ergebnis jedes Spins ist zufällig. Die einzige sinnvolle Strategie ist ein festes Budget.`,
     ])],
   });
-  sections.push({
-    h2: `${name} mit Echtgeld spielen`,
-    paragraphs: [`In Deutschland ist Echtgeldspiel nur bei Online-Spielotheken mit Erlaubnis der GGL erlaubt. Dort gelten höchstens 1 € Einsatz pro Spin und mindestens fünf Sekunden pro Runde${s.features.includes('bonus-buy') ? '; einen Bonuskauf gibt es nicht' : ''}. Setz dir vorher ein Limit und spiel nie mit Geld, das du für anderes brauchst.`],
-  });
-
   // ---- FAQ
   const faq: { q: string; a: string }[] = [];
   faq.push({ q: `Kann man ${name} kostenlos ohne Anmeldung spielen?`, a: hasDemo ? `Ja. Die offizielle ${name} Demo von ${prov} startest du hier direkt im Browser – ohne Konto, ohne Einzahlung und ohne Download.` : `Derzeit gibt es keine offizielle Demo von ${prov}, die wir einbinden können. Sobald sie verfügbar ist, kannst du ${name} hier kostenlos spielen.` });

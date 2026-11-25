@@ -1,0 +1,33 @@
+{
+  "name": "Wunderino",
+  "isPlaceholder": false,
+  "gglLicensed": true,
+  "licenseNumber": "GGL-Whitelist",
+  "licenseHolder": "Megapixel Entertainment Limited",
+  "gglWhitelistCheckedAt": "2026-11-21",
+  "affiliateUrl": null,
+  "websiteUrl": "https://www.wunderino.de/",
+  "bonusText": "TODO",
+  "bonusTermsUrl": null,
+  "paymentMethods": [],
+  "slotSlugs": [],
+  "strengthTag": "Bekannte Slot-Marke",
+  "pros": [
+    "Erlaubnis der GGL für virtuelle Automatenspiele",
+    "Bekannte Marke in Deutschland",
+    "Erlaubnis seit November 2022"
+  ],
+  "cons": [],
+  "minDeposit": "TODO",
+  "payoutSpeed": "TODO",
+  "rating": null,
+  "featured": false,
+  "sortOrder": 6,
+  "licensedProducts": [
+    "Virtuelle Automatenspiele"
+  ],
+  "whitelistDomains": [
+    "wunderino.de"
+  ],
+  "licensedSince": "2022-11-24"
+}

@@ -3,8 +3,8 @@
   "isPlaceholder": false,
   "gglLicensed": true,
   "licenseNumber": "GGL-Whitelist",
-  "licenseHolder": "TODO",
-  "gglWhitelistCheckedAt": "2026-11-15",
+  "licenseHolder": "bwin (Deutschland) Limited",
+  "gglWhitelistCheckedAt": "2026-11-20",
   "affiliateUrl": null,
   "websiteUrl": "https://www.bwin.de/",
   "bonusText": "TODO",
@@ -23,5 +23,15 @@
   "rating": null,
   "featured": false,
   "sortOrder": 4,
-  "logo": "/operators/bwin.png"
+  "logo": "/operators/bwin.png",
+  "licenseHolderAddress": "Level 6, ST Business Centre, 120, The Strand, Gzira, Malta",
+  "licensedSince": "2022-11-10",
+  "licensedProducts": [
+    "Virtuelle Automatenspiele",
+    "Online-Poker",
+    "Sportwetten"
+  ],
+  "whitelistDomains": [
+    "bwin.de"
+  ]
 }

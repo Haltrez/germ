@@ -1,0 +1,95 @@
+---
+/** One free table game with rules, textbook tips and FAQ. */
+import type { GetStaticPaths } from 'astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Faq from '../../components/ui/Faq.astro';
+import NightOnlyScript from '../../components/compliance/NightOnlyScript.astro';
+import GoodPlayPrompt from '../../components/games/GoodPlayPrompt.astro';
+import Blackjack from '../../components/games/Blackjack.tsx';
+import Roulette from '../../components/games/Roulette.tsx';
+import Baccarat from '../../components/games/Baccarat.tsx';
+import Holdem from '../../components/games/Holdem.tsx';
+import Craps from '../../components/games/Craps.tsx';
+import Poker from '../../components/games/Poker.tsx';
+import '../../components/games/games.css';
+import { TABLE_GAMES } from '../../content/tischspiele.ts';
+import { realMoneyOps } from '../../lib/realmoney.ts';
+import { faqSchema, videoGameSchema } from '../../lib/schema.ts';
+
+export const getStaticPaths = (() => TABLE_GAMES.map((g) => ({ params: { game: g.slug }, props: { g } }))) satisfies GetStaticPaths;
+const { g } = Astro.props;
+const path = `/tischspiele/${g.slug}/`;
+const ops = await realMoneyOps(4);
+const others = TABLE_GAMES.filter((x) => x.slug !== g.slug);
+---
+<BaseLayout
+  title={g.title}
+  description={g.description}
+  breadcrumbs={[{ name: 'Tischspiele', href: '/tischspiele/' }, { name: g.name, href: path }]}
+  jsonLd={[videoGameSchema({ name: `${g.name} (kostenlos)`, path, publisher: 'KostenloseSpielautomaten', description: g.description }), faqSchema(g.faq)]}
+>
+  <section class="container-site pt-6">
+    <p class="eyebrow">Kostenlos · ohne Anmeldung · 1.000 € Demo-Guthaben</p>
+    <h1 class="mt-2 text-3xl font-extrabold text-fg sm:text-5xl">{g.name} kostenlos spielen</h1>
+    <p class="mt-3 max-w-3xl text-muted">{g.intro}</p>
+    <div class="mx-auto mt-6 max-w-6xl">
+      {g.slug === 'blackjack' && <Blackjack client:load />}
+      {g.slug === 'roulette' && <Roulette client:load />}
+      {g.slug === 'baccarat' && <Baccarat client:load />}
+      {g.slug === 'casino-holdem' && <Holdem client:load />}
+      {g.slug === 'craps' && <Craps client:load />}
+      {g.slug === 'poker' && <Poker client:load />}
+      <p class="mt-3 text-center text-xs text-subtle">Demo-Guthaben ohne echten Wert: 1.000 € pro Spiel, jederzeit zurücksetzbar. Gewinne sind nicht auszahlbar. Ab 18 Jahren.</p>
+    </div>
+  </section>
+
+  <section class="container-site py-12">
+    <div class="grid gap-8 lg:grid-cols-[1fr_20rem]">
+      <div class="prose-site">
+        <h2>{g.name}: So wird gespielt</h2>
+        <ol>{g.rules.map((r) => <li>{r}</li>)}</ol>
+
+        <h2>Buch-Tipps: Was das Lehrbuch rät</h2>
+        <p>Der Buch-Tipp im Spiel folgt diesen Regeln. Sie verringern, was das Spiel im Schnitt kostet. Den Vorteil der Bank heben sie nicht auf.</p>
+        <ul>{g.tips.map((t) => <li><strong>{t.t}:</strong> {t.d}</li>)}</ul>
+
+        <h2>Hausvorteil im Überblick</h2>
+        <table>
+          <thead><tr><th>Wette oder Spielweise</th><th>Hausvorteil</th></tr></thead>
+          <tbody>{g.edges.map(([a, b]) => <tr><td>{a}</td><td>{b}</td></tr>)}</tbody>
+        </table>
+        <p>Der <a href="/glossar/hausvorteil/">Hausvorteil</a> ist der Anteil jedes Einsatzes, den die Bank auf lange Sicht behält. Er wirkt bei jedem Einsatz, auch wenn einzelne Sitzungen im Plus enden.</p>
+
+        <h2>{g.legal ? 'Poker um Echtgeld in Deutschland' : 'Tischspiele um Echtgeld in Deutschland'}</h2>
+        {g.legal ? <p>{g.legal}</p> : (
+        <p>
+          Die bundesweite Erlaubnis der <a href="/glossar/ggl/">GGL</a> gilt für virtuelle Automatenspiele, also Slots. Tischspiele im
+          Internet wie {g.name} gehören nicht dazu. Sie sind Sache der Bundesländer und nur dort erlaubt, wo ein Land sie eigens
+          zugelassen hat. Vor Ort werden sie in staatlich konzessionierten Spielbanken angeboten.
+        </p>
+        )}
+        <p>
+          Unser <a href="/echtgeld-spielotheken/">Vergleich</a> zeigt deshalb Anbieter für Slots mit deutscher Erlaubnis. Dort gelten
+          das <a href="/glossar/einsatzlimit/">Einsatzlimit</a> von 1 € und das Einzahlungslimit über <a href="/glossar/lugas/">LUGAS</a>.
+          Glücksspiel kann süchtig machen. Hilfe findest du unter <a href="/verantwortungsvoll-spielen/">Verantwortungsvoll spielen</a>.
+        </p>
+      </div>
+      <aside class="space-y-5">
+        <div class="card p-5">
+          <p class="font-title text-lg font-bold text-fg">Spieldaten</p>
+          <dl class="mt-3 space-y-2 text-sm">{g.facts.map(([k, v]) => <div class="flex justify-between gap-3 border-b border-line pb-2 last:border-0"><dt class="text-subtle">{k}</dt><dd class="text-right font-semibold text-fg">{v}</dd></div>)}</dl>
+        </div>
+        <div class="card p-5">
+          <p class="font-title text-lg font-bold text-fg">Weitere Tischspiele</p>
+          <ul class="mt-3 space-y-2 text-sm">{others.map((o) => <li><a href={`/tischspiele/${o.slug}/`} class="text-mint-300 underline underline-offset-2">{o.name} kostenlos</a></li>)}</ul>
+          {g.slug === 'blackjack' && <a href="/tischspiele/blackjack-strategie/" class="btn btn-primary mt-4 w-full">Strategie-Tabelle ansehen</a>}
+          {g.slug === 'roulette' && <a href="/ratgeber/roulette-systeme/" class="btn btn-primary mt-4 w-full">Roulette-Systeme im Check</a>}
+          <a href="/spielautomaten/" class="btn btn-secondary mt-4 w-full">Zu den Slot-Demos</a>
+        </div>
+      </aside>
+    </div>
+    <div class="mt-12 max-w-4xl"><Faq items={g.faq} title={`Häufige Fragen zu ${g.name}`} /></div>
+  </section>
+  <GoodPlayPrompt ops={ops} />
+  <NightOnlyScript />
+</BaseLayout>
