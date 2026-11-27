@@ -1,4 +1,4 @@
-/** GGL-verified operators for real-money CTAs (box above reviews, 90-second demo prompt). */
+/** GGL-verified operators for real-money CTAs (box above reviews, demo prompt, table-game prompt). */
 import { getCollection } from 'astro:content';
 import { isPromotable, AFFILIATE_REL } from './compliance.ts';
 
@@ -18,7 +18,9 @@ export interface RealMoneyOp {
 export async function realMoneyOps(limit = 4): Promise<RealMoneyOp[]> {
   return (await getCollection('operators'))
     .filter((o) => isPromotable(o.data) && (o.data.affiliateUrl || o.data.websiteUrl !== 'TODO'))
-    .sort((a, b) => a.data.sortOrder - b.data.sortOrder || (b.data.rating?.total ?? 0) - (a.data.rating?.total ?? 0))
+    // These boxes and popups are advertising (labelled "Anzeige"): partners with a tracking link come first.
+    // The editorial comparison on /echtgeld-spielotheken/ keeps its own order and is not affected.
+    .sort((a, b) => Number(!!b.data.affiliateUrl) - Number(!!a.data.affiliateUrl) || a.data.sortOrder - b.data.sortOrder || (b.data.rating?.total ?? 0) - (a.data.rating?.total ?? 0))
     .slice(0, limit)
     .map((o) => ({
       id: o.id,

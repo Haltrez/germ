@@ -63,12 +63,12 @@ const { demoUrl, demoVersionUrl, demoSourceName, name } = slot.data;
         <p id="rm-title" class="mt-3 font-display text-3xl uppercase text-fg" data-rm-name>{first.name}</p>
         <p class="mt-2 text-xl font-extrabold leading-snug text-white" data-rm-offer>{first.offer ?? first.tag}</p>
         <p class="mt-1 text-sm text-muted">{name} um Echtgeld spielen</p>
-        <a href={first.href} rel={first.rel} target="_blank" class="mt-4 flex min-h-14 w-full items-center justify-center gap-2 rounded-xl bg-emerald-500 px-5 text-xl font-extrabold text-white shadow-lg transition hover:bg-emerald-400" data-op={first.id} data-place="demo-popup" data-rm-link>
+        <a href={first.href} rel={first.rel} target="_blank" class="mt-4 flex min-h-14 w-full items-center justify-center gap-2 rounded-xl bg-emerald-500 px-5 text-xl font-extrabold text-white shadow-lg transition hover:bg-emerald-400" data-op={first.id} data-place="demo-popup" data-affiliate={first.affiliate ? first.id : undefined} data-rm-link>
           <svg viewBox="0 0 24 24" class="h-6 w-6" fill="currentColor" aria-hidden="true"><path d="M20 7h-2.2A3 3 0 0 0 12 5.2 3 3 0 0 0 6.2 7H4a1 1 0 0 0-1 1v3h18V8a1 1 0 0 0-1-1ZM9 7a1 1 0 1 1 1-1v1Zm6 0h-1V6a1 1 0 1 1 1 1ZM4 13v6a1 1 0 0 0 1 1h6v-7Zm9 0v7h6a1 1 0 0 0 1-1v-6Z"/></svg>
           Zum Anbieter
         </a>
         <button type="button" class="mt-3 text-sm text-subtle underline underline-offset-2" data-rm-close>Weiter mit Spielgeld</button>
-        <p class="mt-3 text-[0.6875rem] text-subtle">Anzeige · {RG.minAge}+ | Es gelten die Bedingungen des Anbieters · Glücksspiel kann süchtig machen · Hilfe: {RG.helplinePhone}</p>
+        <p class="mt-3 text-[0.6875rem] text-subtle" data-affiliate-disclosure>Anzeige · {RG.minAge}+ | Es gelten die Bedingungen des Anbieters · Glücksspiel kann süchtig machen · Hilfe: {RG.helplinePhone}</p>
       </div>
     </div>
   )}
